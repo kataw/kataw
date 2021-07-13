@@ -28,6 +28,7 @@ void await ``;
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -36,6 +37,7 @@ void await ``;
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 10
                     },
@@ -44,18 +46,22 @@ void await ``;
                         "text": "",
                         "rawText": "",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 4096,
                     "start": 4,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -64,6 +70,7 @@ void await ``;
     "source": "void await ``;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -72,9 +79,7 @@ void await ``;
 ### Printed
 
 ```javascript
-
-  void  await ``;
-
+void await ``;
 ```
 
 ### Diagnostics

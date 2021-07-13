@@ -28,12 +28,14 @@ async function f(x = await 1) { return x; }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -43,6 +45,7 @@ async function f(x = await 1) { return x; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -58,6 +61,7 @@ async function f(x = await 1) { return x; }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         },
@@ -68,6 +72,7 @@ async function f(x = await 1) { return x; }
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
@@ -76,20 +81,24 @@ async function f(x = await 1) { return x; }
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 28
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 17,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 28
             },
@@ -104,6 +113,7 @@ async function f(x = await 1) { return x; }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             },
@@ -112,24 +122,29 @@ async function f(x = await 1) { return x; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 40
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 31,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 43
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -138,6 +153,7 @@ async function f(x = await 1) { return x; }
     "source": "async function f(x = await 1) { return x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

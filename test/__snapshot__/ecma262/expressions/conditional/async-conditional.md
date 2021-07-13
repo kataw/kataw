@@ -30,12 +30,14 @@ true ? async.waterfall() : null;
                 "shortCircuit": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
@@ -48,6 +50,7 @@ true ? async.waterfall() : null;
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 12
                         },
@@ -56,10 +59,12 @@ true ? async.waterfall() : null;
                             "text": "waterfall",
                             "rawText": "waterfall",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 22
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 6,
                         "end": 22
                     },
@@ -68,30 +73,36 @@ true ? async.waterfall() : null;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 6,
                     "end": 24
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
                 "alternate": {
                     "kind": 138477575,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 31
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 32
         }
@@ -100,6 +111,7 @@ true ? async.waterfall() : null;
     "source": "true ? async.waterfall() : null;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -108,9 +120,7 @@ true ? async.waterfall() : null;
 ### Printed
 
 ```javascript
-
-  true ? async.waterfall() : null;
-
+true ? async.waterfall() : null;
 ```
 
 ### Diagnostics

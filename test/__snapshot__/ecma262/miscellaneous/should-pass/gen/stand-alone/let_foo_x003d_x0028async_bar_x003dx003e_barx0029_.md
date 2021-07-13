@@ -27,6 +27,7 @@ let foo = (async bar => bar);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ let foo = (async bar => bar);
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -51,6 +53,7 @@ let foo = (async bar => bar);
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 16
                                 },
@@ -60,6 +63,7 @@ let foo = (async bar => bar);
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -67,6 +71,7 @@ let foo = (async bar => bar);
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
@@ -75,27 +80,33 @@ let foo = (async bar => bar);
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 27
                                 },
                                 "flags": 288,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 27
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -104,6 +115,7 @@ let foo = (async bar => bar);
     "source": "let foo = (async bar => bar);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -112,9 +124,7 @@ let foo = (async bar => bar);
 ### Printed
 
 ```javascript
-
-  let foo = (async bar => bar);
-
+let foo = (async bar => bar);
 ```
 
 ### Diagnostics

@@ -24,6 +24,7 @@ x({async foo(){}, async bar(){}});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -40,6 +41,7 @@ x({async foo(){}, async bar(){}});
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 8
                                         },
@@ -53,6 +55,7 @@ x({async foo(){}, async bar(){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 12
                                             },
@@ -62,6 +65,7 @@ x({async foo(){}, async bar(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
@@ -73,18 +77,22 @@ x({async foo(){}, async bar(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 15
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 16
                                     },
@@ -93,6 +101,7 @@ x({async foo(){}, async bar(){}});
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -106,6 +115,7 @@ x({async foo(){}, async bar(){}});
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 27
                                             },
@@ -115,6 +125,7 @@ x({async foo(){}, async bar(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 29
                                             },
@@ -126,42 +137,51 @@ x({async foo(){}, async bar(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 30
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 31
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 31
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 32
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 32
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -170,6 +190,7 @@ x({async foo(){}, async bar(){}});
     "source": "x({async foo(){}, async bar(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -178,9 +199,7 @@ x({async foo(){}, async bar(){}});
 ### Printed
 
 ```javascript
-
-  x({ async foo() {}, async bar() {} });
-
+x({ async foo() {}, async bar() {} });
 ```
 
 ### Diagnostics

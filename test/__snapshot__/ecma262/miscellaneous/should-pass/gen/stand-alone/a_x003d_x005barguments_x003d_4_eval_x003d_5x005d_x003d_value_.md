@@ -31,12 +31,14 @@ a = [arguments = 4, eval = 5] = value;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -54,12 +56,14 @@ a = [arguments = 4, eval = 5] = value;
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 14
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -68,10 +72,12 @@ a = [arguments = 4, eval = 5] = value;
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 5,
                                     "end": 18
                                 },
@@ -82,12 +88,14 @@ a = [arguments = 4, eval = 5] = value;
                                         "text": "eval",
                                         "rawText": "eval",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 24
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 26
                                     },
@@ -96,26 +104,31 @@ a = [arguments = 4, eval = 5] = value;
                                         "text": 5,
                                         "rawText": "5",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 19,
                                     "end": 28
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 28
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 29
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 31
                     },
@@ -124,18 +137,22 @@ a = [arguments = 4, eval = 5] = value;
                         "text": "value",
                         "rawText": "value",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 37
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 38
         }
@@ -144,6 +161,7 @@ a = [arguments = 4, eval = 5] = value;
     "source": "a = [arguments = 4, eval = 5] = value;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -152,9 +170,7 @@ a = [arguments = 4, eval = 5] = value;
 ### Printed
 
 ```javascript
-
-  a = [arguments = 4, eval = 5,] = value;
-
+a = [arguments = 4, eval = 5] = value;
 ```
 
 ### Diagnostics

@@ -40,6 +40,7 @@ var ];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,16 +48,19 @@ var ];
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 6
         }
@@ -65,6 +69,7 @@ var ];
     "source": "var ];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

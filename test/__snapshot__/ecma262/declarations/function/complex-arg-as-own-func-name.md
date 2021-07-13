@@ -22,6 +22,7 @@ function f([f]) { }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f([f]) { }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,22 +50,26 @@ function f([f]) { }
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -74,15 +80,18 @@ function f([f]) { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -91,6 +100,7 @@ function f([f]) { }
     "source": "function f([f]) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -99,9 +109,7 @@ function f([f]) { }
 ### Printed
 
 ```javascript
-
-  function f([f]) {}
-
+function f([f]) {}
 ```
 
 ### Diagnostics

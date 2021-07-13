@@ -29,6 +29,7 @@ function f() { class C { yield() { } } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f() { class C { yield() { } } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -47,6 +49,7 @@ function f() { class C { yield() { } } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -63,6 +66,7 @@ function f() { class C { yield() { } } }
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
@@ -71,6 +75,7 @@ function f() { class C { yield() { } } }
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
@@ -97,6 +102,7 @@ function f() { class C { yield() { } } }
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 30
                                                 },
@@ -106,6 +112,7 @@ function f() { class C { yield() { } } }
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 32
                                                 },
@@ -117,45 +124,55 @@ function f() { class C { yield() { } } }
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 34
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 36
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 36
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 36
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 36
                                 },
                                 "flags": 22,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 38
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 40
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -164,6 +181,7 @@ function f() { class C { yield() { } } }
     "source": "function f() { class C { yield() { } } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -172,13 +190,11 @@ function f() { class C { yield() { } } }
 ### Printed
 
 ```javascript
-
-  function f() {
-    class C {
-      yield() {}
-    }
+function f() {
+  class C {
+    yield() {}
   }
-
+}
 ```
 
 ### Diagnostics

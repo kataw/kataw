@@ -22,10 +22,12 @@
                 "text": "7",
                 "rawText": "\"\\7\"",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         }
@@ -34,6 +36,7 @@
     "source": "\"\\7\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }
@@ -42,9 +45,7 @@
 ### Printed
 
 ```javascript
-
-  "\"\7\"";
-
+"\"\7\"";
 ```
 
 ### Diagnostics

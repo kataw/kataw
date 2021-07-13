@@ -33,12 +33,14 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 5
                                     },
@@ -47,30 +49,36 @@
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 7
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 1,
                                     "end": 7
                                 },
-                                "flags": 32,
-                                "start": 1,
+                                "flags": 1,
+                                "transformFlags": 0,
+                                "start": 34,
                                 "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -79,14 +87,17 @@
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -95,6 +106,7 @@
     "source": "[(x = y)] = obj",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

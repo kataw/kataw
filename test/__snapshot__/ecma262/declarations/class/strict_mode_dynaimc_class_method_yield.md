@@ -39,6 +39,7 @@ class x{[yield](a){}}
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -51,6 +52,7 @@ class x{[yield](a){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -59,6 +61,7 @@ class x{[yield](a){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -87,10 +90,12 @@ class x{[yield](a){}}
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 29
                                 },
@@ -103,12 +108,14 @@ class x{[yield](a){}}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 31
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
@@ -120,31 +127,38 @@ class x{[yield](a){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 34
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 34
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 13,
             "end": 35
         }
@@ -153,6 +167,7 @@ class x{[yield](a){}}
     "source": "\"use strict\";\nclass x{[yield](a){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -162,11 +177,10 @@ class x{[yield](a){}}
 
 ```javascript
 
-  "\"use strict\"";
-  class x {
-    [yield](a) {}
-  }
-
+"\"use strict\"";
+class x {
+  [yield](a) {}
+}
 ```
 
 ### Diagnostics

@@ -41,6 +41,7 @@
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 11
                                     },
@@ -49,10 +50,12 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "flags": 36,
+                                    "transformFlags": 128,
                                     "start": 2,
                                     "end": 14
                                 },
@@ -64,6 +67,7 @@
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 25
                                     },
@@ -72,26 +76,31 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "flags": 36,
+                                    "transformFlags": 128,
                                     "start": 15,
                                     "end": 28
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 20,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 28
                         },
                         "flags": 52,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 29
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 31
                     },
@@ -100,18 +109,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -120,6 +133,7 @@
     "source": "({__proto__: a, __proto__: b} = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -128,9 +142,7 @@
 ### Printed
 
 ```javascript
-
-  ({ __proto__: a, __proto__: b } = x);
-
+({ __proto__: a, __proto__: b } = x);
 ```
 
 ### Diagnostics

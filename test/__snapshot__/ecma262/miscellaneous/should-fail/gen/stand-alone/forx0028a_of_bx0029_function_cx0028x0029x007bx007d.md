@@ -27,6 +27,7 @@ for(a of b) function c(){}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,12 +37,14 @@ for(a of b) function c(){}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
@@ -50,6 +53,7 @@ for(a of b) function c(){}
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -60,6 +64,7 @@ for(a of b) function c(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 20
                 },
@@ -69,6 +74,7 @@ for(a of b) function c(){}
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
@@ -78,6 +84,7 @@ for(a of b) function c(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
@@ -88,19 +95,23 @@ for(a of b) function c(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -109,6 +120,7 @@ for(a of b) function c(){}
     "source": "for(a of b) function c(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -29,6 +29,7 @@ type a = (a[a & b][c | d][][][][]) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (a[a & b][c | d][][][][]) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (a[a & b][c | d][][][][]) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -79,11 +82,13 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 10,
                                                                 "end": 11
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 8,
                                                             "end": 11
                                                         },
@@ -101,11 +106,13 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 12,
                                                                             "end": 13
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 12,
                                                                         "end": 13
                                                                     },
@@ -116,24 +123,29 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                                             "text": "b",
                                                                             "rawText": "b",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 15,
                                                                             "end": 17
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 15,
                                                                         "end": 17
                                                                     }
                                                                 ],
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 13,
                                                                 "end": 17
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 17
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 19
                                                     },
@@ -151,11 +163,13 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                                         "text": "c",
                                                                         "rawText": "c",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 19,
                                                                         "end": 20
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 19,
                                                                     "end": 20
                                                                 },
@@ -166,58 +180,70 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                                         "text": "d",
                                                                         "rawText": "d",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 22,
                                                                         "end": 24
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 22,
                                                                     "end": 24
                                                                 }
                                                             ],
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 24
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 24
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 26
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 27
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 29
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 31
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 33
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 34
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 34
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 37
                     },
@@ -232,27 +258,33 @@ type a = (a[a & b][c | d][][][][]) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 39
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 39
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 39
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 39
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -261,6 +293,7 @@ type a = (a[a & b][c | d][][][][]) => T;
     "source": "type a = (a[a & b][c | d][][][][]) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -269,9 +302,7 @@ type a = (a[a & b][c | d][][][][]) => T;
 ### Printed
 
 ```javascript
-
-  type a = (a[ a & b][ c | d][][][][]) => T
-
+type a = (a[a & b][c | d][][][][]) => T
 ```
 
 ### Diagnostics

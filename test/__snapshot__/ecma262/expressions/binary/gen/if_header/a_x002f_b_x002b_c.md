@@ -27,6 +27,7 @@ if ( a / b + c ) ;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -39,12 +40,14 @@ if ( a / b + c ) ;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 6,
                         "end": 8
                     },
@@ -53,16 +56,19 @@ if ( a / b + c ) ;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 4,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -71,22 +77,26 @@ if ( a / b + c ) ;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 4,
                 "end": 14
             },
             "consequent": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -95,6 +105,7 @@ if ( a / b + c ) ;
     "source": "if ( a / b + c ) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -103,10 +114,7 @@ if ( a / b + c ) ;
 ### Printed
 
 ```javascript
-
-  if (a / b + c)
-    ;
-
+if (a / b + c);
 ```
 
 ### Diagnostics

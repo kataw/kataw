@@ -29,6 +29,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -52,6 +53,7 @@
                                                                     "text": "prop",
                                                                     "rawText": "prop",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 6,
                                                                     "end": 10
                                                                 },
@@ -60,20 +62,24 @@
                                                                     "text": 1,
                                                                     "rawText": "1",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 11,
                                                                     "end": 13
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 128,
                                                                 "start": 6,
                                                                 "end": 13
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 13
                                                     },
                                                     "flags": 48,
+                                                    "transformFlags": 8,
                                                     "start": 5,
                                                     "end": 14
                                                 },
@@ -82,40 +88,48 @@
                                                     "text": "prop",
                                                     "rawText": "prop",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 19
                                                 },
                                                 "flags": 48,
+                                                "transformFlags": 2,
                                                 "start": 5,
                                                 "end": 19
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 4,
                                     "end": 20
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -126,18 +140,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 23,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -146,6 +164,7 @@
     "source": "[...[{prop: 1}.prop]] = []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -154,9 +173,7 @@
 ### Printed
 
 ```javascript
-
-  [...[{ prop: 1 }.prop,]] = [];
-
+[...[{ prop: 1 }.prop]] = [];
 ```
 
 ### Diagnostics

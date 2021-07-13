@@ -27,6 +27,7 @@ return async (await) => {};
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ return async (await) => {};
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -47,12 +49,14 @@ return async (await) => {};
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
@@ -60,6 +64,7 @@ return async (await) => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -70,18 +75,22 @@ return async (await) => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 26
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 0,
             "end": 27
         }
@@ -90,6 +99,7 @@ return async (await) => {};
     "source": "return async (await) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

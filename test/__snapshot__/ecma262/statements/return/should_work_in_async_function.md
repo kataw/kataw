@@ -21,12 +21,14 @@ async function f(){ return; }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){ return; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){ return; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -59,25 +63,30 @@ async function f(){ return; }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 26
                             },
                             "expression": null,
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 19,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 29
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -86,6 +95,7 @@ async function f(){ return; }
     "source": "async function f(){ return; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -94,11 +104,9 @@ async function f(){ return; }
 ### Printed
 
 ```javascript
-
-  async function f() {
-    return;
-  }
-
+async function f() {
+  return;
+}
 ```
 
 ### Diagnostics

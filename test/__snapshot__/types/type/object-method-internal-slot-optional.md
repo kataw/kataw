@@ -29,6 +29,7 @@ type T = { [[foo]]?: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type T = { [[foo]]?: X }
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type T = { [[foo]]?: X }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -63,12 +66,14 @@ type T = { [[foo]]?: X }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 19
                             },
@@ -83,33 +88,40 @@ type T = { [[foo]]?: X }
                                         "text": "X",
                                         "rawText": "X",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 24
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 24
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -118,6 +130,7 @@ type T = { [[foo]]?: X }
     "source": "type T = { [[foo]]?: X }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -126,9 +139,7 @@ type T = { [[foo]]?: X }
 ### Printed
 
 ```javascript
-
-  type T = { [ [foo]]?X }
-
+type T = { [[foo]]? : X }
 ```
 
 ### Diagnostics

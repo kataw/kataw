@@ -26,6 +26,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class A {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -60,6 +63,7 @@ class A {
                                 "text": "#private",
                                 "rawText": "#private",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -67,25 +71,30 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 18,
                             "end": 27
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 28
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -96,6 +105,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 39
             },
@@ -104,6 +114,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 41
             },
@@ -121,6 +132,7 @@ class A {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 52
                             },
@@ -130,6 +142,7 @@ class A {
                                 "text": "#private",
                                 "rawText": "#private",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 61
                             },
@@ -140,29 +153,35 @@ class A {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 65
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 52,
                             "end": 65
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 66
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 66
                 },
                 "flags": 41,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 68
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 30,
             "end": 68
         }
@@ -171,6 +190,7 @@ class A {
     "source": "class A {\n  static #private; }\n\n  class A {\n  static #private = x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }

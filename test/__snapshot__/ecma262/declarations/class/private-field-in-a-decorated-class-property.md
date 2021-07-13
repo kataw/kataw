@@ -29,6 +29,7 @@ class Example {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class Example {
                 "text": "Example",
                 "rawText": "Example",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 13
             },
@@ -58,6 +60,7 @@ class Example {
                                 "text": "#priv",
                                 "rawText": "#priv",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
@@ -65,12 +68,14 @@ class Example {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 23
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 24
                         },
@@ -84,6 +89,7 @@ class Example {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 29
                                         },
@@ -92,15 +98,18 @@ class Example {
                                             "text": "anydecorator",
                                             "rawText": "anydecorator",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 41
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 41
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 41
                             },
@@ -112,6 +121,7 @@ class Example {
                                 "text": "method",
                                 "rawText": "method",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 50
                             },
@@ -125,7 +135,8 @@ class Example {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 54
                                 },
@@ -133,6 +144,7 @@ class Example {
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 58
                                 },
@@ -147,6 +159,7 @@ class Example {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 60,
                                                     "end": 71
                                                 },
@@ -155,6 +168,7 @@ class Example {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 76
                                                     },
@@ -163,50 +177,61 @@ class Example {
                                                         "text": "#priv",
                                                         "rawText": "#priv",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 77,
                                                         "end": 82
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 71,
                                                     "end": 82
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 60,
                                                 "end": 83
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 83
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 87
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 87
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 24,
                             "end": 87
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 87,
                             "end": 88
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 88
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 90
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 90
         }
@@ -215,6 +240,7 @@ class Example {
     "source": "class Example {\n  #priv;\n\n  @anydecorator\n  method = () => {\n    return this.#priv;\n  };\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 90
 }
@@ -223,17 +249,12 @@ class Example {
 ### Printed
 
 ```javascript
-
-  class Example {
-    #priv
-    ;
-    @anydecorator
-    method = () => {
-      return this.#priv;
-    }
-    ;
-  }
-
+class Example {
+  #priv;;
+  @anydecorator method = () => {
+    return this.#priv;
+  };;
+}
 ```
 
 ### Diagnostics

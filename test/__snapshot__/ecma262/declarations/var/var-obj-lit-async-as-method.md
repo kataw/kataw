@@ -29,6 +29,7 @@ var obj = { async() {} };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var obj = { async() {} };
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -64,6 +66,7 @@ var obj = { async() {} };
                                                 "text": "async",
                                                 "rawText": "async",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 17
                                             },
@@ -73,6 +76,7 @@ var obj = { async() {} };
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 19
                                             },
@@ -84,41 +88,50 @@ var obj = { async() {} };
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 21
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 22
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 22
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 22
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 9,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -127,6 +140,7 @@ var obj = { async() {} };
     "source": "var obj = { async() {} };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -135,9 +149,7 @@ var obj = { async() {} };
 ### Printed
 
 ```javascript
-
-  var obj = { async() {} };
-
+var obj = { async() {} };
 ```
 
 ### Diagnostics

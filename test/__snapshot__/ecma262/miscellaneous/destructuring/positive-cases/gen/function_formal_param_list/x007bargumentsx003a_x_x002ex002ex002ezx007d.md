@@ -29,6 +29,7 @@ function f({arguments: x, ...z}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f({arguments: x, ...z}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,6 +59,7 @@ function f({arguments: x, ...z}) {}
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 21
                                     },
@@ -65,11 +68,13 @@ function f({arguments: x, ...z}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 24
                                 },
@@ -78,6 +83,7 @@ function f({arguments: x, ...z}) {}
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 29
                                     },
@@ -86,6 +92,7 @@ function f({arguments: x, ...z}) {}
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 30
                                     },
@@ -93,22 +100,26 @@ function f({arguments: x, ...z}) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 0,
+                                    "transformFlags": 4096,
                                     "start": 25,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 31
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 31
             },
@@ -119,15 +130,18 @@ function f({arguments: x, ...z}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -136,6 +150,7 @@ function f({arguments: x, ...z}) {}
     "source": "function f({arguments: x, ...z}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -144,12 +159,7 @@ function f({arguments: x, ...z}) {}
 ### Printed
 
 ```javascript
-
-  function f({
-      arguments: x,
-      ...z
-    }) {}
-
+function f({ arguments: x, ...z }) {}
 ```
 
 ### Diagnostics

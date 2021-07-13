@@ -29,6 +29,7 @@ d\u0065lete this.a;
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
@@ -37,6 +38,7 @@ d\u0065lete this.a;
                     "member": {
                         "kind": 4276321,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 16
                     },
@@ -45,18 +47,22 @@ d\u0065lete this.a;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 18
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 11,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -65,6 +71,7 @@ d\u0065lete this.a;
     "source": "d\\u0065lete this.a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

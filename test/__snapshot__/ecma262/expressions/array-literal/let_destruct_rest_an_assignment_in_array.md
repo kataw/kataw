@@ -39,6 +39,7 @@ let [...x=y] = z
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -57,6 +58,7 @@ let [...x=y] = z
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -65,6 +67,7 @@ let [...x=y] = z
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 9
                                         },
@@ -75,20 +78,24 @@ let [...x=y] = z
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
@@ -98,19 +105,23 @@ let [...x=y] = z
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -119,6 +130,7 @@ let [...x=y] = z
     "source": "let [...x=y] = z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

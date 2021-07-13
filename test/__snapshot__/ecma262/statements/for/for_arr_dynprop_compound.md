@@ -28,6 +28,7 @@ for ([][y] <<= p;;) x;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,10 +43,12 @@ for ([][y] <<= p;;) x;
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 5,
                         "end": 7
                     },
@@ -54,16 +57,19 @@ for ([][y] <<= p;;) x;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4126,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
@@ -72,10 +78,12 @@ for ([][y] <<= p;;) x;
                     "text": "p",
                     "rawText": "p",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
@@ -88,14 +96,17 @@ for ([][y] <<= p;;) x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 19,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -104,6 +115,7 @@ for ([][y] <<= p;;) x;
     "source": "for ([][y] <<= p;;) x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -112,10 +124,7 @@ for ([][y] <<= p;;) x;
 ### Printed
 
 ```javascript
-
-  for ([][y] <<= p;;)
-    x;
-
+for ([][y] <<= p; ; ) x;
 ```
 
 ### Diagnostics

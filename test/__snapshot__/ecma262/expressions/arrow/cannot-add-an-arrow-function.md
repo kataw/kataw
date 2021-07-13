@@ -32,12 +32,14 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,6 +52,7 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -57,6 +60,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -67,22 +71,27 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -95,12 +104,14 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -112,7 +123,8 @@
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
@@ -120,6 +132,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 22
                     },
@@ -130,22 +143,27 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 25
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 11,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 25
         },
@@ -158,12 +176,14 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 28
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
@@ -179,12 +199,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 33
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
@@ -192,6 +214,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 37
                     },
@@ -202,22 +225,27 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 39
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 40
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 40
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 25,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 40
         },
@@ -230,12 +258,14 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 43
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 45
                 },
@@ -244,6 +274,7 @@
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 51
                     },
@@ -253,6 +284,7 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 53
                     },
@@ -260,6 +292,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 56
                     },
@@ -270,22 +303,27 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 58,
                             "end": 58
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 56,
                         "end": 59
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 59
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 40,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 40,
             "end": 59
         },
@@ -298,12 +336,14 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 59,
                     "end": 62
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 62,
                     "end": 64
                 },
@@ -312,6 +352,7 @@
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 64,
                         "end": 70
                     },
@@ -324,12 +365,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 73
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 72,
                         "end": 74
                     },
@@ -337,6 +380,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 74,
                         "end": 77
                     },
@@ -347,22 +391,27 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 79
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 80
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 80
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 59,
                 "end": 80
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 59,
             "end": 80
         }
@@ -371,6 +420,7 @@
     "source": "1 + x => {}\n\n1 + () => {}\n\n1 + (x) => {}\n\n1 + async x => {}\n\n1 + async (x) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 80
 }

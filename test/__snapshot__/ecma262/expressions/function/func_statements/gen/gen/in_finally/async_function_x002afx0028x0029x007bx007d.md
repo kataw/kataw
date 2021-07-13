@@ -30,6 +30,7 @@ try {
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,10 +40,12 @@ try {
                     "kind": 249,
                     "statements": [],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
@@ -50,6 +53,7 @@ try {
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 15
             },
@@ -64,18 +68,21 @@ try {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 34
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 34,
                                 "end": 36
                             },
@@ -84,6 +91,7 @@ try {
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
                             },
@@ -93,6 +101,7 @@ try {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 38
                             },
@@ -103,28 +112,34 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 40
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
                             "returnType": null,
                             "flags": 400,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 41
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 41
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -133,6 +148,7 @@ try {
     "source": "try {\n} finally {\n  async function *f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -141,13 +157,9 @@ try {
 ### Printed
 
 ```javascript
-
-  try {
-  }
-  finally {
-    async function* f() {}
-  }
-
+try {} finally {
+  async function *f() {}
+}
 ```
 
 ### Diagnostics

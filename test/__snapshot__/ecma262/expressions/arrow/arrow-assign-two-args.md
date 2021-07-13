@@ -24,12 +24,14 @@ x = (a,b) =>{}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,6 +47,7 @@ x = (a,b) =>{}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
@@ -53,12 +56,14 @@ x = (a,b) =>{}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 9
                     },
@@ -66,6 +71,7 @@ x = (a,b) =>{}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
@@ -76,22 +82,27 @@ x = (a,b) =>{}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 13
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -100,6 +111,7 @@ x = (a,b) =>{}
     "source": "x = (a,b) =>{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -108,9 +120,7 @@ x = (a,b) =>{}
 ### Printed
 
 ```javascript
-
-  x = (a, b) => {};
-
+x = (a, b) => {};
 ```
 
 ### Diagnostics

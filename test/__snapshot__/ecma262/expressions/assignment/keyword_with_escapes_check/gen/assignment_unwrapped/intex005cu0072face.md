@@ -31,12 +31,14 @@ inte\u0072face = x;
                     "text": "interface",
                     "rawText": "inte\\u0072face",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -45,14 +47,17 @@ inte\u0072face = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -61,6 +66,7 @@ inte\u0072face = x;
     "source": "inte\\u0072face = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -69,9 +75,7 @@ inte\u0072face = x;
 ### Printed
 
 ```javascript
-
-  inte\u0072face = x;
-
+inte\u0072face = x;
 ```
 
 ### Diagnostics

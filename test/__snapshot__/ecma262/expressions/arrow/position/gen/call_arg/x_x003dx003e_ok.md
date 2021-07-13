@@ -31,6 +31,7 @@ foo(x => ok)
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -46,6 +47,7 @@ foo(x => ok)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
@@ -53,6 +55,7 @@ foo(x => ok)
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
@@ -61,24 +64,29 @@ foo(x => ok)
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 11
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -87,6 +95,7 @@ foo(x => ok)
     "source": "foo(x => ok)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -95,9 +104,7 @@ foo(x => ok)
 ### Printed
 
 ```javascript
-
-  foo(x => ok);
-
+foo(x => ok);
 ```
 
 ### Diagnostics

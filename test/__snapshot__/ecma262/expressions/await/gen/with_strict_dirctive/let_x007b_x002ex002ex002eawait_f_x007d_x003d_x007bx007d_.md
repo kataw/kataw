@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -54,6 +56,7 @@
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 23
                                         },
@@ -62,6 +65,7 @@
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
                                         },
@@ -69,6 +73,7 @@
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 28
                                     },
@@ -77,16 +82,19 @@
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 30
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 32
                         },
@@ -98,23 +106,28 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 34,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 37
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 37
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 38
         }
@@ -123,6 +136,7 @@
     "source": "'use strict'; let { ...await f } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

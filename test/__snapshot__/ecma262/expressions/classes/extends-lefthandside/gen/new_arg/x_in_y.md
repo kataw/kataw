@@ -31,6 +31,7 @@ new x in y
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -39,17 +40,20 @@ new x in y
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "argumentList": null,
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -58,14 +62,17 @@ new x in y
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -74,6 +81,7 @@ new x in y
     "source": "new x in y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -82,9 +90,7 @@ new x in y
 ### Printed
 
 ```javascript
-
-  new x in y;
-
+new x in y;
 ```
 
 ### Diagnostics

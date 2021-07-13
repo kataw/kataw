@@ -29,10 +29,12 @@ extends: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 10
         }
@@ -41,6 +43,7 @@ extends: x
     "source": "extends: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

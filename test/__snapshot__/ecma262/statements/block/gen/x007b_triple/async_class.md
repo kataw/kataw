@@ -44,10 +44,12 @@
                                                     "text": "async",
                                                     "rawText": "async",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 11
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 5,
                                                 "end": 11
                                             },
@@ -58,6 +60,7 @@
                                                 "classKeyword": {
                                                     "kind": 37822544,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 17
                                                 },
@@ -66,6 +69,7 @@
                                                     "text": "",
                                                     "rawText": "",
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 17
                                                 },
@@ -77,41 +81,50 @@
                                                         "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 17
                                                     },
                                                     "flags": 17,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 17
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 17
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 17
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 17
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -120,6 +133,7 @@
     "source": "{ { { async class",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

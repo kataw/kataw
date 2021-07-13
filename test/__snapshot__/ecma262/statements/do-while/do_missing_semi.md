@@ -20,18 +20,21 @@ do;while(j)try{}finally{}
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 3
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 8
             },
@@ -40,10 +43,12 @@ do;while(j)try{}finally{}
                 "text": "j",
                 "rawText": "j",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -52,6 +57,7 @@ do;while(j)try{}finally{}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -61,10 +67,12 @@ do;while(j)try{}finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -72,6 +80,7 @@ do;while(j)try{}finally{}
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 23
             },
@@ -81,14 +90,17 @@ do;while(j)try{}finally{}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 25
         }
@@ -97,6 +109,7 @@ do;while(j)try{}finally{}
     "source": "do;while(j)try{}finally{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -105,12 +118,8 @@ do;while(j)try{}finally{}
 ### Printed
 
 ```javascript
-
-  do
-    ; while (j)
-  try { }
-  finally { }
-
+do ;
+while (j);try {} finally {}
 ```
 
 ### Diagnostics

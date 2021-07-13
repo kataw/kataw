@@ -27,6 +27,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,6 +36,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -48,6 +50,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                                 "text": "my_var",
                                 "rawText": "my_var",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 15
                             },
@@ -57,19 +60,23 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -78,6 +85,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 35
                 },
@@ -86,10 +94,12 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                     "text": "my_var",
                     "rawText": "my_var",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
@@ -100,12 +110,14 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                     "text": "my_var",
                     "rawText": "my_var",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 27
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -114,10 +126,12 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 20,
                 "end": 31
             },
@@ -127,14 +141,17 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 44
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 46
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         },
@@ -145,10 +162,12 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 "text": "my_var",
                 "rawText": "my_var",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 46,
             "end": 54
         }
@@ -157,6 +176,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
     "source": "for (let my_var = 0; my_var < 1; ++my_var) { } my_var;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }
@@ -165,9 +185,8 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
 ### Printed
 
 ```javascript
-
-  for (let my_var = 0; ++my_var; my_var  < 1) { }
-  my_var;
+for (let my_var = 0; ++ my_var; my_var  < 1) {}
+my_var;
 
 ```
 

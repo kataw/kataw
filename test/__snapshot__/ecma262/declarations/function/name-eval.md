@@ -22,6 +22,7 @@ function eval() { }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function eval() { }
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -40,6 +42,7 @@ function eval() { }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -50,15 +53,18 @@ function eval() { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -67,6 +73,7 @@ function eval() { }
     "source": "function eval() { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -75,9 +82,7 @@ function eval() { }
 ### Printed
 
 ```javascript
-
-  function eval() {}
-
+function eval() {}
 ```
 
 ### Diagnostics

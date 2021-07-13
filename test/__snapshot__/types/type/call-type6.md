@@ -27,6 +27,7 @@ type Fn0 = () => number;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type Fn0 = () => number;
                 "text": "Fn0",
                 "rawText": "Fn0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -42,6 +44,7 @@ type Fn0 = () => number;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,12 +60,14 @@ type Fn0 = () => number;
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
@@ -73,22 +78,27 @@ type Fn0 = () => number;
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 23
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 23
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 23
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -97,6 +107,7 @@ type Fn0 = () => number;
     "source": "type Fn0 = () => number;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -105,9 +116,7 @@ type Fn0 = () => number;
 ### Printed
 
 ```javascript
-
-  type Fn0 = () => number
-
+type Fn0 = () => number
 ```
 
 ### Diagnostics

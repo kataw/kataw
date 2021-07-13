@@ -38,12 +38,14 @@
                                     "text": "localVar",
                                     "rawText": "localVar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 4136,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 14
                                 },
@@ -52,27 +54,33 @@
                                     "text": "defaultValue",
                                     "rawText": "defaultValue",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1,
                                 "end": 27
                             },
-                            "flags": 32,
-                            "start": 1,
+                            "flags": 1,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -82,10 +90,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 31,
             "end": 34
         }
@@ -94,6 +104,7 @@
     "source": "{ (localVar |= defaultValue) => {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

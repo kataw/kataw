@@ -29,6 +29,7 @@ class A extends typeof x {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A extends typeof x {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A extends typeof x {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,6 +59,7 @@ class A extends typeof x {}
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 22
                         },
@@ -64,15 +68,18 @@ class A extends typeof x {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 15,
                         "end": 24
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 24
                 },
@@ -80,14 +87,17 @@ class A extends typeof x {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -96,6 +106,7 @@ class A extends typeof x {}
     "source": "class A extends typeof x {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

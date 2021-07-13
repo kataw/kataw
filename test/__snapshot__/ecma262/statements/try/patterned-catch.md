@@ -20,6 +20,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -41,6 +44,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -54,6 +58,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
@@ -62,6 +67,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
@@ -75,6 +81,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -85,6 +92,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
@@ -93,6 +101,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 27
                                             },
@@ -101,10 +110,12 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 29
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 29
                                         },
@@ -117,10 +128,12 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 33
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 34
                                             },
@@ -129,6 +142,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 36
                                             },
@@ -137,10 +151,12 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 38
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 38
                                         },
@@ -152,6 +168,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": "h",
                                                 "rawText": "h",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 41
                                             },
@@ -162,30 +179,36 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "text": "i",
                                                 "rawText": "i",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 43
                                             },
                                             "flags": 0,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 43
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 43
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 44
                             }
                         ],
                         "trailingComma": false,
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 44
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 45
                 },
@@ -195,20 +218,24 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 48
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 49
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 49
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -217,6 +244,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
     "source": "try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }
@@ -225,15 +253,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
 ### Printed
 
 ```javascript
-
-  try { }
-  catch ([a, b, {
-    c,
-    d: e = 0,
-    [f]: g = 0,
-    h = i
-  }]){ }
-
+try {} catch ([a, b, { c, d: e = 0, [f]: g = 0, h = i }]) {}
 ```
 
 ### Diagnostics

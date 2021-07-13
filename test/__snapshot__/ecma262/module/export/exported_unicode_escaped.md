@@ -28,6 +28,7 @@ export { \u0061bc }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ export { \u0061bc }
                             "text": "abc",
                             "rawText": "abc",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -50,19 +52,23 @@ export { \u0061bc }
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -71,6 +77,7 @@ export { \u0061bc }
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 19
             },
@@ -88,21 +95,25 @@ export { \u0061bc }
                                 "text": "abc",
                                 "rawText": "\\u0061bc",
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 30
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 30
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 32
             },
@@ -110,6 +121,7 @@ export { \u0061bc }
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 12,
             "end": 32
         }
@@ -118,6 +130,7 @@ export { \u0061bc }
     "source": "var abc = 5;\nexport { \\u0061bc }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -126,9 +139,8 @@ export { \u0061bc }
 ### Printed
 
 ```javascript
-
-  var abc = 5;
-  export { \u0061bc, };
+var abc = 5;
+export { \u0061bc  };
 
 ```
 

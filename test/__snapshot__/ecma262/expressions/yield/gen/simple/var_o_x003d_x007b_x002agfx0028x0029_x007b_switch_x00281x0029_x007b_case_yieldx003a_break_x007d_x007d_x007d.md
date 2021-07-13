@@ -28,6 +28,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -56,6 +58,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -68,6 +71,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "text": "gf",
                                                 "rawText": "gf",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 13
                                             },
@@ -77,6 +81,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             },
@@ -92,6 +97,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 17,
                                                                 "end": 24
                                                             },
@@ -100,6 +106,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 26,
                                                                 "end": 27
                                                             },
@@ -111,6 +118,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                         "caseKeyword": {
                                                                             "kind": 4194382,
                                                                             "flags": 80,
+                                                                            "transformFlags": 0,
                                                                             "start": 30,
                                                                             "end": 35
                                                                         },
@@ -119,6 +127,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                             "yieldKeyword": {
                                                                                 "kind": 8454253,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 35,
                                                                                 "end": 41
                                                                             },
@@ -126,12 +135,14 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                             "asteriskToken": null,
                                                                             "expression": null,
                                                                             "flags": 32,
+                                                                            "transformFlags": 4096,
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
                                                                         "colonToken": {
                                                                             "kind": 21,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 41,
                                                                             "end": 42
                                                                         },
@@ -141,65 +152,79 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                                 "breakKeyword": {
                                                                                     "kind": 37757005,
                                                                                     "flags": 80,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 42,
                                                                                     "end": 48
                                                                                 },
                                                                                 "label": null,
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 42,
                                                                                 "end": 49
                                                                             }
                                                                         ],
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 30,
                                                                         "end": 49
                                                                     }
                                                                 ],
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 49
                                                             },
                                                             "flags": 80,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 51
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 51
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 53
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 53
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 53
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 53
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 55
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 55
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 55
         }
@@ -208,6 +233,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
     "source": "var o = { *gf() { switch (1) { case yield: break; } } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }
@@ -216,14 +242,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 ### Printed
 
 ```javascript
-
-  var o = { * gf() {
-      switch (1) {
-        case yield : 
-          break;
-      }
-    } };
-
+var o = { *gf() {
+    switch (1) {
+      case yield :
+        break;
+    }
+  } };
 ```
 
 ### Diagnostics

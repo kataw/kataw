@@ -30,6 +30,7 @@ export type * from "foo";
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -40,10 +41,12 @@ export type * from "foo";
                     "text": "type",
                     "rawText": "type",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 11
             },
@@ -52,6 +55,7 @@ export type * from "foo";
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -67,25 +71,30 @@ export type * from "foo";
                             "text": "foo1",
                             "rawText": "foo1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 20
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 21
         },
@@ -94,6 +103,7 @@ export type * from "foo";
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 28
             },
@@ -104,10 +114,12 @@ export type * from "foo";
                     "text": "type",
                     "rawText": "type",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 33
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 33
             },
@@ -116,6 +128,7 @@ export type * from "foo";
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 21,
             "end": 33
         },
@@ -131,19 +144,23 @@ export type * from "foo";
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 35,
                         "end": 39
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 41
         },
@@ -154,10 +171,12 @@ export type * from "foo";
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 41,
             "end": 46
         },
@@ -168,10 +187,12 @@ export type * from "foo";
                 "text": "bar",
                 "rawText": "\"bar\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 46,
             "end": 53
         },
@@ -180,6 +201,7 @@ export type * from "foo";
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 60
             },
@@ -192,12 +214,14 @@ export type * from "foo";
                         "text": "type",
                         "rawText": "type",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 60,
                         "end": 65
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 65,
                         "end": 67
                     },
@@ -206,14 +230,17 @@ export type * from "foo";
                         "text": "from",
                         "rawText": "from",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 67,
                         "end": 72
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 60,
                     "end": 72
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 60,
                 "end": 72
             },
@@ -222,6 +249,7 @@ export type * from "foo";
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 53,
             "end": 72
         },
@@ -232,10 +260,12 @@ export type * from "foo";
                 "text": "foo",
                 "rawText": "\"foo\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 72,
             "end": 79
         }
@@ -244,6 +274,7 @@ export type * from "foo";
     "source": "export type { foo1 };\nexport type { bar } from \"bar\";\nexport type * from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 79
 }

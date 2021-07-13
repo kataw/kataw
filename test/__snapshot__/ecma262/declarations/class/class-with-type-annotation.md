@@ -41,6 +41,7 @@ class Foo { bar():this { return this; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class Foo { bar():this { return this; }}
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -75,6 +77,7 @@ class Foo { bar():this { return this; }}
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 15
                                 },
@@ -84,6 +87,7 @@ class Foo { bar():this { return this; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -94,10 +98,12 @@ class Foo { bar():this { return this; }}
                                     "type": {
                                         "kind": 4276321,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 22
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -112,46 +118,56 @@ class Foo { bar():this { return this; }}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 31
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 36
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 24,
                                                 "end": 37
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 39
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 39
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 39
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -160,6 +176,7 @@ class Foo { bar():this { return this; }}
     "source": "class Foo { bar():this { return this; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -168,13 +185,11 @@ class Foo { bar():this { return this; }}
 ### Printed
 
 ```javascript
-
-  class Foo {
-    bar(): this {
-      return this;
-    }
+class Foo {
+  bar(): this {
+    return this;
   }
-
+}
 ```
 
 ### Diagnostics

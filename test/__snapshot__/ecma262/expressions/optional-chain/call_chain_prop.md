@@ -22,6 +22,7 @@ c?.(d)?.[e]
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -30,6 +31,7 @@ c?.(d)?.[e]
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
@@ -38,6 +40,7 @@ c?.(d)?.[e]
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -55,24 +58,29 @@ c?.(d)?.[e]
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 5
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 3,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -86,22 +94,27 @@ c?.(d)?.[e]
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -110,6 +123,7 @@ c?.(d)?.[e]
     "source": "c?.(d)?.[e]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -118,9 +132,7 @@ c?.(d)?.[e]
 ### Printed
 
 ```javascript
-
-  c?.(d)?.[e];
-
+c?.(d)?.[e];
 ```
 
 ### Diagnostics

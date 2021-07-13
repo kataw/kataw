@@ -20,12 +20,14 @@ while (false) label1: label2: function f() {}
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
@@ -36,12 +38,14 @@ while (false) label1: label2: function f() {}
                     "text": "label1",
                     "rawText": "label1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 20
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
@@ -52,12 +56,14 @@ while (false) label1: label2: function f() {}
                         "text": "label2",
                         "rawText": "label2",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 28
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 29
                     },
@@ -68,6 +74,7 @@ while (false) label1: label2: function f() {}
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 38
                         },
@@ -77,6 +84,7 @@ while (false) label1: label2: function f() {}
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 40
                         },
@@ -86,6 +94,7 @@ while (false) label1: label2: function f() {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 41
                         },
@@ -96,27 +105,33 @@ while (false) label1: label2: function f() {}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 44
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 45
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 45
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 45
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 45
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -125,6 +140,7 @@ while (false) label1: label2: function f() {}
     "source": "while (false) label1: label2: function f() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

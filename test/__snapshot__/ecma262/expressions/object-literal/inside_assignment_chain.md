@@ -24,12 +24,14 @@ x = {a, b} = y
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,6 +47,7 @@ x = {a, b} = y
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 6
                                 },
@@ -53,22 +56,26 @@ x = {a, b} = y
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 9
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -77,18 +84,22 @@ x = {a, b} = y
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -97,6 +108,7 @@ x = {a, b} = y
     "source": "x = {a, b} = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -105,9 +117,7 @@ x = {a, b} = y
 ### Printed
 
 ```javascript
-
-  x = { a, b } = y;
-
+x = { a, b } = y;
 ```
 
 ### Diagnostics

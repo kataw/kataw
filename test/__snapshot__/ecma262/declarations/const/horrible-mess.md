@@ -30,6 +30,7 @@ const processArgs =
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -43,6 +44,7 @@ const processArgs =
                             "text": "processArgs",
                             "rawText": "processArgs",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 17
                         },
@@ -62,6 +64,7 @@ const processArgs =
                                                 "text": "A1",
                                                 "rawText": "A1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
@@ -74,16 +77,19 @@ const processArgs =
                                                     "properties": [],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 29
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 29
                                             },
                                             "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 29
                                         },
@@ -94,6 +100,7 @@ const processArgs =
                                                 "text": "A2",
                                                 "rawText": "A2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 33
                                             },
@@ -106,26 +113,31 @@ const processArgs =
                                                     "properties": [],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 37
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 37
                                             },
                                             "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 37
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 37
                                 },
                                 "flags": 2097153,
+                                "transformFlags": 512,
                                 "start": 19,
                                 "end": 38
                             },
@@ -140,6 +152,7 @@ const processArgs =
                                             "text": "process",
                                             "rawText": "process",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 46
                                         },
@@ -162,6 +175,7 @@ const processArgs =
                                                                 "text": "args",
                                                                 "rawText": "args",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 49,
                                                                 "end": 53
                                                             },
@@ -177,31 +191,37 @@ const processArgs =
                                                                         "text": "A1",
                                                                         "rawText": "A1",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 54,
                                                                         "end": 57
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 54,
                                                                     "end": 57
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 54,
                                                                 "end": 57
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 57
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 47,
                                                     "end": 57
                                                 },
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 61
                                                 },
@@ -216,34 +236,41 @@ const processArgs =
                                                             "text": "A2",
                                                             "rawText": "A2",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 61,
                                                             "end": 64
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 64
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 61,
                                                     "end": 64
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 64
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 64
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 64
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 65
                             },
@@ -251,6 +278,7 @@ const processArgs =
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 68
                             },
@@ -269,6 +297,7 @@ const processArgs =
                                                     "text": "S",
                                                     "rawText": "S",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 72,
                                                     "end": 73
                                                 },
@@ -276,6 +305,7 @@ const processArgs =
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 72,
                                                 "end": 73
                                             },
@@ -286,6 +316,7 @@ const processArgs =
                                                     "text": "C",
                                                     "rawText": "C",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 74,
                                                     "end": 76
                                                 },
@@ -293,6 +324,7 @@ const processArgs =
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 74,
                                                 "end": 76
                                             },
@@ -303,6 +335,7 @@ const processArgs =
                                                     "text": "I",
                                                     "rawText": "I",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 77,
                                                     "end": 79
                                                 },
@@ -310,6 +343,7 @@ const processArgs =
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 77,
                                                 "end": 79
                                             },
@@ -320,6 +354,7 @@ const processArgs =
                                                     "text": "R",
                                                     "rawText": "R",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 80,
                                                     "end": 82
                                                 },
@@ -327,16 +362,19 @@ const processArgs =
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 80,
                                                 "end": 82
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 82
                                     },
                                     "flags": 2097153,
+                                    "transformFlags": 512,
                                     "start": 68,
                                     "end": 83
                                 },
@@ -351,6 +389,7 @@ const processArgs =
                                                 "text": "resolver",
                                                 "rawText": "resolver",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 84,
                                                 "end": 92
                                             },
@@ -366,6 +405,7 @@ const processArgs =
                                                         "text": "Resolver",
                                                         "rawText": "Resolver",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 93,
                                                         "end": 102
                                                     },
@@ -385,15 +425,18 @@ const processArgs =
                                                                             "text": "S",
                                                                             "rawText": "S",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 103,
                                                                             "end": 104
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 103,
                                                                         "end": 104
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 103,
                                                                     "end": 104
                                                                 },
@@ -408,15 +451,18 @@ const processArgs =
                                                                             "text": "A2",
                                                                             "rawText": "A2",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 105,
                                                                             "end": 108
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 105,
                                                                         "end": 108
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 105,
                                                                     "end": 108
                                                                 },
@@ -431,15 +477,18 @@ const processArgs =
                                                                             "text": "C",
                                                                             "rawText": "C",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 109,
                                                                             "end": 111
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 109,
                                                                         "end": 111
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 109,
                                                                     "end": 111
                                                                 },
@@ -454,15 +503,18 @@ const processArgs =
                                                                             "text": "I",
                                                                             "rawText": "I",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 112,
                                                                             "end": 114
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 112,
                                                                         "end": 114
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 112,
                                                                     "end": 114
                                                                 },
@@ -477,44 +529,53 @@ const processArgs =
                                                                             "text": "R",
                                                                             "rawText": "R",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 115,
                                                                             "end": 117
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 115,
                                                                         "end": 117
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 115,
                                                                     "end": 117
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 103,
                                                             "end": 117
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 512,
                                                         "start": 102,
                                                         "end": 118
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 93,
                                                     "end": 118
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 93,
                                                 "end": 118
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 68,
                                             "end": 118
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 119
                                 },
@@ -522,6 +583,7 @@ const processArgs =
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 119,
                                     "end": 122
                                 },
@@ -540,6 +602,7 @@ const processArgs =
                                                     "text": "src",
                                                     "rawText": "src",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 126,
                                                     "end": 129
                                                 },
@@ -555,20 +618,24 @@ const processArgs =
                                                             "text": "S",
                                                             "rawText": "S",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 130,
                                                             "end": 132
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 130,
                                                         "end": 132
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 130,
                                                     "end": 132
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 132
                                             },
@@ -580,6 +647,7 @@ const processArgs =
                                                     "text": "args",
                                                     "rawText": "args",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 133,
                                                     "end": 138
                                                 },
@@ -595,20 +663,24 @@ const processArgs =
                                                             "text": "A1",
                                                             "rawText": "A1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 139,
                                                             "end": 142
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 139,
                                                         "end": 142
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 139,
                                                     "end": 142
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 142
                                             },
@@ -620,6 +692,7 @@ const processArgs =
                                                     "text": "appContext",
                                                     "rawText": "appContext",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 143,
                                                     "end": 154
                                                 },
@@ -635,20 +708,24 @@ const processArgs =
                                                             "text": "C",
                                                             "rawText": "C",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 155,
                                                             "end": 157
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 155,
                                                         "end": 157
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 155,
                                                     "end": 157
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 157
                                             },
@@ -660,6 +737,7 @@ const processArgs =
                                                     "text": "info",
                                                     "rawText": "info",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 158,
                                                     "end": 163
                                                 },
@@ -675,26 +753,31 @@ const processArgs =
                                                             "text": "I",
                                                             "rawText": "I",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 164,
                                                             "end": 166
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 164,
                                                         "end": 166
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 164,
                                                     "end": 166
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 122,
                                                 "end": 166
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 126,
                                         "end": 193
                                     },
@@ -709,6 +792,7 @@ const processArgs =
                                                 "text": "Resolver",
                                                 "rawText": "Resolver",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 168,
                                                 "end": 177
                                             },
@@ -728,15 +812,18 @@ const processArgs =
                                                                     "text": "S",
                                                                     "rawText": "S",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 178,
                                                                     "end": 179
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 178,
                                                                 "end": 179
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 178,
                                                             "end": 179
                                                         },
@@ -751,15 +838,18 @@ const processArgs =
                                                                     "text": "A1",
                                                                     "rawText": "A1",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 180,
                                                                     "end": 183
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 180,
                                                                 "end": 183
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 180,
                                                             "end": 183
                                                         },
@@ -774,15 +864,18 @@ const processArgs =
                                                                     "text": "C",
                                                                     "rawText": "C",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 184,
                                                                     "end": 186
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 184,
                                                                 "end": 186
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 184,
                                                             "end": 186
                                                         },
@@ -797,15 +890,18 @@ const processArgs =
                                                                     "text": "I",
                                                                     "rawText": "I",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 187,
                                                                     "end": 189
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 187,
                                                                 "end": 189
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 187,
                                                             "end": 189
                                                         },
@@ -820,39 +916,47 @@ const processArgs =
                                                                     "text": "R",
                                                                     "rawText": "R",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 190,
                                                                     "end": 192
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 190,
                                                                 "end": 192
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 190,
                                                             "end": 192
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 178,
                                                     "end": 192
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 512,
                                                 "start": 177,
                                                 "end": 193
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 193
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 168,
                                         "end": 193
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 193,
                                         "end": 196
                                     },
@@ -863,6 +967,7 @@ const processArgs =
                                             "text": "resolver",
                                             "rawText": "resolver",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 196,
                                             "end": 209
                                         },
@@ -874,6 +979,7 @@ const processArgs =
                                                     "text": "src",
                                                     "rawText": "src",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 210,
                                                     "end": 213
                                                 },
@@ -884,6 +990,7 @@ const processArgs =
                                                         "text": "process",
                                                         "rawText": "process",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 214,
                                                         "end": 222
                                                     },
@@ -895,16 +1002,19 @@ const processArgs =
                                                                 "text": "args",
                                                                 "rawText": "args",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 223,
                                                                 "end": 227
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 223,
                                                         "end": 227
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 214,
                                                     "end": 228
                                                 },
@@ -913,6 +1023,7 @@ const processArgs =
                                                     "text": "appContext",
                                                     "rawText": "appContext",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 229,
                                                     "end": 240
                                                 },
@@ -921,41 +1032,50 @@ const processArgs =
                                                     "text": "info",
                                                     "rawText": "info",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 241,
                                                     "end": 246
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 210,
                                             "end": 246
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 196,
                                         "end": 247
                                     },
-                                    "flags": 32,
+                                    "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 122,
                                     "end": 247
                                 },
-                                "flags": 32,
+                                "flags": 33,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 247
                             },
-                            "flags": 32,
+                            "flags": 33,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 247
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 247
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 247
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 247
         }
@@ -964,6 +1084,7 @@ const processArgs =
     "source": "const processArgs =\n  <A1: {}, A2: {}>(process: (args: A1) => A2) =>\n  <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) =>\n  (src: S, args: A1, appContext: C, info: I): Resolver<S, A1, C, I, R> =>\n    resolver(src, process(args), appContext, info)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 247
 }
@@ -972,9 +1093,15 @@ const processArgs =
 ### Printed
 
 ```javascript
-
-  const processArgs = <A1: {}, A2: {}>(process: (args: A1) => A2) => <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S, args: A1, appContext: C, info: I) => resolver(src, process(args), appContext, info);
-
+const processArgs = <A1: {}, A2: {}>(process: (args: A1) => A2) => <
+    S,
+    C,
+    I,
+    R
+  >(resolver: Resolver<S, A2, C, I, R>) => (src: S,
+  args: A1,
+  appContext: C,
+  info: I) => resolver(src, process(args), appContext, info);
 ```
 
 ### Diagnostics

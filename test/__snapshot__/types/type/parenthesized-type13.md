@@ -29,6 +29,7 @@ type X = ("string");
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = ("string");
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = ("string");
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,22 +65,27 @@ type X = ("string");
                             "text": "string",
                             "rawText": "\"string\"",
                             "flags": 2097216,
+                            "transformFlags": 1024,
                             "start": 10,
                             "end": 18
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 18
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -86,6 +94,7 @@ type X = ("string");
     "source": "type X = (\"string\");",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -94,9 +103,7 @@ type X = ("string");
 ### Printed
 
 ```javascript
-
-  type X = ("\"string\"")
-
+type X = ("\"string\"")
 ```
 
 ### Diagnostics

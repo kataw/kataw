@@ -24,12 +24,14 @@ s = {s: true = x} = x
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,6 +50,7 @@ s = {s: true = x} = x
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -56,12 +59,14 @@ s = {s: true = x} = x
                                         "left": {
                                             "kind": 24752947,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 12
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
@@ -70,30 +75,36 @@ s = {s: true = x} = x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 5,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 5,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 16
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
@@ -102,18 +113,22 @@ s = {s: true = x} = x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -122,6 +137,7 @@ s = {s: true = x} = x
     "source": "s = {s: true = x} = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

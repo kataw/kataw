@@ -22,6 +22,7 @@ function f() { function x() {} { var x } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f() { function x() {} { var x } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f() { function x() {} { var x } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -56,6 +59,7 @@ function f() { function x() {} { var x } }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 23
                             },
@@ -65,6 +69,7 @@ function f() { function x() {} { var x } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
@@ -74,6 +79,7 @@ function f() { function x() {} { var x } }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
@@ -84,15 +90,18 @@ function f() { function x() {} { var x } }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 30
                         },
@@ -107,6 +116,7 @@ function f() { function x() {} { var x } }
                                         "varKeyword": {
                                             "kind": 37757002,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 36
                                         },
@@ -120,44 +130,53 @@ function f() { function x() {} { var x } }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 38
                                                     },
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 36,
                                                     "end": 38
                                                 }
                                             ],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 38
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 38
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 42
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -166,6 +185,7 @@ function f() { function x() {} { var x } }
     "source": "function f() { function x() {} { var x } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -174,14 +194,12 @@ function f() { function x() {} { var x } }
 ### Printed
 
 ```javascript
-
-  function f() {
-    function x() {}
-    {
-      var x;
-    }
+function f() {
+  function x() {}
+  {
+    var x;
   }
-
+}
 ```
 
 ### Diagnostics

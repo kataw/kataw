@@ -27,6 +27,7 @@ let {[a.b]: c} = v
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,6 +52,7 @@ let {[a.b]: c} = v
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 7
                                                 },
@@ -59,14 +61,17 @@ let {[a.b]: c} = v
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 9
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 6,
                                                 "end": 9
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 10
                                         },
@@ -75,21 +80,25 @@ let {[a.b]: c} = v
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 13
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 14
                         },
@@ -99,19 +108,23 @@ let {[a.b]: c} = v
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -120,6 +133,7 @@ let {[a.b]: c} = v
     "source": "let {[a.b]: c} = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -128,11 +142,7 @@ let {[a.b]: c} = v
 ### Printed
 
 ```javascript
-
-  let {
-    [a.b]: c
-  } = v;
-
+let { [a.b]: c } = v;
 ```
 
 ### Diagnostics

@@ -27,6 +27,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,6 +36,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -48,6 +50,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -57,19 +60,23 @@ for (var i = 0; i < 1; i++) label: function f() { };
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -78,6 +85,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
@@ -86,10 +94,12 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "text": "i",
                     "rawText": "i",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
@@ -100,12 +110,14 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "text": "i",
                     "rawText": "i",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -114,10 +126,12 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 15,
                 "end": 21
             },
@@ -128,12 +142,14 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 33
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 34
                 },
@@ -144,6 +160,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 43
                     },
@@ -153,6 +170,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 45
                     },
@@ -162,6 +180,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 46
                     },
@@ -172,29 +191,35 @@ for (var i = 0; i < 1; i++) label: function f() { };
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 49
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 51
                     },
                     "returnType": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 51
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 51
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 51,
             "end": 52
         }
@@ -203,6 +228,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
     "source": "for (var i = 0; i < 1; i++) label: function f() { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

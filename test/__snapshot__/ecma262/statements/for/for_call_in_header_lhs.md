@@ -39,6 +39,7 @@ for (x(x in t);;) x
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ for (x(x in t);;) x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
@@ -62,12 +64,14 @@ for (x(x in t);;) x
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -76,20 +80,24 @@ for (x(x in t);;) x
                                 "text": "t",
                                 "rawText": "t",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 13
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 7,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 13
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 5,
                 "end": 14
             },
@@ -102,14 +110,17 @@ for (x(x in t);;) x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 17,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -118,6 +129,7 @@ for (x(x in t);;) x
     "source": "for (x(x in t);;) x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -126,10 +138,7 @@ for (x(x in t);;) x
 ### Printed
 
 ```javascript
-
-  for (x(x in t);;)
-    x;
-
+for (x(x in t); ; ) x;
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -83,6 +88,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -92,6 +98,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -109,6 +116,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                     "operandToken": {
                                                         "kind": 65584,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 35,
                                                         "end": 37
                                                     },
@@ -130,6 +138,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                             "text": "constructor",
                                                                             "rawText": "constructor",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 38,
                                                                             "end": 49
                                                                         },
@@ -139,6 +148,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 50,
                                                                             "end": 51
                                                                         },
@@ -156,6 +166,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                                             "expression": {
                                                                                                 "kind": 4259935,
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 53,
                                                                                                 "end": 59
                                                                                             },
@@ -164,79 +175,97 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                                                 "elements": [],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 60,
                                                                                                 "end": 60
                                                                                             },
                                                                                             "flags": 268435488,
+                                                                                            "transformFlags": 1,
                                                                                             "start": 53,
                                                                                             "end": 61
                                                                                         },
                                                                                         "flags": 16,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 53,
                                                                                         "end": 62
                                                                                     }
                                                                                 ],
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 53,
                                                                                 "end": 62
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 51,
                                                                             "end": 64
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 49,
                                                                         "end": 64
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 38,
                                                                     "end": 64
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 38,
                                                             "end": 64
                                                         },
                                                         "flags": 48,
+                                                        "transformFlags": 8,
                                                         "start": 37,
                                                         "end": 65
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 1024,
                                                     "start": 35,
                                                     "end": 65
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 35,
                                                 "end": 66
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 66
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 68
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 68
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 68
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 68
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 70
         }
@@ -245,6 +274,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
     "source": "class A extends B { constructor() { !{constructor() { super(); }}; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 70
 }

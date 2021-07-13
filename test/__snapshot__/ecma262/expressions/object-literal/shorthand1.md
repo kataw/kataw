@@ -24,12 +24,14 @@ x = { y, z }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -43,6 +45,7 @@ x = { y, z }
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
@@ -51,24 +54,29 @@ x = { y, z }
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 10
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -77,6 +85,7 @@ x = { y, z }
     "source": "x = { y, z }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -85,9 +94,7 @@ x = { y, z }
 ### Printed
 
 ```javascript
-
-  x = { y, z };
-
+x = { y, z };
 ```
 
 ### Diagnostics

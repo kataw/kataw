@@ -31,12 +31,14 @@ x = {__proto__: a, __proto__: b} = y
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -55,6 +57,7 @@ x = {__proto__: a, __proto__: b} = y
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 14
                                     },
@@ -63,10 +66,12 @@ x = {__proto__: a, __proto__: b} = y
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
                                     "flags": 36,
+                                    "transformFlags": 128,
                                     "start": 5,
                                     "end": 17
                                 },
@@ -78,6 +83,7 @@ x = {__proto__: a, __proto__: b} = y
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 28
                                     },
@@ -86,26 +92,31 @@ x = {__proto__: a, __proto__: b} = y
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
                                     "flags": 36,
+                                    "transformFlags": 128,
                                     "start": 18,
                                     "end": 31
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 20,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 31
                         },
                         "flags": 52,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
@@ -114,18 +125,22 @@ x = {__proto__: a, __proto__: b} = y
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 36
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -134,6 +149,7 @@ x = {__proto__: a, __proto__: b} = y
     "source": "x = {__proto__: a, __proto__: b} = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -142,9 +158,7 @@ x = {__proto__: a, __proto__: b} = y
 ### Printed
 
 ```javascript
-
-  x = { __proto__: a, __proto__: b } = y;
-
+x = { __proto__: a, __proto__: b } = y;
 ```
 
 ### Diagnostics

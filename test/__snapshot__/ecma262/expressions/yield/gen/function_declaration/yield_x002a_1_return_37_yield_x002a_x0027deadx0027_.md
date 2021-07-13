@@ -29,6 +29,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -65,12 +68,14 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
                                     "flags": 96,
+                                    "transformFlags": 32,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -79,14 +84,17 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 20,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 31
                         },
@@ -95,6 +103,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             },
@@ -103,10 +112,12 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                 "text": 37,
                                 "rawText": "37",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 41
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 31,
                             "end": 42
                         },
@@ -119,12 +130,14 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 48
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
                                     "flags": 96,
+                                    "transformFlags": 32,
                                     "start": 48,
                                     "end": 50
                                 },
@@ -133,28 +146,34 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "text": "dead",
                                     "rawText": "'dead'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 57
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 42,
                                 "end": 57
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 42,
                             "end": 58
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 58
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 60
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 60
         }
@@ -163,6 +182,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
     "source": "function not_gen() { yield * 1; return 37; yield * 'dead'; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

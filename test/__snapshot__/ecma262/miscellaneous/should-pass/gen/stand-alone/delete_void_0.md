@@ -29,6 +29,7 @@ delete void 0
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -37,6 +38,7 @@ delete void 0
                     "operandToken": {
                         "kind": 138477615,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 11
                     },
@@ -45,18 +47,22 @@ delete void 0
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 6,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -65,6 +71,7 @@ delete void 0
     "source": "delete void 0",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -73,9 +80,7 @@ delete void 0
 ### Printed
 
 ```javascript
-
-  delete  void  0;
-
+delete void 0;
 ```
 
 ### Diagnostics

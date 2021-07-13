@@ -27,6 +27,7 @@ for (`temp {waitforit} late` in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,12 +36,14 @@ for (`temp {waitforit} late` in x) ;
                 "text": "temp {waitforit} late",
                 "rawText": "temp {waitforit} late",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 28
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 31
             },
@@ -49,16 +52,19 @@ for (`temp {waitforit} late` in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 36
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -67,6 +73,7 @@ for (`temp {waitforit} late` in x) ;
     "source": "for (`temp {waitforit} late` in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

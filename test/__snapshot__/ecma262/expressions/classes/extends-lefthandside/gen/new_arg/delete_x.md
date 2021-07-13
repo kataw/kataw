@@ -29,6 +29,7 @@ new delete x
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,6 +38,7 @@ new delete x
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -45,19 +47,23 @@ new delete x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 3,
                     "end": 12
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -66,6 +72,7 @@ new delete x
     "source": "new delete x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -74,9 +81,7 @@ new delete x
 ### Printed
 
 ```javascript
-
-  new delete  x;
-
+new delete x;
 ```
 
 ### Diagnostics

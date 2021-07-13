@@ -29,12 +29,14 @@ function *f(x = delete ((const) = f)) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = delete ((const) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = delete ((const) = f)) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -68,6 +72,7 @@ function *f(x = delete ((const) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -80,28 +85,34 @@ function *f(x = delete ((const) = f)) {}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 25
                                     },
-                                    "flags": 32,
-                                    "start": 24,
+                                    "flags": 24,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 25
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 25
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 25
             },
@@ -112,15 +123,18 @@ function *f(x = delete ((const) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -129,6 +143,7 @@ function *f(x = delete ((const) = f)) {}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 30
             },
@@ -136,10 +151,12 @@ function *f(x = delete ((const) = f)) {}
                 "kind": 151,
                 "bindingList": [],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 25,
             "end": 30
         },
@@ -150,10 +167,12 @@ function *f(x = delete ((const) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 33,
             "end": 35
         },
@@ -163,10 +182,12 @@ function *f(x = delete ((const) = f)) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 37,
             "end": 40
         }
@@ -175,6 +196,7 @@ function *f(x = delete ((const) = f)) {}
     "source": "function *f(x = delete ((const) = f)) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

@@ -27,6 +27,7 @@ if (this \u0069nstanceof Array) {}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,12 +36,14 @@ if (this \u0069nstanceof Array) {}
                 "left": {
                     "kind": 4276321,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 24
                 },
@@ -49,10 +52,12 @@ if (this \u0069nstanceof Array) {}
                     "text": "Array",
                     "rawText": "Array",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 30
                 },
                 "flags": 16480,
+                "transformFlags": 5120,
                 "start": 4,
                 "end": 30
             },
@@ -62,16 +67,19 @@ if (this \u0069nstanceof Array) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 33
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 34
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -80,6 +88,7 @@ if (this \u0069nstanceof Array) {}
     "source": "if (this \\u0069nstanceof Array) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -88,9 +97,7 @@ if (this \u0069nstanceof Array) {}
 ### Printed
 
 ```javascript
-
-  if (this instanceof Array) { }
-
+if (this instanceof Array) {}
 ```
 
 ### Diagnostics

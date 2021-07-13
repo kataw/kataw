@@ -22,12 +22,14 @@ function* g( x = function() { async(yield) }) {};
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* g( x = function() { async(yield) }) {};
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -51,6 +54,7 @@ function* g( x = function() { async(yield) }) {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
@@ -62,6 +66,7 @@ function* g( x = function() { async(yield) }) {};
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 25
                             },
@@ -73,6 +78,7 @@ function* g( x = function() { async(yield) }) {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
@@ -91,6 +97,7 @@ function* g( x = function() { async(yield) }) {};
                                                     "text": "async",
                                                     "rawText": "async",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 35
                                                 },
@@ -102,44 +109,53 @@ function* g( x = function() { async(yield) }) {};
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 41
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 29
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 29,
                                                 "end": 42
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 29,
                                             "end": 42
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 44
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 44
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 44
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 44
             },
@@ -150,21 +166,25 @@ function* g( x = function() { async(yield) }) {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 48
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 48,
             "end": 49
         }
@@ -173,6 +193,7 @@ function* g( x = function() { async(yield) }) {};
     "source": "function* g( x = function() { async(yield) }) {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }
@@ -181,12 +202,9 @@ function* g( x = function() { async(yield) }) {};
 ### Printed
 
 ```javascript
-
-  function* g(x = function () {
-      async(yield);
-    }) {}
-  ;
-
+function *g(x = function () {
+  async(yield);
+}) {}
 ```
 
 ### Diagnostics

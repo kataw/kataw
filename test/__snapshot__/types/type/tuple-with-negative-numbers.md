@@ -29,6 +29,7 @@ type x = [-1n, 0n, 1n];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = [-1n, 0n, 1n];
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = [-1n, 0n, 1n];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -63,16 +66,19 @@ type x = [-1n, 0n, 1n];
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -85,10 +91,12 @@ type x = [-1n, 0n, 1n];
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
@@ -101,24 +109,29 @@ type x = [-1n, 0n, 1n];
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -128,6 +141,7 @@ type x = [-1n, 0n, 1n];
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 26
             },
@@ -136,6 +150,7 @@ type x = [-1n, 0n, 1n];
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
@@ -143,6 +158,7 @@ type x = [-1n, 0n, 1n];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
@@ -162,16 +178,19 @@ type x = [-1n, 0n, 1n];
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
                                 "text": "1",
                                 "rawText": "1n",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 35
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 35
                         },
@@ -184,10 +203,12 @@ type x = [-1n, 0n, 1n];
                                 "text": 0,
                                 "rawText": "0n",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 39
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 39
                         },
@@ -200,24 +221,29 @@ type x = [-1n, 0n, 1n];
                                 "text": "1",
                                 "rawText": "1n",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 43
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 43
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 44
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 44
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 20,
             "end": 45
         }
@@ -226,6 +252,7 @@ type x = [-1n, 0n, 1n];
     "source": "type x = [-1, 0, 1];\n\ntype x = [-1n, 0n, 1n];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -234,9 +261,8 @@ type x = [-1n, 0n, 1n];
 ### Printed
 
 ```javascript
-
-  type x = [[-1, 0, 1]]
-  type x = [[-1n, 0n, 1n]]
+type x = [-1, 0, 1]
+type x = [-1n, 0n, 1n]
 
 ```
 

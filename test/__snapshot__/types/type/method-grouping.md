@@ -31,6 +31,7 @@ type A = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -39,6 +40,7 @@ type A = {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -46,6 +48,7 @@ type A = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -67,6 +70,7 @@ type A = {
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
@@ -78,6 +82,7 @@ type A = {
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 15
                                 },
@@ -94,42 +99,51 @@ type A = {
                                                 "text": "B",
                                                 "rawText": "B",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 20
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 20
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 21
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 21
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 23
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -138,6 +152,7 @@ type A = {
     "source": "type A = {\n  b(): (B)\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -146,9 +161,7 @@ type A = {
 ### Printed
 
 ```javascript
-
-  type A = { b(): (B) }
-
+type A = { b(): (B) }
 ```
 
 ### Diagnostics

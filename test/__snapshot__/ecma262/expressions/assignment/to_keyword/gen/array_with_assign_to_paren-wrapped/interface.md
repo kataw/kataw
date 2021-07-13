@@ -29,6 +29,7 @@ async x => (interface) = 1
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async x => (interface) = 1
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async x => (interface) = 1
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -57,16 +60,19 @@ async x => (interface) = 1
                             "text": "interface",
                             "rawText": "interface",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 21
                         },
-                        "flags": 32,
-                        "start": 10,
+                        "flags": 10,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 22
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 24
                     },
@@ -75,18 +81,22 @@ async x => (interface) = 1
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 26
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 10,
                     "end": 26
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -95,6 +105,7 @@ async x => (interface) = 1
     "source": "async x => (interface) = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -103,9 +114,7 @@ async x => (interface) = 1
 ### Printed
 
 ```javascript
-
-  async x => (interface) = 1;
-
+async x => (interface) = 1;
 ```
 
 ### Diagnostics

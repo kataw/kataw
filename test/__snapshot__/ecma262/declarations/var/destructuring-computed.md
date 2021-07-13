@@ -33,6 +33,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "text": "key",
                             "rawText": "key",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -56,10 +58,12 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 15
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 15
                         },
@@ -68,19 +72,23 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "text": "key",
                             "rawText": "\"key\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -90,6 +98,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 29
             },
@@ -112,10 +121,12 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                                 "text": "key",
                                                 "rawText": "key",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 36
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 37
                                         },
@@ -124,21 +135,25 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "val2",
                                             "rawText": "val2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 43
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 43
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 43
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 45
                         },
@@ -156,6 +171,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "key",
                                             "rawText": "key",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 49,
                                             "end": 53
                                         },
@@ -164,33 +180,40 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "val",
                                             "rawText": "\"val\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 60
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 49,
                                         "end": 60
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 60
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 47,
                             "end": 62
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 62
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 63
         },
@@ -200,6 +223,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 68
             },
@@ -222,10 +246,12 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                                 "text": "key",
                                                 "rawText": "\"key\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 72,
                                                 "end": 77
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 70,
                                             "end": 78
                                         },
@@ -234,11 +260,13 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "val3",
                                             "rawText": "val3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 79,
                                             "end": 84
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 84
                                     },
@@ -247,6 +275,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 89
                                         },
@@ -255,6 +284,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "spread",
                                             "rawText": "spread",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 95
                                         },
@@ -262,16 +292,19 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 85,
                                         "end": 95
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 95
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 97
                         },
@@ -289,6 +322,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "key",
                                             "rawText": "key",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 101,
                                             "end": 105
                                         },
@@ -297,33 +331,40 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                             "text": "val",
                                             "rawText": "\"val\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 106,
                                             "end": 112
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 101,
                                         "end": 112
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 101,
                                 "end": 112
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 99,
                             "end": 114
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 68,
                         "end": 114
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 114
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 63,
             "end": 115
         }
@@ -332,6 +373,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
     "source": "var key: string = \"key\";\n\nvar { [key]: val2 } = { key: \"val\" };\n\nvar { [\"key\"]: val3, ...spread } = { key: \"val\" };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 115
 }
@@ -340,15 +382,10 @@ var { ["key"]: val3, ...spread } = { key: "val" };
 ### Printed
 
 ```javascript
+var key: string = "\"key\"";
+var { [key]: val2 } = { key: "\"val\"" };
 
-  var key: string = "\"key\"";
-  var {
-    [key]: val2
-  } = { key: "\"val\"" };
-  var {
-    ["\"key\""]: val3,
-    ...spread
-  } = { key: "\"val\"" };
+var { ["\"key\""]: val3, ...spread } = { key: "\"val\"" };
 
 ```
 

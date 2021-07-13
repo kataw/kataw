@@ -29,6 +29,7 @@ var foo = (async (): number => bar);
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var foo = (async (): number => bar);
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -53,6 +55,7 @@ var foo = (async (): number => bar);
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 16
                                 },
@@ -62,6 +65,7 @@ var foo = (async (): number => bar);
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
@@ -72,16 +76,19 @@ var foo = (async (): number => bar);
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 27
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 30
                                 },
@@ -90,27 +97,33 @@ var foo = (async (): number => bar);
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 34
                                 },
                                 "flags": 288,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 34
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -119,6 +132,7 @@ var foo = (async (): number => bar);
     "source": "var foo = (async (): number => bar);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -127,9 +141,7 @@ var foo = (async (): number => bar);
 ### Printed
 
 ```javascript
-
-  var foo = (async () => bar);
-
+var foo = (async () => bar);
 ```
 
 ### Diagnostics

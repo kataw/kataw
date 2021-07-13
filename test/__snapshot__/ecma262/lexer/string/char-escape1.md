@@ -44,10 +44,12 @@
                 "text": "'",
                 "rawText": "\"\\'\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -58,10 +60,12 @@
                 "text": "\"",
                 "rawText": "\"\\\"\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 13
         },
@@ -72,10 +76,12 @@
                 "text": "\\",
                 "rawText": "\"\\\\\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 20
         },
@@ -86,10 +92,12 @@
                 "text": "\b",
                 "rawText": "\"\\b\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 27
         },
@@ -100,10 +108,12 @@
                 "text": "\f",
                 "rawText": "\"\\f\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 34
         },
@@ -114,10 +124,12 @@
                 "text": "\n",
                 "rawText": "\"\\n\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 34,
             "end": 41
         },
@@ -128,10 +140,12 @@
                 "text": "\r",
                 "rawText": "\"\\r\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 41,
             "end": 48
         },
@@ -142,10 +156,12 @@
                 "text": "\t",
                 "rawText": "\"\\t\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 48,
             "end": 55
         },
@@ -156,10 +172,12 @@
                 "text": "\u000b",
                 "rawText": "\"\\v\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 55,
             "end": 60
         }
@@ -168,6 +186,7 @@
     "source": "\"\\'\"\n;\n\"\\\"\"\n;\n\"\\\\\"\n;\n\"\\b\"\n;\n\"\\f\"\n;\n\"\\n\"\n;\n\"\\r\"\n;\n\"\\t\"\n;\n\"\\v\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }
@@ -176,16 +195,22 @@
 ### Printed
 
 ```javascript
+"\"'\"";
+"\"\"\"";
 
-  "\"'\"";
-  "\"\"\"";
-  "\"\\\"";
-  "\"\b\"";
-  "\"\f\"";
-  "\"\n\"";
-  "\"\r\"";
-  "\"\t\"";
-  "\"\v\"";
+"\"\\\"";
+
+"\"\b\"";
+
+"\"\f\"";
+
+"\"\n\"";
+
+"\"\r\"";
+
+"\"\t\"";
+
+"\"\v\"";
 
 ```
 

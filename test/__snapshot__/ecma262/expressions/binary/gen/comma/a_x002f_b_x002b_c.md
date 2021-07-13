@@ -32,6 +32,7 @@ x, a / b + c
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -44,12 +45,14 @@ x, a / b + c
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 4
                             },
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
+                                "transformFlags": 32,
                                 "start": 4,
                                 "end": 6
                             },
@@ -58,16 +61,19 @@ x, a / b + c
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 8
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 2,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -76,19 +82,23 @@ x, a / b + c
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 2,
                         "end": 12
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -97,6 +107,7 @@ x, a / b + c
     "source": "x, a / b + c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -105,9 +116,7 @@ x, a / b + c
 ### Printed
 
 ```javascript
-
-  x, a / b + c;
-
+x, a / b + c;
 ```
 
 ### Diagnostics

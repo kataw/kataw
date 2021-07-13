@@ -29,6 +29,7 @@ async (x = (function) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -44,6 +45,7 @@ async (x = (function) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -59,6 +61,7 @@ async (x = (function) = f) => {}
                                         "functionKeyword": {
                                             "kind": 37822554,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 20
                                         },
@@ -70,6 +73,7 @@ async (x = (function) = f) => {}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
@@ -80,21 +84,25 @@ async (x = (function) = f) => {}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 21
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 21
                                         },
                                         "returnType": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 21
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
                                     },
@@ -103,24 +111,29 @@ async (x = (function) = f) => {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 12,
                                     "end": 25
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 26
                 },
@@ -128,6 +141,7 @@ async (x = (function) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 29
                 },
@@ -138,18 +152,22 @@ async (x = (function) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 32
         }
@@ -158,6 +176,7 @@ async (x = (function) = f) => {}
     "source": "async (x = (function) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

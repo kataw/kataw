@@ -30,18 +30,21 @@ declare var a: A;
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 14
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -50,6 +53,7 @@ declare var a: A;
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -57,12 +61,14 @@ declare var a: A;
             "superType": null,
             "impltype": null,
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 7,
             "end": 21
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 22
         },
@@ -71,18 +77,21 @@ declare var a: A;
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 30
             },
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 37
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 42
             },
@@ -91,6 +100,7 @@ declare var a: A;
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 44
             },
@@ -98,12 +108,14 @@ declare var a: A;
             "superType": null,
             "impltype": null,
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 30,
             "end": 44
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 44,
             "end": 45
         },
@@ -112,12 +124,14 @@ declare var a: A;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 53
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 57
             },
@@ -131,6 +145,7 @@ declare var a: A;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 59
                         },
@@ -145,29 +160,35 @@ declare var a: A;
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 62
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 62
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 57,
                         "end": 62
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 62
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 53,
             "end": 63
         }
@@ -176,6 +197,7 @@ declare var a: A;
     "source": "declare opaque type A;\ndeclare opaque type B;\ndeclare var a: A;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }
@@ -184,12 +206,10 @@ declare var a: A;
 ### Printed
 
 ```javascript
+declare opaque
+declare opaque
 
-  declare opaque
-  ;
-  declare opaque
-  ;
-  var a: A;
+declare var a: A;
 
 ```
 

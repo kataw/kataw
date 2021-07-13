@@ -29,6 +29,7 @@ class x extends true {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x extends true {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,17 +50,20 @@ class x extends true {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
                     "expression": {
                         "kind": 24752947,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -66,14 +71,17 @@ class x extends true {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -82,6 +90,7 @@ class x extends true {}
     "source": "class x extends true {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -90,10 +99,7 @@ class x extends true {}
 ### Printed
 
 ```javascript
-
-  class x extends true {
-  }
-
+class x extends true {}
 ```
 
 ### Diagnostics

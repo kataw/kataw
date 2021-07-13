@@ -29,6 +29,7 @@ function not_gen() { function* gf() { yield++; } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { function* gf() { yield++; } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { function* gf() { yield++; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,12 +66,14 @@ function not_gen() { function* gf() { yield++; } }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 29,
                                 "end": 30
                             },
@@ -77,6 +82,7 @@ function not_gen() { function* gf() { yield++; } }}
                                 "text": "gf",
                                 "rawText": "gf",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 33
                             },
@@ -86,6 +92,7 @@ function not_gen() { function* gf() { yield++; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 34
                             },
@@ -102,6 +109,7 @@ function not_gen() { function* gf() { yield++; } }}
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 43
                                                 },
@@ -112,6 +120,7 @@ function not_gen() { function* gf() { yield++; } }}
                                                     "operandToken": {
                                                         "kind": 196635,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 45
                                                     },
@@ -120,46 +129,56 @@ function not_gen() { function* gf() { yield++; } }}
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 45,
                                                         "end": 45
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 45
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 37,
                                                 "end": 45
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 37,
                                             "end": 46
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 46
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 48
                             },
                             "returnType": null,
                             "flags": 272,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 48
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 50
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -168,6 +187,7 @@ function not_gen() { function* gf() { yield++; } }}
     "source": "function not_gen() { function* gf() { yield++; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

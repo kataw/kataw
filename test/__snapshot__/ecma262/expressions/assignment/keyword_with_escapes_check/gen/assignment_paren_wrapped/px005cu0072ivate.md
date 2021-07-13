@@ -33,12 +33,14 @@
                         "text": "private",
                         "rawText": "p\\u0072ivate",
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
@@ -47,18 +49,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 16416,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 17
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -67,6 +73,7 @@
     "source": "(p\\u0072ivate = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -75,9 +82,7 @@
 ### Printed
 
 ```javascript
-
-  (p\u0072ivate = x);
-
+(p\u0072ivate = x);
 ```
 
 ### Diagnostics

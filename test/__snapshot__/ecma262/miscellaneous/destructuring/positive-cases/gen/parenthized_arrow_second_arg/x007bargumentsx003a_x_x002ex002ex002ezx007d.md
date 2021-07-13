@@ -28,6 +28,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -57,6 +59,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                         "text": "argument1",
                                         "rawText": "argument1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 18
                                     },
@@ -72,6 +75,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                         "text": "arguments",
                                                         "rawText": "arguments",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 29
                                                     },
@@ -80,11 +84,13 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 32
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 32
                                                 },
@@ -93,6 +99,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 37
                                                     },
@@ -101,6 +108,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 38
                                                     },
@@ -108,22 +116,26 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 4096,
                                                     "start": 33,
                                                     "end": 38
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 38
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 39
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 40
                             },
@@ -131,6 +143,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 43
                             },
@@ -141,27 +154,33 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 46
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 46
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 46
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -170,6 +189,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
     "source": "var f = (argument1,{arguments: x, ...z}) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }
@@ -178,12 +198,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
 ### Printed
 
 ```javascript
-
-  var f = (argument1, {
-      arguments: x,
-      ...z
-    }) => {};
-
+var f = (argument1, { arguments: x, ...z }) => {};
 ```
 
 ### Diagnostics

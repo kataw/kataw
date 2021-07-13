@@ -29,6 +29,7 @@ async (x = (let) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -44,6 +45,7 @@ async (x = (let) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -58,16 +60,19 @@ async (x = (let) = f) => {}
                                         "text": "let",
                                         "rawText": "let",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 15
                                     },
-                                    "flags": 32,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 16
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -76,20 +81,24 @@ async (x = (let) = f) => {}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 10,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 21
                 },
@@ -97,6 +106,7 @@ async (x = (let) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 24
                 },
@@ -107,18 +117,22 @@ async (x = (let) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 27
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -127,6 +141,7 @@ async (x = (let) = f) => {}
     "source": "async (x = (let) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -135,9 +150,7 @@ async (x = (let) = f) => {}
 ### Printed
 
 ```javascript
-
-  async (x = (let) = f) => {};
-
+async (x = (let) = f) => {};
 ```
 
 ### Diagnostics

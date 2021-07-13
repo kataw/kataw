@@ -21,6 +21,7 @@ a);
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -29,6 +30,7 @@ a);
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
@@ -37,22 +39,26 @@ a);
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
             "consequent": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -61,6 +67,7 @@ a);
     "source": "if (--\na);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -69,10 +76,7 @@ a);
 ### Printed
 
 ```javascript
-
-  if (--a)
-    ;
-
+if (-- a);
 ```
 
 ### Diagnostics

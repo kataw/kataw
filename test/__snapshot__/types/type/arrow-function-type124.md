@@ -29,6 +29,7 @@ type a = (x,symbol['string']) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (x,symbol['string']) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (x,symbol['string']) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -73,17 +76,20 @@ type a = (x,symbol['string']) => T;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 11
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 11
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 11
                                         },
@@ -97,6 +103,7 @@ type a = (x,symbol['string']) => T;
                                                 "objectType": {
                                                     "kind": 134234343,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 18
                                                 },
@@ -109,42 +116,50 @@ type a = (x,symbol['string']) => T;
                                                         "text": "string",
                                                         "rawText": "'string'",
                                                         "flags": 6291520,
+                                                        "transformFlags": 1024,
                                                         "start": 19,
                                                         "end": 27
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 27
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 29
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 28
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 28
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 29
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 32
                     },
@@ -159,27 +174,33 @@ type a = (x,symbol['string']) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 34
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 34
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 34
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -188,6 +209,7 @@ type a = (x,symbol['string']) => T;
     "source": "type a = (x,symbol['string']) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -196,9 +218,7 @@ type a = (x,symbol['string']) => T;
 ### Printed
 
 ```javascript
-
-  type a = (x, symbol[ "'string'"]) => T
-
+type a = (x, symbol["'string'"]) => T
 ```
 
 ### Diagnostics

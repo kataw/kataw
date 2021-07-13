@@ -26,6 +26,7 @@ export function d(): Promise<boolean> {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ export function d(): Promise<boolean> {}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
@@ -45,6 +47,7 @@ export function d(): Promise<boolean> {}
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -54,6 +57,7 @@ export function d(): Promise<boolean> {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
@@ -64,10 +68,12 @@ export function d(): Promise<boolean> {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 40
                 },
@@ -82,6 +88,7 @@ export function d(): Promise<boolean> {}
                             "text": "Promise",
                             "rawText": "Promise",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 28
                         },
@@ -97,32 +104,39 @@ export function d(): Promise<boolean> {}
                                         "type": {
                                             "kind": 134234254,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 36
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 36
                             },
                             "flags": 2097152,
+                            "transformFlags": 512,
                             "start": 28,
                             "end": 37
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 37
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 37
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 40
             },
@@ -131,6 +145,7 @@ export function d(): Promise<boolean> {}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -139,6 +154,7 @@ export function d(): Promise<boolean> {}
     "source": "export function d(): Promise<boolean> {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -147,9 +163,7 @@ export function d(): Promise<boolean> {}
 ### Printed
 
 ```javascript
-
-  export function d(): Promise<boolean> {}
-
+export function d(): Promise<boolean> {}
 ```
 
 ### Diagnostics

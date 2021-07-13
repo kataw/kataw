@@ -42,6 +42,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -51,6 +52,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "text": "w",
                 "rawText": "w",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -66,6 +68,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
@@ -83,10 +86,12 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 21
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 21
                                         },
@@ -97,36 +102,43 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 29
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 29
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 30
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 30
                             },
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 30
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 30
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 31
             },
@@ -141,6 +153,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 33
                         },
@@ -156,20 +169,24 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 36
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 32,
                         "end": 36
                     },
@@ -181,6 +198,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 39
                         },
@@ -207,12 +225,14 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                         "name": {
                                                             "kind": 134234345,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 42,
                                                             "end": 48
                                                         },
                                                         "optionalToken": null,
                                                         "types": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 40,
                                                         "end": 48
                                                     },
@@ -221,6 +241,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 53
                                                         },
@@ -233,39 +254,46 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                                 "text": "A",
                                                                 "rawText": "A",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 54
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 54
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 49,
                                                         "end": 54
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 54
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 55
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 55
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 58
                                 },
@@ -276,29 +304,35 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 63
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 63
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 63
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 63
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 37,
                         "end": 63
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 63
             },
@@ -317,6 +351,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 70
                                 },
@@ -328,6 +363,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 71,
                                                 "end": 74
                                             },
@@ -336,24 +372,29 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 74,
                                                 "end": 75
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 71,
                                             "end": 75
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 75
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 66,
                                 "end": 76
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 66,
                             "end": 77
                         },
@@ -366,6 +407,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 77,
                                     "end": 89
                                 },
@@ -377,6 +419,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 90,
                                             "end": 92
                                         },
@@ -385,6 +428,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 93,
                                             "end": 96
                                         },
@@ -393,20 +437,24 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 97,
                                             "end": 100
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 90,
                                     "end": 100
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 77,
                                 "end": 101
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 77,
                             "end": 102
                         },
@@ -419,6 +467,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 102,
                                     "end": 114
                                 },
@@ -430,6 +479,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 115,
                                             "end": 117
                                         },
@@ -438,6 +488,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 118,
                                                 "end": 122
                                             },
@@ -446,24 +497,29 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 122,
                                                 "end": 123
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 118,
                                             "end": 123
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 115,
                                     "end": 123
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 102,
                                 "end": 124
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 102,
                             "end": 125
                         },
@@ -476,6 +532,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 125,
                                     "end": 129
                                 },
@@ -487,6 +544,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 130,
                                             "end": 132
                                         },
@@ -495,6 +553,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 133,
                                                 "end": 137
                                             },
@@ -503,10 +562,12 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 137,
                                                 "end": 138
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 133,
                                             "end": 138
                                         },
@@ -515,6 +576,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 139,
                                                 "end": 143
                                             },
@@ -523,38 +585,46 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 143,
                                                 "end": 144
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 139,
                                             "end": 144
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 130,
                                     "end": 144
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 125,
                                 "end": 145
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 125,
                             "end": 146
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 146
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 156
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 156
         },
@@ -565,6 +635,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 165
             },
@@ -574,6 +645,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "text": "w2",
                 "rawText": "w2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 165,
                 "end": 168
             },
@@ -589,6 +661,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 169,
                                 "end": 170
                             },
@@ -603,6 +676,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                         "text": "Array",
                                         "rawText": "Array",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 171,
                                         "end": 177
                                     },
@@ -618,44 +692,53 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                     "type": {
                                                         "kind": 134234345,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 178,
                                                         "end": 184
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 178,
                                                     "end": 184
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 178,
                                             "end": 184
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 512,
                                         "start": 177,
                                         "end": 185
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 171,
                                     "end": 185
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 171,
                                 "end": 185
                             },
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 169,
                             "end": 185
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 169,
                     "end": 185
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 168,
                 "end": 186
             },
@@ -670,6 +753,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 187,
                             "end": 188
                         },
@@ -685,20 +769,24 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 189,
                                     "end": 191
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 189,
                                 "end": 191
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 189,
                             "end": 191
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 187,
                         "end": 191
                     },
@@ -710,6 +798,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 192,
                             "end": 194
                         },
@@ -736,12 +825,14 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                         "name": {
                                                             "kind": 134234345,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 197,
                                                             "end": 203
                                                         },
                                                         "optionalToken": null,
                                                         "types": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 195,
                                                         "end": 203
                                                     },
@@ -750,6 +841,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 204,
                                                             "end": 208
                                                         },
@@ -762,39 +854,46 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                                 "text": "A",
                                                                 "rawText": "A",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 208,
                                                                 "end": 209
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 204,
                                                             "end": 209
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 204,
                                                         "end": 209
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 195,
                                                 "end": 209
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 195,
                                             "end": 210
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 195,
                                     "end": 210
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 210,
                                     "end": 213
                                 },
@@ -805,29 +904,35 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 213,
                                         "end": 218
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 213,
                                     "end": 218
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 195,
                                 "end": 218
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 195,
                             "end": 218
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 192,
                         "end": 218
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 187,
                 "end": 218
             },
@@ -846,6 +951,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 221,
                                     "end": 225
                                 },
@@ -857,6 +963,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 226,
                                                 "end": 229
                                             },
@@ -865,24 +972,29 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 229,
                                                 "end": 230
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 226,
                                             "end": 230
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 226,
                                     "end": 230
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 221,
                                 "end": 231
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 221,
                             "end": 232
                         },
@@ -895,6 +1007,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 232,
                                     "end": 236
                                 },
@@ -906,6 +1019,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 237,
                                             "end": 239
                                         },
@@ -914,6 +1028,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 240,
                                             "end": 243
                                         },
@@ -922,20 +1037,24 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 244,
                                             "end": 247
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 237,
                                     "end": 247
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 232,
                                 "end": 248
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 232,
                             "end": 249
                         },
@@ -948,6 +1067,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 249,
                                     "end": 261
                                 },
@@ -959,6 +1079,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 262,
                                             "end": 264
                                         },
@@ -967,6 +1088,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 265,
                                             "end": 268
                                         },
@@ -975,6 +1097,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 269,
                                             "end": 272
                                         },
@@ -983,6 +1106,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 273,
                                                 "end": 277
                                             },
@@ -991,24 +1115,29 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 277,
                                                 "end": 278
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 273,
                                             "end": 278
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 262,
                                     "end": 278
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 249,
                                 "end": 279
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 249,
                             "end": 280
                         },
@@ -1021,6 +1150,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 280,
                                     "end": 302
                                 },
@@ -1032,6 +1162,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 303,
                                             "end": 305
                                         },
@@ -1040,6 +1171,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 306,
                                                 "end": 310
                                             },
@@ -1048,24 +1180,29 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 310,
                                                 "end": 311
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 306,
                                             "end": 311
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 303,
                                     "end": 311
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 280,
                                 "end": 312
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 280,
                             "end": 313
                         },
@@ -1078,6 +1215,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 313,
                                     "end": 317
                                 },
@@ -1089,6 +1227,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 318,
                                             "end": 320
                                         },
@@ -1097,6 +1236,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 321,
                                                 "end": 325
                                             },
@@ -1105,10 +1245,12 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 325,
                                                 "end": 326
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 321,
                                             "end": 326
                                         },
@@ -1117,6 +1259,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 327,
                                                 "end": 331
                                             },
@@ -1125,38 +1268,46 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 331,
                                                 "end": 332
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 327,
                                             "end": 332
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 318,
                                     "end": 332
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 313,
                                 "end": 333
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 313,
                             "end": 334
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 221,
                     "end": 334
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 219,
                 "end": 336
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 156,
             "end": 336
         }
@@ -1165,6 +1316,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
     "source": "function w<A: [number, number]>(x: A, f: (number, ...A) => void) {\n  f(...x); // nope\n  f(42, 42, 42); // nope\n  f(42, ...x);\n  f(42, ...x, ...x); // nope\n}\nfunction w2<A: Array<number>>(x: A, f: (number, ...A) => void) {\n  f(...x);\n  f(42, 42, 42); // nope\n  f(42, 42, 42, ...x); // should be nope\n  f(42, ...x);\n  f(42, ...x, ...x);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 336
 }
@@ -1173,20 +1325,24 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 ### Printed
 
 ```javascript
+function w<A: [number, number]>(x: A, f: (number, ...A) => void) {
+  f(...x); // nope
 
-  function w<A: [[number, number]]> (x: A, f: (number, ...A) => void) {
-    f(...x); // nope
-    f(42, 42, 42); // nope
-    f(42, ...x);
-    f(42, ...x, ...x); // nope
-  }
-  function w2<A: Array<number>> (x: A, f: (number, ...A) => void) {
-    f(...x);
-    f(42, 42, 42); // nope
-    f(42, 42, 42, ...x); // should be nope
-    f(42, ...x);
-    f(42, ...x, ...x);
-  }
+  f(42, 42, 42); // nope
+
+  f(42, ...x);
+  f(42, ...x, ...x);
+} // nope
+
+function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
+  f(...x);
+  f(42, 42, 42); // nope
+
+  f(42, 42, 42, ...x); // should be nope
+
+  f(42, ...x);
+  f(42, ...x, ...x);
+}
 
 ```
 

@@ -29,6 +29,7 @@ class extends A{}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ class extends A{}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 13
                     },
@@ -49,11 +51,13 @@ class extends A{}
                         "text": "A",
                         "rawText": "A",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -61,14 +65,17 @@ class extends A{}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -77,6 +84,7 @@ class extends A{}
     "source": "class extends A{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -85,10 +93,7 @@ class extends A{}
 ### Printed
 
 ```javascript
-
-  class extends A {
-  }
-
+class extends A {}
 ```
 
 ### Diagnostics

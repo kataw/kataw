@@ -28,6 +28,7 @@ export { abc }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ export { abc }
                             "text": "abc",
                             "rawText": "\\u0061bc",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
@@ -50,19 +52,23 @@ export { abc }
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -71,6 +77,7 @@ export { abc }
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 24
             },
@@ -88,21 +95,25 @@ export { abc }
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 30
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 32
             },
@@ -110,6 +121,7 @@ export { abc }
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 17,
             "end": 32
         }
@@ -118,6 +130,7 @@ export { abc }
     "source": "var \\u0061bc = 5;\nexport { abc }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -126,9 +139,8 @@ export { abc }
 ### Printed
 
 ```javascript
-
-  var \u0061bc = 5;
-  export { abc, };
+var \u0061bc = 5;
+export { abc  };
 
 ```
 

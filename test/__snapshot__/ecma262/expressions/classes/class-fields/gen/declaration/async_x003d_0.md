@@ -29,6 +29,7 @@ class C { async = 0 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { async = 0 }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class C { async = 0 }
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -68,23 +71,28 @@ class C { async = 0 }
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 19
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -93,6 +101,7 @@ class C { async = 0 }
     "source": "class C { async = 0 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -101,11 +110,9 @@ class C { async = 0 }
 ### Printed
 
 ```javascript
-
-  class C {
-    async = 0
-  }
-
+class C {
+  async = 0;
+}
 ```
 
 ### Diagnostics

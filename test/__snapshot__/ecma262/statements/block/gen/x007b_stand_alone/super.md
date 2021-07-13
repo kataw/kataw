@@ -34,6 +34,7 @@
                             "member": {
                                 "kind": 4259935,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 7
                             },
@@ -42,23 +43,28 @@
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 2,
                             "start": 1,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -67,6 +73,7 @@
     "source": "{ super",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

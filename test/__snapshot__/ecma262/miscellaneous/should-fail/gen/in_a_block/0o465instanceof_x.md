@@ -34,10 +34,12 @@
                             "text": 309,
                             "rawText": "0o465i",
                             "flags": 262240,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 8
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 8
                     },
@@ -48,10 +50,12 @@
                             "text": "nstanceof",
                             "rawText": "nstanceof",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 8,
                         "end": 17
                     },
@@ -62,19 +66,23 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 17,
                         "end": 19
                     }
                 ],
                 "flags": 262160,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -83,6 +91,7 @@
     "source": "{ 0o465instanceof x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

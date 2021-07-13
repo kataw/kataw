@@ -34,6 +34,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -73,6 +76,7 @@ class C {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -82,6 +86,7 @@ class C {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -93,18 +98,22 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 26
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 27
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 27
                         },
@@ -115,6 +124,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 36
                             },
@@ -130,10 +140,12 @@ class C {
                                                 "text": "use strict",
                                                 "rawText": "\"use strict\"",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 55
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 38,
                                             "end": 56
                                         },
@@ -146,6 +158,7 @@ class C {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 56,
                                                         "end": 101
                                                     },
@@ -154,16 +167,19 @@ class C {
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 102,
                                                         "end": 105
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 56,
                                                     "end": 105
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 105,
                                                     "end": 107
                                                 },
@@ -172,6 +188,7 @@ class C {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 107,
                                                         "end": 112
                                                     },
@@ -180,44 +197,54 @@ class C {
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 113,
                                                         "end": 116
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 107,
                                                     "end": 116
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 56,
                                                 "end": 116
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 56,
                                             "end": 117
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 117
                                 },
                                 "flags": 27,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 121
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 121
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 121
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 123
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 123
         }
@@ -226,6 +253,7 @@ class C {
     "source": "class C {\n  static foo() {}\n  static {\n    \"use strict\"; // will not be parsed as directives\n    this.bar = this.foo;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 123
 }
@@ -234,15 +262,10 @@ class C {
 ### Printed
 
 ```javascript
+class C {
+  static foo() {}
 
-  class C {
-    static foo() {}
-    static  {
-      "\"use strict\""; // will not be parsed as directives
-      this.bar = this.foo;
-    }
-  }
-
+}
 ```
 
 ### Diagnostics

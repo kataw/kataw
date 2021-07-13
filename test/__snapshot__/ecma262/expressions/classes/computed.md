@@ -22,6 +22,7 @@ class A { [x=y](foo) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A { [x=y](foo) {} }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -60,12 +62,14 @@ class A { [x=y](foo) {} }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -74,14 +78,17 @@ class A { [x=y](foo) {} }
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 14
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 11,
                                         "end": 14
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 15
                                 },
@@ -94,12 +101,14 @@ class A { [x=y](foo) {} }
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -111,31 +120,38 @@ class A { [x=y](foo) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -144,6 +160,7 @@ class A { [x=y](foo) {} }
     "source": "class A { [x=y](foo) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -152,11 +169,9 @@ class A { [x=y](foo) {} }
 ### Printed
 
 ```javascript
-
-  class A {
-    [x = y](foo) {}
-  }
-
+class A {
+  [x = y](foo) {}
+}
 ```
 
 ### Diagnostics

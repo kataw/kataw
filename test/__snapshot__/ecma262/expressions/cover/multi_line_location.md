@@ -27,12 +27,14 @@ a = (
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -46,6 +48,7 @@ a = (
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 9
                             },
@@ -54,23 +57,28 @@ a = (
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 3,
                         "end": 16
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -79,6 +87,7 @@ a = (
     "source": "a = (\n  b,\n  c\n)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -87,9 +96,7 @@ a = (
 ### Printed
 
 ```javascript
-
-  a = (b, c);
-
+a = (b, c);
 ```
 
 ### Diagnostics

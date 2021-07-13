@@ -29,6 +29,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                         "text": "nonExistent",
                                         "rawText": "nonExistent",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 16
                                     },
@@ -58,6 +60,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "text": "defaults",
                                             "rawText": "defaults",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 26
                                         },
@@ -68,10 +71,12 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "text": "hi",
                                             "rawText": "\"hi\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 33
                                         },
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 17,
                                         "end": 33
                                     },
@@ -83,6 +88,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 38
                                         },
@@ -93,20 +99,24 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 42
                                         },
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 34,
                                         "end": 42
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 42
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 43
                         },
@@ -116,19 +126,23 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 47
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 47
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -137,6 +151,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
     "source": "var {nonExistent, defaults = \"hi\", foo = 3} = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -145,9 +160,7 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
 ### Printed
 
 ```javascript
-
-  var { nonExistent, defaults = "\"hi\"", foo = 3 } = x;
-
+var { nonExistent, defaults = "\"hi\"", foo = 3 } = x;
 ```
 
 ### Diagnostics

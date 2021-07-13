@@ -28,6 +28,7 @@ const foo = (foo?: bar) => {};
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const foo = (foo?: bar) => {};
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -60,12 +62,14 @@ const foo = (foo?: bar) => {};
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 16
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
@@ -80,26 +84,31 @@ const foo = (foo?: bar) => {};
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 22
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 22
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 22
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 11,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 23
                             },
@@ -107,6 +116,7 @@ const foo = (foo?: bar) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 26
                             },
@@ -117,27 +127,33 @@ const foo = (foo?: bar) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 29
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 29
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -146,6 +162,7 @@ const foo = (foo?: bar) => {};
     "source": "const foo = (foo?: bar) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -154,9 +171,7 @@ const foo = (foo?: bar) => {};
 ### Printed
 
 ```javascript
-
-  const foo = (foo?: bar) => {};
-
+const foo = (foo? : bar) => {};
 ```
 
 ### Diagnostics

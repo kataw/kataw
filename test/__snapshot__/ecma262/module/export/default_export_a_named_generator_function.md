@@ -26,12 +26,14 @@ export default function* f(){}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,12 +44,14 @@ export default function* f(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 23
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 23,
                     "end": 24
                 },
@@ -56,6 +60,7 @@ export default function* f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
@@ -65,6 +70,7 @@ export default function* f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
@@ -75,19 +81,23 @@ export default function* f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
                 "returnType": null,
                 "flags": 272,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -96,6 +106,7 @@ export default function* f(){}
     "source": "export default function* f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -104,9 +115,7 @@ export default function* f(){}
 ### Printed
 
 ```javascript
-
-  export default function* f() {};
-
+export default function *f() {};
 ```
 
 ### Diagnostics

@@ -19,6 +19,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,6 +42,7 @@
                                     "text": 123,
                                     "rawText": "0123",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -49,28 +51,34 @@
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 16,
                                 "end": 23
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 23
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 15,
                     "end": 24
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 26
         }
@@ -79,6 +87,7 @@
     "source": "'use strict'; ({0123: 4});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

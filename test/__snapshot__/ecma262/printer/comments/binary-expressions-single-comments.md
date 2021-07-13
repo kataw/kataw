@@ -40,12 +40,14 @@ c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -56,12 +58,14 @@ c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -70,18 +74,22 @@ c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 21
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         },
@@ -94,12 +102,14 @@ c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 27
                 },
@@ -110,12 +120,14 @@ c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 29
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 32
                     },
@@ -124,18 +136,22 @@ c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 115
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 27,
                     "end": 115
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 116
         },
@@ -148,12 +164,14 @@ c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 116,
                     "end": 119
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 121
                 },
@@ -164,12 +182,14 @@ c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 121,
                         "end": 123
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 123,
                         "end": 126
                     },
@@ -178,18 +198,22 @@ c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 126,
                         "end": 139
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 121,
                     "end": 139
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 116,
                 "end": 139
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 116,
             "end": 140
         },
@@ -202,12 +226,14 @@ c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 140,
                     "end": 143
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 143,
                     "end": 145
                 },
@@ -218,12 +244,14 @@ c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 145,
                         "end": 147
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 147,
                         "end": 150
                     },
@@ -232,18 +260,22 @@ c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 150,
                         "end": 233
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 145,
                     "end": 233
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 140,
                 "end": 233
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 140,
             "end": 234
         },
@@ -256,12 +288,14 @@ c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 234,
                     "end": 237
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 237,
                     "end": 239
                 },
@@ -272,12 +306,14 @@ c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 239,
                         "end": 241
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 241,
                         "end": 243
                     },
@@ -286,18 +322,22 @@ c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 243,
                         "end": 256
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 239,
                     "end": 256
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 234,
                 "end": 256
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 234,
             "end": 257
         },
@@ -310,12 +350,14 @@ c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 257,
                     "end": 260
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 260,
                     "end": 262
                 },
@@ -326,12 +368,14 @@ c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 262,
                         "end": 264
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 264,
                         "end": 266
                     },
@@ -340,18 +384,22 @@ c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 266,
                         "end": 349
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 262,
                     "end": 349
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 257,
                 "end": 349
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 257,
             "end": 350
         }
@@ -360,6 +408,7 @@ c;
     "source": "a = b || // Comment\nc;\n\na = b || // TODO this is a very very very very long comment that makes it go > 80 columns\nc;\n\na = b && // Comment\nc;\n\na = b && // TODO this is a very very very very long comment that makes it go > 80 columns\nc;\n\na = b + // Comment\nc;\n\na = b + // TODO this is a very very very very long comment that makes it go > 80 columns\nc;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 350
 }
@@ -368,19 +417,31 @@ c;
 ### Printed
 
 ```javascript
+a = b ||// Comment
+   c;
+a =
+  b ||// TODO this is a very very very very long comment that makes it go > 80 columns
 
-  a = b ||// Comment
+  c
+;
+
+a = b &&// Comment
    c;
-  a = b ||// TODO this is a very very very very long comment that makes it go > 80 columns
+
+a =
+  b &&// TODO this is a very very very very long comment that makes it go > 80 columns
+
+  c
+;
+
+a = b +// Comment
    c;
-  a = b &&// Comment
-   c;
-  a = b &&// TODO this is a very very very very long comment that makes it go > 80 columns
-   c;
-  a = b +// Comment
-   c;
-  a = b +// TODO this is a very very very very long comment that makes it go > 80 columns
-   c;
+
+a =
+  b +// TODO this is a very very very very long comment that makes it go > 80 columns
+
+  c
+;
 
 ```
 

@@ -34,6 +34,7 @@
                                         "text": "responseText",
                                         "rawText": "responseText",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 15
                                     },
@@ -42,26 +43,31 @@
                                         "text": "text",
                                         "rawText": "text",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 21
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 2,
                                     "end": 21
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 21
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 23
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
@@ -70,18 +76,22 @@
                         "text": "res",
                         "rawText": "res",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 29
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }
@@ -90,6 +100,7 @@
     "source": "({ responseText: text } = res);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -98,9 +109,7 @@
 ### Printed
 
 ```javascript
-
-  ({ responseText: text } = res);
-
+({ responseText: text } = res);
 ```
 
 ### Diagnostics

@@ -31,12 +31,14 @@ let = 1
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -45,14 +47,17 @@ let = 1
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -61,6 +66,7 @@ let = 1
     "source": "let = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -69,9 +75,7 @@ let = 1
 ### Printed
 
 ```javascript
-
-  let = 1;
-
+let = 1;
 ```
 
 ### Diagnostics

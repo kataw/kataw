@@ -36,10 +36,12 @@
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 15
                                 }
@@ -49,14 +51,17 @@
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 20
                     }
@@ -66,14 +71,17 @@
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -82,6 +90,7 @@
     "source": "`foo${`foo${bar}baz`}baz`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -90,9 +99,7 @@
 ### Printed
 
 ```javascript
-
-  `foo${`foo${bar}baz`}baz`;
-
+`foo${`foo${bar}baz`}baz`;
 ```
 
 ### Diagnostics

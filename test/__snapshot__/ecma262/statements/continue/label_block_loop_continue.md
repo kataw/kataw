@@ -22,12 +22,14 @@ foo: { while(z) continue foo }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -41,6 +43,7 @@ foo: { while(z) continue foo }
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 12
                             },
@@ -49,6 +52,7 @@ foo: { while(z) continue foo }
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
@@ -57,6 +61,7 @@ foo: { while(z) continue foo }
                                 "continueKeyword": {
                                     "kind": 37757009,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 24
                                 },
@@ -65,27 +70,33 @@ foo: { while(z) continue foo }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 28
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 28
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 28
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -94,6 +105,7 @@ foo: { while(z) continue foo }
     "source": "foo: { while(z) continue foo }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

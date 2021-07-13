@@ -31,12 +31,14 @@ implements = x
                     "text": "implements",
                     "rawText": "implements",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -45,14 +47,17 @@ implements = x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -61,6 +66,7 @@ implements = x
     "source": "implements = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -69,9 +75,7 @@ implements = x
 ### Printed
 
 ```javascript
-
-  implements = x;
-
+implements = x;
 ```
 
 ### Diagnostics

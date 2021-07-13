@@ -45,64 +45,76 @@
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 2,
                                                     "end": 3
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 3,
                                                     "end": 5
                                                 },
                                                 "right": {
                                                     "kind": 24752947,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 10
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 2,
                                                 "end": 10
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 10
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 1,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 13
                                 },
                                 "right": {
                                     "kind": 24752947,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -111,14 +123,17 @@
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -127,6 +142,7 @@
     "source": "[[x = true] = true] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -135,9 +151,7 @@
 ### Printed
 
 ```javascript
-
-  [[x = true,] = true,] = y;
-
+[[x = true] = true] = y;
 ```
 
 ### Diagnostics

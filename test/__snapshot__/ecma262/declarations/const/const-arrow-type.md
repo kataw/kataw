@@ -28,6 +28,7 @@ const fn = async (a?: any): Promise<void> => {};
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
@@ -50,6 +52,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
@@ -65,12 +68,14 @@ const fn = async (a?: any): Promise<void> => {};
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },
@@ -81,21 +86,25 @@ const fn = async (a?: any): Promise<void> => {};
                                             "type": {
                                                 "kind": 134234252,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 25
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 25
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 18,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 41
                             },
@@ -110,6 +119,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         "text": "Promise",
                                         "rawText": "Promise",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 35
                                     },
@@ -125,34 +135,41 @@ const fn = async (a?: any): Promise<void> => {};
                                                     "type": {
                                                         "kind": 138477615,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 40
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 40
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 40
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 512,
                                         "start": 35,
                                         "end": 41
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 41
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 41
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 44
                             },
@@ -163,27 +180,33 @@ const fn = async (a?: any): Promise<void> => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 46
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 47
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 47
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 47
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 47
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -192,6 +215,7 @@ const fn = async (a?: any): Promise<void> => {};
     "source": "const fn = async (a?: any): Promise<void> => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }
@@ -200,9 +224,7 @@ const fn = async (a?: any): Promise<void> => {};
 ### Printed
 
 ```javascript
-
-  const fn = async (a?: any) => {};
-
+const fn = async (a? : any) => {};
 ```
 
 ### Diagnostics

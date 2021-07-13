@@ -22,6 +22,7 @@ class x { "construct\u{6f}r"(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x { "construct\u{6f}r"(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x { "construct\u{6f}r"(){} }
                                     "text": "constructor",
                                     "rawText": "\"construct\\u{6f}r\"",
                                     "flags": 8288,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 28
                                 },
@@ -65,6 +68,7 @@ class x { "construct\u{6f}r"(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 },
@@ -76,31 +80,38 @@ class x { "construct\u{6f}r"(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 31
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 32
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 32
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -109,6 +120,7 @@ class x { "construct\u{6f}r"(){} }
     "source": "class x { \"construct\\u{6f}r\"(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -117,11 +129,9 @@ class x { "construct\u{6f}r"(){} }
 ### Printed
 
 ```javascript
-
-  class x {
-    "\"construct\u{6f}r\""() {}
-  }
-
+class x {
+  "\"construct\u{6f}r\""() {}
+}
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ new async => ok
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new async => ok
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -56,10 +60,12 @@ new async => ok
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 15
         }
@@ -68,6 +74,7 @@ new async => ok
     "source": "new async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

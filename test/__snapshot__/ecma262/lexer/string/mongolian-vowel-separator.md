@@ -28,10 +28,12 @@
                 "text": "᠎",
                 "rawText": "\"\\u180E\"",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -40,6 +42,7 @@
     "source": "\"\\u180E\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -48,9 +51,7 @@
 ### Printed
 
 ```javascript
-
-  "\"\u180E\"";
-
+"\"\u180E\"";
 ```
 
 ### Diagnostics

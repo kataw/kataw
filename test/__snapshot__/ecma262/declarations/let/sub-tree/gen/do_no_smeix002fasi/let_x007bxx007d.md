@@ -27,6 +27,7 @@ do let {x} while (a);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,10 +38,12 @@ do let {x} while (a);
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 6
             },
@@ -55,20 +58,24 @@ do let {x} while (a);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 6,
                 "end": 10
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -77,6 +84,7 @@ do let {x} while (a);
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -85,16 +93,19 @@ do let {x} while (a);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 10,
             "end": 21
         }
@@ -103,6 +114,7 @@ do let {x} while (a);
     "source": "do let {x} while (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

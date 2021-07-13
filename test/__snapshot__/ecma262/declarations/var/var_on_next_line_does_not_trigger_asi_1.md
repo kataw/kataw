@@ -29,6 +29,7 @@ var foo
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,6 +39,7 @@ var foo
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -51,21 +53,25 @@ var foo
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
@@ -74,6 +80,7 @@ var foo
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -82,6 +89,7 @@ var foo
     "source": "export\nvar foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

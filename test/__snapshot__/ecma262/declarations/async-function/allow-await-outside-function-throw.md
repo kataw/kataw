@@ -24,6 +24,7 @@ function a() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function a() {
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -42,6 +44,7 @@ function a() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -56,6 +59,7 @@ function a() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 23
                             },
@@ -64,10 +68,12 @@ function a() {
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 14,
                             "end": 29
                         },
@@ -78,24 +84,29 @@ function a() {
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 29,
                             "end": 31
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -104,6 +115,7 @@ function a() {
     "source": "function a() {\n  return await 1\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -26,12 +26,14 @@ if (true) function f() {} else ;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -42,6 +44,7 @@ if (true) function f() {} else ;
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
@@ -51,6 +54,7 @@ if (true) function f() {} else ;
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -60,6 +64,7 @@ if (true) function f() {} else ;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
@@ -70,31 +75,37 @@ if (true) function f() {} else ;
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 25
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 30
             },
             "alternate": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 32
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -103,6 +114,7 @@ if (true) function f() {} else ;
     "source": "if (true) function f() {} else ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

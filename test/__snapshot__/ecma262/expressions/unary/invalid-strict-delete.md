@@ -25,6 +25,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 97,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -37,6 +38,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 21
                 },
@@ -45,14 +47,17 @@
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 14,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 26
         },
@@ -63,10 +68,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 26,
             "end": 41
         },
@@ -77,6 +84,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 48
                 },
@@ -87,18 +95,22 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 50,
                         "end": 53
                     },
-                    "flags": 32,
-                    "start": 48,
+                    "flags": 48,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 41,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 41,
             "end": 55
         },
@@ -109,10 +121,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 69
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 55,
             "end": 70
         },
@@ -123,6 +137,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 77
                 },
@@ -131,14 +146,17 @@
                     "text": "interface",
                     "rawText": "interface",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 87
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 70,
                 "end": 87
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 70,
             "end": 88
         }
@@ -147,6 +165,7 @@
     "source": "\n\"use strict\"; delete foo;\n\n\"use strict\"; delete (foo);\n\n\"use strict\"; delete interface;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 89
 }

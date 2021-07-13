@@ -22,6 +22,7 @@ x.foo++.bar
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -32,6 +33,7 @@ x.foo++.bar
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -40,18 +42,22 @@ x.foo++.bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 5
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 5
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -62,10 +68,12 @@ x.foo++.bar
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 11
         }
@@ -74,6 +82,7 @@ x.foo++.bar
     "source": "x.foo++.bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

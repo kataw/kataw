@@ -30,6 +30,7 @@ try {
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,6 +46,7 @@ try {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 16
                             },
@@ -54,6 +56,7 @@ try {
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -63,6 +66,7 @@ try {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 19
                             },
@@ -73,24 +77,29 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 22
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
@@ -99,6 +108,7 @@ try {
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 30
                 },
@@ -107,6 +117,7 @@ try {
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 33
                 },
@@ -116,20 +127,24 @@ try {
                         "kind": 249,
                         "statements": [],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 36
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 38
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 38
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -138,6 +153,7 @@ try {
     "source": "try {\n  function f(){}\n} catch (e) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -146,13 +162,9 @@ try {
 ### Printed
 
 ```javascript
-
-  try {
-    function f() {}
-  }
-  catch (e){
-  }
-
+try {
+  function f() {}
+} catch (e) {}
 ```
 
 ### Diagnostics

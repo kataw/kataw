@@ -20,6 +20,7 @@ let \u0275ResourceLoaderImpl_BaseFactory
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,21 +34,25 @@ let \u0275ResourceLoaderImpl_BaseFactory
                             "text": "ɵResourceLoaderImpl_BaseFactory",
                             "rawText": "\\u0275ResourceLoaderImpl_BaseFactory",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 40
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 40
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 40
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -56,6 +61,7 @@ let \u0275ResourceLoaderImpl_BaseFactory
     "source": "let \\u0275ResourceLoaderImpl_BaseFactory",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -64,9 +70,7 @@ let \u0275ResourceLoaderImpl_BaseFactory
 ### Printed
 
 ```javascript
-
-  let \u0275ResourceLoaderImpl_BaseFactory;
-
+let \u0275ResourceLoaderImpl_BaseFactory;
 ```
 
 ### Diagnostics

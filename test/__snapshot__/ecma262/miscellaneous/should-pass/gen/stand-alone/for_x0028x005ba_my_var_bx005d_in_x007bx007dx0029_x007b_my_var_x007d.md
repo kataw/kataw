@@ -27,6 +27,7 @@ for ([a, my_var, b] in {}) { my_var; }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ for ([a, my_var, b] in {}) { my_var; }
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
@@ -48,6 +50,7 @@ for ([a, my_var, b] in {}) { my_var; }
                             "text": "my_var",
                             "rawText": "my_var",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 15
                         },
@@ -56,22 +59,26 @@ for ([a, my_var, b] in {}) { my_var; }
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 19
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -82,10 +89,12 @@ for ([a, my_var, b] in {}) { my_var; }
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 22,
                 "end": 25
             },
@@ -101,23 +110,28 @@ for ([a, my_var, b] in {}) { my_var; }
                                 "text": "my_var",
                                 "rawText": "my_var",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 35
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 28,
                             "end": 36
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 36
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 38
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -126,6 +140,7 @@ for ([a, my_var, b] in {}) { my_var; }
     "source": "for ([a, my_var, b] in {}) { my_var; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -134,11 +149,9 @@ for ([a, my_var, b] in {}) { my_var; }
 ### Printed
 
 ```javascript
-
-  for ([a, my_var, b,] in {}) {
+for ([a, my_var, b] in {}) {
     my_var;
   }
-
 ```
 
 ### Diagnostics

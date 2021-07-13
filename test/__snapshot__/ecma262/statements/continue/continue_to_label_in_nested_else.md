@@ -22,12 +22,14 @@ foo: while (true) if (x); else continue foo;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,12 +38,14 @@ foo: while (true) if (x); else continue foo;
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
                 "expression": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
@@ -50,6 +54,7 @@ foo: while (true) if (x); else continue foo;
                     "ifKeyword": {
                         "kind": 37757019,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
@@ -58,18 +63,21 @@ foo: while (true) if (x); else continue foo;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 23
                     },
                     "consequent": {
                         "kind": 168,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 25
                     },
                     "elseKeyword": {
                         "kind": 4194389,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 30
                     },
@@ -78,6 +86,7 @@ foo: while (true) if (x); else continue foo;
                         "continueKeyword": {
                             "kind": 37757009,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 39
                         },
@@ -86,22 +95,27 @@ foo: while (true) if (x); else continue foo;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 44
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 44
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -110,6 +124,7 @@ foo: while (true) if (x); else continue foo;
     "source": "foo: while (true) if (x); else continue foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -118,13 +133,8 @@ foo: while (true) if (x); else continue foo;
 ### Printed
 
 ```javascript
-
-  foo: while (true)
-    if (x)
-      ;
-    else
-      continue foo;
-
+foo:  while (true) if (x);
+  else  continue foo;
 ```
 
 ### Diagnostics

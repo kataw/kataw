@@ -39,6 +39,7 @@ const [...] = obj;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -57,6 +58,7 @@ const [...] = obj;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -65,6 +67,7 @@ const [...] = obj;
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -72,16 +75,19 @@ const [...] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
@@ -91,19 +97,23 @@ const [...] = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 17
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -112,6 +122,7 @@ const [...] = obj;
     "source": "const [...] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

@@ -27,10 +27,12 @@
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -41,10 +43,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 18
         }
@@ -53,6 +57,7 @@
     "source": "\\u0064ebugger = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

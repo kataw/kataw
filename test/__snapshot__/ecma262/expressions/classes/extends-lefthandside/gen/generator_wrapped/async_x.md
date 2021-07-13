@@ -33,12 +33,14 @@ x {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -47,6 +49,7 @@ x {}
                 "text": "P",
                 "rawText": "P",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -56,6 +59,7 @@ x {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -72,6 +76,7 @@ x {}
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -80,6 +85,7 @@ x {}
                                 "text": "D",
                                 "rawText": "D",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -91,6 +97,7 @@ x {}
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 32
                                     },
@@ -99,11 +106,13 @@ x {}
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 38
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 38
                                 },
@@ -111,14 +120,17 @@ x {}
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 24
                                 },
                                 "flags": 24,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 24
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 38
                         },
@@ -129,10 +141,12 @@ x {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 40
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 38,
                             "end": 40
                         },
@@ -142,24 +156,29 @@ x {}
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 42
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 43
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 43
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 45
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -168,6 +187,7 @@ x {}
     "source": "function *P(){\n  class D extends async\nx {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

@@ -27,6 +27,7 @@ for ( a > b instanceof c ;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,12 +40,14 @@ for ( a > b instanceof c ;;);
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 34883,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -53,16 +56,19 @@ for ( a > b instanceof c ;;);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 22
                 },
@@ -71,10 +77,12 @@ for ( a > b instanceof c ;;);
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 24
             },
@@ -83,10 +91,12 @@ for ( a > b instanceof c ;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -95,6 +105,7 @@ for ( a > b instanceof c ;;);
     "source": "for ( a > b instanceof c ;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -103,10 +114,7 @@ for ( a > b instanceof c ;;);
 ### Printed
 
 ```javascript
-
-  for (a > b instanceof c;;)
-    ;
-
+for (a > b instanceof c; ; );
 ```
 
 ### Diagnostics

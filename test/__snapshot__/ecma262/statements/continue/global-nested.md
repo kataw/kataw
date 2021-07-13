@@ -20,6 +20,7 @@ do     if (x) continue   ; while(true);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ do     if (x) continue   ; while(true);
                 "ifKeyword": {
                     "kind": 37757019,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 9
                 },
@@ -36,6 +38,7 @@ do     if (x) continue   ; while(true);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
@@ -44,33 +47,39 @@ do     if (x) continue   ; while(true);
                     "continueKeyword": {
                         "kind": 37757009,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 22
                     },
                     "label": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 26
                 },
                 "elseKeyword": null,
                 "alternate": null,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 26
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 32
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 37
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -79,6 +88,7 @@ do     if (x) continue   ; while(true);
     "source": "do     if (x) continue   ; while(true);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }
@@ -87,11 +97,8 @@ do     if (x) continue   ; while(true);
 ### Printed
 
 ```javascript
-
-  do
-    if (x)
-      continue; while (true)
-
+do  if (x) continue;
+while (true);
 ```
 
 ### Diagnostics

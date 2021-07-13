@@ -31,6 +31,7 @@ a(
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -39,14 +40,17 @@ a(
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -59,6 +63,7 @@ a(
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -67,14 +72,17 @@ a(
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 9,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 9,
             "end": 79
         }
@@ -83,6 +91,7 @@ a(
     "source": "a(/*1*/);\na(\n    /*first*/\n    // foo\n    /*middle*/\n    // bar\n    /*last*/\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 79
 }
@@ -91,15 +100,10 @@ a(
 ### Printed
 
 ```javascript
-
-  a(/*1*/);
-  a(
-   /*first*/
-  // foo
-  /*middle*/
-  // bar
-  /*last*/
-  );
+a(/*1*/ );
+a(/*first*/ // foo
+/*middle*/ // bar
+/*last*/ );
 
 ```
 

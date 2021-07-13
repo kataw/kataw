@@ -28,6 +28,7 @@ for (let a;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (let a;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -49,21 +51,25 @@ for (let a;;);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -72,10 +78,12 @@ for (let a;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -84,6 +92,7 @@ for (let a;;);
     "source": "for (let a;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -92,10 +101,7 @@ for (let a;;);
 ### Printed
 
 ```javascript
-
-  for (let a;;)
-    ;
-
+for (let a; ; );
 ```
 
 ### Diagnostics

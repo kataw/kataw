@@ -22,12 +22,14 @@ function *f(){  ({*g(x=yield){}})  }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *f(){  ({*g(x=yield){}})  }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *f(){  ({*g(x=yield){}})  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -69,6 +73,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                 "asteriskToken": {
                                                     "kind": 67143222,
                                                     "flags": 64,
+                                                    "transformFlags": 32,
                                                     "start": 18,
                                                     "end": 19
                                                 },
@@ -81,6 +86,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                         "text": "g",
                                                         "rawText": "g",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 20
                                                     },
@@ -96,6 +102,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 21,
                                                                     "end": 22
                                                                 },
@@ -106,6 +113,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 23,
                                                                         "end": 28
                                                                     },
@@ -113,16 +121,19 @@ function *f(){  ({*g(x=yield){}})  }
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
+                                                                    "transformFlags": 4096,
                                                                     "start": 23,
                                                                     "end": 28
                                                                 },
                                                                 "flags": 34,
+                                                                "transformFlags": 4096,
                                                                 "start": 21,
                                                                 "end": 28
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 162,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 29
                                                     },
@@ -134,50 +145,61 @@ function *f(){  ({*g(x=yield){}})  }
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 30
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 31
                                                     },
                                                     "flags": 160,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 31
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 31
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 31
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 17,
                                     "end": 32
                                 },
-                                "flags": 32,
-                                "start": 14,
+                                "flags": 14,
+                                "transformFlags": 0,
+                                "start": 34,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 36
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -186,6 +208,7 @@ function *f(){  ({*g(x=yield){}})  }
     "source": "function *f(){  ({*g(x=yield){}})  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

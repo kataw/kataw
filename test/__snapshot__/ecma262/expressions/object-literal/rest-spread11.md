@@ -20,6 +20,7 @@ for ({...a,} in []);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ for ({...a,} in []);
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
@@ -41,26 +43,31 @@ for ({...a,} in []);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         }
                     ],
                     "trailingComma": true,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 12
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -71,20 +78,24 @@ for ({...a,} in []);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 15,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -93,6 +104,7 @@ for ({...a,} in []);
     "source": "for ({...a,} in []);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

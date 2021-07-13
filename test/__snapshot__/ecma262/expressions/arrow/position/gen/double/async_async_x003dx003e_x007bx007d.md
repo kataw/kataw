@@ -29,6 +29,7 @@ async async => {} async async => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async async => {} async async => {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
@@ -45,6 +47,7 @@ async async => {} async async => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -55,18 +58,22 @@ async async => {} async async => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         },
@@ -77,6 +84,7 @@ async async => {} async async => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 23
                 },
@@ -86,6 +94,7 @@ async async => {} async async => {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 29
                 },
@@ -93,6 +102,7 @@ async async => {} async async => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
@@ -103,18 +113,22 @@ async async => {} async async => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 35
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 35
         }
@@ -123,6 +137,7 @@ async async => {} async async => {}
     "source": "async async => {} async async => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

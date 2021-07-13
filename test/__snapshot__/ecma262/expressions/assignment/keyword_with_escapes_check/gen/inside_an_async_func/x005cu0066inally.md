@@ -29,6 +29,7 @@ async () => {  \u0066inally = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async () => {  \u0066inally = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async () => {  \u0066inally = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -63,10 +66,12 @@ async () => {  \u0066inally = x  }
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 13
                                     },
                                     "flags": 16400,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 13
                                 },
@@ -74,6 +79,7 @@ async () => {  \u0066inally = x  }
                                 "finallyKeyword": {
                                     "kind": 37757016,
                                     "flags": 16448,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 27
                                 },
@@ -83,31 +89,38 @@ async () => {  \u0066inally = x  }
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 27
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 27
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -118,10 +131,12 @@ async () => {  \u0066inally = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 31
         }
@@ -130,6 +145,7 @@ async () => {  \u0066inally = x  }
     "source": "async () => {  \\u0066inally = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

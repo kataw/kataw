@@ -32,6 +32,7 @@ x, a instanceof b > c
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -44,12 +45,14 @@ x, a instanceof b > c
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 4
                             },
                             "operatorToken": {
                                 "kind": 4229173,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 15
                             },
@@ -58,16 +61,19 @@ x, a instanceof b > c
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 2,
                             "end": 17
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -76,19 +82,23 @@ x, a instanceof b > c
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 2,
                         "end": 21
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -97,6 +107,7 @@ x, a instanceof b > c
     "source": "x, a instanceof b > c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -105,9 +116,7 @@ x, a instanceof b > c
 ### Printed
 
 ```javascript
-
-  x, a instanceof b > c;
-
+x, a instanceof b > c;
 ```
 
 ### Diagnostics

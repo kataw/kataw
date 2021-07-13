@@ -30,6 +30,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "text": "num2",
                             "rawText": "num2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
@@ -55,6 +57,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                                 "typeOfKeyword": {
                                     "kind": 138477613,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 16
                                 },
@@ -65,19 +68,23 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                                         "text": "num1",
                                         "rawText": "num1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 21
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 21
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 21
                         },
@@ -86,19 +93,23 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "text": 3.14,
                             "rawText": "3.14",
                             "flags": 32864,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -107,6 +118,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 48
             },
@@ -120,6 +132,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "text": "num3",
                             "rawText": "num3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 53
                         },
@@ -132,6 +145,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                                 "typeOfKeyword": {
                                     "kind": 138477613,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 67
                                 },
@@ -142,19 +156,23 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                                         "text": "num1",
                                         "rawText": "num1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 67,
                                         "end": 78
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 67,
                                     "end": 78
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 78
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 78
                         },
@@ -163,19 +181,23 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "text": 3.14,
                             "rawText": "3.14",
                             "flags": 32864,
+                            "transformFlags": 0,
                             "start": 80,
                             "end": 85
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 48,
                         "end": 85
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 85
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 29,
             "end": 86
         }
@@ -184,6 +206,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
     "source": "let num2: typeof num1 = 3.14;     // Works!\n\nlet num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 100
 }
@@ -192,9 +215,10 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
 ### Printed
 
 ```javascript
+let num2: typeof num1 = 3.14; // Works!
 
-  let num2: typeof num1 = 3.14; // Works!
-  let num3:/*1*/ typeof/*2*/ num1 = 3.14; // Works!
+let num3:/*1*/  typeof /*2*/ num1 = 3.14; // Works!
+
 
 ```
 

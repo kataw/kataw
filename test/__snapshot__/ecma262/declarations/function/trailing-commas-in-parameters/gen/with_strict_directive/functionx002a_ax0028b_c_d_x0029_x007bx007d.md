@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,12 +39,14 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 22,
                 "end": 23
             },
@@ -52,6 +55,7 @@
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
@@ -64,6 +68,7 @@
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 27
                     },
@@ -72,6 +77,7 @@
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 29
                     },
@@ -80,12 +86,14 @@
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 31
                     }
                 ],
                 "trailingComma": true,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 32
             },
@@ -96,15 +104,18 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 13,
             "end": 36
         }
@@ -113,6 +124,7 @@
     "source": "'use strict'; function* a(b,c,d,) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -122,9 +134,8 @@
 
 ```javascript
 
-  "'use strict'";
-  function* a(b, c, d,) {}
-
+"'use strict'";
+function *a(b, c, d) {}
 ```
 
 ### Diagnostics

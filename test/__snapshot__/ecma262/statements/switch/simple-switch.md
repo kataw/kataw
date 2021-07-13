@@ -28,6 +28,7 @@ switch (x) {}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ switch (x) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -43,10 +45,12 @@ switch (x) {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -55,6 +59,7 @@ switch (x) {}
     "source": "switch (x) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -63,10 +68,7 @@ switch (x) {}
 ### Printed
 
 ```javascript
-
-  switch (x) {
-  }
-
+switch (x) {}
 ```
 
 ### Diagnostics

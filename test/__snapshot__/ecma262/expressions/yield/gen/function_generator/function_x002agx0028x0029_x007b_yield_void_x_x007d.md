@@ -29,12 +29,14 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -52,6 +55,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -68,6 +72,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -77,6 +82,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -86,6 +92,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -102,12 +109,14 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 48
                                             },
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 48,
                                                 "end": 50
                                             },
@@ -116,6 +125,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 51
                                             },
@@ -125,6 +135,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 52
                                             },
@@ -141,6 +152,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 55,
                                                                     "end": 61
                                                                 },
@@ -151,6 +163,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 61,
                                                                         "end": 66
                                                                     },
@@ -159,60 +172,73 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 66,
                                                                         "end": 68
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 1024,
                                                                     "start": 61,
                                                                     "end": 68
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 55,
                                                                 "end": 68
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 55,
                                                             "end": 68
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 55,
                                                     "end": 68
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 53,
                                                 "end": 70
                                             },
                                             "returnType": null,
                                             "flags": 272,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 70
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 70
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 72
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 72
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 72
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 73
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 73
         }
@@ -221,6 +247,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
     "source": "function * gen() { function not_gen() { function *g() { yield void x } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }
@@ -229,15 +256,13 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
 ### Printed
 
 ```javascript
-
-  function* gen() {
-    function not_gen() {
-      function* g() {
-        yield  void  x;
-      }
+function *gen() {
+  function not_gen() {
+    function *g() {
+      yield void x;
     }
   }
-
+}
 ```
 
 ### Diagnostics

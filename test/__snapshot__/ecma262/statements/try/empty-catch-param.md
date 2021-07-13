@@ -20,6 +20,7 @@ try { } catch ({}) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try { } catch ({}) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
@@ -41,6 +44,7 @@ try { } catch ({}) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 13
                 },
@@ -51,10 +55,12 @@ try { } catch ({}) {}
                         "properties": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -64,20 +70,24 @@ try { } catch ({}) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 21
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -86,6 +96,7 @@ try { } catch ({}) {}
     "source": "try { } catch ({}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -94,10 +105,7 @@ try { } catch ({}) {}
 ### Printed
 
 ```javascript
-
-  try { }
-  catch ({ }){ }
-
+try {} catch ({}) {}
 ```
 
 ### Diagnostics

@@ -31,12 +31,14 @@ assignmentResult = { x: x = yield } = value
                     "text": "assignmentResult",
                     "rawText": "assignmentResult",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 16
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
@@ -55,6 +57,7 @@ assignmentResult = { x: x = yield } = value
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -65,12 +68,14 @@ assignmentResult = { x: x = yield } = value
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 27
                                         },
@@ -79,30 +84,36 @@ assignmentResult = { x: x = yield } = value
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 20,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 20,
                                     "end": 33
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 33
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 18,
                         "end": 35
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 37
                     },
@@ -111,18 +122,22 @@ assignmentResult = { x: x = yield } = value
                         "text": "value",
                         "rawText": "value",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 43
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 18,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 43
         }
@@ -131,6 +146,7 @@ assignmentResult = { x: x = yield } = value
     "source": "assignmentResult = { x: x = yield } = value",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -139,9 +155,7 @@ assignmentResult = { x: x = yield } = value
 ### Printed
 
 ```javascript
-
-  assignmentResult = { x: x = yield } = value;
-
+assignmentResult = { x: x = yield } = value;
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ var Person = makeClass(
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
@@ -41,6 +42,7 @@ var Person = makeClass(
                             "text": "Person",
                             "rawText": "Person",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 36
                         },
@@ -52,6 +54,7 @@ var Person = makeClass(
                                 "text": "makeClass",
                                 "rawText": "makeClass",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 48
                             },
@@ -65,33 +68,40 @@ var Person = makeClass(
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 17,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 86
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 49,
                                         "end": 91
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 91
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 38,
                             "end": 93
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 93
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 93
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 94
         }
@@ -100,6 +110,7 @@ var Person = makeClass(
     "source": "// @removeComments: false\nvar Person = makeClass(\n   /**\n     @scope Person\n   */\n   {\n   }\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 94
 }
@@ -109,12 +120,10 @@ var Person = makeClass(
 
 ```javascript
 // @removeComments: false
-  var Person = makeClass(
-   /**
+// @removeComments: false
+var Person = makeClass(/**
      @scope Person
-   */
-  {});
-
+   */ {});
 ```
 
 ### Diagnostics

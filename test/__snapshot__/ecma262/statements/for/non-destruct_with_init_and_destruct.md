@@ -20,6 +20,7 @@ for (let foo = arr, [bar] = arr2;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let foo = arr, [bar] = arr2;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -41,6 +43,7 @@ for (let foo = arr, [bar] = arr2;;);
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
@@ -50,10 +53,12 @@ for (let foo = arr, [bar] = arr2;;);
                                 "text": "arr",
                                 "rawText": "arr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 18
                         },
@@ -69,16 +74,19 @@ for (let foo = arr, [bar] = arr2;;);
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 24
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 25
                             },
@@ -88,19 +96,23 @@ for (let foo = arr, [bar] = arr2;;);
                                 "text": "arr2",
                                 "rawText": "arr2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 19,
                             "end": 32
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 32
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 32
             },
@@ -109,10 +121,12 @@ for (let foo = arr, [bar] = arr2;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 36
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -121,6 +135,7 @@ for (let foo = arr, [bar] = arr2;;);
     "source": "for (let foo = arr, [bar] = arr2;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -129,10 +144,7 @@ for (let foo = arr, [bar] = arr2;;);
 ### Printed
 
 ```javascript
-
-  for (let foo = arr, [bar] = arr2;;)
-    ;
-
+for (let foo = arr, [bar] = arr2; ; );
 ```
 
 ### Diagnostics

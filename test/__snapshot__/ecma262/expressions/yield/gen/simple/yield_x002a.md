@@ -31,12 +31,14 @@ yield *
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 5,
                     "end": 7
                 },
@@ -45,14 +47,17 @@ yield *
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -61,6 +66,7 @@ yield *
     "source": "yield *",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

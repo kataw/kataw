@@ -36,6 +36,7 @@
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 65,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 12
                         },
@@ -45,6 +46,7 @@
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
@@ -54,6 +56,7 @@
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
@@ -64,24 +67,29 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 18
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -90,6 +98,7 @@
     "source": "{\n  function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -98,11 +107,9 @@
 ### Printed
 
 ```javascript
-
-  {
-    function f() {}
-  }
-
+{
+  function f() {}
+}
 ```
 
 ### Diagnostics

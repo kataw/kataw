@@ -26,12 +26,14 @@ export default async function f(){} foo
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -41,12 +43,14 @@ export default async function f(){} foo
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 29
                 },
@@ -56,6 +60,7 @@ export default async function f(){} foo
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
@@ -65,6 +70,7 @@ export default async function f(){} foo
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 32
                 },
@@ -75,19 +81,23 @@ export default async function f(){} foo
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 35
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -98,10 +108,12 @@ export default async function f(){} foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 35,
             "end": 39
         }
@@ -110,6 +122,7 @@ export default async function f(){} foo
     "source": "export default async function f(){} foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }
@@ -118,9 +131,8 @@ export default async function f(){} foo
 ### Printed
 
 ```javascript
-
-  export default async function f() {};
-  foo;
+export default async function f() {};
+foo;
 
 ```
 

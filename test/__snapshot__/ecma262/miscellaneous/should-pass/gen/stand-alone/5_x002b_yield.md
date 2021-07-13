@@ -31,12 +31,14 @@
                     "text": 5,
                     "rawText": "5",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,14 +47,17 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -61,6 +66,7 @@
     "source": "5 + yield",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -69,9 +75,7 @@
 ### Printed
 
 ```javascript
-
-  5 + yield;
-
+5 + yield;
 ```
 
 ### Diagnostics

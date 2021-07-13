@@ -26,6 +26,7 @@ true;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -39,21 +40,25 @@ true;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 4,
                         "end": 6
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -66,26 +71,31 @@ true;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "right": {
                     "kind": 24752947,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 1,
+                "transformFlags": 128,
                 "start": 7,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 18
         }
@@ -94,6 +104,7 @@ true;
     "source": "\nvar x;\n\nx\n=\ntrue;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -102,9 +113,8 @@ true;
 ### Printed
 
 ```javascript
-
-  var x;
-  x = true;
+var x;
+x = true;
 
 ```
 

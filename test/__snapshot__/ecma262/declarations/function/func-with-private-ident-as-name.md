@@ -22,6 +22,7 @@ function #private(): {} {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function #private(): {} {}
                 "text": "#private",
                 "rawText": "#private",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
@@ -40,6 +42,7 @@ function #private(): {} {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
@@ -50,10 +53,12 @@ function #private(): {} {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
@@ -66,14 +71,17 @@ function #private(): {} {}
                     "properties": [],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -82,6 +90,7 @@ function #private(): {} {}
     "source": "function #private(): {} {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

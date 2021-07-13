@@ -30,6 +30,7 @@ function b(x: { (z: number): string }): (z: number) => number {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -54,6 +56,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -81,6 +84,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 18
                                                     },
@@ -92,20 +96,24 @@ function b(x: { (z: number): string }): (z: number) => number {
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 26
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 26
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 26
                                         },
@@ -116,35 +124,42 @@ function b(x: { (z: number): string }): (z: number) => number {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 35
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 35
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 37
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 37
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 37
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 37
             },
@@ -159,6 +174,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 72
                             },
@@ -167,19 +183,23 @@ function b(x: { (z: number): string }): (z: number) => number {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 74
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 63,
                             "end": 75
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 75
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 77
             },
@@ -201,6 +221,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 42
                                 },
@@ -212,26 +233,31 @@ function b(x: { (z: number): string }): (z: number) => number {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 50
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 50
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 50
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 50
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 54
                     },
@@ -242,22 +268,27 @@ function b(x: { (z: number): string }): (z: number) => number {
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 61
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 54,
                         "end": 61
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 61
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 77
         }
@@ -266,6 +297,7 @@ function b(x: { (z: number): string }): (z: number) => number {
     "source": "function b(x: { (z: number): string }): (z: number) => number {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 77
 }
@@ -274,11 +306,9 @@ function b(x: { (z: number): string }): (z: number) => number {
 ### Printed
 
 ```javascript
-
-  function b(x: { (z: number): string }): (z: number) => number {
-    return x;
-  }
-
+function b(x: { (z: number): string }): (z: number) => number {
+  return x;
+}
 ```
 
 ### Diagnostics

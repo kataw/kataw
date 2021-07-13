@@ -29,6 +29,7 @@ class A extends arguments {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A extends arguments {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A extends arguments {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class A extends arguments {}
                         "text": "arguments",
                         "rawText": "arguments",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 25
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 25
                 },
@@ -68,14 +73,17 @@ class A extends arguments {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -84,6 +92,7 @@ class A extends arguments {}
     "source": "class A extends arguments {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -92,10 +101,7 @@ class A extends arguments {}
 ### Printed
 
 ```javascript
-
-  class A extends arguments {
-  }
-
+class A extends arguments {}
 ```
 
 ### Diagnostics

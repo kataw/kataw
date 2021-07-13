@@ -29,6 +29,7 @@ class x {static yield(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static yield(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class x {static yield(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -68,6 +71,7 @@ class x {static yield(){}}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -77,6 +81,7 @@ class x {static yield(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -88,31 +93,38 @@ class x {static yield(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 25
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -121,6 +133,7 @@ class x {static yield(){}}
     "source": "class x {static yield(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -129,11 +142,9 @@ class x {static yield(){}}
 ### Printed
 
 ```javascript
-
-  class x {
-    static yield() {}
-  }
-
+class x {
+  static yield() {}
+}
 ```
 
 ### Diagnostics

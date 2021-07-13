@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -51,6 +52,7 @@
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 14
                                     },
@@ -59,6 +61,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
+                                        "transformFlags": 32,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -69,6 +72,7 @@
                                             "text": "#arguments",
                                             "rawText": "#arguments",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 26
                                         },
@@ -78,6 +82,7 @@
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 28
                                         },
@@ -89,39 +94,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 30
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 31
                                         },
                                         "flags": 384,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 31
                                     },
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 31
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 31
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 35
         }
@@ -130,6 +144,7 @@
     "source": "(class { async *#arguments() {} });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -138,11 +153,9 @@
 ### Printed
 
 ```javascript
-
-  (class {
-    async* #arguments() {}
+(class {
+    async *#arguments() {}
   });
-
 ```
 
 ### Diagnostics

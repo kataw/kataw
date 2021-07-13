@@ -31,12 +31,14 @@ a = async function() { g(await) }
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,12 +47,14 @@ a = async function() { g(await) }
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 18
                     },
@@ -62,6 +66,7 @@ a = async function() { g(await) }
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
@@ -80,6 +85,7 @@ a = async function() { g(await) }
                                             "text": "g",
                                             "rawText": "g",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
                                         },
@@ -91,6 +97,7 @@ a = async function() { g(await) }
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 30
                                                     },
@@ -99,46 +106,56 @@ a = async function() { g(await) }
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 30
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 25,
                                                     "end": 30
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 30
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 22,
                                         "end": 31
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4096,
                                     "start": 22,
                                     "end": 31
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 31
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 33
                     },
                     "returnType": null,
                     "flags": 160,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 33
         }
@@ -147,6 +164,7 @@ a = async function() { g(await) }
     "source": "a = async function() { g(await) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

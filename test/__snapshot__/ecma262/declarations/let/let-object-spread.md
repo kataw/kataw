@@ -26,6 +26,7 @@ let tests = [
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ let tests = [
                             "text": "tests",
                             "rawText": "tests",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -58,6 +60,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 20
                                                     },
@@ -66,10 +69,12 @@ let tests = [
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 21
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 21
                                                 },
@@ -78,6 +83,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 22,
                                                         "end": 26
                                                     },
@@ -86,20 +92,24 @@ let tests = [
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 27
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 27
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 27
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 13,
                                         "end": 28
                                     },
@@ -113,6 +123,7 @@ let tests = [
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 33
                                                 },
@@ -121,6 +132,7 @@ let tests = [
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 36
                                                 },
@@ -129,6 +141,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 41
                                                     },
@@ -137,20 +150,24 @@ let tests = [
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 42
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 42
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 42
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 29,
                                         "end": 43
                                     },
@@ -164,6 +181,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 50
                                                     },
@@ -172,10 +190,12 @@ let tests = [
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 51
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 47,
                                                     "end": 51
                                                 },
@@ -184,6 +204,7 @@ let tests = [
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 54
                                                 },
@@ -192,16 +213,19 @@ let tests = [
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 55,
                                                     "end": 57
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 57
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 44,
                                         "end": 58
                                     },
@@ -215,6 +239,7 @@ let tests = [
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 62,
                                                     "end": 63
                                                 },
@@ -223,6 +248,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 64,
                                                         "end": 68
                                                     },
@@ -231,10 +257,12 @@ let tests = [
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 68,
                                                         "end": 69
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 64,
                                                     "end": 69
                                                 },
@@ -243,16 +271,19 @@ let tests = [
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 70,
                                                     "end": 72
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 62,
                                             "end": 72
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 59,
                                         "end": 73
                                     },
@@ -266,6 +297,7 @@ let tests = [
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 77,
                                                     "end": 78
                                                 },
@@ -274,6 +306,7 @@ let tests = [
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 79,
                                                     "end": 81
                                                 },
@@ -282,6 +315,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 82,
                                                         "end": 86
                                                     },
@@ -290,10 +324,12 @@ let tests = [
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 86,
                                                         "end": 87
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 82,
                                                     "end": 87
                                                 },
@@ -302,6 +338,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 88,
                                                         "end": 92
                                                     },
@@ -310,10 +347,12 @@ let tests = [
                                                         "text": "d",
                                                         "rawText": "d",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 92,
                                                         "end": 93
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 88,
                                                     "end": 93
                                                 },
@@ -322,6 +361,7 @@ let tests = [
                                                     "text": "e",
                                                     "rawText": "e",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 94,
                                                     "end": 96
                                                 },
@@ -330,6 +370,7 @@ let tests = [
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 97,
                                                     "end": 99
                                                 },
@@ -338,6 +379,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 100,
                                                         "end": 104
                                                     },
@@ -346,10 +388,12 @@ let tests = [
                                                         "text": "g",
                                                         "rawText": "g",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 104,
                                                         "end": 105
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 100,
                                                     "end": 105
                                                 },
@@ -358,6 +402,7 @@ let tests = [
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 106,
                                                         "end": 110
                                                     },
@@ -366,10 +411,12 @@ let tests = [
                                                         "text": "h",
                                                         "rawText": "h",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 110,
                                                         "end": 111
                                                     },
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 106,
                                                     "end": 111
                                                 },
@@ -378,6 +425,7 @@ let tests = [
                                                     "text": "i",
                                                     "rawText": "i",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 112,
                                                     "end": 114
                                                 },
@@ -386,39 +434,47 @@ let tests = [
                                                     "text": "j",
                                                     "rawText": "j",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 115,
                                                     "end": 117
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 77,
                                             "end": 117
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 74,
                                         "end": 118
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 119
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 11,
                             "end": 121
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 121
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 121
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 122
         }
@@ -427,6 +483,7 @@ let tests = [
     "source": "let tests = [\n  {...a, ...b},\n\t{a, b, ...c},\n\t{...a, b, c},\n\t{a, ...b, c},\n\t{a, b, ...c, ...d, e, f, ...g, ...h, i, j},\n];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 122
 }
@@ -435,15 +492,13 @@ let tests = [
 ### Printed
 
 ```javascript
-
-  let tests = [
+let tests = [
     { ...a, ...b },
     { a, b, ...c },
     { ...a, b, c },
     { a, ...b, c },
-    { a, b, ...c, ...d, e, f, ...g, ...h, i, j },
+    { a, b, ...c, ...d, e, f, ...g, ...h, i, j },,
   ];
-
 ```
 
 ### Diagnostics

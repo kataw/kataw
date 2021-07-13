@@ -22,10 +22,12 @@ foo;bar;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -36,10 +38,12 @@ foo;bar;
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 8
         }
@@ -48,6 +52,7 @@ foo;bar;
     "source": "foo;bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -56,10 +61,7 @@ foo;bar;
 ### Printed
 
 ```javascript
-
-  foo;
-  bar;
-
+foo;bar;
 ```
 
 ### Diagnostics

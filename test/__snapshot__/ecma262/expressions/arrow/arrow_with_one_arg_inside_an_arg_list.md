@@ -24,6 +24,7 @@ f(((a) => a + b)(1, 4), 5);
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -46,12 +47,14 @@ f(((a) => a + b)(1, 4), 5);
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 4,
                                                 "end": 5
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 6
                                     },
@@ -59,6 +62,7 @@ f(((a) => a + b)(1, 4), 5);
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 9
                                     },
@@ -69,12 +73,14 @@ f(((a) => a + b)(1, 4), 5);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -83,19 +89,23 @@ f(((a) => a + b)(1, 4), 5);
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 9,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 15
                                 },
-                                "flags": 32,
-                                "start": 2,
+                                "flags": 2,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 16
                             },
                             "argumentList": {
@@ -106,6 +116,7 @@ f(((a) => a + b)(1, 4), 5);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 18
                                     },
@@ -114,16 +125,19 @@ f(((a) => a + b)(1, 4), 5);
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 2,
                             "end": 22
                         },
@@ -132,20 +146,24 @@ f(((a) => a + b)(1, 4), 5);
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 25
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -154,6 +172,7 @@ f(((a) => a + b)(1, 4), 5);
     "source": "f(((a) => a + b)(1, 4), 5);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -162,9 +181,7 @@ f(((a) => a + b)(1, 4), 5);
 ### Printed
 
 ```javascript
-
-  f(((a) => a + b)(1, 4), 5);
-
+f(((a) => a + b)(1, 4), 5);
 ```
 
 ### Diagnostics

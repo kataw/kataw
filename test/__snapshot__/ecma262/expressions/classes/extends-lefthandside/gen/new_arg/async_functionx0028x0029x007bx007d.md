@@ -29,6 +29,7 @@ new async function(){}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,12 +38,14 @@ new async function(){}
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 18
                     },
@@ -54,6 +57,7 @@ new async function(){}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
@@ -64,24 +68,29 @@ new async function(){}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "returnType": null,
                     "flags": 160,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 22
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -90,6 +99,7 @@ new async function(){}
     "source": "new async function(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -98,9 +108,7 @@ new async function(){}
 ### Printed
 
 ```javascript
-
-  new async function () {};
-
+new async function () {};
 ```
 
 ### Diagnostics

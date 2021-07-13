@@ -24,6 +24,7 @@ get
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,6 +33,7 @@ get
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -53,6 +55,7 @@ get
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -60,6 +63,7 @@ get
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 16
                         },
@@ -74,6 +78,7 @@ get
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -81,6 +86,7 @@ get
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 16,
                             "end": 20
                         },
@@ -100,6 +106,7 @@ get
                                     "text": "#aaa",
                                     "rawText": "#aaa",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 25
                                 },
@@ -109,6 +116,7 @@ get
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 27
                                 },
@@ -120,31 +128,38 @@ get
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 29
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 29
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -153,6 +168,7 @@ get
     "source": "class C { static\nget\n#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -161,13 +177,11 @@ get
 ### Printed
 
 ```javascript
-
-  class C {
-    static
-    get
-    #aaa() {}
-  }
-
+class C {
+  static;
+  get;
+  #aaa() {}
+}
 ```
 
 ### Diagnostics

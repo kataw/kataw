@@ -50,12 +50,14 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 4
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
@@ -64,10 +66,12 @@
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1,
                                 "end": 8
                             },
@@ -78,12 +82,14 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -92,26 +98,31 @@
                                     "text": "B",
                                     "rawText": "B",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 9,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -120,14 +131,17 @@
                     "text": "arr",
                     "rawText": "arr",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -136,6 +150,7 @@
     "source": "[foo = A, bar = B] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -144,9 +159,7 @@
 ### Printed
 
 ```javascript
-
-  [foo = A, bar = B,] = arr;
-
+[foo = A, bar = B] = arr;
 ```
 
 ### Diagnostics

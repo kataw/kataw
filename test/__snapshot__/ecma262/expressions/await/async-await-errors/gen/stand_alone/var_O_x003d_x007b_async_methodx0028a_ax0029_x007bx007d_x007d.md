@@ -28,6 +28,7 @@ var O = { async method(a, a) {} }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var O = { async method(a, a) {} }
                             "text": "O",
                             "rawText": "O",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -55,6 +57,7 @@ var O = { async method(a, a) {} }
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 15
                                         },
@@ -68,6 +71,7 @@ var O = { async method(a, a) {} }
                                                 "text": "method",
                                                 "rawText": "method",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 22
                                             },
@@ -80,6 +84,7 @@ var O = { async method(a, a) {} }
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 24
                                                     },
@@ -88,12 +93,14 @@ var O = { async method(a, a) {} }
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 27
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 352,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 28
                                             },
@@ -105,41 +112,50 @@ var O = { async method(a, a) {} }
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 30
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 31
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 31
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 33
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -148,6 +164,7 @@ var O = { async method(a, a) {} }
     "source": "var O = { async method(a, a) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

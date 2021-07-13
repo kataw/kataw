@@ -24,6 +24,7 @@ async (yield)
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -35,20 +36,24 @@ async (yield)
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -57,6 +62,7 @@ async (yield)
     "source": "async (yield)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -65,9 +71,7 @@ async (yield)
 ### Printed
 
 ```javascript
-
-  async(yield);
-
+async(yield);
 ```
 
 ### Diagnostics

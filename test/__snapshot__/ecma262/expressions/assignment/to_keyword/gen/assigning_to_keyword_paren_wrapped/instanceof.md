@@ -35,12 +35,14 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 1
                         },
                         "operatorToken": {
                             "kind": 4229173,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 11
                         },
@@ -49,20 +51,24 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 11
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 1,
                         "end": 11
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -71,14 +77,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -87,6 +96,7 @@
     "source": "(instanceof = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

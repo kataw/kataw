@@ -29,6 +29,7 @@ type T = { proto p: string }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type T = { proto p: string }
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type T = { proto p: string }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type T = { proto p: string }
                                 "text": "proto",
                                 "rawText": "proto",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
@@ -80,33 +84,40 @@ type T = { proto p: string }
                                         "text": "p",
                                         "rawText": "p",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 18
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 18
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -117,10 +128,12 @@ type T = { proto p: string }
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 26
         }
@@ -129,6 +142,7 @@ type T = { proto p: string }
     "source": "type T = { proto p: string }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

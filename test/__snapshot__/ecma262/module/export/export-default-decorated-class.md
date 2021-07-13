@@ -27,12 +27,14 @@ export default
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -47,6 +49,7 @@ export default
                             "decoratorToken": {
                                 "kind": 34611453,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
@@ -55,21 +58,25 @@ export default
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 19
                 },
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 25
                 },
@@ -78,6 +85,7 @@ export default
                     "text": "Foo",
                     "rawText": "Foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 29
                 },
@@ -89,18 +97,22 @@ export default
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 29,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 33
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -109,6 +121,7 @@ export default
     "source": "export default\n@bar class Foo { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -117,12 +130,8 @@ export default
 ### Printed
 
 ```javascript
-
-  export default 
-  @bar
-  class Foo {
-  };
-
+export default @bar
+class Foo {};
 ```
 
 ### Diagnostics

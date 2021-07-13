@@ -22,10 +22,12 @@
                 "text": "test",
                 "rawText": "",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         }
@@ -34,6 +36,7 @@
     "source": "`test",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

@@ -29,6 +29,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 5
                                 },
@@ -42,6 +43,7 @@
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
@@ -50,37 +52,45 @@
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 10
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 5,
                                         "end": 11
                                     },
-                                    "flags": 32,
-                                    "start": 5,
+                                    "flags": 5,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 11
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 11
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 12
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -89,6 +99,7 @@
     "source": "({...(a, b)})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -97,9 +108,7 @@
 ### Printed
 
 ```javascript
-
-  ({ ...(a, b) });
-
+({ ...(a, b) });
 ```
 
 ### Diagnostics

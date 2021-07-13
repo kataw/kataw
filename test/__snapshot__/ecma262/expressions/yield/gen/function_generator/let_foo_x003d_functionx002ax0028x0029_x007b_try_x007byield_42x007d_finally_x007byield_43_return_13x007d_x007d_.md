@@ -29,12 +29,14 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -52,6 +55,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -68,6 +72,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -77,6 +82,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -86,6 +92,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -100,6 +107,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 43
                                             },
@@ -113,6 +121,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 43,
                                                             "end": 47
                                                         },
@@ -123,12 +132,14 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                             "functionKeyword": {
                                                                 "kind": 37822554,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 49,
                                                                 "end": 58
                                                             },
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
+                                                                "transformFlags": 32,
                                                                 "start": 58,
                                                                 "end": 59
                                                             },
@@ -139,6 +150,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 60,
                                                                 "end": 60
                                                             },
@@ -153,6 +165,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                             "tryKeyword": {
                                                                                 "kind": 37757027,
                                                                                 "flags": 80,
+                                                                                "transformFlags": 0,
                                                                                 "start": 63,
                                                                                 "end": 67
                                                                             },
@@ -168,6 +181,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                 "yieldKeyword": {
                                                                                                     "kind": 8454253,
                                                                                                     "flags": 64,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 69,
                                                                                                     "end": 74
                                                                                                 },
@@ -178,23 +192,28 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                     "text": 42,
                                                                                                     "rawText": "42",
                                                                                                     "flags": 96,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 74,
                                                                                                     "end": 77
                                                                                                 },
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 69,
                                                                                                 "end": 77
                                                                                             },
                                                                                             "flags": 16,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 69,
                                                                                             "end": 77
                                                                                         }
                                                                                     ],
                                                                                     "flags": 16,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 69,
                                                                                     "end": 77
                                                                                 },
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 67,
                                                                                 "end": 78
                                                                             },
@@ -202,6 +221,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                             "finallyKeyword": {
                                                                                 "kind": 37757016,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 78,
                                                                                 "end": 86
                                                                             },
@@ -217,6 +237,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                 "yieldKeyword": {
                                                                                                     "kind": 8454253,
                                                                                                     "flags": 64,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 88,
                                                                                                     "end": 93
                                                                                                 },
@@ -227,14 +248,17 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                     "text": 43,
                                                                                                     "rawText": "43",
                                                                                                     "flags": 96,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 93,
                                                                                                     "end": 96
                                                                                                 },
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 88,
                                                                                                 "end": 96
                                                                                             },
                                                                                             "flags": 16,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 88,
                                                                                             "end": 97
                                                                                         },
@@ -243,6 +267,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                             "returnKeyword": {
                                                                                                 "kind": 37757022,
                                                                                                 "flags": 80,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 97,
                                                                                                 "end": 104
                                                                                             },
@@ -251,78 +276,95 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                 "text": 13,
                                                                                                 "rawText": "13",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 104,
                                                                                                 "end": 107
                                                                                             },
                                                                                             "flags": 80,
+                                                                                            "transformFlags": 256,
                                                                                             "start": 97,
                                                                                             "end": 107
                                                                                         }
                                                                                     ],
                                                                                     "flags": 16,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 88,
                                                                                     "end": 107
                                                                                 },
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 86,
                                                                                 "end": 108
                                                                             },
                                                                             "flags": 16,
+                                                                            "transformFlags": 0,
                                                                             "start": 63,
                                                                             "end": 108
                                                                         }
                                                                     ],
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 63,
                                                                     "end": 108
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 61,
                                                                 "end": 110
                                                             },
                                                             "returnType": null,
                                                             "flags": 288,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 110
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 43,
                                                         "end": 110
                                                     }
                                                 ],
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 110
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 111
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 111
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 113
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 113
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 113
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 114
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 114
         }
@@ -331,6 +373,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
     "source": "function * gen() { function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; return 13} }; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 114
 }
@@ -339,21 +382,18 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 ### Printed
 
 ```javascript
-
-  function* gen() {
-    function not_gen() {
-      let foo = function* () {
+function *gen() {
+  function not_gen() {
+    let foo = function *() {
         try {
-          yield  42;
-        }
-        finally {
-          yield  43;
+          yield 42;
+        } finally {
+          yield 43;
           return 13;
         }
       };
-    }
   }
-
+}
 ```
 
 ### Diagnostics

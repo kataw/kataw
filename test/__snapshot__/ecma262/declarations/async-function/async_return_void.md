@@ -40,12 +40,14 @@ async function foo3(): Promise<string> {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -55,6 +57,7 @@ async function foo3(): Promise<string> {
                 "text": "foo1",
                 "rawText": "foo1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 19
             },
@@ -64,6 +67,7 @@ async function foo3(): Promise<string> {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
@@ -78,20 +82,24 @@ async function foo3(): Promise<string> {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 49
                             },
                             "expression": null,
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 40,
                             "end": 50
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 50
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 52
             },
@@ -106,6 +114,7 @@ async function foo3(): Promise<string> {
                         "text": "Promise",
                         "rawText": "Promise",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 30
                     },
@@ -121,32 +130,39 @@ async function foo3(): Promise<string> {
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 37
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 37
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 37
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 30,
                         "end": 38
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 38
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 38
             },
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         },
@@ -156,12 +172,14 @@ async function foo3(): Promise<string> {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 59
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 68
             },
@@ -171,6 +189,7 @@ async function foo3(): Promise<string> {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 73
             },
@@ -180,6 +199,7 @@ async function foo3(): Promise<string> {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 74
             },
@@ -194,6 +214,7 @@ async function foo3(): Promise<string> {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 94,
                                 "end": 103
                             },
@@ -202,19 +223,23 @@ async function foo3(): Promise<string> {
                                 "text": "undefined",
                                 "rawText": "undefined",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 103,
                                 "end": 113
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 94,
                             "end": 114
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 94,
                     "end": 114
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 116
             },
@@ -229,6 +254,7 @@ async function foo3(): Promise<string> {
                         "text": "Promise",
                         "rawText": "Promise",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 76,
                         "end": 84
                     },
@@ -244,32 +270,39 @@ async function foo3(): Promise<string> {
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 85,
                                         "end": 91
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 85,
                                     "end": 91
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 85,
                             "end": 91
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 84,
                         "end": 92
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 76,
                     "end": 92
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 76,
                 "end": 92
             },
             "flags": 144,
+            "transformFlags": 0,
             "start": 52,
             "end": 116
         },
@@ -279,12 +312,14 @@ async function foo3(): Promise<string> {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 116,
                 "end": 123
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 132
             },
@@ -294,6 +329,7 @@ async function foo3(): Promise<string> {
                 "text": "foo3",
                 "rawText": "foo3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 132,
                 "end": 137
             },
@@ -303,6 +339,7 @@ async function foo3(): Promise<string> {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 138,
                 "end": 138
             },
@@ -319,6 +356,7 @@ async function foo3(): Promise<string> {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 158,
                                 "end": 169
                             },
@@ -328,6 +366,7 @@ async function foo3(): Promise<string> {
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 169,
                                 "end": 173
                             },
@@ -337,6 +376,7 @@ async function foo3(): Promise<string> {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 174,
                                 "end": 174
                             },
@@ -347,15 +387,18 @@ async function foo3(): Promise<string> {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 177,
                                     "end": 177
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 175,
                                 "end": 179
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 158,
                             "end": 179
                         },
@@ -364,6 +407,7 @@ async function foo3(): Promise<string> {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 179,
                                 "end": 188
                             },
@@ -374,6 +418,7 @@ async function foo3(): Promise<string> {
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 188,
                                     "end": 192
                                 },
@@ -382,23 +427,28 @@ async function foo3(): Promise<string> {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 193,
                                     "end": 193
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 188,
                                 "end": 194
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 179,
                             "end": 195
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 158,
                     "end": 195
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 197
             },
@@ -413,6 +463,7 @@ async function foo3(): Promise<string> {
                         "text": "Promise",
                         "rawText": "Promise",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 140,
                         "end": 148
                     },
@@ -428,32 +479,39 @@ async function foo3(): Promise<string> {
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 149,
                                         "end": 155
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 149,
                                     "end": 155
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 149,
                             "end": 155
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 148,
                         "end": 156
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 140,
                     "end": 156
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 140,
                 "end": 156
             },
             "flags": 144,
+            "transformFlags": 0,
             "start": 116,
             "end": 197
         }
@@ -462,6 +520,7 @@ async function foo3(): Promise<string> {
     "source": "async function foo1(): Promise<string> {\n  return;\n}\n\nasync function foo2(): Promise<string> {\n  return undefined;\n}\n\nasync function foo3(): Promise<string> {\n  function bar() { }\n  return bar();\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 197
 }
@@ -470,17 +529,17 @@ async function foo3(): Promise<string> {
 ### Printed
 
 ```javascript
+async function foo1(): Promise<string> {
+  return;
+}
+async function foo2(): Promise<string> {
+  return undefined;
+}
 
-  async function foo1(): Promise<string> {
-    return;
-  }
-  async function foo2(): Promise<string> {
-    return undefined;
-  }
-  async function foo3(): Promise<string> {
-    function bar() {}
-    return bar();
-  }
+async function foo3(): Promise<string> {
+  function bar() {}
+  return bar();
+}
 
 ```
 

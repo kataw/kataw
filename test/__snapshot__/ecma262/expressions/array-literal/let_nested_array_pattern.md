@@ -48,6 +48,7 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
@@ -61,6 +62,7 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -69,6 +71,7 @@
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -77,16 +80,19 @@
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 12
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 5,
                                 "end": 13
                             },
@@ -97,12 +103,14 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -111,26 +119,31 @@
                                     "text": "B",
                                     "rawText": "B",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 14,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 23
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
@@ -139,14 +152,17 @@
                     "text": "arr",
                     "rawText": "arr",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         }
@@ -155,6 +171,7 @@
     "source": "[foo, [x,y,z], bar = B] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -163,9 +180,7 @@
 ### Printed
 
 ```javascript
-
-  [foo, [x, y, z,], bar = B,] = arr;
-
+[foo, [x, y, z], bar = B] = arr;
 ```
 
 ### Diagnostics

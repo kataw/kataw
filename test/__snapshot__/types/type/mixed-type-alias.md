@@ -33,6 +33,7 @@ type MyObject = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -41,6 +42,7 @@ type MyObject = {
                 "text": "MyObject",
                 "rawText": "MyObject",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 13
             },
@@ -48,6 +50,7 @@ type MyObject = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -69,6 +72,7 @@ type MyObject = {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -80,14 +84,17 @@ type MyObject = {
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 31
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 31
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 32
                         },
@@ -102,6 +109,7 @@ type MyObject = {
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
@@ -113,14 +121,17 @@ type MyObject = {
                                 "type": {
                                     "kind": 134234254,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 47
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 47
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 48
                         },
@@ -135,6 +146,7 @@ type MyObject = {
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 54
                             },
@@ -146,28 +158,34 @@ type MyObject = {
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 62
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 62
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 63
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 65
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 65
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 66
         }
@@ -176,6 +194,7 @@ type MyObject = {
     "source": "type MyObject = {\n  foo: number,\n  bar: boolean,\n  baz: string,\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 66
 }
@@ -184,9 +203,7 @@ type MyObject = {
 ### Printed
 
 ```javascript
-
-  type MyObject = { foo: number, bar: boolean, baz: string }
-
+type MyObject = { foo: number, bar: boolean, baz: string }
 ```
 
 ### Diagnostics

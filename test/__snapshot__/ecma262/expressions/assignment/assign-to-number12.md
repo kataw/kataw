@@ -30,12 +30,14 @@ x = 0b1_01_0
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0b1_01_0
                     "text": 10,
                     "rawText": "0b1_01_0",
                     "flags": 589920,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -60,6 +65,7 @@ x = 0b1_01_0
     "source": "x = 0b1_01_0",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -68,9 +74,7 @@ x = 0b1_01_0
 ### Printed
 
 ```javascript
-
-  x = 0b1_01_0;
-
+x = 0b1_01_0;
 ```
 
 ### Diagnostics

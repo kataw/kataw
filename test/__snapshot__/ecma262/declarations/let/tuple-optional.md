@@ -26,6 +26,7 @@ let x: [string[]?]
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ let x: [string[]?]
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,48 +62,58 @@ let x: [string[]?]
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 14
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 16
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 16
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 18
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -110,6 +122,7 @@ let x: [string[]?]
     "source": "let x: [string[]?]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -118,9 +131,7 @@ let x: [string[]?]
 ### Printed
 
 ```javascript
-
-  let x: [[string[]?]];
-
+let x: [string[]? ];
 ```
 
 ### Diagnostics

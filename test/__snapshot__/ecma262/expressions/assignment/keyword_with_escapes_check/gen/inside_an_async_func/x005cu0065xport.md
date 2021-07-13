@@ -29,6 +29,7 @@ async () => {  \u0065xport = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async () => {  \u0065xport = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async () => {  \u0065xport = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -59,6 +62,7 @@ async () => {  \u0065xport = x  }
                                 "exportKeyword": {
                                     "kind": 4202582,
                                     "flags": 16464,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 26
                                 },
@@ -68,23 +72,28 @@ async () => {  \u0065xport = x  }
                                 "fromClause": null,
                                 "exportKind": 0,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 26
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 26
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         },
@@ -95,10 +104,12 @@ async () => {  \u0065xport = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 28,
             "end": 30
         }
@@ -107,6 +118,7 @@ async () => {  \u0065xport = x  }
     "source": "async () => {  \\u0065xport = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

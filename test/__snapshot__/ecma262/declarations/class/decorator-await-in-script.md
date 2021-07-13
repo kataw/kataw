@@ -37,6 +37,7 @@ class C2 {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -45,21 +46,25 @@ class C2 {
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 6
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
@@ -68,6 +73,7 @@ class C2 {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -94,6 +100,7 @@ class C2 {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 27
                                 },
@@ -103,6 +110,7 @@ class C2 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -114,31 +122,38 @@ class C2 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 31
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 32
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 32
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 32
                 },
                 "flags": 15,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -147,6 +162,7 @@ class C2 {
     "source": "@await\nclass C2 {\n   method() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -155,12 +171,10 @@ class C2 {
 ### Printed
 
 ```javascript
-
-  @await
-  class C2 {
-    method() {}
-  }
-
+@await
+class C2 {
+  method() {}
+}
 ```
 
 ### Diagnostics

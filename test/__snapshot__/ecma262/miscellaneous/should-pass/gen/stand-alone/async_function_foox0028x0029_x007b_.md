@@ -35,10 +35,12 @@ function foo() {
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -49,6 +51,7 @@ function foo() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -58,6 +61,7 @@ function foo() {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -67,6 +71,7 @@ function foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -79,20 +84,24 @@ function foo() {
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 25
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 25
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 25
         }
@@ -101,6 +110,7 @@ function foo() {
     "source": "async\nfunction foo() {\n\n;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

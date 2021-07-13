@@ -27,16 +27,19 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 2
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 4130,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 6
                 },
@@ -45,14 +48,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -61,6 +67,7 @@
     "source": "(x) += 1;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -69,9 +76,7 @@
 ### Printed
 
 ```javascript
-
-  (x) += 1;
-
+(x) += 1;
 ```
 
 ### Diagnostics

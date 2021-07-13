@@ -27,6 +27,7 @@ let x = function *f(foo = await){}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ let x = function *f(foo = await){}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -50,12 +52,14 @@ let x = function *f(foo = await){}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 16
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 16,
                                 "end": 18
                             },
@@ -64,6 +68,7 @@ let x = function *f(foo = await){}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 19
                             },
@@ -79,6 +84,7 @@ let x = function *f(foo = await){}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 23
                                         },
@@ -89,16 +95,19 @@ let x = function *f(foo = await){}
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 31
                                         },
                                         "flags": 34,
+                                        "transformFlags": 4096,
                                         "start": 20,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 31
                             },
@@ -109,28 +118,34 @@ let x = function *f(foo = await){}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "returnType": null,
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -139,6 +154,7 @@ let x = function *f(foo = await){}
     "source": "let x = function *f(foo = await){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -147,9 +163,7 @@ let x = function *f(foo = await){}
 ### Printed
 
 ```javascript
-
-  let x = function* f(foo = await) {};
-
+let x = function *f(foo = await) {};
 ```
 
 ### Diagnostics

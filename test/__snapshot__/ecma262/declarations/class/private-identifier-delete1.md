@@ -22,6 +22,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -51,6 +53,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 16
                             },
@@ -58,12 +61,14 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 16
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         },
@@ -83,6 +88,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 21
                                 },
@@ -92,6 +98,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -109,6 +116,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                     "operandToken": {
                                                         "kind": 4259886,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 32
                                                     },
@@ -117,12 +125,14 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "chainToken": {
                                                             "kind": 393240,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 39
                                                         },
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 37
                                                         },
@@ -136,56 +146,69 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                                     "text": "#foo",
                                                                     "rawText": "#foo",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 39,
                                                                     "end": 43
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 39,
                                                                 "end": 43
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 43
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 43
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 1024,
                                                     "start": 25,
                                                     "end": 43
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 25,
                                                 "end": 43
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 43
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 45
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 45
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 45
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 45
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -194,6 +217,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
     "source": "class Foo { #foo; foo() { delete this?.#foo } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }
@@ -202,15 +226,12 @@ class Foo { #foo; foo() { delete this?.#foo } }
 ### Printed
 
 ```javascript
-
-  class Foo {
-    #foo
-    ;
-    foo() {
-      delete  this?.#foo;
-    }
+class Foo {
+  #foo;;
+  foo() {
+    delete this?.#foo;
   }
-
+}
 ```
 
 ### Diagnostics

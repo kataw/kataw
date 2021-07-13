@@ -24,6 +24,7 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
                     "text": "fn",
                     "rawText": "fn",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -35,6 +36,7 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
@@ -43,20 +45,24 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 23
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 24
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 57
         }
@@ -65,6 +71,7 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
     "source": "fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }
@@ -73,9 +80,7 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
 ### Printed
 
 ```javascript
-
-  fn(a, /* comment 1 */b,/* comment 1 */) /* comment 2*/;
-
+fn(a, /* comment 1 */ b) /* comment 2*/;
 ```
 
 ### Diagnostics

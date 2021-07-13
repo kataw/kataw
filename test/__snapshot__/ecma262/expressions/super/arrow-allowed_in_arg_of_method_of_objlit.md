@@ -24,12 +24,14 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -51,6 +53,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                         "text": "dsda",
                                         "rawText": "dsda",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 8
                                     },
@@ -60,6 +63,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -75,6 +79,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 18
                                                     },
@@ -93,6 +98,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 20,
                                                                         "end": 21
                                                                     },
@@ -103,6 +109,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                         "member": {
                                                                             "kind": 4259935,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 22,
                                                                             "end": 27
                                                                         },
@@ -111,20 +118,24 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                             "text": "bar",
                                                                             "rawText": "bar",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 28,
                                                                             "end": 31
                                                                         },
                                                                         "flags": 536870944,
+                                                                        "transformFlags": 4,
                                                                         "start": 22,
                                                                         "end": 32
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 4096,
                                                                     "start": 18,
                                                                     "end": 32
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 2,
+                                                            "flags": 34,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 33
                                                         },
@@ -132,6 +143,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 36
                                                         },
@@ -140,49 +152,60 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 38
                                                         },
                                                         "flags": 34,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 38
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 11,
                                                     "end": 39
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 39
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 41
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 41
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 41
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 42
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         }
@@ -191,6 +214,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
     "source": "x={ dsda(){ return (a=super[bar]) => a; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -199,11 +223,9 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 ### Printed
 
 ```javascript
-
-  x = { dsda() {
-      return (a = super[bar]) => a;
-    } };
-
+x = { dsda() {
+    return (a = super[bar]) => a;
+  } };
 ```
 
 ### Diagnostics

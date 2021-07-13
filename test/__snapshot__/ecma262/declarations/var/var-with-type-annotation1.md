@@ -30,6 +30,7 @@ var x = ({ a } : any = 'foo') => {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ var x = ({ a } : any = 'foo') => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -67,16 +69,19 @@ var x = ({ a } : any = 'foo') => {}
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 12
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 12
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 9,
                                             "end": 14
                                         },
@@ -88,10 +93,12 @@ var x = ({ a } : any = 'foo') => {}
                                             "type": {
                                                 "kind": 134234252,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 20
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -100,16 +107,19 @@ var x = ({ a } : any = 'foo') => {}
                                             "text": "foo",
                                             "rawText": "'foo'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 29
                             },
@@ -117,6 +127,7 @@ var x = ({ a } : any = 'foo') => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -127,27 +138,33 @@ var x = ({ a } : any = 'foo') => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 34
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 35
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -156,6 +173,7 @@ var x = ({ a } : any = 'foo') => {}
     "source": "var x = ({ a } : any = 'foo') => {}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -164,9 +182,7 @@ var x = ({ a } : any = 'foo') => {}
 ### Printed
 
 ```javascript
-
-  var x = ({ a }: any = "'foo'") => {};
-
+var x = ({ a }: any = "'foo'") => {};
 ```
 
 ### Diagnostics

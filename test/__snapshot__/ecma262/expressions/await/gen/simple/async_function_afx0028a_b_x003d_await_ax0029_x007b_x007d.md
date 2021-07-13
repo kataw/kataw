@@ -28,12 +28,14 @@ async function af(a, b = await a) { }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -43,6 +45,7 @@ async function af(a, b = await a) { }
                 "text": "af",
                 "rawText": "af",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -55,6 +58,7 @@ async function af(a, b = await a) { }
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 19
                     },
@@ -66,6 +70,7 @@ async function af(a, b = await a) { }
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -76,6 +81,7 @@ async function af(a, b = await a) { }
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 30
                             },
@@ -84,20 +90,24 @@ async function af(a, b = await a) { }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 24,
                             "end": 32
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 20,
                         "end": 32
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 32
             },
@@ -108,15 +118,18 @@ async function af(a, b = await a) { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 37
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -125,6 +138,7 @@ async function af(a, b = await a) { }
     "source": "async function af(a, b = await a) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

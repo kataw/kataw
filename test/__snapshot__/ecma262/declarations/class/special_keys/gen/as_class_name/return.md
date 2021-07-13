@@ -29,6 +29,7 @@ class return {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class return {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class return {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -64,6 +69,7 @@ class return {}
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
@@ -74,14 +80,17 @@ class return {}
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 12,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 5,
             "end": 15
         }
@@ -90,6 +99,7 @@ class return {}
     "source": "class return {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

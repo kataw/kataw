@@ -21,6 +21,7 @@ let gen = function*() {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ let gen = function*() {};
                             "text": "xGen",
                             "rawText": "xGen",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
@@ -44,12 +46,14 @@ let gen = function*() {};
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 19
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 19,
                                 "end": 20
                             },
@@ -58,6 +62,7 @@ let gen = function*() {};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
@@ -67,6 +72,7 @@ let gen = function*() {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 23
                             },
@@ -77,28 +83,34 @@ let gen = function*() {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 26
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
                             "returnType": null,
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 27
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 27
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -107,6 +119,7 @@ let gen = function*() {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 32
             },
@@ -120,6 +133,7 @@ let gen = function*() {};
                             "text": "gen",
                             "rawText": "gen",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 36
                         },
@@ -130,12 +144,14 @@ let gen = function*() {};
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 47
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 47,
                                 "end": 48
                             },
@@ -146,6 +162,7 @@ let gen = function*() {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 49
                             },
@@ -156,28 +173,34 @@ let gen = function*() {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 52
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 53
                             },
                             "returnType": null,
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 32,
                         "end": 53
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 53
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 28,
             "end": 54
         }
@@ -186,6 +209,7 @@ let gen = function*() {};
     "source": "let xGen = function* x() {};\nlet gen = function*() {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }
@@ -194,9 +218,8 @@ let gen = function*() {};
 ### Printed
 
 ```javascript
-
-  let xGen = function* x() {};
-  let gen = function* () {};
+let xGen = function *x() {};
+let gen = function *() {};
 
 ```
 

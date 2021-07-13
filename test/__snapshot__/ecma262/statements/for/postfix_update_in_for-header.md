@@ -39,6 +39,7 @@ for (x--;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for (x--;;);
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -55,10 +57,12 @@ for (x--;;);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
@@ -67,10 +71,12 @@ for (x--;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -79,6 +85,7 @@ for (x--;;);
     "source": "for (x--;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -87,10 +94,7 @@ for (x--;;);
 ### Printed
 
 ```javascript
-
-  for (x--;;)
-    ;
-
+for (x--; ; );
 ```
 
 ### Diagnostics

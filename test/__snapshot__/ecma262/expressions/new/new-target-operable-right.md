@@ -22,6 +22,7 @@ function f(){ foo + new.target }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ foo + new.target }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ foo + new.target }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -58,12 +61,14 @@ function f(){ foo + new.target }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 17
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -72,38 +77,46 @@ function f(){ foo + new.target }
                                     "newKeyword": {
                                         "kind": 138477661,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 23
                                     },
                                     "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 30
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 30
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 13,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 32
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -112,6 +125,7 @@ function f(){ foo + new.target }
     "source": "function f(){ foo + new.target }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -120,11 +134,9 @@ function f(){ foo + new.target }
 ### Printed
 
 ```javascript
-
-  function f() {
-    foo + new.target;
-  }
-
+function f() {
+  foo + new.target;
+}
 ```
 
 ### Diagnostics

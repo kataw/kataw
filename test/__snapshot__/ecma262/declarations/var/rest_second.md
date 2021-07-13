@@ -39,6 +39,7 @@ export var a, ...b = 1;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -48,6 +49,7 @@ export var a, ...b = 1;
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -61,21 +63,25 @@ export var a, ...b = 1;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -84,6 +90,7 @@ export var a, ...b = 1;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -96,12 +103,14 @@ export var a, ...b = 1;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -110,14 +119,17 @@ export var a, ...b = 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 17,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 23
         }
@@ -126,6 +138,7 @@ export var a, ...b = 1;
     "source": "export var a, ...b = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

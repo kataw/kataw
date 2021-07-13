@@ -28,6 +28,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                 "text": "IViewFactory",
                 "rawText": "IViewFactory",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 26
             },
@@ -64,6 +67,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 "text": "didAnimate",
                                 "rawText": "didAnimate",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 39
                             },
@@ -81,6 +85,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "text": "view",
                                                 "rawText": "view",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 44
                                             },
@@ -96,19 +101,23 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                         "text": "Object",
                                                         "rawText": "Object",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 45,
                                                         "end": 51
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 51
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 51
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 51
                                         },
@@ -120,6 +129,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "text": "prop",
                                                 "rawText": "prop",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 57
                                             },
@@ -131,20 +141,24 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 64
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 58,
                                                 "end": 64
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 52,
                                             "end": 64
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 64
                                 },
@@ -155,33 +169,40 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 67,
                                         "end": 71
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 67,
                                     "end": 71
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 71
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 72
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 74
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 74
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 74
         }
@@ -190,6 +211,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
     "source": "declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 74
 }
@@ -198,9 +220,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 ### Printed
 
 ```javascript
-
-  declare class IViewFactory { didAnimate(view: Object, prop: string): void }
-
+declare class IViewFactory { didAnimate(view: Object, prop: string): void }
 ```
 
 ### Diagnostics

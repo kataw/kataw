@@ -28,6 +28,7 @@ const [foo=a, bar=b] = arr;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ const [foo=a, bar=b] = arr;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -59,10 +61,12 @@ const [foo=a, bar=b] = arr;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 12
                                     },
@@ -74,6 +78,7 @@ const [foo=a, bar=b] = arr;
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 17
                                         },
@@ -84,20 +89,24 @@ const [foo=a, bar=b] = arr;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 13,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 20
                         },
@@ -107,19 +116,23 @@ const [foo=a, bar=b] = arr;
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 26
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -128,6 +141,7 @@ const [foo=a, bar=b] = arr;
     "source": "const [foo=a, bar=b] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -136,9 +150,7 @@ const [foo=a, bar=b] = arr;
 ### Printed
 
 ```javascript
-
-  const [foo = a, bar = b] = arr;
-
+const [foo = a, bar = b] = arr;
 ```
 
 ### Diagnostics

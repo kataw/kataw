@@ -29,6 +29,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,6 +65,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -70,12 +74,14 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 "optionalToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -92,6 +98,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                     {
                                                         "kind": 134234347,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 23
                                                     },
@@ -102,16 +109,19 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 25,
                                                             "end": 29
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 29
                                                     }
                                                 ],
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 29
                                             },
@@ -126,6 +136,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 33,
                                                                 "end": 36
                                                             },
@@ -134,6 +145,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 36,
                                                                 "end": 37
                                                             },
@@ -151,6 +163,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                                                 {
                                                                                     "kind": 134234347,
                                                                                     "flags": 2097216,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 38,
                                                                                     "end": 45
                                                                                 },
@@ -161,16 +174,19 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                                                         "text": "foo",
                                                                                         "rawText": "foo",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 47,
                                                                                         "end": 51
                                                                                     },
                                                                                     "typeParameters": null,
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 47,
                                                                                     "end": 51
                                                                                 }
                                                                             ],
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 45,
                                                                             "end": 51
                                                                         },
@@ -181,36 +197,43 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                                                 "text": "bar",
                                                                                 "rawText": "bar",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 53,
                                                                                 "end": 57
                                                                             },
                                                                             "typeParameters": null,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 53,
                                                                             "end": 57
                                                                         }
                                                                     ],
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 51,
                                                                     "end": 57
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 57
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 57
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 57
                                                 },
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 61
                                                 },
@@ -225,44 +248,53 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                             "text": "T",
                                                             "rawText": "T",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 61,
                                                             "end": 63
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 63
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 61,
                                                     "end": 63
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 63
                                             }
                                         ],
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 63
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 63
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 63
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 63
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 64,
                         "end": 67
                     },
@@ -277,27 +309,33 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 69
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 69
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 67,
                         "end": 69
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 69
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 69
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 70
         }
@@ -306,6 +344,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
     "source": "type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 70
 }
@@ -314,9 +353,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
 ### Printed
 
 ```javascript
-
-  type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T
-
+type a = (...x? : string & foo | (...x: string & foo | bar) => T) => T
 ```
 
 ### Diagnostics

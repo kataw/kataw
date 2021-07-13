@@ -31,6 +31,7 @@ foo(async x => ok)
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -42,6 +43,7 @@ foo(async x => ok)
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 9
                             },
@@ -51,6 +53,7 @@ foo(async x => ok)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -58,6 +61,7 @@ foo(async x => ok)
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -66,24 +70,29 @@ foo(async x => ok)
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -92,6 +101,7 @@ foo(async x => ok)
     "source": "foo(async x => ok)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -100,9 +110,7 @@ foo(async x => ok)
 ### Printed
 
 ```javascript
-
-  foo(async x => ok);
-
+foo(async x => ok);
 ```
 
 ### Diagnostics

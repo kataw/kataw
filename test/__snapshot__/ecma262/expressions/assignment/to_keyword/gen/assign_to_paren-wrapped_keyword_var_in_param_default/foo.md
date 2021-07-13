@@ -39,6 +39,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
@@ -53,16 +54,19 @@
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 9
                                     },
-                                    "flags": 32,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 10
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -71,20 +75,24 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 4,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 15
                 },
@@ -92,6 +100,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
@@ -102,18 +111,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -122,6 +135,7 @@
     "source": "(x = (foo) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -130,9 +144,7 @@
 ### Printed
 
 ```javascript
-
-  (x = (foo) = f) => {};
-
+(x = (foo) = f) => {};
 ```
 
 ### Diagnostics

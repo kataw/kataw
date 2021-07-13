@@ -21,6 +21,7 @@ var {x,} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,16 +40,19 @@ var {x,} = obj;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
@@ -58,19 +62,23 @@ var {x,} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -79,6 +87,7 @@ var {x,} = obj;
     "source": "var {x,} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -87,11 +96,7 @@ var {x,} = obj;
 ### Printed
 
 ```javascript
-
-  var {
-    x,
-  } = obj;
-
+var { x } = obj;
 ```
 
 ### Diagnostics

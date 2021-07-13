@@ -24,6 +24,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,21 +38,25 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "text": "a",
                             "rawText": "\\u0061",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -60,6 +65,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
@@ -73,21 +79,25 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "text": "ina",
                             "rawText": "in\\u0061",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 24
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 15,
                         "end": 24
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 11,
             "end": 25
         },
@@ -96,6 +106,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 29
             },
@@ -109,21 +120,25 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "text": "in𝐬𝐭𝐚𝐧𝐜𝐞𝐨𝐟",
                             "rawText": "in𝐬𝐭𝐚𝐧𝐜𝐞𝐨𝐟",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 48
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 48
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 48
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 25,
             "end": 49
         },
@@ -132,6 +147,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 53
             },
@@ -145,21 +161,25 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "text": "𝐢𝐧",
                             "rawText": " 𝐢𝐧",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 53,
                             "end": 58
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 53,
                         "end": 58
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 58
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 49,
             "end": 59
         },
@@ -168,6 +188,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 63
             },
@@ -181,21 +202,25 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "text": "ɵResourceLoaderImpl_BaseFactory",
                             "rawText": "\\u0275ResourceLoaderImpl_BaseFactory",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 100
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 63,
                         "end": 100
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 100
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 59,
             "end": 101
         }
@@ -204,6 +229,7 @@ let \u0275ResourceLoaderImpl_BaseFactory;
     "source": "let \\u0061;\nlet in\\u0061;\nlet in𝐬𝐭𝐚𝐧𝐜𝐞𝐨𝐟;\nlet 𝐢𝐧;\nlet \\u0275ResourceLoaderImpl_BaseFactory;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 101
 }
@@ -212,12 +238,14 @@ let \u0275ResourceLoaderImpl_BaseFactory;
 ### Printed
 
 ```javascript
+let \u0061;
+let in\u0061;
 
-  let \u0061;
-  let in\u0061;
-  let in𝐬𝐭𝐚𝐧𝐜𝐞𝐨𝐟;
-  let  𝐢𝐧;
-  let \u0275ResourceLoaderImpl_BaseFactory;
+let in𝐬𝐭𝐚𝐧𝐜𝐞𝐨𝐟;
+
+let  𝐢𝐧;
+
+let \u0275ResourceLoaderImpl_BaseFactory;
 
 ```
 

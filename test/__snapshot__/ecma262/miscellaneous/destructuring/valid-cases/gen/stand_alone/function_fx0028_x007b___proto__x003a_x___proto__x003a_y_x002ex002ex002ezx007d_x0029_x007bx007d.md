@@ -29,6 +29,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,6 +59,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 23
                                     },
@@ -65,11 +68,13 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 26
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 26
                                 },
@@ -80,6 +85,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 37
                                     },
@@ -88,11 +94,13 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 40
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 40
                                 },
@@ -101,6 +109,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 45
                                     },
@@ -109,6 +118,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 46
                                     },
@@ -116,22 +126,26 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 0,
+                                    "transformFlags": 4096,
                                     "start": 41,
                                     "end": 46
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 46
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 47
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 47
             },
@@ -142,15 +156,18 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 51
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 52
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -159,6 +176,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
     "source": "function f( { __proto__: x, __proto__: y, ...z} ) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }
@@ -167,9 +185,7 @@ function f( { __proto__: x, __proto__: y, ...z} ) {}
 ### Printed
 
 ```javascript
-
-  function f({ __proto__: x, __proto__: y, ...z }) {}
-
+function f({ __proto__: x, __proto__: y, ...z }) {}
 ```
 
 ### Diagnostics

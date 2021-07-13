@@ -36,12 +36,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 3
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 5
                             },
@@ -63,6 +65,7 @@
                                                             "text": "__proto__",
                                                             "rawText": "__proto__",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 8,
                                                             "end": 17
                                                         },
@@ -71,10 +74,12 @@
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 20
                                                         },
                                                         "flags": 36,
+                                                        "transformFlags": 128,
                                                         "start": 8,
                                                         "end": 20
                                                     },
@@ -86,6 +91,7 @@
                                                             "text": "__proto__",
                                                             "rawText": "__proto__",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 31
                                                         },
@@ -94,47 +100,57 @@
                                                             "text": 2,
                                                             "rawText": "2",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 34
                                                         },
                                                         "flags": 36,
+                                                        "transformFlags": 128,
                                                         "start": 21,
                                                         "end": 34
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 20,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 34
                                             },
                                             "flags": 52,
+                                            "transformFlags": 8,
                                             "start": 7,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 35
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 5,
                                 "end": 36
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 1,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -143,6 +159,7 @@
     "source": "{ x = [{__proto__: 1, __proto__: 2}] }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -151,11 +168,9 @@
 ### Printed
 
 ```javascript
-
-  {
-    x = [{ __proto__: 1, __proto__: 2 },];
-  }
-
+{
+  x = [{ __proto__: 1, __proto__: 2 }];
+}
 ```
 
 ### Diagnostics

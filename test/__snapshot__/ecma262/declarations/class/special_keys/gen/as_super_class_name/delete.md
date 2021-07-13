@@ -29,6 +29,7 @@ class x extends delete {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x extends delete {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class x extends delete {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,6 +59,7 @@ class x extends delete {}
                         "operandToken": {
                             "kind": 4259886,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 22
                         },
@@ -66,19 +70,23 @@ class x extends delete {}
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 24
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 22,
                             "end": 25
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 15,
                         "end": 25
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 25
                 },
@@ -86,14 +94,17 @@ class x extends delete {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -102,6 +113,7 @@ class x extends delete {}
     "source": "class x extends delete {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

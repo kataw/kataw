@@ -30,6 +30,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -42,6 +43,7 @@
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 8
                                     },
@@ -54,12 +56,14 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 224,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     },
@@ -71,36 +75,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 12
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 13
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 13
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -109,6 +121,7 @@
     "source": "({ * bar(x){}})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -117,9 +130,7 @@
 ### Printed
 
 ```javascript
-
-  ({ * bar(x) {} });
-
+({ *bar(x) {} });
 ```
 
 ### Diagnostics

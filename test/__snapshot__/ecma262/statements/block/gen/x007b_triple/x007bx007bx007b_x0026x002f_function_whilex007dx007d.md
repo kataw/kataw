@@ -61,12 +61,14 @@
                                                                                             "text": "",
                                                                                             "rawText": "",
                                                                                             "flags": 64,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 9,
                                                                                             "end": 9
                                                                                         },
                                                                                         "operatorToken": {
                                                                                             "kind": 134252103,
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 9,
                                                                                             "end": 11
                                                                                         },
@@ -74,68 +76,83 @@
                                                                                             "kind": 371,
                                                                                             "text": "/ function while}}",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 11,
                                                                                             "end": 29
                                                                                         },
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 5120,
                                                                                         "start": 9,
                                                                                         "end": 29
                                                                                     },
                                                                                     "flags": 16,
+                                                                                    "transformFlags": 4096,
                                                                                     "start": 9,
                                                                                     "end": 29
                                                                                 }
                                                                             ],
                                                                             "flags": 16,
+                                                                            "transformFlags": 0,
                                                                             "start": 9,
                                                                             "end": 29
                                                                         },
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 8,
                                                                         "end": 29
                                                                     }
                                                                 ],
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 8,
                                                                 "end": 29
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 7,
                                                             "end": 29
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 29
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 29
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 29
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 29
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -144,6 +161,7 @@
     "source": "{ { { {{{ &/ function while}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

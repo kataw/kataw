@@ -22,6 +22,7 @@ typeof class {};
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -31,6 +32,7 @@ typeof class {};
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -43,22 +45,27 @@ typeof class {};
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
                         "flags": 12,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -67,6 +74,7 @@ typeof class {};
     "source": "typeof class {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -75,10 +83,7 @@ typeof class {};
 ### Printed
 
 ```javascript
-
-  typeof  class {
-  };
-
+typeof class {};
 ```
 
 ### Diagnostics

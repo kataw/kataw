@@ -23,6 +23,7 @@ function foo(x = 0) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -32,6 +33,7 @@ function foo(x = 0) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -47,6 +49,7 @@ function foo(x = 0) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -57,16 +60,19 @@ function foo(x = 0) {
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 18
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
@@ -77,15 +83,18 @@ function foo(x = 0) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -94,6 +103,7 @@ function foo(x = 0) {
     "source": "function foo(x = 0) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -102,10 +112,7 @@ function foo(x = 0) {
 ### Printed
 
 ```javascript
-
-  function foo(x = 0) {
-  }
-
+function foo(x = 0) {}
 ```
 
 ### Diagnostics

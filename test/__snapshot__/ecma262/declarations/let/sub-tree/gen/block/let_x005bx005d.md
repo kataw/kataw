@@ -34,6 +34,7 @@
                         "lexicalKeyword": {
                             "kind": 41951307,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -49,34 +50,41 @@
                                             "elements": [],
                                             "trailingComma": false,
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 7
                                         },
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     },
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
+                                    "transformFlags": 4224,
                                     "start": 5,
                                     "end": 8
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -85,6 +93,7 @@
     "source": "{ let\n[] }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

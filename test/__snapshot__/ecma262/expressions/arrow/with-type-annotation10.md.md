@@ -39,12 +39,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
@@ -53,12 +55,14 @@
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 4
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
@@ -67,10 +71,12 @@
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 6
                         },
@@ -87,22 +93,26 @@
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 10
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 7,
                                 "end": 11
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
@@ -117,26 +127,31 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 14
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 15
                 },
@@ -144,6 +159,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -152,14 +168,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -168,6 +187,7 @@
     "source": "(x?b:c, [a]?:b)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -176,9 +196,7 @@
 ### Printed
 
 ```javascript
-
-  (x ? b : c, [a,]?: b) => 0;
-
+(x ? b : c, [a]? : b) => 0;
 ```
 
 ### Diagnostics

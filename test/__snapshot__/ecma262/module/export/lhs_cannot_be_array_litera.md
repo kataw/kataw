@@ -26,12 +26,14 @@ export default [x] = y
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -47,22 +49,26 @@ export default [x] = y
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 14,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -71,14 +77,17 @@ export default [x] = y
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 14,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -87,6 +96,7 @@ export default [x] = y
     "source": "export default [x] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -95,9 +105,7 @@ export default [x] = y
 ### Printed
 
 ```javascript
-
-  export default [x,] = y;
-
+export default [x] = y;
 ```
 
 ### Diagnostics

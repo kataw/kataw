@@ -36,6 +36,7 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2,
                                                 "end": 3
                                             },
@@ -44,30 +45,36 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 2,
                                             "end": 7
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 7
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 1,
                                 "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 8
                 },
@@ -76,14 +83,17 @@
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -94,10 +104,12 @@
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 17
         }
@@ -106,6 +118,7 @@
     "source": "[{x = y}.z] = obj",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,12 +41,14 @@
                     "text": "implements",
                     "rawText": "implements",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 24
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
@@ -54,14 +57,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 13,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 29
         }
@@ -70,6 +76,7 @@
     "source": "\"use strict\"; implements = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

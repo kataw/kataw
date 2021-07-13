@@ -29,6 +29,7 @@ type D = (Obj['bar'])['baz'];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type D = (Obj['bar'])['baz'];
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type D = (Obj['bar'])['baz'];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -64,11 +67,13 @@ type D = (Obj['bar'])['baz'];
                                     "text": "Obj",
                                     "rawText": "Obj",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 13
                             },
@@ -81,18 +86,22 @@ type D = (Obj['bar'])['baz'];
                                     "text": "bar",
                                     "rawText": "'bar'",
                                     "flags": 6291520,
+                                    "transformFlags": 1024,
                                     "start": 14,
                                     "end": 19
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 19
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 21
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 21
                     },
@@ -105,22 +114,27 @@ type D = (Obj['bar'])['baz'];
                             "text": "baz",
                             "rawText": "'baz'",
                             "flags": 6291520,
+                            "transformFlags": 1024,
                             "start": 22,
                             "end": 27
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 27
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 29
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 28
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -129,6 +143,7 @@ type D = (Obj['bar'])['baz'];
     "source": "type D = (Obj['bar'])['baz'];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -137,9 +152,7 @@ type D = (Obj['bar'])['baz'];
 ### Printed
 
 ```javascript
-
-  type D = (Obj[ "'bar'"])[ "'baz'"]
-
+type D = (Obj["'bar'"])["'baz'"]
 ```
 
 ### Diagnostics

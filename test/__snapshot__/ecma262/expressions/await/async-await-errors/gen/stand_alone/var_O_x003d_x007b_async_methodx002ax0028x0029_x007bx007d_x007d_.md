@@ -28,6 +28,7 @@ var O = { async method*() {} };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var O = { async method*() {} };
                             "text": "O",
                             "rawText": "O",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -55,6 +57,7 @@ var O = { async method*() {} };
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 15
                                         },
@@ -68,6 +71,7 @@ var O = { async method*() {} };
                                                 "text": "method",
                                                 "rawText": "method",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 22
                                             },
@@ -77,6 +81,7 @@ var O = { async method*() {} };
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 22
                                             },
@@ -88,18 +93,22 @@ var O = { async method*() {} };
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 22
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 22
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 22
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 22
                                     },
@@ -109,6 +118,7 @@ var O = { async method*() {} };
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 22,
                                             "end": 23
                                         },
@@ -121,6 +131,7 @@ var O = { async method*() {} };
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 23
                                             },
@@ -130,6 +141,7 @@ var O = { async method*() {} };
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 25
                                             },
@@ -141,41 +153,50 @@ var O = { async method*() {} };
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 27
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 28
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 28
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 30
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 30
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -184,6 +205,7 @@ var O = { async method*() {} };
     "source": "var O = { async method*() {} };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

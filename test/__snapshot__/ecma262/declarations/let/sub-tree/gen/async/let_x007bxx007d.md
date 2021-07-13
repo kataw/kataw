@@ -29,6 +29,7 @@ async let {x}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async let {x}
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -56,27 +58,33 @@ async let {x}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 11,
                                 "end": 12
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 13
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -85,6 +93,7 @@ async let {x}
     "source": "async let {x}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

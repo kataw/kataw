@@ -28,6 +28,7 @@ declare class C { proto [K]: V }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class C { proto [K]: V }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class C { proto [K]: V }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -58,6 +61,7 @@ declare class C { proto [K]: V }
                             "protoKeyword": {
                                 "kind": 16873,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -70,11 +74,13 @@ declare class C { proto [K]: V }
                                     "text": "K",
                                     "rawText": "K",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 26
                             },
@@ -89,33 +95,40 @@ declare class C { proto [K]: V }
                                         "text": "V",
                                         "rawText": "V",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 30
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 32
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -124,6 +137,7 @@ declare class C { proto [K]: V }
     "source": "declare class C { proto [K]: V }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -132,9 +146,7 @@ declare class C { proto [K]: V }
 ### Printed
 
 ```javascript
-
-  declare class C { proto [K]:  V }
-
+declare class C { proto [K]: V }
 ```
 
 ### Diagnostics

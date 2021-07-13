@@ -24,12 +24,14 @@ x = {x: [{a = b}] + x}.x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,6 +50,7 @@ x = {x: [{a = b}] + x}.x
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -70,6 +73,7 @@ x = {x: [{a = b}] + x}.x
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 10,
                                                                         "end": 11
                                                                     },
@@ -78,36 +82,43 @@ x = {x: [{a = b}] + x}.x
                                                                         "text": "b",
                                                                         "rawText": "b",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 13,
                                                                         "end": 15
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 10,
                                                                     "end": 15
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 10,
                                                             "end": 15
                                                         },
                                                         "flags": 48,
+                                                        "transformFlags": 8,
                                                         "start": 9,
                                                         "end": 16
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 16
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 7,
                                             "end": 17
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         },
@@ -116,24 +127,29 @@ x = {x: [{a = b}] + x}.x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 5120,
                                         "start": 5,
                                         "end": 21
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 5,
                                     "end": 21
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 21
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 22
                     },
@@ -142,18 +158,22 @@ x = {x: [{a = b}] + x}.x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 24
                     },
                     "flags": 48,
+                    "transformFlags": 2,
                     "start": 3,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 24
         }
@@ -162,6 +182,7 @@ x = {x: [{a = b}] + x}.x
     "source": "x = {x: [{a = b}] + x}.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

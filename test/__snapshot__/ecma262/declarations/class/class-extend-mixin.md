@@ -30,6 +30,7 @@ class Foo<T> extends mixin(Bar) { }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo<T> extends mixin(Bar) { }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -53,6 +55,7 @@ class Foo<T> extends mixin(Bar) { }
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -60,16 +63,19 @@ class Foo<T> extends mixin(Bar) { }
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 9,
                 "end": 12
             },
@@ -80,6 +86,7 @@ class Foo<T> extends mixin(Bar) { }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 20
                     },
@@ -90,6 +97,7 @@ class Foo<T> extends mixin(Bar) { }
                             "text": "mixin",
                             "rawText": "mixin",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 26
                         },
@@ -101,21 +109,25 @@ class Foo<T> extends mixin(Bar) { }
                                     "text": "Bar",
                                     "rawText": "Bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 30
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 20,
                         "end": 31
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 31
                 },
@@ -123,14 +135,17 @@ class Foo<T> extends mixin(Bar) { }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 33
                 },
                 "flags": 12,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -139,6 +154,7 @@ class Foo<T> extends mixin(Bar) { }
     "source": "class Foo<T> extends mixin(Bar) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -147,10 +163,7 @@ class Foo<T> extends mixin(Bar) { }
 ### Printed
 
 ```javascript
-
-  class Foo <T> extends mixin(Bar) {
-  }
-
+class Foo <T> extends mixin(Bar) {}
 ```
 
 ### Diagnostics

@@ -24,6 +24,7 @@ wrap({'a':b, 'c':d});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -43,6 +44,7 @@ wrap({'a':b, 'c':d});
                                             "text": "a",
                                             "rawText": "'a'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 9
                                         },
@@ -51,10 +53,12 @@ wrap({'a':b, 'c':d});
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
                                         "flags": 4194336,
+                                        "transformFlags": 128,
                                         "start": 6,
                                         "end": 11
                                     },
@@ -66,6 +70,7 @@ wrap({'a':b, 'c':d});
                                             "text": "c",
                                             "rawText": "'c'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
@@ -74,34 +79,41 @@ wrap({'a':b, 'c':d});
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
                                         },
                                         "flags": 4194336,
+                                        "transformFlags": 128,
                                         "start": 12,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 4194320,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 4194352,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 19
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -110,6 +122,7 @@ wrap({'a':b, 'c':d});
     "source": "wrap({'a':b, 'c':d});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -118,9 +131,7 @@ wrap({'a':b, 'c':d});
 ### Printed
 
 ```javascript
-
-  wrap({ "'a'": b, "'c'": d });
-
+wrap({ "'a'": b, "'c'": d });
 ```
 
 ### Diagnostics

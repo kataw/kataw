@@ -38,6 +38,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 3
                             },
@@ -48,16 +49,19 @@
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 7
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 9
                 },
@@ -65,6 +69,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
@@ -78,24 +83,29 @@
                                 "text": "use strict",
                                 "rawText": "'use strict'",
                                 "flags": 4194401,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 29
                             }
                         ],
                         "statements": [],
                         "flags": 4194337,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 32
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 32
         },
@@ -118,22 +128,26 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 39
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 40
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 43
                 },
@@ -141,6 +155,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 46
                 },
@@ -154,24 +169,29 @@
                                 "text": "use strict",
                                 "rawText": "'use strict'",
                                 "flags": 4194401,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 63
                             }
                         ],
                         "statements": [],
                         "flags": 4194337,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 64
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 66
                 },
-                "flags": 34,
+                "flags": 35,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 66
         }
@@ -180,6 +200,7 @@
     "source": "( x = y ) => {\n  'use strict';\n}\n\n( { x}  ) => {\n  'use strict';\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 66
 }

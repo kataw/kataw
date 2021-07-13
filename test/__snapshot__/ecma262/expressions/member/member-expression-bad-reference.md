@@ -30,6 +30,7 @@ something.#x
                     "text": "something",
                     "rawText": "something",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 9
                 },
@@ -38,14 +39,17 @@ something.#x
                     "text": "#x",
                     "rawText": "#x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -54,6 +58,7 @@ something.#x
     "source": "something.#x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

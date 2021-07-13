@@ -20,6 +20,7 @@ let foo = 1; { var foo = 1; }
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ let foo = 1; { var foo = 1; }
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -42,19 +44,23 @@ let foo = 1; { var foo = 1; }
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -69,6 +75,7 @@ let foo = 1; { var foo = 1; }
                         "varKeyword": {
                             "kind": 37757002,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 18
                         },
@@ -82,6 +89,7 @@ let foo = 1; { var foo = 1; }
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 22
                                     },
@@ -91,28 +99,34 @@ let foo = 1; { var foo = 1; }
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 26
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4224,
                                     "start": 18,
                                     "end": 26
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 29
         }
@@ -121,6 +135,7 @@ let foo = 1; { var foo = 1; }
     "source": "let foo = 1; { var foo = 1; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

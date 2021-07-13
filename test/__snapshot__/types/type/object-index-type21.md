@@ -29,6 +29,7 @@ type x = { [y]: z[q] | null };
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = { [y]: z[q] | null };
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = { [y]: z[q] | null };
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -66,11 +69,13 @@ type x = { [y]: z[q] | null };
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -90,11 +95,13 @@ type x = { [y]: z[q] | null };
                                                     "text": "z",
                                                     "rawText": "z",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 17
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 17
                                             },
@@ -109,52 +116,63 @@ type x = { [y]: z[q] | null };
                                                         "text": "q",
                                                         "rawText": "q",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 19
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 19
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 19
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 22
                                         },
                                         {
                                             "kind": 138477575,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 27
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 27
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 29
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 29
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -163,6 +181,7 @@ type x = { [y]: z[q] | null };
     "source": "type x = { [y]: z[q] | null };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -171,9 +190,7 @@ type x = { [y]: z[q] | null };
 ### Printed
 
 ```javascript
-
-  type x = { [y]:  z[ q] | null }
-
+type x = { [y]: z[q] | null }
 ```
 
 ### Diagnostics

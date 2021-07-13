@@ -28,6 +28,7 @@ export class C {
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,6 +39,7 @@ export class C {
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -46,6 +48,7 @@ export class C {
                     "text": "C",
                     "rawText": "C",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -67,6 +70,7 @@ export class C {
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -77,6 +81,7 @@ export class C {
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 28
                                     },
@@ -85,33 +90,40 @@ export class C {
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 22,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 16,
                                 "end": 30
                             },
                             {
                                 "kind": 1108353041,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 31
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 31
                     },
                     "flags": 14,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 33
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 33
             },
@@ -120,6 +132,7 @@ export class C {
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -128,6 +141,7 @@ export class C {
     "source": "export class C {\n  p = await 0;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -136,12 +150,9 @@ export class C {
 ### Printed
 
 ```javascript
-
-  export class C {
-    p = await 0
-    ;
-  }
-
+export class C {
+  p = await 0;;
+}
 ```
 
 ### Diagnostics

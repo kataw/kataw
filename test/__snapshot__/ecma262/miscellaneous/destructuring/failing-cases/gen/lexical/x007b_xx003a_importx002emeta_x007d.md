@@ -27,6 +27,7 @@ let { x: import.meta }
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ let { x: import.meta }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 7
                                         },
@@ -55,11 +57,13 @@ let { x: import.meta }
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 8
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -70,6 +74,7 @@ let { x: import.meta }
                                             "text": "import",
                                             "rawText": "import",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 15
                                         },
@@ -78,36 +83,43 @@ let { x: import.meta }
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 15
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 15
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 15
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -118,10 +130,12 @@ let { x: import.meta }
                 "text": "meta",
                 "rawText": "meta",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 16,
             "end": 20
         }
@@ -130,6 +144,7 @@ let { x: import.meta }
     "source": "let { x: import.meta }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

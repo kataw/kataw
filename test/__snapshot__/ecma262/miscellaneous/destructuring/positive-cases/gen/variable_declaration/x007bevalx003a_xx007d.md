@@ -28,6 +28,7 @@ var {eval: x} = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ var {eval: x} = {};
                                             "text": "eval",
                                             "rawText": "eval",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 9
                                         },
@@ -56,21 +58,25 @@ var {eval: x} = {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 13
                         },
@@ -82,23 +88,28 @@ var {eval: x} = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 15,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -107,6 +118,7 @@ var {eval: x} = {};
     "source": "var {eval: x} = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -115,11 +127,7 @@ var {eval: x} = {};
 ### Printed
 
 ```javascript
-
-  var {
-    eval: x
-  } = {};
-
+var { eval: x } = {};
 ```
 
 ### Diagnostics

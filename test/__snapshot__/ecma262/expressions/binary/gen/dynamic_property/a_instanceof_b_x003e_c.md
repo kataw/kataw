@@ -31,6 +31,7 @@ foo[ a instanceof b > c ]
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -43,12 +44,14 @@ foo[ a instanceof b > c ]
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
                         "operatorToken": {
                             "kind": 4229173,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 17
                         },
@@ -57,16 +60,19 @@ foo[ a instanceof b > c ]
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 4,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 34883,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
@@ -75,18 +81,22 @@ foo[ a instanceof b > c ]
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 4,
                     "end": 23
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -95,6 +105,7 @@ foo[ a instanceof b > c ]
     "source": "foo[ a instanceof b > c ]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -103,9 +114,7 @@ foo[ a instanceof b > c ]
 ### Printed
 
 ```javascript
-
-  foo[a instanceof b > c];
-
+foo[a instanceof b > c];
 ```
 
 ### Diagnostics

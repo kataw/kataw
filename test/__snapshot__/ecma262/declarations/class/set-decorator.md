@@ -32,6 +32,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -61,6 +63,7 @@ class A {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
@@ -69,15 +72,18 @@ class A {
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 16
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 16
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -87,6 +93,7 @@ class A {
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 20
                             },
@@ -98,6 +105,7 @@ class A {
                                     "text": "setter",
                                     "rawText": "setter",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
@@ -110,12 +118,14 @@ class A {
                                             "text": "_val",
                                             "rawText": "_val",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 32
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 33
                                 },
@@ -127,31 +137,38 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -160,6 +177,7 @@ class A {
     "source": "class A {\n  @foo set setter(_val){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -168,12 +186,9 @@ class A {
 ### Printed
 
 ```javascript
-
-  class A {
-    @foo
-    set setter(_val) {}
-  }
-
+class A {
+  @foo set setter(_val) {}
+}
 ```
 
 ### Diagnostics

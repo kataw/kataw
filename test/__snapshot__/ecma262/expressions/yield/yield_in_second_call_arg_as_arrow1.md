@@ -22,12 +22,14 @@ function *g() { (x = x + foo(a, yield y)) => x; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -71,6 +75,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 18
                                             },
@@ -83,12 +88,14 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 22
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 24
                                                 },
@@ -99,6 +106,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 28
                                                     },
@@ -110,6 +118,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 30
                                                             },
@@ -118,6 +127,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 31,
                                                                     "end": 37
                                                                 },
@@ -128,34 +138,41 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                                     "text": "y",
                                                                     "rawText": "y",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 37,
                                                                     "end": 39
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 31,
                                                                 "end": 39
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 39
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 24,
                                                     "end": 40
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 5120,
                                                 "start": 20,
                                                 "end": 40
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 15,
                                             "end": 40
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 41
                                 },
@@ -163,6 +180,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 44
                                 },
@@ -171,28 +189,34 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 46
                                 },
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 46
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 47
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 49
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -201,6 +225,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
     "source": "function *g() { (x = x + foo(a, yield y)) => x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }
@@ -209,11 +234,9 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ### Printed
 
 ```javascript
-
-  function* g() {
-    (x = x + foo(a, yield  y)) => x;
-  }
-
+function *g() {
+  (x = x + foo(a, yield y)) => x;
+}
 ```
 
 ### Diagnostics

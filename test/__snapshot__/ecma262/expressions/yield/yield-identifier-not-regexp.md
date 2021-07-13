@@ -31,6 +31,7 @@ function f2() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -40,6 +41,7 @@ function f2() {
                 "text": "f1",
                 "rawText": "f1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -49,6 +51,7 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -69,12 +72,14 @@ function f2() {
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 23
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -83,16 +88,19 @@ function f2() {
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 27
                                     },
                                     "flags": 97,
+                                    "transformFlags": 5120,
                                     "start": 15,
                                     "end": 27
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
+                                    "transformFlags": 32,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -101,14 +109,17 @@ function f2() {
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 "flags": 97,
+                                "transformFlags": 5120,
                                 "start": 15,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 30
                         },
@@ -123,12 +134,14 @@ function f2() {
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 38
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 97,
+                                        "transformFlags": 32,
                                         "start": 38,
                                         "end": 42
                                     },
@@ -137,16 +150,19 @@ function f2() {
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 44
                                     },
                                     "flags": 97,
+                                    "transformFlags": 5120,
                                     "start": 30,
                                     "end": 44
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
+                                    "transformFlags": 32,
                                     "start": 44,
                                     "end": 46
                                 },
@@ -155,28 +171,34 @@ function f2() {
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 47
                                 },
                                 "flags": 97,
+                                "transformFlags": 5120,
                                 "start": 30,
                                 "end": 47
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 30,
                             "end": 47
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 49
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         },
@@ -187,6 +209,7 @@ function f2() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 58
             },
@@ -196,6 +219,7 @@ function f2() {
                 "text": "f2",
                 "rawText": "f2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 61
             },
@@ -205,6 +229,7 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 62
             },
@@ -223,12 +248,14 @@ function f2() {
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 73
                                 },
                                 "operatorToken": {
                                     "kind": 4133,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 76
                                 },
@@ -239,12 +266,14 @@ function f2() {
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 76,
                                         "end": 77
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 77,
                                         "end": 79
                                     },
@@ -253,18 +282,22 @@ function f2() {
                                         "text": "i",
                                         "rawText": "i",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 79,
                                         "end": 80
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 76,
                                     "end": 80
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 65,
                                 "end": 80
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 65,
                             "end": 80
                         },
@@ -277,12 +310,14 @@ function f2() {
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 88
                                 },
                                 "operatorToken": {
                                     "kind": 4133,
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 88,
                                     "end": 93
                                 },
@@ -293,12 +328,14 @@ function f2() {
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 93,
                                         "end": 94
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 94,
                                         "end": 96
                                     },
@@ -307,32 +344,39 @@ function f2() {
                                         "text": "i",
                                         "rawText": "i",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 96,
                                         "end": 97
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 93,
                                     "end": 97
                                 },
-                                "flags": 32,
+                                "flags": 1,
+                                "transformFlags": 128,
                                 "start": 80,
                                 "end": 97
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 80,
                             "end": 97
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 97
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 99
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 99
         }
@@ -341,6 +385,7 @@ function f2() {
     "source": "function f1() {\n  yield / 1 /g\n  yield\n  / 1 /g\n}\nfunction f2() {\n  yield /=2 /i\n  yield\n  /=2 /i\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 99
 }
@@ -349,15 +394,14 @@ function f2() {
 ### Printed
 
 ```javascript
-
-  function f1() {
-    yield / 1 / g;
-    yield / 1 / g;
-  }
-  function f2() {
-    yield /= 2 / i;
-    yield /= 2 / i;
-  }
+function f1() {
+  yield / 1 / g;
+  yield / 1 / g;
+}
+function f2() {
+  yield /= 2 / i;
+  yield /= 2 / i;
+}
 
 ```
 

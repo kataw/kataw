@@ -24,6 +24,7 @@ y(y/=x,{}=x)
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -37,12 +38,14 @@ y(y/=x,{}=x)
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
                             "operatorToken": {
                                 "kind": 4133,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 5
                             },
@@ -51,10 +54,12 @@ y(y/=x,{}=x)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 2,
                             "end": 6
                         },
@@ -67,16 +72,19 @@ y(y/=x,{}=x)
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 8
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 7,
                                 "end": 9
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
@@ -85,24 +93,29 @@ y(y/=x,{}=x)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 11
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -111,6 +124,7 @@ y(y/=x,{}=x)
     "source": "y(y/=x,{}=x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -119,9 +133,7 @@ y(y/=x,{}=x)
 ### Printed
 
 ```javascript
-
-  y(y /= x, {} = x);
-
+y(y /= x, {} = x);
 ```
 
 ### Diagnostics

@@ -32,6 +32,7 @@ function a<string>(x: string): string {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function a<string>(x: string): string {
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -56,6 +58,7 @@ function a<string>(x: string): string {
                                 "text": "string",
                                 "rawText": "string",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 17
                             },
@@ -63,16 +66,19 @@ function a<string>(x: string): string {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 17
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 18
             },
@@ -87,6 +93,7 @@ function a<string>(x: string): string {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -98,21 +105,25 @@ function a<string>(x: string): string {
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 28
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 19,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 28
             },
@@ -127,6 +138,7 @@ function a<string>(x: string): string {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 48
                             },
@@ -135,19 +147,23 @@ function a<string>(x: string): string {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 50
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 39,
                             "end": 51
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 51
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 53
             },
@@ -158,14 +174,17 @@ function a<string>(x: string): string {
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 37
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 53
         }
@@ -174,6 +193,7 @@ function a<string>(x: string): string {
     "source": "function a<string>(x: string): string {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }
@@ -182,11 +202,9 @@ function a<string>(x: string): string {
 ### Printed
 
 ```javascript
-
-  function a<string> (x: string): string {
-    return x;
-  }
-
+function a<string>(x: string): string {
+  return x;
+}
 ```
 
 ### Diagnostics

@@ -41,6 +41,7 @@ class x {static async async(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class x {static async async(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -66,12 +68,14 @@ class x {static async async(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -85,6 +89,7 @@ class x {static async async(){}}
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 27
                                 },
@@ -94,6 +99,7 @@ class x {static async async(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -105,31 +111,38 @@ class x {static async async(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 31
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 31
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -138,6 +151,7 @@ class x {static async async(){}}
     "source": "class x {static async async(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -146,11 +160,9 @@ class x {static async async(){}}
 ### Printed
 
 ```javascript
-
-  class x {
-    static async async() {}
-  }
-
+class x {
+  static async async() {}
+}
 ```
 
 ### Diagnostics

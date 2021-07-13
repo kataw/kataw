@@ -29,6 +29,7 @@ async (x = (await) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -44,6 +45,7 @@ async (x = (await) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -58,16 +60,19 @@ async (x = (await) = f) => {}
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 17
                                     },
-                                    "flags": 32,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 18
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -76,20 +81,24 @@ async (x = (await) = f) => {}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 10,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 23
                 },
@@ -97,6 +106,7 @@ async (x = (await) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 26
                 },
@@ -107,18 +117,22 @@ async (x = (await) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 29
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -127,6 +141,7 @@ async (x = (await) = f) => {}
     "source": "async (x = (await) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -135,9 +150,7 @@ async (x = (await) = f) => {}
 ### Printed
 
 ```javascript
-
-  async (x = (await) = f) => {};
-
+async (x = (await) = f) => {};
 ```
 
 ### Diagnostics

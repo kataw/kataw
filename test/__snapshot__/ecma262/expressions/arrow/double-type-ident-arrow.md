@@ -29,6 +29,7 @@ type =>  x, type =>  x;
                             "text": "type",
                             "rawText": "type",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 4
                         },
@@ -36,6 +37,7 @@ type =>  x, type =>  x;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 7
                         },
@@ -44,10 +46,12 @@ type =>  x, type =>  x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 10
                     },
@@ -60,6 +64,7 @@ type =>  x, type =>  x;
                             "text": "type",
                             "rawText": "type",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 16
                         },
@@ -67,6 +72,7 @@ type =>  x, type =>  x;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
@@ -75,19 +81,23 @@ type =>  x, type =>  x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 22
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 22
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -96,6 +106,7 @@ type =>  x, type =>  x;
     "source": "type =>  x, type =>  x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -104,9 +115,7 @@ type =>  x, type =>  x;
 ### Printed
 
 ```javascript
-
-  type => x, type => x;
-
+type => x, type => x;
 ```
 
 ### Diagnostics

@@ -34,6 +34,7 @@ class C {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,21 +48,25 @@ class C {
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -72,6 +77,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -80,6 +86,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -97,6 +104,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
@@ -112,6 +120,7 @@ class C {
                                             "classKeyword": {
                                                 "kind": 37822544,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 41
                                             },
@@ -120,6 +129,7 @@ class C {
                                                 "text": "D",
                                                 "rawText": "D",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 43
                                             },
@@ -141,6 +151,7 @@ class C {
                                                                 "text": "await",
                                                                 "rawText": "await",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 45,
                                                                 "end": 57
                                                             },
@@ -151,16 +162,19 @@ class C {
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 59,
                                                                 "end": 61
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 128,
                                                             "start": 45,
                                                             "end": 61
                                                         },
                                                         {
                                                             "kind": 1108353041,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 61,
                                                             "end": 62
                                                         },
@@ -175,6 +189,7 @@ class C {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 62,
                                                                 "end": 70
                                                             },
@@ -185,6 +200,7 @@ class C {
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 72,
                                                                     "end": 78
                                                                 },
@@ -193,65 +209,79 @@ class C {
                                                                     "text": "",
                                                                     "rawText": "",
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 78,
                                                                     "end": 78
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 72,
                                                                 "end": 78
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 128,
                                                             "start": 62,
                                                             "end": 78
                                                         },
                                                         {
                                                             "kind": 1108353041,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 78,
                                                             "end": 79
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 79
                                                 },
                                                 "flags": 43,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 85
                                             },
                                             "flags": 17,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 85
                                         },
                                         {
                                             "kind": 168,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 86
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 86
                                 },
                                 "flags": 20,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 90
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 90
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 90
                 },
                 "flags": 18,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 92
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 10,
             "end": 92
         }
@@ -260,6 +290,7 @@ class C {
     "source": "let await;\nclass C {\n  static {\n    class D {\n      await = 1;\n      x = await;\n    };\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 92
 }

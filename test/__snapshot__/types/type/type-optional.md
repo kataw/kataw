@@ -40,6 +40,7 @@ type a = ??string;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -48,6 +49,7 @@ type a = ??string;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -55,6 +57,7 @@ type a = ??string;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,19 +72,23 @@ type a = ??string;
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 8
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -94,12 +101,14 @@ type a = ??string;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -108,14 +117,17 @@ type a = ??string;
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 17
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 8,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 18
         }
@@ -124,6 +136,7 @@ type a = ??string;
     "source": "type a = ??string;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

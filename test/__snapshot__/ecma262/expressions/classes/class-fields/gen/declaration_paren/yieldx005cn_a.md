@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -44,6 +45,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
@@ -52,11 +54,13 @@
                                 "text": "Base",
                                 "rawText": "Base",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 19
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 19
                         },
@@ -74,6 +78,7 @@
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 27
                                     },
@@ -81,27 +86,33 @@
                                     "type": null,
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 21,
                                     "end": 27
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 27
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         },
@@ -112,10 +123,12 @@
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 28,
             "end": 29
         },
@@ -126,16 +139,19 @@
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 31
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 34,
             "end": 35
         }
@@ -144,6 +160,7 @@
     "source": "(class extends Base { yield\\n a });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

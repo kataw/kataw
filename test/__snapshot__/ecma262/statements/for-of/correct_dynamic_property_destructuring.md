@@ -20,6 +20,7 @@ for (let {[x]: y} of obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,6 +30,7 @@ for (let {[x]: y} of obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -51,10 +53,12 @@ for (let {[x]: y} of obj);
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 12
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 13
                                             },
@@ -63,42 +67,50 @@ for (let {[x]: y} of obj);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "initializer": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 16
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 17
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 17
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -107,16 +119,19 @@ for (let {[x]: y} of obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -125,6 +140,7 @@ for (let {[x]: y} of obj);
     "source": "for (let {[x]: y} of obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -133,12 +149,7 @@ for (let {[x]: y} of obj);
 ### Printed
 
 ```javascript
-
-  for (let {
-    [x]: y
-  } of obj)
-    ;
-
+for (let { [x]: y } of obj);
 ```
 
 ### Diagnostics

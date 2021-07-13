@@ -28,6 +28,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                             "text": "O",
                             "rawText": "O",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -58,6 +60,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -66,24 +69,29 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 16
                     },
@@ -94,6 +102,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -103,25 +112,30 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 27
         },
@@ -136,6 +150,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                         "operandToken": {
                             "kind": 196635,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 31
                         },
@@ -144,6 +159,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 37
                             },
@@ -154,6 +170,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                                     "text": "O",
                                     "rawText": "O",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
@@ -162,24 +179,29 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 41
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 37,
                                 "end": 41
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 31,
                             "end": 41
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 41
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 44
                     },
@@ -188,18 +210,22 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                         "text": 10,
                         "rawText": "10",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 47
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 29,
                     "end": 47
                 },
-                "flags": 32,
-                "start": 27,
+                "flags": 27,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 48
         }
@@ -208,6 +234,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
     "source": "var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

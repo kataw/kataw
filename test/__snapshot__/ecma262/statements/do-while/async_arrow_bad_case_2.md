@@ -21,6 +21,7 @@ do async ()
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -31,6 +32,7 @@ do async ()
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 8
                     },
@@ -40,6 +42,7 @@ do async ()
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -47,6 +50,7 @@ do async ()
                     "arrowToken": {
                         "kind": 10,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 15
                     },
@@ -55,20 +59,24 @@ do async ()
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 18
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 24
             },
@@ -77,10 +85,12 @@ do async ()
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -89,6 +99,7 @@ do async ()
     "source": "do async ()\n => x; while(y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

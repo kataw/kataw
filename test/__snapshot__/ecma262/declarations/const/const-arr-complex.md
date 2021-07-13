@@ -28,6 +28,7 @@ const arr = [0, ...[,,,]];
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const arr = [0, ...[,,,]];
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -55,6 +57,7 @@ const arr = [0, ...[,,,]];
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 14
                                     },
@@ -63,6 +66,7 @@ const arr = [0, ...[,,,]];
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 19
                                         },
@@ -74,55 +78,66 @@ const arr = [0, ...[,,,]];
                                                     {
                                                         "kind": 230,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 20
                                                     },
                                                     {
                                                         "kind": 230,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 21
                                                     },
                                                     {
                                                         "kind": 230,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 22,
                                                         "end": 22
                                                     }
                                                 ],
                                                 "trailingComma": true,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 23
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 19,
                                             "end": 24
                                         },
                                         "flags": 1073741856,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 11,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 25
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 25
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -131,6 +146,7 @@ const arr = [0, ...[,,,]];
     "source": "const arr = [0, ...[,,,]];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -139,9 +155,7 @@ const arr = [0, ...[,,,]];
 ### Printed
 
 ```javascript
-
-  const arr = [0, ...[, , ,]];
-
+const arr = [0, ...[, , ,]];
 ```
 
 ### Diagnostics

@@ -34,6 +34,7 @@ class Test {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ class Test {
                 "text": "Test",
                 "rawText": "Test",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -63,6 +65,7 @@ class Test {
                                 "text": "#x",
                                 "rawText": "#x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 18
                             },
@@ -73,16 +76,19 @@ class Test {
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 22
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 23
                         },
@@ -97,6 +103,7 @@ class Test {
                                 "text": "#y",
                                 "rawText": "#y",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
@@ -109,20 +116,24 @@ class Test {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 31,
                                 "end": 34
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 23,
                             "end": 34
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 35
                         },
@@ -137,6 +148,7 @@ class Test {
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 40
                             },
@@ -147,16 +159,19 @@ class Test {
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 44
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 35,
                             "end": 44
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 45
                         },
@@ -169,6 +184,7 @@ class Test {
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 52
                             },
@@ -181,6 +197,7 @@ class Test {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 54
                                 },
@@ -190,6 +207,7 @@ class Test {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 56
                                 },
@@ -205,6 +223,7 @@ class Test {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 58,
                                                     "end": 65
                                                 },
@@ -213,6 +232,7 @@ class Test {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 65,
                                                         "end": 70
                                                     },
@@ -221,31 +241,38 @@ class Test {
                                                         "text": "#x",
                                                         "rawText": "#x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 73
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 65,
                                                     "end": 73
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 58,
                                                 "end": 74
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 74
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 76
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 76
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 76
                         },
@@ -258,6 +285,7 @@ class Test {
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 83
                             },
@@ -270,6 +298,7 @@ class Test {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 83,
                                     "end": 85
                                 },
@@ -279,6 +308,7 @@ class Test {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 86,
                                     "end": 87
                                 },
@@ -294,6 +324,7 @@ class Test {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 89,
                                                     "end": 96
                                                 },
@@ -302,6 +333,7 @@ class Test {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 96,
                                                         "end": 101
                                                     },
@@ -310,31 +342,38 @@ class Test {
                                                         "text": "#y",
                                                         "rawText": "#y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 102,
                                                         "end": 104
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 96,
                                                     "end": 104
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 89,
                                                 "end": 105
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 89,
                                         "end": 105
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 107
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 107
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 76,
                             "end": 107
                         },
@@ -354,6 +393,7 @@ class Test {
                                     "text": "world",
                                     "rawText": "world",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 116
                                 },
@@ -363,6 +403,7 @@ class Test {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 117,
                                     "end": 118
                                 },
@@ -378,6 +419,7 @@ class Test {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 120,
                                                     "end": 133
                                                 },
@@ -391,6 +433,7 @@ class Test {
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 135,
                                                                 "end": 136
                                                             },
@@ -404,6 +447,7 @@ class Test {
                                                                             "text": 2,
                                                                             "rawText": "2",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 138,
                                                                             "end": 139
                                                                         },
@@ -412,16 +456,19 @@ class Test {
                                                                             "text": 3,
                                                                             "rawText": "3",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 140,
                                                                             "end": 141
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 138,
                                                                     "end": 141
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 8,
                                                                 "start": 137,
                                                                 "end": 142
                                                             },
@@ -430,37 +477,45 @@ class Test {
                                                                 "text": 4,
                                                                 "rawText": "4",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 143,
                                                                 "end": 144
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 135,
                                                         "end": 144
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 8,
                                                     "start": 133,
                                                     "end": 145
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 120,
                                                 "end": 146
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 120,
                                         "end": 146
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 118,
                                     "end": 151
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 116,
                                 "end": 151
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 151
                         },
@@ -480,6 +535,7 @@ class Test {
                                     "text": "hello",
                                     "rawText": "hello",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 151,
                                     "end": 160
                                 },
@@ -489,6 +545,7 @@ class Test {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 161,
                                     "end": 162
                                 },
@@ -513,6 +570,7 @@ class Test {
                                                                     "member": {
                                                                         "kind": 4276321,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 172,
                                                                         "end": 176
                                                                     },
@@ -521,10 +579,12 @@ class Test {
                                                                         "text": "#x",
                                                                         "rawText": "#x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 177,
                                                                         "end": 179
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 172,
                                                                     "end": 179
                                                                 },
@@ -533,6 +593,7 @@ class Test {
                                                                     "member": {
                                                                         "kind": 4276321,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 180,
                                                                         "end": 184
                                                                     },
@@ -541,10 +602,12 @@ class Test {
                                                                         "text": "#y",
                                                                         "rawText": "#y",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 185,
                                                                         "end": 187
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 180,
                                                                     "end": 187
                                                                 },
@@ -553,6 +616,7 @@ class Test {
                                                                     "member": {
                                                                         "kind": 4276321,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 188,
                                                                         "end": 192
                                                                     },
@@ -561,26 +625,31 @@ class Test {
                                                                         "text": "z",
                                                                         "rawText": "z",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 193,
                                                                         "end": 194
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 188,
                                                                     "end": 194
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 172,
                                                             "end": 194
                                                         },
                                                         "flags": 33,
+                                                        "transformFlags": 8,
                                                         "start": 164,
                                                         "end": 195
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 195,
                                                         "end": 197
                                                     },
@@ -591,6 +660,7 @@ class Test {
                                                             "member": {
                                                                 "kind": 4276321,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 197,
                                                                 "end": 202
                                                             },
@@ -599,10 +669,12 @@ class Test {
                                                                 "text": "world",
                                                                 "rawText": "world",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 203,
                                                                 "end": 208
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 197,
                                                             "end": 208
                                                         },
@@ -611,48 +683,59 @@ class Test {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 209,
                                                             "end": 209
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 197,
                                                         "end": 210
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 164,
                                                     "end": 210
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 164,
                                                 "end": 211
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 164,
                                         "end": 211
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 162,
                                     "end": 216
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 160,
                                 "end": 216
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 151,
                             "end": 216
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 216
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 218
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 218
         }
@@ -661,6 +744,7 @@ class Test {
     "source": "class Test {\n   #x = 2;\n   #y = [];\n   z = 2;\n   get x() { return this.#x; }\n   get y() { return this.#y; }\n   world() {\n      return [1,[2,3],4];\n   }\n   hello() {\n      [this.#x,this.#y,this.z] = this.world();\n   }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 218
 }
@@ -669,28 +753,23 @@ class Test {
 ### Printed
 
 ```javascript
-
-  class Test {
-    #x = 2
-    ;
-    #y = []
-    ;
-    z = 2
-    ;
-    get x() {
-      return this.#x;
-    }
-    get y() {
-      return this.#y;
-    }
-    world() {
-      return [1, [2, 3,], 4,];
-    }
-    hello() {
-      [this.#x, this.#y, this.z,] = this.world();
-    }
+class Test {
+  #x = 2;;
+  #y = [];;
+  z = 2;;
+  get x() {
+    return this.#x;
   }
-
+  get y() {
+    return this.#y;
+  }
+  world() {
+    return [1, [2, 3], 4];
+  }
+  hello() {
+    [this.#x, this.#y, this.z] = this.world();
+  }
+}
 ```
 
 ### Diagnostics

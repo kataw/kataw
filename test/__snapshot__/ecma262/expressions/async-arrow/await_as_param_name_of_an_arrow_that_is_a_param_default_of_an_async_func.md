@@ -22,6 +22,7 @@ async(a = (await) => {}) => {};
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -37,6 +38,7 @@ async(a = (await) => {}) => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -54,12 +56,14 @@ async(a = (await) => {}) => {};
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 16
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 17
                                 },
@@ -67,6 +71,7 @@ async(a = (await) => {}) => {};
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 20
                                 },
@@ -77,24 +82,29 @@ async(a = (await) => {}) => {};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 6,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 24
                 },
@@ -102,6 +112,7 @@ async(a = (await) => {}) => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 27
                 },
@@ -112,18 +123,22 @@ async(a = (await) => {}) => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         }
@@ -132,6 +147,7 @@ async(a = (await) => {}) => {};
     "source": "async(a = (await) => {}) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -140,9 +156,7 @@ async(a = (await) => {}) => {};
 ### Printed
 
 ```javascript
-
-  async (a = (await) => {}) => {};
-
+async (a = (await) => {}) => {};
 ```
 
 ### Diagnostics

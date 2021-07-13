@@ -22,6 +22,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -85,6 +91,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -100,6 +107,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 41
                                                 },
@@ -111,7 +119,8 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 43
                                                     },
@@ -119,6 +128,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 44,
                                                         "end": 47
                                                     },
@@ -130,7 +140,8 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 49
                                                         },
@@ -138,6 +149,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 53
                                                         },
@@ -146,6 +158,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                             "member": {
                                                                 "kind": 4259935,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 59
                                                             },
@@ -154,52 +167,64 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                                 "text": "bar",
                                                                 "rawText": "bar",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 60,
                                                                 "end": 63
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 53,
                                                             "end": 64
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 64
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 64
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 34,
                                                 "end": 65
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 65
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 67
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 67
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 67
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 67
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -208,6 +233,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
     "source": "class x extends y { constructor(){ return () => () => super[bar]; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -216,13 +242,11 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
 ### Printed
 
 ```javascript
-
-  class x extends y {
-    constructor() {
-      return () => () => super[bar];
-    }
+class x extends y {
+  constructor() {
+    return () => () => super[bar];
   }
-
+}
 ```
 
 ### Diagnostics

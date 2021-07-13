@@ -32,6 +32,7 @@
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 6
                                 },
@@ -42,6 +43,7 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 8
                                     },
@@ -54,6 +56,7 @@
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 12
                                                 },
@@ -62,6 +65,7 @@
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 13
                                                 },
@@ -69,12 +73,14 @@
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 34,
+                                                "transformFlags": 4096,
                                                 "start": 9,
                                                 "end": 13
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 546,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 14
                                     },
@@ -86,36 +92,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 16
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -124,6 +138,7 @@
     "source": "({ set x(...y){} })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

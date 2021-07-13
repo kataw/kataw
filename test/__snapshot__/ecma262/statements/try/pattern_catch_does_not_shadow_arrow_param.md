@@ -29,6 +29,7 @@ g => {
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -36,6 +37,7 @@ g => {
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -50,6 +52,7 @@ g => {
                                 "tryKeyword": {
                                     "kind": 37757027,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -59,10 +62,12 @@ g => {
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 14
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -71,6 +76,7 @@ g => {
                                     "catchKeyword": {
                                         "kind": 4202575,
                                         "flags": 81,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 23
                                     },
@@ -84,16 +90,19 @@ g => {
                                                     "text": "g",
                                                     "rawText": "g",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 27
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 27
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 28
                                     },
@@ -103,37 +112,45 @@ g => {
                                             "kind": 249,
                                             "statements": [],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 31
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 32
                                     },
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 32
                                 },
                                 "finallyKeyword": null,
                                 "finallyBlock": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 32
                             }
                         ],
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 32
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -142,6 +159,7 @@ g => {
     "source": "g => {\n  try {}\n  catch ([g]) {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -150,12 +168,9 @@ g => {
 ### Printed
 
 ```javascript
-
-  g => {
-    try { }
-    catch ([g]){ }
-  };
-
+g => {
+  try {} catch ([g]) {}
+};
 ```
 
 ### Diagnostics

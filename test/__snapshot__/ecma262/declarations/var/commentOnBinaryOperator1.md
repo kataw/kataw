@@ -40,6 +40,7 @@ var c = 'some'
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,6 +54,7 @@ var c = 'some'
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -64,12 +66,14 @@ var c = 'some'
                                 "text": "some",
                                 "rawText": "'some'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 14
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 35
                             },
@@ -78,23 +82,28 @@ var c = 'some'
                                 "text": "text",
                                 "rawText": "'text'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 42
                             },
                             "flags": 4194401,
+                            "transformFlags": 5120,
                             "start": 7,
                             "end": 42
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 42
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         },
@@ -104,6 +113,7 @@ var c = 'some'
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 48
             },
@@ -117,6 +127,7 @@ var c = 'some'
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 50
                         },
@@ -128,12 +139,14 @@ var c = 'some'
                                 "text": "some",
                                 "rawText": "'some'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 59
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 59,
                                 "end": 83
                             },
@@ -142,23 +155,28 @@ var c = 'some'
                                 "text": "text",
                                 "rawText": "'text'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 83,
                                 "end": 90
                             },
                             "flags": 4194401,
+                            "transformFlags": 5120,
                             "start": 52,
                             "end": 90
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 48,
                         "end": 90
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 90
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 43,
             "end": 91
         },
@@ -168,6 +186,7 @@ var c = 'some'
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 96
             },
@@ -181,6 +200,7 @@ var c = 'some'
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 96,
                             "end": 98
                         },
@@ -192,12 +212,14 @@ var c = 'some'
                                 "text": "some",
                                 "rawText": "'some'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 107
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 131
                             },
@@ -206,23 +228,28 @@ var c = 'some'
                                 "text": "text",
                                 "rawText": "'text'",
                                 "flags": 4194401,
+                                "transformFlags": 0,
                                 "start": 131,
                                 "end": 155
                             },
                             "flags": 4194401,
+                            "transformFlags": 5120,
                             "start": 100,
                             "end": 155
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 96,
                         "end": 155
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 155
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 91,
             "end": 156
         }
@@ -231,6 +258,7 @@ var c = 'some'
     "source": "var a = 'some'\n    // comment\n    + 'text';\n\nvar b = 'some'\n    /* comment */\n    + 'text';\n\nvar c = 'some'\n    /* comment */\n    + /*comment1*/\n    'text';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 156
 }
@@ -239,16 +267,11 @@ var c = 'some'
 ### Printed
 
 ```javascript
+var a = "'some'" // comment
+  + "'text'";
+var b = "'some'" /* comment */ + "'text'";
 
-  var a = "'some'" 
-   // comment
-  + "'text'";
-  var b = "'some'" 
-   /* comment */
-  + "'text'";
-  var c = "'some'" 
-   /* comment */
-  +/*comment1*/ "'text'";
+var c = "'some'" /* comment */ +/*comment1*/  "'text'";
 
 ```
 

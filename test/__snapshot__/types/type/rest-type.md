@@ -27,6 +27,7 @@ type x = [...aladdin];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type x = [...aladdin];
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -42,6 +44,7 @@ type x = [...aladdin];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -57,6 +60,7 @@ type x = [...aladdin];
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -71,33 +75,40 @@ type x = [...aladdin];
                                         "text": "aladdin",
                                         "rawText": "aladdin",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 20
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 20
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 20
                             },
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 21
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -106,6 +117,7 @@ type x = [...aladdin];
     "source": "type x = [...aladdin];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -114,9 +126,7 @@ type x = [...aladdin];
 ### Printed
 
 ```javascript
-
-  type x = [[...aladdin]]
-
+type x = [...aladdin]
 ```
 
 ### Diagnostics

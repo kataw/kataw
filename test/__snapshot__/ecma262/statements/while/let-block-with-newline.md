@@ -21,12 +21,14 @@ while (false) let // ASI
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
@@ -37,14 +39,17 @@ while (false) let // ASI
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 13,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -54,10 +59,12 @@ while (false) let // ASI
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 26
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 17,
             "end": 27
         }
@@ -66,6 +73,7 @@ while (false) let // ASI
     "source": "while (false) let // ASI\n{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -74,10 +82,9 @@ while (false) let // ASI
 ### Printed
 
 ```javascript
+while (false) let; // ASI
 
-  while (false)
-    let; // ASI
-  { }
+{}
 
 ```
 

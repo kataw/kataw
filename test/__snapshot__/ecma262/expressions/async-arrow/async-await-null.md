@@ -30,6 +30,7 @@ async <T>() => await null;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -45,6 +46,7 @@ async <T>() => await null;
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -52,16 +54,19 @@ async <T>() => await null;
                                 "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     },
                     "flags": 2097152,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 9
                 },
@@ -70,6 +75,7 @@ async <T>() => await null;
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
@@ -77,6 +83,7 @@ async <T>() => await null;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -85,24 +92,29 @@ async <T>() => await null;
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 20
                     },
                     "expression": {
                         "kind": 138477575,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 4096,
                     "start": 14,
                     "end": 25
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -111,6 +123,7 @@ async <T>() => await null;
     "source": "async <T>() => await null;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -119,9 +132,7 @@ async <T>() => await null;
 ### Printed
 
 ```javascript
-
-  async <T>() => await null;
-
+async <T>() => await null;
 ```
 
 ### Diagnostics

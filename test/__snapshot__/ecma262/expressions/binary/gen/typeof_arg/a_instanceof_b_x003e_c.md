@@ -33,6 +33,7 @@ typeof a instanceof b > c
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -41,16 +42,19 @@ typeof a instanceof b > c
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 0,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 4229173,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 19
                     },
@@ -59,16 +63,19 @@ typeof a instanceof b > c
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -77,14 +84,17 @@ typeof a instanceof b > c
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -93,6 +103,7 @@ typeof a instanceof b > c
     "source": "typeof a instanceof b > c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -101,9 +112,7 @@ typeof a instanceof b > c
 ### Printed
 
 ```javascript
-
-  typeof  a instanceof b > c;
-
+typeof a instanceof b > c;
 ```
 
 ### Diagnostics

@@ -25,6 +25,7 @@ if /* comment 2 */ (x) /* comment 3 */ {}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
@@ -33,6 +34,7 @@ if /* comment 2 */ (x) /* comment 3 */ {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 39
             },
@@ -42,16 +44,19 @@ if /* comment 2 */ (x) /* comment 3 */ {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 58
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 59
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -60,6 +65,7 @@ if /* comment 2 */ (x) /* comment 3 */ {}
     "source": "\n/* comment 1 */\n\nif /* comment 2 */ (x) /* comment 3 */ {}\n\n/* comment 4 */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 76
 }
@@ -69,9 +75,8 @@ if /* comment 2 */ (x) /* comment 3 */ {}
 
 ```javascript
 /* comment 1 */
-  if/* comment 2 */ (x)/* comment 3 */ { }
-   /* comment 4 */
-
+/* comment 1 */
+if (x)/* comment 3 */  {}
 ```
 
 ### Diagnostics

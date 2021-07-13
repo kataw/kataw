@@ -22,6 +22,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                     "text": "dsda",
                                     "rawText": "dsda",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 24
                                 },
@@ -85,6 +91,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -100,6 +107,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 34
                                                 },
@@ -118,6 +126,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 36,
                                                                     "end": 37
                                                                 },
@@ -128,6 +137,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                                     "member": {
                                                                         "kind": 4259935,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 38,
                                                                         "end": 43
                                                                     },
@@ -136,20 +146,24 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                                         "text": "bar",
                                                                         "rawText": "bar",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 44,
                                                                         "end": 47
                                                                     },
                                                                     "flags": 536870944,
+                                                                    "transformFlags": 4,
                                                                     "start": 38,
                                                                     "end": 48
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 34,
                                                                 "end": 48
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 2,
+                                                        "flags": 34,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 49
                                                     },
@@ -157,6 +171,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 49,
                                                         "end": 52
                                                     },
@@ -165,44 +180,54 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 54
                                                     },
                                                     "flags": 34,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 54
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 27,
                                                 "end": 55
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 55
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 57
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 57
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 57
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -211,6 +236,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
     "source": "class x extends y { dsda(){ return (a=super[bar]) => a; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }
@@ -219,13 +245,11 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 ### Printed
 
 ```javascript
-
-  class x extends y {
-    dsda() {
-      return (a = super[bar]) => a;
-    }
+class x extends y {
+  dsda() {
+    return (a = super[bar]) => a;
   }
-
+}
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ let x = (y: any): (() => {}) => { };
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x = (y: any): (() => {}) => { };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ let x = (y: any): (() => {}) => { };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -71,21 +74,25 @@ let x = (y: any): (() => {}) => { };
                                             "type": {
                                                 "kind": 134234252,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 15
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 28
                             },
@@ -105,12 +112,14 @@ let x = (y: any): (() => {}) => { };
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 21
                                         },
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 24
                                         },
@@ -123,28 +132,34 @@ let x = (y: any): (() => {}) => { };
                                                 "properties": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 27
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 27
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 27
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 28
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 28
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
@@ -155,27 +170,33 @@ let x = (y: any): (() => {}) => { };
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 35
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 35
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -184,6 +205,7 @@ let x = (y: any): (() => {}) => { };
     "source": "let x = (y: any): (() => {}) => { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -192,9 +214,7 @@ let x = (y: any): (() => {}) => { };
 ### Printed
 
 ```javascript
-
-  let x = (y: any) => {};
-
+let x = (y: any) => {};
 ```
 
 ### Diagnostics

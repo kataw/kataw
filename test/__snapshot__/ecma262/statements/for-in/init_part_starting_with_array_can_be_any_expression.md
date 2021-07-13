@@ -39,6 +39,7 @@ for ([] + b in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,16 +52,19 @@ for ([] + b in obj);
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -71,12 +75,14 @@ for ([] + b in obj);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
@@ -85,14 +91,17 @@ for ([] + b in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 18
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 11,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 18
             },
@@ -102,16 +111,19 @@ for ([] + b in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -120,6 +132,7 @@ for ([] + b in obj);
     "source": "for ([] + b in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

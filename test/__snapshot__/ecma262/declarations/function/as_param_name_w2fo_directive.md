@@ -22,6 +22,7 @@ function c(public){ }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function c(public){ }
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,12 +45,14 @@ function c(public){ }
                         "text": "public",
                         "rawText": "public",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -59,15 +63,18 @@ function c(public){ }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -76,6 +83,7 @@ function c(public){ }
     "source": "function c(public){ }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -84,9 +92,7 @@ function c(public){ }
 ### Printed
 
 ```javascript
-
-  function c(public) {}
-
+function c(public) {}
 ```
 
 ### Diagnostics

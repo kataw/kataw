@@ -39,6 +39,7 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 4
                                     },
@@ -47,6 +48,7 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -55,6 +57,7 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 9
                                     },
@@ -65,12 +68,14 @@
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -81,12 +86,14 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 15
                                             },
                                             "operatorToken": {
                                                 "kind": 35897,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 18
                                             },
@@ -95,36 +102,44 @@
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 20
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 13,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 1,
                                         "end": 20
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 1,
                                 "end": 20
                             },
-                            "flags": 32,
-                            "start": 1,
+                            "flags": 1,
+                            "transformFlags": 0,
+                            "start": 34,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -133,6 +148,7 @@
     "source": "{( a,b, c d = y ** d",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

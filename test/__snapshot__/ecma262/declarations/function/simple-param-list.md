@@ -48,6 +48,7 @@ function x({x}) { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -57,6 +58,7 @@ function x({x}) { "use strict"; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,6 +74,7 @@ function x({x}) { "use strict"; }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -82,16 +85,19 @@ function x({x}) { "use strict"; }
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 16
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
@@ -105,21 +111,25 @@ function x({x}) { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 32
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -130,6 +140,7 @@ function x({x}) { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 45
             },
@@ -139,6 +150,7 @@ function x({x}) { "use strict"; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 47
             },
@@ -151,6 +163,7 @@ function x({x}) { "use strict"; }
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 51
                         },
@@ -159,6 +172,7 @@ function x({x}) { "use strict"; }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 52
                         },
@@ -166,12 +180,14 @@ function x({x}) { "use strict"; }
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 48,
                         "end": 52
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 52
             },
@@ -185,21 +201,25 @@ function x({x}) { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 68
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 69
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 71
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 71
         },
@@ -210,6 +230,7 @@ function x({x}) { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 81
             },
@@ -219,6 +240,7 @@ function x({x}) { "use strict"; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 81,
                 "end": 83
             },
@@ -236,22 +258,26 @@ function x({x}) { "use strict"; }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 85,
                                     "end": 86
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 85,
                             "end": 86
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 84,
                         "end": 87
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 87
             },
@@ -265,21 +291,25 @@ function x({x}) { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 90,
                             "end": 103
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 90,
                     "end": 104
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 106
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 71,
             "end": 106
         },
@@ -290,6 +320,7 @@ function x({x}) { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 116
             },
@@ -299,6 +330,7 @@ function x({x}) { "use strict"; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 116,
                 "end": 118
             },
@@ -316,22 +348,26 @@ function x({x}) { "use strict"; }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 120,
                                     "end": 121
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 120,
                             "end": 121
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 119,
                         "end": 122
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 119,
                 "end": 122
             },
@@ -345,21 +381,25 @@ function x({x}) { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 125,
                             "end": 138
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 125,
                     "end": 139
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 141
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 106,
             "end": 141
         }
@@ -368,6 +408,7 @@ function x({x}) { "use strict"; }
     "source": "function x(x = y) { \"use strict\"; }\n\nfunction x(...x) { \"use strict\"; }\n\nfunction x([x]) { \"use strict\"; }\n\nfunction x({x}) { \"use strict\"; }\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 142
 }

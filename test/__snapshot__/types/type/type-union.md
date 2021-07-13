@@ -60,6 +60,7 @@ type overloads2 = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -68,6 +69,7 @@ type overloads2 = {
                 "text": "union",
                 "rawText": "union",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 10
             },
@@ -75,6 +77,7 @@ type overloads2 = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
@@ -83,6 +86,7 @@ type overloads2 = {
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
@@ -104,6 +108,7 @@ type overloads2 = {
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 21
                                     },
@@ -117,20 +122,24 @@ type overloads2 = {
                                             "text": "A",
                                             "rawText": "\"A\"",
                                             "flags": 2097216,
+                                            "transformFlags": 1024,
                                             "start": 22,
                                             "end": 26
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 26
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 27
                         },
@@ -148,6 +157,7 @@ type overloads2 = {
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 36
                                     },
@@ -161,33 +171,40 @@ type overloads2 = {
                                             "text": "B",
                                             "rawText": "\"B\"",
                                             "flags": 2097216,
+                                            "transformFlags": 1024,
                                             "start": 37,
                                             "end": 41
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 41
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 41
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 42
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 42
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 42
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         },
@@ -197,6 +214,7 @@ type overloads2 = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 50
             },
@@ -205,6 +223,7 @@ type overloads2 = {
                 "text": "overloads",
                 "rawText": "overloads",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 60
             },
@@ -212,6 +231,7 @@ type overloads2 = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 62
             },
@@ -221,6 +241,7 @@ type overloads2 = {
                 "bitwiseAndToken": {
                     "kind": 134252103,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 62,
                     "end": 66
                 },
@@ -245,6 +266,7 @@ type overloads2 = {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 69,
                                                     "end": 70
                                                 },
@@ -256,26 +278,31 @@ type overloads2 = {
                                                     "type": {
                                                         "kind": 134234347,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 78
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 71,
                                                     "end": 78
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 78
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 78
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 79,
                                         "end": 82
                                     },
@@ -286,23 +313,28 @@ type overloads2 = {
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 82,
                                             "end": 89
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 82,
                                         "end": 89
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 89
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 66,
                                 "end": 89
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 90
                         },
@@ -324,6 +356,7 @@ type overloads2 = {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 97,
                                                     "end": 98
                                                 },
@@ -335,26 +368,31 @@ type overloads2 = {
                                                     "type": {
                                                         "kind": 134234345,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 99,
                                                         "end": 106
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 99,
                                                     "end": 106
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 94,
                                                 "end": 106
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 94,
                                         "end": 106
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 107,
                                         "end": 110
                                     },
@@ -365,36 +403,44 @@ type overloads2 = {
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 110,
                                             "end": 117
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 110,
                                         "end": 117
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 117
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 94,
                                 "end": 117
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 94,
                             "end": 118
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 90,
                     "end": 118
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 118
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 44,
             "end": 120
         },
@@ -404,6 +450,7 @@ type overloads2 = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 120,
                 "end": 126
             },
@@ -412,6 +459,7 @@ type overloads2 = {
                 "text": "union2",
                 "rawText": "union2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 133
             },
@@ -419,6 +467,7 @@ type overloads2 = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 133,
                 "end": 135
             },
@@ -440,6 +489,7 @@ type overloads2 = {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 137,
                                 "end": 141
                             },
@@ -449,6 +499,7 @@ type overloads2 = {
                                 "bitwiseOrToken": {
                                     "kind": 134251592,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 142,
                                     "end": 148
                                 },
@@ -470,6 +521,7 @@ type overloads2 = {
                                                         "text": "type",
                                                         "rawText": "type",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 150,
                                                         "end": 154
                                                     },
@@ -483,20 +535,24 @@ type overloads2 = {
                                                             "text": "A",
                                                             "rawText": "\"A\"",
                                                             "flags": 2097216,
+                                                            "transformFlags": 1024,
                                                             "start": 155,
                                                             "end": 159
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 155,
                                                         "end": 159
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 150,
                                                     "end": 159
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 148,
                                             "end": 160
                                         },
@@ -514,6 +570,7 @@ type overloads2 = {
                                                         "text": "type",
                                                         "rawText": "type",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 168,
                                                         "end": 172
                                                     },
@@ -527,47 +584,57 @@ type overloads2 = {
                                                             "text": "B",
                                                             "rawText": "\"B\"",
                                                             "flags": 2097216,
+                                                            "transformFlags": 1024,
                                                             "start": 173,
                                                             "end": 177
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 173,
                                                         "end": 177
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 168,
                                                     "end": 177
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 166,
                                             "end": 178
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 160,
                                     "end": 178
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 142,
                                 "end": 178
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 137,
                             "end": 178
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 135,
                     "end": 180
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 180
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 120,
             "end": 181
         },
@@ -577,6 +644,7 @@ type overloads2 = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 181,
                 "end": 187
             },
@@ -585,6 +653,7 @@ type overloads2 = {
                 "text": "overloads2",
                 "rawText": "overloads2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 187,
                 "end": 198
             },
@@ -592,6 +661,7 @@ type overloads2 = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 198,
                 "end": 200
             },
@@ -613,6 +683,7 @@ type overloads2 = {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 202,
                                 "end": 206
                             },
@@ -623,6 +694,7 @@ type overloads2 = {
                                 "bitwiseAndToken": {
                                     "kind": 134252103,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 207,
                                     "end": 213
                                 },
@@ -643,6 +715,7 @@ type overloads2 = {
                                                         "text": "type",
                                                         "rawText": "type",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 215,
                                                         "end": 219
                                                     },
@@ -656,20 +729,24 @@ type overloads2 = {
                                                             "text": "A",
                                                             "rawText": "\"A\"",
                                                             "flags": 2097216,
+                                                            "transformFlags": 1024,
                                                             "start": 220,
                                                             "end": 224
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 220,
                                                         "end": 224
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 215,
                                                     "end": 224
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 213,
                                             "end": 225
                                         },
@@ -687,6 +764,7 @@ type overloads2 = {
                                                         "text": "type",
                                                         "rawText": "type",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 233,
                                                         "end": 237
                                                     },
@@ -700,47 +778,57 @@ type overloads2 = {
                                                             "text": "B",
                                                             "rawText": "\"B\"",
                                                             "flags": 2097216,
+                                                            "transformFlags": 1024,
                                                             "start": 238,
                                                             "end": 242
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 238,
                                                         "end": 242
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 233,
                                                     "end": 242
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 231,
                                             "end": 243
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 225,
                                     "end": 243
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 207,
                                 "end": 243
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 202,
                             "end": 243
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 200,
                     "end": 245
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 200,
                 "end": 245
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 181,
             "end": 246
         }
@@ -749,6 +837,7 @@ type overloads2 = {
     "source": "type union =\n | {type: \"A\"}\n | {type: \"B\"}\n;\n\ntype overloads =\n  & ((x: string) => number)\n  & ((x: number) => string)\n;\n\ntype union2 = {\n  x:\n    | {type: \"A\"}\n    | {type: \"B\"}\n};\n\ntype overloads2 = {\n  x:\n    & {type: \"A\"}\n    & {type: \"B\"}\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 246
 }
@@ -757,11 +846,12 @@ type overloads2 = {
 ### Printed
 
 ```javascript
+type union = | { type: "\"A\"" } | { type: "\"B\"" }
+type overloads = & ((x: string) => number) & ((x: number) => string)
 
-  type union = | { type: "\"A\"" } | { type: "\"B\"" }
-  type overloads = & ((x: string) => number) & ((x: number) => string)
-  type union2 = { x: | { type: "\"A\"" } | { type: "\"B\"" } }
-  type overloads2 = { x: & { type: "\"A\"" } & { type: "\"B\"" } }
+type union2 = { x: | { type: "\"A\"" } | { type: "\"B\"" } }
+
+type overloads2 = { x: & { type: "\"A\"" } & { type: "\"B\"" } }
 
 ```
 

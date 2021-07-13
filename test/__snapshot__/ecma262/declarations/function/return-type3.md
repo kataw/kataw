@@ -30,6 +30,7 @@ function x(y: | z): | /* comment */ () => number {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function x(y: | z): | /* comment */ () => number {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -54,6 +56,7 @@ function x(y: | z): | /* comment */ () => number {}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -63,6 +66,7 @@ function x(y: | z): | /* comment */ () => number {}
                             "bitwiseOrToken": {
                                 "kind": 134251592,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -74,26 +78,31 @@ function x(y: | z): | /* comment */ () => number {}
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -104,10 +113,12 @@ function x(y: | z): | /* comment */ () => number {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 50
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 51
             },
@@ -116,6 +127,7 @@ function x(y: | z): | /* comment */ () => number {}
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -128,12 +140,14 @@ function x(y: | z): | /* comment */ () => number {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 37
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 41
                     },
@@ -144,22 +158,27 @@ function x(y: | z): | /* comment */ () => number {}
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 48
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 48
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 48
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -168,6 +187,7 @@ function x(y: | z): | /* comment */ () => number {}
     "source": "function x(y: | z): | /* comment */ () => number {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }
@@ -176,9 +196,7 @@ function x(y: | z): | /* comment */ () => number {}
 ### Printed
 
 ```javascript
-
-  function x(y: | z): |/* comment */ () => number {}
-
+function x(y: | z): | /* comment */ () => number {}
 ```
 
 ### Diagnostics

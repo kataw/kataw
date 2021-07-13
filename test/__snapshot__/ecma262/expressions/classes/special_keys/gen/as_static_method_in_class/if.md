@@ -29,6 +29,7 @@ class x {static if(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static if(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class x {static if(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -68,6 +71,7 @@ class x {static if(){}}
                                     "text": "if",
                                     "rawText": "if",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
@@ -77,6 +81,7 @@ class x {static if(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 },
@@ -88,31 +93,38 @@ class x {static if(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 21
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 22
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 22
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -121,6 +133,7 @@ class x {static if(){}}
     "source": "class x {static if(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -129,11 +142,9 @@ class x {static if(){}}
 ### Printed
 
 ```javascript
-
-  class x {
-    static if() {}
-  }
-
+class x {
+  static if() {}
+}
 ```
 
 ### Diagnostics

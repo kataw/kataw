@@ -24,6 +24,7 @@ f(((a, b) => a + b));
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -44,6 +45,7 @@ f(((a, b) => a + b));
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
                                         },
@@ -52,12 +54,14 @@ f(((a, b) => a + b));
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 9
                                 },
@@ -65,6 +69,7 @@ f(((a, b) => a + b));
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -75,12 +80,14 @@ f(((a, b) => a + b));
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -89,32 +96,39 @@ f(((a, b) => a + b));
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 12,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 18
                             },
-                            "flags": 32,
-                            "start": 2,
+                            "flags": 2,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 19
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -123,6 +137,7 @@ f(((a, b) => a + b));
     "source": "f(((a, b) => a + b));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -131,9 +146,7 @@ f(((a, b) => a + b));
 ### Printed
 
 ```javascript
-
-  f(((a, b) => a + b));
-
+f(((a, b) => a + b));
 ```
 
 ### Diagnostics

@@ -41,6 +41,7 @@ function a({x = 10}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -50,6 +51,7 @@ function a({x = 10}) {}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -70,6 +72,7 @@ function a({x = 10}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     },
@@ -80,26 +83,31 @@ function a({x = 10}) {}
                                         "text": 10,
                                         "rawText": "10",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
                                     "flags": 0,
+                                    "transformFlags": 4096,
                                     "start": 12,
                                     "end": 18
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 18
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 19
             },
@@ -110,15 +118,18 @@ function a({x = 10}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 23
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -127,6 +138,7 @@ function a({x = 10}) {}
     "source": "function a({x = 10}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -135,11 +147,7 @@ function a({x = 10}) {}
 ### Printed
 
 ```javascript
-
-  function a({
-      x = 10
-    }) {}
-
+function a({ x = 10 }) {}
 ```
 
 ### Diagnostics

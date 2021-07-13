@@ -30,6 +30,7 @@ class Foo { static x = class { y = this } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo { static x = class { y = this } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -55,6 +57,7 @@ class Foo { static x = class { y = this } }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 18
                             },
@@ -64,6 +67,7 @@ class Foo { static x = class { y = this } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -75,6 +79,7 @@ class Foo { static x = class { y = this } }
                                 "classKeyword": {
                                     "kind": 37822544,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
@@ -97,6 +102,7 @@ class Foo { static x = class { y = this } }
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 32
                                                 },
@@ -105,40 +111,49 @@ class Foo { static x = class { y = this } }
                                                 "initializer": {
                                                     "kind": 4276321,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 39
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 30,
                                                 "end": 39
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 39
                                     },
                                     "flags": 28,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 41
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 41
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 18,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 41
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -147,6 +162,7 @@ class Foo { static x = class { y = this } }
     "source": "class Foo { static x = class { y = this } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -155,13 +171,11 @@ class Foo { static x = class { y = this } }
 ### Printed
 
 ```javascript
-
-  class Foo {
-    static x = class {
-      y = this
-    }
-  }
-
+class Foo {
+  static x = class {
+    y = this;
+  };
+}
 ```
 
 ### Diagnostics

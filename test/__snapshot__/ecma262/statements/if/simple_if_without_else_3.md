@@ -20,6 +20,7 @@ if (foo) a; if (bar) b; else c;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (foo) a; if (bar) b; else c;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -38,16 +40,19 @@ if (foo) a; if (bar) b; else c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 11
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -56,6 +61,7 @@ if (foo) a; if (bar) b; else c;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -64,6 +70,7 @@ if (foo) a; if (bar) b; else c;
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
@@ -74,16 +81,19 @@ if (foo) a; if (bar) b; else c;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 20,
                 "end": 23
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 28
             },
@@ -94,14 +104,17 @@ if (foo) a; if (bar) b; else c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 28,
                 "end": 31
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 11,
             "end": 31
         }
@@ -110,6 +123,7 @@ if (foo) a; if (bar) b; else c;
     "source": "if (foo) a; if (bar) b; else c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -118,13 +132,9 @@ if (foo) a; if (bar) b; else c;
 ### Printed
 
 ```javascript
-
-  if (foo)
-    a;
-  if (bar)
-    b;
-  else
-    c;
+if (foo) a;
+if (bar) b;
+else  c;
 
 ```
 

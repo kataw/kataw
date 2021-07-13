@@ -31,6 +31,7 @@ foo( a > b instanceof c )
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -46,12 +47,14 @@ foo( a > b instanceof c )
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
                                 "operatorToken": {
                                     "kind": 34883,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
@@ -60,16 +63,19 @@ foo( a > b instanceof c )
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 4,
                                 "end": 10
                             },
                             "operatorToken": {
                                 "kind": 4229173,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 21
                             },
@@ -78,24 +84,29 @@ foo( a > b instanceof c )
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 96,
+                            "transformFlags": 5120,
                             "start": 4,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 23
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -104,6 +115,7 @@ foo( a > b instanceof c )
     "source": "foo( a > b instanceof c )",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -112,9 +124,7 @@ foo( a > b instanceof c )
 ### Printed
 
 ```javascript
-
-  foo(a > b instanceof c);
-
+foo(a > b instanceof c);
 ```
 
 ### Diagnostics

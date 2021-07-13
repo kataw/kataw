@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -46,14 +48,17 @@
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 19
         },
@@ -66,6 +71,7 @@
                     "text": "toString",
                     "rawText": "toString",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 28
                 },
@@ -74,14 +80,17 @@
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 20,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 31
         }
@@ -90,6 +99,7 @@
     "source": "\"use strict\"; foo--.toString();",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

@@ -31,6 +31,7 @@ x;
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -39,15 +40,18 @@ x;
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -58,10 +62,12 @@ x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 9,
             "end": 12
         }
@@ -70,6 +76,7 @@ x;
     "source": "new await\nx;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -78,9 +85,8 @@ x;
 ### Printed
 
 ```javascript
-
-  new await;
-  x;
+new await;
+x;
 
 ```
 

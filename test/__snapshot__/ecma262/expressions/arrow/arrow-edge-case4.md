@@ -32,12 +32,14 @@ a ? (b = (c) => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,12 +52,14 @@ a ? (b = (c) => d) : e => f;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 6
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -71,12 +75,14 @@ a ? (b = (c) => d) : e => f;
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -84,6 +90,7 @@ a ? (b = (c) => d) : e => f;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 15
                             },
@@ -92,24 +99,29 @@ a ? (b = (c) => d) : e => f;
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 17
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "transformFlags": 0,
+                    "start": 34,
                     "end": 18
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -122,6 +134,7 @@ a ? (b = (c) => d) : e => f;
                         "text": "e",
                         "rawText": "e",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
@@ -129,6 +142,7 @@ a ? (b = (c) => d) : e => f;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 25
                     },
@@ -137,18 +151,22 @@ a ? (b = (c) => d) : e => f;
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 27
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         }
@@ -157,6 +175,7 @@ a ? (b = (c) => d) : e => f;
     "source": "a ? (b = (c) => d) : e => f;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -165,9 +184,7 @@ a ? (b = (c) => d) : e => f;
 ### Printed
 
 ```javascript
-
-  a ? (b = (c) => d) : e => f;
-
+a ? (b = (c) => d) : e => f;
 ```
 
 ### Diagnostics

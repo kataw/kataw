@@ -37,6 +37,7 @@
                                     "tryKeyword": {
                                         "kind": 37757027,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 6
                                     },
@@ -46,10 +47,12 @@
                                             "kind": 249,
                                             "statements": [],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 6
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 6
                                     },
@@ -61,32 +64,39 @@
                                             "kind": 249,
                                             "statements": [],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 6
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 6
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 6
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -95,6 +105,7 @@
     "source": "{ {try",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

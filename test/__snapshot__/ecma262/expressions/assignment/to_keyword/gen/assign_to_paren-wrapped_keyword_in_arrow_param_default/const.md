@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 6
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -46,6 +49,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -53,10 +57,12 @@
                 "kind": 151,
                 "bindingList": [],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 6,
             "end": 11
         },
@@ -67,10 +73,12 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 16
         },
@@ -80,10 +88,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 23
         }
@@ -92,6 +102,7 @@
     "source": "(x = (const) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

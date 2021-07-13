@@ -29,6 +29,7 @@ async x => (new) = 1
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async x => (new) = 1
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async x => (new) = 1
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -57,6 +60,7 @@ async x => (new) = 1
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 15
                             },
@@ -65,21 +69,25 @@ async x => (new) = 1
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "argumentList": null,
                             "flags": 96,
+                            "transformFlags": 2048,
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 32,
-                        "start": 10,
+                        "flags": 10,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 16
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
@@ -88,18 +96,22 @@ async x => (new) = 1
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 10,
                     "end": 20
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -108,6 +120,7 @@ async x => (new) = 1
     "source": "async x => (new) = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

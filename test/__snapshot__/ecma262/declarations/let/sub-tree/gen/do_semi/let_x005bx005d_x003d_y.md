@@ -29,6 +29,7 @@ do let
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -43,6 +44,7 @@ do let
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 6
                         },
@@ -51,16 +53,19 @@ do let
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 2,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -69,20 +74,24 @@ do let
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 1,
+                    "transformFlags": 128,
                     "start": 2,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 14
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
@@ -91,10 +100,12 @@ do let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -103,6 +114,7 @@ do let
     "source": "do let\n[] = y; while (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

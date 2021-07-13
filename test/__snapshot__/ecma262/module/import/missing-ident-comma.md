@@ -26,6 +26,7 @@ import a { b, c } from 'm.js'
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import a { b, c } from 'm.js'
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 22
                 },
@@ -44,10 +46,12 @@ import a { b, c } from 'm.js'
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 29
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 29
             },
@@ -59,6 +63,7 @@ import a { b, c } from 'm.js'
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -79,10 +84,12 @@ import a { b, c } from 'm.js'
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -97,27 +104,33 @@ import a { b, c } from 'm.js'
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 15
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -126,6 +139,7 @@ import a { b, c } from 'm.js'
     "source": "import a { b, c } from 'm.js'",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -134,9 +148,7 @@ import a { b, c } from 'm.js'
 ### Printed
 
 ```javascript
-
-  import a{  b,  c, } from "'m.js'";
-
+import a{  b,  c } from "'m.js'";
 ```
 
 ### Diagnostics

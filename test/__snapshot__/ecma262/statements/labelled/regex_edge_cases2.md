@@ -21,10 +21,12 @@ debugger
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -34,10 +36,12 @@ debugger
                 "kind": 371,
                 "text": "/bar/",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 14
         }
@@ -46,6 +50,7 @@ debugger
     "source": "debugger\n/bar/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -54,9 +59,8 @@ debugger
 ### Printed
 
 ```javascript
-
-  debugger;
-  /bar/;
+debugger;
+/bar/;
 
 ```
 

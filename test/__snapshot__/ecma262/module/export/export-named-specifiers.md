@@ -26,6 +26,7 @@ export {foo, bar};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,12 +44,14 @@ export {foo, bar};
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
@@ -60,21 +63,25 @@ export {foo, bar};
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 16
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 17
             },
@@ -82,6 +89,7 @@ export {foo, bar};
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -90,6 +98,7 @@ export {foo, bar};
     "source": "export {foo, bar};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -98,9 +107,7 @@ export {foo, bar};
 ### Printed
 
 ```javascript
-
-  export { foo, bar, };
-
+export { foo , bar  };
 ```
 
 ### Diagnostics

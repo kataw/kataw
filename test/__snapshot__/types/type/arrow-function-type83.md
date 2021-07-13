@@ -29,6 +29,7 @@ type a = (([-1]) => T) => T
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (([-1]) => T) => T
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (([-1]) => T) => T
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -79,38 +82,45 @@ type a = (([-1]) => T) => T
                                                             "subtractionToken": {
                                                                 "kind": 134318643,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 12,
                                                                 "end": 13
                                                             },
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 14
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 15
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 19
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
@@ -125,31 +135,37 @@ type a = (([-1]) => T) => T
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 22
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 25
                     },
@@ -164,27 +180,33 @@ type a = (([-1]) => T) => T
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 27
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 27
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 27
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -193,6 +215,7 @@ type a = (([-1]) => T) => T
     "source": "type a = (([-1]) => T) => T",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -201,9 +224,7 @@ type a = (([-1]) => T) => T
 ### Printed
 
 ```javascript
-
-  type a = (([[-1]]) => T) => T
-
+type a = (([-1]) => T) => T
 ```
 
 ### Diagnostics

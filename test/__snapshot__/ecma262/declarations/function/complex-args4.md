@@ -22,10 +22,12 @@ unction f([b, a], ...b) {}
                 "text": "unction",
                 "rawText": "unction",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -38,6 +40,7 @@ unction f([b, a], ...b) {}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -54,6 +57,7 @@ unction f([b, a], ...b) {}
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -62,16 +66,19 @@ unction f([b, a], ...b) {}
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 10,
                             "end": 16
                         },
@@ -80,6 +87,7 @@ unction f([b, a], ...b) {}
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
                             },
@@ -88,24 +96,29 @@ unction f([b, a], ...b) {}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 22
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 7,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 23
         },
@@ -115,10 +128,12 @@ unction f([b, a], ...b) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 26
         }
@@ -127,6 +142,7 @@ unction f([b, a], ...b) {}
     "source": "unction f([b, a], ...b) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

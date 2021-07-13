@@ -39,6 +39,7 @@ for ([].w ^= s;;) x;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,10 +54,12 @@ for ([].w ^= s;;) x;
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 5,
                         "end": 7
                     },
@@ -65,16 +68,19 @@ for ([].w ^= s;;) x;
                         "text": "w",
                         "rawText": "w",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4135,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
@@ -83,10 +89,12 @@ for ([].w ^= s;;) x;
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 14
             },
@@ -99,14 +107,17 @@ for ([].w ^= s;;) x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 17,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -115,6 +126,7 @@ for ([].w ^= s;;) x;
     "source": "for ([].w ^= s;;) x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -123,10 +135,7 @@ for ([].w ^= s;;) x;
 ### Printed
 
 ```javascript
-
-  for ([].w ^= s;;)
-    x;
-
+for ([].w ^= s; ; ) x;
 ```
 
 ### Diagnostics

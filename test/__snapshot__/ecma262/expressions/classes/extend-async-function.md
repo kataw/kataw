@@ -25,6 +25,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -37,6 +38,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
@@ -45,12 +47,14 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 29
                                 },
@@ -62,6 +66,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 30
                                 },
@@ -72,20 +77,24 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "returnType": null,
                                 "flags": 160,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 33
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 33
                         },
@@ -93,22 +102,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 34
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 35
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 35
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -117,6 +131,7 @@
     "source": "(class extends async function(){}{})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -125,10 +140,7 @@
 ### Printed
 
 ```javascript
-
-  (class extends async function () {} {
-  });
-
+(class extends async function () {} {});
 ```
 
 ### Diagnostics

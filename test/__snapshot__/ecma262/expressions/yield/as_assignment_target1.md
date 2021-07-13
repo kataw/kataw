@@ -29,12 +29,14 @@
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 7
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
@@ -45,27 +47,33 @@
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 11
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 9,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 1,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -74,6 +82,7 @@
     "source": "{ yield = {}; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -82,11 +91,9 @@
 ### Printed
 
 ```javascript
-
-  {
-    yield = {};
-  }
-
+{
+  yield = {};
+}
 ```
 
 ### Diagnostics

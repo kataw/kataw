@@ -28,6 +28,7 @@ var {a = my_var} = {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ var {a = my_var} = {}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -59,20 +61,24 @@ var {a = my_var} = {}
                                             "text": "my_var",
                                             "rawText": "my_var",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 15
                                         },
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 5,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 16
                         },
@@ -84,23 +90,28 @@ var {a = my_var} = {}
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 20
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 18,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -109,6 +120,7 @@ var {a = my_var} = {}
     "source": "var {a = my_var} = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -117,11 +129,7 @@ var {a = my_var} = {}
 ### Printed
 
 ```javascript
-
-  var {
-    a = my_var
-  } = {};
-
+var { a = my_var } = {};
 ```
 
 ### Diagnostics

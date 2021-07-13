@@ -32,6 +32,7 @@
                         "lexicalKeyword": {
                             "kind": 41951307,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -45,21 +46,25 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 7
                                     },
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
+                                    "transformFlags": 4224,
                                     "start": 5,
                                     "end": 7
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     },
@@ -70,19 +75,23 @@
                             "text": "strubg",
                             "rawText": "strubg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 8,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -91,6 +100,7 @@
     "source": "{ let x; strubg }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -99,12 +109,10 @@
 ### Printed
 
 ```javascript
-
-  {
-    let x;
-    strubg;
-  }
-
+{
+  let x;
+  strubg;
+}
 ```
 
 ### Diagnostics

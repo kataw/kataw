@@ -31,6 +31,7 @@
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 5
                                     },
@@ -39,26 +40,31 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 6
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 6
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
@@ -67,18 +73,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -87,6 +97,7 @@
     "source": "({...a}=x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -95,9 +106,7 @@
 ### Printed
 
 ```javascript
-
-  ({ ...a } = x);
-
+({ ...a } = x);
 ```
 
 ### Diagnostics

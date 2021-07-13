@@ -26,12 +26,14 @@ export default await 0;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -40,6 +42,7 @@ export default await 0;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
@@ -48,14 +51,17 @@ export default await 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -64,6 +70,7 @@ export default await 0;
     "source": "export default await 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -72,9 +79,7 @@ export default await 0;
 ### Printed
 
 ```javascript
-
-  export default await 0;
-
+export default await 0;
 ```
 
 ### Diagnostics

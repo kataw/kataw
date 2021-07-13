@@ -31,6 +31,7 @@ function bar() { }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -40,6 +41,7 @@ function bar() { }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -49,6 +51,7 @@ function bar() { }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -59,15 +62,18 @@ function bar() { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -78,6 +84,7 @@ function bar() { }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 27
             },
@@ -87,6 +94,7 @@ function bar() { }
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 31
             },
@@ -96,6 +104,7 @@ function bar() { }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
@@ -106,15 +115,18 @@ function bar() { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 37
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 37
         }
@@ -123,6 +135,7 @@ function bar() { }
     "source": "function foo() { }\nfunction bar() { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -131,9 +144,8 @@ function bar() { }
 ### Printed
 
 ```javascript
-
-  function foo() {}
-  function bar() {}
+function foo() {}
+function bar() {}
 
 ```
 

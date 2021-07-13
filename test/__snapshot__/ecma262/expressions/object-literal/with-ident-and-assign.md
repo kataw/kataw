@@ -20,6 +20,7 @@ let z = {...x}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ let z = {...x}
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -47,6 +49,7 @@ let z = {...x}
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 12
                                         },
@@ -55,33 +58,40 @@ let z = {...x}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 13
                                         },
                                         "flags": 1073741856,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -90,6 +100,7 @@ let z = {...x}
     "source": "let z = {...x}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -98,9 +109,7 @@ let z = {...x}
 ### Printed
 
 ```javascript
-
-  let z = { ...x };
-
+let z = { ...x };
 ```
 
 ### Diagnostics

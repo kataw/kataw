@@ -28,6 +28,7 @@ function foo():any{return ""};
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -37,6 +38,7 @@ function foo():any{return ""};
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -46,6 +48,7 @@ function foo():any{return ""};
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -60,6 +63,7 @@ function foo():any{return ""};
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 25
                             },
@@ -68,19 +72,23 @@ function foo():any{return ""};
                                 "text": "",
                                 "rawText": "\"\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 19,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 29
             },
@@ -91,20 +99,24 @@ function foo():any{return ""};
                 "type": {
                     "kind": 134234252,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 30
         }
@@ -113,6 +125,7 @@ function foo():any{return ""};
     "source": "function foo():any{return \"\"};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -121,12 +134,9 @@ function foo():any{return ""};
 ### Printed
 
 ```javascript
-
-  function foo(): any {
-    return "\"\"";
-  }
-  ;
-
+function foo(): any {
+  return "\"\"";
+}
 ```
 
 ### Diagnostics

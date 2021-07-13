@@ -29,6 +29,7 @@ class eval {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class eval {}
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -48,14 +50,17 @@ class eval {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -64,6 +69,7 @@ class eval {}
     "source": "class eval {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -72,10 +78,7 @@ class eval {}
 ### Printed
 
 ```javascript
-
-  class eval {
-  }
-
+class eval {}
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@ import foo from "foo";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import foo from "foo";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
@@ -44,10 +46,12 @@ import foo from "foo";
                     "text": "foo",
                     "rawText": "\"foo\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 21
             },
@@ -59,16 +63,19 @@ import foo from "foo";
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -77,6 +84,7 @@ import foo from "foo";
     "source": "import foo from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -85,9 +93,7 @@ import foo from "foo";
 ### Printed
 
 ```javascript
-
-  import foo from "\"foo\"";
-
+import foo from "\"foo\"";
 ```
 
 ### Diagnostics

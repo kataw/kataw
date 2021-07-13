@@ -27,6 +27,7 @@ var callCount = 0;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var callCount = 0;
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -57,6 +59,7 @@ var callCount = 0;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -65,10 +68,12 @@ var callCount = 0;
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 13
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 13
                                     },
@@ -80,6 +85,7 @@ var callCount = 0;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         },
@@ -88,33 +94,40 @@ var callCount = 0;
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 14,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 19
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -123,6 +136,7 @@ var callCount = 0;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 25
             },
@@ -136,6 +150,7 @@ var callCount = 0;
                             "text": "executedGetter",
                             "rawText": "executedGetter",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 40
                         },
@@ -143,19 +158,23 @@ var callCount = 0;
                         "initializer": {
                             "kind": 205586437,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 48
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 25,
                         "end": 48
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 48
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 21,
             "end": 49
         },
@@ -165,6 +184,7 @@ var callCount = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 55
             },
@@ -178,6 +198,7 @@ var callCount = 0;
                             "text": "callCount",
                             "rawText": "callCount",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 65
                         },
@@ -187,19 +208,23 @@ var callCount = 0;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 69
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 55,
                         "end": 69
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 69
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 70
         },
@@ -217,6 +242,7 @@ var callCount = 0;
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 81
                             },
@@ -231,12 +257,14 @@ var callCount = 0;
                                         "text": "obj",
                                         "rawText": "obj",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 82,
                                         "end": 85
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 85
                             },
@@ -247,15 +275,18 @@ var callCount = 0;
                                     "directives": [],
                                     "statements": [],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 88,
                                     "end": 88
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 90
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 73,
                             "end": 90
                         },
@@ -264,10 +295,12 @@ var callCount = 0;
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 91,
                             "end": 96
                         },
                         "flags": 32,
+                        "transformFlags": 2,
                         "start": 73,
                         "end": 96
                     },
@@ -277,6 +310,7 @@ var callCount = 0;
                             {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 101
                             },
@@ -295,6 +329,7 @@ var callCount = 0;
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 105,
                                                             "end": 108
                                                         },
@@ -303,10 +338,12 @@ var callCount = 0;
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 108,
                                                             "end": 109
                                                         },
                                                         "flags": 1073741856,
+                                                        "transformFlags": 0,
                                                         "start": 105,
                                                         "end": 109
                                                     },
@@ -317,6 +354,7 @@ var callCount = 0;
                                                         "getKeyword": {
                                                             "kind": 16498,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 110,
                                                             "end": 114
                                                         },
@@ -328,6 +366,7 @@ var callCount = 0;
                                                                 "text": "c",
                                                                 "rawText": "c",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 114,
                                                                 "end": 116
                                                             },
@@ -337,6 +376,7 @@ var callCount = 0;
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 1056,
+                                                                "transformFlags": 0,
                                                                 "start": 117,
                                                                 "end": 118
                                                             },
@@ -348,56 +388,68 @@ var callCount = 0;
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 120,
                                                                     "end": 120
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 118,
                                                                 "end": 121
                                                             },
                                                             "flags": 1056,
+                                                            "transformFlags": 0,
                                                             "start": 116,
                                                             "end": 121
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 110,
                                                         "end": 121
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 105,
                                                 "end": 121
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 104,
                                             "end": 122
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 104,
                                     "end": 122
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 102,
                                 "end": 123
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 97,
                         "end": 123
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 73,
                     "end": 124
                 },
-                "flags": 32,
-                "start": 70,
+                "flags": 70,
+                "transformFlags": 0,
+                "start": 33,
                 "end": 125
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 70,
             "end": 126
         }
@@ -406,6 +458,7 @@ var callCount = 0;
     "source": "let o = {a: 2, b: 3};\nlet executedGetter = false;\n\n\nvar callCount = 0;\n\n(function(obj) {\n}.apply(null, [{...o, get c() {}}]));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 126
 }
@@ -414,12 +467,12 @@ var callCount = 0;
 ### Printed
 
 ```javascript
+let o = { a: 2, b: 3 };
+let executedGetter = false;
 
-  let o = { a: 2, b: 3 };
-  let executedGetter = false;
-  var callCount = 0;
-  (function (obj) {
-  }.apply(null, [{ ...o, get c() {} },]));
+var callCount = 0;
+
+(function (obj) {}.apply(null, [{ ...o, get c() {} }]));
 
 ```
 

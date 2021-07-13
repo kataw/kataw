@@ -31,6 +31,7 @@ async <T>(fn: () => T) => fn;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -46,6 +47,7 @@ async <T>(fn: () => T) => fn;
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -53,16 +55,19 @@ async <T>(fn: () => T) => fn;
                                 "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     },
                     "flags": 2097152,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 9
                 },
@@ -77,6 +82,7 @@ async <T>(fn: () => T) => fn;
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -93,12 +99,14 @@ async <T>(fn: () => T) => fn;
                                         "parameters": [],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     },
@@ -113,34 +121,41 @@ async <T>(fn: () => T) => fn;
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 21
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 21
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 21
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 10,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 22
                 },
@@ -148,6 +163,7 @@ async <T>(fn: () => T) => fn;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
@@ -156,14 +172,17 @@ async <T>(fn: () => T) => fn;
                     "text": "fn",
                     "rawText": "fn",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 28
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -172,6 +191,7 @@ async <T>(fn: () => T) => fn;
     "source": "async <T>(fn: () => T) => fn;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -180,9 +200,7 @@ async <T>(fn: () => T) => fn;
 ### Printed
 
 ```javascript
-
-  async <T>(fn: () => T) => fn;
-
+async <T>(fn: () => T) => fn;
 ```
 
 ### Diagnostics

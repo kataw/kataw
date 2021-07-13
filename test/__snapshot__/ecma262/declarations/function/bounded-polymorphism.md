@@ -30,6 +30,7 @@ function bar<T: ?number>() {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function bar<T: ?number>() {}
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -54,6 +56,7 @@ function bar<T: ?number>() {}
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
@@ -66,36 +69,43 @@ function bar<T: ?number>() {}
                                     "nullableToken": {
                                         "kind": 134217750,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 23
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 23
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 12,
                 "end": 24
             },
@@ -104,6 +114,7 @@ function bar<T: ?number>() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
@@ -114,15 +125,18 @@ function bar<T: ?number>() {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 29
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -131,6 +145,7 @@ function bar<T: ?number>() {}
     "source": "function bar<T: ?number>() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -139,9 +154,7 @@ function bar<T: ?number>() {}
 ### Printed
 
 ```javascript
-
-  function bar<T: ?number> () {}
-
+function bar<T: ? number>() {}
 ```
 
 ### Diagnostics

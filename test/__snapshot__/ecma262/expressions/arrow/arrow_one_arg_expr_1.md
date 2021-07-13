@@ -29,12 +29,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -42,6 +44,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -50,14 +53,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -66,6 +72,7 @@
     "source": "(x)=>x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -74,9 +81,7 @@
 ### Printed
 
 ```javascript
-
-  (x) => x;
-
+(x) => x;
 ```
 
 ### Diagnostics

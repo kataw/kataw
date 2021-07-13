@@ -26,6 +26,7 @@ for (const x;;) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ for (const x;;) {}
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -47,21 +49,25 @@ for (const x;;) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
@@ -73,14 +79,17 @@ for (const x;;) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -89,6 +98,7 @@ for (const x;;) {}
     "source": "for (const x;;) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -97,9 +107,7 @@ for (const x;;) {}
 ### Printed
 
 ```javascript
-
-  for (const x;;) { }
-
+for (const x; ; ) {}
 ```
 
 ### Diagnostics

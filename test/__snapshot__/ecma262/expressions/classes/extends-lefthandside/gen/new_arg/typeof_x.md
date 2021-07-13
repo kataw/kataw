@@ -29,6 +29,7 @@ new typeof x
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,6 +38,7 @@ new typeof x
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -45,19 +47,23 @@ new typeof x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 3,
                     "end": 12
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -66,6 +72,7 @@ new typeof x
     "source": "new typeof x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -74,9 +81,7 @@ new typeof x
 ### Printed
 
 ```javascript
-
-  new typeof  x;
-
+new typeof x;
 ```
 
 ### Diagnostics

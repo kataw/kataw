@@ -41,6 +41,7 @@ class x extends y{}(09)
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class x extends y{}(09)
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -60,6 +62,7 @@ class x extends y{}(09)
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -68,11 +71,13 @@ class x extends y{}(09)
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -80,14 +85,17 @@ class x extends y{}(09)
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -100,14 +108,17 @@ class x extends y{}(09)
                     "text": 9,
                     "rawText": "09",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 19,
+                "flags": 19,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 23
         }
@@ -116,6 +127,7 @@ class x extends y{}(09)
     "source": "class x extends y{}(09)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -124,11 +136,7 @@ class x extends y{}(09)
 ### Printed
 
 ```javascript
-
-  class x extends y {
-  }
-  (09);
-
+class x extends y {}(09);
 ```
 
 ### Diagnostics

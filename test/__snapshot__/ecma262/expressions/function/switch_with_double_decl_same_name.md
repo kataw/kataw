@@ -25,6 +25,7 @@ switch (0) {
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -33,6 +34,7 @@ switch (0) {
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -44,6 +46,7 @@ switch (0) {
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 19
                         },
@@ -52,12 +55,14 @@ switch (0) {
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 22
                         },
@@ -69,6 +74,7 @@ switch (0) {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 35
                                 },
@@ -78,6 +84,7 @@ switch (0) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
@@ -87,6 +94,7 @@ switch (0) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
@@ -97,20 +105,24 @@ switch (0) {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 42
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 42
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 42
                     },
@@ -119,12 +131,14 @@ switch (0) {
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 52
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 53
                         },
@@ -136,6 +150,7 @@ switch (0) {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 66
                                 },
@@ -145,6 +160,7 @@ switch (0) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 68
                                 },
@@ -154,6 +170,7 @@ switch (0) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 69
                                 },
@@ -164,29 +181,35 @@ switch (0) {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 72
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 73
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 73
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 73
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 73
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 75
         }
@@ -195,6 +218,7 @@ switch (0) {
     "source": "switch (0) {\n  case 1:\n    function f() {}\n  default:\n    function f() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 75
 }
@@ -203,14 +227,12 @@ switch (0) {
 ### Printed
 
 ```javascript
-
-  switch (0) {
-    case 1: 
-      function f() {}
-    default: 
-      function f() {}
-  }
-
+switch (0) {
+  case 1:
+    function f() {}
+  default:
+    function f() {}
+}
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,10 +39,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 23
         }
@@ -50,6 +53,7 @@
     "source": "\"use strict\"; else = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

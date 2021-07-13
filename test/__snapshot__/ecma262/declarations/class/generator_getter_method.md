@@ -30,6 +30,7 @@ class A {* get "foo"(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class A {* get "foo"(){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class A {* get "foo"(){}}
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
@@ -66,6 +69,7 @@ class A {* get "foo"(){}}
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 14
                         },
@@ -85,6 +89,7 @@ class A {* get "foo"(){}}
                                     "text": "foo",
                                     "rawText": "\"foo\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
@@ -94,6 +99,7 @@ class A {* get "foo"(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -105,31 +111,38 @@ class A {* get "foo"(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 24
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 24
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -138,6 +151,7 @@ class A {* get "foo"(){}}
     "source": "class A {* get \"foo\"(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -146,12 +160,10 @@ class A {* get "foo"(){}}
 ### Printed
 
 ```javascript
-
-  class A {
-    get
-    "\"foo\""() {}
-  }
-
+class A {
+  get;
+  "\"foo\""() {}
+}
 ```
 
 ### Diagnostics

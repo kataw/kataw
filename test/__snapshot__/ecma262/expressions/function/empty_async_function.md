@@ -27,12 +27,14 @@ async function f(){}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -42,6 +44,7 @@ async function f(){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -51,6 +54,7 @@ async function f(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -61,15 +65,18 @@ async function f(){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -78,6 +85,7 @@ async function f(){}
     "source": "async function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -86,9 +94,7 @@ async function f(){}
 ### Printed
 
 ```javascript
-
-  async function f() {}
-
+async function f() {}
 ```
 
 ### Diagnostics

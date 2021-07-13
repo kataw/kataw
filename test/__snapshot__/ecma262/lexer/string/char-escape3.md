@@ -26,10 +26,12 @@
                 "text": "P",
                 "rawText": "\"\\P\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -40,10 +42,12 @@
                 "text": "prefixQ",
                 "rawText": "\"prefix\\Q\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 19
         },
@@ -54,10 +58,12 @@
                 "text": "Rsuffix",
                 "rawText": "\"\\Rsuffix\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 30
         }
@@ -66,6 +72,7 @@
     "source": "\"\\P\"\n;\n\"prefix\\Q\"\n;\n\"\\Rsuffix\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -74,10 +81,10 @@
 ### Printed
 
 ```javascript
+"\"P\"";
+"\"prefixQ\"";
 
-  "\"P\"";
-  "\"prefixQ\"";
-  "\"Rsuffix\"";
+"\"Rsuffix\"";
 
 ```
 

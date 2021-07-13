@@ -27,6 +27,7 @@ do async funcion switch!!
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,6 +38,7 @@ do async funcion switch!!
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 8
                     },
@@ -46,6 +48,7 @@ do async funcion switch!!
                         "text": "funcion",
                         "rawText": "funcion",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 16
                     },
@@ -56,14 +59,17 @@ do async funcion switch!!
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 16
             },
@@ -73,10 +79,12 @@ do async funcion switch!!
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -85,6 +93,7 @@ do async funcion switch!!
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 23
             },
@@ -93,6 +102,7 @@ do async funcion switch!!
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 24
                 },
@@ -101,6 +111,7 @@ do async funcion switch!!
                     "operandToken": {
                         "kind": 65584,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 25
                     },
@@ -109,14 +120,17 @@ do async funcion switch!!
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 24,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 23,
                 "end": 25
             },
@@ -124,10 +138,12 @@ do async funcion switch!!
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 16,
             "end": 25
         }
@@ -136,6 +152,7 @@ do async funcion switch!!
     "source": "do async funcion switch!!",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

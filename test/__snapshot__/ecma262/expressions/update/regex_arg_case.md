@@ -22,6 +22,7 @@
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -31,6 +32,7 @@
                         "kind": 371,
                         "text": "/b/",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 5
                     },
@@ -39,18 +41,22 @@
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 2,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -59,6 +65,7 @@
     "source": "--/b/.c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -67,9 +74,7 @@
 ### Printed
 
 ```javascript
-
-  --/b/.c;
-
+-- /b/.c;
 ```
 
 ### Diagnostics

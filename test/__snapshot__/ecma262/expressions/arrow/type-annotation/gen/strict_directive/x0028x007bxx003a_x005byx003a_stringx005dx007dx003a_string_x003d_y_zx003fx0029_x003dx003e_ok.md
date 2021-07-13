@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -39,14 +40,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 13,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 21
         },
@@ -57,10 +61,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 29
         },
@@ -76,12 +82,14 @@
                             "text": "string",
                             "rawText": "string",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 39
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 41
                         },
@@ -90,10 +98,12 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 43
                         },
-                        "flags": 32,
+                        "flags": 0,
+                        "transformFlags": 128,
                         "start": 32,
                         "end": 43
                     },
@@ -104,12 +114,14 @@
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 46
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 47
                         },
@@ -118,6 +130,7 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 47
                         },
@@ -127,19 +140,23 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 47
                         },
                         "flags": 96,
+                        "transformFlags": 4096,
                         "start": 44,
                         "end": 47
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 32,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 32,
             "end": 47
         },
@@ -150,10 +167,12 @@
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 51,
             "end": 54
         }
@@ -162,6 +181,7 @@
     "source": "\"use strict\"; ({x: [y: string]}: string = y, z?) => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

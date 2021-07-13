@@ -31,6 +31,7 @@ class C {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,21 +45,25 @@ class C {
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -69,6 +74,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -77,6 +83,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -94,6 +101,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
@@ -107,6 +115,7 @@ class C {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 39
                                             },
@@ -120,47 +129,57 @@ class C {
                                                             "text": "await",
                                                             "rawText": "await",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 45
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 4224,
                                                         "start": 39,
                                                         "end": 45
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 45
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 46
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 46
                                 },
                                 "flags": 20,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 101
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 101
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 101
                 },
                 "flags": 18,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 103
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 10,
             "end": 103
         }
@@ -169,6 +188,7 @@ class C {
     "source": "let await;\nclass C {\n  static {\n    let await; // illegal, cannot declare a new binding for await\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 103
 }

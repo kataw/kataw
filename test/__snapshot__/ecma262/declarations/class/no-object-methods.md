@@ -25,6 +25,7 @@ var o = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ var o = {
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -49,23 +51,28 @@ var o = {
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -80,6 +87,7 @@ var o = {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 65,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
@@ -88,15 +96,18 @@ var o = {
                             "text": "baz",
                             "rawText": "baz",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 16
             },
@@ -106,6 +117,7 @@ var o = {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 22
             },
@@ -117,14 +129,17 @@ var o = {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 22,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 22
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 9,
             "end": 22
         },
@@ -138,7 +153,8 @@ var o = {
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
@@ -151,18 +167,22 @@ var o = {
                         "directives": [],
                         "statements": [],
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 30
         }
@@ -171,6 +191,7 @@ var o = {
     "source": "var o = {\n  @baz\n  foo() {\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

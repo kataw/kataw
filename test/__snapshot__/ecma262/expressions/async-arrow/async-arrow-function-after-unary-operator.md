@@ -22,6 +22,7 @@ delete async () => 3;
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -30,6 +31,7 @@ delete async () => 3;
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -39,6 +41,7 @@ delete async () => 3;
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
@@ -46,6 +49,7 @@ delete async () => 3;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -54,18 +58,22 @@ delete async () => 3;
                         "text": 3,
                         "rawText": "3",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -74,6 +82,7 @@ delete async () => 3;
     "source": "delete async () => 3;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -82,9 +91,7 @@ delete async () => 3;
 ### Printed
 
 ```javascript
-
-  delete  async () => 3;
-
+delete async () => 3;
 ```
 
 ### Diagnostics

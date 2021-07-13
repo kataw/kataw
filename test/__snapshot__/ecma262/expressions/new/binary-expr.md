@@ -32,6 +32,7 @@ new x<number>(y)
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -40,17 +41,20 @@ new x<number>(y)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "argumentList": null,
                         "flags": 96,
+                        "transformFlags": 2048,
                         "start": 0,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
@@ -59,16 +63,19 @@ new x<number>(y)
                         "text": "number",
                         "rawText": "number",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
@@ -79,18 +86,22 @@ new x<number>(y)
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 32,
-                    "start": 13,
+                    "flags": 13,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 16
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -99,6 +110,7 @@ new x<number>(y)
     "source": "new x<number>(y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -107,9 +119,7 @@ new x<number>(y)
 ### Printed
 
 ```javascript
-
-  new x  < number > (y);
-
+new x  < number > (y);
 ```
 
 ### Diagnostics

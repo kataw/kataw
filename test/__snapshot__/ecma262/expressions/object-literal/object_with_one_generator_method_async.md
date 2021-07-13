@@ -24,6 +24,7 @@ wrap({*async(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -41,6 +42,7 @@ wrap({*async(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -53,6 +55,7 @@ wrap({*async(){}});
                                                 "text": "async",
                                                 "rawText": "async",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 12
                                             },
@@ -62,6 +65,7 @@ wrap({*async(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
@@ -73,42 +77,51 @@ wrap({*async(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 15
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 16
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -117,6 +130,7 @@ wrap({*async(){}});
     "source": "wrap({*async(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -125,9 +139,7 @@ wrap({*async(){}});
 ### Printed
 
 ```javascript
-
-  wrap({ * async() {} });
-
+wrap({ *async() {} });
 ```
 
 ### Diagnostics

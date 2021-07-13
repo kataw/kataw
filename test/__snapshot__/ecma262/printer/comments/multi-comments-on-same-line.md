@@ -110,10 +110,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 43
         },
@@ -124,10 +126,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 43,
             "end": 62
         },
@@ -138,10 +142,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 65
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 62,
             "end": 66
         },
@@ -152,10 +158,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 83
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 66,
             "end": 84
         },
@@ -166,10 +174,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 87
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 84,
             "end": 88
         },
@@ -180,10 +190,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 105
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 88,
             "end": 106
         },
@@ -194,10 +206,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 106,
             "end": 110
         },
@@ -208,10 +222,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 130
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 110,
             "end": 131
         },
@@ -222,10 +238,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 131,
                 "end": 134
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 131,
             "end": 135
         },
@@ -236,10 +254,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 154
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 135,
             "end": 155
         },
@@ -250,10 +270,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 155,
                 "end": 158
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 155,
             "end": 159
         },
@@ -264,10 +286,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 159,
                 "end": 177
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 159,
             "end": 178
         },
@@ -278,10 +302,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 178,
                 "end": 228
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 178,
             "end": 229
         },
@@ -292,10 +318,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 229,
                 "end": 248
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 229,
             "end": 249
         },
@@ -306,10 +334,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 249,
                 "end": 252
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 249,
             "end": 253
         },
@@ -320,10 +350,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 253,
                 "end": 271
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 253,
             "end": 272
         },
@@ -334,10 +366,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 272,
                 "end": 275
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 272,
             "end": 276
         },
@@ -348,10 +382,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 276,
                 "end": 294
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 276,
             "end": 295
         },
@@ -362,10 +398,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 295,
                 "end": 298
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 295,
             "end": 299
         },
@@ -376,10 +414,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 299,
                 "end": 320
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 299,
             "end": 321
         },
@@ -390,10 +430,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 321,
                 "end": 324
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 321,
             "end": 325
         },
@@ -404,10 +446,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 325,
                 "end": 345
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 325,
             "end": 346
         },
@@ -418,10 +462,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 346,
                 "end": 349
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 346,
             "end": 350
         },
@@ -432,10 +478,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 350,
                 "end": 369
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 350,
             "end": 370
         },
@@ -446,10 +494,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 370,
                 "end": 419
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 370,
             "end": 420
         },
@@ -460,10 +510,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 420,
                 "end": 439
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 420,
             "end": 440
         },
@@ -474,10 +526,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 440,
                 "end": 443
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 440,
             "end": 444
         },
@@ -488,10 +542,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 444,
                 "end": 462
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 444,
             "end": 463
         },
@@ -502,10 +558,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 463,
                 "end": 466
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 463,
             "end": 467
         },
@@ -516,10 +574,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 467,
                 "end": 485
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 467,
             "end": 486
         },
@@ -530,10 +590,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 486,
                 "end": 489
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 486,
             "end": 490
         },
@@ -544,10 +606,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 490,
                 "end": 511
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 490,
             "end": 512
         },
@@ -558,10 +622,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 512,
                 "end": 515
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 512,
             "end": 516
         },
@@ -572,10 +638,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 516,
                 "end": 536
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 516,
             "end": 537
         },
@@ -586,10 +654,12 @@ a;/*
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 537,
                 "end": 540
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 537,
             "end": 541
         },
@@ -600,10 +670,12 @@ a;/*
                 "text": "b",
                 "rawText": "b",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 541,
                 "end": 560
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 541,
             "end": 561
         }
@@ -612,6 +684,7 @@ a;/*
     "source": "/*========= All on same line =========*/\na;\n/*1*//*2*//*3*/\nb;\n\na;/*1*//*2*//*3*/\nb;\n\na;\n/*1*//*2*//*3*/b;\n\na;\n/*\n1*//*2*//*3\n*/\nb;\n\na;/*\n1*//*2*//*3\n*/\nb;\n\na;/*\n1*//*2*//*3\n*/b;\n\n/*========= First two on same line =========*/\na;\n/*1*//*2*/\n/*3*/\nb;\n\na;/*1*//*2*/\n/*3*/\nb;\n\na;\n/*1*//*2*/\n/*3*/b;\n\na;\n/*\n1*//*2*/\n/*3\n*/\nb;\n\na;/*\n1*//*2*/\n/*3\n*/\nb;\n\na;/*\n1*//*2*/\n/*3\n*/b;\n\n/*========= Last two on same line =========*/\na;\n/*1*/\n/*2*//*3*/\nb;\n\na;/*1*/\n/*2*//*3*/\nb;\n\na;\n/*1*/\n/*2*//*3*/b;\n\na;\n/*\n1*/\n/*2*//*3\n*/\nb;\n\na;/*\n1*/\n/*2*//*3\n*/\nb;\n\na;/*\n1*/\n/*2*//*3\n*/b;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 561
 }
@@ -621,78 +694,113 @@ a;/*
 
 ```javascript
 /*========= All on same line =========*/
-  a;
-   /*1*/ /*2*/ /*3*/
-  b;
-  a; /*1*/ /*2*/ /*3*/
-  b;
-  a;
-   /*1*/ /*2*/ /*3*/b;
-  a;
-   /*
+/*========= All on same line =========*/
+a;
+/*1*/ /*2*/ /*3*/
+b;
+
+a; /*1*/ /*2*/ /*3*/
+
+b;
+
+a;
+
+/*1*/ /*2*/ /*3*/ b;
+
+a;
+
+/*
 1*/ /*2*/ /*3
 */
-  b;
-  a; /*
+b;
+
+a; /*
 1*/ /*2*/ /*3
 */
-  b;
-  a; /*
+
+b;
+
+a; /*
 1*/ /*2*/ /*3
 */
-  b;
-   /*========= First two on same line =========*/
-  a;
-   /*1*/ /*2*/
-  /*3*/
-  b;
-  a; /*1*/ /*2*/
-   /*3*/
-  b;
-  a;
-   /*1*/ /*2*/
-  /*3*/b;
-  a;
-   /*
+
+b;
+
+/*========= First two on same line =========*/
+a;
+
+/*1*/ /*2*/
+/*3*/
+b;
+
+a; /*1*/ /*2*/
+
+/*3*/
+b;
+
+a;
+
+/*1*/ /*2*/
+/*3*/ b;
+
+a;
+
+/*
 1*/ /*2*/
-  /*3
+/*3
 */
-  b;
-  a; /*
+b;
+
+a; /*
 1*/ /*2*/
-   /*3
+
+/*3
 */
-  b;
-  a; /*
+b;
+
+a; /*
 1*/ /*2*/
-   /*3
-*/b;
-   /*========= Last two on same line =========*/
-  a;
-   /*1*/
-  /*2*/ /*3*/
-  b;
-  a; /*1*/
-   /*2*/ /*3*/
-  b;
-  a;
-   /*1*/
-  /*2*/ /*3*/b;
-  a;
-   /*
+
+/*3
+*/ b;
+
+/*========= Last two on same line =========*/
+a;
+
+/*1*/
+/*2*/ /*3*/
+b;
+
+a; /*1*/
+
+/*2*/ /*3*/
+b;
+
+a;
+
+/*1*/
+/*2*/ /*3*/ b;
+
+a;
+
+/*
 1*/
-  /*2*/ /*3
+/*2*/ /*3
 */
-  b;
-  a; /*
+b;
+
+a; /*
 1*/
-   /*2*/ /*3
+
+/*2*/ /*3
 */
-  b;
-  a; /*
+b;
+
+a; /*
 1*/
-   /*2*/ /*3
-*/b;
+
+/*2*/ /*3
+*/ b;
 
 ```
 

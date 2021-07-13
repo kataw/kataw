@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 6
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -46,6 +49,7 @@
             "continueKeyword": {
                 "kind": 37757009,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
@@ -54,10 +58,12 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 14
         },
@@ -68,10 +74,12 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         },
@@ -81,10 +89,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 26
         }
@@ -93,6 +103,7 @@
     "source": "(x = (continue) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

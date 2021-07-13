@@ -22,6 +22,7 @@ a.b?.c()
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -32,6 +33,7 @@ a.b?.c()
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -40,10 +42,12 @@ a.b?.c()
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 3
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 3
                 },
@@ -59,14 +63,17 @@ a.b?.c()
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 5,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
@@ -76,18 +83,22 @@ a.b?.c()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 7
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -96,6 +107,7 @@ a.b?.c()
     "source": "a.b?.c()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -104,9 +116,7 @@ a.b?.c()
 ### Printed
 
 ```javascript
-
-  a.b?.c();
-
+a.b?.c();
 ```
 
 ### Diagnostics

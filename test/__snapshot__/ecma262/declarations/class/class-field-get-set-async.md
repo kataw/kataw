@@ -30,6 +30,7 @@ class C { get; set; static; async }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { get; set; static; async }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class C { get; set; static; async }
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -66,12 +69,14 @@ class C { get; set; static; async }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 13
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -86,6 +91,7 @@ class C { get; set; static; async }
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
@@ -93,12 +99,14 @@ class C { get; set; static; async }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 14,
                             "end": 18
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
@@ -113,6 +121,7 @@ class C { get; set; static; async }
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 26
                             },
@@ -120,12 +129,14 @@ class C { get; set; static; async }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 19,
                             "end": 26
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 27
                         },
@@ -140,6 +151,7 @@ class C { get; set; static; async }
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 33
                             },
@@ -147,19 +159,23 @@ class C { get; set; static; async }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 27,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 33
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -168,6 +184,7 @@ class C { get; set; static; async }
     "source": "class C { get; set; static; async }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -176,17 +193,12 @@ class C { get; set; static; async }
 ### Printed
 
 ```javascript
-
-  class C {
-    get
-    ;
-    set
-    ;
-    static
-    ;
-    async
-  }
-
+class C {
+  get;;
+  set;;
+  static;;
+  async;
+}
 ```
 
 ### Diagnostics

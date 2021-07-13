@@ -83,6 +83,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -91,6 +92,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -117,6 +119,7 @@ class A {
                                     "text": "get",
                                     "rawText": "get",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 15
                                 },
@@ -126,6 +129,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 },
@@ -137,18 +141,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         },
@@ -168,6 +176,7 @@ class A {
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 30
                                 },
@@ -177,6 +186,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -188,18 +198,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 38
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 38
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 38
                         },
@@ -219,6 +233,7 @@ class A {
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 48
                                 },
@@ -228,6 +243,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 53
                                 },
@@ -239,18 +255,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 55,
                                         "end": 55
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 56
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 56
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 56
                         },
@@ -270,6 +290,7 @@ class A {
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 65
                                 },
@@ -279,6 +300,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 70
                                 },
@@ -290,18 +312,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 72
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 73
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 73
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 56,
                             "end": 73
                         },
@@ -321,6 +347,7 @@ class A {
                                     "text": "get",
                                     "rawText": "'get'",
                                     "flags": 4194401,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 83
                                 },
@@ -330,6 +357,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 88
                                 },
@@ -341,18 +369,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 90,
                                         "end": 90
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 88,
                                     "end": 91
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 83,
                                 "end": 91
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 73,
                             "end": 91
                         },
@@ -372,6 +404,7 @@ class A {
                                     "text": "set",
                                     "rawText": "'set'",
                                     "flags": 4194401,
+                                    "transformFlags": 0,
                                     "start": 91,
                                     "end": 100
                                 },
@@ -381,6 +414,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 104,
                                     "end": 105
                                 },
@@ -392,18 +426,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 107,
                                         "end": 107
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 105,
                                     "end": 108
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 108
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 91,
                             "end": 108
                         },
@@ -423,6 +461,7 @@ class A {
                                     "text": "async",
                                     "rawText": "'async'",
                                     "flags": 4194401,
+                                    "transformFlags": 0,
                                     "start": 108,
                                     "end": 119
                                 },
@@ -432,6 +471,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 123,
                                     "end": 124
                                 },
@@ -443,18 +483,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 126,
                                         "end": 126
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 124,
                                     "end": 127
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 119,
                                 "end": 127
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 108,
                             "end": 127
                         },
@@ -469,6 +513,7 @@ class A {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 127,
                                 "end": 138
                             },
@@ -476,6 +521,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 127,
                             "end": 138
                         },
@@ -495,6 +541,7 @@ class A {
                                     "text": "get",
                                     "rawText": "get",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 138,
                                     "end": 144
                                 },
@@ -504,6 +551,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 148,
                                     "end": 149
                                 },
@@ -515,18 +563,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 151,
                                         "end": 151
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 149,
                                     "end": 152
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 144,
                                 "end": 152
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 138,
                             "end": 152
                         },
@@ -541,6 +593,7 @@ class A {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 152,
                                 "end": 162
                             },
@@ -548,6 +601,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 152,
                             "end": 162
                         },
@@ -567,6 +621,7 @@ class A {
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 162,
                                     "end": 168
                                 },
@@ -576,6 +631,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 172,
                                     "end": 173
                                 },
@@ -587,18 +643,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 175,
                                         "end": 175
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 173,
                                     "end": 176
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 168,
                                 "end": 176
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 162,
                             "end": 176
                         },
@@ -613,6 +673,7 @@ class A {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 176,
                                 "end": 186
                             },
@@ -620,6 +681,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 176,
                             "end": 186
                         },
@@ -639,6 +701,7 @@ class A {
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 186,
                                     "end": 195
                                 },
@@ -648,6 +711,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 199,
                                     "end": 200
                                 },
@@ -659,18 +723,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 202,
                                         "end": 202
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 200,
                                     "end": 203
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 195,
                                 "end": 203
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 186,
                             "end": 203
                         },
@@ -685,6 +753,7 @@ class A {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 203,
                                 "end": 213
                             },
@@ -692,6 +761,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 203,
                             "end": 213
                         },
@@ -711,6 +781,7 @@ class A {
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 213,
                                     "end": 221
                                 },
@@ -720,6 +791,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 225,
                                     "end": 226
                                 },
@@ -731,18 +803,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 228,
                                         "end": 228
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 226,
                                     "end": 229
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 221,
                                 "end": 229
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 213,
                             "end": 229
                         },
@@ -757,6 +833,7 @@ class A {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 229,
                                 "end": 239
                             },
@@ -764,6 +841,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 229,
                             "end": 239
                         },
@@ -783,6 +861,7 @@ class A {
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 239,
                                     "end": 243
                                 },
@@ -792,6 +871,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 247,
                                     "end": 248
                                 },
@@ -803,18 +883,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 250,
                                         "end": 250
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 248,
                                     "end": 251
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 243,
                                 "end": 251
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 239,
                             "end": 251
                         },
@@ -829,6 +913,7 @@ class A {
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 251,
                                 "end": 259
                             },
@@ -836,6 +921,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 251,
                             "end": 259
                         },
@@ -855,6 +941,7 @@ class A {
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 259,
                                     "end": 267
                                 },
@@ -864,6 +951,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 271,
                                     "end": 272
                                 },
@@ -875,18 +963,22 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 274,
                                         "end": 274
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 272,
                                     "end": 275
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 267,
                                 "end": 275
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 259,
                             "end": 275
                         },
@@ -901,6 +993,7 @@ class A {
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 275,
                                 "end": 286
                             },
@@ -908,6 +1001,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 275,
                             "end": 286
                         },
@@ -922,6 +1016,7 @@ class A {
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 286,
                                 "end": 292
                             },
@@ -929,6 +1024,7 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 286,
                             "end": 292
                         },
@@ -948,6 +1044,7 @@ class A {
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 292,
                                     "end": 301
                                 },
@@ -957,6 +1054,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 305,
                                     "end": 306
                                 },
@@ -968,31 +1066,38 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 308,
                                         "end": 308
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 306,
                                     "end": 309
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 301,
                                 "end": 309
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 292,
                             "end": 309
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 309
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 311
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 311
         }
@@ -1001,6 +1106,7 @@ class A {
     "source": "class A {\n  get\n  () {}\n\n  set\n  () {}\n\n  static\n  () {}\n\n  async\n  () {}\n\n\n  'get'\n  () {}\n\n  'set'\n  () {}\n\n  'async'\n  () {}\n\n\n  static\n  get\n  () {}\n\n  static\n  set\n  () {}\n\n  static\n  static\n  () {}\n\n  static\n  async\n  () {}\n\n  static\n  a\n  () {}\n\n\n  get\n  async\n  () {}\n\n\n  static\n  get\n  static\n  () {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 311
 }
@@ -1009,32 +1115,30 @@ class A {
 ### Printed
 
 ```javascript
-
-  class A {
-    get() {}
-    set() {}
-    static() {}
-    async() {}
-    "'get'"() {}
-    "'set'"() {}
-    "'async'"() {}
-    static
-    get() {}
-    static
-    set() {}
-    static
-    static() {}
-    static
-    async() {}
-    static
-    a() {}
-    get
-    async() {}
-    static
-    get
-    static() {}
-  }
-
+class A {
+  get() {}
+  set() {}
+  static() {}
+  async() {}
+  "'get'"() {}
+  "'set'"() {}
+  "'async'"() {}
+  static;
+  get() {}
+  static;
+  set() {}
+  static;
+  static() {}
+  static;
+  async() {}
+  static;
+  a() {}
+  get;
+  async() {}
+  static;
+  get;
+  static() {}
+}
 ```
 
 ### Diagnostics

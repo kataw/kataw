@@ -26,6 +26,7 @@ export const x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -34,6 +35,7 @@ export const x
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -47,21 +49,25 @@ export const x
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 12,
                             "end": 14
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
@@ -70,6 +76,7 @@ export const x
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -78,6 +85,7 @@ export const x
     "source": "export const x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

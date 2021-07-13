@@ -27,6 +27,7 @@ var x,y; export {x as a, y as b}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,12 +41,14 @@ var x,y; export {x as a, y as b}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -56,21 +59,25 @@ var x,y; export {x as a, y as b}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -79,6 +86,7 @@ var x,y; export {x as a, y as b}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -96,12 +104,14 @@ var x,y; export {x as a, y as b}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
@@ -110,10 +120,12 @@ var x,y; export {x as a, y as b}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 23
                         },
@@ -125,12 +137,14 @@ var x,y; export {x as a, y as b}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
@@ -139,19 +153,23 @@ var x,y; export {x as a, y as b}
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 31
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 31
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 32
             },
@@ -159,6 +177,7 @@ var x,y; export {x as a, y as b}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 8,
             "end": 32
         }
@@ -167,6 +186,7 @@ var x,y; export {x as a, y as b}
     "source": "var x,y; export {x as a, y as b}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -175,9 +195,8 @@ var x,y; export {x as a, y as b}
 ### Printed
 
 ```javascript
-
-  var x, y;
-  export { x as  a, y as  b, };
+var x, y;
+export { x as  a, y as  b };
 
 ```
 

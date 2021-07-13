@@ -34,7 +34,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -42,6 +43,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -50,14 +52,17 @@
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -67,10 +72,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 9,
             "end": 14
         },
@@ -81,10 +88,12 @@
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 16
         }
@@ -93,6 +102,7 @@
     "source": "() => let\n{} = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

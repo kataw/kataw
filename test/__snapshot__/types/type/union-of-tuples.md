@@ -27,6 +27,7 @@ type x = [number] | [string];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type x = [number] | [string];
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -42,6 +44,7 @@ type x = [number] | [string];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,16 +65,19 @@ type x = [number] | [string];
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 16
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
@@ -85,29 +91,35 @@ type x = [number] | [string];
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 27
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 27
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 28
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 28
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 28
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -116,6 +128,7 @@ type x = [number] | [string];
     "source": "type x = [number] | [string];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -124,9 +137,7 @@ type x = [number] | [string];
 ### Printed
 
 ```javascript
-
-  type x = [[number]] | [[string]]
-
+type x = [number] | [string]
 ```
 
 ### Diagnostics

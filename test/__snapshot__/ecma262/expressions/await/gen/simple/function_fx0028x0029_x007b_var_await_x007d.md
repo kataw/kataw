@@ -29,6 +29,7 @@ function f() { var await; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f() { var await; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -47,6 +49,7 @@ function f() { var await; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -62,6 +65,7 @@ function f() { var await; }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
@@ -75,35 +79,42 @@ function f() { var await; }
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 24
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 18,
                                         "end": 24
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 24
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 27
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -112,6 +123,7 @@ function f() { var await; }
     "source": "function f() { var await; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -120,11 +132,9 @@ function f() { var await; }
 ### Printed
 
 ```javascript
-
-  function f() {
-    var await;
-  }
-
+function f() {
+  var await;
+}
 ```
 
 ### Diagnostics

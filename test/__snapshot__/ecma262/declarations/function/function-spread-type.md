@@ -30,6 +30,7 @@ function foo(...args: any) { }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo(...args: any) { }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -51,6 +53,7 @@ function foo(...args: any) { }
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         },
@@ -59,6 +62,7 @@ function foo(...args: any) { }
                             "text": "args",
                             "rawText": "args",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 20
                         },
@@ -70,21 +74,25 @@ function foo(...args: any) { }
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 25
                         },
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 25
             },
@@ -95,15 +103,18 @@ function foo(...args: any) { }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -112,6 +123,7 @@ function foo(...args: any) { }
     "source": "function foo(...args: any) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -120,9 +132,7 @@ function foo(...args: any) { }
 ### Printed
 
 ```javascript
-
-  function foo(...args: any) {}
-
+function foo(...args: any) {}
 ```
 
 ### Diagnostics

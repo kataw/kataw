@@ -34,10 +34,12 @@ type = x;
                 "text": "type",
                 "rawText": "type",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -50,12 +52,14 @@ type = x;
                     "text": "type",
                     "rawText": "type",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -64,14 +68,17 @@ type = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 5,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 16
         },
@@ -84,14 +91,17 @@ type = x;
                     "text": "type",
                     "rawText": "type",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 16,
+                "flags": 16,
+                "transformFlags": 0,
+                "start": 33,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 16,
             "end": 25
         }
@@ -100,6 +110,7 @@ type = x;
     "source": "type;\n\ntype = x;\n\n(type);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -108,10 +119,10 @@ type = x;
 ### Printed
 
 ```javascript
+type;
+type = x;
 
-  type;
-  type = x;
-  (type);
+(type);
 
 ```
 

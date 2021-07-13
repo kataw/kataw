@@ -29,6 +29,7 @@ type x = (([1]: y) => T);
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = (([1]: y) => T);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = (([1]: y) => T);
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,32 +72,39 @@ type x = (([1]: y) => T);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -105,10 +115,12 @@ type x = (([1]: y) => T);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 17
         },
@@ -119,16 +131,19 @@ type x = (([1]: y) => T);
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 23
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 25
         }
@@ -137,6 +152,7 @@ type x = (([1]: y) => T);
     "source": "type x = (([1]: y) => T);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

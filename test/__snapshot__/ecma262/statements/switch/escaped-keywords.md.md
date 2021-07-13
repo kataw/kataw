@@ -22,6 +22,7 @@ switch (this.a) { c\u0061se 6: break; }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -30,6 +31,7 @@ switch (this.a) { c\u0061se 6: break; }
                 "member": {
                     "kind": 4276321,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
@@ -38,10 +40,12 @@ switch (this.a) { c\u0061se 6: break; }
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 14
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 8,
                 "end": 14
             },
@@ -53,12 +57,14 @@ switch (this.a) { c\u0061se 6: break; }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 16464,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 30
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 31
                         },
@@ -68,25 +74,30 @@ switch (this.a) { c\u0061se 6: break; }
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 37
                                 },
                                 "label": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 38
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 38
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         },
@@ -95,6 +106,7 @@ switch (this.a) { c\u0061se 6: break; }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 48
             },
@@ -103,6 +115,7 @@ switch (this.a) { c\u0061se 6: break; }
                 "member": {
                     "kind": 4276321,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 54
                 },
@@ -111,10 +124,12 @@ switch (this.a) { c\u0061se 6: break; }
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 56
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 50,
                 "end": 56
             },
@@ -126,6 +141,7 @@ switch (this.a) { c\u0061se 6: break; }
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 16464,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 69
                         },
@@ -134,12 +150,14 @@ switch (this.a) { c\u0061se 6: break; }
                             "text": 6,
                             "rawText": "6",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 69,
                             "end": 71
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 72
                         },
@@ -149,25 +167,30 @@ switch (this.a) { c\u0061se 6: break; }
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 78
                                 },
                                 "label": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 79
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 59,
                         "end": 79
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 79
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 40,
             "end": 81
         }
@@ -176,6 +199,7 @@ switch (this.a) { c\u0061se 6: break; }
     "source": "switch (this.a) { d\\u0065fault: break; }\n\nswitch (this.a) { c\\u0061se 6: break; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 81
 }

@@ -24,12 +24,14 @@ x={ dsda(){ return async function(a=super.foo){} }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -51,6 +53,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                         "text": "dsda",
                                         "rawText": "dsda",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 8
                                     },
@@ -60,6 +63,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -75,6 +79,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 18
                                                     },
@@ -83,12 +88,14 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                         "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 24
                                                         },
                                                         "functionKeyword": {
                                                             "kind": 37822554,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 24,
                                                             "end": 33
                                                         },
@@ -106,6 +113,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 34,
                                                                         "end": 35
                                                                     },
@@ -116,6 +124,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                         "member": {
                                                                             "kind": 4259935,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 36,
                                                                             "end": 41
                                                                         },
@@ -124,20 +133,24 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                             "text": "foo",
                                                                             "rawText": "foo",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 42,
                                                                             "end": 45
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 2,
                                                                         "start": 36,
                                                                         "end": 45
                                                                     },
                                                                     "flags": 34,
+                                                                    "transformFlags": 4096,
                                                                     "start": 34,
                                                                     "end": 45
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 34,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 45
                                                         },
@@ -148,54 +161,66 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 47,
                                                                 "end": 47
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 46,
                                                             "end": 48
                                                         },
                                                         "returnType": null,
                                                         "flags": 160,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 48
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 11,
                                                     "end": 48
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 48
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 50
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 50
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 50
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 50
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 51
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 51
         }
@@ -204,6 +229,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
     "source": "x={ dsda(){ return async function(a=super.foo){} }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

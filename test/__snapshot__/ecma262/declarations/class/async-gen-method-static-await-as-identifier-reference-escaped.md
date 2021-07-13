@@ -23,6 +23,7 @@ var C = class { static async *gen() {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var C = class { static async *gen() {
                             "text": "C",
                             "rawText": "C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -46,6 +48,7 @@ var C = class { static async *gen() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -64,12 +67,14 @@ var C = class { static async *gen() {
                                             "staticKeyword": {
                                                 "kind": 8388716,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 22
                                             },
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 28
                                             },
@@ -78,6 +83,7 @@ var C = class { static async *gen() {
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 28,
                                                 "end": 30
                                             },
@@ -88,6 +94,7 @@ var C = class { static async *gen() {
                                                     "text": "gen",
                                                     "rawText": "gen",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 33
                                                 },
@@ -97,6 +104,7 @@ var C = class { static async *gen() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 384,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 35
                                                 },
@@ -114,6 +122,7 @@ var C = class { static async *gen() {
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 97,
+                                                                        "transformFlags": 0,
                                                                         "start": 37,
                                                                         "end": 46
                                                                     },
@@ -122,6 +131,7 @@ var C = class { static async *gen() {
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
                                                                             "flags": 16448,
+                                                                            "transformFlags": 0,
                                                                             "start": 46,
                                                                             "end": 57
                                                                         },
@@ -130,61 +140,75 @@ var C = class { static async *gen() {
                                                                             "text": "",
                                                                             "rawText": "",
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 57,
                                                                             "end": 57
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 4096,
                                                                         "start": 46,
                                                                         "end": 57
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 1024,
                                                                     "start": 37,
                                                                     "end": 57
                                                                 },
                                                                 "flags": 16,
+                                                                "transformFlags": 4096,
                                                                 "start": 37,
                                                                 "end": 58
                                                             }
                                                         ],
                                                         "flags": 33,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 58
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 60
                                                 },
                                                 "flags": 384,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 60
                                             },
                                             "flags": 384,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 60
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 60
                                 },
                                 "flags": 13,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 61
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 61
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 61
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 62
         }
@@ -193,6 +217,7 @@ var C = class { static async *gen() {
     "source": "var C = class { static async *gen() {\n    void \\u0061wait;\n}};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }

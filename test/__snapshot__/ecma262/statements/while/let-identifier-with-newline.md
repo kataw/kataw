@@ -21,12 +21,14 @@ x = 1;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
@@ -37,14 +39,17 @@ x = 1;
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 13,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -57,12 +62,14 @@ x = 1;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
@@ -71,14 +78,17 @@ x = 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 17,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 31
         }
@@ -87,6 +97,7 @@ x = 1;
     "source": "while (false) let // ASI\nx = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -95,10 +106,9 @@ x = 1;
 ### Printed
 
 ```javascript
+while (false) let; // ASI
 
-  while (false)
-    let; // ASI
-  x = 1;
+x = 1;
 
 ```
 

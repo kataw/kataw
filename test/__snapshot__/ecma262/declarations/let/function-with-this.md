@@ -28,6 +28,7 @@ let f: (this: number) => void;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let f: (this: number) => void;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,6 +64,7 @@ let f: (this: number) => void;
                                                 "text": "this",
                                                 "rawText": "this",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 12
                                             },
@@ -73,26 +76,31 @@ let f: (this: number) => void;
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 20
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 20
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 20
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 20
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -103,32 +111,39 @@ let f: (this: number) => void;
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 29
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 29
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 29
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -137,6 +152,7 @@ let f: (this: number) => void;
     "source": "let f: (this: number) => void;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -145,9 +161,7 @@ let f: (this: number) => void;
 ### Printed
 
 ```javascript
-
-  let f: (this: number) => void;
-
+let f: (this: number) => void;
 ```
 
 ### Diagnostics

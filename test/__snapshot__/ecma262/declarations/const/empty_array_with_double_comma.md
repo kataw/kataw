@@ -39,6 +39,7 @@ const [,,] = x;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -55,22 +56,26 @@ const [,,] = x;
                                     {
                                         "kind": 230,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 7
                                     },
                                     {
                                         "kind": 230,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 10
                         },
@@ -80,19 +85,23 @@ const [,,] = x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 14
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -101,6 +110,7 @@ const [,,] = x;
     "source": "const [,,] = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -109,9 +119,7 @@ const [,,] = x;
 ### Printed
 
 ```javascript
-
-  const [, ,] = x;
-
+const [, ,] = x;
 ```
 
 ### Diagnostics

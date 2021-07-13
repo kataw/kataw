@@ -25,6 +25,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -32,10 +33,12 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -44,6 +47,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
             "breakKeyword": {
                 "kind": 37757005,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 35
             },
@@ -52,10 +56,12 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 4,
             "end": 35
         },
@@ -66,10 +72,12 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
                 "text": 123,
                 "rawText": "123",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 37,
             "end": 42
         }
@@ -78,6 +86,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
     "source": "\nvar \\u0062\\u0072\\u0065\\u0061\\u006b = 123;\n\n\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

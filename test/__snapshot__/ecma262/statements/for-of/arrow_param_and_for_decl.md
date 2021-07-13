@@ -28,6 +28,7 @@ a => {
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -35,6 +36,7 @@ a => {
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -49,6 +51,7 @@ a => {
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -58,6 +61,7 @@ a => {
                                     "lexicalKeyword": {
                                         "kind": 41951307,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 17
                                     },
@@ -71,27 +75,32 @@ a => {
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 19
                                                 },
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
+                                                "transformFlags": 4224,
                                                 "start": 17,
                                                 "end": 19
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 19
                                     },
                                     "flags": 33554448,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 19
                                 },
                                 "ofKeyword": {
                                     "kind": 16793717,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 22
                                 },
@@ -100,6 +109,7 @@ a => {
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -110,31 +120,38 @@ a => {
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 27
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4096,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 27
                             }
                         ],
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -143,6 +160,7 @@ a => {
     "source": "a => {\n  for (let a of b) c\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -151,12 +169,9 @@ a => {
 ### Printed
 
 ```javascript
-
-  a => {
-    for (let a of b)
-      c;
-  };
-
+a => {
+  for (let a of b) c;
+};
 ```
 
 ### Diagnostics

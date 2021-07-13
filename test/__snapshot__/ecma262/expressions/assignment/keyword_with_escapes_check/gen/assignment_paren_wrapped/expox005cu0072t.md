@@ -31,14 +31,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 1
         },
@@ -47,6 +50,7 @@
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
@@ -56,6 +60,7 @@
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 1,
             "end": 12
         },
@@ -66,16 +71,19 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 16
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 18
         }
@@ -84,6 +92,7 @@
     "source": "(expo\\u0072t = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

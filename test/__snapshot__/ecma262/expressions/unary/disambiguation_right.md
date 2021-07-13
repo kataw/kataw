@@ -24,12 +24,14 @@ x + + y.x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -38,6 +40,7 @@ x + + y.x
                     "operandToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -48,6 +51,7 @@ x + + y.x
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -56,22 +60,27 @@ x + + y.x
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 5,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -80,6 +89,7 @@ x + + y.x
     "source": "x + + y.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -88,9 +98,7 @@ x + + y.x
 ### Printed
 
 ```javascript
-
-  x + + y.x;
-
+x + +y.x;
 ```
 
 ### Diagnostics

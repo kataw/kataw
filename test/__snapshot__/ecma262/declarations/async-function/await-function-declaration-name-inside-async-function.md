@@ -23,12 +23,14 @@ async function foo() {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -38,6 +40,7 @@ async function foo() {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -47,6 +50,7 @@ async function foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -63,6 +67,7 @@ async function foo() {
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 33
                             },
@@ -72,6 +77,7 @@ async function foo() {
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 39
                             },
@@ -81,6 +87,7 @@ async function foo() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 40
                             },
@@ -91,29 +98,35 @@ async function foo() {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 43
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 44
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 44
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 46
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -122,6 +135,7 @@ async function foo() {
     "source": "async function foo() {\n  function await() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

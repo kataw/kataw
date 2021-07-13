@@ -27,6 +27,7 @@ let x = import(x)
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ let x = import(x)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -49,6 +51,7 @@ let x = import(x)
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 14
                             },
@@ -57,23 +60,28 @@ let x = import(x)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -82,6 +90,7 @@ let x = import(x)
     "source": "let x = import(x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -90,9 +99,7 @@ let x = import(x)
 ### Printed
 
 ```javascript
-
-  let x = import(x);
-
+let x = import(x);
 ```
 
 ### Diagnostics

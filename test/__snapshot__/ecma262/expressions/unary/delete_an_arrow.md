@@ -22,6 +22,7 @@ delete (foo)=>bar
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -37,12 +38,14 @@ delete (foo)=>bar
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
@@ -50,6 +53,7 @@ delete (foo)=>bar
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -58,18 +62,22 @@ delete (foo)=>bar
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -78,6 +86,7 @@ delete (foo)=>bar
     "source": "delete (foo)=>bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -86,9 +95,7 @@ delete (foo)=>bar
 ### Printed
 
 ```javascript
-
-  delete  (foo) => bar;
-
+delete (foo) => bar;
 ```
 
 ### Diagnostics

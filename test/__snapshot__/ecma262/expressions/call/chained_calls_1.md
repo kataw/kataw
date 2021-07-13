@@ -26,6 +26,7 @@ foo(a)(b)
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -37,16 +38,19 @@ foo(a)(b)
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 5
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 6
                 },
@@ -58,20 +62,24 @@ foo(a)(b)
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -80,6 +88,7 @@ foo(a)(b)
     "source": "foo(a)(b)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -88,9 +97,7 @@ foo(a)(b)
 ### Printed
 
 ```javascript
-
-  foo(a)(b);
-
+foo(a)(b);
 ```
 
 ### Diagnostics

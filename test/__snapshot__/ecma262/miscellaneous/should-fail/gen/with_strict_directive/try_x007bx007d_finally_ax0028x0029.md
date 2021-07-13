@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -45,10 +47,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -56,6 +60,7 @@
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 28
             },
@@ -65,14 +70,17 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 28
         },
@@ -85,6 +93,7 @@
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
@@ -93,14 +102,17 @@
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 28,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 28,
             "end": 32
         }
@@ -109,6 +121,7 @@
     "source": "\"use strict\"; try {} finally a()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -118,10 +131,9 @@
 
 ```javascript
 
-  "\"use strict\"";
-  try { }
-  finally { }
-  a();
+"\"use strict\"";
+try {} finally {}
+a();
 
 ```
 

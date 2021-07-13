@@ -33,6 +33,7 @@ x => ok[foo]
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -40,6 +41,7 @@ x => ok[foo]
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -50,6 +52,7 @@ x => ok[foo]
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 7
                     },
@@ -58,18 +61,22 @@ x => ok[foo]
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 4,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -78,6 +85,7 @@ x => ok[foo]
     "source": "x => ok[foo]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -86,9 +94,7 @@ x => ok[foo]
 ### Printed
 
 ```javascript
-
-  x => ok[foo];
-
+x => ok[foo];
 ```
 
 ### Diagnostics

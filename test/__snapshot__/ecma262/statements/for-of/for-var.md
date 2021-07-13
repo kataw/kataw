@@ -39,6 +39,7 @@ for(var i;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for(var i;;);
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
@@ -60,21 +62,25 @@ for(var i;;);
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 7,
                             "end": 9
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -83,10 +89,12 @@ for(var i;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -95,6 +103,7 @@ for(var i;;);
     "source": "for(var i;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -103,10 +112,7 @@ for(var i;;);
 ### Printed
 
 ```javascript
-
-  for (var i;;)
-    ;
-
+for (var i; ; );
 ```
 
 ### Diagnostics

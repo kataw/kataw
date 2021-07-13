@@ -33,6 +33,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 74
             },
@@ -41,6 +42,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 76
             },
@@ -58,6 +60,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 78,
                                 "end": 87
                             },
@@ -80,50 +83,61 @@ class C {
                                                                 "text": "await",
                                                                 "rawText": "await",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 96,
                                                                 "end": 102
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 96,
                                                         "end": 102
                                                     },
                                                     "flags": 48,
+                                                    "transformFlags": 8,
                                                     "start": 95,
                                                     "end": 104
                                                 },
-                                                "flags": 32,
-                                                "start": 89,
+                                                "flags": 89,
+                                                "transformFlags": 0,
+                                                "start": 35,
                                                 "end": 105
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 89,
                                             "end": 106
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 89,
                                     "end": 106
                                 },
                                 "flags": 78,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 110
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 78,
                             "end": 110
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 110
                 },
                 "flags": 76,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 112
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 112
         }
@@ -132,6 +146,7 @@ class C {
     "source": "// IdentifierReference may not be `await` within class static blocks\nclass C {\n  static {\n    ({ await });\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 112
 }

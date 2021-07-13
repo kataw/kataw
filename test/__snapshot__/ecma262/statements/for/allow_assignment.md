@@ -28,6 +28,7 @@ for (foo=10;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,12 +39,14 @@ for (foo=10;;);
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
@@ -52,10 +55,12 @@ for (foo=10;;);
                     "text": 10,
                     "rawText": "10",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
@@ -64,10 +69,12 @@ for (foo=10;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -76,6 +83,7 @@ for (foo=10;;);
     "source": "for (foo=10;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -84,10 +92,7 @@ for (foo=10;;);
 ### Printed
 
 ```javascript
-
-  for (foo = 10;;)
-    ;
-
+for (foo = 10; ; );
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -65,6 +70,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -78,6 +84,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -88,23 +95,28 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 18,
                                 "end": 68
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 68
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 68
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 68
         },
@@ -119,12 +131,14 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "text": "n",
                         "rawText": "n",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 69,
                         "end": 70
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 70,
                         "end": 71
                     },
@@ -133,16 +147,19 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 71,
                         "end": 74
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 69,
                     "end": 74
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 74,
                     "end": 75
                 },
@@ -151,20 +168,24 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 76
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 69,
                 "end": 76
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 69,
             "end": 76
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 81,
             "end": 82
         }
@@ -173,6 +194,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
     "source": "var await; var f = (async function() { async function f(){ await foo\\n/foo/g } });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 82
 }

@@ -22,6 +22,7 @@ class Foo { [new.target] }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class Foo { [new.target] }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -53,20 +55,24 @@ class Foo { [new.target] }
                                     "newKeyword": {
                                         "kind": 138477661,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 16
                                     },
                                     "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 23
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 24
                             },
@@ -74,19 +80,23 @@ class Foo { [new.target] }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 24
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 24
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -95,6 +105,7 @@ class Foo { [new.target] }
     "source": "class Foo { [new.target] }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -28,6 +28,7 @@ var x = cl\u0061ss {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var x = cl\u0061ss {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,6 +53,7 @@ var x = cl\u0061ss {}
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 16448,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 18
                             },
@@ -63,27 +66,33 @@ var x = cl\u0061ss {}
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 18,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -92,6 +101,7 @@ var x = cl\u0061ss {}
     "source": "var x = cl\\u0061ss {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -100,10 +110,7 @@ var x = cl\u0061ss {}
 ### Printed
 
 ```javascript
-
-  var x = class {
-  };
-
+var x = class {};
 ```
 
 ### Diagnostics

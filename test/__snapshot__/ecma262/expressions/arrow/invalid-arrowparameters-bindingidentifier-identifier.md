@@ -21,6 +21,7 @@ var af = switch => 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var af = switch => 1;
                             "text": "af",
                             "rawText": "af",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -43,19 +45,23 @@ var af = switch => 1;
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -64,6 +70,7 @@ var af = switch => 1;
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -72,6 +79,7 @@ var af = switch => 1;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -79,10 +87,12 @@ var af = switch => 1;
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 8,
             "end": 15
         },
@@ -93,10 +103,12 @@ var af = switch => 1;
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 21
         }
@@ -105,6 +117,7 @@ var af = switch => 1;
     "source": "var af = switch => 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

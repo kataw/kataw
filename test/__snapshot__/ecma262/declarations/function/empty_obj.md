@@ -39,6 +39,7 @@ let {} = obj;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,10 +55,12 @@ let {} = obj;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 5
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -67,19 +70,23 @@ let {} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -88,6 +95,7 @@ let {} = obj;
     "source": "let {} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -96,9 +104,7 @@ let {} = obj;
 ### Printed
 
 ```javascript
-
-  let { } = obj;
-
+let {} = obj;
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 12
                 },
@@ -42,6 +44,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 16
                     },
@@ -50,6 +53,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                         "text": "Promise",
                         "rawText": "Promise",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 24
                     },
@@ -62,6 +66,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 33
                                 },
@@ -76,6 +81,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                             "text": "res",
                                             "rawText": "res",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 37
                                         },
@@ -84,12 +90,14 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                             "text": "rej",
                                             "rawText": "rej",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 42
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 42
                                 },
@@ -108,6 +116,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                                         "text": "res",
                                                         "rawText": "res",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 45,
                                                         "end": 49
                                                     },
@@ -119,48 +128,58 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 50,
                                                                 "end": 51
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 51
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 45,
                                                     "end": 52
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 45,
                                                 "end": 53
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 53
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 55
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 55
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 55
                     },
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 12,
                     "end": 56
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 7,
                 "end": 56
             },
@@ -174,24 +193,29 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 59,
                                 "end": 65
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 66
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 59,
                     "end": 66
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 68
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -200,6 +224,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
     "source": "while (await new Promise(function(res, rej) { res(1); })) { break; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }
@@ -208,13 +233,11 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
 ### Printed
 
 ```javascript
-
-  while (await new Promise(function (res, rej) {
+while (await new Promise(function (res, rej) {
     res(1);
   })) {
     break;
   }
-
 ```
 
 ### Diagnostics

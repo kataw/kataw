@@ -47,6 +47,7 @@ class x { static async *prototype(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -55,6 +56,7 @@ class x { static async *prototype(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -72,6 +74,7 @@ class x { static async *prototype(){} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -79,6 +82,7 @@ class x { static async *prototype(){} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -91,6 +95,7 @@ class x { static async *prototype(){} }
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 30
                                 },
@@ -100,6 +105,7 @@ class x { static async *prototype(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -111,31 +117,38 @@ class x { static async *prototype(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 34
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 34
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         },
@@ -146,6 +159,7 @@ class x { static async *prototype(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 43
             },
@@ -154,6 +168,7 @@ class x { static async *prototype(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 45
             },
@@ -171,6 +186,7 @@ class x { static async *prototype(){} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 54
                             },
@@ -185,6 +201,7 @@ class x { static async *prototype(){} }
                                     "text": "prototype",
                                     "rawText": "\"prot\\u006ftype\"",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 71
                                 },
@@ -194,6 +211,7 @@ class x { static async *prototype(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 73
                                 },
@@ -205,31 +223,38 @@ class x { static async *prototype(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 74,
                                         "end": 74
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 75
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 71,
                                 "end": 75
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 75
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 75
                 },
                 "flags": 45,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 77
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 36,
             "end": 77
         },
@@ -240,6 +265,7 @@ class x { static async *prototype(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 84
             },
@@ -248,6 +274,7 @@ class x { static async *prototype(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 86
             },
@@ -265,6 +292,7 @@ class x { static async *prototype(){} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 88,
                                 "end": 95
                             },
@@ -272,6 +300,7 @@ class x { static async *prototype(){} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 99
                             },
@@ -284,6 +313,7 @@ class x { static async *prototype(){} }
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 99,
                                     "end": 109
                                 },
@@ -293,6 +323,7 @@ class x { static async *prototype(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 110,
                                     "end": 111
                                 },
@@ -304,31 +335,38 @@ class x { static async *prototype(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 112,
                                         "end": 112
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 111,
                                     "end": 113
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 109,
                                 "end": 113
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 95,
                             "end": 113
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 113
                 },
                 "flags": 86,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 115
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 77,
             "end": 115
         },
@@ -339,6 +377,7 @@ class x { static async *prototype(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 122
             },
@@ -347,6 +386,7 @@ class x { static async *prototype(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 124
             },
@@ -364,12 +404,14 @@ class x { static async *prototype(){} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 126,
                                 "end": 133
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 133,
                                 "end": 139
                             },
@@ -378,6 +420,7 @@ class x { static async *prototype(){} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 139,
                                 "end": 141
                             },
@@ -388,6 +431,7 @@ class x { static async *prototype(){} }
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 141,
                                     "end": 150
                                 },
@@ -397,6 +441,7 @@ class x { static async *prototype(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 151,
                                     "end": 152
                                 },
@@ -408,31 +453,38 @@ class x { static async *prototype(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 153,
                                         "end": 153
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 152,
                                     "end": 154
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 150,
                                 "end": 154
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 133,
                             "end": 154
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 126,
                     "end": 154
                 },
                 "flags": 124,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 156
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 115,
             "end": 156
         }
@@ -441,6 +493,7 @@ class x { static async *prototype(){} }
     "source": "class x { static get prototype(){} }\n\nclass x { static \"prot\\u006ftype\"(){} }\n\nclass x { static get prototype(){} }\n\nclass x { static async *prototype(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 156
 }

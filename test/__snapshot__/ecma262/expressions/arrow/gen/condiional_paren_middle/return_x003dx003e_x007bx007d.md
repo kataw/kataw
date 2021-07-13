@@ -31,12 +31,14 @@ bar ? (return => {}) : baz;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -47,11 +49,13 @@ bar ? (return => {}) : baz;
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 7
                 },
                 "colonToken": null,
@@ -60,14 +64,17 @@ bar ? (return => {}) : baz;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -76,6 +83,7 @@ bar ? (return => {}) : baz;
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 13
             },
@@ -84,10 +92,12 @@ bar ? (return => {}) : baz;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 7,
             "end": 13
         },
@@ -97,10 +107,12 @@ bar ? (return => {}) : baz;
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 19
         },
@@ -111,10 +123,12 @@ bar ? (return => {}) : baz;
                 "text": "baz",
                 "rawText": "baz",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 27
         }
@@ -123,6 +137,7 @@ bar ? (return => {}) : baz;
     "source": "bar ? (return => {}) : baz;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

@@ -20,11 +20,13 @@ return
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "expression": null,
             "flags": 80,
+            "transformFlags": 256,
             "start": 0,
             "end": 6
         }
@@ -33,6 +35,7 @@ return
     "source": "return",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

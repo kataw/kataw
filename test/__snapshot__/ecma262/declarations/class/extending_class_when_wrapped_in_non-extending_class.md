@@ -41,6 +41,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -75,6 +77,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -84,6 +87,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -101,6 +105,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                 "classKeyword": {
                                                     "kind": 37822544,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 32
                                                 },
@@ -109,6 +114,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 34
                                                 },
@@ -120,6 +126,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
                                                             "flags": 80,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 42
                                                         },
@@ -128,11 +135,13 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 42,
                                                             "end": 44
                                                         },
                                                         "typeParameter": null,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 42,
                                                         "end": 44
                                                     },
@@ -157,6 +166,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                             "expression": {
                                                                                 "kind": 4259935,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 48,
                                                                                 "end": 53
                                                                             },
@@ -165,14 +175,17 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                                 "elements": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 54,
                                                                                 "end": 54
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 48,
                                                                             "end": 55
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 46,
                                                                         "end": 56
                                                                     },
@@ -182,6 +195,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 0,
+                                                                        "transformFlags": 0,
                                                                         "start": 57,
                                                                         "end": 58
                                                                     },
@@ -193,61 +207,75 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                             "directives": [],
                                                                             "statements": [],
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 59,
                                                                             "end": 59
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 58,
                                                                         "end": 60
                                                                     },
                                                                     "flags": 0,
+                                                                    "transformFlags": 0,
                                                                     "start": 56,
                                                                     "end": 60
                                                                 },
                                                                 "flags": 0,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 60
                                                             }
                                                         ],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 46,
                                                         "end": 60
                                                     },
                                                     "flags": 34,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 62
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 62
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 62
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 67
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 67
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 67
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 67
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -256,6 +284,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
     "source": "class a { constructor(){   class x extends y { [super()](){} }    }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }

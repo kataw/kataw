@@ -29,12 +29,14 @@ function * foo2() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 24,
                 "end": 26
             },
@@ -43,6 +45,7 @@ function * foo2() {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 31
             },
@@ -52,6 +55,7 @@ function * foo2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
@@ -68,6 +72,7 @@ function * foo2() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 58
                                 },
@@ -78,14 +83,17 @@ function * foo2() {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 60
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 35,
                                 "end": 60
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 35,
                             "end": 61
                         },
@@ -96,6 +104,7 @@ function * foo2() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 71
                                 },
@@ -106,14 +115,17 @@ function * foo2() {
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 86
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 61,
                                 "end": 86
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 61,
                             "end": 87
                         },
@@ -124,6 +136,7 @@ function * foo2() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 97
                                 },
@@ -134,14 +147,17 @@ function * foo2() {
                                     "text": 3,
                                     "rawText": "3",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 97,
                                     "end": 99
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 87,
                                 "end": 99
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 87,
                             "end": 99
                         },
@@ -152,6 +168,7 @@ function * foo2() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 99,
                                     "end": 122
                                 },
@@ -159,6 +176,7 @@ function * foo2() {
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 122,
                                     "end": 124
                                 },
@@ -172,24 +190,29 @@ function * foo2() {
                                                 "text": 4,
                                                 "rawText": "4",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 138,
                                                 "end": 139
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 138,
                                         "end": 139
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 124,
                                     "end": 140
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 99,
                                 "end": 140
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 99,
                             "end": 141
                         },
@@ -200,6 +223,7 @@ function * foo2() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 141,
                                     "end": 151
                                 },
@@ -207,6 +231,7 @@ function * foo2() {
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 151,
                                     "end": 165
                                 },
@@ -220,38 +245,46 @@ function * foo2() {
                                                 "text": 5,
                                                 "rawText": "5",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 167,
                                                 "end": 168
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 167,
                                         "end": 168
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 165,
                                     "end": 169
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 141,
                                 "end": 169
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 141,
                             "end": 170
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 170
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 172
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 172
         }
@@ -260,6 +293,7 @@ function * foo2() {
     "source": "// @target: es6\nfunction * foo2() {\n    /*comment1*/ yield 1;\n    yield /*comment2*/ 2;\n    yield 3 /*comment3*/\n    yield */*comment4*/ [4];\n    yield /*comment5*/* [5];\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 172
 }
@@ -269,14 +303,14 @@ function * foo2() {
 
 ```javascript
 // @target: es6
-  function* foo2() {
-     /*comment1*/yield  1;
-    yield/*comment2*/  2;
-    yield  3; /*comment3*/
-    yield*/*comment4*/  [4,];
-    yield/*comment5*/*  [5,];
-  }
-
+// @target: es6
+function *foo2() /*comment1*/ {
+  /*comment1*/ yield 1;
+  yield /*comment2*/ 2;
+  yield 3; /*comment3*/
+  yield* /*comment4*/ [4];
+  yield/*comment5*/ * [5];
+}
 ```
 
 ### Diagnostics

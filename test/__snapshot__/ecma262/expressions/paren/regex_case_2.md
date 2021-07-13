@@ -31,6 +31,7 @@
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 8
                                 },
@@ -40,6 +41,7 @@
                                         "kind": 371,
                                         "text": "/a/g",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 13
                                     },
@@ -48,32 +50,39 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 15
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 8,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 2,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         },
@@ -94,6 +103,7 @@
                                         "operandToken": {
                                             "kind": 4259886,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -103,6 +113,7 @@
                                                 "kind": 371,
                                                 "text": "/a/g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 33
                                             },
@@ -111,24 +122,29 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 35
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 28,
                                             "end": 35
                                         },
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 22,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 35
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 21,
                             "end": 36
                         },
@@ -142,6 +158,7 @@
                                         "operandToken": {
                                             "kind": 4259886,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 45
                                         },
@@ -151,6 +168,7 @@
                                                 "kind": 371,
                                                 "text": "/a/g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 50
                                             },
@@ -159,37 +177,45 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 52
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 45,
                                             "end": 52
                                         },
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 39,
                                         "end": 52
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 52
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 37,
                             "end": 53
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 18,
                     "end": 54
                 },
-                "flags": 32,
-                "start": 18,
+                "flags": 18,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 55
         }
@@ -198,6 +224,7 @@
     "source": "([delete /a/g.x]);\n\n([delete /a/g.x], [delete /a/g.x]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }
@@ -206,9 +233,8 @@
 ### Printed
 
 ```javascript
-
-  ([delete  /a/g.x,]);
-  ([delete  /a/g.x,], [delete  /a/g.x,]);
+([delete /a/g.x]);
+([delete /a/g.x], [delete /a/g.x]);
 
 ```
 

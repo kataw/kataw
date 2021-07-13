@@ -21,12 +21,14 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -71,6 +75,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 28
                                             },
@@ -94,6 +99,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                             "text": "m",
                                                                             "rawText": "m",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 33,
                                                                             "end": 34
                                                                         },
@@ -104,12 +110,14 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                                 "text": 5,
                                                                                 "rawText": "5",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 35,
                                                                                 "end": 37
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 37,
                                                                                 "end": 39
                                                                             },
@@ -120,6 +128,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                                     "text": "t",
                                                                                     "rawText": "t",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 39,
                                                                                     "end": 41
                                                                                 },
@@ -131,6 +140,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                                             "awaitKeyword": {
                                                                                                 "kind": 82196,
                                                                                                 "flags": 64,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 42,
                                                                                                 "end": 47
                                                                                             },
@@ -139,58 +149,70 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                                                 "text": "bar",
                                                                                                 "rawText": "bar",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 47,
                                                                                                 "end": 51
                                                                                             },
                                                                                             "flags": 32,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 42,
                                                                                             "end": 51
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 42,
                                                                                     "end": 51
                                                                                 },
                                                                                 "flags": 268435488,
+                                                                                "transformFlags": 1,
                                                                                 "start": 39,
                                                                                 "end": 52
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 5120,
                                                                             "start": 33,
                                                                             "end": 52
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 128,
                                                                         "start": 33,
                                                                         "end": 52
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 33,
                                                                 "end": 52
                                                             },
                                                             "flags": 48,
+                                                            "transformFlags": 8,
                                                             "start": 32,
                                                             "end": 53
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 53
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 8,
                                                 "start": 30,
                                                 "end": 54
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 19,
                                             "end": 54
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 55
                                 },
@@ -198,6 +220,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 58
                                 },
@@ -208,32 +231,39 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 60
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 61
                                 },
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 61
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 61
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 61
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 67
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 67
         }
@@ -242,6 +272,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
     "source": "async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }
@@ -250,11 +281,9 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
 ### Printed
 
 ```javascript
-
-  async function a() {
-    (foo = [{ m: 5 + t(await bar) },]) => {};
-  }
-
+async function a() {
+  (foo = [{ m: 5 + t(await bar) }]) => {};
+}
 ```
 
 ### Diagnostics

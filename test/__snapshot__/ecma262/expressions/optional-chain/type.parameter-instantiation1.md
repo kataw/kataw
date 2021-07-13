@@ -28,6 +28,7 @@ a?.<number>(y)
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -36,6 +37,7 @@ a?.<number>(y)
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -56,20 +58,24 @@ a?.<number>(y)
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 10
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 10
                             },
                             "flags": 2097152,
+                            "transformFlags": 512,
                             "start": 3,
                             "end": 11
                         },
@@ -81,28 +87,34 @@ a?.<number>(y)
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 3,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -111,6 +123,7 @@ a?.<number>(y)
     "source": "a?.<number>(y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -119,9 +132,7 @@ a?.<number>(y)
 ### Printed
 
 ```javascript
-
-  a?.<number>(y);
-
+a?.<number>(y);
 ```
 
 ### Diagnostics

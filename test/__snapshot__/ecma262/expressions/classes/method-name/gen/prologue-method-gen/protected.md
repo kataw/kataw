@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -46,6 +47,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -58,6 +60,7 @@
                                         "text": "protected",
                                         "rawText": "protected",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 26
                                     },
@@ -70,6 +73,7 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 28
                                             },
@@ -78,12 +82,14 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 31
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 224,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 32
                                     },
@@ -95,36 +101,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 35
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 35
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 35
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 35
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 15,
                     "end": 36
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 38
         }
@@ -133,6 +147,7 @@
     "source": "'use strict'; ({*protected(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -142,9 +157,8 @@
 
 ```javascript
 
-  "'use strict'";
-  ({ * protected(x, y) {} });
-
+"'use strict'";
+({ *protected(x, y) {} });
 ```
 
 ### Diagnostics

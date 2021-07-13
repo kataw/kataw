@@ -20,6 +20,7 @@ let a, b = 42, c;b;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,12 +34,14 @@ let a, b = 42, c;b;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -49,6 +52,7 @@ let a, b = 42, c;b;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -58,10 +62,12 @@ let a, b = 42, c;b;
                             "text": 42,
                             "rawText": "42",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 13
                     },
@@ -72,21 +78,25 @@ let a, b = 42, c;b;
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -97,10 +107,12 @@ let a, b = 42, c;b;
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 19
         }
@@ -109,6 +121,7 @@ let a, b = 42, c;b;
     "source": "let a, b = 42, c;b;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -117,10 +130,7 @@ let a, b = 42, c;b;
 ### Printed
 
 ```javascript
-
-  let a, b = 42, c;
-  b;
-
+let a, b = 42, c;b;
 ```
 
 ### Diagnostics

@@ -34,6 +34,7 @@ declare => x, declare(y);
                     "text": "declare",
                     "rawText": "declare",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -41,6 +42,7 @@ declare => x, declare(y);
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -49,14 +51,17 @@ declare => x, declare(y);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         },
@@ -74,6 +79,7 @@ declare => x, declare(y);
                             "text": "declare",
                             "rawText": "declare",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 22
                         },
@@ -81,6 +87,7 @@ declare => x, declare(y);
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 25
                         },
@@ -89,10 +96,12 @@ declare => x, declare(y);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 27
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 27
                     },
@@ -105,6 +114,7 @@ declare => x, declare(y);
                             "text": "declare",
                             "rawText": "declare",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 36
                         },
@@ -112,6 +122,7 @@ declare => x, declare(y);
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 39
                         },
@@ -120,19 +131,23 @@ declare => x, declare(y);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 41
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 41
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 13,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 42
         },
@@ -147,6 +162,7 @@ declare => x, declare(y);
                     "text": "opaque",
                     "rawText": "opaque",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 50
                 },
@@ -154,6 +170,7 @@ declare => x, declare(y);
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 53
                 },
@@ -162,14 +179,17 @@ declare => x, declare(y);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 55
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 42,
             "end": 56
         },
@@ -187,6 +207,7 @@ declare => x, declare(y);
                             "text": "opaque",
                             "rawText": "opaque",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 56,
                             "end": 64
                         },
@@ -194,6 +215,7 @@ declare => x, declare(y);
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 64,
                             "end": 67
                         },
@@ -202,10 +224,12 @@ declare => x, declare(y);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 69
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 56,
                         "end": 69
                     },
@@ -218,6 +242,7 @@ declare => x, declare(y);
                             "text": "opaque",
                             "rawText": "opaque",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 77
                         },
@@ -225,6 +250,7 @@ declare => x, declare(y);
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 77,
                             "end": 80
                         },
@@ -233,19 +259,23 @@ declare => x, declare(y);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 80,
                             "end": 82
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 70,
                         "end": 82
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 56,
                 "end": 82
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 56,
             "end": 83
         },
@@ -263,6 +293,7 @@ declare => x, declare(y);
                             "text": "declare",
                             "rawText": "declare",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 92
                         },
@@ -270,6 +301,7 @@ declare => x, declare(y);
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 95
                         },
@@ -278,10 +310,12 @@ declare => x, declare(y);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 95,
                             "end": 97
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 83,
                         "end": 97
                     },
@@ -292,6 +326,7 @@ declare => x, declare(y);
                             "text": "declare",
                             "rawText": "declare",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 98,
                             "end": 106
                         },
@@ -303,25 +338,30 @@ declare => x, declare(y);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 108
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 108
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 98,
                         "end": 109
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 83,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 83,
             "end": 110
         }
@@ -330,6 +370,7 @@ declare => x, declare(y);
     "source": "declare => x;\n\ndeclare => x, declare => x;\n\nopaque => x;\n\nopaque => x, opaque => x;\n\ndeclare => x, declare(y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 110
 }
@@ -338,12 +379,14 @@ declare => x, declare(y);
 ### Printed
 
 ```javascript
+declare => x;
+declare => x, declare => x;
 
-  declare => x;
-  declare => x, declare => x;
-  opaque => x;
-  opaque => x, opaque => x;
-  declare => x, declare(y);
+opaque => x;
+
+opaque => x, opaque => x;
+
+declare => x, declare(y);
 
 ```
 

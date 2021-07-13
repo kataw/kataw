@@ -29,6 +29,7 @@ var a = b ? (c) : d => e;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a = b ? (c) : d => e;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,12 +55,14 @@ var a = b ? (c) : d => e;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -69,16 +73,19 @@ var a = b ? (c) : d => e;
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 32,
-                                "start": 11,
+                                "flags": 11,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 15
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
@@ -91,6 +98,7 @@ var a = b ? (c) : d => e;
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -98,6 +106,7 @@ var a = b ? (c) : d => e;
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 22
                                 },
@@ -106,27 +115,33 @@ var a = b ? (c) : d => e;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
                             "flags": 96,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -135,6 +150,7 @@ var a = b ? (c) : d => e;
     "source": "var a = b ? (c) : d => e;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -143,9 +159,7 @@ var a = b ? (c) : d => e;
 ### Printed
 
 ```javascript
-
-  var a = b ? (c) : d => e;
-
+var a = b ? (c) : d => e;
 ```
 
 ### Diagnostics

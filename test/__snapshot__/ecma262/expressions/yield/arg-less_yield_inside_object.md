@@ -30,6 +30,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -42,6 +43,7 @@
                                         "text": "g1",
                                         "rawText": "g1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 6
                                     },
@@ -51,6 +53,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -66,6 +69,7 @@
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 19
                                                     },
@@ -82,6 +86,7 @@
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 21,
                                                                         "end": 22
                                                                     },
@@ -90,6 +95,7 @@
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 23,
                                                                             "end": 29
                                                                         },
@@ -97,59 +103,72 @@
                                                                         "asteriskToken": null,
                                                                         "expression": null,
                                                                         "flags": 32,
+                                                                        "transformFlags": 4096,
                                                                         "start": 23,
                                                                         "end": 29
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 128,
                                                                     "start": 21,
                                                                     "end": 29
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 29
                                                         },
                                                         "flags": 48,
+                                                        "transformFlags": 8,
                                                         "start": 19,
                                                         "end": 30
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 10,
                                                     "end": 30
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 30
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 33
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 33
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 33
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 35
         }
@@ -158,6 +177,7 @@
     "source": "({ *g1() {   return {x: yield}  }})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -166,11 +186,9 @@
 ### Printed
 
 ```javascript
-
-  ({ * g1() {
+({ *g1() {
       return { x: yield  };
     } });
-
 ```
 
 ### Diagnostics

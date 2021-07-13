@@ -29,6 +29,7 @@ class C { m() { foo(new new super); } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { m() { foo(new new super); } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class C { m() { foo(new new super); } }
                                     "text": "m",
                                     "rawText": "m",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 11
                                 },
@@ -72,6 +75,7 @@ class C { m() { foo(new new super); } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
@@ -91,6 +95,7 @@ class C { m() { foo(new new super); } }
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 19
                                                     },
@@ -102,6 +107,7 @@ class C { m() { foo(new new super); } }
                                                                 "newKeyword": {
                                                                     "kind": 138477661,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 20,
                                                                     "end": 23
                                                                 },
@@ -110,6 +116,7 @@ class C { m() { foo(new new super); } }
                                                                     "newKeyword": {
                                                                         "kind": 138477661,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 23,
                                                                         "end": 27
                                                                     },
@@ -118,6 +125,7 @@ class C { m() { foo(new new super); } }
                                                                         "member": {
                                                                             "kind": 4259935,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 27,
                                                                             "end": 33
                                                                         },
@@ -126,64 +134,78 @@ class C { m() { foo(new new super); } }
                                                                             "text": "",
                                                                             "rawText": "",
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 33,
                                                                             "end": 33
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 2,
                                                                         "start": 27,
                                                                         "end": 33
                                                                     },
                                                                     "argumentList": null,
                                                                     "flags": 96,
+                                                                    "transformFlags": 2048,
                                                                     "start": 23,
                                                                     "end": 33
                                                                 },
                                                                 "argumentList": null,
                                                                 "flags": 96,
+                                                                "transformFlags": 2048,
                                                                 "start": 20,
                                                                 "end": 33
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 33
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 15,
                                                     "end": 34
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 15,
                                                 "end": 35
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 37
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 37
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 37
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 37
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -192,6 +214,7 @@ class C { m() { foo(new new super); } }
     "source": "class C { m() { foo(new new super); } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

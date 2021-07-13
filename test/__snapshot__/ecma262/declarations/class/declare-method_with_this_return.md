@@ -30,6 +30,7 @@ declare class Foo {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -66,6 +69,7 @@ declare class Foo {
                                 "text": "m",
                                 "rawText": "m",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
@@ -77,6 +81,7 @@ declare class Foo {
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 24
                                 },
@@ -87,33 +92,40 @@ declare class Foo {
                                     "type": {
                                         "kind": 4276321,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 31
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 31
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 31
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 32
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 34
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -122,6 +134,7 @@ declare class Foo {
     "source": "declare class Foo {\n  m(): this;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -130,9 +143,7 @@ declare class Foo {
 ### Printed
 
 ```javascript
-
-  declare class Foo { m(): this }
-
+declare class Foo { m(): this }
 ```
 
 ### Diagnostics

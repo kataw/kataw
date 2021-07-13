@@ -39,6 +39,7 @@ for (function(){ }[foo] in x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ for (function(){ }[foo] in x);
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 13
                     },
@@ -61,6 +63,7 @@ for (function(){ }[foo] in x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
@@ -71,15 +74,18 @@ for (function(){ }[foo] in x);
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 18
                 },
@@ -88,16 +94,19 @@ for (function(){ }[foo] in x);
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 5,
                 "end": 23
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
@@ -106,16 +115,19 @@ for (function(){ }[foo] in x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -124,6 +136,7 @@ for (function(){ }[foo] in x);
     "source": "for (function(){ }[foo] in x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -132,10 +145,7 @@ for (function(){ }[foo] in x);
 ### Printed
 
 ```javascript
-
-  for (function () {}[foo] in x)
-    ;
-
+for (function () {}[foo] in x);
 ```
 
 ### Diagnostics

@@ -21,6 +21,7 @@ do let x = 1; while (false)
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -31,10 +32,12 @@ do let x = 1; while (false)
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 6
             },
@@ -46,12 +49,14 @@ do let x = 1; while (false)
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -60,14 +65,17 @@ do let x = 1; while (false)
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 6,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -76,12 +84,14 @@ do let x = 1; while (false)
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 26
             },
@@ -92,14 +102,17 @@ do let x = 1; while (false)
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 27,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 27
         }
@@ -108,6 +121,7 @@ do let x = 1; while (false)
     "source": "do let x = 1; while (false)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

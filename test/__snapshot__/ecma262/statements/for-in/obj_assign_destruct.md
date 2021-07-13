@@ -39,6 +39,7 @@ for ({x:a.b}=x in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -57,6 +58,7 @@ for ({x:a.b}=x in x) ;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 7
                                 },
@@ -67,6 +69,7 @@ for ({x:a.b}=x in x) ;
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
@@ -75,30 +78,36 @@ for ({x:a.b}=x in x) ;
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 6,
                                     "end": 11
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 6,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 11
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
@@ -109,12 +118,14 @@ for ({x:a.b}=x in x) ;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
@@ -123,14 +134,17 @@ for ({x:a.b}=x in x) ;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 13,
                     "end": 19
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 5,
                 "end": 19
             },
@@ -140,16 +154,19 @@ for ({x:a.b}=x in x) ;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -158,6 +175,7 @@ for ({x:a.b}=x in x) ;
     "source": "for ({x:a.b}=x in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

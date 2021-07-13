@@ -45,6 +45,7 @@ class C2<X, Y> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -53,6 +54,7 @@ class C2<X, Y> {
                 "text": "E",
                 "rawText": "E",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -68,6 +70,7 @@ class C2<X, Y> {
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -75,16 +78,19 @@ class C2<X, Y> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 10
             },
@@ -95,6 +101,7 @@ class C2<X, Y> {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 18
                     },
@@ -103,6 +110,7 @@ class C2<X, Y> {
                         "text": "C",
                         "rawText": "C",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -122,15 +130,18 @@ class C2<X, Y> {
                                             "text": "X",
                                             "rawText": "X",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 22
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -141,24 +152,29 @@ class C2<X, Y> {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 30
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 30
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 20,
                         "end": 31
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 31
                 },
@@ -181,6 +197,7 @@ class C2<X, Y> {
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 39
                                 },
@@ -196,6 +213,7 @@ class C2<X, Y> {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 41
                                             },
@@ -211,26 +229,31 @@ class C2<X, Y> {
                                                         "text": "X",
                                                         "rawText": "X",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 42,
                                                         "end": 44
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 44
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 44
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 40,
                                             "end": 44
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 45
                                 },
@@ -245,15 +268,18 @@ class C2<X, Y> {
                                             "text": "X",
                                             "rawText": "X",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 48
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 48
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 48
                                 },
@@ -272,6 +298,7 @@ class C2<X, Y> {
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 59
                                                         },
@@ -280,16 +307,19 @@ class C2<X, Y> {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 60,
                                                             "end": 61
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 50,
                                                         "end": 61
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 63
                                                     },
@@ -298,14 +328,17 @@ class C2<X, Y> {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 63,
                                                         "end": 65
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 50,
                                                     "end": 65
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 50,
                                                 "end": 66
                                             },
@@ -314,6 +347,7 @@ class C2<X, Y> {
                                                 "ifKeyword": {
                                                     "kind": 37757019,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 66,
                                                     "end": 73
                                                 },
@@ -322,6 +356,7 @@ class C2<X, Y> {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 75,
                                                     "end": 76
                                                 },
@@ -335,6 +370,7 @@ class C2<X, Y> {
                                                                 "returnKeyword": {
                                                                     "kind": 37757022,
                                                                     "flags": 81,
+                                                                    "transformFlags": 0,
                                                                     "start": 79,
                                                                     "end": 92
                                                                 },
@@ -345,6 +381,7 @@ class C2<X, Y> {
                                                                         "member": {
                                                                             "kind": 4276321,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 92,
                                                                             "end": 97
                                                                         },
@@ -353,10 +390,12 @@ class C2<X, Y> {
                                                                             "text": "get_bad",
                                                                             "rawText": "get_bad",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 98,
                                                                             "end": 105
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 2,
                                                                         "start": 92,
                                                                         "end": 105
                                                                     },
@@ -365,29 +404,35 @@ class C2<X, Y> {
                                                                         "elements": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 106,
                                                                         "end": 106
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 1,
                                                                     "start": 92,
                                                                     "end": 107
                                                                 },
                                                                 "flags": 81,
+                                                                "transformFlags": 256,
                                                                 "start": 79,
                                                                 "end": 108
                                                             }
                                                         ],
                                                         "flags": 17,
+                                                        "transformFlags": 0,
                                                         "start": 79,
                                                         "end": 108
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 77,
                                                     "end": 114
                                                 },
                                                 "elseKeyword": null,
                                                 "alternate": null,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 114
                                             },
@@ -396,6 +441,7 @@ class C2<X, Y> {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 114,
                                                     "end": 125
                                                 },
@@ -406,6 +452,7 @@ class C2<X, Y> {
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 125,
                                                             "end": 130
                                                         },
@@ -414,10 +461,12 @@ class C2<X, Y> {
                                                             "text": "get",
                                                             "rawText": "get",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 131,
                                                             "end": 134
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 2,
                                                         "start": 125,
                                                         "end": 134
                                                     },
@@ -426,44 +475,54 @@ class C2<X, Y> {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 135,
                                                         "end": 135
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 125,
                                                     "end": 136
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 114,
                                                 "end": 137
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 137
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 141
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 141
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 141
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 141
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 143
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 143
         },
@@ -474,6 +533,7 @@ class C2<X, Y> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 143,
                 "end": 150
             },
@@ -482,6 +542,7 @@ class C2<X, Y> {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 150,
                 "end": 153
             },
@@ -497,6 +558,7 @@ class C2<X, Y> {
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 154,
                                 "end": 155
                             },
@@ -504,6 +566,7 @@ class C2<X, Y> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 154,
                             "end": 155
                         },
@@ -514,6 +577,7 @@ class C2<X, Y> {
                                 "text": "Y",
                                 "rawText": "Y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 156,
                                 "end": 158
                             },
@@ -521,16 +585,19 @@ class C2<X, Y> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 156,
                             "end": 158
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 154,
                     "end": 158
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 153,
                 "end": 159
             },
@@ -551,6 +618,7 @@ class C2<X, Y> {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 161,
                                 "end": 165
                             },
@@ -573,6 +641,7 @@ class C2<X, Y> {
                                                 "text": "p",
                                                 "rawText": "p",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 168,
                                                 "end": 169
                                             },
@@ -588,40 +657,48 @@ class C2<X, Y> {
                                                         "text": "Y",
                                                         "rawText": "Y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 170,
                                                         "end": 172
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 170,
                                                     "end": 172
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 170,
                                                 "end": 172
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 172
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 166,
                                     "end": 173
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 166,
                                 "end": 173
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 161,
                             "end": 173
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 173,
                             "end": 174
                         },
@@ -641,6 +718,7 @@ class C2<X, Y> {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 180
                                 },
@@ -650,6 +728,7 @@ class C2<X, Y> {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 181,
                                     "end": 182
                                 },
@@ -664,6 +743,7 @@ class C2<X, Y> {
                                             "text": "D2",
                                             "rawText": "D2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 183,
                                             "end": 186
                                         },
@@ -683,15 +763,18 @@ class C2<X, Y> {
                                                                 "text": "X",
                                                                 "rawText": "X",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 187,
                                                                 "end": 188
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 187,
                                                             "end": 188
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 187,
                                                         "end": 188
                                                     },
@@ -706,33 +789,40 @@ class C2<X, Y> {
                                                                 "text": "Y",
                                                                 "rawText": "Y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 189,
                                                                 "end": 191
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 189,
                                                             "end": 191
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 189,
                                                         "end": 191
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 187,
                                                 "end": 191
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 512,
                                             "start": 186,
                                             "end": 192
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 183,
                                         "end": 192
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 183,
                                     "end": 192
                                 },
@@ -747,6 +837,7 @@ class C2<X, Y> {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 194,
                                                     "end": 205
                                                 },
@@ -755,6 +846,7 @@ class C2<X, Y> {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 205,
                                                         "end": 210
                                                     },
@@ -763,44 +855,54 @@ class C2<X, Y> {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 211,
                                                         "end": 212
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 205,
                                                     "end": 212
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 194,
                                                 "end": 213
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 194,
                                         "end": 213
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 192,
                                     "end": 217
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 180,
                                 "end": 217
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 174,
                             "end": 217
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 161,
                     "end": 217
                 },
                 "flags": 159,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 219
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 143,
             "end": 219
         }
@@ -809,6 +911,7 @@ class C2<X, Y> {
     "source": "class E<X> extends C<X, number> {\n  set(x: X): X {\n    this.x = x;\n    if (x) {\n      return this.get_bad();\n    }\n    return this.get();\n  }\n}\n\nclass C2<X, Y> {\n  x: {p: Y};\n  foo(): D2<X, Y> {\n    return this.x;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 219
 }
@@ -817,23 +920,21 @@ class C2<X, Y> {
 ### Printed
 
 ```javascript
-
-  class E <X> extends C<X, number> {
-    set(x: X): X {
-      this.x = x;
-      if (x) {
+class E <X> extends C<X, number> {
+  set(x: X): X {
+    this.x = x;
+    if (x) {
         return this.get_bad();
       }
-      return this.get();
-    }
+    return this.get();
   }
-  class C2 <X, Y>{
-    x: { p: Y }
-    ;
-    foo(): D2<X, Y> {
-      return this.x;
-    }
+}
+class C2 <X, Y>{
+  x: { p: Y };;
+  foo(): D2<X, Y> {
+    return this.x;
   }
+}
 
 ```
 

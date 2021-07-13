@@ -32,6 +32,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
@@ -42,6 +43,7 @@
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
@@ -50,6 +52,7 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
@@ -67,34 +70,41 @@
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 14
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 14
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 8,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 0,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 16
                 },
@@ -102,6 +112,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
@@ -110,14 +121,17 @@
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -126,6 +140,7 @@
     "source": "(x = a?.(yield)) => y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -134,9 +149,7 @@
 ### Printed
 
 ```javascript
-
-  (x = a?.(yield)) => y;
-
+(x = a?.(yield)) => y;
 ```
 
 ### Diagnostics

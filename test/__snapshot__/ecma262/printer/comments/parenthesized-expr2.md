@@ -34,14 +34,17 @@ a
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 20
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -50,6 +53,7 @@ a
     "source": "    (\n      /*1*/\n\na\n\n      )\n\n\n\n\n /*2*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -58,12 +62,7 @@ a
 ### Printed
 
 ```javascript
-
-  (
-   /*1*/
-  a);
-   /*2*/
-
+/*2*/ (/*1*/ a);
 ```
 
 ### Diagnostics

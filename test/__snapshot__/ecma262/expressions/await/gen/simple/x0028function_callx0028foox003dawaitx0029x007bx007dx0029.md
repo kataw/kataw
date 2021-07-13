@@ -32,6 +32,7 @@
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
@@ -41,6 +42,7 @@
                         "text": "call",
                         "rawText": "call",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 14
                     },
@@ -56,6 +58,7 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
@@ -66,16 +69,19 @@
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 24
                                 },
                                 "flags": 34,
+                                "transformFlags": 4096,
                                 "start": 15,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 24
                     },
@@ -86,23 +92,28 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 26
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 27
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         }
@@ -111,6 +122,7 @@
     "source": "(function call(foo=await){})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -119,9 +131,7 @@
 ### Printed
 
 ```javascript
-
-  (function call(foo = await) {});
-
+(function call(foo = await) {});
 ```
 
 ### Diagnostics

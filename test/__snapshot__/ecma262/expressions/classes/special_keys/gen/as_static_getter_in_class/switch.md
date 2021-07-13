@@ -29,6 +29,7 @@ class x {static get switch(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static get switch(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class x {static get switch(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -61,6 +64,7 @@ class x {static get switch(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -73,6 +77,7 @@ class x {static get switch(){}}
                                     "text": "switch",
                                     "rawText": "switch",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 26
                                 },
@@ -82,6 +87,7 @@ class x {static get switch(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -93,31 +99,38 @@ class x {static get switch(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -126,6 +139,7 @@ class x {static get switch(){}}
     "source": "class x {static get switch(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -134,11 +148,9 @@ class x {static get switch(){}}
 ### Printed
 
 ```javascript
-
-  class x {
-    static get switch() {}
-  }
-
+class x {
+  static get switch() {}
+}
 ```
 
 ### Diagnostics

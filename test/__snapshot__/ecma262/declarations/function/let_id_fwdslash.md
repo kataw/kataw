@@ -39,6 +39,7 @@ let p/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,21 +53,25 @@ let p/
                             "text": "p",
                             "rawText": "p",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -79,12 +84,14 @@ let p/
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 5,
                     "end": 6
                 },
@@ -93,14 +100,17 @@ let p/
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 5,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 6
         }
@@ -109,6 +119,7 @@ let p/
     "source": "let p/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

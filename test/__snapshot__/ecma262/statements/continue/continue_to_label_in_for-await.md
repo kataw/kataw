@@ -21,12 +21,14 @@ async function f(){ foo: for await (x of y) continue foo; }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){ foo: for await (x of y) continue foo; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){ foo: for await (x of y) continue foo; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -61,12 +65,14 @@ async function f(){ foo: for await (x of y) continue foo; }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 24
                             },
@@ -75,12 +81,14 @@ async function f(){ foo: for await (x of y) continue foo; }
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 34
                                 },
@@ -89,12 +97,14 @@ async function f(){ foo: for await (x of y) continue foo; }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 37
                                 },
                                 "ofKeyword": {
                                     "kind": 16793717,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
@@ -103,6 +113,7 @@ async function f(){ foo: for await (x of y) continue foo; }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 42
                                 },
@@ -111,6 +122,7 @@ async function f(){ foo: for await (x of y) continue foo; }
                                     "continueKeyword": {
                                         "kind": 37757009,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 52
                                     },
@@ -119,32 +131,39 @@ async function f(){ foo: for await (x of y) continue foo; }
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 52,
                                         "end": 56
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 57
                                 },
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 57
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 57
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 59
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -153,6 +172,7 @@ async function f(){ foo: for await (x of y) continue foo; }
     "source": "async function f(){ foo: for await (x of y) continue foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }
@@ -161,12 +181,9 @@ async function f(){ foo: for await (x of y) continue foo; }
 ### Printed
 
 ```javascript
-
-  async function f() {
-    foo: for await (x of y)
-      continue foo;
-  }
-
+async function f() {
+  foo:  for await (x of y) continue foo;
+}
 ```
 
 ### Diagnostics

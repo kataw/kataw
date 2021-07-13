@@ -29,6 +29,7 @@ class F { static get foo() {} static get foo() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class F { static get foo() {} static get foo() {} }
                 "text": "F",
                 "rawText": "F",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class F { static get foo() {} static get foo() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -61,6 +64,7 @@ class F { static get foo() {} static get foo() {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -73,6 +77,7 @@ class F { static get foo() {} static get foo() {} }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
                                 },
@@ -82,6 +87,7 @@ class F { static get foo() {} static get foo() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -93,18 +99,22 @@ class F { static get foo() {} static get foo() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 29
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 29
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 29
                         },
@@ -115,6 +125,7 @@ class F { static get foo() {} static get foo() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 36
                             },
@@ -122,6 +133,7 @@ class F { static get foo() {} static get foo() {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 40
                             },
@@ -134,6 +146,7 @@ class F { static get foo() {} static get foo() {} }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 44
                                 },
@@ -143,6 +156,7 @@ class F { static get foo() {} static get foo() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -154,31 +168,38 @@ class F { static get foo() {} static get foo() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 49
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 49
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 49
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -187,6 +208,7 @@ class F { static get foo() {} static get foo() {} }
     "source": "class F { static get foo() {} static get foo() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }
@@ -195,12 +217,10 @@ class F { static get foo() {} static get foo() {} }
 ### Printed
 
 ```javascript
-
-  class F {
-    static get foo() {}
-    static get foo() {}
-  }
-
+class F {
+  static get foo() {}
+  static get foo() {}
+}
 ```
 
 ### Diagnostics

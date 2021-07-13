@@ -27,6 +27,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -34,19 +35,23 @@
                             "kind": 371,
                             "text": "/x/",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 7
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -55,6 +60,7 @@
     "source": "(x, /x/)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -63,9 +69,7 @@
 ### Printed
 
 ```javascript
-
-  (x, /x/);
-
+(x, /x/);
 ```
 
 ### Diagnostics

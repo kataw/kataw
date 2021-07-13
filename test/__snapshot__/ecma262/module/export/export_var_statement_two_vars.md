@@ -26,6 +26,7 @@ export var x, y
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ export var x, y
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -48,12 +50,14 @@ export var x, y
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         },
@@ -64,21 +68,25 @@ export var x, y
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 13,
                             "end": 15
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 15
             },
@@ -87,6 +95,7 @@ export var x, y
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -95,6 +104,7 @@ export var x, y
     "source": "export var x, y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -103,9 +113,7 @@ export var x, y
 ### Printed
 
 ```javascript
-
-  export var x, y;
-
+export var x, y;
 ```
 
 ### Diagnostics

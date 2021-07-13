@@ -22,6 +22,7 @@ function foo(arguments){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function foo(arguments){}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -43,12 +45,14 @@ function foo(arguments){}
                         "text": "arguments",
                         "rawText": "arguments",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
@@ -59,15 +63,18 @@ function foo(arguments){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -76,6 +83,7 @@ function foo(arguments){}
     "source": "function foo(arguments){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -84,9 +92,7 @@ function foo(arguments){}
 ### Printed
 
 ```javascript
-
-  function foo(arguments) {}
-
+function foo(arguments) {}
 ```
 
 ### Diagnostics

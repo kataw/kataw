@@ -29,6 +29,7 @@ type Foo<T> = Bar<T>
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Foo<T> = Bar<T>
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -52,6 +54,7 @@ type Foo<T> = Bar<T>
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
@@ -59,22 +62,26 @@ type Foo<T> = Bar<T>
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 8,
                 "end": 11
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
@@ -89,6 +96,7 @@ type Foo<T> = Bar<T>
                         "text": "Bar",
                         "rawText": "Bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     },
@@ -108,37 +116,45 @@ type Foo<T> = Bar<T>
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 19
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 17,
                         "end": 20
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 20
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 20
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -147,6 +163,7 @@ type Foo<T> = Bar<T>
     "source": "type Foo<T> = Bar<T>",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -155,9 +172,7 @@ type Foo<T> = Bar<T>
 ### Printed
 
 ```javascript
-
-  type Foo<T> = Bar<T>
-
+type Foo<T> = Bar<T>
 ```
 
 ### Diagnostics

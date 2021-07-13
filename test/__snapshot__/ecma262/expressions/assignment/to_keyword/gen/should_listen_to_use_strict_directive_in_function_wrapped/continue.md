@@ -32,6 +32,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -50,6 +52,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -63,6 +66,7 @@ function f() {
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 29
                         }
@@ -77,14 +81,17 @@ function f() {
                                     "text": "",
                                     "rawText": "",
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 32,
-                                "start": 30,
+                                "flags": 30,
+                                "transformFlags": 0,
+                                "start": 33,
                                 "end": 34
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 30,
                             "end": 34
                         },
@@ -93,6 +100,7 @@ function f() {
                             "continueKeyword": {
                                 "kind": 37757009,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 42
                             },
@@ -101,24 +109,29 @@ function f() {
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 42
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 42
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 42
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         },
@@ -129,16 +142,19 @@ function f() {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 44,
             "end": 46
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 47,
             "end": 48
         }
@@ -147,6 +163,7 @@ function f() {
     "source": "function f() {\n  \"use strict\";\n  (continue = x);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

@@ -29,12 +29,14 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -52,6 +55,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -68,6 +72,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -77,6 +82,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -86,6 +92,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -105,12 +112,14 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 49
                                                     },
                                                     "asteriskToken": {
                                                         "kind": 67143222,
                                                         "flags": 64,
+                                                        "transformFlags": 32,
                                                         "start": 49,
                                                         "end": 51
                                                     },
@@ -121,6 +130,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 53
                                                     },
@@ -139,12 +149,14 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 56,
                                                                             "end": 58
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4125,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 58,
                                                                             "end": 60
                                                                         },
@@ -154,6 +166,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             "classKeyword": {
                                                                                 "kind": 37822544,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 60,
                                                                                 "end": 66
                                                                             },
@@ -166,6 +179,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                     "extendsKeyword": {
                                                                                         "kind": 4194391,
                                                                                         "flags": 80,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 66,
                                                                                         "end": 74
                                                                                     },
@@ -178,24 +192,28 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                                 "text": "a",
                                                                                                 "rawText": "a",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 76,
                                                                                                 "end": 77
                                                                                             },
                                                                                             "questionToken": {
                                                                                                 "kind": 134217750,
                                                                                                 "flags": 64,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 77,
                                                                                                 "end": 79
                                                                                             },
                                                                                             "consequent": {
                                                                                                 "kind": 138477575,
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 79,
                                                                                                 "end": 84
                                                                                             },
                                                                                             "colonToken": {
                                                                                                 "kind": 21,
                                                                                                 "flags": 64,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 84,
                                                                                                 "end": 86
                                                                                             },
@@ -204,6 +222,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                                 "yieldKeyword": {
                                                                                                     "kind": 8454253,
                                                                                                     "flags": 64,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 86,
                                                                                                     "end": 92
                                                                                                 },
@@ -211,19 +230,23 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                                 "asteriskToken": null,
                                                                                                 "expression": null,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 4096,
                                                                                                 "start": 86,
                                                                                                 "end": 92
                                                                                             },
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 4096,
                                                                                             "start": 74,
                                                                                             "end": 92
                                                                                         },
-                                                                                        "flags": 32,
-                                                                                        "start": 74,
+                                                                                        "flags": 74,
+                                                                                        "transformFlags": 0,
+                                                                                        "start": 32,
                                                                                         "end": 93
                                                                                     },
                                                                                     "typeParameter": null,
                                                                                     "flags": 16,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 74,
                                                                                     "end": 93
                                                                                 },
@@ -231,72 +254,88 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                     "kind": 303,
                                                                                     "elements": [],
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 95,
                                                                                     "end": 95
                                                                                 },
                                                                                 "flags": 66,
+                                                                                "transformFlags": 0,
                                                                                 "start": 32,
                                                                                 "end": 97
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 60,
                                                                             "end": 97
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 0,
+                                                                        "transformFlags": 128,
                                                                         "start": 56,
                                                                         "end": 97
                                                                     },
                                                                     "flags": 16,
+                                                                    "transformFlags": 4096,
                                                                     "start": 56,
                                                                     "end": 97
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 56,
                                                             "end": 97
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 99
                                                     },
                                                     "returnType": null,
                                                     "flags": 288,
+                                                    "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 99
                                                 },
-                                                "flags": 32,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "transformFlags": 0,
+                                                "start": 32,
                                                 "end": 100
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 39,
                                             "end": 101
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 101
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 103
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 103
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 103
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 104
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 104
         }
@@ -305,6 +344,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
     "source": "function * gen() { function not_gen() { (function * () { x = class extends (a ? null : yield) { } }); }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 104
 }
@@ -313,16 +353,13 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 ### Printed
 
 ```javascript
-
-  function* gen() {
-    function not_gen() {
-      (function* () {
-        x = class extends (a ? null : yield ) {
-        };
+function *gen() {
+  function not_gen() {
+    (function *() {
+        x = class extends (a ? null : yield ) {};
       });
-    }
   }
-
+}
 ```
 
 ### Diagnostics

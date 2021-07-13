@@ -28,6 +28,7 @@ let x: () => void = () => {}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: () => void = () => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -56,12 +58,14 @@ let x: () => void = () => {}
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 8
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -72,18 +76,22 @@ let x: () => void = () => {}
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 17
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 17
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 17
                         },
@@ -95,7 +103,8 @@ let x: () => void = () => {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 21
                             },
@@ -103,6 +112,7 @@ let x: () => void = () => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
@@ -113,27 +123,33 @@ let x: () => void = () => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -142,6 +158,7 @@ let x: () => void = () => {}
     "source": "let x: () => void = () => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -150,9 +167,7 @@ let x: () => void = () => {}
 ### Printed
 
 ```javascript
-
-  let x: () => void = () => {};
-
+let x: () => void = () => {};
 ```
 
 ### Diagnostics

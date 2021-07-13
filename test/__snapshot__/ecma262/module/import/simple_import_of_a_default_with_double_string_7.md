@@ -26,6 +26,7 @@ import {x as z,} from "y"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import {x as z,} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
@@ -44,10 +46,12 @@ import {x as z,} from "y"
                     "text": "y",
                     "rawText": "\"y\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 25
             },
@@ -70,12 +74,14 @@ import {x as z,} from "y"
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -84,27 +90,33 @@ import {x as z,} from "y"
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 15
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -113,6 +125,7 @@ import {x as z,} from "y"
     "source": "import {x as z,} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -121,9 +134,7 @@ import {x as z,} from "y"
 ### Printed
 
 ```javascript
-
-  import { x as  z, } from "\"y\"";
-
+import { x as z } from "\"y\"";
 ```
 
 ### Diagnostics

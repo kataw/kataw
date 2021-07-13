@@ -24,6 +24,7 @@ z(z(z(a ? b : c++)));
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -37,6 +38,7 @@ z(z(z(a ? b : c++)));
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
@@ -50,6 +52,7 @@ z(z(z(a ? b : c++)));
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
                                         },
@@ -63,12 +66,14 @@ z(z(z(a ? b : c++)));
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 7
                                                     },
                                                     "questionToken": {
                                                         "kind": 134217750,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 7,
                                                         "end": 9
                                                     },
@@ -77,12 +82,14 @@ z(z(z(a ? b : c++)));
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 11
                                                     },
                                                     "colonToken": {
                                                         "kind": 21,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 13
                                                     },
@@ -91,6 +98,7 @@ z(z(z(a ? b : c++)));
                                                         "operandToken": {
                                                             "kind": 196635,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 17
                                                         },
@@ -99,48 +107,58 @@ z(z(z(a ? b : c++)));
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 15
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 17
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 4096,
                                                     "start": 6,
                                                     "end": 17
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 17
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 4,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 18
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 2,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 19
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -149,6 +167,7 @@ z(z(z(a ? b : c++)));
     "source": "z(z(z(a ? b : c++)));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -157,9 +176,7 @@ z(z(z(a ? b : c++)));
 ### Printed
 
 ```javascript
-
-  z(z(z(a ? b : c++)));
-
+z(z(z(a ? b : c++)));
 ```
 
 ### Diagnostics

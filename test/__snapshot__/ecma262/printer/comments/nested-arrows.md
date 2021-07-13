@@ -54,6 +54,7 @@ runtimeAgent.getProperties(
                             "text": "Seq",
                             "rawText": "Seq",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -69,6 +70,7 @@ runtimeAgent.getProperties(
                                             "text": "typeDef",
                                             "rawText": "typeDef",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 11
                                         },
@@ -77,10 +79,12 @@ runtimeAgent.getProperties(
                                             "text": "interface",
                                             "rawText": "interface",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 21
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 4,
                                         "end": 21
                                     },
@@ -89,20 +93,24 @@ runtimeAgent.getProperties(
                                         "text": "groups",
                                         "rawText": "groups",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 28
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 4,
                                     "end": 28
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 28
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 0,
                         "end": 29
                     },
@@ -111,10 +119,12 @@ runtimeAgent.getProperties(
                         "text": "forEach",
                         "rawText": "forEach",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 37
                     },
                     "flags": 268435488,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 37
                 },
@@ -130,6 +140,7 @@ runtimeAgent.getProperties(
                                 "text": "group",
                                 "rawText": "group",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 43
                             },
@@ -137,6 +148,7 @@ runtimeAgent.getProperties(
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 46
                             },
@@ -151,6 +163,7 @@ runtimeAgent.getProperties(
                                             "text": "Seq",
                                             "rawText": "Seq",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 54
                                         },
@@ -164,6 +177,7 @@ runtimeAgent.getProperties(
                                                         "text": "group",
                                                         "rawText": "group",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 60
                                                     },
@@ -172,20 +186,24 @@ runtimeAgent.getProperties(
                                                         "text": "members",
                                                         "rawText": "members",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 68
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 55,
                                                     "end": 68
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 55,
                                             "end": 68
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 46,
                                         "end": 69
                                     },
@@ -194,10 +212,12 @@ runtimeAgent.getProperties(
                                         "text": "forEach",
                                         "rawText": "forEach",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 77
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 2,
                                     "start": 46,
                                     "end": 77
                                 },
@@ -216,6 +236,7 @@ runtimeAgent.getProperties(
                                                         "text": "member",
                                                         "rawText": "member",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 79,
                                                         "end": 85
                                                     },
@@ -224,12 +245,14 @@ runtimeAgent.getProperties(
                                                         "text": "memberName",
                                                         "rawText": "memberName",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 86,
                                                         "end": 97
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 98
                                             },
@@ -237,6 +260,7 @@ runtimeAgent.getProperties(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 98,
                                                 "end": 101
                                             },
@@ -247,6 +271,7 @@ runtimeAgent.getProperties(
                                                     "text": "markdownDoc",
                                                     "rawText": "markdownDoc",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 101,
                                                     "end": 119
                                                 },
@@ -260,6 +285,7 @@ runtimeAgent.getProperties(
                                                                 "text": "member",
                                                                 "rawText": "member",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 120,
                                                                 "end": 135
                                                             },
@@ -268,10 +294,12 @@ runtimeAgent.getProperties(
                                                                 "text": "doc",
                                                                 "rawText": "doc",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 136,
                                                                 "end": 139
                                                             },
                                                             "flags": 97,
+                                                            "transformFlags": 2,
                                                             "start": 120,
                                                             "end": 139
                                                         },
@@ -288,6 +316,7 @@ runtimeAgent.getProperties(
                                                                             "text": "typePath",
                                                                             "rawText": "typePath",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 150,
                                                                             "end": 159
                                                                         },
@@ -300,6 +329,7 @@ runtimeAgent.getProperties(
                                                                                     "text": "typePath",
                                                                                     "rawText": "typePath",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 160,
                                                                                     "end": 169
                                                                                 },
@@ -308,10 +338,12 @@ runtimeAgent.getProperties(
                                                                                     "text": "concat",
                                                                                     "rawText": "concat",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 170,
                                                                                     "end": 176
                                                                                 },
                                                                                 "flags": 96,
+                                                                                "transformFlags": 2,
                                                                                 "start": 150,
                                                                                 "end": 176
                                                                             },
@@ -327,6 +359,7 @@ runtimeAgent.getProperties(
                                                                                                 "text": "memberName",
                                                                                                 "rawText": "memberName",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 177,
                                                                                                 "end": 187
                                                                                             },
@@ -335,10 +368,12 @@ runtimeAgent.getProperties(
                                                                                                 "text": "slice",
                                                                                                 "rawText": "slice",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 188,
                                                                                                 "end": 193
                                                                                             },
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 2,
                                                                                             "start": 177,
                                                                                             "end": 193
                                                                                         },
@@ -350,30 +385,36 @@ runtimeAgent.getProperties(
                                                                                                     "text": 1,
                                                                                                     "rawText": "1",
                                                                                                     "flags": 96,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 194,
                                                                                                     "end": 195
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
                                                                                             "flags": 32,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 194,
                                                                                             "end": 195
                                                                                         },
                                                                                         "flags": 268435488,
+                                                                                        "transformFlags": 1,
                                                                                         "start": 177,
                                                                                         "end": 196
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 177,
                                                                                 "end": 196
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 150,
                                                                             "end": 197
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 128,
                                                                         "start": 150,
                                                                         "end": 197
                                                                     },
@@ -385,6 +426,7 @@ runtimeAgent.getProperties(
                                                                             "text": "signatures",
                                                                             "rawText": "signatures",
                                                                             "flags": 97,
+                                                                            "transformFlags": 0,
                                                                             "start": 198,
                                                                             "end": 218
                                                                         },
@@ -395,6 +437,7 @@ runtimeAgent.getProperties(
                                                                                 "text": "member",
                                                                                 "rawText": "member",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 219,
                                                                                 "end": 226
                                                                             },
@@ -403,66 +446,80 @@ runtimeAgent.getProperties(
                                                                                 "text": "signatures",
                                                                                 "rawText": "signatures",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 227,
                                                                                 "end": 237
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 198,
                                                                             "end": 237
                                                                         },
                                                                         "flags": 33,
+                                                                        "transformFlags": 128,
                                                                         "start": 198,
                                                                         "end": 237
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 150,
                                                                 "end": 237
                                                             },
                                                             "flags": 49,
+                                                            "transformFlags": 8,
                                                             "start": 140,
                                                             "end": 239
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 120,
                                                     "end": 239
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 101,
                                                 "end": 247
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 247
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 247
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 46,
                                 "end": 253
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 253
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 253
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 255
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 255
         },
@@ -471,6 +528,7 @@ runtimeAgent.getProperties(
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 255,
                 "end": 262
             },
@@ -484,6 +542,7 @@ runtimeAgent.getProperties(
                             "text": "promiseFromCallback",
                             "rawText": "promiseFromCallback",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 262,
                             "end": 282
                         },
@@ -497,6 +556,7 @@ runtimeAgent.getProperties(
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 284,
                                 "end": 287
                             },
@@ -504,6 +564,7 @@ runtimeAgent.getProperties(
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 287,
                                 "end": 290
                             },
@@ -512,6 +573,7 @@ runtimeAgent.getProperties(
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 290,
                                     "end": 298
                                 },
@@ -520,6 +582,7 @@ runtimeAgent.getProperties(
                                     "text": "Promise",
                                     "rawText": "Promise",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 298,
                                     "end": 306
                                 },
@@ -538,6 +601,7 @@ runtimeAgent.getProperties(
                                                         "text": "resolve",
                                                         "rawText": "resolve",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 308,
                                                         "end": 315
                                                     },
@@ -546,12 +610,14 @@ runtimeAgent.getProperties(
                                                         "text": "reject",
                                                         "rawText": "reject",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 316,
                                                         "end": 323
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 308,
                                                 "end": 324
                                             },
@@ -559,6 +625,7 @@ runtimeAgent.getProperties(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 324,
                                                 "end": 327
                                             },
@@ -569,6 +636,7 @@ runtimeAgent.getProperties(
                                                     "text": "fn",
                                                     "rawText": "fn",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 327,
                                                     "end": 336
                                                 },
@@ -587,6 +655,7 @@ runtimeAgent.getProperties(
                                                                         "text": "err",
                                                                         "rawText": "err",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 338,
                                                                         "end": 341
                                                                     },
@@ -595,12 +664,14 @@ runtimeAgent.getProperties(
                                                                         "text": "result",
                                                                         "rawText": "result",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 342,
                                                                         "end": 349
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 338,
                                                                 "end": 350
                                                             },
@@ -608,6 +679,7 @@ runtimeAgent.getProperties(
                                                             "arrowToken": {
                                                                 "kind": 10,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 350,
                                                                 "end": 353
                                                             },
@@ -622,6 +694,7 @@ runtimeAgent.getProperties(
                                                                             "ifKeyword": {
                                                                                 "kind": 37757019,
                                                                                 "flags": 81,
+                                                                                "transformFlags": 0,
                                                                                 "start": 355,
                                                                                 "end": 366
                                                                             },
@@ -630,6 +703,7 @@ runtimeAgent.getProperties(
                                                                                 "text": "err",
                                                                                 "rawText": "err",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 368,
                                                                                 "end": 371
                                                                             },
@@ -638,6 +712,7 @@ runtimeAgent.getProperties(
                                                                                 "returnKeyword": {
                                                                                     "kind": 37757022,
                                                                                     "flags": 80,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 372,
                                                                                     "end": 379
                                                                                 },
@@ -648,6 +723,7 @@ runtimeAgent.getProperties(
                                                                                         "text": "reject",
                                                                                         "rawText": "reject",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 379,
                                                                                         "end": 386
                                                                                     },
@@ -659,26 +735,31 @@ runtimeAgent.getProperties(
                                                                                                 "text": "err",
                                                                                                 "rawText": "err",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 387,
                                                                                                 "end": 390
                                                                                             }
                                                                                         ],
                                                                                         "trailingComma": false,
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 387,
                                                                                         "end": 390
                                                                                     },
                                                                                     "flags": 268435488,
+                                                                                    "transformFlags": 1,
                                                                                     "start": 379,
                                                                                     "end": 391
                                                                                 },
                                                                                 "flags": 80,
+                                                                                "transformFlags": 256,
                                                                                 "start": 372,
                                                                                 "end": 392
                                                                             },
                                                                             "elseKeyword": null,
                                                                             "alternate": null,
                                                                             "flags": 81,
+                                                                            "transformFlags": 0,
                                                                             "start": 355,
                                                                             "end": 392
                                                                         },
@@ -687,6 +768,7 @@ runtimeAgent.getProperties(
                                                                             "returnKeyword": {
                                                                                 "kind": 37757022,
                                                                                 "flags": 81,
+                                                                                "transformFlags": 0,
                                                                                 "start": 392,
                                                                                 "end": 407
                                                                             },
@@ -697,6 +779,7 @@ runtimeAgent.getProperties(
                                                                                     "text": "resolve",
                                                                                     "rawText": "resolve",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 407,
                                                                                     "end": 415
                                                                                 },
@@ -708,74 +791,90 @@ runtimeAgent.getProperties(
                                                                                             "text": "result",
                                                                                             "rawText": "result",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 416,
                                                                                             "end": 422
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 416,
                                                                                     "end": 422
                                                                                 },
                                                                                 "flags": 268435488,
+                                                                                "transformFlags": 1,
                                                                                 "start": 407,
                                                                                 "end": 423
                                                                             },
                                                                             "flags": 81,
+                                                                            "transformFlags": 256,
                                                                             "start": 392,
                                                                             "end": 424
                                                                         }
                                                                     ],
                                                                     "flags": 33,
+                                                                    "transformFlags": 0,
                                                                     "start": 355,
                                                                     "end": 424
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 353,
                                                                 "end": 432
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 337,
                                                             "end": 432
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 337,
                                                     "end": 432
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 327,
                                                 "end": 433
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 307,
                                             "end": 433
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 307,
                                     "end": 433
                                 },
                                 "flags": 97,
+                                "transformFlags": 2048,
                                 "start": 290,
                                 "end": 439
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 284,
                             "end": 439
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 262,
                         "end": 439
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 262,
                 "end": 439
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 255,
             "end": 440
         },
@@ -790,6 +889,7 @@ runtimeAgent.getProperties(
                         "text": "runtimeAgent",
                         "rawText": "runtimeAgent",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 440,
                         "end": 454
                     },
@@ -798,10 +898,12 @@ runtimeAgent.getProperties(
                         "text": "getProperties",
                         "rawText": "getProperties",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 455,
                         "end": 468
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 440,
                     "end": 468
                 },
@@ -813,24 +915,28 @@ runtimeAgent.getProperties(
                             "text": "objectId",
                             "rawText": "objectId",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 469,
                             "end": 482
                         },
                         {
                             "kind": 205586437,
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 483,
                             "end": 493
                         },
                         {
                             "kind": 205586437,
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 494,
                             "end": 521
                         },
                         {
                             "kind": 205586437,
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 522,
                             "end": 558
                         },
@@ -846,6 +952,7 @@ runtimeAgent.getProperties(
                                         "text": "error",
                                         "rawText": "error",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 584,
                                         "end": 589
                                     },
@@ -854,6 +961,7 @@ runtimeAgent.getProperties(
                                         "text": "properties",
                                         "rawText": "properties",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 590,
                                         "end": 601
                                     },
@@ -862,12 +970,14 @@ runtimeAgent.getProperties(
                                         "text": "internalProperties",
                                         "rawText": "internalProperties",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 602,
                                         "end": 621
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
+                                "transformFlags": 0,
                                 "start": 584,
                                 "end": 622
                             },
@@ -875,6 +985,7 @@ runtimeAgent.getProperties(
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 622,
                                 "end": 625
                             },
@@ -889,6 +1000,7 @@ runtimeAgent.getProperties(
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 627,
                                                 "end": 640
                                             },
@@ -897,37 +1009,45 @@ runtimeAgent.getProperties(
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 640,
                                                 "end": 642
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 627,
                                             "end": 642
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 627,
                                     "end": 642
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 625,
                                 "end": 648
                             },
-                            "flags": 32,
+                            "flags": 33,
+                            "transformFlags": 0,
                             "start": 559,
                             "end": 648
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 469,
                     "end": 649
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 440,
                 "end": 651
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 440,
             "end": 652
         }
@@ -936,6 +1056,7 @@ runtimeAgent.getProperties(
     "source": "Seq(typeDef.interface.groups).forEach(group =>\n    Seq(group.members).forEach((member, memberName) =>\n      markdownDoc(\n        member.doc,\n        { typePath: typePath.concat(memberName.slice(1)),\n         signatures: member.signatures }\n      )\n    )\n)\n\nconst promiseFromCallback = fn =>\n    new Promise((resolve, reject) =>\n      fn((err, result) => {\n        if (err) return reject(err);\n        return resolve(result);\n      })\n    );\n\nruntimeAgent.getProperties(\n    objectId,\n    false, // ownProperties\n    false, // accessorPropertiesOnly\n    false, // generatePreview\n    (error, properties, internalProperties) => {\n      return 1\n    },\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 652
 }
@@ -944,19 +1065,27 @@ runtimeAgent.getProperties(
 ### Printed
 
 ```javascript
+Seq(typeDef.interface.groups).forEach(group =>
+  Seq(group.members).forEach((member, memberName) =>
+    markdownDoc(
+      member.doc,
+      {
+        typePath: typePath.concat(memberName.slice(1)),
+        signatures: member.signatures
+      }
+    )));
+const promiseFromCallback = fn => new Promise((resolve, reject) =>
+    fn((err, result) => {
+      if (err) return reject(err);
+      return resolve(result);
+    }));
 
-  Seq(typeDef.interface.groups).forEach(group => Seq(group.members).forEach((member, memberName) => markdownDoc(member.doc, { typePath: typePath.concat(memberName.slice(1)), signatures: member.signatures })));
-  const promiseFromCallback = fn => new Promise((resolve, reject) => fn((err, result) => {
-    if (err)
-      return reject(err);
-    return resolve(result);
-  }));
-  runtimeAgent.getProperties(objectId, false, // ownProperties
+runtimeAgent.getProperties(objectId, false, // ownProperties
   false, // accessorPropertiesOnly
   false, // generatePreview
   (error, properties, internalProperties) => {
     return 1;
-  },);
+  });
 
 ```
 

@@ -30,6 +30,7 @@ new C;
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ new C;
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,6 +57,7 @@ new C;
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -63,6 +66,7 @@ new C;
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
                             },
@@ -74,6 +78,7 @@ new C;
                                     "text": "#p",
                                     "rawText": "#p",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 25
                                 },
@@ -86,12 +91,14 @@ new C;
                                             "text": "v",
                                             "rawText": "v",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -113,6 +120,7 @@ new C;
                                                             "text": "C",
                                                             "rawText": "C",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 32
                                                         },
@@ -121,16 +129,19 @@ new C;
                                                             "text": "#q",
                                                             "rawText": "#q",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 35
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 2,
                                                         "start": 30,
                                                         "end": 35
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 35,
                                                         "end": 37
                                                     },
@@ -139,31 +150,38 @@ new C;
                                                         "text": "v",
                                                         "rawText": "v",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 39
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 30,
                                                     "end": 39
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 30,
                                                 "end": 39
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 39
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 41
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 41
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 41
                         },
@@ -174,6 +192,7 @@ new C;
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 50
                             },
@@ -183,6 +202,7 @@ new C;
                                 "text": "#q",
                                 "rawText": "#q",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 53
                             },
@@ -190,12 +210,14 @@ new C;
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 50,
                             "end": 53
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 53,
                             "end": 54
                         },
@@ -215,6 +237,7 @@ new C;
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 68
                                 },
@@ -224,6 +247,7 @@ new C;
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 70
                                 },
@@ -252,6 +276,7 @@ new C;
                                                                             "text": "C",
                                                                             "rawText": "C",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 79,
                                                                             "end": 80
                                                                         },
@@ -260,26 +285,31 @@ new C;
                                                                             "text": "#p",
                                                                             "rawText": "#p",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 81,
                                                                             "end": 83
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 2,
                                                                         "start": 79,
                                                                         "end": 83
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 79,
                                                                 "end": 83
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 8,
                                                             "start": 78,
                                                             "end": 84
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 84,
                                                             "end": 86
                                                         },
@@ -293,58 +323,71 @@ new C;
                                                                         "text": 0,
                                                                         "rawText": "0",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 88,
                                                                         "end": 89
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 88,
                                                                 "end": 89
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 8,
                                                             "start": 86,
                                                             "end": 90
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 78,
                                                         "end": 90
                                                     },
-                                                    "flags": 32,
-                                                    "start": 72,
+                                                    "flags": 72,
+                                                    "transformFlags": 0,
+                                                    "start": 35,
                                                     "end": 91
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 72,
                                                 "end": 92
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 92
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 96
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 96
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 96
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 96
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 98
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 98
         },
@@ -355,6 +398,7 @@ new C;
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 98,
                     "end": 103
                 },
@@ -363,15 +407,18 @@ new C;
                     "text": "C",
                     "rawText": "C",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 103,
                     "end": 105
                 },
                 "argumentList": null,
                 "flags": 97,
+                "transformFlags": 2048,
                 "start": 98,
                 "end": 105
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 98,
             "end": 106
         }
@@ -380,6 +427,7 @@ new C;
     "source": "class C {\n  static set #p(v) { C.#q = v }\n  static #q;\n  constructor() {\n    ([C.#p] = [0]);\n  }\n}\n\nnew C;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 106
 }
@@ -388,18 +436,16 @@ new C;
 ### Printed
 
 ```javascript
-
-  class C {
-    static set #p(v) {
-      C.#q = v;
-    }
-    static #q
-    ;
-    constructor() {
-      ([C.#p,] = [0,]);
-    }
+class C {
+  static set #p(v) {
+    C.#q = v;
   }
-  new C;
+  static #q;;
+  constructor() {
+    ([C.#p] = [0]);
+  }
+}
+new C;
 
 ```
 

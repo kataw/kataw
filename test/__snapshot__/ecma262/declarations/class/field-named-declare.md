@@ -32,6 +32,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -61,6 +63,7 @@ class A {
                                 "text": "declare",
                                 "rawText": "declare",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 19
                             },
@@ -68,19 +71,23 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 19
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -89,6 +96,7 @@ class A {
     "source": "class A {\n  declare\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -97,11 +105,9 @@ class A {
 ### Printed
 
 ```javascript
-
-  class A {
-    declare
-  }
-
+class A {
+  declare;
+}
 ```
 
 ### Diagnostics

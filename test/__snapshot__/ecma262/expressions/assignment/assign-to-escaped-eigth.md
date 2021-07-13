@@ -24,12 +24,14 @@ x = "\8";
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -38,14 +40,17 @@ x = "\8";
                     "text": "8",
                     "rawText": "\"\\8\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -54,6 +59,7 @@ x = "\8";
     "source": "x = \"\\8\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -62,9 +68,7 @@ x = "\8";
 ### Printed
 
 ```javascript
-
-  x = "\"8\"";
-
+x = "\"8\"";
 ```
 
 ### Diagnostics

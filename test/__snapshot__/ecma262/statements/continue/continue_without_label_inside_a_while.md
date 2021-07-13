@@ -20,6 +20,7 @@ while (x) continue
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -28,6 +29,7 @@ while (x) continue
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -36,15 +38,18 @@ while (x) continue
                 "continueKeyword": {
                     "kind": 37757009,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
                 "label": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -53,6 +58,7 @@ while (x) continue
     "source": "while (x) continue",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -61,10 +67,7 @@ while (x) continue
 ### Printed
 
 ```javascript
-
-  while (x)
-    continue;
-
+while (x) continue;
 ```
 
 ### Diagnostics

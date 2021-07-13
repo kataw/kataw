@@ -27,6 +27,7 @@ export: x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ export: x
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -46,10 +48,12 @@ export: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 9
         }
@@ -58,6 +62,7 @@ export: x
     "source": "export: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

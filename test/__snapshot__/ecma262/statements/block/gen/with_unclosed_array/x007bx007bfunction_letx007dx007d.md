@@ -41,10 +41,12 @@
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 4
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 2,
                                         "end": 4
                                     },
@@ -58,6 +60,7 @@
                                                     "text": "function",
                                                     "rawText": "function",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 13
                                                 },
@@ -66,39 +69,47 @@
                                                     "text": "let",
                                                     "rawText": "let",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 17
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 17
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 4,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -107,6 +118,7 @@
     "source": "{[ {{function let}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

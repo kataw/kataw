@@ -38,6 +38,7 @@ foo /* comment */
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -46,14 +47,17 @@ foo /* comment */
                     "text": "",
                     "rawText": "",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -66,6 +70,7 @@ foo /* comment */
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 22
                 },
@@ -74,14 +79,17 @@ foo /* comment */
                     "text": "",
                     "rawText": "",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 37
         },
@@ -94,6 +102,7 @@ foo /* comment */
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 42
                 },
@@ -102,14 +111,17 @@ foo /* comment */
                     "text": "\n",
                     "rawText": "\n",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 57
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 37,
             "end": 58
         },
@@ -122,6 +134,7 @@ foo /* comment */
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 63
                 },
@@ -130,14 +143,17 @@ foo /* comment */
                     "text": "\n",
                     "rawText": "\n",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 80
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 80
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 58,
             "end": 81
         },
@@ -150,6 +166,7 @@ foo /* comment */
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 86
                 },
@@ -158,14 +175,17 @@ foo /* comment */
                     "text": "\n",
                     "rawText": "\n",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 86,
                     "end": 104
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 81,
                 "end": 104
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 81,
             "end": 105
         }
@@ -174,6 +194,7 @@ foo /* comment */
     "source": "foo``; // comment\n\nfoo // comment\n``;\n\nfoo // comment\n`\n`;\n\nfoo /* comment */`\n`;\n\nfoo /* comment */\n`\n`;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 105
 }
@@ -182,16 +203,19 @@ foo /* comment */
 ### Printed
 
 ```javascript
+foo``; // comment
 
-  foo``; // comment
-  foo // comment
-  ``;
-  foo // comment
-  `
+foo // comment
+``;
+
+foo // comment
+`
 `;
-  foo /* comment */`
+
+foo /* comment */`
 `;
-  foo /* comment */`
+
+foo /* comment */`
 `;
 
 ```

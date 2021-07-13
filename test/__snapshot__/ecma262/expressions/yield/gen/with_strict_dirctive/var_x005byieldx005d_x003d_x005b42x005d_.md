@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,6 +38,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -55,16 +57,19 @@
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 25
                         },
@@ -79,29 +84,35 @@
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 27,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 33
         }
@@ -110,6 +121,7 @@
     "source": "'use strict'; var [yield] = [42];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -26,6 +26,7 @@ export let foo = async () => this
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -34,6 +35,7 @@ export let foo = async () => this
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -47,6 +49,7 @@ export let foo = async () => this
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
@@ -56,6 +59,7 @@ export let foo = async () => this
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
@@ -65,6 +69,7 @@ export let foo = async () => this
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 24
                                 },
@@ -72,29 +77,35 @@ export let foo = async () => this
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 28
                                 },
                                 "contents": {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 33
                                 },
                                 "flags": 288,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 33
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 33
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 33
             },
@@ -103,6 +114,7 @@ export let foo = async () => this
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -111,6 +123,7 @@ export let foo = async () => this
     "source": "export let foo = async () => this",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -119,9 +132,7 @@ export let foo = async () => this
 ### Printed
 
 ```javascript
-
-  export let foo = async () => this;
-
+export let foo = async () => this;
 ```
 
 ### Diagnostics

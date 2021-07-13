@@ -25,6 +25,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -50,6 +52,7 @@ class Foo {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 19
                             },
@@ -59,6 +62,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 19,
                                 "end": 21
                             },
@@ -69,6 +73,7 @@ class Foo {
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -78,6 +83,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -89,31 +95,38 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 31
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 31
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 31
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -122,6 +135,7 @@ class Foo {
     "source": "class Foo {\n\tstatic *bar() {\n\t}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -130,12 +144,9 @@ class Foo {
 ### Printed
 
 ```javascript
-
-  class Foo {
-    static* bar() {
-    }
-  }
-
+class Foo {
+  static *bar() {}
+}
 ```
 
 ### Diagnostics

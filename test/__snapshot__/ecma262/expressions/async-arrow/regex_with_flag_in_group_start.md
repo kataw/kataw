@@ -24,6 +24,7 @@ async (/x/) => x
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -34,20 +35,24 @@ async (/x/) => x
                             "kind": 371,
                             "text": "/x/",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 10
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -58,10 +63,12 @@ async (/x/) => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 16
         }
@@ -70,6 +77,7 @@ async (/x/) => x
     "source": "async (/x/) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

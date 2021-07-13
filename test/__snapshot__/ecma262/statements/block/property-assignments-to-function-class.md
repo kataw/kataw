@@ -36,6 +36,7 @@ FooBar.bar = 1;
                         "classKeyword": {
                             "kind": 37822544,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
@@ -44,6 +45,7 @@ FooBar.bar = 1;
                             "text": "Foo",
                             "rawText": "Foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 11
                         },
@@ -55,14 +57,17 @@ FooBar.bar = 1;
                                 "kind": 303,
                                 "elements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 13
                             },
                             "flags": 11,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 14
                         },
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 14
                     },
@@ -77,6 +82,7 @@ FooBar.bar = 1;
                                     "text": "Foo",
                                     "rawText": "Foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
@@ -85,16 +91,19 @@ FooBar.bar = 1;
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 22
                                 },
                                 "flags": 97,
+                                "transformFlags": 2,
                                 "start": 14,
                                 "end": 22
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -103,14 +112,17 @@ FooBar.bar = 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 14,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 14,
                         "end": 27
                     },
@@ -119,6 +131,7 @@ FooBar.bar = 1;
                         "lexicalKeyword": {
                             "kind": 37757004,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 34
                         },
@@ -132,6 +145,7 @@ FooBar.bar = 1;
                                         "text": "Foo2",
                                         "rawText": "Foo2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 39
                                     },
@@ -144,7 +158,8 @@ FooBar.bar = 1;
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 43
                                         },
@@ -152,6 +167,7 @@ FooBar.bar = 1;
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 47
                                         },
@@ -162,27 +178,33 @@ FooBar.bar = 1;
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 49
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 50
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 50
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4224,
                                     "start": 34,
                                     "end": 50
                                 }
                             ],
                             "flags": 16777232,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 50
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 51
                     },
@@ -197,6 +219,7 @@ FooBar.bar = 1;
                                     "text": "Foo2",
                                     "rawText": "Foo2",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 56
                                 },
@@ -205,16 +228,19 @@ FooBar.bar = 1;
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 57,
                                     "end": 60
                                 },
                                 "flags": 97,
+                                "transformFlags": 2,
                                 "start": 51,
                                 "end": 60
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
@@ -223,14 +249,17 @@ FooBar.bar = 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 64
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 51,
                             "end": 64
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 51,
                         "end": 65
                     },
@@ -241,6 +270,7 @@ FooBar.bar = 1;
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 65,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 75
                         },
@@ -250,6 +280,7 @@ FooBar.bar = 1;
                             "text": "FooBar",
                             "rawText": "FooBar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 75,
                             "end": 82
                         },
@@ -259,6 +290,7 @@ FooBar.bar = 1;
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 83
                         },
@@ -269,15 +301,18 @@ FooBar.bar = 1;
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 86
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 84,
                             "end": 87
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 65,
                         "end": 87
                     },
@@ -292,6 +327,7 @@ FooBar.bar = 1;
                                     "text": "FooBar",
                                     "rawText": "FooBar",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 94
                                 },
@@ -300,16 +336,19 @@ FooBar.bar = 1;
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 95,
                                     "end": 98
                                 },
                                 "flags": 97,
+                                "transformFlags": 2,
                                 "start": 87,
                                 "end": 98
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 98,
                                 "end": 100
                             },
@@ -318,23 +357,28 @@ FooBar.bar = 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 102
                             },
-                            "flags": 32,
+                            "flags": 0,
+                            "transformFlags": 128,
                             "start": 87,
                             "end": 102
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 87,
                         "end": 103
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 103
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 105
         }
@@ -343,6 +387,7 @@ FooBar.bar = 1;
     "source": "{\nclass Foo {}\nFoo.bar = 1;\n\nconst Foo2 = () => {};\nFoo2.bar = 1;\n\nfunction FooBar() {}\nFooBar.bar = 1;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 105
 }
@@ -351,17 +396,14 @@ FooBar.bar = 1;
 ### Printed
 
 ```javascript
-
-  {
-    class Foo {
-    }
-    Foo.bar = 1;
-    const Foo2 = () => {};
-    Foo2.bar = 1;
-    function FooBar() {}
-    FooBar.bar = 1;
-  }
-
+{
+  class Foo {}
+  Foo.bar = 1;
+  const Foo2 = () => {};
+  Foo2.bar = 1;
+  function FooBar() {}
+  FooBar.bar = 1;
+}
 ```
 
 ### Diagnostics

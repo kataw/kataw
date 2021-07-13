@@ -27,6 +27,7 @@ for (of of of){}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,12 +37,14 @@ for (of of of){}
                 "text": "of",
                 "rawText": "of",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 10
             },
@@ -50,6 +53,7 @@ for (of of of){}
                 "text": "of",
                 "rawText": "of",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -59,14 +63,17 @@ for (of of of){}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -75,6 +82,7 @@ for (of of of){}
     "source": "for (of of of){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -83,9 +91,7 @@ for (of of of){}
 ### Printed
 
 ```javascript
-
-  for (of of of) { }
-
+for (of of of) {}
 ```
 
 ### Diagnostics

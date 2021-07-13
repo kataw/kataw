@@ -20,6 +20,7 @@ if(0) break;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if(0) break;
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,17 +38,20 @@ if(0) break;
                 "breakKeyword": {
                     "kind": 37757005,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
                 "label": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -55,6 +60,7 @@ if(0) break;
     "source": "if(0) break;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

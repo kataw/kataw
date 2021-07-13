@@ -27,6 +27,7 @@ for (a in b) async function *f(){}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,12 +36,14 @@ for (a in b) async function *f(){}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -49,6 +52,7 @@ for (a in b) async function *f(){}
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -58,18 +62,21 @@ for (a in b) async function *f(){}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 18
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 27
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 27,
                     "end": 29
                 },
@@ -78,6 +85,7 @@ for (a in b) async function *f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 30
                 },
@@ -87,6 +95,7 @@ for (a in b) async function *f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
@@ -97,19 +106,23 @@ for (a in b) async function *f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
                 "returnType": null,
                 "flags": 400,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 34
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -118,6 +131,7 @@ for (a in b) async function *f(){}
     "source": "for (a in b) async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

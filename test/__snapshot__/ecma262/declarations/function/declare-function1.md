@@ -29,6 +29,7 @@ declare function aw<T>(p: Pr<T> | T): T;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -36,6 +37,7 @@ declare function aw<T>(p: Pr<T> | T): T;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -45,6 +47,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                 "text": "aw",
                 "rawText": "aw",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
@@ -60,6 +63,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
                             },
@@ -67,16 +71,19 @@ declare function aw<T>(p: Pr<T> | T): T;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 19,
                 "end": 22
             },
@@ -91,6 +98,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                             "text": "p",
                             "rawText": "p",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 24
                         },
@@ -109,6 +117,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                             "text": "Pr",
                                             "rawText": "Pr",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 28
                                         },
@@ -128,29 +137,35 @@ declare function aw<T>(p: Pr<T> | T): T;
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 30
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 30
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 30
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 30
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 512,
                                             "start": 28,
                                             "end": 31
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 31
                                     },
@@ -161,31 +176,37 @@ declare function aw<T>(p: Pr<T> | T): T;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 35
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 35
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 35
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 23,
                         "end": 35
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 35
             },
@@ -201,25 +222,30 @@ declare function aw<T>(p: Pr<T> | T): T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 39
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 39
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 39
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 39
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 40
         }
@@ -228,6 +254,7 @@ declare function aw<T>(p: Pr<T> | T): T;
     "source": "declare function aw<T>(p: Pr<T> | T): T;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -236,10 +263,7 @@ declare function aw<T>(p: Pr<T> | T): T;
 ### Printed
 
 ```javascript
-
-  declare function aw<T> (p: Pr<T> | T): T 
-  ;
-
+declare function aw<T>(p: Pr<T> | T): T;
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ new eval
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new eval
                     "text": "eval",
                     "rawText": "eval",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 8
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -54,6 +58,7 @@ new eval
     "source": "new eval",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -62,9 +67,7 @@ new eval
 ### Printed
 
 ```javascript
-
-  new eval;
-
+new eval;
 ```
 
 ### Diagnostics

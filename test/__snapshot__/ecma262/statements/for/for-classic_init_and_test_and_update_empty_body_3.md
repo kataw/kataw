@@ -39,6 +39,7 @@ for (a * b + c * d;b;c);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,12 +52,14 @@ for (a * b + c * d;b;c);
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 6,
                         "end": 8
                     },
@@ -65,16 +68,19 @@ for (a * b + c * d;b;c);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -85,12 +91,14 @@ for (a * b + c * d;b;c);
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 14,
                         "end": 16
                     },
@@ -99,14 +107,17 @@ for (a * b + c * d;b;c);
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 14,
                     "end": 18
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 18
             },
@@ -115,6 +126,7 @@ for (a * b + c * d;b;c);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 22
             },
@@ -123,16 +135,19 @@ for (a * b + c * d;b;c);
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 24
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -141,6 +156,7 @@ for (a * b + c * d;b;c);
     "source": "for (a * b + c * d;b;c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -149,10 +165,7 @@ for (a * b + c * d;b;c);
 ### Printed
 
 ```javascript
-
-  for (a * b + c * d; c; b)
-    ;
-
+for (a * b + c * d; c; b);
 ```
 
 ### Diagnostics

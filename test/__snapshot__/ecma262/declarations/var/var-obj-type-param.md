@@ -29,6 +29,7 @@ var a: { id<T>(x: T): T; }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a: { id<T>(x: T): T; }
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -63,6 +65,7 @@ var a: { id<T>(x: T): T; }
                                             "text": "id",
                                             "rawText": "id",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 11
                                         },
@@ -80,6 +83,7 @@ var a: { id<T>(x: T): T; }
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 16
                                                         },
@@ -95,25 +99,30 @@ var a: { id<T>(x: T): T; }
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 17,
                                                                     "end": 19
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 17,
                                                                 "end": 19
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 19
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 19
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 19
                                             },
@@ -128,15 +137,18 @@ var a: { id<T>(x: T): T; }
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 23
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 23
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 23
                                             },
@@ -152,6 +164,7 @@ var a: { id<T>(x: T): T; }
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 12,
                                                                 "end": 13
                                                             },
@@ -159,48 +172,58 @@ var a: { id<T>(x: T): T; }
                                                             "assignToken": null,
                                                             "defaultType": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 13
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 13
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 512,
                                                 "start": 11,
                                                 "end": 14
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 23
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 26
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 26
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -209,6 +232,7 @@ var a: { id<T>(x: T): T; }
     "source": "var a: { id<T>(x: T): T; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -217,9 +241,7 @@ var a: { id<T>(x: T): T; }
 ### Printed
 
 ```javascript
-
-  var a: { id<T> (x: T): T };
-
+var a: { id<T> (x: T): T };
 ```
 
 ### Diagnostics

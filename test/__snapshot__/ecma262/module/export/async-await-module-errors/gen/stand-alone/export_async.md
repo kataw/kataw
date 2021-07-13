@@ -27,6 +27,7 @@ export async
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,10 +38,12 @@ export async
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 12
             },
@@ -49,6 +52,7 @@ export async
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -57,6 +61,7 @@ export async
     "source": "export async",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

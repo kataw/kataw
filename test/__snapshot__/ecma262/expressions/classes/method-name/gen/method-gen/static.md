@@ -37,6 +37,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 3
                                 },
@@ -49,6 +50,7 @@
                                         "text": "static",
                                         "rawText": "static",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 9
                                     },
@@ -61,6 +63,7 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -69,12 +72,14 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 14
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 224,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 15
                                     },
@@ -86,36 +91,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 18
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -124,6 +137,7 @@
     "source": "({*static(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -132,9 +146,7 @@
 ### Printed
 
 ```javascript
-
-  ({ * static(x, y) {} });
-
+({ *static(x, y) {} });
 ```
 
 ### Diagnostics

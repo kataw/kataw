@@ -30,6 +30,7 @@ foo.bar
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -38,14 +39,17 @@ foo.bar
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -54,6 +58,7 @@ foo.bar
     "source": "foo.bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -62,9 +67,7 @@ foo.bar
 ### Printed
 
 ```javascript
-
-  foo.bar;
-
+foo.bar;
 ```
 
 ### Diagnostics

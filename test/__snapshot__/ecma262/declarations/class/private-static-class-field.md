@@ -41,6 +41,7 @@ class C { static #aaa }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class C { static #aaa }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -66,6 +68,7 @@ class C { static #aaa }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -75,6 +78,7 @@ class C { static #aaa }
                                 "text": "#aaa",
                                 "rawText": "#aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 21
                             },
@@ -82,19 +86,23 @@ class C { static #aaa }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 16,
                             "end": 21
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 21
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -103,6 +111,7 @@ class C { static #aaa }
     "source": "class C { static #aaa }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -111,11 +120,9 @@ class C { static #aaa }
 ### Printed
 
 ```javascript
-
-  class C {
-    static #aaa
-  }
-
+class C {
+  static #aaa;
+}
 ```
 
 ### Diagnostics

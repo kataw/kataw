@@ -27,6 +27,7 @@ if (x) function f(){}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ if (x) function f(){}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -45,6 +47,7 @@ if (x) function f(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
@@ -54,6 +57,7 @@ if (x) function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -63,6 +67,7 @@ if (x) function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
@@ -73,21 +78,25 @@ if (x) function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 21
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -96,6 +105,7 @@ if (x) function f(){}
     "source": "if (x) function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -104,10 +114,7 @@ if (x) function f(){}
 ### Printed
 
 ```javascript
-
-  if (x)
-    function f() {}
-
+if (x) function f() {}
 ```
 
 ### Diagnostics

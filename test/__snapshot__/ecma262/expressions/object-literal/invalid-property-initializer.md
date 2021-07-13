@@ -23,6 +23,7 @@ const obj = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ const obj = {
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -52,6 +54,7 @@ const obj = {
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 19
                                         },
@@ -60,10 +63,12 @@ const obj = {
                                             "text": 123,
                                             "rawText": "123",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 25
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 25
                                     },
@@ -75,6 +80,7 @@ const obj = {
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 32
                                         },
@@ -85,12 +91,14 @@ const obj = {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 35
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -99,37 +107,45 @@ const obj = {
                                                 "text": 123,
                                                 "rawText": "123",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 41
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
+                                            "transformFlags": 128,
                                             "start": 26,
                                             "end": 41
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 26,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 41
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 11,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 43
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 43
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -138,6 +154,7 @@ const obj = {
     "source": "const obj = {\n  foo = 123,\n  bar: x = 123\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

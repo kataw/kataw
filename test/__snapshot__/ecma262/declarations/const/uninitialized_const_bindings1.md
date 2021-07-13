@@ -26,6 +26,7 @@ for (const x in xs) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ for (const x in xs) {}
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -47,27 +49,32 @@ for (const x in xs) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -76,6 +83,7 @@ for (const x in xs) {}
                 "text": "xs",
                 "rawText": "xs",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -85,14 +93,17 @@ for (const x in xs) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -101,6 +112,7 @@ for (const x in xs) {}
     "source": "for (const x in xs) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -109,9 +121,7 @@ for (const x in xs) {}
 ### Printed
 
 ```javascript
-
-  for (const x in xs) { }
-
+for (const x in xs) {}
 ```
 
 ### Diagnostics

@@ -27,10 +27,12 @@ true:oops;
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -41,10 +43,12 @@ true:oops;
                 "text": "oops",
                 "rawText": "oops",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 10
         }
@@ -53,6 +57,7 @@ true:oops;
     "source": "true:oops;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

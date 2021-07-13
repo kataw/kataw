@@ -29,6 +29,7 @@ class x {static async * void(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static async * void(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,12 +56,14 @@ class x {static async * void(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -68,6 +72,7 @@ class x {static async * void(){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 21,
                                 "end": 23
                             },
@@ -78,6 +83,7 @@ class x {static async * void(){}}
                                     "text": "void",
                                     "rawText": "void",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 28
                                 },
@@ -87,6 +93,7 @@ class x {static async * void(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 },
@@ -98,31 +105,38 @@ class x {static async * void(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 31
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 32
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 32
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -131,6 +145,7 @@ class x {static async * void(){}}
     "source": "class x {static async * void(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -139,11 +154,9 @@ class x {static async * void(){}}
 ### Printed
 
 ```javascript
-
-  class x {
-    staticasync* void() {}
-  }
-
+class x {
+  static async *void() {}
+}
 ```
 
 ### Diagnostics

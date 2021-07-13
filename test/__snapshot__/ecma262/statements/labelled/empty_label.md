@@ -22,22 +22,26 @@ a:;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 2
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         }
@@ -46,6 +50,7 @@ a:;
     "source": "a:;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }
@@ -54,9 +59,7 @@ a:;
 ### Printed
 
 ```javascript
-
-  a: ;
-
+a: ;
 ```
 
 ### Diagnostics

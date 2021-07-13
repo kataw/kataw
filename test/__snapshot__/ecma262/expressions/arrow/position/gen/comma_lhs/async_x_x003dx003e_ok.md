@@ -32,6 +32,7 @@ async x => ok, a
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -41,6 +42,7 @@ async x => ok, a
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -48,6 +50,7 @@ async x => ok, a
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -56,10 +59,12 @@ async x => ok, a
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 13
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 13
                     },
@@ -68,15 +73,18 @@ async x => ok, a
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -85,6 +93,7 @@ async x => ok, a
     "source": "async x => ok, a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -93,9 +102,7 @@ async x => ok, a
 ### Printed
 
 ```javascript
-
-  async x => ok, a;
-
+async x => ok, a;
 ```
 
 ### Diagnostics

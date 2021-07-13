@@ -24,12 +24,14 @@ x = {0xabc(){}}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = {0xabc(){}}
                                         "text": 2748,
                                         "rawText": "0xabc",
                                         "flags": 1048672,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -60,6 +63,7 @@ x = {0xabc(){}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1048608,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -71,36 +75,44 @@ x = {0xabc(){}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 13
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "flags": 1048608,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 14
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
                         "flags": 1048592,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 14
                     },
                     "flags": 1048624,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -109,6 +121,7 @@ x = {0xabc(){}}
     "source": "x = {0xabc(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -117,9 +130,7 @@ x = {0xabc(){}}
 ### Printed
 
 ```javascript
-
-  x = { 0xabc() {} };
-
+x = { 0xabc() {} };
 ```
 
 ### Diagnostics

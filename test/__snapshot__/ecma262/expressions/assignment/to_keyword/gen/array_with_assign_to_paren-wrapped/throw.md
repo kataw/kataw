@@ -29,6 +29,7 @@ async x => (throw) = 1
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async x => (throw) = 1
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async x => (throw) = 1
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -55,18 +58,22 @@ async x => (throw) = 1
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 10,
+                    "flags": 10,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 12
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -75,6 +82,7 @@ async x => (throw) = 1
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -83,10 +91,12 @@ async x => (throw) = 1
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 17
         },
@@ -97,10 +107,12 @@ async x => (throw) = 1
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 22
         }
@@ -109,6 +121,7 @@ async x => (throw) = 1
     "source": "async x => (throw) = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

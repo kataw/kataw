@@ -28,6 +28,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,12 +42,14 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -57,12 +60,14 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -73,21 +78,25 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -96,6 +105,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -104,12 +114,14 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -128,6 +140,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -146,6 +159,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 40
                                                     },
@@ -154,10 +168,12 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 43
                                                     },
                                                     "flags": 36,
+                                                    "transformFlags": 128,
                                                     "start": 30,
                                                     "end": 43
                                                 },
@@ -169,6 +185,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 44,
                                                         "end": 54
                                                     },
@@ -177,26 +194,31 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 57
                                                     },
                                                     "flags": 36,
+                                                    "transformFlags": 128,
                                                     "start": 44,
                                                     "end": 57
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 20,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 57
                                         },
                                         "flags": 52,
+                                        "transformFlags": 8,
                                         "start": 28,
                                         "end": 59
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 61
                                     },
@@ -205,30 +227,36 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 61,
                                         "end": 63
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 28,
                                     "end": 63
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 24,
                                 "end": 63
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 63
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 22,
                     "end": 65
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 67
                 },
@@ -239,24 +267,29 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 69,
                         "end": 69
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 67,
                     "end": 70
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 70
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 72
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 72
         }
@@ -265,6 +298,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
     "source": "var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 72
 }
@@ -273,10 +307,8 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
 ### Printed
 
 ```javascript
-
-  var x, y, z;
-  for (x in { z: { __proto__: x, __proto__: y } = z } = {})
-    ;
+var x, y, z;
+for (x in { z: { __proto__: x, __proto__: y } = z } = {});
 
 ```
 

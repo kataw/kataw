@@ -31,12 +31,14 @@
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 3
                                 },
@@ -45,20 +47,24 @@
                                     "text": "t",
                                     "rawText": "t",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 1,
                                 "end": 4
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 5
                 },
@@ -74,16 +80,19 @@
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 7
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 6,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -92,24 +101,29 @@
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         }
@@ -118,6 +132,7 @@
     "source": "[y<t]({}=y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -126,9 +141,7 @@
 ### Printed
 
 ```javascript
-
-  [y  < t,]({} = y);
-
+[y  < t]({} = y);
 ```
 
 ### Diagnostics

@@ -47,6 +47,7 @@
                                                             "switchKeyword": {
                                                                 "kind": 37757024,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 7,
                                                                 "end": 13
                                                             },
@@ -57,10 +58,12 @@
                                                                     "properties": [],
                                                                     "trailingComma": false,
                                                                     "flags": 16,
+                                                                    "transformFlags": 0,
                                                                     "start": 14,
                                                                     "end": 14
                                                                 },
                                                                 "flags": 48,
+                                                                "transformFlags": 8,
                                                                 "start": 13,
                                                                 "end": 14
                                                             },
@@ -68,46 +71,56 @@
                                                                 "kind": 152,
                                                                 "clauses": [],
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 14,
                                                                 "end": 14
                                                             },
                                                             "flags": 80,
+                                                            "transformFlags": 0,
                                                             "start": 7,
                                                             "end": 14
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 14
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 14
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 14
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 14
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -116,6 +129,7 @@
     "source": "{ { { {switch{",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

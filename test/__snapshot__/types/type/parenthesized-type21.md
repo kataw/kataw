@@ -27,6 +27,7 @@ type a = (["string"]);
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type a = (["string"]);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -42,6 +44,7 @@ type a = (["string"]);
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -67,32 +70,39 @@ type a = (["string"]);
                                         "text": "string",
                                         "rawText": "\"string\"",
                                         "flags": 2097216,
+                                        "transformFlags": 1024,
                                         "start": 11,
                                         "end": 19
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 20
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 20
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 21
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -101,6 +111,7 @@ type a = (["string"]);
     "source": "type a = ([\"string\"]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -109,9 +120,7 @@ type a = (["string"]);
 ### Printed
 
 ```javascript
-
-  type a = ([["\"string\""]])
-
+type a = (["\"string\""])
 ```
 
 ### Diagnostics

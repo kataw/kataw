@@ -28,6 +28,7 @@ class x {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class x {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -53,6 +55,7 @@ class x {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 106
                             },
@@ -60,6 +63,7 @@ class x {
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 106,
                                 "end": 110
                             },
@@ -72,6 +76,7 @@ class x {
                                     "text": "defaultSettings",
                                     "rawText": "defaultSettings",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 110,
                                     "end": 126
                                 },
@@ -81,6 +86,7 @@ class x {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 127,
                                     "end": 128
                                 },
@@ -92,31 +98,38 @@ class x {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 130,
                                         "end": 130
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 128,
                                     "end": 134
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 126,
                                 "end": 134
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 106,
                             "end": 134
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 134
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 136
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 136
         }
@@ -125,6 +138,7 @@ class x {
     "source": "class x {\n  /**\n  * Set of default settings to be applied to model fetch calls in DAO layer.\n  */\n  static get defaultSettings() {\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 136
 }
@@ -133,15 +147,11 @@ class x {
 ### Printed
 
 ```javascript
-
-  class x {
-     /**
+class x {
+  /**
   * Set of default settings to be applied to model fetch calls in DAO layer.
-  */
-    static get defaultSettings() {
-    }
-  }
-
+  */ static get defaultSettings() {}
+}
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ function x({ x: import.meta }) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function x({ x: import.meta }) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,6 +59,7 @@ function x({ x: import.meta }) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
@@ -65,11 +68,13 @@ function x({ x: import.meta }) {}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -80,6 +85,7 @@ function x({ x: import.meta }) {}
                                         "text": "import",
                                         "rawText": "import",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 22
                                     },
@@ -88,27 +94,32 @@ function x({ x: import.meta }) {}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 22
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 22
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 22
             },
@@ -119,15 +130,18 @@ function x({ x: import.meta }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -138,10 +152,12 @@ function x({ x: import.meta }) {}
                 "text": "meta",
                 "rawText": "meta",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 23,
             "end": 27
         },
@@ -151,10 +167,12 @@ function x({ x: import.meta }) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 33
         }
@@ -163,6 +181,7 @@ function x({ x: import.meta }) {}
     "source": "function x({ x: import.meta }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

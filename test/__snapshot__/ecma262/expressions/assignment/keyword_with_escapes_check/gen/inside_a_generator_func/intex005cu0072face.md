@@ -31,12 +31,14 @@ function *f(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -45,6 +47,7 @@ function *f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function *f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -72,12 +76,14 @@ function *f(){
                                     "text": "interface",
                                     "rawText": "inte\\u0072face",
                                     "flags": 16481,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 31
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
@@ -86,28 +92,34 @@ function *f(){
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 35
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 14,
                                 "end": 35
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 35
                         }
                     ],
                     "flags": 16417,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 37
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -116,6 +128,7 @@ function *f(){
     "source": "function *f(){\n  inte\\u0072face = x\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -124,11 +137,9 @@ function *f(){
 ### Printed
 
 ```javascript
-
-  function* f() {
-    inte\u0072face = x;
-  }
-
+function *f() {
+  inte\u0072face = x;
+}
 ```
 
 ### Diagnostics

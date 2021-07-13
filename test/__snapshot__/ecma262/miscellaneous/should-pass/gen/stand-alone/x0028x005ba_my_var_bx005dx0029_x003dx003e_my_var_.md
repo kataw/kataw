@@ -41,6 +41,7 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     },
@@ -49,6 +50,7 @@
                                         "text": "my_var",
                                         "rawText": "my_var",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 11
                                     },
@@ -57,22 +59,26 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 16
                 },
@@ -80,6 +86,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
@@ -88,14 +95,17 @@
                     "text": "my_var",
                     "rawText": "my_var",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 26
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -104,6 +114,7 @@
     "source": "([a, my_var, b]) => my_var;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -112,9 +123,7 @@
 ### Printed
 
 ```javascript
-
-  ([a, my_var, b]) => my_var;
-
+([a, my_var, b]) => my_var;
 ```
 
 ### Diagnostics

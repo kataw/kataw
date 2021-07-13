@@ -22,6 +22,7 @@ async (x = async([(f) = []])) => {};
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -37,6 +38,7 @@ async (x = async([(f) = []])) => {};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -49,6 +51,7 @@ async (x = async([(f) = []])) => {};
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 16
                                 },
@@ -69,16 +72,19 @@ async (x = async([(f) = []])) => {};
                                                                 "text": "f",
                                                                 "rawText": "f",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 19,
                                                                 "end": 20
                                                             },
-                                                            "flags": 32,
-                                                            "start": 18,
+                                                            "flags": 18,
+                                                            "transformFlags": 0,
+                                                            "start": 32,
                                                             "end": 21
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 23
                                                         },
@@ -89,44 +95,53 @@ async (x = async([(f) = []])) => {};
                                                                 "elements": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 25,
                                                                 "end": 25
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 8,
                                                             "start": 23,
                                                             "end": 26
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 18,
                                                         "end": 26
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 26
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 17,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 10
                                 },
                                 "flags": 268435490,
+                                "transformFlags": 1,
                                 "start": 10,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 29
                 },
@@ -134,6 +149,7 @@ async (x = async([(f) = []])) => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 32
                 },
@@ -144,18 +160,22 @@ async (x = async([(f) = []])) => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 35
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -164,6 +184,7 @@ async (x = async([(f) = []])) => {};
     "source": "async (x = async([(f) = []])) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -172,9 +193,7 @@ async (x = async([(f) = []])) => {};
 ### Printed
 
 ```javascript
-
-  async (x = async([(f) = [],])) => {};
-
+async (x = async([(f) = []])) => {};
 ```
 
 ### Diagnostics

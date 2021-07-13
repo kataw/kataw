@@ -27,12 +27,14 @@ switch (true) { default: function g() {} }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -44,12 +46,14 @@ switch (true) { default: function g() {} }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 23
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 24
                         },
@@ -61,6 +65,7 @@ switch (true) { default: function g() {} }
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 33
                                 },
@@ -70,6 +75,7 @@ switch (true) { default: function g() {} }
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 35
                                 },
@@ -79,6 +85,7 @@ switch (true) { default: function g() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 36
                                 },
@@ -89,29 +96,35 @@ switch (true) { default: function g() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 39
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 40
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 40
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 40
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -120,6 +133,7 @@ switch (true) { default: function g() {} }
     "source": "switch (true) { default: function g() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -128,12 +142,10 @@ switch (true) { default: function g() {} }
 ### Printed
 
 ```javascript
-
-  switch (true) {
-    default: 
-      function g() {}
-  }
-
+switch (true) {
+  default:
+    function g() {}
+}
 ```
 
 ### Diagnostics

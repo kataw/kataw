@@ -36,12 +36,14 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 8
                                 },
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -54,6 +56,7 @@
                                         "text": "gen",
                                         "rawText": "gen",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 14
                                     },
@@ -63,6 +66,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 416,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     },
@@ -80,6 +84,7 @@
                                                     "classKeyword": {
                                                         "kind": 37822544,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 24
                                                     },
@@ -88,6 +93,7 @@
                                                         "text": "C",
                                                         "rawText": "C",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 26
                                                     },
@@ -99,6 +105,7 @@
                                                             "extendsKeyword": {
                                                                 "kind": 4194391,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 26,
                                                                 "end": 34
                                                             },
@@ -107,6 +114,7 @@
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 34,
                                                                     "end": 40
                                                                 },
@@ -119,19 +127,23 @@
                                                                         "properties": [],
                                                                         "trailingComma": false,
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 42,
                                                                         "end": 42
                                                                     },
                                                                     "flags": 48,
+                                                                    "transformFlags": 8,
                                                                     "start": 40,
                                                                     "end": 44
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 34,
                                                                 "end": 44
                                                             },
                                                             "typeParameter": null,
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 44
                                                         },
@@ -139,49 +151,60 @@
                                                             "kind": 303,
                                                             "elements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 26,
                                                             "end": 26
                                                         },
                                                         "flags": 26,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 26
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 44
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 44
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 45
                                     },
                                     "flags": 416,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 45
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 45
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 47
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 48
         }
@@ -190,6 +213,7 @@
     "source": "({ async * gen () {class C extends yield { }} })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

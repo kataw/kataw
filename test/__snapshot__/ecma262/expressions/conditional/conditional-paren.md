@@ -32,12 +32,14 @@ a ? (1 + 2) : (3 + 4)
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,12 +52,14 @@ a ? (1 + 2) : (3 + 4)
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 6
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -64,20 +68,24 @@ a ? (1 + 2) : (3 + 4)
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 5,
                         "end": 10
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 11
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -90,12 +98,14 @@ a ? (1 + 2) : (3 + 4)
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
@@ -104,22 +114,27 @@ a ? (1 + 2) : (3 + 4)
                             "text": 4,
                             "rawText": "4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 32,
-                    "start": 13,
+                    "flags": 13,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 21
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -128,6 +143,7 @@ a ? (1 + 2) : (3 + 4)
     "source": "a ? (1 + 2) : (3 + 4)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -136,9 +152,7 @@ a ? (1 + 2) : (3 + 4)
 ### Printed
 
 ```javascript
-
-  a ? (1 + 2) : (3 + 4);
-
+a ? (1 + 2) : (3 + 4);
 ```
 
 ### Diagnostics

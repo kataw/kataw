@@ -25,18 +25,22 @@
                         "kind": 132,
                         "expressions": [],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 1,
                         "end": 9
                     },
-                    "flags": 32,
-                    "start": 1,
+                    "flags": 1,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         },
@@ -51,12 +55,14 @@
                         "text": "Array",
                         "rawText": "Array",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 16
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
@@ -65,16 +71,19 @@
                         "text": "number",
                         "rawText": "number",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 23
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 10,
                     "end": 23
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 24
                 },
@@ -83,14 +92,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 10,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 10,
             "end": 24
         },
@@ -101,10 +113,12 @@
                 "text": "rest",
                 "rawText": "rest",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 28,
             "end": 33
         }
@@ -113,6 +127,7 @@
     "source": "((...rest: Array<number>) => rest)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

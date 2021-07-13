@@ -24,6 +24,7 @@ async (a, ...true=b) => a;
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -35,6 +36,7 @@ async (a, ...true=b) => a;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -43,6 +45,7 @@ async (a, ...true=b) => a;
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -51,12 +54,14 @@ async (a, ...true=b) => a;
                                 "left": {
                                     "kind": 24752947,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 17
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 18
                                 },
@@ -65,28 +70,34 @@ async (a, ...true=b) => a;
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 9,
                                 "end": 19
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 268435490,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         },
@@ -97,10 +108,12 @@ async (a, ...true=b) => a;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 23,
             "end": 26
         }
@@ -109,6 +122,7 @@ async (a, ...true=b) => a;
     "source": "async (a, ...true=b) => a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

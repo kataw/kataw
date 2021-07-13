@@ -22,6 +22,7 @@ typeof @foo class {};
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -35,6 +36,7 @@ typeof @foo class {};
                                 "decoratorToken": {
                                     "kind": 34611453,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
@@ -43,21 +45,25 @@ typeof @foo class {};
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 11
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 11
                     },
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
@@ -70,22 +76,27 @@ typeof @foo class {};
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 19
                         },
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -94,6 +105,7 @@ typeof @foo class {};
     "source": "typeof @foo class {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -102,12 +114,8 @@ typeof @foo class {};
 ### Printed
 
 ```javascript
-
-  typeof  
-  @foo
-  class {
-  };
-
+typeof @foo
+class {};
 ```
 
 ### Diagnostics

@@ -31,14 +31,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 1
         },
@@ -47,6 +50,7 @@
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 7
             },
@@ -57,12 +61,14 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -71,14 +77,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 7,
                 "end": 11
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 1,
             "end": 11
         }
@@ -87,6 +96,7 @@
     "source": "(return = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

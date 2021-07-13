@@ -32,12 +32,14 @@ x = class { static x = class { y = this } }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -47,6 +49,7 @@ x = class { static x = class { y = this } }
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -65,6 +68,7 @@ x = class { static x = class { y = this } }
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 18
                                     },
@@ -74,6 +78,7 @@ x = class { static x = class { y = this } }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 20
                                     },
@@ -85,6 +90,7 @@ x = class { static x = class { y = this } }
                                         "classKeyword": {
                                             "kind": 37822544,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -107,6 +113,7 @@ x = class { static x = class { y = this } }
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 32
                                                         },
@@ -115,48 +122,59 @@ x = class { static x = class { y = this } }
                                                         "initializer": {
                                                             "kind": 4276321,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 39
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 30,
                                                         "end": 39
                                                     }
                                                 ],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 39
                                             },
                                             "flags": 28,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 41
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 18,
                                     "end": 41
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 41
                         },
                         "flags": 9,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 43
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 43
         }
@@ -165,6 +183,7 @@ x = class { static x = class { y = this } }
     "source": "x = class { static x = class { y = this } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -173,13 +192,11 @@ x = class { static x = class { y = this } }
 ### Printed
 
 ```javascript
-
-  x = class {
-    static x = class {
-      y = this
-    }
+x = class {
+  static x = class {
+    y = this;
   };
-
+};
 ```
 
 ### Diagnostics

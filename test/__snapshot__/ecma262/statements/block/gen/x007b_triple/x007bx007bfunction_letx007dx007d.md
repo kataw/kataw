@@ -54,6 +54,7 @@
                                                                         "functionKeyword": {
                                                                             "kind": 37822554,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 8,
                                                                             "end": 16
                                                                         },
@@ -63,6 +64,7 @@
                                                                             "text": "let",
                                                                             "rawText": "let",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 16,
                                                                             "end": 20
                                                                         },
@@ -72,6 +74,7 @@
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 20,
                                                                             "end": 20
                                                                         },
@@ -82,60 +85,73 @@
                                                                                 "directives": [],
                                                                                 "statements": [],
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 20,
                                                                                 "end": 20
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 20,
                                                                             "end": 20
                                                                         },
                                                                         "returnType": null,
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 8,
                                                                         "end": 20
                                                                     }
                                                                 ],
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 8,
                                                                 "end": 20
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 7,
                                                             "end": 21
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 21
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 22
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 22
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 22
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -144,6 +160,7 @@
     "source": "{ { { {{function let}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -32,6 +32,7 @@ var Person = makeClass(
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,6 +46,7 @@ var Person = makeClass(
                             "text": "Person",
                             "rawText": "Person",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -56,6 +58,7 @@ var Person = makeClass(
                                 "text": "makeClass",
                                 "rawText": "makeClass",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 22
                             },
@@ -75,6 +78,7 @@ var Person = makeClass(
                                                         "text": "initialize",
                                                         "rawText": "initialize",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 199
                                                     },
@@ -84,6 +88,7 @@ var Person = makeClass(
                                                         "functionKeyword": {
                                                             "kind": 37822554,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 200,
                                                             "end": 209
                                                         },
@@ -98,12 +103,14 @@ var Person = makeClass(
                                                                     "text": "name",
                                                                     "rawText": "name",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 210,
                                                                     "end": 214
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 210,
                                                             "end": 214
                                                         },
@@ -122,6 +129,7 @@ var Person = makeClass(
                                                                                 "member": {
                                                                                     "kind": 4276321,
                                                                                     "flags": 97,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 217,
                                                                                     "end": 233
                                                                                 },
@@ -130,16 +138,19 @@ var Person = makeClass(
                                                                                     "text": "name",
                                                                                     "rawText": "name",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 234,
                                                                                     "end": 238
                                                                                 },
                                                                                 "flags": 97,
+                                                                                "transformFlags": 2,
                                                                                 "start": 217,
                                                                                 "end": 238
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 238,
                                                                                 "end": 240
                                                                             },
@@ -148,65 +159,79 @@ var Person = makeClass(
                                                                                 "text": "name",
                                                                                 "rawText": "name",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 240,
                                                                                 "end": 245
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 0,
+                                                                            "transformFlags": 128,
                                                                             "start": 217,
                                                                             "end": 245
                                                                         },
                                                                         "flags": 16,
+                                                                        "transformFlags": 4096,
                                                                         "start": 217,
                                                                         "end": 246
                                                                     }
                                                                 ],
                                                                 "flags": 33,
+                                                                "transformFlags": 0,
                                                                 "start": 217,
                                                                 "end": 246
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 215,
                                                             "end": 255
                                                         },
                                                         "returnType": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 200,
                                                         "end": 255
                                                     },
                                                     "flags": 33,
+                                                    "transformFlags": 128,
                                                     "start": 28,
                                                     "end": 255
                                                 }
                                             ],
                                             "trailingComma": true,
                                             "flags": 17,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 280
                                         },
                                         "flags": 49,
+                                        "transformFlags": 8,
                                         "start": 23,
                                         "end": 285
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 285
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 12,
                             "end": 287
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 287
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 287
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 288
         }
@@ -215,6 +240,7 @@ var Person = makeClass(
     "source": "var Person = makeClass(\n   {\n       /**\n        This is just another way to define a constructor.\n        @constructs\n        @param {string} name The name of the person.\n        */\n       initialize: function(name) {\n           this.name = name;\n       } /* trailing comment 1*/,\n   }\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 288
 }
@@ -223,18 +249,16 @@ var Person = makeClass(
 ### Printed
 
 ```javascript
-
-  var Person = makeClass({
-     /**
+var Person = makeClass({
+  /**
         This is just another way to define a constructor.
         @constructs
         @param {string} name The name of the person.
         */
-    initialize: function (name) {
-      this.name = name;
-    } /* trailing comment 1*/,
-  });
-
+  initialize: function (name) {
+    this.name = name;
+  } /* trailing comment 1*/,
+});
 ```
 
 ### Diagnostics

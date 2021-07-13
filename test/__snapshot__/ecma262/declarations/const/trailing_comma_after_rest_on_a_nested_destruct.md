@@ -39,6 +39,7 @@ const [...[foo, bar],] = obj;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -57,6 +58,7 @@ const [...[foo, bar],] = obj;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -70,6 +72,7 @@ const [...[foo, bar],] = obj;
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 14
                                                     },
@@ -78,16 +81,19 @@ const [...[foo, bar],] = obj;
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 19
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 19
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 20
                                         },
@@ -95,16 +101,19 @@ const [...[foo, bar],] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 22
                         },
@@ -114,19 +123,23 @@ const [...[foo, bar],] = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 28
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 28
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -135,6 +148,7 @@ const [...[foo, bar],] = obj;
     "source": "const [...[foo, bar],] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

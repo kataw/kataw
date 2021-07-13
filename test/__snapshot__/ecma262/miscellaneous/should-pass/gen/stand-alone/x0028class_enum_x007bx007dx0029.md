@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -40,6 +41,7 @@
                         "text": "enum",
                         "rawText": "enum",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 11
                     },
@@ -51,22 +53,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 13
                         },
                         "flags": 11,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -75,6 +82,7 @@
     "source": "(class enum {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -83,10 +91,7 @@
 ### Printed
 
 ```javascript
-
-  (class enum {
-  });
-
+(class enum {});
 ```
 
 ### Diagnostics

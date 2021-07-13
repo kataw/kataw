@@ -32,12 +32,14 @@
                         "ifKeyword": {
                             "kind": 37757019,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 3
                         },
                         "expression": {
                             "kind": 24752947,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -48,12 +50,14 @@
                                 "text": "label",
                                 "rawText": "label",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
@@ -64,6 +68,7 @@
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 26
                                 },
@@ -73,6 +78,7 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -82,6 +88,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
@@ -92,34 +99,41 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 33
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 33
                         },
                         "elseKeyword": null,
                         "alternate": null,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -128,6 +142,7 @@
     "source": "{if (true) label: function f() {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

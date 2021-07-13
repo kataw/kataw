@@ -27,12 +27,14 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -50,6 +52,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -58,12 +61,14 @@ x ? ( (a, {}) => {} ) : baz;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 11
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 12
                         },
@@ -71,6 +76,7 @@ x ? ( (a, {}) => {} ) : baz;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
@@ -86,6 +92,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 18
                                     },
@@ -94,12 +101,14 @@ x ? ( (a, {}) => {} ) : baz;
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 22
                             },
@@ -107,6 +116,7 @@ x ? ( (a, {}) => {} ) : baz;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
@@ -119,12 +129,14 @@ x ? ( (a, {}) => {} ) : baz;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 27
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 27,
                                         "end": 28
                                     },
@@ -133,16 +145,19 @@ x ? ( (a, {}) => {} ) : baz;
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 29
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 25,
                                     "end": 29
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -153,12 +168,14 @@ x ? ( (a, {}) => {} ) : baz;
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 33,
                                         "end": 34
                                     },
@@ -167,32 +184,39 @@ x ? ( (a, {}) => {} ) : baz;
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 35
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 25,
                                 "end": 35
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 35
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 35
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 37
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 39
                 },
@@ -201,14 +225,17 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 43
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         },
@@ -221,12 +248,14 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 46
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 48
                 },
@@ -247,6 +276,7 @@ x ? ( (a, {}) => {} ) : baz;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 52,
                                             "end": 53
                                         },
@@ -255,12 +285,14 @@ x ? ( (a, {}) => {} ) : baz;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 56
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 57
                                 },
@@ -268,6 +300,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 57,
                                     "end": 60
                                 },
@@ -276,10 +309,12 @@ x ? ( (a, {}) => {} ) : baz;
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 62
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 62
                             },
@@ -295,6 +330,7 @@ x ? ( (a, {}) => {} ) : baz;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 65,
                                             "end": 66
                                         },
@@ -303,12 +339,14 @@ x ? ( (a, {}) => {} ) : baz;
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 67,
                                             "end": 69
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 70
                                 },
@@ -316,6 +354,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 73
                                 },
@@ -324,25 +363,30 @@ x ? ( (a, {}) => {} ) : baz;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 75
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 75
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 48,
                         "end": 75
                     },
-                    "flags": 32,
-                    "start": 48,
+                    "flags": 48,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 77
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 79
                 },
@@ -351,14 +395,17 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 79,
                     "end": 83
                 },
                 "flags": 97,
+                "transformFlags": 4096,
                 "start": 44,
                 "end": 83
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 44,
             "end": 84
         },
@@ -371,12 +418,14 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 84,
                     "end": 86
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 86,
                     "end": 88
                 },
@@ -392,6 +441,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 92,
                                     "end": 93
                                 },
@@ -405,6 +455,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 96,
                                                 "end": 97
                                             },
@@ -420,6 +471,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 100,
                                                             "end": 101
                                                         },
@@ -428,12 +480,14 @@ x ? ( (a, {}) => {} ) : baz;
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 102,
                                                             "end": 104
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 100,
                                                     "end": 105
                                                 },
@@ -441,6 +495,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 105,
                                                     "end": 108
                                                 },
@@ -449,38 +504,46 @@ x ? ( (a, {}) => {} ) : baz;
                                                     "text": 0,
                                                     "rawText": "0",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 108,
                                                     "end": 110
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 98,
                                                 "end": 110
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 1024,
                                         "start": 94,
                                         "end": 110
                                     },
-                                    "flags": 32,
-                                    "start": 94,
+                                    "flags": 94,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 111
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 90,
                             "end": 111
                         },
-                        "flags": 32,
-                        "start": 90,
+                        "flags": 90,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 112
                     },
-                    "flags": 32,
-                    "start": 88,
+                    "flags": 88,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 114
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 114,
                     "end": 116
                 },
@@ -489,14 +552,17 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 116,
                     "end": 120
                 },
                 "flags": 97,
+                "transformFlags": 4096,
                 "start": 84,
                 "end": 120
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 84,
             "end": 121
         },
@@ -509,12 +575,14 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 121,
                     "end": 123
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 123,
                     "end": 125
                 },
@@ -532,6 +600,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 129,
                                     "end": 130
                                 },
@@ -542,16 +611,19 @@ x ? ( (a, {}) => {} ) : baz;
                                         "properties": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 133,
                                         "end": 133
                                     },
                                     "flags": 48,
+                                    "transformFlags": 0,
                                     "start": 131,
                                     "end": 134
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 2,
+                            "flags": 34,
+                            "transformFlags": 0,
                             "start": 129,
                             "end": 135
                         },
@@ -559,6 +631,7 @@ x ? ( (a, {}) => {} ) : baz;
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 135,
                             "end": 138
                         },
@@ -569,24 +642,29 @@ x ? ( (a, {}) => {} ) : baz;
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 140,
                                 "end": 140
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 138,
                             "end": 141
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 127,
                         "end": 141
                     },
-                    "flags": 32,
-                    "start": 125,
+                    "flags": 125,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 143
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 143,
                     "end": 145
                 },
@@ -595,14 +673,17 @@ x ? ( (a, {}) => {} ) : baz;
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 145,
                     "end": 149
                 },
                 "flags": 97,
+                "transformFlags": 4096,
                 "start": 121,
                 "end": 149
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 121,
             "end": 150
         }
@@ -611,6 +692,7 @@ x ? ( (a, {}) => {} ) : baz;
     "source": "x ? ( (x, y) => (u, v) => x*u + y*v ) : baz;\nx ? ( (a, b) => 0, (c, d) => 1 ) : baz;\nx ? ( (a, (a, (b, c) => 0)) ) : baz;\nx ? ( (a, {}) => {} ) : baz;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 150
 }
@@ -619,11 +701,12 @@ x ? ( (a, {}) => {} ) : baz;
 ### Printed
 
 ```javascript
+x ? ((x, y) => (u, v) => x * u + y * v) : baz;
+x ? ((a, b) => 0, (c, d) => 1) : baz;
 
-  x ? ((x, y) => (u, v) => x * u + y * v) : baz;
-  x ? ((a, b) => 0, (c, d) => 1) : baz;
-  x ? ((a, (a, (b, c) => 0))) : baz;
-  x ? ((a, { }) => {}) : baz;
+x ? ((a, (a, (b, c) => 0))) : baz;
+
+x ? ((a, {}) => {}) : baz;
 
 ```
 

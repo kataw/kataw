@@ -28,6 +28,7 @@ declare class A<T> extends B<T> { x: number }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class A<T> extends B<T> { x: number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class A<T> extends B<T> { x: number }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -58,6 +61,7 @@ declare class A<T> extends B<T> { x: number }
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
@@ -65,16 +69,19 @@ declare class A<T> extends B<T> { x: number }
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 17
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 15,
                 "end": 18
             },
@@ -85,6 +92,7 @@ declare class A<T> extends B<T> { x: number }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 26
                     },
@@ -93,6 +101,7 @@ declare class A<T> extends B<T> { x: number }
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
@@ -112,29 +121,35 @@ declare class A<T> extends B<T> { x: number }
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 30
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 30
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 30
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 28,
                         "end": 31
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 31
                 },
@@ -152,6 +167,7 @@ declare class A<T> extends B<T> { x: number }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 35
                             },
@@ -163,28 +179,34 @@ declare class A<T> extends B<T> { x: number }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 43
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 43
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 43
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 45
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -193,6 +215,7 @@ declare class A<T> extends B<T> { x: number }
     "source": "declare class A<T> extends B<T> { x: number }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -201,9 +224,7 @@ declare class A<T> extends B<T> { x: number }
 ### Printed
 
 ```javascript
-
-  declare class A <T> extends B<T> { x: number }
-
+declare class A <T> extends B<T> { x: number }
 ```
 
 ### Diagnostics

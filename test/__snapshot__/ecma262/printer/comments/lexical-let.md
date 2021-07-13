@@ -69,6 +69,7 @@ let /* 1*/ {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -89,6 +90,7 @@ let /* 1*/ {
                                             "text": "a1",
                                             "rawText": "a1",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 15
                                         },
@@ -97,21 +99,25 @@ let /* 1*/ {
                                             "text": "b1",
                                             "rawText": "b1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 25
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 27
                         },
@@ -121,19 +127,23 @@ let /* 1*/ {
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 31
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         },
@@ -142,6 +152,7 @@ let /* 1*/ {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 37
             },
@@ -163,6 +174,7 @@ let /* 1*/ {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 48
                                         },
@@ -173,20 +185,24 @@ let /* 1*/ {
                                             "text": "addd",
                                             "rawText": "addd",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 61
                                         },
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 39,
                                         "end": 61
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 61
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 63
                         },
@@ -196,19 +212,23 @@ let /* 1*/ {
                             "text": "y1",
                             "rawText": "y1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 68
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 37,
                         "end": 68
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 68
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 32,
             "end": 69
         },
@@ -217,6 +237,7 @@ let /* 1*/ {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 69,
                 "end": 75
             },
@@ -235,6 +256,7 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 77,
                                             "end": 88
                                         },
@@ -243,6 +265,7 @@ let /* 1*/ {
                                             "text": "h1",
                                             "rawText": "h1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 88,
                                             "end": 95
                                         },
@@ -250,16 +273,19 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 77,
                                         "end": 95
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 95
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 75,
                             "end": 97
                         },
@@ -269,25 +295,30 @@ let /* 1*/ {
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 99,
                             "end": 101
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 75,
                         "end": 101
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 101
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 69,
             "end": 102
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 102,
             "end": 103
         },
@@ -296,6 +327,7 @@ let /* 1*/ {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 103,
                 "end": 109
             },
@@ -314,6 +346,7 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 111,
                                             "end": 122
                                         },
@@ -322,6 +355,7 @@ let /* 1*/ {
                                             "text": "ja",
                                             "rawText": "ja",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 122,
                                             "end": 129
                                         },
@@ -329,16 +363,19 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 111,
                                         "end": 129
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 111,
                                 "end": 129
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 137
                         },
@@ -348,19 +385,23 @@ let /* 1*/ {
                             "text": "y2",
                             "rawText": "y2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 145,
                             "end": 154
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 109,
                         "end": 154
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 154
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 103,
             "end": 155
         },
@@ -369,6 +410,7 @@ let /* 1*/ {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 155,
                 "end": 161
             },
@@ -387,6 +429,7 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 170,
                                             "end": 189
                                         },
@@ -395,6 +438,7 @@ let /* 1*/ {
                                             "text": "aaa",
                                             "rawText": "aaa",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 189,
                                             "end": 197
                                         },
@@ -402,16 +446,19 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 170,
                                         "end": 197
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 170,
                                 "end": 197
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 161,
                             "end": 205
                         },
@@ -421,19 +468,23 @@ let /* 1*/ {
                             "text": "yd",
                             "rawText": "yd",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 213,
                             "end": 222
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 161,
                         "end": 222
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 161,
                 "end": 222
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 155,
             "end": 223
         },
@@ -442,6 +493,7 @@ let /* 1*/ {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 223,
                 "end": 245
             },
@@ -460,6 +512,7 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 254,
                                             "end": 273
                                         },
@@ -468,6 +521,7 @@ let /* 1*/ {
                                             "text": "a3",
                                             "rawText": "a3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 273,
                                             "end": 280
                                         },
@@ -475,16 +529,19 @@ let /* 1*/ {
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 254,
                                         "end": 280
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 254,
                                 "end": 280
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 245,
                             "end": 288
                         },
@@ -494,19 +551,23 @@ let /* 1*/ {
                             "text": "ady",
                             "rawText": "ady",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 296,
                             "end": 306
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 245,
                         "end": 306
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 245,
                 "end": 306
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 223,
             "end": 307
         }
@@ -515,6 +576,7 @@ let /* 1*/ {
     "source": "let {\n\n/*1*/\na1 :/*2*/ b1\n} = y;\n\nlet {\n\n/*1*/\na = /*2*/ addd\n} = y1;\n\n\nlet {\n\n/*1*/\n.../*2*/h1\n} = y;;\n\n\nlet {\n\n/*1*/\n.../*2*/ja /*3*/\n} /*4*/ = /*5 */y2;\n\n\nlet /* 1*/ {\n\n/*2*/\n\n\n/*3*/\n.../*4*/aaa /*5*/\n} /*6*/ = /*7 */yd;\n\n\n// detached!\n\n\n\nlet /* 1*/ {\n\n/*2*/\n\n\n/*3*/\n.../*4*/a3 /*5*/\n} /*6*/ = /*7 */ady;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 308
 }
@@ -523,35 +585,17 @@ let /* 1*/ {
 ### Printed
 
 ```javascript
+let { /*1*/ a1:/*2*/  b1 } = y;
+let { /*1*/ a = addd } = y1;
 
-  let {
-     /*1*/
-    a1:/*2*/ b1
-  } = y;
-  let {
-     /*1*/
-    a =/*2*/ addd
-  } = y1;
-  let {
-     /*1*/
-    .../*2*/h1
-  } = y;
-  ;
-  let {
-     /*1*/
-    .../*2*/ja /*3*/
-  } /*4*/ =/*5 */ y2;
-  let /* 1*/{
-     /*2*/
-    /*3*/
-    .../*4*/aaa /*5*/
-  } /*6*/ =/*7 */ yd;
-   // detached!
-  let /* 1*/{
-     /*2*/
-    /*3*/
-    .../*4*/a3 /*5*/
-  } /*6*/ =/*7 */ ady;
+let { /*1*/ .../*2*/ h1 } = y;
+
+let { /*1*/ .../*2*/ ja /*3*/ } /*4*/ =/*5 */  y2;
+
+let /* 1*/ { /*2*/ /*3*/ .../*4*/ aaa /*5*/ } /*6*/ =/*7 */  yd;
+
+// detached!
+let /* 1*/ { /*2*/ /*3*/ .../*4*/ a3 /*5*/ } /*6*/ =/*7 */  ady;
 
 ```
 

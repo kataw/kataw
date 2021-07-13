@@ -25,6 +25,7 @@ wrap({'a':b});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -44,6 +45,7 @@ wrap({'a':b});
                                             "text": "a",
                                             "rawText": "'a'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 9
                                         },
@@ -52,34 +54,41 @@ wrap({'a':b});
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
                                         "flags": 4194336,
+                                        "transformFlags": 128,
                                         "start": 6,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 4194320,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
                             },
                             "flags": 4194352,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 12
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -88,6 +97,7 @@ wrap({'a':b});
     "source": "wrap({'a':b});\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -96,9 +106,7 @@ wrap({'a':b});
 ### Printed
 
 ```javascript
-
-  wrap({ "'a'": b });
-
+wrap({ "'a'": b });
 ```
 
 ### Diagnostics

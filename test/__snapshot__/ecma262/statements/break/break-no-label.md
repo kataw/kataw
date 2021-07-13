@@ -20,6 +20,7 @@
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -28,6 +29,7 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -41,24 +43,29 @@
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 18
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -67,6 +74,7 @@
     "source": " while (x) { break; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -75,11 +83,9 @@
 ### Printed
 
 ```javascript
-
-  while (x) {
+while (x) {
     break;
   }
-
 ```
 
 ### Diagnostics

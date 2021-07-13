@@ -20,6 +20,7 @@ for ((async) of [7]);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -31,16 +32,19 @@ for ((async) of [7]);
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 12
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -54,26 +58,31 @@ for ((async) of [7]);
                             "text": 7,
                             "rawText": "7",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 15,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -82,6 +91,7 @@ for ((async) of [7]);
     "source": "for ((async) of [7]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -90,10 +100,7 @@ for ((async) of [7]);
 ### Printed
 
 ```javascript
-
-  for ((async) of [7,])
-    ;
-
+for ((async) of [7]);
 ```
 
 ### Diagnostics

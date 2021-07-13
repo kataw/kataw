@@ -30,6 +30,7 @@ class Foo {get fooProp():number{}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo {get fooProp():number{}}
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -57,6 +59,7 @@ class Foo {get fooProp():number{}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -69,6 +72,7 @@ class Foo {get fooProp():number{}}
                                     "text": "fooProp",
                                     "rawText": "fooProp",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 22
                                 },
@@ -78,6 +82,7 @@ class Foo {get fooProp():number{}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -88,10 +93,12 @@ class Foo {get fooProp():number{}}
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 31
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 31
                                 },
@@ -102,31 +109,38 @@ class Foo {get fooProp():number{}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 33
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 33
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -135,6 +149,7 @@ class Foo {get fooProp():number{}}
     "source": "class Foo {get fooProp():number{}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -143,11 +158,9 @@ class Foo {get fooProp():number{}}
 ### Printed
 
 ```javascript
-
-  class Foo {
-    get fooProp(): number {}
-  }
-
+class Foo {
+  get fooProp(): number {}
+}
 ```
 
 ### Diagnostics

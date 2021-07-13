@@ -20,12 +20,14 @@ while (true) x: continue x;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -36,12 +38,14 @@ while (true) x: continue x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -50,6 +54,7 @@ while (true) x: continue x;
                     "continueKeyword": {
                         "kind": 37757009,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 24
                     },
@@ -58,18 +63,22 @@ while (true) x: continue x;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 26
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 27
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -78,6 +87,7 @@ while (true) x: continue x;
     "source": "while (true) x: continue x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

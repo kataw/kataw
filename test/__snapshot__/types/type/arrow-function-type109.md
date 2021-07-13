@@ -28,6 +28,7 @@ type a = (...b[([x])=> c] | d) => c;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -36,6 +37,7 @@ type a = (...b[([x])=> c] | d) => c;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -43,6 +45,7 @@ type a = (...b[([x])=> c] | d) => c;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -61,6 +64,7 @@ type a = (...b[([x])=> c] | d) => c;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -78,11 +82,13 @@ type a = (...b[([x])=> c] | d) => c;
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 14
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 14
                                             },
@@ -114,37 +120,44 @@ type a = (...b[([x])=> c] | d) => c;
                                                                                     "text": "x",
                                                                                     "rawText": "x",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 17,
                                                                                     "end": 18
                                                                                 },
                                                                                 "typeParameters": null,
                                                                                 "flags": 2097152,
+                                                                                "transformFlags": 0,
                                                                                 "start": 17,
                                                                                 "end": 18
                                                                             },
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 17,
                                                                             "end": 18
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 16,
                                                                     "end": 19
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 16,
                                                                 "end": 19
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 20
                                                     },
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 22
                                                     },
@@ -159,27 +172,33 @@ type a = (...b[([x])=> c] | d) => c;
                                                                 "text": "c",
                                                                 "rawText": "c",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 22,
                                                                 "end": 24
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 22,
                                                             "end": 24
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 22,
                                                         "end": 24
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 24
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 24
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 27
                                         },
@@ -190,32 +209,38 @@ type a = (...b[([x])=> c] | d) => c;
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 29
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 29
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 29
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 33
                     },
@@ -230,27 +255,33 @@ type a = (...b[([x])=> c] | d) => c;
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 35
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 35
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 35
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 35
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 35
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -259,6 +290,7 @@ type a = (...b[([x])=> c] | d) => c;
     "source": "type a = (...b[([x])=> c] | d) => c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -267,9 +299,7 @@ type a = (...b[([x])=> c] | d) => c;
 ### Printed
 
 ```javascript
-
-  type a = (...b[ ([[x]]) => c] | d) => c
-
+type a = (...b[([x]) => c] | d) => c
 ```
 
 ### Diagnostics

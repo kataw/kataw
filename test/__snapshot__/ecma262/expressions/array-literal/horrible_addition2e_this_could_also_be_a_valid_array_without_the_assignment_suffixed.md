@@ -29,6 +29,7 @@
                                 "text": "please",
                                 "rawText": "please",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 7
                             },
@@ -47,10 +48,12 @@
                                                     "text": "make",
                                                     "rawText": "make",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 15
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 16
                                             },
@@ -59,20 +62,24 @@
                                                 "text": "it",
                                                 "rawText": "it",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 20
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 10,
                                             "end": 20
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 20
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 8,
                                 "end": 21
                             },
@@ -81,22 +88,26 @@
                                 "text": "stop",
                                 "rawText": "stop",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 28
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
@@ -105,14 +116,17 @@
                     "text": "bwahahahaha",
                     "rawText": "bwahahahaha",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         }
@@ -121,6 +135,7 @@
     "source": "[please, {[make]: it}, stop] = bwahahahaha",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -129,9 +144,7 @@
 ### Printed
 
 ```javascript
-
-  [please, { [make]: it }, stop,] = bwahahahaha;
-
+[please, { [make]: it }, stop] = bwahahahaha;
 ```
 
 ### Diagnostics

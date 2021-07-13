@@ -26,6 +26,7 @@ a--
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -34,14 +35,17 @@ a--
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -50,6 +54,7 @@ a--
     "source": "a--\n\n/*2*/\n\n;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -58,9 +63,7 @@ a--
 ### Printed
 
 ```javascript
-
-  a--;
-
+a--;
 ```
 
 ### Diagnostics

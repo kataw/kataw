@@ -29,6 +29,7 @@ typeof {x=1}
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -44,6 +45,7 @@ typeof {x=1}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
@@ -52,28 +54,34 @@ typeof {x=1}
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -82,6 +90,7 @@ typeof {x=1}
     "source": "typeof {x=1}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

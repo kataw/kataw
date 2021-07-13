@@ -24,12 +24,14 @@ x={ foo: function(){ super.foo; }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -46,6 +48,7 @@ x={ foo: function(){ super.foo; }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 7
                                 },
@@ -55,6 +58,7 @@ x={ foo: function(){ super.foo; }}
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 17
                                     },
@@ -66,6 +70,7 @@ x={ foo: function(){ super.foo; }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 18
                                     },
@@ -82,6 +87,7 @@ x={ foo: function(){ super.foo; }}
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 26
                                                         },
@@ -90,50 +96,61 @@ x={ foo: function(){ super.foo; }}
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 27,
                                                             "end": 30
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 2,
                                                         "start": 20,
                                                         "end": 30
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4096,
                                                     "start": 20,
                                                     "end": 31
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 33
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 3,
                                 "end": 33
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 33
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -142,6 +159,7 @@ x={ foo: function(){ super.foo; }}
     "source": "x={ foo: function(){ super.foo; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

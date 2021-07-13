@@ -28,12 +28,14 @@ async function foo() {};
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -43,6 +45,7 @@ async function foo() {};
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -52,6 +55,7 @@ async function foo() {};
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -62,21 +66,25 @@ async function foo() {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 23
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 24
         }
@@ -85,6 +93,7 @@ async function foo() {};
     "source": "async function foo() {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -93,10 +102,7 @@ async function foo() {};
 ### Printed
 
 ```javascript
-
-  async function foo() {}
-  ;
-
+async function foo() {}
 ```
 
 ### Diagnostics

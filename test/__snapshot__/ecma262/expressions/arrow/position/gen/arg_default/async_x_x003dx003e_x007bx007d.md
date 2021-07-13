@@ -29,6 +29,7 @@ function f(a = async x => {}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f(a = async x => {}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -53,6 +55,7 @@ function f(a = async x => {}) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -63,6 +66,7 @@ function f(a = async x => {}) {}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
@@ -72,6 +76,7 @@ function f(a = async x => {}) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
@@ -79,6 +84,7 @@ function f(a = async x => {}) {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
@@ -89,24 +95,29 @@ function f(a = async x => {}) {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 28
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 28
             },
@@ -117,15 +128,18 @@ function f(a = async x => {}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 32
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -134,6 +148,7 @@ function f(a = async x => {}) {}
     "source": "function f(a = async x => {}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -142,9 +157,7 @@ function f(a = async x => {}) {}
 ### Printed
 
 ```javascript
-
-  function f(a = async x => {}) {}
-
+function f(a = async x => {}) {}
 ```
 
 ### Diagnostics

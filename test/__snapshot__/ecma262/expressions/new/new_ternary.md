@@ -24,6 +24,7 @@ new a ? b : c
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -32,17 +33,20 @@ new a ? b : c
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "argumentList": null,
                     "flags": 96,
+                    "transformFlags": 2048,
                     "start": 0,
                     "end": 5
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -51,12 +55,14 @@ new a ? b : c
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -65,14 +71,17 @@ new a ? b : c
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -81,6 +90,7 @@ new a ? b : c
     "source": "new a ? b : c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -89,9 +99,7 @@ new a ? b : c
 ### Printed
 
 ```javascript
-
-  new a ? b : c;
-
+new a ? b : c;
 ```
 
 ### Diagnostics

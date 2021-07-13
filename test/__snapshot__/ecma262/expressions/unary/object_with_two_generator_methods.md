@@ -24,6 +24,7 @@ wrap({* foo(){},*bar(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -41,6 +42,7 @@ wrap({* foo(){},*bar(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -53,6 +55,7 @@ wrap({* foo(){},*bar(){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 11
                                             },
@@ -62,6 +65,7 @@ wrap({* foo(){},*bar(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
                                             },
@@ -73,18 +77,22 @@ wrap({* foo(){},*bar(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 14
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 15
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 15
                                     },
@@ -94,6 +102,7 @@ wrap({* foo(){},*bar(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 16,
                                             "end": 17
                                         },
@@ -106,6 +115,7 @@ wrap({* foo(){},*bar(){}});
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 20
                                             },
@@ -115,6 +125,7 @@ wrap({* foo(){},*bar(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 22
                                             },
@@ -126,42 +137,51 @@ wrap({* foo(){},*bar(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 23
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 24
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 24
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 25
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -170,6 +190,7 @@ wrap({* foo(){},*bar(){}});
     "source": "wrap({* foo(){},*bar(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -178,9 +199,7 @@ wrap({* foo(){},*bar(){}});
 ### Printed
 
 ```javascript
-
-  wrap({ * foo() {}, * bar() {} });
-
+wrap({ *foo() {}, *bar() {} });
 ```
 
 ### Diagnostics

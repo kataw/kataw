@@ -20,6 +20,7 @@ for (true.x in c) d;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (true.x in c) d;
                 "member": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -36,16 +38,19 @@ for (true.x in c) d;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 11
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -54,6 +59,7 @@ for (true.x in c) d;
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -64,14 +70,17 @@ for (true.x in c) d;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 17,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -80,6 +89,7 @@ for (true.x in c) d;
     "source": "for (true.x in c) d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -88,10 +98,7 @@ for (true.x in c) d;
 ### Printed
 
 ```javascript
-
-  for (true.x in c)
-    d;
-
+for (true.x in c) d;
 ```
 
 ### Diagnostics

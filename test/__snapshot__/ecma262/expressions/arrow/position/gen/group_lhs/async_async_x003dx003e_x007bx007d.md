@@ -33,6 +33,7 @@
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 6
                         },
@@ -42,6 +43,7 @@
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 12
                         },
@@ -49,6 +51,7 @@
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
@@ -59,24 +62,29 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 18
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 18
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 19,
                     "end": 21
                 },
@@ -85,14 +93,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -101,6 +112,7 @@
     "source": "(async async => {}) * x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -109,9 +121,7 @@
 ### Printed
 
 ```javascript
-
-  (async async => {}) * x;
-
+(async async => {}) * x;
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ async () => await
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async () => await
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async () => await
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -53,6 +56,7 @@ async () => await
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
@@ -61,18 +65,22 @@ async () => await
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 4096,
                     "start": 11,
                     "end": 17
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -81,6 +89,7 @@ async () => await
     "source": "async () => await",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

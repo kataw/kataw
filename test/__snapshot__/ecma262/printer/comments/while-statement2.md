@@ -21,6 +21,7 @@ while /* comment 1 */ (x// comment 2
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -29,6 +30,7 @@ while /* comment 1 */ (x// comment 2
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 24
             },
@@ -38,14 +40,17 @@ while /* comment 1 */ (x// comment 2
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 56,
                     "end": 56
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 57
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -54,6 +59,7 @@ while /* comment 1 */ (x// comment 2
     "source": "while /* comment 1 */ (x// comment 2\n) /* comment 3 */ {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }
@@ -62,10 +68,8 @@ while /* comment 1 */ (x// comment 2
 ### Printed
 
 ```javascript
-
-  while/* comment 1 */ (x // comment 2
-  )/* comment 3 */ { }
-
+while /* comment 1 */ (x // comment 2
+  )/* comment 3 */  {}
 ```
 
 ### Diagnostics

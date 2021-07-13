@@ -32,6 +32,7 @@
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -44,16 +45,19 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 4
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -62,19 +66,23 @@
                             "text": "undefined",
                             "rawText": "undefined",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 2,
                         "end": 17
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -83,6 +91,7 @@
     "source": "0, {} = undefined;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -91,9 +100,7 @@
 ### Printed
 
 ```javascript
-
-  0, {} = undefined;
-
+0, {} = undefined;
 ```
 
 ### Diagnostics

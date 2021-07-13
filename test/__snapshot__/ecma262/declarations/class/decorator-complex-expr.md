@@ -33,6 +33,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -62,6 +64,7 @@ class A {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
@@ -78,6 +81,7 @@ class A {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 14
                                                         },
@@ -86,10 +90,12 @@ class A {
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 16
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 2,
                                                         "start": 13,
                                                         "end": 16
                                                     },
@@ -98,10 +104,12 @@ class A {
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 18
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 13,
                                                     "end": 18
                                                 },
@@ -110,10 +118,12 @@ class A {
                                                     "text": "d",
                                                     "rawText": "d",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 20
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 13,
                                                 "end": 20
                                             },
@@ -125,6 +135,7 @@ class A {
                                                         "text": "e",
                                                         "rawText": "e",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 22
                                                     },
@@ -133,25 +144,30 @@ class A {
                                                         "text": "f",
                                                         "rawText": "f",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 25
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 25
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 13,
                                             "end": 26
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 26
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 26
                             },
@@ -167,6 +183,7 @@ class A {
                                     "text": "m",
                                     "rawText": "m",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 30
                                 },
@@ -176,6 +193,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -187,31 +205,38 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 34
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 34
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -220,6 +245,7 @@ class A {
     "source": "class A {\n  @a.b.c.d(e, f)\n  m(){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -228,12 +254,9 @@ class A {
 ### Printed
 
 ```javascript
-
-  class A {
-    @a.b.c.d(e, f)
-    m() {}
-  }
-
+class A {
+  @a.b.c.d(e, f) m() {}
+}
 ```
 
 ### Diagnostics

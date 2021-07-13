@@ -31,6 +31,7 @@ d\u0065lete = x;
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },
@@ -39,16 +40,19 @@ d\u0065lete = x;
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -57,14 +61,17 @@ d\u0065lete = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -73,6 +80,7 @@ d\u0065lete = x;
     "source": "d\\u0065lete = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

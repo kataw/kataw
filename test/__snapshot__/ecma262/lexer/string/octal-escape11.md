@@ -22,10 +22,12 @@
                 "text": "20\n",
                 "rawText": "\"\\20\\n\"",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -34,6 +36,7 @@
     "source": "\"\\20\\n\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -42,9 +45,7 @@
 ### Printed
 
 ```javascript
-
-  "\"\20\n\"";
-
+"\"\20\n\"";
 ```
 
 ### Diagnostics

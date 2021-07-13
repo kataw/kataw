@@ -28,6 +28,7 @@ const identity = <T>(t: T): T => t;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const identity = <T>(t: T): T => t;
                             "text": "identity",
                             "rawText": "identity",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 14
                         },
@@ -60,6 +62,7 @@ const identity = <T>(t: T): T => t;
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 19
                                             },
@@ -67,16 +70,19 @@ const identity = <T>(t: T): T => t;
                                             "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 512,
                                 "start": 16,
                                 "end": 20
                             },
@@ -91,6 +97,7 @@ const identity = <T>(t: T): T => t;
                                             "text": "t",
                                             "rawText": "t",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -106,26 +113,31 @@ const identity = <T>(t: T): T => t;
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 25
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 16,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 29
                             },
@@ -140,21 +152,25 @@ const identity = <T>(t: T): T => t;
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 29
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -163,23 +179,28 @@ const identity = <T>(t: T): T => t;
                                 "text": "t",
                                 "rawText": "t",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 34
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 34
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 34
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -188,6 +209,7 @@ const identity = <T>(t: T): T => t;
     "source": "const identity = <T>(t: T): T => t;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -196,9 +218,7 @@ const identity = <T>(t: T): T => t;
 ### Printed
 
 ```javascript
-
-  const identity = <T>(t: T) => t;
-
+const identity = <T>(t: T) => t;
 ```
 
 ### Diagnostics

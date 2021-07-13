@@ -32,6 +32,7 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 5
                                 },
@@ -40,6 +41,7 @@
                                     "operandToken": {
                                         "kind": 138477613,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 13
                                     },
@@ -47,32 +49,39 @@
                                         "kind": 371,
                                         "text": "/x/g",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 1024,
                                     "start": 6,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 2,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 18
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -81,6 +90,7 @@
     "source": "({foo: typeof /x/g});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -89,9 +99,7 @@
 ### Printed
 
 ```javascript
-
-  ({ foo: typeof  /x/g });
-
+({ foo: typeof /x/g });
 ```
 
 ### Diagnostics

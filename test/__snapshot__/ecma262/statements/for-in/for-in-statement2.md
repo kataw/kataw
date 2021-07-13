@@ -32,6 +32,7 @@ function F<T>() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function F<T>() {
                 "text": "F",
                 "rawText": "F",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -56,6 +58,7 @@ function F<T>() {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
@@ -63,16 +66,19 @@ function F<T>() {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 13
             },
@@ -81,6 +87,7 @@ function F<T>() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -96,6 +103,7 @@ function F<T>() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -109,6 +117,7 @@ function F<T>() {
                                             "text": "expr",
                                             "rawText": "expr",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
                                         },
@@ -123,29 +132,35 @@ function F<T>() {
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 31
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 31
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 31
                                         },
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 23,
                                         "end": 31
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 32
                         },
@@ -154,6 +169,7 @@ function F<T>() {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
@@ -162,6 +178,7 @@ function F<T>() {
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 43
                                 },
@@ -175,27 +192,32 @@ function F<T>() {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 45
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 43,
                                             "end": 45
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 45
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 48
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 48
                             },
@@ -204,6 +226,7 @@ function F<T>() {
                                 "text": "expr",
                                 "rawText": "expr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 53
                             },
@@ -213,28 +236,34 @@ function F<T>() {
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 56
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 60
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 60
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 60
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 62
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 62
         }
@@ -243,6 +272,7 @@ function F<T>() {
     "source": "function F<T>() {\n  var expr: T;\n  for (var a in expr) {\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }
@@ -251,13 +281,10 @@ function F<T>() {
 ### Printed
 
 ```javascript
-
-  function F<T> () {
-    var expr: T;
-    for (var a in expr) {
-    }
-  }
-
+function F<T>() {
+  var expr: T;
+  for (var a in expr) {}
+}
 ```
 
 ### Diagnostics

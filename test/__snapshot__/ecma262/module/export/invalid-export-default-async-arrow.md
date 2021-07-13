@@ -26,12 +26,14 @@ export default async\n() => {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,14 +44,17 @@ export default async\n() => {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -62,6 +67,7 @@ export default async\n() => {}
                     "text": "n",
                     "rawText": "n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 22
                 },
@@ -70,14 +76,17 @@ export default async\n() => {}
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 21,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 24
         },
@@ -87,10 +96,12 @@ export default async\n() => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 30
         }
@@ -99,6 +110,7 @@ export default async\n() => {}
     "source": "export default async\\n() => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

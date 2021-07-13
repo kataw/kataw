@@ -29,10 +29,12 @@ let
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         }
@@ -41,6 +43,7 @@ let
     "source": "let",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }
@@ -49,9 +52,7 @@ let
 ### Printed
 
 ```javascript
-
-  let;
-
+let;
 ```
 
 ### Diagnostics

@@ -61,6 +61,7 @@ var stringArr:Array<string> = ['a','b'];
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -69,6 +70,7 @@ var stringArr:Array<string> = ['a','b'];
                 "text": "Tag",
                 "rawText": "Tag",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -95,6 +97,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 27
                                 },
@@ -104,6 +107,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -120,6 +124,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 43
                                                 },
@@ -133,6 +138,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "text": "a1",
                                                                 "rawText": "a1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 43,
                                                                 "end": 46
                                                             },
@@ -147,6 +153,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "text": "Array",
                                                                         "rawText": "Array",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 47,
                                                                         "end": 53
                                                                     },
@@ -169,44 +176,53 @@ var stringArr:Array<string> = ['a','b'];
                                                                                                     "text": "Tag",
                                                                                                     "rawText": "Tag",
                                                                                                     "flags": 96,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 54,
                                                                                                     "end": 57
                                                                                                 },
                                                                                                 "typeParameters": null,
                                                                                                 "flags": 2097152,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 54,
                                                                                                 "end": 57
                                                                                             },
                                                                                             {
                                                                                                 "kind": 134234347,
                                                                                                 "flags": 2097216,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 58,
                                                                                                 "end": 64
                                                                                             }
                                                                                         ],
                                                                                         "flags": 2097152,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 57,
                                                                                         "end": 64
                                                                                     },
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 54,
                                                                                     "end": 64
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 54,
                                                                             "end": 64
                                                                         },
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 512,
                                                                         "start": 53,
                                                                         "end": 65
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 47,
                                                                     "end": 65
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 47,
                                                                 "end": 65
                                                             },
@@ -217,23 +233,28 @@ var stringArr:Array<string> = ['a','b'];
                                                                     "elements": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 69,
                                                                     "end": 69
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 8,
                                                                 "start": 67,
                                                                 "end": 70
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 43,
                                                             "end": 70
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 70
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 71
                                             },
@@ -243,6 +264,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 71,
                                                     "end": 83
                                                 },
@@ -256,6 +278,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "text": "a2",
                                                                 "rawText": "a2",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 83,
                                                                 "end": 86
                                                             },
@@ -270,6 +293,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "text": "Array",
                                                                         "rawText": "Array",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 87,
                                                                         "end": 93
                                                                     },
@@ -292,44 +316,53 @@ var stringArr:Array<string> = ['a','b'];
                                                                                                     "text": "Tag",
                                                                                                     "rawText": "Tag",
                                                                                                     "flags": 96,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 94,
                                                                                                     "end": 97
                                                                                                 },
                                                                                                 "typeParameters": null,
                                                                                                 "flags": 2097152,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 94,
                                                                                                 "end": 97
                                                                                             },
                                                                                             {
                                                                                                 "kind": 134234347,
                                                                                                 "flags": 2097216,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 98,
                                                                                                 "end": 104
                                                                                             }
                                                                                         ],
                                                                                         "flags": 2097152,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 97,
                                                                                         "end": 104
                                                                                     },
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 94,
                                                                                     "end": 104
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 94,
                                                                             "end": 104
                                                                         },
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 512,
                                                                         "start": 93,
                                                                         "end": 105
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 87,
                                                                     "end": 105
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 87,
                                                                 "end": 105
                                                             },
@@ -338,49 +371,60 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "text": "a1",
                                                                 "rawText": "a1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 107,
                                                                 "end": 110
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 83,
                                                             "end": 110
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 83,
                                                     "end": 110
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 71,
                                                 "end": 111
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 111
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 117
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 117
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 117
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 117
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 119
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 119
         },
@@ -390,6 +434,7 @@ var stringArr:Array<string> = ['a','b'];
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 119,
                 "end": 125
             },
@@ -398,6 +443,7 @@ var stringArr:Array<string> = ['a','b'];
                 "text": "Node",
                 "rawText": "Node",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 125,
                 "end": 130
             },
@@ -405,6 +451,7 @@ var stringArr:Array<string> = ['a','b'];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 132
             },
@@ -422,30 +469,36 @@ var stringArr:Array<string> = ['a','b'];
                                 "text": "Tag_",
                                 "rawText": "Tag_",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 132,
                                 "end": 137
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 132,
                             "end": 137
                         },
                         {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 139,
                             "end": 146
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 137,
                     "end": 146
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 132,
                 "end": 146
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 119,
             "end": 147
         },
@@ -456,6 +509,7 @@ var stringArr:Array<string> = ['a','b'];
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 147,
                 "end": 153
             },
@@ -464,6 +518,7 @@ var stringArr:Array<string> = ['a','b'];
                 "text": "Tag_",
                 "rawText": "Tag_",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 158
             },
@@ -490,6 +545,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 160,
                                     "end": 176
                                 },
@@ -499,6 +555,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 177,
                                     "end": 178
                                 },
@@ -515,6 +572,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 180,
                                                     "end": 192
                                                 },
@@ -528,6 +586,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "text": "a1",
                                                                 "rawText": "a1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 192,
                                                                 "end": 195
                                                             },
@@ -542,6 +601,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "text": "Array",
                                                                         "rawText": "Array",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 196,
                                                                         "end": 202
                                                                     },
@@ -561,33 +621,40 @@ var stringArr:Array<string> = ['a','b'];
                                                                                             "text": "Node",
                                                                                             "rawText": "Node",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 203,
                                                                                             "end": 207
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "flags": 2097152,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 203,
                                                                                         "end": 207
                                                                                     },
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 203,
                                                                                     "end": 207
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 203,
                                                                             "end": 207
                                                                         },
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 512,
                                                                         "start": 202,
                                                                         "end": 208
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 196,
                                                                     "end": 208
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 196,
                                                                 "end": 208
                                                             },
@@ -601,6 +668,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                             "newKeyword": {
                                                                                 "kind": 138477661,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 212,
                                                                                 "end": 215
                                                                             },
@@ -609,34 +677,41 @@ var stringArr:Array<string> = ['a','b'];
                                                                                 "text": "Tag_",
                                                                                 "rawText": "Tag_",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 215,
                                                                                 "end": 220
                                                                             },
                                                                             "argumentList": null,
                                                                             "flags": 96,
+                                                                            "transformFlags": 2048,
                                                                             "start": 212,
                                                                             "end": 220
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 212,
                                                                     "end": 220
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 8,
                                                                 "start": 210,
                                                                 "end": 221
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 192,
                                                             "end": 221
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 192,
                                                     "end": 221
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 180,
                                                 "end": 222
                                             },
@@ -646,6 +721,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 222,
                                                     "end": 234
                                                 },
@@ -659,6 +735,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "text": "a2",
                                                                 "rawText": "a2",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 234,
                                                                 "end": 237
                                                             },
@@ -673,6 +750,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "text": "Array",
                                                                         "rawText": "Array",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 238,
                                                                         "end": 244
                                                                     },
@@ -692,33 +770,40 @@ var stringArr:Array<string> = ['a','b'];
                                                                                             "text": "Node",
                                                                                             "rawText": "Node",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 245,
                                                                                             "end": 249
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "flags": 2097152,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 245,
                                                                                         "end": 249
                                                                                     },
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 245,
                                                                                     "end": 249
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 245,
                                                                             "end": 249
                                                                         },
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 512,
                                                                         "start": 244,
                                                                         "end": 250
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 238,
                                                                     "end": 250
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 238,
                                                                 "end": 250
                                                             },
@@ -727,49 +812,60 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "text": "a1",
                                                                 "rawText": "a1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 252,
                                                                 "end": 255
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 234,
                                                             "end": 255
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 234,
                                                     "end": 255
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 222,
                                                 "end": 256
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 180,
                                         "end": 256
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 178,
                                     "end": 262
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 176,
                                 "end": 262
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 160,
                             "end": 262
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 160,
                     "end": 262
                 },
                 "flags": 158,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 264
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 147,
             "end": 264
         },
@@ -780,6 +876,7 @@ var stringArr:Array<string> = ['a','b'];
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 264,
                 "end": 271
             },
@@ -788,6 +885,7 @@ var stringArr:Array<string> = ['a','b'];
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 271,
                 "end": 273
             },
@@ -809,6 +907,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 275,
                                 "end": 281
                             },
@@ -825,42 +924,50 @@ var stringArr:Array<string> = ['a','b'];
                                             "nullableToken": {
                                                 "kind": 134217750,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 282,
                                                 "end": 284
                                             },
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 284,
                                                 "end": 290
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 282,
                                             "end": 290
                                         },
                                         {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 291,
                                             "end": 297
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 290,
                                     "end": 297
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 282,
                                 "end": 297
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 275,
                             "end": 297
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 297,
                             "end": 298
                         },
@@ -880,6 +987,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 298,
                                     "end": 314
                                 },
@@ -889,6 +997,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 315,
                                     "end": 316
                                 },
@@ -908,6 +1017,7 @@ var stringArr:Array<string> = ['a','b'];
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 318,
                                                             "end": 331
                                                         },
@@ -916,60 +1026,73 @@ var stringArr:Array<string> = ['a','b'];
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 332,
                                                             "end": 333
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 318,
                                                         "end": 333
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 333,
                                                         "end": 335
                                                     },
                                                     "right": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 335,
                                                         "end": 340
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 318,
                                                     "end": 340
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 318,
                                                 "end": 341
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 318,
                                         "end": 341
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 316,
                                     "end": 347
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 314,
                                 "end": 347
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 298,
                             "end": 347
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 275,
                     "end": 347
                 },
                 "flags": 273,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 349
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 264,
             "end": 349
         },
@@ -980,6 +1103,7 @@ var stringArr:Array<string> = ['a','b'];
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 349,
                 "end": 356
             },
@@ -988,6 +1112,7 @@ var stringArr:Array<string> = ['a','b'];
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 356,
                 "end": 358
             },
@@ -1009,6 +1134,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "text": "content",
                                 "rawText": "content",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 360,
                                 "end": 372
                             },
@@ -1023,6 +1149,7 @@ var stringArr:Array<string> = ['a','b'];
                                         {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 373,
                                             "end": 380
                                         },
@@ -1033,31 +1160,37 @@ var stringArr:Array<string> = ['a','b'];
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 381,
                                                 "end": 382
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 381,
                                             "end": 382
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 380,
                                     "end": 382
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 373,
                                 "end": 382
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 360,
                             "end": 382
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 382,
                             "end": 383
                         },
@@ -1077,6 +1210,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "text": "copyContent",
                                     "rawText": "copyContent",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 383,
                                     "end": 399
                                 },
@@ -1092,6 +1226,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "text": "content",
                                                 "rawText": "content",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 400,
                                                 "end": 407
                                             },
@@ -1107,26 +1242,31 @@ var stringArr:Array<string> = ['a','b'];
                                                         "text": "C",
                                                         "rawText": "C",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 408,
                                                         "end": 410
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 408,
                                                     "end": 410
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 408,
                                                 "end": 410
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 400,
                                             "end": 410
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 400,
                                     "end": 411
                                 },
@@ -1140,6 +1280,7 @@ var stringArr:Array<string> = ['a','b'];
                                             {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 412,
                                                 "end": 419
                                             },
@@ -1150,20 +1291,24 @@ var stringArr:Array<string> = ['a','b'];
                                                     "text": "C",
                                                     "rawText": "C",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 420,
                                                     "end": 421
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 420,
                                                 "end": 421
                                             }
                                         ],
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 419,
                                         "end": 421
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 412,
                                     "end": 421
                                 },
@@ -1182,6 +1327,7 @@ var stringArr:Array<string> = ['a','b'];
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 423,
                                                             "end": 436
                                                         },
@@ -1190,16 +1336,19 @@ var stringArr:Array<string> = ['a','b'];
                                                             "text": "content",
                                                             "rawText": "content",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 437,
                                                             "end": 444
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 423,
                                                         "end": 444
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 444,
                                                         "end": 446
                                                     },
@@ -1208,14 +1357,17 @@ var stringArr:Array<string> = ['a','b'];
                                                         "text": "content",
                                                         "rawText": "content",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 446,
                                                         "end": 454
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 423,
                                                     "end": 454
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 423,
                                                 "end": 455
                                             },
@@ -1224,6 +1376,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 455,
                                                     "end": 470
                                                 },
@@ -1232,6 +1385,7 @@ var stringArr:Array<string> = ['a','b'];
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 470,
                                                         "end": 475
                                                     },
@@ -1240,44 +1394,54 @@ var stringArr:Array<string> = ['a','b'];
                                                         "text": "content",
                                                         "rawText": "content",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 476,
                                                         "end": 483
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 470,
                                                     "end": 483
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 455,
                                                 "end": 484
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 423,
                                         "end": 484
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 421,
                                     "end": 490
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 399,
                                 "end": 490
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 383,
                             "end": 490
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 360,
                     "end": 490
                 },
                 "flags": 358,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 492
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 349,
             "end": 492
         },
@@ -1287,6 +1451,7 @@ var stringArr:Array<string> = ['a','b'];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 492,
                 "end": 497
             },
@@ -1300,6 +1465,7 @@ var stringArr:Array<string> = ['a','b'];
                             "text": "numberAndStringArr",
                             "rawText": "numberAndStringArr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 497,
                             "end": 516
                         },
@@ -1314,6 +1480,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 517,
                                     "end": 522
                                 },
@@ -1332,39 +1499,47 @@ var stringArr:Array<string> = ['a','b'];
                                                         {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 523,
                                                             "end": 529
                                                         },
                                                         {
                                                             "kind": 134234347,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 530,
                                                             "end": 536
                                                         }
                                                     ],
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 529,
                                                     "end": 536
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 523,
                                                 "end": 536
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 523,
                                         "end": 536
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 522,
                                     "end": 537
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 517,
                                 "end": 537
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 517,
                             "end": 537
                         },
@@ -1378,6 +1553,7 @@ var stringArr:Array<string> = ['a','b'];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 541,
                                         "end": 542
                                     },
@@ -1386,29 +1562,35 @@ var stringArr:Array<string> = ['a','b'];
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 543,
                                         "end": 544
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 541,
                                 "end": 544
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 539,
                             "end": 545
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 497,
                         "end": 545
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 497,
                 "end": 545
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 492,
             "end": 546
         },
@@ -1418,6 +1600,7 @@ var stringArr:Array<string> = ['a','b'];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 546,
                 "end": 550
             },
@@ -1431,6 +1614,7 @@ var stringArr:Array<string> = ['a','b'];
                             "text": "stringArr",
                             "rawText": "stringArr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 550,
                             "end": 560
                         },
@@ -1445,6 +1629,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 561,
                                     "end": 566
                                 },
@@ -1460,28 +1645,34 @@ var stringArr:Array<string> = ['a','b'];
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 567,
                                                     "end": 573
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 567,
                                                 "end": 573
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 567,
                                         "end": 573
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 566,
                                     "end": 574
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 561,
                                 "end": 574
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 561,
                             "end": 574
                         },
@@ -1495,6 +1686,7 @@ var stringArr:Array<string> = ['a','b'];
                                         "text": "a",
                                         "rawText": "'a'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 578,
                                         "end": 581
                                     },
@@ -1503,29 +1695,35 @@ var stringArr:Array<string> = ['a','b'];
                                         "text": "b",
                                         "rawText": "'b'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 582,
                                         "end": 585
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 578,
                                 "end": 585
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 576,
                             "end": 586
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 550,
                         "end": 586
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 550,
                 "end": 586
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 546,
             "end": 587
         }
@@ -1534,6 +1732,7 @@ var stringArr:Array<string> = ['a','b'];
     "source": "class Tag {\n    constructor() {\n        var a1: Array<Tag|string> = [];\n        var a2: Array<Tag|string> = a1;\n    }\n}\n\ntype Node = Tag_ | string;\nclass Tag_ {\n    constructor() {\n        var a1: Array<Node> = [new Tag_];\n        var a2: Array<Node> = a1;\n    }\n}\n\nclass C {\n    x: ?number|string;\n    constructor() {\n        this.x = null;\n    }\n}\n\nclass D {\n    content: string|C;\n    copyContent(content: C): string|C {\n        this.content = content;\n        return this.content;\n    }\n}\n\nvar numberAndStringArr:Array<number|string> = [1,2];\nvar stringArr:Array<string> = ['a','b'];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 587
 }
@@ -1542,37 +1741,39 @@ var stringArr:Array<string> = ['a','b'];
 ### Printed
 
 ```javascript
+class Tag {
+  constructor() {
+    var a1: Array<Tag | string> = [];
+    var a2: Array<Tag | string> = a1;
+  }
+}
+type Node = Tag_ | string
 
-  class Tag {
-    constructor() {
-      var a1: Array<Tag | string> = [];
-      var a2: Array<Tag | string> = a1;
-    }
+class Tag_ {
+  constructor() {
+    var a1: Array<Node> = [new Tag_];
+    var a2: Array<Node> = a1;
   }
-  type Node = Tag_ | string
-  class Tag_ {
-    constructor() {
-      var a1: Array<Node> = [new Tag_,];
-      var a2: Array<Node> = a1;
-    }
+}
+
+class C {
+  x: ? number | string;;
+  constructor() {
+    this.x = null;
   }
-  class C {
-    x: ?number | string
-    ;
-    constructor() {
-      this.x = null;
-    }
+}
+
+class D {
+  content: string | C;;
+  copyContent(content: C): string | C {
+    this.content = content;
+    return this.content;
   }
-  class D {
-    content: string | C
-    ;
-    copyContent(content: C): string | C {
-      this.content = content;
-      return this.content;
-    }
-  }
-  var numberAndStringArr: Array<number | string> = [1, 2,];
-  var stringArr: Array<string> = ["'a'", "'b'",];
+}
+
+var numberAndStringArr: Array<number | string> = [1, 2];
+
+var stringArr: Array<string> = ["'a'", "'b'"];
 
 ```
 

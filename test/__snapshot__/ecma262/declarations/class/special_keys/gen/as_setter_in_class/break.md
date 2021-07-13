@@ -29,6 +29,7 @@ class x {set break(x){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {set break(x){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -57,6 +59,7 @@ class x {set break(x){}}
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -68,6 +71,7 @@ class x {set break(x){}}
                                     "text": "break",
                                     "rawText": "break",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 18
                                 },
@@ -80,12 +84,14 @@ class x {set break(x){}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
@@ -97,31 +103,38 @@ class x {set break(x){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 23
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -130,6 +143,7 @@ class x {set break(x){}}
     "source": "class x {set break(x){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -138,11 +152,9 @@ class x {set break(x){}}
 ### Printed
 
 ```javascript
-
-  class x {
-    set break(x) {}
-  }
-
+class x {
+  set break(x) {}
+}
 ```
 
 ### Diagnostics

@@ -22,12 +22,14 @@ function *f() {  return typeof yield foo;  }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *f() {  return typeof yield foo;  }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *f() {  return typeof yield foo;  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -59,6 +63,7 @@ function *f() {  return typeof yield foo;  }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
@@ -67,6 +72,7 @@ function *f() {  return typeof yield foo;  }
                                 "operandToken": {
                                     "kind": 138477613,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 30
                                 },
@@ -75,6 +81,7 @@ function *f() {  return typeof yield foo;  }
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 36
                                     },
@@ -85,32 +92,39 @@ function *f() {  return typeof yield foo;  }
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 40
                                     },
                                     "flags": 32,
+                                    "transformFlags": 4096,
                                     "start": 30,
                                     "end": 40
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 23,
                                 "end": 40
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 15,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 44
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -119,6 +133,7 @@ function *f() {  return typeof yield foo;  }
     "source": "function *f() {  return typeof yield foo;  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -127,11 +142,9 @@ function *f() {  return typeof yield foo;  }
 ### Printed
 
 ```javascript
-
-  function* f() {
-    return typeof  yield  foo;
-  }
-
+function *f() {
+  return typeof yield foo;
+}
 ```
 
 ### Diagnostics

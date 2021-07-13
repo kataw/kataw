@@ -26,12 +26,14 @@ export default { foo: 1 };
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -48,6 +50,7 @@ export default { foo: 1 };
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -56,24 +59,29 @@ export default { foo: 1 };
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 16,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 23
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 14,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -82,6 +90,7 @@ export default { foo: 1 };
     "source": "export default { foo: 1 };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -90,9 +99,7 @@ export default { foo: 1 };
 ### Printed
 
 ```javascript
-
-  export default { foo: 1 };
-
+export default { foo: 1 };
 ```
 
 ### Diagnostics

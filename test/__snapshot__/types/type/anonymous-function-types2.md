@@ -29,6 +29,7 @@ type A = (string) => void
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type A = (string) => void
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type A = (string) => void
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -63,24 +66,28 @@ type A = (string) => void
                                 "name": {
                                     "kind": 134234347,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 16
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
@@ -91,22 +98,27 @@ type A = (string) => void
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 25
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 25
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 25
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -115,6 +127,7 @@ type A = (string) => void
     "source": "type A = (string) => void",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -123,9 +136,7 @@ type A = (string) => void
 ### Printed
 
 ```javascript
-
-  type A = (string) => void
-
+type A = (string) => void
 ```
 
 ### Diagnostics

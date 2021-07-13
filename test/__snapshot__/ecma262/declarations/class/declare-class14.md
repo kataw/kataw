@@ -29,6 +29,7 @@ declare class B { () : number }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -36,6 +37,7 @@ declare class B { () : number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -44,6 +46,7 @@ declare class B { () : number }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -60,6 +63,7 @@ declare class B { () : number }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
@@ -69,6 +73,7 @@ declare class B { () : number }
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
@@ -79,28 +84,34 @@ declare class B { () : number }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 36
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 36
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 36
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 38
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         },
@@ -109,6 +120,7 @@ declare class B { () : number }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 46
             },
@@ -116,6 +128,7 @@ declare class B { () : number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 52
             },
@@ -124,6 +137,7 @@ declare class B { () : number }
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 54
             },
@@ -144,6 +158,7 @@ declare class B { () : number }
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 58
                             },
@@ -154,28 +169,34 @@ declare class B { () : number }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 68
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 68
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 56,
                             "end": 68
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 70
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 38,
             "end": 70
         }
@@ -184,6 +205,7 @@ declare class B { () : number }
     "source": "declare class A { static () : number }\ndeclare class B { () : number }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 70
 }
@@ -192,9 +214,8 @@ declare class B { () : number }
 ### Printed
 
 ```javascript
-
-  declare class A { static (): number }
-  declare class B { (): number }
+declare class A { static (): number }
+declare class B { (): number }
 
 ```
 

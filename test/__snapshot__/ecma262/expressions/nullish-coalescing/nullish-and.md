@@ -24,12 +24,14 @@ a ?? (b && c);
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -42,12 +44,14 @@ a ?? (b && c);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
                         "operatorToken": {
                             "kind": 33594,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -56,22 +60,27 @@ a ?? (b && c);
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 4,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 4,
+                    "flags": 4,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 14
         }
@@ -80,6 +89,7 @@ a ?? (b && c);
     "source": "a ?? (b && c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -88,9 +98,7 @@ a ?? (b && c);
 ### Printed
 
 ```javascript
-
-  a ?? (b && c);
-
+a ?? (b && c);
 ```
 
 ### Diagnostics

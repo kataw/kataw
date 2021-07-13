@@ -24,6 +24,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -42,6 +44,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -57,6 +60,7 @@ function f() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -70,6 +74,7 @@ function f() {
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
                                         },
@@ -81,6 +86,7 @@ function f() {
                                                 "text": "arguments",
                                                 "rawText": "arguments",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 34
                                             },
@@ -89,37 +95,45 @@ function f() {
                                                 "text": 12,
                                                 "rawText": "12",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 4,
                                             "start": 25,
                                             "end": 38
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 22,
                                         "end": 38
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 38
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 39
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -128,6 +142,7 @@ function f() {
     "source": "function f() {\n    var x=arguments[12];\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -136,11 +151,9 @@ function f() {
 ### Printed
 
 ```javascript
-
-  function f() {
-    var x = arguments[12];
-  }
-
+function f() {
+  var x = arguments[12];
+}
 ```
 
 ### Diagnostics

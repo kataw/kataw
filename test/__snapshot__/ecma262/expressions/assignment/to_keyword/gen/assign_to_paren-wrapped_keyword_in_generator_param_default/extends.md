@@ -29,12 +29,14 @@ function *f(x = (extends) = f) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = (extends) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = (extends) = f) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -70,20 +74,24 @@ function *f(x = (extends) = f) {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
-                            "flags": 32,
-                            "start": 15,
+                            "flags": 15,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 17
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 12,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -94,15 +102,18 @@ function *f(x = (extends) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -113,10 +124,12 @@ function *f(x = (extends) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 29
         },
@@ -126,10 +139,12 @@ function *f(x = (extends) = f) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 33
         }
@@ -138,6 +153,7 @@ function *f(x = (extends) = f) {}
     "source": "function *f(x = (extends) = f) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

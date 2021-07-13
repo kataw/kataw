@@ -28,6 +28,7 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,12 +42,14 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -57,12 +60,14 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -73,21 +78,25 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -102,6 +111,7 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                         "text": "m",
                         "rawText": "m",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -118,32 +128,38 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                             "text": "b",
                                             "rawText": "'b'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 4194336,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 15,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 12,
                     "end": 21
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -152,12 +168,14 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                     "text": "lhs",
                     "rawText": "lhs",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -176,6 +194,7 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
@@ -184,12 +203,14 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 40
                                         },
                                         "functionKeyword": {
                                             "kind": 37822554,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 49
                                         },
@@ -201,6 +222,7 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 50
                                         },
@@ -211,35 +233,42 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 53,
                                                 "end": 53
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 54
                                         },
                                         "returnType": null,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 54
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 31,
                                     "end": 54
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 54
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 29,
                         "end": 56
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 56,
                         "end": 58
                     },
@@ -250,22 +279,27 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 60
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 58,
                         "end": 61
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 29,
                     "end": 61
                 },
                 "flags": 268435488,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 61
         }
@@ -274,6 +308,7 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
     "source": "var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

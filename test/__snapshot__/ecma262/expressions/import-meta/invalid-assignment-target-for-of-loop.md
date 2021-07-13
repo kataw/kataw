@@ -26,6 +26,7 @@ for (import.meta of null) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,38 +36,45 @@ for (import.meta of null) ;
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
                 "metaIdentifier": {
                     "kind": 16595,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 11,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 16
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "expression": {
                 "kind": 138477575,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 24
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -75,6 +83,7 @@ for (import.meta of null) ;
     "source": "for (import.meta of null) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

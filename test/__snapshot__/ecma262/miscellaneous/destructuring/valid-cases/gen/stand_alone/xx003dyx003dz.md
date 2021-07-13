@@ -31,12 +31,14 @@ x=y=z
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -47,12 +49,14 @@ x=y=z
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 3
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 4
                     },
@@ -61,18 +65,22 @@ x=y=z
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 5
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 2,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         }
@@ -81,6 +89,7 @@ x=y=z
     "source": "x=y=z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }
@@ -89,9 +98,7 @@ x=y=z
 ### Printed
 
 ```javascript
-
-  x = y = z;
-
+x = y = z;
 ```
 
 ### Diagnostics

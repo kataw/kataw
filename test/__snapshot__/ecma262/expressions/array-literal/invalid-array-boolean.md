@@ -40,6 +40,7 @@
     "source": "//[false] = x;\n\n//[true] = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -49,7 +50,7 @@
 
 ```javascript
 //[false] = x;
-  //[true] = x;
+//[true] = x;
 
 ```
 

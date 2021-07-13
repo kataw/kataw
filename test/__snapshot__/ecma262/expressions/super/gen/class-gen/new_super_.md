@@ -29,6 +29,7 @@ class C { *method() { new super; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { *method() { new super; } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class C { *method() { new super; } }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 9,
                                 "end": 11
                             },
@@ -68,6 +71,7 @@ class C { *method() { new super; } }
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 17
                                 },
@@ -77,6 +81,7 @@ class C { *method() { new super; } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 },
@@ -94,6 +99,7 @@ class C { *method() { new super; } }
                                                     "newKeyword": {
                                                         "kind": 138477661,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 25
                                                     },
@@ -102,6 +108,7 @@ class C { *method() { new super; } }
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 25,
                                                             "end": 31
                                                         },
@@ -110,49 +117,60 @@ class C { *method() { new super; } }
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 31,
                                                             "end": 31
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 2,
                                                         "start": 25,
                                                         "end": 31
                                                     },
                                                     "argumentList": null,
                                                     "flags": 96,
+                                                    "transformFlags": 2048,
                                                     "start": 21,
                                                     "end": 31
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 21,
                                                 "end": 32
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 34
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 34
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 34
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -161,6 +179,7 @@ class C { *method() { new super; } }
     "source": "class C { *method() { new super; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

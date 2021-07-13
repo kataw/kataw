@@ -22,6 +22,7 @@ function f(){ [...new.target] }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ [...new.target] }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ [...new.target] }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -61,6 +64,7 @@ function f(){ [...new.target] }
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 18
                                             },
@@ -69,48 +73,58 @@ function f(){ [...new.target] }
                                                 "newKeyword": {
                                                     "kind": 138477661,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 21
                                                 },
                                                 "targetIdentifier": {
                                                     "kind": 16594,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 28
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 28
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 28
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 13,
                                 "end": 29
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 31
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -119,6 +133,7 @@ function f(){ [...new.target] }
     "source": "function f(){ [...new.target] }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -127,11 +142,9 @@ function f(){ [...new.target] }
 ### Printed
 
 ```javascript
-
-  function f() {
-    [...new.target];
-  }
-
+function f() {
+  [...new.target];
+}
 ```
 
 ### Diagnostics

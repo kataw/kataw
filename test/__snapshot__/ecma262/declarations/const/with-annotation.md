@@ -34,6 +34,7 @@ const {q}: string = y;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -52,16 +53,19 @@ const {q}: string = y;
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
@@ -72,10 +76,12 @@ const {q}: string = y;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 18
                         },
@@ -84,19 +90,23 @@ const {q}: string = y;
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 22
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 22
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -105,6 +115,7 @@ const {q}: string = y;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 30
             },
@@ -126,6 +137,7 @@ const {q}: string = y;
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 33
                                         },
@@ -137,25 +149,30 @@ const {q}: string = y;
                                             "type": {
                                                 "kind": 134234343,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 40
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 40
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 32,
                                         "end": 40
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 40
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 41
                         },
@@ -166,10 +183,12 @@ const {q}: string = y;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 49
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 49
                         },
@@ -178,19 +197,23 @@ const {q}: string = y;
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 30,
                         "end": 53
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 53
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 23,
             "end": 54
         },
@@ -199,6 +222,7 @@ const {q}: string = y;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 61
             },
@@ -217,16 +241,19 @@ const {q}: string = y;
                                         "text": "q",
                                         "rawText": "q",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 63,
                                         "end": 64
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 64
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 61,
                             "end": 65
                         },
@@ -237,10 +264,12 @@ const {q}: string = y;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 66,
                                 "end": 73
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 73
                         },
@@ -249,19 +278,23 @@ const {q}: string = y;
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 75,
                             "end": 77
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 61,
                         "end": 77
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 77
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 54,
             "end": 78
         }
@@ -270,6 +303,7 @@ const {q}: string = y;
     "source": "\nconst [y]: string = y;\n\nconst [z:symbol]: string = y;\n\nconst {q}: string = y;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 79
 }
@@ -278,12 +312,10 @@ const {q}: string = y;
 ### Printed
 
 ```javascript
+const [y]: string = y;
+const [z: symbol]: string = y;
 
-  const [y]: string = y;
-  const [z: symbol]: string = y;
-  const {
-    q
-  }: string = y;
+const { q }: string = y;
 
 ```
 

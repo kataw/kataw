@@ -22,6 +22,7 @@ class A {;}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A {;}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -43,19 +45,23 @@ class A {;}
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -64,6 +70,7 @@ class A {;}
     "source": "class A {;}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -72,11 +79,9 @@ class A {;}
 ### Printed
 
 ```javascript
-
-  class A {
-    ;
-  }
-
+class A {
+  ;
+}
 ```
 
 ### Diagnostics

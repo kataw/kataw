@@ -26,6 +26,7 @@ export * as foo, {bar} from 'bar';
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,12 +37,14 @@ export * as foo, {bar} from 'bar';
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 6,
                     "end": 8
                 },
                 "asKeyword": {
                     "kind": 16494,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -51,10 +54,12 @@ export * as foo, {bar} from 'bar';
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -66,15 +71,18 @@ export * as foo, {bar} from 'bar';
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -90,19 +98,23 @@ export * as foo, {bar} from 'bar';
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 22
         },
@@ -113,10 +125,12 @@ export * as foo, {bar} from 'bar';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 27
         },
@@ -127,10 +141,12 @@ export * as foo, {bar} from 'bar';
                 "text": "bar",
                 "rawText": "'bar'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 34
         }
@@ -139,6 +155,7 @@ export * as foo, {bar} from 'bar';
     "source": "export * as foo, {bar} from 'bar';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

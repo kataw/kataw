@@ -39,6 +39,7 @@ for ([] instanceof obj;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,16 +52,19 @@ for ([] instanceof obj;;);
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 18
                 },
@@ -69,10 +73,12 @@ for ([] instanceof obj;;);
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 22
             },
@@ -81,10 +87,12 @@ for ([] instanceof obj;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -93,6 +101,7 @@ for ([] instanceof obj;;);
     "source": "for ([] instanceof obj;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -101,10 +110,7 @@ for ([] instanceof obj;;);
 ### Printed
 
 ```javascript
-
-  for ([] instanceof obj;;)
-    ;
-
+for ([] instanceof obj; ; );
 ```
 
 ### Diagnostics

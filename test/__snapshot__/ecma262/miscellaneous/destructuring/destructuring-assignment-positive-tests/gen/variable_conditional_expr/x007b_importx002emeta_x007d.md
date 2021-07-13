@@ -28,6 +28,7 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,12 +42,14 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     },
@@ -57,12 +60,14 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 6,
                         "end": 8
                     },
@@ -73,21 +78,25 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -102,6 +111,7 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                         "text": "m",
                         "rawText": "m",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -118,32 +128,38 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                                             "text": "b",
                                             "rawText": "'b'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 19
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 4194336,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 15,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 12,
                     "end": 21
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -152,12 +168,14 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                     "text": "lhs",
                     "rawText": "lhs",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -173,16 +191,19 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                                     "text": "import",
                                     "rawText": "import",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 38
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 38
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 29,
                         "end": 38
                     },
@@ -191,18 +212,22 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                         "text": "meta",
                         "rawText": "meta",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 43
                     },
                     "flags": 48,
+                    "transformFlags": 2,
                     "start": 29,
                     "end": 43
                 },
                 "flags": 268435488,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 43
         },
@@ -212,10 +237,12 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 47,
             "end": 50
         }
@@ -224,6 +251,7 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
     "source": "var x, y, z; m(['b']) ? lhs : { import.meta } = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

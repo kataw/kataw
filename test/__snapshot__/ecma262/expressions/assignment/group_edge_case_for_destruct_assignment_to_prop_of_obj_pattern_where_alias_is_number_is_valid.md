@@ -41,6 +41,7 @@
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 3,
                                                         "end": 4
                                                     },
@@ -49,20 +50,24 @@
                                                         "text": 1,
                                                         "rawText": "1",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 5,
                                                         "end": 7
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 3,
                                                     "end": 7
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 7
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 2,
                                         "end": 8
                                     },
@@ -71,30 +76,36 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     },
                                     "flags": 48,
+                                    "transformFlags": 2,
                                     "start": 1,
                                     "end": 10
                                 },
-                                "flags": 32,
-                                "start": 1,
+                                "flags": 1,
+                                "transformFlags": 0,
+                                "start": 34,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -105,18 +116,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 14,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -125,6 +140,7 @@
     "source": "[({a: 1}.c)] = [];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -133,9 +149,7 @@
 ### Printed
 
 ```javascript
-
-  [({ a: 1 }.c),] = [];
-
+[({ a: 1 }.c)] = [];
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,10 +39,12 @@
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 19
         },
@@ -54,12 +57,14 @@
                     "text": 3,
                     "rawText": "3",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
@@ -68,14 +73,17 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 29
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 19,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 29
         },
@@ -86,10 +94,12 @@
                 "text": 4,
                 "rawText": "4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 29,
             "end": 32
         }
@@ -98,6 +108,7 @@
     "source": "'use strict'; yield 3 + yield 4;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

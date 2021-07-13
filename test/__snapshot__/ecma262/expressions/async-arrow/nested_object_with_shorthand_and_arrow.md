@@ -22,6 +22,7 @@ async ({ident: {x}}) => x
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -41,6 +42,7 @@ async ({ident: {x}}) => x
                                             "text": "ident",
                                             "rawText": "ident",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 13
                                         },
@@ -54,37 +56,44 @@ async ({ident: {x}}) => x
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 17
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 17
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 14,
                                             "end": 18
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 18
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 20
                 },
@@ -92,6 +101,7 @@ async ({ident: {x}}) => x
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -100,14 +110,17 @@ async ({ident: {x}}) => x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -116,6 +129,7 @@ async ({ident: {x}}) => x
     "source": "async ({ident: {x}}) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -124,11 +138,7 @@ async ({ident: {x}}) => x
 ### Printed
 
 ```javascript
-
-  async ({
-      ident: { x }
-    }) => x;
-
+async ({ ident: { x } }) => x;
 ```
 
 ### Diagnostics

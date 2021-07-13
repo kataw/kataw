@@ -29,12 +29,14 @@ for await (a of b) let
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "awaitKeyword": {
                 "kind": 82196,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
@@ -43,12 +45,14 @@ for await (a of b) let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -57,6 +61,7 @@ for await (a of b) let
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
@@ -67,14 +72,17 @@ for await (a of b) let
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -84,10 +92,12 @@ for await (a of b) let
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 24
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 22,
             "end": 25
         }
@@ -96,6 +106,7 @@ for await (a of b) let
     "source": "for await (a of b) let\n{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

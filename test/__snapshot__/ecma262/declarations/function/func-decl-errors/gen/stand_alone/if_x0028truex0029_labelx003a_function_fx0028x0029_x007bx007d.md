@@ -27,12 +27,14 @@ if (true) label: function f() {}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -43,12 +45,14 @@ if (true) label: function f() {}
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
@@ -59,6 +63,7 @@ if (true) label: function f() {}
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 25
                     },
@@ -68,6 +73,7 @@ if (true) label: function f() {}
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 27
                     },
@@ -77,6 +83,7 @@ if (true) label: function f() {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 28
                     },
@@ -87,25 +94,30 @@ if (true) label: function f() {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 31
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 32
                     },
                     "returnType": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 32
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 32
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -114,6 +126,7 @@ if (true) label: function f() {}
     "source": "if (true) label: function f() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

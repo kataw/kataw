@@ -38,6 +38,7 @@ function e(x: { (): string; (x: number): string }): () => number {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 62
             },
@@ -47,6 +48,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "text": "d",
                 "rawText": "d",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 64
             },
@@ -62,6 +64,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 66
                         },
@@ -83,6 +86,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 71,
                                             "end": 71
                                         },
@@ -93,14 +97,17 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 73,
                                                 "end": 80
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 73,
                                             "end": 80
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 69,
                                         "end": 81
                                     },
@@ -120,6 +127,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 83,
                                                         "end": 84
                                                     },
@@ -131,20 +139,24 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 85,
                                                             "end": 92
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 85,
                                                         "end": 92
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 83,
                                                     "end": 92
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 83,
                                             "end": 92
                                         },
@@ -155,35 +167,42 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 94,
                                                 "end": 101
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 94,
                                             "end": 101
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 81,
                                         "end": 101
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 103
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 103
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 65,
                         "end": 103
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 103
             },
@@ -198,6 +217,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 120,
                                 "end": 129
                             },
@@ -206,19 +226,23 @@ function e(x: { (): string; (x: number): string }): () => number {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 129,
                                 "end": 131
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 120,
                             "end": 132
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 120,
                     "end": 132
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 118,
                 "end": 134
             },
@@ -234,12 +258,14 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 107,
                         "end": 107
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 108,
                         "end": 111
                     },
@@ -250,22 +276,27 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 111,
                             "end": 118
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 111,
                         "end": 118
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 105,
                     "end": 118
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 118
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 134
         },
@@ -276,6 +307,7 @@ function e(x: { (): string; (x: number): string }): () => number {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 134,
                 "end": 176
             },
@@ -285,6 +317,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "text": "e",
                 "rawText": "e",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 176,
                 "end": 178
             },
@@ -300,6 +333,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 179,
                             "end": 180
                         },
@@ -321,6 +355,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 185,
                                             "end": 185
                                         },
@@ -331,14 +366,17 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 187,
                                                 "end": 194
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 187,
                                             "end": 194
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 183,
                                         "end": 195
                                     },
@@ -358,6 +396,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 197,
                                                         "end": 198
                                                     },
@@ -369,20 +408,24 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 199,
                                                             "end": 206
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 199,
                                                         "end": 206
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 197,
                                                     "end": 206
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 197,
                                             "end": 206
                                         },
@@ -393,35 +436,42 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 208,
                                                 "end": 215
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 208,
                                             "end": 215
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 195,
                                         "end": 215
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 181,
                                 "end": 217
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 181,
                             "end": 217
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 179,
                         "end": 217
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 179,
                 "end": 217
             },
@@ -436,6 +486,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 234,
                                 "end": 243
                             },
@@ -444,19 +495,23 @@ function e(x: { (): string; (x: number): string }): () => number {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 243,
                                 "end": 245
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 234,
                             "end": 246
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 234,
                     "end": 246
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 232,
                 "end": 248
             },
@@ -472,12 +527,14 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 221,
                         "end": 221
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 222,
                         "end": 225
                     },
@@ -488,22 +545,27 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 225,
                             "end": 232
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 225,
                         "end": 232
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 219,
                     "end": 232
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 219,
                 "end": 232
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 134,
             "end": 248
         }
@@ -512,6 +574,7 @@ function e(x: { (): string; (x: number): string }): () => number {
     "source": "// Only one call property needs to match the function\nfunction d(x: { (): string; (x: number): string }): () => string {\n  return x;\n}\n\n// ...but you need at least one\nfunction e(x: { (): string; (x: number): string }): () => number {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 248
 }
@@ -521,13 +584,14 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 // Only one call property needs to match the function
-  function d(x: { (): string, (x: number): string }): () => string {
-    return x;
-  }
-   // ...but you need at least one
-  function e(x: { (): string, (x: number): string }): () => number {
-    return x;
-  }
+// Only one call property needs to match the function
+function d(x: { (): string, (x: number): string }): () => string {
+  return x;
+}
+// ...but you need at least one
+function e(x: { (): string, (x: number): string }): () => number {
+  return x;
+}
 
 ```
 

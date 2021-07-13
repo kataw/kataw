@@ -33,6 +33,7 @@ it => { var [,,...rest] = it; return rest; }
                     "text": "it",
                     "rawText": "it",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -40,6 +41,7 @@ it => { var [,,...rest] = it; return rest; }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -55,6 +57,7 @@ it => { var [,,...rest] = it; return rest; }
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -71,12 +74,14 @@ it => { var [,,...rest] = it; return rest; }
                                                         {
                                                             "kind": 230,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 13
                                                         },
                                                         {
                                                             "kind": 230,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 14
                                                         },
@@ -85,6 +90,7 @@ it => { var [,,...rest] = it; return rest; }
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 15,
                                                                 "end": 18
                                                             },
@@ -93,6 +99,7 @@ it => { var [,,...rest] = it; return rest; }
                                                                 "text": "rest",
                                                                 "rawText": "rest",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 18,
                                                                 "end": 22
                                                             },
@@ -100,16 +107,19 @@ it => { var [,,...rest] = it; return rest; }
                                                             "type": null,
                                                             "right": null,
                                                             "flags": 32,
+                                                            "transformFlags": 4096,
                                                             "start": 15,
                                                             "end": 22
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 22
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 23
                                             },
@@ -119,19 +129,23 @@ it => { var [,,...rest] = it; return rest; }
                                                 "text": "it",
                                                 "rawText": "it",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 28
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4224,
                                             "start": 11,
                                             "end": 28
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 28
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 29
                             },
@@ -140,6 +154,7 @@ it => { var [,,...rest] = it; return rest; }
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 36
                                 },
@@ -148,27 +163,33 @@ it => { var [,,...rest] = it; return rest; }
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 41
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 29,
                                 "end": 42
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 42
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         }
@@ -177,6 +198,7 @@ it => { var [,,...rest] = it; return rest; }
     "source": "it => { var [,,...rest] = it; return rest; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -185,12 +207,10 @@ it => { var [,,...rest] = it; return rest; }
 ### Printed
 
 ```javascript
-
-  it => {
-    var [, , ...rest] = it;
-    return rest;
-  };
-
+it => {
+  var [, , ...rest] = it;
+  return rest;
+};
 ```
 
 ### Diagnostics

@@ -20,6 +20,7 @@ throw {x} finally
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,20 +34,24 @@ throw {x} finally
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -59,10 +64,12 @@ throw {x} finally
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
@@ -70,6 +77,7 @@ throw {x} finally
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 17
             },
@@ -79,14 +87,17 @@ throw {x} finally
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 17
         }
@@ -95,6 +106,7 @@ throw {x} finally
     "source": "throw {x} finally",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

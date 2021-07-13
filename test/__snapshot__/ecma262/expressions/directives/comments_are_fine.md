@@ -21,6 +21,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 97,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -31,6 +32,7 @@
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 52
             },
@@ -39,6 +41,7 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 55
             },
@@ -49,14 +52,17 @@
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 56,
                     "end": 58
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 56,
                 "end": 59
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 47,
             "end": 59
         }
@@ -65,6 +71,7 @@
     "source": "// one comment\n/* two\n comment */ \"use strict\"; with (x) y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

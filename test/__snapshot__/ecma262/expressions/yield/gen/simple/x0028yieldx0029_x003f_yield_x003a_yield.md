@@ -33,16 +33,19 @@
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 7
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -51,12 +54,14 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -65,14 +70,17 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -81,6 +89,7 @@
     "source": "(yield) ? yield : yield",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -89,9 +98,7 @@
 ### Printed
 
 ```javascript
-
-  (yield) ? yield : yield;
-
+(yield) ? yield : yield;
 ```
 
 ### Diagnostics

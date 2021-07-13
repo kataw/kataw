@@ -41,6 +41,7 @@ var q
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,21 +55,25 @@ var q
                             "text": "q",
                             "rawText": "q",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -83,12 +88,14 @@ var q
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
+                        "transformFlags": 32,
                         "start": 5,
                         "end": 7
                     },
@@ -97,16 +104,19 @@ var q
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
                     "flags": 97,
+                    "transformFlags": 5120,
                     "start": 5,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 8,
                     "end": 9
                 },
@@ -115,14 +125,17 @@ var q
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 97,
+                "transformFlags": 5120,
                 "start": 5,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 9
         }
@@ -131,6 +144,7 @@ var q
     "source": "var q\n/d/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

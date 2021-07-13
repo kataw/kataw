@@ -33,6 +33,7 @@ function f1() {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ function f1() {
                             "text": "v1",
                             "rawText": "v1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -65,6 +67,7 @@ function f1() {
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 12
                                                 },
@@ -73,6 +76,7 @@ function f1() {
                                                     "text": 2,
                                                     "rawText": "2",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 15
                                                 },
@@ -81,16 +85,19 @@ function f1() {
                                                     "text": 3,
                                                     "rawText": "3",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 18
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 1024,
                                             "start": 10,
                                             "end": 18
                                         },
-                                        "flags": 32,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "transformFlags": 0,
+                                        "start": 32,
                                         "end": 19
                                     },
                                     {
@@ -98,6 +105,7 @@ function f1() {
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -106,6 +114,7 @@ function f1() {
                                         "text": 5,
                                         "rawText": "5",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -119,6 +128,7 @@ function f1() {
                                                     "text": 6,
                                                     "rawText": "6",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 29
                                                 },
@@ -127,37 +137,45 @@ function f1() {
                                                     "text": 7,
                                                     "rawText": "7",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 32
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 1024,
                                             "start": 26,
                                             "end": 32
                                         },
-                                        "flags": 32,
-                                        "start": 26,
+                                        "flags": 26,
+                                        "transformFlags": 0,
+                                        "start": 32,
                                         "end": 33
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 8,
                                 "end": 33
                             },
-                            "flags": 32,
-                            "start": 8,
+                            "flags": 8,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -168,6 +186,7 @@ function f1() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 44
             },
@@ -177,6 +196,7 @@ function f1() {
                 "text": "f1",
                 "rawText": "f1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 47
             },
@@ -186,6 +206,7 @@ function f1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 48
             },
@@ -201,6 +222,7 @@ function f1() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 59
                             },
@@ -214,6 +236,7 @@ function f1() {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 59,
                                             "end": 61
                                         },
@@ -223,19 +246,23 @@ function f1() {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 63,
                                             "end": 65
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 59,
                                         "end": 65
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 59,
                                 "end": 65
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 66
                         },
@@ -244,6 +271,7 @@ function f1() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 66,
                                 "end": 77
                             },
@@ -255,6 +283,7 @@ function f1() {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 77,
                                         "end": 79
                                     },
@@ -263,6 +292,7 @@ function f1() {
                                         "text": "v1",
                                         "rawText": "v1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 83
                                     },
@@ -271,29 +301,35 @@ function f1() {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 84,
                                         "end": 86
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 77,
                                 "end": 86
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 66,
                             "end": 87
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 87
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 89
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 89
         }
@@ -302,6 +338,7 @@ function f1() {
     "source": "var v1 = ((1, 2, 3), 4, 5, (6, 7));\nfunction f1() {\n    var a = 1;\n    return a, v1, a;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 89
 }
@@ -310,12 +347,11 @@ function f1() {
 ### Printed
 
 ```javascript
-
-  var v1 = ((1, 2, 3), 4, 5, (6, 7));
-  function f1() {
-    var a = 1;
-    return a, v1, a;
-  }
+var v1 = ((1, 2, 3), 4, 5, (6, 7));
+function f1() {
+  var a = 1;
+  return a, v1, a;
+}
 
 ```
 

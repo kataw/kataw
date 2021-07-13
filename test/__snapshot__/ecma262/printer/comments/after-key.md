@@ -26,6 +26,7 @@ let b = {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ let b = {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -56,6 +58,7 @@ let b = {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 14
                                         },
@@ -67,7 +70,8 @@ let b = {
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 31
                                             },
@@ -75,6 +79,7 @@ let b = {
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 35
                                             },
@@ -83,37 +88,45 @@ let b = {
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 37
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 37
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 37
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 39
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 39
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         },
@@ -122,6 +135,7 @@ let b = {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 45
             },
@@ -135,6 +149,7 @@ let b = {
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 47
                         },
@@ -152,6 +167,7 @@ let b = {
                                             "text": "a",
                                             "rawText": "\"a\"",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 58
                                         },
@@ -163,7 +179,8 @@ let b = {
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 75
                                             },
@@ -171,6 +188,7 @@ let b = {
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 76,
                                                 "end": 79
                                             },
@@ -179,37 +197,45 @@ let b = {
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 81
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 73,
                                             "end": 81
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 51,
                                         "end": 81
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 81
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 49,
                             "end": 83
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 45,
                         "end": 83
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 83
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 40,
             "end": 84
         }
@@ -218,6 +244,7 @@ let b = {
     "source": "let a = {\n   a /* comment */: () => 1\n};\n\nlet b = {\n   \"a\" /* comment */: () => 1\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 84
 }
@@ -226,11 +253,10 @@ let b = {
 ### Printed
 
 ```javascript
-
-  let a = {
+let a = {
     a /* comment */: () => 1
   };
-  let b = {
+let b = {
     "\"a\"" /* comment */: () => 1
   };
 

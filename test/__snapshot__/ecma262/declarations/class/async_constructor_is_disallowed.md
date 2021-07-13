@@ -30,6 +30,7 @@ class X {    async constructor() {}   }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class X {    async constructor() {}   }
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class X {    async constructor() {}   }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -69,6 +72,7 @@ class X {    async constructor() {}   }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 30
                                 },
@@ -78,6 +82,7 @@ class X {    async constructor() {}   }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2304,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -89,31 +94,38 @@ class X {    async constructor() {}   }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 35
                                 },
                                 "flags": 2304,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 35
                             },
                             "flags": 2304,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -122,6 +134,7 @@ class X {    async constructor() {}   }
     "source": "class X {    async constructor() {}   }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

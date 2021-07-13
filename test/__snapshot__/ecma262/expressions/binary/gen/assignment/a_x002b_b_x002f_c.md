@@ -31,12 +31,14 @@ x = a + b / c
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -47,12 +49,14 @@ x = a + b / c
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
@@ -63,12 +67,14 @@ x = a + b / c
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 9,
                             "end": 11
                         },
@@ -77,22 +83,27 @@ x = a + b / c
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 9,
                         "end": 13
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 3,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -101,6 +112,7 @@ x = a + b / c
     "source": "x = a + b / c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -109,9 +121,7 @@ x = a + b / c
 ### Printed
 
 ```javascript
-
-  x = a + b / c;
-
+x = a + b / c;
 ```
 
 ### Diagnostics

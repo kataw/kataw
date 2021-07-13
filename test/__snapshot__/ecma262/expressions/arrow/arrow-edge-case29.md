@@ -28,6 +28,7 @@ let x: (y) => void = () => {}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: (y) => void = () => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -64,29 +66,34 @@ let x: (y) => void = () => {}
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 9
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 9
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 10
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 10
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -97,18 +104,22 @@ let x: (y) => void = () => {}
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 18
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 18
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 18
                         },
@@ -120,7 +131,8 @@ let x: (y) => void = () => {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 22
                             },
@@ -128,6 +140,7 @@ let x: (y) => void = () => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 26
                             },
@@ -138,27 +151,33 @@ let x: (y) => void = () => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -167,6 +186,7 @@ let x: (y) => void = () => {}
     "source": "let x: (y) => void = () => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -175,9 +195,7 @@ let x: (y) => void = () => {}
 ### Printed
 
 ```javascript
-
-  let x: (y) => void = () => {};
-
+let x: (y) => void = () => {};
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -34,6 +35,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 5
                         },
@@ -41,16 +43,19 @@
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 5
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -59,14 +64,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -75,6 +83,7 @@
     "source": "(...a) + 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

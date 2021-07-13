@@ -32,6 +32,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -57,6 +59,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -75,6 +78,7 @@ class C {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 34
                                                     },
@@ -84,6 +88,7 @@ class C {
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 40
                                                     },
@@ -96,12 +101,14 @@ class C {
                                                                 "text": "await",
                                                                 "rawText": "await",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 41,
                                                                 "end": 46
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 46
                                                     },
@@ -112,49 +119,60 @@ class C {
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 49
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 50
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 50
                                                 },
-                                                "flags": 32,
-                                                "start": 20,
+                                                "flags": 20,
+                                                "transformFlags": 0,
+                                                "start": 33,
                                                 "end": 51
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 52
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 52
                                 },
                                 "flags": 9,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 56
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 56
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 56
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -163,6 +181,7 @@ class C {
     "source": "class C {\n  static {\n    (function await(await) {});\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }

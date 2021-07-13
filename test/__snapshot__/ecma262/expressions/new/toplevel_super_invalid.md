@@ -22,6 +22,7 @@ new super
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new super
                     "member": {
                         "kind": 4259935,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -38,19 +40,23 @@ new super
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 2,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -59,6 +65,7 @@ new super
     "source": "new super",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

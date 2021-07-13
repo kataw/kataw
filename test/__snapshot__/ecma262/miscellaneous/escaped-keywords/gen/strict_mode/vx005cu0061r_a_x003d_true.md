@@ -28,6 +28,7 @@ v\u0061r a = true
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ v\u0061r a = true
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -48,19 +50,23 @@ v\u0061r a = true
                         "initializer": {
                             "kind": 24752947,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 8,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -69,6 +75,7 @@ v\u0061r a = true
     "source": "v\\u0061r a = true",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

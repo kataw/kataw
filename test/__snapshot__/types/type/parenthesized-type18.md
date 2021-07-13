@@ -29,6 +29,7 @@ type a = (bj[c])
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (bj[c])
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (bj[c])
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,11 +65,13 @@ type a = (bj[c])
                                 "text": "bj",
                                 "rawText": "bj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         },
@@ -81,31 +86,38 @@ type a = (bj[c])
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 16
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 16
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -114,6 +126,7 @@ type a = (bj[c])
     "source": "type a = (bj[c])",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -122,9 +135,7 @@ type a = (bj[c])
 ### Printed
 
 ```javascript
-
-  type a = (bj[ c])
-
+type a = (bj[c])
 ```
 
 ### Diagnostics

@@ -32,6 +32,7 @@ async <A = B, C = D,>(x) => y;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -47,6 +48,7 @@ async <A = B, C = D,>(x) => y;
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -54,6 +56,7 @@ async <A = B, C = D,>(x) => y;
                                 "assignToken": {
                                     "kind": 4125,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -68,19 +71,23 @@ async <A = B, C = D,>(x) => y;
                                             "text": "B",
                                             "rawText": "B",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 12
                             },
@@ -91,6 +98,7 @@ async <A = B, C = D,>(x) => y;
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -98,6 +106,7 @@ async <A = B, C = D,>(x) => y;
                                 "assignToken": {
                                     "kind": 4125,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 17
                                 },
@@ -112,29 +121,35 @@ async <A = B, C = D,>(x) => y;
                                             "text": "D",
                                             "rawText": "D",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 19
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             }
                         ],
                         "trailingComma": true,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 21
                     },
                     "flags": 2097152,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 21
                 },
@@ -146,12 +161,14 @@ async <A = B, C = D,>(x) => y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
@@ -159,6 +176,7 @@ async <A = B, C = D,>(x) => y;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 27
                 },
@@ -167,14 +185,17 @@ async <A = B, C = D,>(x) => y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 30
         },
@@ -186,20 +207,24 @@ async <A = B, C = D,>(x) => y;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 30,
                     "end": 62
                 },
-                "flags": 32,
-                "start": 30,
+                "flags": 30,
+                "transformFlags": 0,
+                "start": 33,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 30,
             "end": 63
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 64,
             "end": 65
         }
@@ -208,6 +233,7 @@ async <A = B, C = D,>(x) => y;
     "source": "async <A = B, C = D,>(x) => y;\n\n(async <A = B, C = D,>(x) => y;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }

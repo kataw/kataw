@@ -29,6 +29,7 @@ function f(a = x => ok) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f(a = x => ok) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -53,6 +55,7 @@ function f(a = x => ok) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -67,6 +70,7 @@ function f(a = x => ok) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
@@ -74,6 +78,7 @@ function f(a = x => ok) {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
@@ -82,20 +87,24 @@ function f(a = x => ok) {}
                                 "text": "ok",
                                 "rawText": "ok",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 22
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 22
             },
@@ -106,15 +115,18 @@ function f(a = x => ok) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -123,6 +135,7 @@ function f(a = x => ok) {}
     "source": "function f(a = x => ok) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -131,9 +144,7 @@ function f(a = x => ok) {}
 ### Printed
 
 ```javascript
-
-  function f(a = x => ok) {}
-
+function f(a = x => ok) {}
 ```
 
 ### Diagnostics

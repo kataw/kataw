@@ -25,6 +25,7 @@
                         "forKeyword": {
                             "kind": 37757017,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -33,12 +34,14 @@
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 6
                         },
                         "inKeyword": {
                             "kind": 21006388,
                             "flags": 16448,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 14
                         },
@@ -49,10 +52,12 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 16
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 14,
                             "end": 17
                         },
@@ -62,23 +67,28 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -87,6 +97,7 @@
     "source": "{for(o i\\u006E {}){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

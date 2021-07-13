@@ -34,10 +34,12 @@
                             "text": "crazy",
                             "rawText": "crazy",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 7
                     },
@@ -48,10 +50,12 @@
                             "text": "input",
                             "rawText": "input",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 7,
                         "end": 13
                     },
@@ -62,19 +66,23 @@
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 13,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -83,6 +91,7 @@
     "source": "{ crazy input 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

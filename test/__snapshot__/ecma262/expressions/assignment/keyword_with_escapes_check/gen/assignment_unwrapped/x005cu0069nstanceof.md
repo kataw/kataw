@@ -31,12 +31,14 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 15
                 },
@@ -45,14 +47,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 16480,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -63,10 +68,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 17,
             "end": 20
         }
@@ -75,6 +82,7 @@
     "source": "\\u0069nstanceof = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

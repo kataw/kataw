@@ -28,6 +28,7 @@ export async x => x;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,6 +39,7 @@ export async x => x;
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -47,6 +49,7 @@ export async x => x;
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
@@ -54,6 +57,7 @@ export async x => x;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -62,14 +66,17 @@ export async x => x;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 6,
                 "end": 21
             },
@@ -78,6 +85,7 @@ export async x => x;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -86,6 +94,7 @@ export async x => x;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 29
             },
@@ -96,6 +105,7 @@ export async x => x;
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 35
                     },
@@ -105,6 +115,7 @@ export async x => x;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 37
                     },
@@ -112,6 +123,7 @@ export async x => x;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 40
                     },
@@ -120,14 +132,17 @@ export async x => x;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 42
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 42
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 29,
                 "end": 43
             },
@@ -136,6 +151,7 @@ export async x => x;
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 21,
             "end": 43
         }
@@ -144,6 +160,7 @@ export async x => x;
     "source": "export async () => x;\n\nexport async x => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

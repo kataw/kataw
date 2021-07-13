@@ -28,6 +28,7 @@ declare class A { static foo(): number; static x : string }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class A { static foo(): number; static x : string }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class A { static foo(): number; static x : string }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -59,6 +62,7 @@ declare class A { static foo(): number; static x : string }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
@@ -69,6 +73,7 @@ declare class A { static foo(): number; static x : string }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 28
                             },
@@ -80,6 +85,7 @@ declare class A { static foo(): number; static x : string }
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
@@ -90,19 +96,23 @@ declare class A { static foo(): number; static x : string }
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 38
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 38
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 38
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 39
                         },
@@ -112,6 +122,7 @@ declare class A { static foo(): number; static x : string }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 46
                             },
@@ -122,6 +133,7 @@ declare class A { static foo(): number; static x : string }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 48
                             },
@@ -133,28 +145,34 @@ declare class A { static foo(): number; static x : string }
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 57
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 57
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 57
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 59
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -163,6 +181,7 @@ declare class A { static foo(): number; static x : string }
     "source": "declare class A { static foo(): number; static x : string }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }
@@ -171,9 +190,7 @@ declare class A { static foo(): number; static x : string }
 ### Printed
 
 ```javascript
-
-  declare class A { static foo(): number, static x: string }
-
+declare class A { static foo(): number, static x: string }
 ```
 
 ### Diagnostics

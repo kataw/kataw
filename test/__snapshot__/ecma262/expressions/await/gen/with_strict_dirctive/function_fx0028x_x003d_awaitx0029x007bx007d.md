@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
@@ -47,6 +49,7 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
@@ -62,6 +65,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         },
@@ -72,16 +76,19 @@
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 34
                         },
                         "flags": 34,
+                        "transformFlags": 4096,
                         "start": 25,
                         "end": 34
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 34
             },
@@ -92,15 +99,18 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 37
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 37
         }
@@ -109,6 +119,7 @@
     "source": "'use strict'; function f(x = await){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -118,9 +129,8 @@
 
 ```javascript
 
-  "'use strict'";
-  function f(x = await) {}
-
+"'use strict'";
+function f(x = await) {}
 ```
 
 ### Diagnostics

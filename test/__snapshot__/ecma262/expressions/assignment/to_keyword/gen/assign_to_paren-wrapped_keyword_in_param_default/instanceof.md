@@ -29,6 +29,7 @@ async (x = (instanceof) = f) => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -44,6 +45,7 @@ async (x = (instanceof) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -60,12 +62,14 @@ async (x = (instanceof) = f) => {}
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 12
                                         },
                                         "operatorToken": {
                                             "kind": 4229173,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 22
                                         },
@@ -74,20 +78,24 @@ async (x = (instanceof) = f) => {}
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 22
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 12,
                                         "end": 22
                                     },
-                                    "flags": 32,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 23
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
@@ -96,20 +104,24 @@ async (x = (instanceof) = f) => {}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 10,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 28
                 },
@@ -117,6 +129,7 @@ async (x = (instanceof) = f) => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 31
                 },
@@ -127,18 +140,22 @@ async (x = (instanceof) = f) => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 34
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -147,6 +164,7 @@ async (x = (instanceof) = f) => {}
     "source": "async (x = (instanceof) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

@@ -46,6 +46,7 @@
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 3,
                                                     "end": 4
                                                 },
@@ -54,20 +55,24 @@
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 7
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 3,
                                                 "end": 7
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 7
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 1,
                                     "end": 8
                                 },
@@ -76,26 +81,31 @@
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 15
                                 },
                                 "flags": 48,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -104,14 +114,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -120,6 +133,7 @@
     "source": "[ {x: y}.length ] = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -128,9 +142,7 @@
 ### Printed
 
 ```javascript
-
-  [{ x: y }.length,] = x;
-
+[{ x: y }.length] = x;
 ```
 
 ### Diagnostics

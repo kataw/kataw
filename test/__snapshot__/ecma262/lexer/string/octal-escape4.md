@@ -22,10 +22,12 @@
                 "text": "\u000023a",
                 "rawText": "\"\\023a\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -34,6 +36,7 @@
     "source": "\"\\023a\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -42,9 +45,7 @@
 ### Printed
 
 ```javascript
-
-  "\"\023a\"";
-
+"\"\023a\"";
 ```
 
 ### Diagnostics

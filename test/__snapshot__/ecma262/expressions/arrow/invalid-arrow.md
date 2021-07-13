@@ -24,12 +24,14 @@ x = (a)?c:d=>{}=>{}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -42,16 +44,19 @@ x = (a)?c:d=>{}=>{}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 6
                         },
-                        "flags": 32,
-                        "start": 3,
+                        "flags": 3,
+                        "transformFlags": 0,
+                        "start": 32,
                         "end": 7
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
@@ -60,12 +65,14 @@ x = (a)?c:d=>{}=>{}
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
@@ -78,6 +85,7 @@ x = (a)?c:d=>{}=>{}
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
@@ -85,6 +93,7 @@ x = (a)?c:d=>{}=>{}
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -95,26 +104,32 @@ x = (a)?c:d=>{}=>{}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 35,
+                    "transformFlags": 4096,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         },
@@ -124,10 +139,12 @@ x = (a)?c:d=>{}=>{}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 19
         }
@@ -136,6 +153,7 @@ x = (a)?c:d=>{}=>{}
     "source": "x = (a)?c:d=>{}=>{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -22,6 +22,7 @@ this.#a;
                 "member": {
                     "kind": 4276321,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -30,14 +31,17 @@ this.#a;
                     "text": "#a",
                     "rawText": "#a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -46,6 +50,7 @@ this.#a;
     "source": "this.#a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

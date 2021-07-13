@@ -29,6 +29,7 @@ result = { x: x[yield] } = vals;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ result = { x: x[yield] } = vals;
                             "text": "vals",
                             "rawText": "vals",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
@@ -59,6 +61,7 @@ result = { x: x[yield] } = vals;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
@@ -67,33 +70,40 @@ result = { x: x[yield] } = vals;
                                             "text": 23,
                                             "rawText": "23",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 18
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 12,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 18
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 10,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -106,12 +116,14 @@ result = { x: x[yield] } = vals;
                     "text": "result",
                     "rawText": "result",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 29
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
@@ -130,6 +142,7 @@ result = { x: x[yield] } = vals;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
@@ -140,6 +153,7 @@ result = { x: x[yield] } = vals;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 38
                                         },
@@ -148,30 +162,36 @@ result = { x: x[yield] } = vals;
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 44
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 33,
                                         "end": 45
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 33,
                                     "end": 45
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 45
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 31,
                         "end": 47
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 49
                     },
@@ -180,18 +200,22 @@ result = { x: x[yield] } = vals;
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 49,
                         "end": 54
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 31,
                     "end": 54
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 21,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 55
         }
@@ -200,6 +224,7 @@ result = { x: x[yield] } = vals;
     "source": "var vals = { x: 23 };\n\nresult = { x: x[yield] } = vals;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }
@@ -208,9 +233,8 @@ result = { x: x[yield] } = vals;
 ### Printed
 
 ```javascript
-
-  var vals = { x: 23 };
-  result = { x: x[yield] } = vals;
+var vals = { x: 23 };
+result = { x: x[yield] } = vals;
 
 ```
 

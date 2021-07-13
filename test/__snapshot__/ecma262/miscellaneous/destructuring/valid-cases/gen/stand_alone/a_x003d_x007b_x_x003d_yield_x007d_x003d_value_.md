@@ -31,12 +31,14 @@ a = { x = yield } = value;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -54,6 +56,7 @@ a = { x = yield } = value;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 7
                                     },
@@ -62,26 +65,31 @@ a = { x = yield } = value;
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 15
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 15
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
@@ -90,18 +98,22 @@ a = { x = yield } = value;
                         "text": "value",
                         "rawText": "value",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -110,6 +122,7 @@ a = { x = yield } = value;
     "source": "a = { x = yield } = value;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -118,9 +131,7 @@ a = { x = yield } = value;
 ### Printed
 
 ```javascript
-
-  a = { x = yield } = value;
-
+a = { x = yield } = value;
 ```
 
 ### Diagnostics

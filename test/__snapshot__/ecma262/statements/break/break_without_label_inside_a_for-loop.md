@@ -20,6 +20,7 @@ for (;;) break
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -31,15 +32,18 @@ for (;;) break
                 "breakKeyword": {
                     "kind": 37757005,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "label": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -48,6 +52,7 @@ for (;;) break
     "source": "for (;;) break",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -56,10 +61,8 @@ for (;;) break
 ### Printed
 
 ```javascript
-
-  for (;;)
-    break;
-
+for (;;)
+  break;
 ```
 
 ### Diagnostics

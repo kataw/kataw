@@ -21,6 +21,7 @@ var foo = 1; let foo = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var foo = 1; let foo = 1;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -43,19 +45,23 @@ var foo = 1; let foo = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -64,6 +70,7 @@ var foo = 1; let foo = 1;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -77,6 +84,7 @@ var foo = 1; let foo = 1;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 20
                         },
@@ -86,19 +94,23 @@ var foo = 1; let foo = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 16,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 12,
             "end": 25
         }
@@ -107,6 +119,7 @@ var foo = 1; let foo = 1;
     "source": "var foo = 1; let foo = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

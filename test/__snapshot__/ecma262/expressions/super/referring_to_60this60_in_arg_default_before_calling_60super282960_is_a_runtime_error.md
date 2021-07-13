@@ -22,6 +22,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { constructor(x = this) { super[dad]; } }
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -91,6 +97,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 33
                                             },
@@ -99,16 +106,19 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                             "right": {
                                                 "kind": 4276321,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 40
                                             },
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 32,
                                             "end": 40
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2082,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 41
                                 },
@@ -126,6 +136,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 49
                                                     },
@@ -134,44 +145,54 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                         "text": "dad",
                                                         "rawText": "dad",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 53
                                                     },
                                                     "flags": 536870944,
+                                                    "transformFlags": 4,
                                                     "start": 43,
                                                     "end": 54
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 43,
                                                 "end": 55
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 55
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 57
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 57
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 57
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -180,6 +201,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
     "source": "class x extends y { constructor(x = this) { super[dad]; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }
@@ -188,13 +210,11 @@ class x extends y { constructor(x = this) { super[dad]; } }
 ### Printed
 
 ```javascript
-
-  class x extends y {
-    constructor(x = this) {
-      super[dad];
-    }
+class x extends y {
+  constructor(x = this) {
+    super[dad];
   }
-
+}
 ```
 
 ### Diagnostics

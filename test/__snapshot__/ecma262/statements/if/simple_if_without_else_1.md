@@ -20,6 +20,7 @@ if (foo) bar;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (foo) bar;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -38,16 +40,19 @@ if (foo) bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 8,
                 "end": 13
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -56,6 +61,7 @@ if (foo) bar;
     "source": "if (foo) bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -64,10 +70,7 @@ if (foo) bar;
 ### Printed
 
 ```javascript
-
-  if (foo)
-    bar;
-
+if (foo) bar;
 ```
 
 ### Diagnostics

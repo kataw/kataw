@@ -22,6 +22,7 @@ class c {foo(x=eval=y){ "use strict"; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -71,6 +74,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
@@ -83,12 +87,14 @@ class c {foo(x=eval=y){ "use strict"; }}
                                                     "text": "eval",
                                                     "rawText": "eval",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 19
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 20
                                                 },
@@ -97,20 +103,24 @@ class c {foo(x=eval=y){ "use strict"; }}
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 21
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 15,
                                                 "end": 21
                                             },
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 13,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 22
                                 },
@@ -125,37 +135,45 @@ class c {foo(x=eval=y){ "use strict"; }}
                                                 "text": "use strict",
                                                 "rawText": "\"use strict\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 36
                                             }
                                         ],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 39
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 39
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 39
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -164,6 +182,7 @@ class c {foo(x=eval=y){ "use strict"; }}
     "source": "class c {foo(x=eval=y){ \"use strict\"; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

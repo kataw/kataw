@@ -22,6 +22,7 @@ delete.500
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -30,14 +31,17 @@ delete.500
                     "text": 0.5,
                     "rawText": ".500",
                     "flags": 32864,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -46,6 +50,7 @@ delete.500
     "source": "delete.500",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -54,9 +59,7 @@ delete.500
 ### Printed
 
 ```javascript
-
-  delete  0.5;
-
+delete 0.5;
 ```
 
 ### Diagnostics

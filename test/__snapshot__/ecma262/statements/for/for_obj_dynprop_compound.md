@@ -28,6 +28,7 @@ for ({}.u |= c;;) x;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,10 +43,12 @@ for ({}.u |= c;;) x;
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 6
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 5,
                         "end": 7
                     },
@@ -54,16 +57,19 @@ for ({}.u |= c;;) x;
                         "text": "u",
                         "rawText": "u",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 48,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4136,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
@@ -72,10 +78,12 @@ for ({}.u |= c;;) x;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 14
             },
@@ -88,14 +96,17 @@ for ({}.u |= c;;) x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 17,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -104,6 +115,7 @@ for ({}.u |= c;;) x;
     "source": "for ({}.u |= c;;) x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -112,10 +124,7 @@ for ({}.u |= c;;) x;
 ### Printed
 
 ```javascript
-
-  for ({}.u |= c;;)
-    x;
-
+for ({}.u |= c; ; ) x;
 ```
 
 ### Diagnostics

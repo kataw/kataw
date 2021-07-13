@@ -20,10 +20,12 @@
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -32,6 +34,7 @@
     "source": "/* comment 1 */ debugger /* comment 2 */ ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -40,9 +43,7 @@
 ### Printed
 
 ```javascript
-/* comment 1 */
-  debugger/* comment 2 */;
-
+/* comment 1 */ /* comment 1 */ debugger/* comment 2 */ ;
 ```
 
 ### Diagnostics

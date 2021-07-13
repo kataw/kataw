@@ -22,10 +22,12 @@
                 "text": "a",
                 "rawText": "a",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         }
@@ -34,6 +36,7 @@
     "source": "`a`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }
@@ -42,9 +45,7 @@
 ### Printed
 
 ```javascript
-
-  `a`;
-
+`a`;
 ```
 
 ### Diagnostics

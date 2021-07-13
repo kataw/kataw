@@ -34,6 +34,7 @@
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 5
                             },
@@ -44,12 +45,14 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 7
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 9
                                 },
@@ -60,12 +63,14 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     },
                                     "operatorToken": {
                                         "kind": 4229173,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 22
                                     },
@@ -74,32 +79,39 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 11,
                                     "end": 24
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 5,
                                 "end": 24
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -108,6 +120,7 @@
     "source": "[ ... a + b instanceof c ]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -116,9 +129,7 @@
 ### Printed
 
 ```javascript
-
-  [...a + b instanceof c];
-
+[...a + b instanceof c];
 ```
 
 ### Diagnostics

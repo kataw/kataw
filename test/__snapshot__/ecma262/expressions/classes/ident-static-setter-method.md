@@ -22,6 +22,7 @@ class A {static set foo(x){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A {static set foo(x){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -47,6 +49,7 @@ class A {static set foo(x){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -55,6 +58,7 @@ class A {static set foo(x){}}
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -66,6 +70,7 @@ class A {static set foo(x){}}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 23
                                 },
@@ -78,12 +83,14 @@ class A {static set foo(x){}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -95,31 +102,38 @@ class A {static set foo(x){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 28
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -128,6 +142,7 @@ class A {static set foo(x){}}
     "source": "class A {static set foo(x){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -136,11 +151,9 @@ class A {static set foo(x){}}
 ### Printed
 
 ```javascript
-
-  class A {
-    static set foo(x) {}
-  }
-
+class A {
+  static set foo(x) {}
+}
 ```
 
 ### Diagnostics

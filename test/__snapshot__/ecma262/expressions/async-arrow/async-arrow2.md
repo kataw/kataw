@@ -31,6 +31,7 @@ async <T>() => {}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -46,6 +47,7 @@ async <T>() => {}
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -53,16 +55,19 @@ async <T>() => {}
                                 "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     },
                     "flags": 2097152,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 9
                 },
@@ -71,6 +76,7 @@ async <T>() => {}
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
@@ -78,6 +84,7 @@ async <T>() => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -88,18 +95,22 @@ async <T>() => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -108,6 +119,7 @@ async <T>() => {}
     "source": "async <T>() => {}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -116,9 +128,7 @@ async <T>() => {}
 ### Printed
 
 ```javascript
-
-  async <T>() => {};
-
+async <T>() => {};
 ```
 
 ### Diagnostics

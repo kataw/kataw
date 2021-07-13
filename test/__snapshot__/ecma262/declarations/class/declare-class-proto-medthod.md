@@ -28,6 +28,7 @@ declare class C { proto m(): void }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class C { proto m(): void }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class C { proto m(): void }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -58,6 +61,7 @@ declare class C { proto m(): void }
                             "protoKeyword": {
                                 "kind": 16873,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -69,6 +73,7 @@ declare class C { proto m(): void }
                                 "text": "m",
                                 "rawText": "m",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
@@ -80,6 +85,7 @@ declare class C { proto m(): void }
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 26
                                 },
@@ -90,33 +96,40 @@ declare class C { proto m(): void }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 33
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 33
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 33
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 33
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 35
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -125,6 +138,7 @@ declare class C { proto m(): void }
     "source": "declare class C { proto m(): void }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -133,9 +147,7 @@ declare class C { proto m(): void }
 ### Printed
 
 ```javascript
-
-  declare class C { proto m(): void }
-
+declare class C { proto m(): void }
 ```
 
 ### Diagnostics

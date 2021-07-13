@@ -20,6 +20,7 @@ try {} c\u0061tch  (x) {}sss
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try {} c\u0061tch  (x) {}sss
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -41,6 +44,7 @@ try {} c\u0061tch  (x) {}sss
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 16464,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 17
                 },
@@ -49,6 +53,7 @@ try {} c\u0061tch  (x) {}sss
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
@@ -58,20 +63,24 @@ try {} c\u0061tch  (x) {}sss
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 24
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 25
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 25
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -82,10 +91,12 @@ try {} c\u0061tch  (x) {}sss
                 "text": "sss",
                 "rawText": "sss",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 28
         }
@@ -94,6 +105,7 @@ try {} c\u0061tch  (x) {}sss
     "source": "try {} c\\u0061tch  (x) {}sss",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

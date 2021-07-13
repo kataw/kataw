@@ -27,6 +27,7 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 1
                         },
@@ -35,19 +36,23 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 2
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 2
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         },
@@ -58,10 +63,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 8
         }
@@ -70,6 +77,7 @@
     "source": "(,) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

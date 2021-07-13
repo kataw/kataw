@@ -27,6 +27,7 @@ for (var x in {}) label: function f() { };
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,6 +36,7 @@ for (var x in {}) label: function f() { };
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -48,27 +50,32 @@ for (var x in {}) label: function f() { };
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -79,10 +86,12 @@ for (var x in {}) label: function f() { };
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 13,
                 "end": 16
             },
@@ -93,12 +102,14 @@ for (var x in {}) label: function f() { };
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 23
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 24
                 },
@@ -109,6 +120,7 @@ for (var x in {}) label: function f() { };
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 33
                     },
@@ -118,6 +130,7 @@ for (var x in {}) label: function f() { };
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 35
                     },
@@ -127,6 +140,7 @@ for (var x in {}) label: function f() { };
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 36
                     },
@@ -137,29 +151,35 @@ for (var x in {}) label: function f() { };
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 39
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 41
                     },
                     "returnType": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 41
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 41
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 41,
             "end": 42
         }
@@ -168,6 +188,7 @@ for (var x in {}) label: function f() { };
     "source": "for (var x in {}) label: function f() { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

@@ -29,6 +29,7 @@ class C { static async prototype() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { static async prototype() {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,12 +56,14 @@ class C { static async prototype() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
@@ -73,6 +77,7 @@ class C { static async prototype() {} }
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 32
                                 },
@@ -82,6 +87,7 @@ class C { static async prototype() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 34
                                 },
@@ -93,31 +99,38 @@ class C { static async prototype() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 37
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 37
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 37
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 37
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -126,6 +139,7 @@ class C { static async prototype() {} }
     "source": "class C { static async prototype() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

@@ -30,6 +30,7 @@ foo /* 2*/ bar() {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ foo /* 2*/ bar() {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ foo /* 2*/ bar() {}
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 12
                                         },
@@ -67,15 +70,18 @@ foo /* 2*/ bar() {}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 24
                                         },
                                         "flags": 1,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 24
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 24
                             },
@@ -91,6 +97,7 @@ foo /* 2*/ bar() {}
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 35
                                 },
@@ -100,6 +107,7 @@ foo /* 2*/ bar() {}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -111,31 +119,38 @@ foo /* 2*/ bar() {}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 39
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 40
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 40
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -144,6 +159,7 @@ foo /* 2*/ bar() {}
     "source": "class x {\n\n@\n\n/*1*/\n\nfoo /* 2*/ bar() {}\n\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }
@@ -152,13 +168,9 @@ foo /* 2*/ bar() {}
 ### Printed
 
 ```javascript
-
-  class x {
-     /*1*/
-    @foo /* 2*/
-    bar() {}
-  }
-
+class x {
+  /*1*/ @foo /* 2*/ bar() {}
+}
 ```
 
 ### Diagnostics

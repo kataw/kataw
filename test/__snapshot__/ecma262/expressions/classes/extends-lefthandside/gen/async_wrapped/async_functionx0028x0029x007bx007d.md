@@ -30,12 +30,14 @@ async function p(){
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -45,6 +47,7 @@ async function p(){
                 "text": "p",
                 "rawText": "p",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -54,6 +57,7 @@ async function p(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -70,6 +74,7 @@ async function p(){
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 27
                             },
@@ -78,6 +83,7 @@ async function p(){
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
@@ -89,6 +95,7 @@ async function p(){
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 37
                                     },
@@ -97,12 +104,14 @@ async function p(){
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 43
                                         },
                                         "functionKeyword": {
                                             "kind": 37822554,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 52
                                         },
@@ -114,6 +123,7 @@ async function p(){
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 53,
                                             "end": 53
                                         },
@@ -124,20 +134,24 @@ async function p(){
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 55
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 56
                                         },
                                         "returnType": null,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 56
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 56
                                 },
@@ -145,28 +159,34 @@ async function p(){
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 58
                                 },
                                 "flags": 29,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 59
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 59
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 59
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -175,6 +195,7 @@ async function p(){
     "source": "async function p(){\n  class C extends async function(){} {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }
@@ -183,12 +204,9 @@ async function p(){
 ### Printed
 
 ```javascript
-
-  async function p() {
-    class C extends async function () {} {
-    }
-  }
-
+async function p() {
+  class C extends async function () {} {}
+}
 ```
 
 ### Diagnostics

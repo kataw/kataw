@@ -40,6 +40,7 @@ var foo = arr, [bar] = arr2;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,6 +54,7 @@ var foo = arr, [bar] = arr2;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -62,10 +64,12 @@ var foo = arr, [bar] = arr2;
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     },
@@ -81,16 +85,19 @@ var foo = arr, [bar] = arr2;
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 20
                         },
@@ -100,19 +107,23 @@ var foo = arr, [bar] = arr2;
                             "text": "arr2",
                             "rawText": "arr2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 27
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 14,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -121,6 +132,7 @@ var foo = arr, [bar] = arr2;
     "source": "var foo = arr, [bar] = arr2;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -129,9 +141,7 @@ var foo = arr, [bar] = arr2;
 ### Printed
 
 ```javascript
-
-  var foo = arr, [bar] = arr2;
-
+var foo = arr, [bar] = arr2;
 ```
 
 ### Diagnostics

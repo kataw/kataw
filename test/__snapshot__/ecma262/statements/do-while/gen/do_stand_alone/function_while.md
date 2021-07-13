@@ -27,6 +27,7 @@ do function while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,6 +38,7 @@ do function while
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 11
                 },
@@ -48,6 +50,7 @@ do function while
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
@@ -58,21 +61,25 @@ do function while
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 11
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -81,10 +88,12 @@ do function while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -93,6 +102,7 @@ do function while
     "source": "do function while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

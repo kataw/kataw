@@ -29,6 +29,7 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 7
                                 },
@@ -42,6 +43,7 @@
                                         "text": "typeof",
                                         "rawText": "typeof",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 14
                                     },
@@ -51,6 +53,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -62,36 +65,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 18
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 18
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -100,6 +111,7 @@
     "source": "({async typeof(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -108,9 +120,7 @@
 ### Printed
 
 ```javascript
-
-  ({ async typeof() {} });
-
+({ async typeof() {} });
 ```
 
 ### Diagnostics

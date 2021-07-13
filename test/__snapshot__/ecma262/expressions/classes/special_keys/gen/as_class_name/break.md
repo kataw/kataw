@@ -29,6 +29,7 @@ class break {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class break {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class break {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -64,6 +69,7 @@ class break {}
             "breakKeyword": {
                 "kind": 37757005,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },
@@ -72,10 +78,12 @@ class break {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 11
         },
@@ -85,10 +93,12 @@ class break {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 14
         }
@@ -97,6 +107,7 @@ class break {}
     "source": "class break {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

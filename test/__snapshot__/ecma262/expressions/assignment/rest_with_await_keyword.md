@@ -28,6 +28,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": "protected",
                                                 "rawText": "prot\\u0065cted",
                                                 "flags": 16480,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 24
                                             },
@@ -68,26 +71,31 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             },
                                             "flags": 16416,
+                                            "transformFlags": 128,
                                             "start": 9,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16400,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 27
                                 },
                                 "flags": 16432,
+                                "transformFlags": 8,
                                 "start": 7,
                                 "end": 29
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
@@ -104,6 +112,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": "protected",
                                                 "rawText": "protected",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 43
                                             },
@@ -112,37 +121,45 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 47
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 33,
                                             "end": 47
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 47
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 31,
                                 "end": 49
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 49
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 49
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -151,6 +168,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
     "source": "var y = { prot\\u0065cted: x } = { protected: 42 };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }
@@ -159,9 +177,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 ### Printed
 
 ```javascript
-
-  var y = { prot\u0065cted: x } = { protected: 42 };
-
+var y = { prot\u0065cted: x } = { protected: 42 };
 ```
 
 ### Diagnostics

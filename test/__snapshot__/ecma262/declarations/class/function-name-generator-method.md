@@ -24,6 +24,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,6 +33,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -53,6 +55,7 @@ class A {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
+                                "transformFlags": 32,
                                 "start": 9,
                                 "end": 13
                             },
@@ -63,6 +66,7 @@ class A {
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -72,6 +76,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 },
@@ -83,31 +88,38 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 23
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -116,6 +128,7 @@ class A {
     "source": "class A {\n  *yield() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -124,11 +137,9 @@ class A {
 ### Printed
 
 ```javascript
-
-  class A {
-    * yield() {}
-  }
-
+class A {
+  *yield() {}
+}
 ```
 
 ### Diagnostics

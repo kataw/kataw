@@ -29,6 +29,7 @@ class for {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class for {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class for {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -64,6 +69,7 @@ class for {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -74,10 +80,12 @@ class for {}
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 9,
                 "end": 12
             },
@@ -86,6 +94,7 @@ class for {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -94,6 +103,7 @@ class for {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -104,14 +114,17 @@ class for {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 12,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 5,
             "end": 12
         }
@@ -120,6 +133,7 @@ class for {}
     "source": "class for {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

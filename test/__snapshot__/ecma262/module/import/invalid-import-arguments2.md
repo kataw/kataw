@@ -26,6 +26,7 @@ import { arguments } from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { arguments } from 'm.js';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 25
                 },
@@ -44,10 +46,12 @@ import { arguments } from 'm.js';
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 32
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 32
             },
@@ -72,27 +76,33 @@ import { arguments } from 'm.js';
                                     "text": "arguments",
                                     "rawText": "arguments",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 18
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 18
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 18
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -101,6 +111,7 @@ import { arguments } from 'm.js';
     "source": "import { arguments } from 'm.js';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -27,6 +27,7 @@ var int\u0065rface = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var int\u0065rface = 1;
                             "text": "implements",
                             "rawText": "impl\\u0065ments",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 19
                         },
@@ -49,19 +51,23 @@ var int\u0065rface = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -71,6 +77,7 @@ var int\u0065rface = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 29
             },
@@ -89,16 +96,19 @@ var int\u0065rface = 1;
                                         "text": "implements",
                                         "rawText": "impl\\u0065ments",
                                         "flags": 16480,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 47
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16416,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 47
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 50
                         },
@@ -110,23 +120,28 @@ var int\u0065rface = 1;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 54
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 52,
                             "end": 55
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 29,
                         "end": 55
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 56
         },
@@ -136,6 +151,7 @@ var int\u0065rface = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 61
             },
@@ -154,16 +170,19 @@ var int\u0065rface = 1;
                                         "text": "interface",
                                         "rawText": "int\\u0065rface",
                                         "flags": 16480,
+                                        "transformFlags": 0,
                                         "start": 63,
                                         "end": 78
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16416,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 78
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 61,
                             "end": 81
                         },
@@ -175,23 +194,28 @@ var int\u0065rface = 1;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 85
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 83,
                             "end": 86
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 61,
                         "end": 86
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 56,
             "end": 87
         },
@@ -201,6 +225,7 @@ var int\u0065rface = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 92
             },
@@ -214,6 +239,7 @@ var int\u0065rface = 1;
                             "text": "interface",
                             "rawText": "int\\u0065rface",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 107
                         },
@@ -223,19 +249,23 @@ var int\u0065rface = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 111
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 92,
                         "end": 111
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 111
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 87,
             "end": 112
         }
@@ -244,6 +274,7 @@ var int\u0065rface = 1;
     "source": "var impl\\u0065ments = 1;\n\nvar { impl\\u0065ments  } = {};\n\nvar { int\\u0065rface  } = {};\n\nvar int\\u0065rface = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 112
 }
@@ -252,15 +283,12 @@ var int\u0065rface = 1;
 ### Printed
 
 ```javascript
+var impl\u0065ments = 1;
+var { impl\u0065ments } = {};
 
-  var impl\u0065ments = 1;
-  var {
-    impl\u0065ments
-  } = {};
-  var {
-    int\u0065rface
-  } = {};
-  var int\u0065rface = 1;
+var { int\u0065rface } = {};
+
+var int\u0065rface = 1;
 
 ```
 

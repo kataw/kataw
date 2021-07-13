@@ -30,6 +30,7 @@ const test = (names: string[]) =>
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -43,6 +44,7 @@ const test = (names: string[]) =>
                             "text": "test",
                             "rawText": "test",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 10
                         },
@@ -62,6 +64,7 @@ const test = (names: string[]) =>
                                             "text": "names",
                                             "rawText": "names",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 19
                                         },
@@ -75,25 +78,30 @@ const test = (names: string[]) =>
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 27
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 29
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 29
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 12,
                                         "end": 29
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 30
                             },
@@ -101,6 +109,7 @@ const test = (names: string[]) =>
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 33
                             },
@@ -109,6 +118,7 @@ const test = (names: string[]) =>
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 72
                                 },
@@ -117,6 +127,7 @@ const test = (names: string[]) =>
                                     "text": "names",
                                     "rawText": "names",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 70
                                 },
@@ -132,14 +143,17 @@ const test = (names: string[]) =>
                                                 "text": "filter",
                                                 "rawText": "filter",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 72,
                                                 "end": 78
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 72,
                                             "end": 78
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 78
                                     },
@@ -156,6 +170,7 @@ const test = (names: string[]) =>
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 79,
                                                     "end": 80
                                                 },
@@ -163,6 +178,7 @@ const test = (names: string[]) =>
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 80,
                                                     "end": 83
                                                 },
@@ -171,41 +187,50 @@ const test = (names: string[]) =>
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 83,
                                                     "end": 85
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 85
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 79,
                                         "end": 85
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 78,
                                     "end": 86
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 86
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 86
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 86
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 86
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 87
         }
@@ -214,6 +239,7 @@ const test = (names: string[]) =>
     "source": "const test = (names: string[]) =>\n    // single-line comment\n    names?.filter(x => x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 87
 }
@@ -222,11 +248,8 @@ const test = (names: string[]) =>
 ### Printed
 
 ```javascript
-
-  const test = (names: string[]) => 
-   // single-line comment
-  names?.filter(x => x);
-
+const test = (names: string[]) => // single-line comment
+    names?.filter(x => x);
 ```
 
 ### Diagnostics

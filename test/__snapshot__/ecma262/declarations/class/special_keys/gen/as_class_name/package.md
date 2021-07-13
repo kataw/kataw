@@ -29,6 +29,7 @@ class package {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class package {}
                 "text": "package",
                 "rawText": "package",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 13
             },
@@ -48,14 +50,17 @@ class package {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -64,6 +69,7 @@ class package {}
     "source": "class package {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

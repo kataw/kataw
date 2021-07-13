@@ -29,6 +29,7 @@ var a : A.B
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a : A.B
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -58,6 +60,7 @@ var a : A.B
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 9
                                     },
@@ -66,33 +69,40 @@ var a : A.B
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 11
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 11
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 11
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -101,6 +111,7 @@ var a : A.B
     "source": "var a : A.B",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -109,9 +120,7 @@ var a : A.B
 ### Printed
 
 ```javascript
-
-  var a: A.B;
-
+var a: A.B;
 ```
 
 ### Diagnostics

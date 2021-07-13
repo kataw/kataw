@@ -31,6 +31,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -39,6 +40,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "text": "O1",
                 "rawText": "O1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -46,6 +48,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
@@ -63,6 +66,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -87,6 +91,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                         "text": "p",
                                                         "rawText": "p",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 16
                                                     },
@@ -102,25 +107,30 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 17,
                                                                 "end": 18
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 18
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 18
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 18
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 19
                                         },
@@ -138,6 +148,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                         "text": "q",
                                                         "rawText": "q",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 22
                                                     },
@@ -153,52 +164,63 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                                 "text": "U",
                                                                 "rawText": "U",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 23,
                                                                 "end": 24
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 23,
                                                             "end": 24
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 24
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 24
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 25
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 25
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 26
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 26
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         },
@@ -208,6 +230,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 33
             },
@@ -216,6 +239,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "text": "UnsealedInUnion",
                 "rawText": "UnsealedInUnion",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 49
             },
@@ -223,6 +247,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 51
             },
@@ -240,11 +265,13 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                 "text": "Union1",
                                 "rawText": "Union1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 58
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 58
                         },
@@ -255,11 +282,13 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                 "text": "Union2",
                                 "rawText": "Union2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 67
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 67
                         },
@@ -268,6 +297,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "typeOfKeyword": {
                                 "kind": 138477613,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 76
                             },
@@ -278,28 +308,34 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 76,
                                     "end": 78
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 78
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 69,
                             "end": 78
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 78
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 78
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 27,
             "end": 79
         }
@@ -308,6 +344,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
     "source": "type O1 = {...{p:T}|{q:U}};\n\ntype UnsealedInUnion = Union1 | Union2 | typeof y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 79
 }
@@ -316,9 +353,8 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
 ### Printed
 
 ```javascript
-
-  type O1 = { ...{ p: T } | { q: U } }
-  type UnsealedInUnion = Union1 | Union2 | typeof y
+type O1 = { ...{ p: T } | { q: U } }
+type UnsealedInUnion = Union1 | Union2 | typeof y
 
 ```
 

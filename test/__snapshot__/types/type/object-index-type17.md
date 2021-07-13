@@ -29,6 +29,7 @@ var obj: { [user_id: number]: string } = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var obj: { [user_id: number]: string } = {};
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -61,6 +63,7 @@ var obj: { [user_id: number]: string } = {};
                                             "text": "user_id",
                                             "rawText": "user_id",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -71,10 +74,12 @@ var obj: { [user_id: number]: string } = {};
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 27
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 27
                                         },
@@ -85,24 +90,29 @@ var obj: { [user_id: number]: string } = {};
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 36
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 36
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 38
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 38
                         },
@@ -113,23 +123,28 @@ var obj: { [user_id: number]: string } = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 42
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 40,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 43
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -138,6 +153,7 @@ var obj: { [user_id: number]: string } = {};
     "source": "var obj: { [user_id: number]: string } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -146,9 +162,7 @@ var obj: { [user_id: number]: string } = {};
 ### Printed
 
 ```javascript
-
-  var obj: { [user_idnumber]:  string } = {};
-
+var obj: { [number]: string } = {};
 ```
 
 ### Diagnostics

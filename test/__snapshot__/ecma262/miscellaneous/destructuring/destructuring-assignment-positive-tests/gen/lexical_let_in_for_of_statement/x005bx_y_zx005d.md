@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -49,12 +51,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 19
                     },
@@ -65,12 +69,14 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 20,
                         "end": 22
                     },
@@ -81,21 +87,25 @@
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 23,
                         "end": 25
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 25
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 26
         },
@@ -104,6 +114,7 @@
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 30
             },
@@ -113,12 +124,14 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
@@ -134,6 +147,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 39
                             },
@@ -142,6 +156,7 @@
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 41
                             },
@@ -150,22 +165,26 @@
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 43
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 43
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 36,
                     "end": 44
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 46
                 },
@@ -176,24 +195,29 @@
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 48
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 46,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 36,
                 "end": 49
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 51
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 26,
             "end": 51
         }
@@ -202,6 +226,7 @@
     "source": "'use strict'; let x, y, z; for (x of [x,y,z] = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }
@@ -211,10 +236,9 @@
 
 ```javascript
 
-  "'use strict'";
-  let x, y, z;
-  for (x of [x, y, z,] = {})
-    ;
+"'use strict'";
+let x, y, z;
+for (x of [x, y, z] = {});
 
 ```
 

@@ -28,12 +28,14 @@ export default async x => y, z;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -47,6 +49,7 @@ export default async x => y, z;
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
@@ -59,12 +62,14 @@ export default async x => y, z;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -72,6 +77,7 @@ export default async x => y, z;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
@@ -80,10 +86,12 @@ export default async x => y, z;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 29
                         },
@@ -92,19 +100,23 @@ export default async x => y, z;
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 14,
                     "end": 32
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         },
@@ -113,12 +125,14 @@ export default async x => y, z;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 41
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 49
             },
@@ -132,6 +146,7 @@ export default async x => y, z;
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 55
                             },
@@ -141,6 +156,7 @@ export default async x => y, z;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 57
                             },
@@ -148,6 +164,7 @@ export default async x => y, z;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 60
                             },
@@ -156,10 +173,12 @@ export default async x => y, z;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 62
                         },
@@ -168,19 +187,23 @@ export default async x => y, z;
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 65
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 49,
                     "end": 65
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 49,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 66
         }
@@ -189,6 +212,7 @@ export default async x => y, z;
     "source": "export default async (x) => y, z;\n\nexport default async x => y, z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 66
 }
@@ -197,9 +221,8 @@ export default async x => y, z;
 ### Printed
 
 ```javascript
-
-  export default async (x) => y, z;;
-  export default async x => y, z;;
+export default async (x) => y, z;;
+export default async x => y, z;;
 
 ```
 

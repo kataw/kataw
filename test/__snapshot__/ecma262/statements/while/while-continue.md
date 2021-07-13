@@ -20,12 +20,14 @@ while (true) { continue /* Multiline\nComment */there; }
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -39,6 +41,7 @@ while (true) { continue /* Multiline\nComment */there; }
                             "continueKeyword": {
                                 "kind": 37757009,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 23
                             },
@@ -47,23 +50,28 @@ while (true) { continue /* Multiline\nComment */there; }
                                 "text": "there",
                                 "rawText": "there",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 53
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 54
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 54
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 56
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -72,6 +80,7 @@ while (true) { continue /* Multiline\nComment */there; }
     "source": "while (true) { continue /* Multiline\\nComment */there; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

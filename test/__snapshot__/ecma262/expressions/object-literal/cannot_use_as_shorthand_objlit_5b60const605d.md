@@ -29,24 +29,29 @@
                                 "text": "const",
                                 "rawText": "const",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 7
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 7
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 8
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -55,6 +60,7 @@
     "source": "({const});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

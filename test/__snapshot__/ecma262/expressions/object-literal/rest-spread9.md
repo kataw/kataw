@@ -20,6 +20,7 @@ let { x, y, } = obj;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ let { x, y, } = obj;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 7
                                     },
@@ -46,16 +48,19 @@ let { x, y, } = obj;
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 13
                         },
@@ -65,19 +70,23 @@ let { x, y, } = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 19
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -86,6 +95,7 @@ let { x, y, } = obj;
     "source": "let { x, y, } = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -94,12 +104,7 @@ let { x, y, } = obj;
 ### Printed
 
 ```javascript
-
-  let {
-    x,
-    y,
-  } = obj;
-
+let { x, y } = obj;
 ```
 
 ### Diagnostics

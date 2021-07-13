@@ -30,6 +30,7 @@
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 9
                             },
@@ -44,12 +45,14 @@
                                         "text": "obj",
                                         "rawText": "obj",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -60,15 +63,18 @@
                                     "directives": [],
                                     "statements": [],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 18
                         },
@@ -77,10 +83,12 @@
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 2,
                         "start": 1,
                         "end": 24
                     },
@@ -90,6 +98,7 @@
                             {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 29
                             },
@@ -108,54 +117,65 @@
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 36
                                                         },
                                                         "argument": {
                                                             "kind": 138477575,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 40
                                                         },
                                                         "flags": 1073741856,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 40
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 40
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 32,
                                             "end": 41
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 41
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 30,
                                 "end": 42
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 42
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 1,
                     "end": 43
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 45
         }
@@ -164,6 +184,7 @@
     "source": "(function(obj) {\n}.apply(null, [{...null}]));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -172,10 +193,7 @@
 ### Printed
 
 ```javascript
-
-  (function (obj) {
-  }.apply(null, [{ ...null },]));
-
+(function (obj) {}.apply(null, [{ ...null }]));
 ```
 
 ### Diagnostics

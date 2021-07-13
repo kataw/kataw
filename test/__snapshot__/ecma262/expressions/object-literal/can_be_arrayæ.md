@@ -24,12 +24,14 @@ x = {...[a, b]}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -43,6 +45,7 @@ x = {...[a, b]}
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -56,6 +59,7 @@ x = {...[a, b]}
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             },
@@ -64,38 +68,46 @@ x = {...[a, b]}
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 13
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 13
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 8,
                                     "end": 14
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 14
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -104,6 +116,7 @@ x = {...[a, b]}
     "source": "x = {...[a, b]}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -112,9 +125,7 @@ x = {...[a, b]}
 ### Printed
 
 ```javascript
-
-  x = { ...[a, b,] };
-
+x = { ...[a, b] };
 ```
 
 ### Diagnostics

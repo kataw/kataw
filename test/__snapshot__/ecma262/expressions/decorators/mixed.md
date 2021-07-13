@@ -33,6 +33,7 @@ class MyComponent {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 65,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 54
                         },
@@ -41,21 +42,25 @@ class MyComponent {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 57
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 54,
                         "end": 57
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 57
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 63
             },
@@ -64,6 +69,7 @@ class MyComponent {
                 "text": "MyComponent",
                 "rawText": "MyComponent",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 75
             },
@@ -85,6 +91,7 @@ class MyComponent {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 77,
                                             "end": 81
                                         },
@@ -93,15 +100,18 @@ class MyComponent {
                                             "text": "task",
                                             "rawText": "task",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 81,
                                             "end": 85
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 81,
                                         "end": 85
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 85
                             },
@@ -112,6 +122,7 @@ class MyComponent {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
+                                "transformFlags": 32,
                                 "start": 85,
                                 "end": 89
                             },
@@ -122,6 +133,7 @@ class MyComponent {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 89,
                                     "end": 92
                                 },
@@ -131,6 +143,7 @@ class MyComponent {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 93,
                                     "end": 94
                                 },
@@ -142,31 +155,38 @@ class MyComponent {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 96,
                                         "end": 96
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 100
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 100
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 77,
                             "end": 100
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 100
                 },
                 "flags": 75,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 102
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 102
         }
@@ -175,6 +195,7 @@ class MyComponent {
     "source": "// https://github.com/prettier/prettier/issues/6747\n\n@foo\nclass MyComponent {\n  @task\n  *foo() {\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 102
 }
@@ -184,14 +205,11 @@ class MyComponent {
 
 ```javascript
 // https://github.com/prettier/prettier/issues/6747
-   // https://github.com/prettier/prettier/issues/6747
-  @foo
-  class MyComponent {
-    @task
-    * foo() {
-    }
-  }
-
+// https://github.com/prettier/prettier/issues/6747
+@foo
+class MyComponent {
+  @task *foo() {}
+}
 ```
 
 ### Diagnostics

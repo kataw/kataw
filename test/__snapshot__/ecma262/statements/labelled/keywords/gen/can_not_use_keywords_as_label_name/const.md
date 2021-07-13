@@ -27,6 +27,7 @@ const: x
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,10 +35,12 @@ const: x
                 "kind": 151,
                 "bindingList": [],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -48,10 +51,12 @@ const: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 8
         }
@@ -60,6 +65,7 @@ const: x
     "source": "const: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

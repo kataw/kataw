@@ -36,6 +36,7 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 5
                             },
@@ -55,16 +56,19 @@
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 7,
                                                         "end": 17
                                                     },
                                                     "right": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 23
                                                     },
                                                     "flags": 36,
+                                                    "transformFlags": 128,
                                                     "start": 7,
                                                     "end": 23
                                                 },
@@ -76,16 +80,19 @@
                                                         "text": "other",
                                                         "rawText": "other",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 30
                                                     },
                                                     "right": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 36
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 24,
                                                     "end": 36
                                                 },
@@ -97,49 +104,59 @@
                                                         "text": "__proto__",
                                                         "rawText": "\"__proto__\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 49
                                                     },
                                                     "right": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 55
                                                     },
                                                     "flags": 36,
+                                                    "transformFlags": 128,
                                                     "start": 37,
                                                     "end": 55
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 20,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 55
                                         },
                                         "flags": 52,
+                                        "transformFlags": 8,
                                         "start": 6,
                                         "end": 57
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 57
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 1,
                             "end": 58
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 59
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -148,6 +165,7 @@
     "source": "{ foo({ __proto__: null, other: null, \"__proto__\": null }); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

@@ -22,6 +22,7 @@ function f(){ do        { continue }     while(true);}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ do        { continue }     while(true);}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ do        { continue }     while(true);}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function f(){ do        { continue }     while(true);}
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
@@ -67,50 +71,60 @@ function f(){ do        { continue }     while(true);}
                                             "continueKeyword": {
                                                 "kind": 37757009,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 34
                                             },
                                             "label": null,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 34
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 34
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 36
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 46
                             },
                             "expression": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 51
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 53
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 53
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 54
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 54
         }
@@ -119,6 +133,7 @@ function f(){ do        { continue }     while(true);}
     "source": "function f(){ do        { continue }     while(true);}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }
@@ -127,13 +142,12 @@ function f(){ do        { continue }     while(true);}
 ### Printed
 
 ```javascript
-
-  function f() {
-    do {
+function f() {
+  do  {
       continue;
-    } while (true)
-  }
-
+    }
+  while (true);
+}
 ```
 
 ### Diagnostics

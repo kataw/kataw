@@ -33,28 +33,33 @@ test !== false ? success() : error()
                         "text": "test",
                         "rawText": "test",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 4
                     },
                     "operatorToken": {
                         "kind": 34621,
                         "flags": 96,
+                        "transformFlags": 16,
                         "start": 4,
                         "end": 8
                     },
                     "right": {
                         "kind": 205586437,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 14
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -65,6 +70,7 @@ test !== false ? success() : error()
                         "text": "success",
                         "rawText": "success",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 24
                     },
@@ -73,16 +79,19 @@ test !== false ? success() : error()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 16,
                     "end": 26
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
@@ -93,6 +102,7 @@ test !== false ? success() : error()
                         "text": "error",
                         "rawText": "error",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 34
                     },
@@ -101,18 +111,22 @@ test !== false ? success() : error()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 35
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 28,
                     "end": 36
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -121,6 +135,7 @@ test !== false ? success() : error()
     "source": "test !== false ? success() : error()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -129,9 +144,7 @@ test !== false ? success() : error()
 ### Printed
 
 ```javascript
-
-  test !== false ? success() : error();
-
+test !== false ? success() : error();
 ```
 
 ### Diagnostics

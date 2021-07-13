@@ -33,6 +33,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -61,6 +63,7 @@ class C {
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -72,6 +75,7 @@ class C {
                                     "text": "X",
                                     "rawText": "X",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -87,6 +91,7 @@ class C {
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 21
                                             },
@@ -97,16 +102,19 @@ class C {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 546,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 26
                                 },
@@ -118,18 +126,22 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 30
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 30
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 30
                         },
@@ -140,6 +152,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 41
                             },
@@ -148,6 +161,7 @@ class C {
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 45
                             },
@@ -159,6 +173,7 @@ class C {
                                     "text": "X",
                                     "rawText": "X",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 47
                                 },
@@ -174,6 +189,7 @@ class C {
                                                 "text": "v2",
                                                 "rawText": "v2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 50
                                             },
@@ -184,16 +200,19 @@ class C {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 54
                                             },
                                             "flags": 34,
+                                            "transformFlags": 4096,
                                             "start": 48,
                                             "end": 54
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 546,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 55
                                 },
@@ -205,31 +224,38 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 57,
                                         "end": 57
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 59
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 59
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 59
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 59
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -238,6 +264,7 @@ class C {
     "source": "class C {\n    set X(v = 0) { }\n    static set X(v2 = 0) { }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }
@@ -246,12 +273,10 @@ class C {
 ### Printed
 
 ```javascript
-
-  class C {
-    set X(v = 0) {}
-    static set X(v2 = 0) {}
-  }
-
+class C {
+  set X(v = 0) {}
+  static set X(v2 = 0) {}
+}
 ```
 
 ### Diagnostics

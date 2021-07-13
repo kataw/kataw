@@ -22,6 +22,7 @@ async (a = 1, b = 2) => x;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -37,6 +38,7 @@ async (a = 1, b = 2) => x;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -47,10 +49,12 @@ async (a = 1, b = 2) => x;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 7,
                             "end": 12
                         },
@@ -62,6 +66,7 @@ async (a = 1, b = 2) => x;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -72,16 +77,19 @@ async (a = 1, b = 2) => x;
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 4096,
                             "start": 13,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 20
                 },
@@ -89,6 +97,7 @@ async (a = 1, b = 2) => x;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -97,14 +106,17 @@ async (a = 1, b = 2) => x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
                 "flags": 290,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -113,6 +125,7 @@ async (a = 1, b = 2) => x;
     "source": "async (a = 1, b = 2) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -121,9 +134,7 @@ async (a = 1, b = 2) => x;
 ### Printed
 
 ```javascript
-
-  async (a = 1, b = 2) => x;
-
+async (a = 1, b = 2) => x;
 ```
 
 ### Diagnostics

@@ -29,10 +29,12 @@ yield /* comment */\n {yield: 42}
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -43,10 +45,12 @@ yield /* comment */\n {yield: 42}
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 21
         },
@@ -62,12 +66,14 @@ yield /* comment */\n {yield: 42}
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 28
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 29
                         },
@@ -78,23 +84,28 @@ yield /* comment */\n {yield: 42}
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 29,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 33
         }
@@ -103,6 +114,7 @@ yield /* comment */\n {yield: 42}
     "source": "yield /* comment */\\n {yield: 42}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -27,6 +27,7 @@ for (new a in b in c in d) break
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,6 +36,7 @@ for (new a in b in c in d) break
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -43,17 +45,20 @@ for (new a in b in c in d) break
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 5,
                 "end": 10
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -66,12 +71,14 @@ for (new a in b in c in d) break
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -80,16 +87,19 @@ for (new a in b in c in d) break
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 13,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -98,10 +108,12 @@ for (new a in b in c in d) break
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 13,
                 "end": 25
             },
@@ -110,15 +122,18 @@ for (new a in b in c in d) break
                 "breakKeyword": {
                     "kind": 37757005,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 32
                 },
                 "label": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 32
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -127,6 +142,7 @@ for (new a in b in c in d) break
     "source": "for (new a in b in c in d) break",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

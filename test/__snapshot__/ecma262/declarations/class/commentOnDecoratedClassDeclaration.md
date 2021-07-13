@@ -48,6 +48,7 @@ class AnotherRomote {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 65,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 28
                         },
@@ -58,6 +59,7 @@ class AnotherRomote {
                                 "text": "decorator",
                                 "rawText": "decorator",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 37
                             },
@@ -69,31 +71,37 @@ class AnotherRomote {
                                         "text": "hello",
                                         "rawText": "\"hello\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 45
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 45
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 28,
                             "end": 46
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 46
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 46
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 52
             },
@@ -102,6 +110,7 @@ class AnotherRomote {
                 "text": "Remote",
                 "rawText": "Remote",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 59
             },
@@ -113,14 +122,17 @@ class AnotherRomote {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 61,
                     "end": 61
                 },
                 "flags": 59,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 63
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         },
@@ -135,6 +147,7 @@ class AnotherRomote {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 65,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 95
                         },
@@ -145,6 +158,7 @@ class AnotherRomote {
                                 "text": "decorator",
                                 "rawText": "decorator",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 104
                             },
@@ -156,31 +170,37 @@ class AnotherRomote {
                                         "text": "hi",
                                         "rawText": "\"hi\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 105,
                                         "end": 109
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 105,
                                 "end": 109
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 95,
                             "end": 110
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 95,
                         "end": 110
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 110
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 116
             },
@@ -189,6 +209,7 @@ class AnotherRomote {
                 "text": "AnotherRomote",
                 "rawText": "AnotherRomote",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 116,
                 "end": 130
             },
@@ -215,6 +236,7 @@ class AnotherRomote {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 148
                                 },
@@ -224,6 +246,7 @@ class AnotherRomote {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 149,
                                     "end": 150
                                 },
@@ -235,31 +258,38 @@ class AnotherRomote {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 152,
                                         "end": 152
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 150,
                                     "end": 153
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 148,
                                 "end": 153
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 132,
                             "end": 153
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 132,
                     "end": 153
                 },
                 "flags": 130,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 155
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 63,
             "end": 155
         }
@@ -268,6 +298,7 @@ class AnotherRomote {
     "source": "\n/**\n * Leading trivia\n */\n@decorator(\"hello\")\nclass Remote { }\n\n/**\n * Floating Comment\n */\n\n@decorator(\"hi\")\nclass AnotherRomote {\n    constructor() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 155
 }
@@ -279,22 +310,18 @@ class AnotherRomote {
 /**
  * Leading trivia
  */
-   /**
+/**
  * Leading trivia
  */
-  @decorator("\"hello\"")
-  class Remote {
-  }
-   /**
+@decorator("\"hello\"")
+class Remote {}
+/**
  * Floating Comment
  */
-   /**
- * Floating Comment
- */
-  @decorator("\"hi\"")
-  class AnotherRomote {
-    constructor() {}
-  }
+@decorator("\"hi\"")
+class AnotherRomote {
+  constructor() {}
+}
 
 ```
 

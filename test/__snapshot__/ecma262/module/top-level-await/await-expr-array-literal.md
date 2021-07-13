@@ -28,6 +28,7 @@ await []
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,18 +39,22 @@ await []
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 7
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -58,6 +63,7 @@ await []
     "source": "await []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -66,9 +72,7 @@ await []
 ### Printed
 
 ```javascript
-
-  await [];
-
+await [];
 ```
 
 ### Diagnostics

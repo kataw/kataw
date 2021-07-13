@@ -67,12 +67,14 @@ var fnNumber = /* comments0 */
                     "text": "fnNumber",
                     "rawText": "fnNumber",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -81,14 +83,17 @@ var fnNumber = /* comments0 */
                     "text": 3,
                     "rawText": "3",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 28
         },
@@ -101,12 +106,14 @@ var fnNumber = /* comments0 */
                     "text": "fnNumber",
                     "rawText": "fnNumber",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 38
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 40
                 },
@@ -115,14 +122,17 @@ var fnNumber = /* comments0 */
                     "text": 3,
                     "rawText": "3",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 59
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 28,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 28,
             "end": 60
         },
@@ -135,12 +145,14 @@ var fnNumber = /* comments0 */
                     "text": "fnNumber",
                     "rawText": "fnNumber",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 70
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 72
                 },
@@ -149,14 +161,17 @@ var fnNumber = /* comments0 */
                     "text": 3,
                     "rawText": "3",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 104
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 60,
                 "end": 104
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 60,
             "end": 105
         },
@@ -169,12 +184,14 @@ var fnNumber = /* comments0 */
                     "text": "fnNumber",
                     "rawText": "fnNumber",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 105,
                     "end": 115
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 115,
                     "end": 117
                 },
@@ -183,14 +200,17 @@ var fnNumber = /* comments0 */
                     "text": 3,
                     "rawText": "3",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 117,
                     "end": 135
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 105,
                 "end": 135
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 105,
             "end": 136
         },
@@ -203,12 +223,14 @@ var fnNumber = /* comments0 */
                     "text": "fnNumber",
                     "rawText": "fnNumber",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 136,
                     "end": 146
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 146,
                     "end": 148
                 },
@@ -217,14 +239,17 @@ var fnNumber = /* comments0 */
                     "text": 3,
                     "rawText": "3",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 148,
                     "end": 186
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 136,
                 "end": 186
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 136,
             "end": 187
         },
@@ -237,12 +262,14 @@ var fnNumber = /* comments0 */
                     "text": "fnNumber",
                     "rawText": "fnNumber",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 187,
                     "end": 197
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 197,
                     "end": 199
                 },
@@ -251,14 +278,17 @@ var fnNumber = /* comments0 */
                     "text": 3,
                     "rawText": "3",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 199,
                     "end": 216
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 187,
                 "end": 216
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 187,
             "end": 217
         },
@@ -268,6 +298,7 @@ var fnNumber = /* comments0 */
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 217,
                 "end": 222
             },
@@ -281,6 +312,7 @@ var fnNumber = /* comments0 */
                             "text": "fnNumber",
                             "rawText": "fnNumber",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 222,
                             "end": 231
                         },
@@ -290,19 +322,23 @@ var fnNumber = /* comments0 */
                             "text": 3,
                             "rawText": "3",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 233,
                             "end": 252
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 222,
                         "end": 252
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 222,
                 "end": 252
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 217,
             "end": 253
         },
@@ -312,6 +348,7 @@ var fnNumber = /* comments0 */
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 253,
                 "end": 258
             },
@@ -325,6 +362,7 @@ var fnNumber = /* comments0 */
                             "text": "fnNumber",
                             "rawText": "fnNumber",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 258,
                             "end": 267
                         },
@@ -334,19 +372,23 @@ var fnNumber = /* comments0 */
                             "text": 3,
                             "rawText": "3",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 269,
                             "end": 301
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 258,
                         "end": 301
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 258,
                 "end": 301
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 253,
             "end": 302
         },
@@ -356,6 +398,7 @@ var fnNumber = /* comments0 */
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 302,
                 "end": 307
             },
@@ -369,6 +412,7 @@ var fnNumber = /* comments0 */
                             "text": "fnNumber",
                             "rawText": "fnNumber",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 307,
                             "end": 316
                         },
@@ -378,19 +422,23 @@ var fnNumber = /* comments0 */
                             "text": 3,
                             "rawText": "3",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 318,
                             "end": 336
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 307,
                         "end": 336
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 307,
                 "end": 336
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 302,
             "end": 337
         },
@@ -400,6 +448,7 @@ var fnNumber = /* comments0 */
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 337,
                 "end": 342
             },
@@ -413,6 +462,7 @@ var fnNumber = /* comments0 */
                             "text": "fnNumber",
                             "rawText": "fnNumber",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 342,
                             "end": 351
                         },
@@ -422,19 +472,23 @@ var fnNumber = /* comments0 */
                             "text": 3,
                             "rawText": "3",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 353,
                             "end": 391
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 342,
                         "end": 391
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 342,
                 "end": 391
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 337,
             "end": 392
         }
@@ -443,6 +497,7 @@ var fnNumber = /* comments0 */
     "source": "fnNumber =\n  // Comment\n  3;\n\nfnNumber =\n\n  // Comment\n\n  3;\n\nfnNumber =\n  // Comment0\n  // Comment1\n  3;\n\nfnNumber = /* comment */\n  3;\n\nfnNumber = /* comments0 */\n  /* comments1 */\n  3;\n\nfnNumber =\n  // Comment\n  3;\n\nvar fnNumber =\n\n  // Comment\n\n  3;\n\nvar fnNumber =\n  // Comment0\n  // Comment1\n  3;\n\nvar fnNumber = /* comment */\n  3;\n\nvar fnNumber = /* comments0 */\n  /* comments1 */\n  3;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 393
 }
@@ -451,35 +506,32 @@ var fnNumber = /* comments0 */
 ### Printed
 
 ```javascript
+fnNumber = // Comment
+3;
+fnNumber = // Comment
+3;
 
-  fnNumber = 
-   // Comment
-  3;
-  fnNumber = 
-   // Comment
-  3;
-  fnNumber = 
-   // Comment0
-  // Comment1
-  3;
-  fnNumber =/* comment */ 3;
-  fnNumber =/* comments0 */ 
-   /* comments1 */
-  3;
-  fnNumber = 
-   // Comment
-  3;
-  var fnNumber = 
-   // Comment
-  3;
-  var fnNumber = 
-   // Comment0
-  // Comment1
-  3;
-  var fnNumber =/* comment */ 3;
-  var fnNumber =/* comments0 */ 
-   /* comments1 */
-  3;
+fnNumber = // Comment0
+// Comment1
+3;
+
+fnNumber =/* comment */  3;
+
+fnNumber =/* comments0 */  /* comments1 */ 3;
+
+fnNumber = // Comment
+3;
+
+var fnNumber = // Comment
+3;
+
+var fnNumber = // Comment0
+// Comment1
+3;
+
+var fnNumber =/* comment */  3;
+
+var fnNumber =/* comments0 */  /* comments1 */ 3;
 
 ```
 

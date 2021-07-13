@@ -31,12 +31,14 @@ arguments = x
                     "text": "arguments",
                     "rawText": "arguments",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -45,14 +47,17 @@ arguments = x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -61,6 +66,7 @@ arguments = x
     "source": "arguments = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -69,9 +75,7 @@ arguments = x
 ### Printed
 
 ```javascript
-
-  arguments = x;
-
+arguments = x;
 ```
 
 ### Diagnostics

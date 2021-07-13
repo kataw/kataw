@@ -30,6 +30,7 @@ function f2() { yield /=2 /d }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function f2() { yield /=2 /d }
                 "text": "f2",
                 "rawText": "f2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -48,6 +50,7 @@ function f2() { yield /=2 /d }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -66,12 +69,14 @@ function f2() { yield /=2 /d }
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
                                 "operatorToken": {
                                     "kind": 4133,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -82,12 +87,14 @@ function f2() { yield /=2 /d }
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 25
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 25,
                                         "end": 27
                                     },
@@ -96,32 +103,39 @@ function f2() { yield /=2 /d }
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 28
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 24,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 15,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -130,6 +144,7 @@ function f2() { yield /=2 /d }
     "source": "function f2() { yield /=2 /d }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -138,11 +153,9 @@ function f2() { yield /=2 /d }
 ### Printed
 
 ```javascript
-
-  function f2() {
-    yield /= 2 / d;
-  }
-
+function f2() {
+  yield /= 2 / d;
+}
 ```
 
 ### Diagnostics

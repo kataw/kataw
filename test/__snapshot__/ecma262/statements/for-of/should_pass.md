@@ -20,6 +20,7 @@ for ({[a]: ""[b] = c} of d) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,10 +40,12 @@ for ({[a]: ""[b] = c} of d) {}
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
@@ -55,6 +58,7 @@ for ({[a]: ""[b] = c} of d) {}
                                         "text": "",
                                         "rawText": "\"\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 13
                                     },
@@ -63,16 +67,19 @@ for ({[a]: ""[b] = c} of d) {}
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 15
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 10,
                                     "end": 16
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -81,30 +88,36 @@ for ({[a]: ""[b] = c} of d) {}
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 6,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 21
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
@@ -113,6 +126,7 @@ for ({[a]: ""[b] = c} of d) {}
                 "text": "d",
                 "rawText": "d",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 26
             },
@@ -122,14 +136,17 @@ for ({[a]: ""[b] = c} of d) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -138,6 +155,7 @@ for ({[a]: ""[b] = c} of d) {}
     "source": "for ({[a]: \"\"[b] = c} of d) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -146,9 +164,7 @@ for ({[a]: ""[b] = c} of d) {}
 ### Printed
 
 ```javascript
-
-  for ({ [a]: "\"\""[b] = c } of d) { }
-
+for ({ [a]: "\"\""[b] = c } of d) {}
 ```
 
 ### Diagnostics

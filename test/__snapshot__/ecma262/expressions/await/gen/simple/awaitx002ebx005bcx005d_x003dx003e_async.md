@@ -33,6 +33,7 @@ await.b[c] => async
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 5
                     },
@@ -41,10 +42,12 @@ await.b[c] => async
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 7
                 },
@@ -53,14 +56,17 @@ await.b[c] => async
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -71,10 +77,12 @@ await.b[c] => async
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 19
         }
@@ -83,6 +91,7 @@ await.b[c] => async
     "source": "await.b[c] => async",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

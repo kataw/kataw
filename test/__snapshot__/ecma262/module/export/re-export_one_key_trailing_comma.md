@@ -26,6 +26,7 @@ export {x,} from "foo"
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,21 +44,25 @@ export {x,} from "foo"
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -67,6 +72,7 @@ export {x,} from "foo"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 16
                 },
@@ -75,15 +81,18 @@ export {x,} from "foo"
                     "text": "foo",
                     "rawText": "\"foo\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 22
             },
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -92,6 +101,7 @@ export {x,} from "foo"
     "source": "export {x,} from \"foo\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -100,9 +110,7 @@ export {x,} from "foo"
 ### Printed
 
 ```javascript
-
-  export { x, } from "\"foo\"";
-
+export { x  } from "\"foo\"";;
 ```
 
 ### Diagnostics

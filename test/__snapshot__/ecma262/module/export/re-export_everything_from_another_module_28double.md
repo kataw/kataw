@@ -26,6 +26,7 @@ export * from "foo"
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ export * from "foo"
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 6,
                     "end": 8
                 },
@@ -43,6 +45,7 @@ export * from "foo"
                 "moduleExportName": null,
                 "namedBinding": null,
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -51,6 +54,7 @@ export * from "foo"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 13
                 },
@@ -59,15 +63,18 @@ export * from "foo"
                     "text": "foo",
                     "rawText": "\"foo\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -76,6 +83,7 @@ export * from "foo"
     "source": "export * from \"foo\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -84,9 +92,7 @@ export * from "foo"
 ### Printed
 
 ```javascript
-
-  export *  from "\"foo\"";
-
+export *  from "\"foo\"";;
 ```
 
 ### Diagnostics

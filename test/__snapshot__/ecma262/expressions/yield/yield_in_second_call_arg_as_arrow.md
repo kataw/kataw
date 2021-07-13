@@ -37,6 +37,7 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 4
                                         },
@@ -49,12 +50,14 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 8
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 10
                                             },
@@ -65,6 +68,7 @@
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 14
                                                 },
@@ -76,6 +80,7 @@
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 16
                                                         },
@@ -84,6 +89,7 @@
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 23
                                                         },
@@ -92,30 +98,36 @@
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 23,
                                                             "end": 25
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 25
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 10,
                                                 "end": 26
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 6,
                                             "end": 26
                                         },
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 1,
                                         "end": 26
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 27
                             },
@@ -123,6 +135,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
@@ -131,23 +144,28 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -156,6 +174,7 @@
     "source": "{ (x = x + foo(a, yield y)) => x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

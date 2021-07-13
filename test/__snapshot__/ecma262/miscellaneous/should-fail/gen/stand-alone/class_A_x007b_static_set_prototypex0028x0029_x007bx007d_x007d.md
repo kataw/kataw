@@ -29,6 +29,7 @@ class A { static set prototype() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A { static set prototype() {} }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class A { static set prototype() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -62,6 +65,7 @@ class A { static set prototype() {} }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -73,6 +77,7 @@ class A { static set prototype() {} }
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 30
                                 },
@@ -82,6 +87,7 @@ class A { static set prototype() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 512,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -93,31 +99,38 @@ class A { static set prototype() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 35
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 35
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -126,6 +139,7 @@ class A { static set prototype() {} }
     "source": "class A { static set prototype() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

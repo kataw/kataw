@@ -24,12 +24,14 @@ x = {0o730(){}}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = {0o730(){}}
                                         "text": 472,
                                         "rawText": "0o730",
                                         "flags": 262240,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -60,6 +63,7 @@ x = {0o730(){}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 262176,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -71,36 +75,44 @@ x = {0o730(){}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 13
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "flags": 262176,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 14
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
                         "flags": 262160,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 14
                     },
                     "flags": 262192,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 15
         }
@@ -109,6 +121,7 @@ x = {0o730(){}}
     "source": "x = {0o730(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -117,9 +130,7 @@ x = {0o730(){}}
 ### Printed
 
 ```javascript
-
-  x = { 0o730() {} };
-
+x = { 0o730() {} };
 ```
 
 ### Diagnostics

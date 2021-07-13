@@ -28,15 +28,18 @@ import.notMeta;
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "metaIdentifier": null,
                 "flags": 6,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         },
@@ -47,10 +50,12 @@ import.notMeta;
                 "text": "notMeta",
                 "rawText": "notMeta",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 15
         }
@@ -59,6 +64,7 @@ import.notMeta;
     "source": "import.notMeta;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

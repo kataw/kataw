@@ -35,6 +35,7 @@ class C2 {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -45,6 +46,7 @@ class C2 {
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
@@ -53,25 +55,30 @@ class C2 {
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 4
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 1,
                             "end": 4
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -80,6 +87,7 @@ class C2 {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -106,6 +114,7 @@ class C2 {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 24
                                 },
@@ -115,6 +124,7 @@ class C2 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -126,31 +136,38 @@ class C2 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 29
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 29
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 29
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -159,6 +176,7 @@ class C2 {
     "source": "@a.b\nclass C2 {\n  method() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -167,12 +185,10 @@ class C2 {
 ### Printed
 
 ```javascript
-
-  @a.b
-  class C2 {
-    method() {}
-  }
-
+@a.b
+class C2 {
+  method() {}
+}
 ```
 
 ### Diagnostics

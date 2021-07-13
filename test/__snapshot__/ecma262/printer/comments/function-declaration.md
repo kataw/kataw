@@ -79,6 +79,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -88,6 +89,7 @@ function foo4() {
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -97,6 +99,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -107,15 +110,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 28
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -126,6 +132,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 48
             },
@@ -135,6 +142,7 @@ function foo4() {
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 50
             },
@@ -144,6 +152,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 51
             },
@@ -154,15 +163,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 55
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 55
         },
@@ -173,6 +185,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 75
             },
@@ -182,6 +195,7 @@ function foo4() {
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 77
             },
@@ -194,6 +208,7 @@ function foo4() {
                         "text": "argA",
                         "rawText": "argA",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 78,
                         "end": 96
                     },
@@ -202,6 +217,7 @@ function foo4() {
                         "text": "argB",
                         "rawText": "argB",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 97,
                         "end": 102
                     },
@@ -210,12 +226,14 @@ function foo4() {
                         "text": "argC",
                         "rawText": "argC",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 103,
                         "end": 108
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 108
             },
@@ -226,15 +244,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 111,
                     "end": 111
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 112
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 112
         },
@@ -247,6 +268,7 @@ function foo4() {
                     "text": "call",
                     "rawText": "call",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 112,
                     "end": 128
                 },
@@ -265,12 +287,14 @@ function foo4() {
                                         "text": "row",
                                         "rawText": "row",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 130,
                                         "end": 144
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 130,
                                 "end": 145
                             },
@@ -278,6 +302,7 @@ function foo4() {
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 145,
                                 "end": 148
                             },
@@ -288,28 +313,34 @@ function foo4() {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 150,
                                     "end": 150
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 148,
                                 "end": 151
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 129,
                             "end": 151
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 129,
                     "end": 151
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 112,
                 "end": 152
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 112,
             "end": 153
         },
@@ -320,6 +351,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 163
             },
@@ -329,6 +361,7 @@ function foo4() {
                 "text": "f1",
                 "rawText": "f1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 163,
                 "end": 166
             },
@@ -338,6 +371,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 175,
                 "end": 175
             },
@@ -348,15 +382,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 178
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 176,
                 "end": 179
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 153,
             "end": 179
         },
@@ -367,6 +404,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 179,
                 "end": 188
             },
@@ -376,6 +414,7 @@ function foo4() {
                 "text": "f2",
                 "rawText": "f2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 188,
                 "end": 191
             },
@@ -385,6 +424,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 193,
                 "end": 193
             },
@@ -395,15 +435,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 206,
                     "end": 206
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 204,
                 "end": 207
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 179,
             "end": 207
         },
@@ -414,6 +457,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 216
             },
@@ -423,6 +467,7 @@ function foo4() {
                 "text": "f3",
                 "rawText": "f3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 216,
                 "end": 219
             },
@@ -432,6 +477,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 221,
                 "end": 221
             },
@@ -442,15 +488,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 238,
                     "end": 238
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 222,
                 "end": 239
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 207,
             "end": 239
         },
@@ -461,6 +510,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 239,
                 "end": 248
             },
@@ -470,6 +520,7 @@ function foo4() {
                 "text": "f4",
                 "rawText": "f4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 248,
                 "end": 251
             },
@@ -479,6 +530,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 260,
                 "end": 260
             },
@@ -489,15 +541,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 287,
                     "end": 287
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 271,
                 "end": 288
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 239,
             "end": 288
         },
@@ -508,6 +563,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 288,
                 "end": 298
             },
@@ -517,6 +573,7 @@ function foo4() {
                 "text": "f5",
                 "rawText": "f5",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 298,
                 "end": 301
             },
@@ -529,12 +586,14 @@ function foo4() {
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 310,
                         "end": 319
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 310,
                 "end": 319
             },
@@ -545,15 +604,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 322,
                     "end": 322
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 320,
                 "end": 323
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 288,
             "end": 323
         },
@@ -564,6 +626,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 323,
                 "end": 332
             },
@@ -573,6 +636,7 @@ function foo4() {
                 "text": "f6",
                 "rawText": "f6",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 332,
                 "end": 335
             },
@@ -585,12 +649,14 @@ function foo4() {
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 344,
                         "end": 345
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 344,
                 "end": 345
             },
@@ -601,15 +667,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 356,
                     "end": 356
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 354,
                 "end": 357
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 323,
             "end": 357
         },
@@ -620,6 +689,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 357,
                 "end": 366
             },
@@ -629,6 +699,7 @@ function foo4() {
                 "text": "f7",
                 "rawText": "f7",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 366,
                 "end": 369
             },
@@ -641,12 +712,14 @@ function foo4() {
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 378,
                         "end": 387
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 378,
                 "end": 387
             },
@@ -657,15 +730,18 @@ function foo4() {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 404,
                     "end": 404
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 388,
                 "end": 405
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 357,
             "end": 405
         },
@@ -674,6 +750,7 @@ function foo4() {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 405,
                 "end": 412
             },
@@ -687,6 +764,7 @@ function foo4() {
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 412,
                             "end": 416
                         },
@@ -709,6 +787,7 @@ function foo4() {
                                                 "text": "f1",
                                                 "rawText": "f1",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 420,
                                                 "end": 425
                                             },
@@ -718,6 +797,7 @@ function foo4() {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 434,
                                                 "end": 435
                                             },
@@ -729,18 +809,22 @@ function foo4() {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 437,
                                                     "end": 437
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 435,
                                                 "end": 438
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 425,
                                             "end": 438
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 420,
                                         "end": 438
                                     },
@@ -757,6 +841,7 @@ function foo4() {
                                                 "text": "f2",
                                                 "rawText": "f2",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 439,
                                                 "end": 444
                                             },
@@ -766,6 +851,7 @@ function foo4() {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 446,
                                                 "end": 457
                                             },
@@ -777,18 +863,22 @@ function foo4() {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 459,
                                                     "end": 459
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 457,
                                                 "end": 460
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 444,
                                             "end": 460
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 439,
                                         "end": 460
                                     },
@@ -805,6 +895,7 @@ function foo4() {
                                                 "text": "f3",
                                                 "rawText": "f3",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 461,
                                                 "end": 466
                                             },
@@ -814,6 +905,7 @@ function foo4() {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 468,
                                                 "end": 469
                                             },
@@ -825,18 +917,22 @@ function foo4() {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 485,
                                                     "end": 485
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 469,
                                                 "end": 486
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 466,
                                             "end": 486
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 461,
                                         "end": 486
                                     },
@@ -853,6 +949,7 @@ function foo4() {
                                                 "text": "f4",
                                                 "rawText": "f4",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 487,
                                                 "end": 492
                                             },
@@ -862,6 +959,7 @@ function foo4() {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 501,
                                                 "end": 512
                                             },
@@ -873,41 +971,50 @@ function foo4() {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 528,
                                                     "end": 528
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 512,
                                                 "end": 529
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 492,
                                             "end": 529
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 487,
                                         "end": 529
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 420,
                                 "end": 530
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 418,
                             "end": 532
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 412,
                         "end": 532
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 412,
                 "end": 532
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 405,
             "end": 533
         },
@@ -923,6 +1030,7 @@ function foo4() {
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 536,
                             "end": 544
                         },
@@ -932,6 +1040,7 @@ function foo4() {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 544,
                             "end": 546
                         },
@@ -941,6 +1050,7 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 555,
                             "end": 555
                         },
@@ -951,20 +1061,24 @@ function foo4() {
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 558,
                                 "end": 558
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 556,
                             "end": 559
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 536,
                         "end": 559
                     },
-                    "flags": 32,
-                    "start": 533,
+                    "flags": 533,
+                    "transformFlags": 0,
+                    "start": 33,
                     "end": 560
                 },
                 "argumentList": {
@@ -972,14 +1086,17 @@ function foo4() {
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 561,
                     "end": 561
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 533,
                 "end": 562
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 533,
             "end": 563
         },
@@ -995,6 +1112,7 @@ function foo4() {
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 565,
                             "end": 573
                         },
@@ -1004,6 +1122,7 @@ function foo4() {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 573,
                             "end": 575
                         },
@@ -1013,6 +1132,7 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 577,
                             "end": 577
                         },
@@ -1023,20 +1143,24 @@ function foo4() {
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 590,
                                 "end": 590
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 588,
                             "end": 591
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 565,
                         "end": 591
                     },
-                    "flags": 32,
-                    "start": 563,
+                    "flags": 563,
+                    "transformFlags": 0,
+                    "start": 33,
                     "end": 592
                 },
                 "argumentList": {
@@ -1044,14 +1168,17 @@ function foo4() {
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 593,
                     "end": 593
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 563,
                 "end": 594
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 563,
             "end": 595
         },
@@ -1067,6 +1194,7 @@ function foo4() {
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 597,
                             "end": 605
                         },
@@ -1076,6 +1204,7 @@ function foo4() {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 605,
                             "end": 607
                         },
@@ -1085,6 +1214,7 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 609,
                             "end": 609
                         },
@@ -1095,20 +1225,24 @@ function foo4() {
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 626,
                                 "end": 626
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 610,
                             "end": 627
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 597,
                         "end": 627
                     },
-                    "flags": 32,
-                    "start": 595,
+                    "flags": 595,
+                    "transformFlags": 0,
+                    "start": 33,
                     "end": 628
                 },
                 "argumentList": {
@@ -1116,14 +1250,17 @@ function foo4() {
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 629,
                     "end": 629
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 595,
                 "end": 630
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 595,
             "end": 631
         },
@@ -1139,6 +1276,7 @@ function foo4() {
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 633,
                             "end": 641
                         },
@@ -1148,6 +1286,7 @@ function foo4() {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 641,
                             "end": 643
                         },
@@ -1157,6 +1296,7 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 652,
                             "end": 652
                         },
@@ -1167,20 +1307,24 @@ function foo4() {
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 679,
                                 "end": 679
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 663,
                             "end": 680
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 633,
                         "end": 680
                     },
-                    "flags": 32,
-                    "start": 631,
+                    "flags": 631,
+                    "transformFlags": 0,
+                    "start": 33,
                     "end": 681
                 },
                 "argumentList": {
@@ -1188,14 +1332,17 @@ function foo4() {
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 682,
                     "end": 682
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 631,
                 "end": 683
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 631,
             "end": 684
         },
@@ -1206,6 +1353,7 @@ function foo4() {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 684,
                 "end": 691
             },
@@ -1214,6 +1362,7 @@ function foo4() {
                 "text": "C1",
                 "rawText": "C1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 691,
                 "end": 694
             },
@@ -1240,6 +1389,7 @@ function foo4() {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 696,
                                     "end": 700
                                 },
@@ -1249,6 +1399,7 @@ function foo4() {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 708,
                                     "end": 709
                                 },
@@ -1260,31 +1411,38 @@ function foo4() {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 711,
                                         "end": 711
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 709,
                                     "end": 712
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 700,
                                 "end": 712
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 696,
                             "end": 712
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 696,
                     "end": 712
                 },
                 "flags": 694,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 714
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 684,
             "end": 714
         },
@@ -1295,6 +1453,7 @@ function foo4() {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 714,
                 "end": 720
             },
@@ -1303,6 +1462,7 @@ function foo4() {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 720,
                 "end": 723
             },
@@ -1329,6 +1489,7 @@ function foo4() {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 725,
                                     "end": 729
                                 },
@@ -1338,6 +1499,7 @@ function foo4() {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 730,
                                     "end": 741
                                 },
@@ -1349,31 +1511,38 @@ function foo4() {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 743,
                                         "end": 743
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 741,
                                     "end": 744
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 729,
                                 "end": 744
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 725,
                             "end": 744
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 725,
                     "end": 744
                 },
                 "flags": 723,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 746
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 714,
             "end": 746
         },
@@ -1384,6 +1553,7 @@ function foo4() {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 746,
                 "end": 752
             },
@@ -1392,6 +1562,7 @@ function foo4() {
                 "text": "C3",
                 "rawText": "C3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 752,
                 "end": 755
             },
@@ -1418,6 +1589,7 @@ function foo4() {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 757,
                                     "end": 761
                                 },
@@ -1427,6 +1599,7 @@ function foo4() {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 762,
                                     "end": 763
                                 },
@@ -1438,31 +1611,38 @@ function foo4() {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 779,
                                         "end": 779
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 763,
                                     "end": 780
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 761,
                                 "end": 780
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 757,
                             "end": 780
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 757,
                     "end": 780
                 },
                 "flags": 755,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 782
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 746,
             "end": 782
         },
@@ -1473,6 +1653,7 @@ function foo4() {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 782,
                 "end": 788
             },
@@ -1481,6 +1662,7 @@ function foo4() {
                 "text": "C4",
                 "rawText": "C4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 788,
                 "end": 791
             },
@@ -1507,6 +1689,7 @@ function foo4() {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 793,
                                     "end": 797
                                 },
@@ -1516,6 +1699,7 @@ function foo4() {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 805,
                                     "end": 816
                                 },
@@ -1527,31 +1711,38 @@ function foo4() {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 832,
                                         "end": 832
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 816,
                                     "end": 833
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 797,
                                 "end": 833
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 793,
                             "end": 833
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 793,
                     "end": 833
                 },
                 "flags": 791,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 835
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 782,
             "end": 835
         },
@@ -1562,6 +1753,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 835,
                 "end": 845
             },
@@ -1571,6 +1763,7 @@ function foo4() {
                 "text": "foo1",
                 "rawText": "foo1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 845,
                 "end": 850
             },
@@ -1580,6 +1773,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 851,
                 "end": 851
             },
@@ -1594,6 +1788,7 @@ function foo4() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 876,
                                 "end": 885
                             },
@@ -1602,24 +1797,29 @@ function foo4() {
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 885,
                                 "end": 888
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 876,
                             "end": 888
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 876,
                     "end": 888
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 852,
                 "end": 890
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 835,
             "end": 890
         },
@@ -1630,6 +1830,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 890,
                 "end": 900
             },
@@ -1639,6 +1840,7 @@ function foo4() {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 900,
                 "end": 905
             },
@@ -1648,6 +1850,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 906,
                 "end": 906
             },
@@ -1662,6 +1865,7 @@ function foo4() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 931,
                                 "end": 940
                             },
@@ -1670,24 +1874,29 @@ function foo4() {
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 940,
                                 "end": 943
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 931,
                             "end": 943
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 931,
                     "end": 943
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 907,
                 "end": 945
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 890,
             "end": 945
         },
@@ -1698,6 +1907,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 945,
                 "end": 955
             },
@@ -1707,6 +1917,7 @@ function foo4() {
                 "text": "foo3",
                 "rawText": "foo3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 955,
                 "end": 960
             },
@@ -1716,6 +1927,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 961,
                 "end": 961
             },
@@ -1730,6 +1942,7 @@ function foo4() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 964,
                                 "end": 995
                             },
@@ -1738,24 +1951,29 @@ function foo4() {
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 995,
                                 "end": 998
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 964,
                             "end": 998
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 964,
                     "end": 998
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 962,
                 "end": 1000
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 945,
             "end": 1000
         },
@@ -1766,6 +1984,7 @@ function foo4() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1000,
                 "end": 1010
             },
@@ -1775,6 +1994,7 @@ function foo4() {
                 "text": "foo4",
                 "rawText": "foo4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1010,
                 "end": 1015
             },
@@ -1784,6 +2004,7 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1016,
                 "end": 1016
             },
@@ -1798,6 +2019,7 @@ function foo4() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1019,
                                 "end": 1052
                             },
@@ -1806,24 +2028,29 @@ function foo4() {
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1052,
                                 "end": 1055
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 1019,
                             "end": 1056
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1019,
                     "end": 1056
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1017,
                 "end": 1058
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1000,
             "end": 1058
         }
@@ -1832,6 +2059,7 @@ function foo4() {
     "source": "function a(/* comment */) {} // comment\nfunction b() {} // comment\nfunction c(/* comment */ argA, argB, argC) {} // comment\ncall((/*object*/ row) => {});\n\nfunction f1 /* f */() {}\nfunction f2 (/* args */) {}\nfunction f3 () /* returns */ {}\nfunction f4 /* f */(/* args */) /* returns */ {}\n\nfunction f5 /* f */(/* a */ a) {}\nfunction f6 /* f */(a /* a */) {}\nfunction f7 /* f */(/* a */ a) /* returns */ {}\n\nconst obj = {\n  f1 /* f */() {},\n  f2 (/* args */) {},\n  f3 () /* returns */ {},\n  f4 /* f */(/* args */) /* returns */ {},\n};\n\n(function f /* f */() {})();\n(function f (/* args */) {})();\n(function f () /* returns */ {})();\n(function f /* f */(/* args */) /* returns */ {})();\n\nclass C1 {\n  f/* f */() {}\n}\nclass C2 {\n  f(/* args */) {}\n}\nclass C3 {\n  f() /* returns */ {}\n}\nclass C4 {\n  f/* f */(/* args */) /* returns */ {}\n}\n\nfunction foo1()\n// this is a function\n{\n  return 42\n}\n\nfunction foo2() // this is a function\n{\n  return 42\n}\n\nfunction foo3() { // this is a function\n  return 42\n}\n\nfunction foo4() {\n  // this is a function\n  return 42;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 1058
 }
@@ -1840,56 +2068,78 @@ function foo4() {
 ### Printed
 
 ```javascript
+function a(/* comment */ ) {} // comment
 
-  function a(/* comment */) {} // comment
-  function b() {} // comment
-  function c(/* comment */argA, argB, argC) {} // comment
-  call((/*object*/row) => {});
-  function f1 /* f */() {}
-  function f2(/* args */) {}
-  function f3() {}
-  function f4 /* f */(/* args */) {}
-  function f5 /* f */(/* a */a) {}
-  function f6 /* f */(a /* a */) {}
-  function f7 /* f */(/* a */a) {}
-  const obj = {
+function b() {} // comment
+
+
+function c(/* comment */ argA, argB, argC) {} // comment
+
+
+call((/*object*/ row) => {});
+
+function f1 /* f */() {}
+
+function f2(/* args */ ) {}
+
+function f3() {}
+
+function f4 /* f */(/* args */ ) {}
+
+function f5 /* f */(/* a */ a) {}
+
+function f6 /* f */(a /* a */) {}
+
+function f7 /* f */(/* a */ a) {}
+
+const obj = {
     f1 /* f */() {},
-    f2(/* args */) {},
+    f2(/* args */ ) {},
     f3() {},
-    f4 /* f */(/* args */) {},
+    f4 /* f */(/* args */ ) {},
   };
-  (function f /* f */() {})();
-  (function f(/* args */) {})();
-  (function f() {})();
-  (function f /* f */(/* args */) {})();
-  class C1 {
-    f /* f */() {}
-  }
-  class C2 {
-    f(/* args */) {}
-  }
-  class C3 {
-    f() {}
-  }
-  class C4 {
-    f /* f */(/* args */) {}
-  }
-  function foo1() 
-   // this is a function
-  {
-    return 42;
-    // this is a function
-  }
-  function foo2() {
-    return 42;
-  }
-  function foo3() {// this is a function
-    return 42;
-  }
-  function foo4() {
-     // this is a function
-    return 42;
-  }
+
+(function f /* f */() {})();
+
+(function f(/* args */ ) {})();
+
+(function f() {})();
+
+(function f /* f */(/* args */ ) {})();
+
+class C1 {
+  f /* f */() {}
+}
+
+class C2 {
+  f(/* args */ ) {}
+}
+
+class C3 {
+  f() {}
+}
+
+class C4 {
+  f /* f */(/* args */ ) {}
+}
+
+function foo1() {
+  return 42;
+}
+
+function foo2() {
+  return 42;
+}
+
+function foo3() {
+  return 42;
+}
+
+function foo4() // this is a function
+{
+  // this is a function
+  return 42;
+}
 
 ```
 

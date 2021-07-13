@@ -28,10 +28,12 @@
                 "text": "9",
                 "rawText": "\"\\9\"",
                 "flags": 8388704,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         }
@@ -40,6 +42,7 @@
     "source": "\"\\9\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }

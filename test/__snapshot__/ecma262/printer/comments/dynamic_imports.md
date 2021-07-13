@@ -40,6 +40,7 @@ wrap(
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -48,14 +49,17 @@ wrap(
                     "text": "something",
                     "rawText": "'something'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 31
         },
@@ -66,6 +70,7 @@ wrap(
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 39
                 },
@@ -74,14 +79,17 @@ wrap(
                     "text": "something",
                     "rawText": "'something'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 51
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 31,
             "end": 64
         },
@@ -92,6 +100,7 @@ wrap(
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 72
                 },
@@ -100,14 +109,17 @@ wrap(
                     "text": "something",
                     "rawText": "'something'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 73,
                     "end": 96
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 64,
             "end": 109
         },
@@ -118,6 +130,7 @@ wrap(
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 109,
                     "end": 117
                 },
@@ -128,12 +141,14 @@ wrap(
                         "text": "something",
                         "rawText": "'something'",
                         "flags": 4194400,
+                        "transformFlags": 0,
                         "start": 118,
                         "end": 129
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 129,
                         "end": 143
                     },
@@ -142,18 +157,22 @@ wrap(
                         "text": "else",
                         "rawText": "'else'",
                         "flags": 4194400,
+                        "transformFlags": 0,
                         "start": 143,
                         "end": 150
                     },
                     "flags": 4194400,
+                    "transformFlags": 5120,
                     "start": 118,
                     "end": 150
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 151
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 109,
             "end": 151
         },
@@ -164,6 +183,7 @@ wrap(
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 151,
                     "end": 159
                 },
@@ -172,14 +192,17 @@ wrap(
                     "text": "something",
                     "rawText": "'something'",
                     "flags": 4194401,
+                    "transformFlags": 0,
                     "start": 160,
                     "end": 188
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 159,
                 "end": 204
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 151,
             "end": 204
         },
@@ -192,6 +215,7 @@ wrap(
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 204,
                     "end": 210
                 },
@@ -203,6 +227,7 @@ wrap(
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 211,
                                 "end": 220
                             },
@@ -211,24 +236,29 @@ wrap(
                                 "text": "something",
                                 "rawText": "'something'",
                                 "flags": 4194401,
+                                "transformFlags": 0,
                                 "start": 221,
                                 "end": 248
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 220,
                             "end": 252
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 211,
                     "end": 252
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 204,
                 "end": 254
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 204,
             "end": 254
         }
@@ -237,6 +267,7 @@ wrap(
     "source": "import(/* Hello */ 'something')\n\nimport('something' /* Hello */)\n\nimport(/* Hello */ 'something' /* Hello */)\n\nimport('something' /* Hello */ + 'else')\n\nimport(\n  /* Hello */\n  'something'\n  /* Hello */\n)\n\nwrap(\n  import(/* Hello */\n    'something'\n  )\n)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 254
 }
@@ -245,17 +276,16 @@ wrap(
 ### Printed
 
 ```javascript
+import(/* Hello */ "'something'");
+import("'something'" /* Hello */);
 
-  import(/* Hello */"'something'");
-  import("'something'" /* Hello */);
-  import(/* Hello */"'something'" /* Hello */);
-  import("'something'" /* Hello */ + "'else'");
-  import(
-   /* Hello */
-  "'something'"
-   /* Hello */
-  );
-  wrap(import(/* Hello */"'something'"));
+import(/* Hello */ "'something'" /* Hello */);
+
+import("'something'" /* Hello */ + "'else'");
+
+import(/* Hello */ "'something'"/* Hello */ );
+
+wrap(import(/* Hello */ "'something'"));
 
 ```
 

@@ -34,15 +34,18 @@
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 8
                             },
                             "metaIdentifier": null,
                             "flags": 8,
+                            "transformFlags": 0,
                             "start": 96,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 9
                     },
@@ -53,19 +56,23 @@
                             "text": "call",
                             "rawText": "call",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 9,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -74,6 +81,7 @@
     "source": "{ import.call",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

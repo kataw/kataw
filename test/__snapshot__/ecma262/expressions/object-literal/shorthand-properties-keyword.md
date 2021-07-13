@@ -24,6 +24,7 @@ var x = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ var x = {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,29 +53,35 @@ var x = {
                                         "text": "this",
                                         "rawText": "this",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -82,6 +90,7 @@ var x = {
     "source": "var x = {\n    this\n};\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

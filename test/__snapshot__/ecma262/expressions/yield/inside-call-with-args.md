@@ -22,12 +22,14 @@ function* f(){ call(yield x); }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* f(){ call(yield x); }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function* f(){ call(yield x); }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -63,6 +67,7 @@ function* f(){ call(yield x); }
                                     "text": "call",
                                     "rawText": "call",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -74,6 +79,7 @@ function* f(){ call(yield x); }
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 25
                                             },
@@ -84,38 +90,46 @@ function* f(){ call(yield x); }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 20,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 27
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 14,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 31
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -124,6 +138,7 @@ function* f(){ call(yield x); }
     "source": "function* f(){ call(yield x); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -132,11 +147,9 @@ function* f(){ call(yield x); }
 ### Printed
 
 ```javascript
-
-  function* f() {
-    call(yield  x);
-  }
-
+function *f() {
+  call(yield x);
+}
 ```
 
 ### Diagnostics

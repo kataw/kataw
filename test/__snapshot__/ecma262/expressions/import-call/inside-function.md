@@ -24,6 +24,7 @@ function loadImport(file) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function loadImport(file) {
                 "text": "loadImport",
                 "rawText": "loadImport",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
@@ -45,12 +47,14 @@ function loadImport(file) {
                         "text": "file",
                         "rawText": "file",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 24
             },
@@ -65,6 +69,7 @@ function loadImport(file) {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 36
                             },
@@ -73,6 +78,7 @@ function loadImport(file) {
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 43
                                 },
@@ -88,10 +94,12 @@ function loadImport(file) {
                                                 "text": "file",
                                                 "rawText": "file",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 56
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 56
                                         }
@@ -101,32 +109,39 @@ function loadImport(file) {
                                         "text": ".js",
                                         "rawText": ".js",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 56,
                                         "end": 61
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 61
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 62
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 27,
                             "end": 63
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 63
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 65
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 65
         }
@@ -135,6 +150,7 @@ function loadImport(file) {
     "source": "function loadImport(file) {\n  return import(`test/${file}.js`);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }
@@ -143,11 +159,9 @@ function loadImport(file) {
 ### Printed
 
 ```javascript
-
-  function loadImport(file) {
-    return import(`test/${file}.js`);
-  }
-
+function loadImport(file) {
+  return import(`test/${file}.js`);
+}
 ```
 
 ### Diagnostics

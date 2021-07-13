@@ -39,6 +39,7 @@ for (true ? a in b : {}; false; ) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,12 +48,14 @@ for (true ? a in b : {}; false; ) ;
                 "shortCircuit": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -63,12 +66,14 @@ for (true ? a in b : {}; false; ) ;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
@@ -77,16 +82,19 @@ for (true ? a in b : {}; false; ) ;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 11,
                     "end": 18
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -97,14 +105,17 @@ for (true ? a in b : {}; false; ) ;
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 20,
                     "end": 23
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 23
             },
@@ -112,16 +123,19 @@ for (true ? a in b : {}; false; ) ;
             "incrementor": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 30
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -130,6 +144,7 @@ for (true ? a in b : {}; false; ) ;
     "source": "for (true ? a in b : {}; false; ) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -138,10 +153,7 @@ for (true ? a in b : {}; false; ) ;
 ### Printed
 
 ```javascript
-
-  for (true ? a in b : {};; false)
-    ;
-
+for (true ? a in b : {}; ; false);
 ```
 
 ### Diagnostics

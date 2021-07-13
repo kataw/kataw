@@ -33,6 +33,7 @@ x => ok.x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -40,6 +41,7 @@ x => ok.x
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -50,6 +52,7 @@ x => ok.x
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 7
                     },
@@ -58,18 +61,22 @@ x => ok.x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 4,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 9
         }
@@ -78,6 +85,7 @@ x => ok.x
     "source": "x => ok.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -86,9 +94,7 @@ x => ok.x
 ### Printed
 
 ```javascript
-
-  x => ok.x;
-
+x => ok.x;
 ```
 
 ### Diagnostics

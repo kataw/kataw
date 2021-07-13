@@ -23,10 +23,12 @@ a; /* 4 */ /* 5 */ /* 6 */
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         },
@@ -37,10 +39,12 @@ a; /* 4 */ /* 5 */ /* 6 */
                 "text": "a",
                 "rawText": "a",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 26,
             "end": 29
         }
@@ -49,6 +53,7 @@ a; /* 4 */ /* 5 */ /* 6 */
     "source": "/* 1 */ /* 2 */ /* 3 */ a;\na; /* 4 */ /* 5 */ /* 6 */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }
@@ -57,9 +62,8 @@ a; /* 4 */ /* 5 */ /* 6 */
 ### Printed
 
 ```javascript
-/* 1 */ /* 2 */ /* 3 */
-  a;
-  a; /* 4 */ /* 5 */ /* 6 */
+/* 1 */ /* 2 */ /* 3 */ /* 1 */ /* 2 */ /* 3 */ a;
+a; /* 4 */ /* 5 */ /* 6 */
 
 ```
 

@@ -41,6 +41,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -75,6 +77,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -84,6 +87,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -95,24 +99,29 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 25
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         },
@@ -132,6 +141,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                     "text": "constructor",
                                     "rawText": "\\u0063onstructor",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 43
                                 },
@@ -141,6 +151,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 45
                                 },
@@ -152,37 +163,45 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 46
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 47
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 47
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 47
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 48
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -191,6 +210,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
     "source": "class x { constructor(){}; \\u0063onstructor(){}; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

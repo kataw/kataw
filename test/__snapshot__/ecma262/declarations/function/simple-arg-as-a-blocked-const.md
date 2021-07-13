@@ -22,6 +22,7 @@ function f(x) { { const x = y } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(x) { { const x = y } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,12 +45,14 @@ function f(x) { { const x = y } }
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
@@ -68,6 +72,7 @@ function f(x) { { const x = y } }
                                         "lexicalKeyword": {
                                             "kind": 37757004,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -81,6 +86,7 @@ function f(x) { { const x = y } }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 25
                                                     },
@@ -90,42 +96,51 @@ function f(x) { { const x = y } }
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 27,
                                                         "end": 29
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 23,
                                                     "end": 29
                                                 }
                                             ],
                                             "flags": 16777232,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 29
                                         },
                                         "flags": 33554448,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 29
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 29
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -134,6 +149,7 @@ function f(x) { { const x = y } }
     "source": "function f(x) { { const x = y } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -142,13 +158,11 @@ function f(x) { { const x = y } }
 ### Printed
 
 ```javascript
-
-  function f(x) {
-    {
-      const x = y;
-    }
+function f(x) {
+  {
+    const x = y;
   }
-
+}
 ```
 
 ### Diagnostics

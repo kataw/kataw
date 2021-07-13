@@ -24,6 +24,7 @@ wrap({*foo(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -41,6 +42,7 @@ wrap({*foo(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -53,6 +55,7 @@ wrap({*foo(){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 10
                                             },
@@ -62,6 +65,7 @@ wrap({*foo(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 12
                                             },
@@ -73,42 +77,51 @@ wrap({*foo(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 13
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 14
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 15
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -117,6 +130,7 @@ wrap({*foo(){}});
     "source": "wrap({*foo(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -125,9 +139,7 @@ wrap({*foo(){}});
 ### Printed
 
 ```javascript
-
-  wrap({ * foo() {} });
-
+wrap({ *foo() {} });
 ```
 
 ### Diagnostics

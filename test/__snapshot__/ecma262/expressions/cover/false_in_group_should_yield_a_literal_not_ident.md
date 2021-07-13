@@ -22,14 +22,17 @@
                 "expression": {
                     "kind": 205586437,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 6
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -38,6 +41,7 @@
     "source": "(false)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -46,9 +50,7 @@
 ### Printed
 
 ```javascript
-
-  (false);
-
+(false);
 ```
 
 ### Diagnostics

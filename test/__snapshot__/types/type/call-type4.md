@@ -29,6 +29,7 @@ type D = $Call<Fn1>;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type D = $Call<Fn1>;
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type D = $Call<Fn1>;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -58,6 +61,7 @@ type D = $Call<Fn1>;
                         "text": "$Call",
                         "rawText": "$Call",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
@@ -77,37 +81,45 @@ type D = $Call<Fn1>;
                                             "text": "Fn1",
                                             "rawText": "Fn1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 18
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 18
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 14,
                         "end": 19
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -116,6 +128,7 @@ type D = $Call<Fn1>;
     "source": "type D = $Call<Fn1>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -124,9 +137,7 @@ type D = $Call<Fn1>;
 ### Printed
 
 ```javascript
-
-  type D = $Call<Fn1>
-
+type D = $Call<Fn1>
 ```
 
 ### Diagnostics

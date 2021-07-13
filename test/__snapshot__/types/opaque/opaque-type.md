@@ -28,12 +28,14 @@ opaque type ID = string;
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -42,6 +44,7 @@ opaque type ID = string;
                 "text": "ID",
                 "rawText": "ID",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -54,20 +57,24 @@ opaque type ID = string;
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 23
             },
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 24
         }
@@ -76,6 +83,7 @@ opaque type ID = string;
     "source": "opaque type ID = string;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }
@@ -84,10 +92,7 @@ opaque type ID = string;
 ### Printed
 
 ```javascript
-
-  opaque type ID = string
-  ;
-
+opaque type ID = string;
 ```
 
 ### Diagnostics

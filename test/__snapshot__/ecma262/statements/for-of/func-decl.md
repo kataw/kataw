@@ -41,6 +41,7 @@ function x(a, [x]) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -50,6 +51,7 @@ function x(a, [x]) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -62,6 +64,7 @@ function x(a, [x]) {}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
@@ -75,22 +78,26 @@ function x(a, [x]) {}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -101,15 +108,18 @@ function x(a, [x]) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -118,6 +128,7 @@ function x(a, [x]) {}
     "source": "function x(a, [x]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -126,9 +137,7 @@ function x(a, [x]) {}
 ### Printed
 
 ```javascript
-
-  function x(a, [x]) {}
-
+function x(a, [x]) {}
 ```
 
 ### Diagnostics

@@ -25,6 +25,7 @@ tag`\\\ `;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -33,14 +34,17 @@ tag`\\\ `;
                     "text": " \\",
                     "rawText": "\\ \\\\",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         },
@@ -53,6 +57,7 @@ tag`\\\ `;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
@@ -61,14 +66,17 @@ tag`\\\ `;
                     "text": "\\ ",
                     "rawText": "\\\\\\ ",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 10,
             "end": 21
         }
@@ -77,6 +85,7 @@ tag`\\\ `;
     "source": "tag`\\ \\\\`;\ntag`\\\\\\ `;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -85,9 +94,8 @@ tag`\\\ `;
 ### Printed
 
 ```javascript
-
-  tag`\ \\`;
-  tag`\\\ `;
+tag`\ \\`;
+tag`\\\ `;
 
 ```
 

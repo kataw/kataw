@@ -24,12 +24,14 @@ function* g() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -38,6 +40,7 @@ function* g() {
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -47,6 +50,7 @@ function* g() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -61,6 +65,7 @@ function* g() {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -69,6 +74,7 @@ function* g() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 28
                                 },
@@ -79,16 +85,19 @@ function* g() {
                                     "text": "",
                                     "rawText": "''",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 31
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 23,
                                 "end": 31
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 34
                             },
@@ -99,46 +108,55 @@ function* g() {
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 36
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 34,
                                 "end": 37
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 38
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 38
                         },
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 40
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 40
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 44
         }
@@ -147,6 +165,7 @@ function* g() {
     "source": "function* g() {\n  for (yield '' in {}; ; ) ;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

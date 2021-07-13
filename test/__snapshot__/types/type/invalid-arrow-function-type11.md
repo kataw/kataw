@@ -29,6 +29,7 @@ type a = ([-1](x)) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ([-1](x)) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ([-1](x)) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,38 +72,46 @@ type a = ([-1](x)) => T;
                                         "subtractionToken": {
                                             "kind": 134318643,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 14
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -113,14 +124,17 @@ type a = ([-1](x)) => T;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 14,
+                "flags": 14,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 14,
             "end": 17
         },
@@ -131,10 +145,12 @@ type a = ([-1](x)) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 24
         }
@@ -143,6 +159,7 @@ type a = ([-1](x)) => T;
     "source": "type a = ([-1](x)) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

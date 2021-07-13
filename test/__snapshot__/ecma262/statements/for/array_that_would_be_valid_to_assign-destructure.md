@@ -39,6 +39,7 @@ for ([x.y];;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,6 +55,7 @@ for ([x.y];;);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -62,20 +64,24 @@ for ([x.y];;);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 6,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 10
             },
@@ -84,10 +90,12 @@ for ([x.y];;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -96,6 +104,7 @@ for ([x.y];;);
     "source": "for ([x.y];;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -104,10 +113,7 @@ for ([x.y];;);
 ### Printed
 
 ```javascript
-
-  for ([x.y,];;)
-    ;
-
+for ([x.y]; ; );
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ class X { ge\u0074 x() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class X { ge\u0074 x() {} }
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,6 +51,7 @@ class X { ge\u0074 x() {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 16448,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -61,6 +64,7 @@ class X { ge\u0074 x() {} }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -70,6 +74,7 @@ class X { ge\u0074 x() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -81,31 +86,38 @@ class X { ge\u0074 x() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 25
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 25
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 25
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -114,6 +126,7 @@ class X { ge\u0074 x() {} }
     "source": "class X { ge\\u0074 x() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

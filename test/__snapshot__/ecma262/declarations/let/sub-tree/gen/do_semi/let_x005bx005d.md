@@ -29,6 +29,7 @@ do let
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -41,6 +42,7 @@ do let
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 6
                     },
@@ -49,20 +51,24 @@ do let
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 8
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 2,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 10
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -71,10 +77,12 @@ do let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -83,6 +91,7 @@ do let
     "source": "do let\n[]; while (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

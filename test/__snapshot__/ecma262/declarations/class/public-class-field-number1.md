@@ -30,6 +30,7 @@ class C { 1e2 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { 1e2 }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -59,6 +61,7 @@ class C { 1e2 }
                                 "text": 100,
                                 "rawText": "1e2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -66,19 +69,23 @@ class C { 1e2 }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 13
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 13
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -87,6 +94,7 @@ class C { 1e2 }
     "source": "class C { 1e2 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -95,11 +103,9 @@ class C { 1e2 }
 ### Printed
 
 ```javascript
-
-  class C {
-    1e2
-  }
-
+class C {
+  1e2;
+}
 ```
 
 ### Diagnostics

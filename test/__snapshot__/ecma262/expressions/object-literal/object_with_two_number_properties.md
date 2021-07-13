@@ -24,6 +24,7 @@ wrap({1:b, 0:d});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -43,6 +44,7 @@ wrap({1:b, 0:d});
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -51,10 +53,12 @@ wrap({1:b, 0:d});
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 9
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 6,
                                         "end": 9
                                     },
@@ -66,6 +70,7 @@ wrap({1:b, 0:d});
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -74,34 +79,41 @@ wrap({1:b, 0:d});
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 10,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 14
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 15
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -110,6 +122,7 @@ wrap({1:b, 0:d});
     "source": "wrap({1:b, 0:d});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -118,9 +131,7 @@ wrap({1:b, 0:d});
 ### Printed
 
 ```javascript
-
-  wrap({ 1: b, 0: d });
-
+wrap({ 1: b, 0: d });
 ```
 
 ### Diagnostics

@@ -20,6 +20,7 @@ for (() => x in y;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -31,7 +32,8 @@ for (() => x in y;;);
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
@@ -39,6 +41,7 @@ for (() => x in y;;);
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -49,12 +52,14 @@ for (() => x in y;;);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
@@ -63,14 +68,17 @@ for (() => x in y;;);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 10,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
@@ -79,10 +87,12 @@ for (() => x in y;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -91,6 +101,7 @@ for (() => x in y;;);
     "source": "for (() => x in y;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -99,10 +110,7 @@ for (() => x in y;;);
 ### Printed
 
 ```javascript
-
-  for (() => x in y;;)
-    ;
-
+for (() => x in y; ; );
 ```
 
 ### Diagnostics

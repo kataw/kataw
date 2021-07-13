@@ -22,6 +22,7 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
@@ -31,6 +32,7 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -40,6 +42,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -60,6 +63,7 @@
                                         "varKeyword": {
                                             "kind": 37757002,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 21
                                         },
@@ -73,21 +77,25 @@
                                                         "text": "f",
                                                         "rawText": "f",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 23
                                                     },
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 21,
                                                     "end": 23
                                                 }
                                             ],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 24
                                     },
@@ -97,6 +105,7 @@
                                         "varKeyword": {
                                             "kind": 37757002,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 28
                                         },
@@ -110,44 +119,53 @@
                                                         "text": "f",
                                                         "rawText": "f",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 30
                                                     },
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 28,
                                                     "end": 30
                                                 }
                                             ],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 30
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 30
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 34
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -156,6 +174,7 @@
     "source": " function x() { { var f; var f } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -164,14 +183,12 @@
 ### Printed
 
 ```javascript
-
-  function x() {
-    {
-      var f;
-      var f;
-    }
+function x() {
+  {
+    var f;
+    var f;
   }
-
+}
 ```
 
 ### Diagnostics

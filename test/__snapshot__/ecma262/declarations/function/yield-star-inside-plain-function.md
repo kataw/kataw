@@ -25,6 +25,7 @@
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
@@ -36,6 +37,7 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
@@ -54,12 +56,14 @@
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 20
                                         },
                                         "operatorToken": {
                                             "kind": 67143222,
                                             "flags": 96,
+                                            "transformFlags": 32,
                                             "start": 20,
                                             "end": 21
                                         },
@@ -68,36 +72,44 @@
                                             "text": 10,
                                             "rawText": "10",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 24
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 14,
                                         "end": 24
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4096,
                                     "start": 14,
                                     "end": 24
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 26
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 26
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -106,6 +118,7 @@
     "source": "(function () { yield* 10 })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -114,11 +127,9 @@
 ### Printed
 
 ```javascript
-
-  (function () {
+(function () {
     yield * 10;
   });
-
 ```
 
 ### Diagnostics

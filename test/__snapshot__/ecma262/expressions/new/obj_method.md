@@ -24,6 +24,7 @@ foo({bar(){ new.target }})
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -48,6 +49,7 @@ foo({bar(){ new.target }})
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 8
                                             },
@@ -57,6 +59,7 @@ foo({bar(){ new.target }})
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             },
@@ -74,61 +77,74 @@ foo({bar(){ new.target }})
                                                                 "newKeyword": {
                                                                     "kind": 138477661,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 11,
                                                                     "end": 15
                                                                 },
                                                                 "targetIdentifier": {
                                                                     "kind": 16594,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 16,
                                                                     "end": 22
                                                                 },
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 11,
                                                                 "end": 22
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 11,
                                                             "end": 22
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 22
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 24
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 24
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 4,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 25
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 26
         }
@@ -137,6 +153,7 @@ foo({bar(){ new.target }})
     "source": "foo({bar(){ new.target }})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -145,11 +162,9 @@ foo({bar(){ new.target }})
 ### Printed
 
 ```javascript
-
-  foo({ bar() {
-      new.target;
-    } });
-
+foo({ bar() {
+    new.target;
+  } });
 ```
 
 ### Diagnostics

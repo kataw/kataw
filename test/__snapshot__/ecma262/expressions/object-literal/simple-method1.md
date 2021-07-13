@@ -27,12 +27,14 @@ x = {
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -54,6 +56,7 @@ x = {
                                         "text": "method",
                                         "rawText": "method",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 16
                                     },
@@ -63,6 +66,7 @@ x = {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 18
                                     },
@@ -74,36 +78,44 @@ x = {
                                             "directives": [],
                                             "statements": [],
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 26
                                     },
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 26
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 26
                             }
                         ],
                         "trailingComma": false,
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 26
                     },
                     "flags": 49,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 29
         }
@@ -112,6 +124,7 @@ x = {
     "source": "x = {\n    method() {\n    }\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
@@ -120,12 +133,9 @@ x = {
 ### Printed
 
 ```javascript
-
-  x = {
-    method() {
-    }
-  };
-
+x = {
+  method() {}
+};
 ```
 
 ### Diagnostics

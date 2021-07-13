@@ -32,6 +32,7 @@ Object.keys(y).map(k => { return {[k]: k} });
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,6 +46,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -62,6 +64,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 14
                                         },
@@ -70,33 +73,40 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 11,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 17
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 9,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 18
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -115,6 +125,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "text": "Object",
                                 "rawText": "Object",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 26
                             },
@@ -123,10 +134,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "text": "keys",
                                 "rawText": "keys",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 31
                             },
                             "flags": 97,
+                            "transformFlags": 2,
                             "start": 19,
                             "end": 31
                         },
@@ -138,16 +151,19 @@ Object.keys(y).map(k => { return {[k]: k} });
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 33
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 19,
                         "end": 34
                     },
@@ -156,10 +172,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                         "text": "map",
                         "rawText": "map",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 38
                     },
                     "flags": 268435488,
+                    "transformFlags": 2,
                     "start": 19,
                     "end": 38
                 },
@@ -175,6 +193,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "text": "k",
                                 "rawText": "k",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 40
                             },
@@ -182,6 +201,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 43
                             },
@@ -196,6 +216,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 52
                                             },
@@ -214,10 +235,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                                     "text": "k",
                                                                     "rawText": "k",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 55,
                                                                     "end": 56
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 54,
                                                                 "end": 57
                                                             },
@@ -226,51 +249,62 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                                 "text": "k",
                                                                 "rawText": "k",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 58,
                                                                 "end": 60
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 128,
                                                             "start": 54,
                                                             "end": 60
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 60
                                                 },
                                                 "flags": 48,
+                                                "transformFlags": 8,
                                                 "start": 52,
                                                 "end": 61
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 45,
                                             "end": 61
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 61
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 63
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 63
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 63
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 19,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 65
         },
@@ -279,6 +313,7 @@ Object.keys(y).map(k => { return {[k]: k} });
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 72
             },
@@ -292,6 +327,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 72,
                             "end": 74
                         },
@@ -309,6 +345,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 81
                                         },
@@ -317,10 +354,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 82,
                                             "end": 84
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 78,
                                         "end": 84
                                     },
@@ -332,6 +371,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 89
                                         },
@@ -340,33 +380,40 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 90,
                                             "end": 92
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 85,
                                         "end": 92
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 78,
                                 "end": 92
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 76,
                             "end": 93
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 72,
                         "end": 93
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 93
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 65,
             "end": 94
         },
@@ -385,6 +432,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "text": "Object",
                                 "rawText": "Object",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 94,
                                 "end": 101
                             },
@@ -393,10 +441,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "text": "keys",
                                 "rawText": "keys",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 102,
                                 "end": 106
                             },
                             "flags": 97,
+                            "transformFlags": 2,
                             "start": 94,
                             "end": 106
                         },
@@ -408,16 +458,19 @@ Object.keys(y).map(k => { return {[k]: k} });
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 108
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 108
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 94,
                         "end": 109
                     },
@@ -426,10 +479,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                         "text": "map",
                         "rawText": "map",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 110,
                         "end": 113
                     },
                     "flags": 268435488,
+                    "transformFlags": 2,
                     "start": 94,
                     "end": 113
                 },
@@ -445,6 +500,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "text": "k",
                                 "rawText": "k",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 114,
                                 "end": 115
                             },
@@ -452,6 +508,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 115,
                                 "end": 118
                             },
@@ -466,6 +523,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 120,
                                                 "end": 127
                                             },
@@ -484,10 +542,12 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                                     "text": "k",
                                                                     "rawText": "k",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 130,
                                                                     "end": 131
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 129,
                                                                 "end": 132
                                                             },
@@ -496,51 +556,62 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                                 "text": "k",
                                                                 "rawText": "k",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 133,
                                                                 "end": 135
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 128,
                                                             "start": 129,
                                                             "end": 135
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 129,
                                                     "end": 135
                                                 },
                                                 "flags": 48,
+                                                "transformFlags": 8,
                                                 "start": 127,
                                                 "end": 136
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 120,
                                             "end": 136
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 120,
                                     "end": 136
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 118,
                                 "end": 138
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 138
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 114,
                     "end": 138
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 94,
                 "end": 139
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 94,
             "end": 140
         }
@@ -549,6 +620,7 @@ Object.keys(y).map(k => { return {[k]: k} });
     "source": "const x = {foo: 3};\nObject.keys(x).map(k => { return {[k]: k} });\n\nconst y = {foo: 3, bar: 3};\nObject.keys(y).map(k => { return {[k]: k} });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 140
 }
@@ -557,15 +629,16 @@ Object.keys(y).map(k => { return {[k]: k} });
 ### Printed
 
 ```javascript
+const x = { foo: 3 };
+Object.keys(x).map(k => {
+  return { [k]: k };
+});
 
-  const x = { foo: 3 };
-  Object.keys(x).map(k => {
-    return { [k]: k };
-  });
-  const y = { foo: 3, bar: 3 };
-  Object.keys(y).map(k => {
-    return { [k]: k };
-  });
+const y = { foo: 3, bar: 3 };
+
+Object.keys(y).map(k => {
+  return { [k]: k };
+});
 
 ```
 

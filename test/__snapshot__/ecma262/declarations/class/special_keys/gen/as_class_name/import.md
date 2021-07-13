@@ -29,6 +29,7 @@ class import {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class import {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class import {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -64,6 +69,7 @@ class import {}
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
@@ -77,10 +83,12 @@ class import {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -95,18 +103,22 @@ class import {}
                         "kind": 265,
                         "specifiers": [],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 5,
             "end": 15
         }
@@ -115,6 +127,7 @@ class import {}
     "source": "class import {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

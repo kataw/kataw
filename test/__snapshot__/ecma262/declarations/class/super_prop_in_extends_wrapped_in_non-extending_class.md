@@ -41,6 +41,7 @@ class a { foo(){      class x extends super.foo {}    }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class a { foo(){      class x extends super.foo {}    }}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -75,6 +77,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -84,6 +87,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -101,6 +105,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                 "classKeyword": {
                                                     "kind": 37822544,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 27
                                                 },
@@ -109,6 +114,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 29
                                                 },
@@ -120,6 +126,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
                                                             "flags": 80,
+                                                            "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 37
                                                         },
@@ -128,6 +135,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                             "member": {
                                                                 "kind": 4259935,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 43
                                                             },
@@ -136,15 +144,18 @@ class a { foo(){      class x extends super.foo {}    }}
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 44,
                                                                 "end": 47
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 37,
                                                             "end": 47
                                                         },
                                                         "typeParameter": null,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 47
                                                     },
@@ -152,44 +163,54 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 49,
                                                         "end": 49
                                                     },
                                                     "flags": 29,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 50
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 50
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 50
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 55
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 55
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 55
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -198,6 +219,7 @@ class a { foo(){      class x extends super.foo {}    }}
     "source": "class a { foo(){      class x extends super.foo {}    }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }
@@ -206,14 +228,11 @@ class a { foo(){      class x extends super.foo {}    }}
 ### Printed
 
 ```javascript
-
-  class a {
-    foo() {
-      class x extends super.foo {
-      }
-    }
+class a {
+  foo() {
+    class x extends super.foo {}
   }
-
+}
 ```
 
 ### Diagnostics

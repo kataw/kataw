@@ -34,6 +34,7 @@ import(x).then();
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -42,14 +43,17 @@ import(x).then();
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 11
         },
@@ -60,6 +64,7 @@ import(x).then();
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 19
                 },
@@ -68,14 +73,17 @@ import(x).then();
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 25
         },
@@ -86,6 +94,7 @@ import(x).then();
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 33
                 },
@@ -94,14 +103,17 @@ import(x).then();
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 37
         },
@@ -112,6 +124,7 @@ import(x).then();
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 45
                 },
@@ -122,12 +135,14 @@ import(x).then();
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 47
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 48
                     },
@@ -136,18 +151,22 @@ import(x).then();
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 49
                     },
-                    "flags": 32,
+                    "flags": 0,
+                    "transformFlags": 128,
                     "start": 46,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 37,
             "end": 51
         },
@@ -158,6 +177,7 @@ import(x).then();
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 59
                 },
@@ -166,6 +186,7 @@ import(x).then();
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 60,
                         "end": 66
                     },
@@ -174,18 +195,22 @@ import(x).then();
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 67,
                         "end": 68
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 69
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 51,
             "end": 71
         },
@@ -200,6 +225,7 @@ import(x).then();
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 79
                         },
@@ -208,10 +234,12 @@ import(x).then();
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 80,
                             "end": 81
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 79,
                         "end": 82
                     },
@@ -220,10 +248,12 @@ import(x).then();
                         "text": "then",
                         "rawText": "then",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 83,
                         "end": 87
                     },
                     "flags": 32,
+                    "transformFlags": 2,
                     "start": 71,
                     "end": 87
                 },
@@ -232,14 +262,17 @@ import(x).then();
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 88
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 71,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 71,
             "end": 90
         }
@@ -248,6 +281,7 @@ import(x).then();
     "source": "\nimport(x);\n\nimport(foo);\n\nimport(1);\n\nimport(y=x);\n\nimport(import(x));\n\nimport(x).then();\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 91
 }
@@ -256,13 +290,16 @@ import(x).then();
 ### Printed
 
 ```javascript
+import(x);
+import(foo);
 
-  import(x);
-  import(foo);
-  import(1);
-  import(y = x);
-  import(import(x));
-  import(x).then();
+import(1);
+
+import(y = x);
+
+import(import(x));
+
+import(x).then();
 
 ```
 

@@ -25,6 +25,7 @@ delete foo.bar, z;
                         "operandToken": {
                             "kind": 4259886,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -35,6 +36,7 @@ delete foo.bar, z;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 10
                             },
@@ -43,14 +45,17 @@ delete foo.bar, z;
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 6,
                             "end": 14
                         },
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 0,
                         "end": 14
                     },
@@ -59,15 +64,18 @@ delete foo.bar, z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -76,6 +84,7 @@ delete foo.bar, z;
     "source": "delete foo.bar, z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -84,9 +93,7 @@ delete foo.bar, z;
 ### Printed
 
 ```javascript
-
-  delete  foo.bar, z;
-
+delete foo.bar, z;
 ```
 
 ### Diagnostics

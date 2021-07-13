@@ -26,6 +26,7 @@ export @bar class Foo { }
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -40,6 +41,7 @@ export @bar class Foo { }
                             "decoratorToken": {
                                 "kind": 34611453,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 8
                             },
@@ -48,21 +50,25 @@ export @bar class Foo { }
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 17
                 },
@@ -71,6 +77,7 @@ export @bar class Foo { }
                     "text": "Foo",
                     "rawText": "Foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
@@ -82,14 +89,17 @@ export @bar class Foo { }
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 21,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 25
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 25
             },
@@ -98,6 +108,7 @@ export @bar class Foo { }
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -106,6 +117,7 @@ export @bar class Foo { }
     "source": "export @bar class Foo { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -114,12 +126,9 @@ export @bar class Foo { }
 ### Printed
 
 ```javascript
-
-  export 
-  @bar
-  class Foo {
-  }
-
+export
+@bar
+class Foo {}
 ```
 
 ### Diagnostics

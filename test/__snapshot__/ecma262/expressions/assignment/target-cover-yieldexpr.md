@@ -24,12 +24,14 @@ function* g() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -38,6 +40,7 @@ function* g() {
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -47,6 +50,7 @@ function* g() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -67,6 +71,7 @@ function* g() {
                                         "yieldKeyword": {
                                             "kind": 8454253,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 24
                                         },
@@ -74,16 +79,19 @@ function* g() {
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 19,
                                         "end": 24
                                     },
-                                    "flags": 32,
-                                    "start": 15,
+                                    "flags": 15,
+                                    "transformFlags": 0,
+                                    "start": 33,
                                     "end": 25
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
@@ -92,28 +100,34 @@ function* g() {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
-                                "flags": 32,
+                                "flags": 0,
+                                "transformFlags": 128,
                                 "start": 15,
                                 "end": 29
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 30
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 32
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -122,6 +136,7 @@ function* g() {
     "source": "function* g() {\n  (yield) = 1;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

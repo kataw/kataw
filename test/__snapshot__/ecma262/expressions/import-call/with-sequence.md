@@ -22,6 +22,7 @@ import((dummy, source))
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -35,6 +36,7 @@ import((dummy, source))
                                 "text": "dummy",
                                 "rawText": "dummy",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 13
                             },
@@ -43,23 +45,28 @@ import((dummy, source))
                                 "text": "source",
                                 "rawText": "source",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 21
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 1024,
                         "start": 7,
                         "end": 22
                     },
-                    "flags": 32,
-                    "start": 7,
+                    "flags": 7,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -68,6 +75,7 @@ import((dummy, source))
     "source": "import((dummy, source))",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -76,9 +84,7 @@ import((dummy, source))
 ### Printed
 
 ```javascript
-
-  import((dummy, source));
-
+import((dummy, source));
 ```
 
 ### Diagnostics

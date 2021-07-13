@@ -28,6 +28,7 @@ var asyncFn = async (await) => 'test';
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var asyncFn = async (await) => 'test';
                             "text": "asyncFn",
                             "rawText": "asyncFn",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -50,6 +52,7 @@ var asyncFn = async (await) => 'test';
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
@@ -62,12 +65,14 @@ var asyncFn = async (await) => 'test';
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 26
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
                             },
@@ -75,6 +80,7 @@ var asyncFn = async (await) => 'test';
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
@@ -83,23 +89,28 @@ var asyncFn = async (await) => 'test';
                                 "text": "test",
                                 "rawText": "'test'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 37
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 37
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -108,6 +119,7 @@ var asyncFn = async (await) => 'test';
     "source": "var asyncFn = async (await) => 'test';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -116,9 +128,7 @@ var asyncFn = async (await) => 'test';
 ### Printed
 
 ```javascript
-
-  var asyncFn = async (await) => "'test'";
-
+var asyncFn = async (await) => "'test'";
 ```
 
 ### Diagnostics

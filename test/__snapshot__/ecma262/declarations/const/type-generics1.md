@@ -28,6 +28,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                             "text": "functionReturningIdentityAsAField",
                             "rawText": "functionReturningIdentityAsAField",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 39
                         },
@@ -53,7 +55,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 43
                             },
@@ -61,6 +64,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 47
                             },
@@ -79,6 +83,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                     "text": "id",
                                                     "rawText": "id",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 50,
                                                     "end": 53
                                                 },
@@ -97,6 +102,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                         "text": "T",
                                                                         "rawText": "T",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 56,
                                                                         "end": 57
                                                                     },
@@ -104,16 +110,19 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                     "assignToken": null,
                                                                     "defaultType": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 56,
                                                                     "end": 57
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 56,
                                                             "end": 57
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 512,
                                                         "start": 54,
                                                         "end": 58
                                                     },
@@ -128,6 +137,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                     "text": "value",
                                                                     "rawText": "value",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 59,
                                                                     "end": 64
                                                                 },
@@ -143,26 +153,31 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                             "text": "T",
                                                                             "rawText": "T",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 65,
                                                                             "end": 67
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 65,
                                                                         "end": 67
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 65,
                                                                     "end": 67
                                                                 },
                                                                 "right": null,
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 54,
                                                                 "end": 67
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 71
                                                     },
@@ -177,21 +192,25 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 69,
                                                                 "end": 71
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 69,
                                                             "end": 71
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 69,
                                                         "end": 71
                                                     },
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 74
                                                     },
@@ -200,45 +219,55 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                         "text": "value",
                                                         "rawText": "value",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 74,
                                                         "end": 80
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 80
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 50,
                                                 "end": 80
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 80
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 49,
                                     "end": 82
                                 },
-                                "flags": 32,
-                                "start": 47,
+                                "flags": 47,
+                                "transformFlags": 0,
+                                "start": 34,
                                 "end": 83
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 83
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 83
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 83
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 84
         }
@@ -247,6 +276,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
     "source": "const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 84
 }
@@ -255,9 +285,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 ### Printed
 
 ```javascript
-
-  const functionReturningIdentityAsAField = () => ({ id: <T>(value: T) => value });
-
+const functionReturningIdentityAsAField = () =>
+    ({ id: <T>(value: T) => value });
 ```
 
 ### Diagnostics

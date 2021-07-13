@@ -31,12 +31,14 @@ x in[]=x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -49,16 +51,19 @@ x in[]=x
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 5
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 4,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
@@ -67,18 +72,22 @@ x in[]=x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 4,
                     "end": 8
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         }
@@ -87,6 +96,7 @@ x in[]=x
     "source": "x in[]=x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }
@@ -95,9 +105,7 @@ x in[]=x
 ### Printed
 
 ```javascript
-
-  x in [] = x;
-
+x in [] = x;
 ```
 
 ### Diagnostics

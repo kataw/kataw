@@ -28,6 +28,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -50,19 +52,23 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                             "text": 42,
                             "rawText": "42",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -75,6 +81,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 19
                     },
@@ -83,16 +90,19 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 20
                 },
@@ -101,14 +111,17 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "text": "is",
                     "rawText": "is",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 11,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 22
         },
@@ -121,12 +134,14 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "text": "eol",
                     "rawText": "eol",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 134318643,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 27
                 },
@@ -135,14 +150,17 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "text": "comment",
                     "rawText": "comment",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 34
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 22,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 22,
             "end": 34
         },
@@ -153,10 +171,12 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                 "text": "nvar",
                 "rawText": "nvar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 35,
             "end": 39
         },
@@ -169,12 +189,14 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 41
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 43
                 },
@@ -183,14 +205,17 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "text": 37,
                     "rawText": "37",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 46
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 39,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 39,
             "end": 47
         }
@@ -199,6 +224,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
     "source": "var x = 42;/*\\n*/-->is eol-comment\\nvar y = 37;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }

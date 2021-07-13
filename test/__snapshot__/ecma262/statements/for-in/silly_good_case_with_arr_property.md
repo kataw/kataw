@@ -39,6 +39,7 @@ for ([].bar in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,10 +52,12 @@ for ([].bar in obj);
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 7
                 },
@@ -63,16 +66,19 @@ for ([].bar in obj);
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 11
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -81,16 +87,19 @@ for ([].bar in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -99,6 +108,7 @@ for ([].bar in obj);
     "source": "for ([].bar in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -107,10 +117,7 @@ for ([].bar in obj);
 ### Printed
 
 ```javascript
-
-  for ([].bar in obj)
-    ;
-
+for ([].bar in obj);
 ```
 
 ### Diagnostics

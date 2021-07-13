@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,12 +39,14 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 22,
                 "end": 23
             },
@@ -52,6 +55,7 @@
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
@@ -61,6 +65,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 27
             },
@@ -77,6 +82,7 @@
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 36
                             },
@@ -85,6 +91,7 @@
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 38
                             },
@@ -106,6 +113,7 @@
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 40,
                                                 "end": 42
                                             },
@@ -116,6 +124,7 @@
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 47
                                                 },
@@ -125,6 +134,7 @@
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 49
                                                 },
@@ -136,45 +146,55 @@
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 51
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 49,
                                                     "end": 53
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 53
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 53
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 53
                                 },
                                 "flags": 38,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 55
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 55
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 57
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 13,
             "end": 57
         }
@@ -183,6 +203,7 @@
     "source": "'use strict'; function* gf() { class C { *yield() { } } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }
@@ -192,13 +213,12 @@
 
 ```javascript
 
-  "'use strict'";
-  function* gf() {
-    class C {
-      * yield() {}
-    }
+"'use strict'";
+function *gf() {
+  class C {
+    *yield() {}
   }
-
+}
 ```
 
 ### Diagnostics

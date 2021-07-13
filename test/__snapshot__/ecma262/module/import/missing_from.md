@@ -26,6 +26,7 @@ import {a, b} fromx "c"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -39,10 +40,12 @@ import {a, b} fromx "c"
                     "text": "fromx",
                     "rawText": "fromx",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -67,10 +70,12 @@ import {a, b} fromx "c"
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -85,27 +90,33 @@ import {a, b} fromx "c"
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -116,10 +127,12 @@ import {a, b} fromx "c"
                 "text": "c",
                 "rawText": "\"c\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 23
         }
@@ -128,6 +141,7 @@ import {a, b} fromx "c"
     "source": "import {a, b} fromx \"c\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

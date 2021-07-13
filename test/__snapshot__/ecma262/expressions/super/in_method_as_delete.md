@@ -24,12 +24,14 @@ x = { foo(){ delete super[foo]; }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = { foo(){ delete super[foo]; }}
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -60,6 +63,7 @@ x = { foo(){ delete super[foo]; }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
@@ -77,6 +81,7 @@ x = { foo(){ delete super[foo]; }}
                                                         "operandToken": {
                                                             "kind": 4259886,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 19
                                                         },
@@ -85,6 +90,7 @@ x = { foo(){ delete super[foo]; }}
                                                             "member": {
                                                                 "kind": 4259935,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 19,
                                                                 "end": 25
                                                             },
@@ -93,53 +99,65 @@ x = { foo(){ delete super[foo]; }}
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 26,
                                                                 "end": 29
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 19,
                                                             "end": 30
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 1024,
                                                         "start": 12,
                                                         "end": 30
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4096,
                                                     "start": 12,
                                                     "end": 31
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 33
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 33
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 34
         }
@@ -148,6 +166,7 @@ x = { foo(){ delete super[foo]; }}
     "source": "x = { foo(){ delete super[foo]; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -156,11 +175,9 @@ x = { foo(){ delete super[foo]; }}
 ### Printed
 
 ```javascript
-
-  x = { foo() {
-      delete  super[foo];
-    } };
-
+x = { foo() {
+    delete super[foo];
+  } };
 ```
 
 ### Diagnostics

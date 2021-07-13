@@ -22,12 +22,14 @@ function *f(){ delete ("x"[(yield)]) }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *f(){ delete ("x"[(yield)]) }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *f(){ delete ("x"[(yield)]) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -61,6 +65,7 @@ function *f(){ delete ("x"[(yield)]) }
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 21
                                 },
@@ -73,6 +78,7 @@ function *f(){ delete ("x"[(yield)]) }
                                             "text": "x",
                                             "rawText": "\"x\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 26
                                         },
@@ -83,6 +89,7 @@ function *f(){ delete ("x"[(yield)]) }
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 33
                                                 },
@@ -90,40 +97,49 @@ function *f(){ delete ("x"[(yield)]) }
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 28,
                                                 "end": 33
                                             },
-                                            "flags": 32,
-                                            "start": 27,
+                                            "flags": 27,
+                                            "transformFlags": 0,
+                                            "start": 32,
                                             "end": 34
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 23,
                                         "end": 35
                                     },
-                                    "flags": 32,
-                                    "start": 21,
+                                    "flags": 21,
+                                    "transformFlags": 0,
+                                    "start": 32,
                                     "end": 36
                                 },
                                 "flags": 32,
+                                "transformFlags": 1024,
                                 "start": 14,
                                 "end": 36
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 14,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 38
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -132,6 +148,7 @@ function *f(){ delete ("x"[(yield)]) }
     "source": "function *f(){ delete (\"x\"[(yield)]) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -140,11 +157,9 @@ function *f(){ delete ("x"[(yield)]) }
 ### Printed
 
 ```javascript
-
-  function* f() {
-    delete  ("\"x\""[(yield )]);
-  }
-
+function *f() {
+  delete ("\"x\""[(yield )]);
+}
 ```
 
 ### Diagnostics

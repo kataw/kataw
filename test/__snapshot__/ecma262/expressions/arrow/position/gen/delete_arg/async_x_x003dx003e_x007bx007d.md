@@ -29,6 +29,7 @@ delete async x => {}
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -37,6 +38,7 @@ delete async x => {}
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -46,6 +48,7 @@ delete async x => {}
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -53,6 +56,7 @@ delete async x => {}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
@@ -63,22 +67,27 @@ delete async x => {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 19
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -87,6 +96,7 @@ delete async x => {}
     "source": "delete async x => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -95,9 +105,7 @@ delete async x => {}
 ### Printed
 
 ```javascript
-
-  delete  async x => {};
-
+delete async x => {};
 ```
 
 ### Diagnostics

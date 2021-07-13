@@ -24,12 +24,14 @@ x = { foo(){ return {[super[foo]]: x}; }}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -60,6 +63,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
@@ -75,6 +79,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -93,6 +98,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                             "member": {
                                                                                 "kind": 4259935,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 22,
                                                                                 "end": 27
                                                                             },
@@ -101,14 +107,17 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 28,
                                                                                 "end": 31
                                                                             },
                                                                             "flags": 536870944,
+                                                                            "transformFlags": 4,
                                                                             "start": 22,
                                                                             "end": 32
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 21,
                                                                         "end": 33
                                                                     },
@@ -117,59 +126,72 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                         "text": "x",
                                                                         "rawText": "x",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 34,
                                                                         "end": 36
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 128,
                                                                     "start": 21,
                                                                     "end": 36
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 36
                                                         },
                                                         "flags": 48,
+                                                        "transformFlags": 8,
                                                         "start": 19,
                                                         "end": 37
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 256,
                                                     "start": 12,
                                                     "end": 38
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 38
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 40
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 40
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 40
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 40
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 41
         }
@@ -178,6 +200,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
     "source": "x = { foo(){ return {[super[foo]]: x}; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }
@@ -186,11 +209,9 @@ x = { foo(){ return {[super[foo]]: x}; }}
 ### Printed
 
 ```javascript
-
-  x = { foo() {
-      return { [super[foo]]: x };
-    } };
-
+x = { foo() {
+    return { [super[foo]]: x };
+  } };
 ```
 
 ### Diagnostics

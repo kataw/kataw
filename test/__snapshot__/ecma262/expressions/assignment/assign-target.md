@@ -39,12 +39,14 @@ x[y] = 0;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -53,14 +55,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -75,6 +80,7 @@ x[y] = 0;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -83,16 +89,19 @@ x[y] = 0;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 6,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -101,14 +110,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 6,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 6,
             "end": 15
         },
@@ -123,6 +135,7 @@ x[y] = 0;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
@@ -131,16 +144,19 @@ x[y] = 0;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 19
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 15,
                     "end": 20
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
@@ -149,14 +165,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 15,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 15,
             "end": 25
         },
@@ -172,22 +191,26 @@ x[y] = 0;
                             {
                                 "kind": 230,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             }
                         ],
                         "trailingComma": true,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 28
                     },
                     "flags": 33,
+                    "transformFlags": 8,
                     "start": 25,
                     "end": 29
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
@@ -196,14 +219,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 25,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 34
         },
@@ -221,22 +247,26 @@ x[y] = 0;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 37
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 37
                     },
                     "flags": 33,
+                    "transformFlags": 8,
                     "start": 34,
                     "end": 38
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 40
                 },
@@ -245,14 +275,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 34,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 34,
             "end": 43
         },
@@ -272,12 +305,14 @@ x[y] = 0;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 48
                                 },
@@ -286,26 +321,31 @@ x[y] = 0;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 50
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 45,
                                 "end": 50
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 50
                     },
                     "flags": 33,
+                    "transformFlags": 8,
                     "start": 43,
                     "end": 51
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 53
                 },
@@ -314,14 +354,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 55
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 43,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 43,
             "end": 56
         },
@@ -339,6 +382,7 @@ x[y] = 0;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 61
                                 },
@@ -347,26 +391,31 @@ x[y] = 0;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 62
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 62
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 58,
                         "end": 62
                     },
                     "flags": 33,
+                    "transformFlags": 8,
                     "start": 56,
                     "end": 63
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 65
                 },
@@ -375,14 +424,17 @@ x[y] = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 67
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 56,
                 "end": 67
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 56,
             "end": 68
         },
@@ -402,6 +454,7 @@ x[y] = 0;
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 71,
                                         "end": 74
                                     },
@@ -410,26 +463,31 @@ x[y] = 0;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 74,
                                         "end": 75
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 75
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 75
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 70,
                         "end": 76
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 76,
                         "end": 78
                     },
@@ -438,18 +496,22 @@ x[y] = 0;
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 78,
                         "end": 80
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 70,
                     "end": 80
                 },
-                "flags": 32,
-                "start": 68,
+                "flags": 68,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 81
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 68,
             "end": 82
         },
@@ -471,6 +533,7 @@ x[y] = 0;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 85,
                                         "end": 86
                                     },
@@ -479,26 +542,31 @@ x[y] = 0;
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 88,
                                         "end": 90
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 85,
                                     "end": 90
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 85,
                             "end": 90
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 84,
                         "end": 91
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 91,
                         "end": 93
                     },
@@ -507,18 +575,22 @@ x[y] = 0;
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 93,
                         "end": 95
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 84,
                     "end": 95
                 },
-                "flags": 32,
-                "start": 82,
+                "flags": 82,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 96
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 82,
             "end": 97
         },
@@ -541,6 +613,7 @@ x[y] = 0;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 100,
                                         "end": 101
                                     },
@@ -551,12 +624,14 @@ x[y] = 0;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 102,
                                             "end": 104
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 104,
                                             "end": 106
                                         },
@@ -565,30 +640,36 @@ x[y] = 0;
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 106,
                                             "end": 108
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 100,
                                         "end": 108
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 100,
                                     "end": 108
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 100,
                             "end": 108
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 99,
                         "end": 109
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 109,
                         "end": 111
                     },
@@ -597,18 +678,22 @@ x[y] = 0;
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 111,
                         "end": 113
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 99,
                     "end": 113
                 },
-                "flags": 32,
-                "start": 97,
+                "flags": 97,
+                "transformFlags": 0,
+                "start": 35,
                 "end": 114
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 97,
             "end": 115
         }
@@ -617,6 +702,7 @@ x[y] = 0;
     "source": "x = 0;\nx.y = 0;\nx[y] = 0;\n[,] = 0;\n[x] = 0;\n[x = y] = 0;\n[...x] = 0;\n({...x} = 0);\n({x = 0} = 0);\n({x: y = 0} = 0);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 115
 }
@@ -625,17 +711,24 @@ x[y] = 0;
 ### Printed
 
 ```javascript
+x = 0;
+x.y = 0;
 
-  x = 0;
-  x.y = 0;
-  x[y] = 0;
-  [,] = 0;
-  [x,] = 0;
-  [x = y,] = 0;
-  [...x] = 0;
-  ({ ...x } = 0);
-  ({ x = 0 } = 0);
-  ({ x: y = 0 } = 0);
+x[y] = 0;
+
+[,] = 0;
+
+[x] = 0;
+
+[x = y] = 0;
+
+[...x] = 0;
+
+({ ...x } = 0);
+
+({ x = 0 } = 0);
+
+({ x: y = 0 } = 0);
 
 ```
 

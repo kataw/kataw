@@ -21,6 +21,7 @@ while(y)
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -29,6 +30,7 @@ while(y)
                 "ifKeyword": {
                     "kind": 37757019,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -37,6 +39,7 @@ while(y)
                     "text": 8,
                     "rawText": "8",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 7
                 },
@@ -47,6 +50,7 @@ while(y)
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 16
                     },
@@ -56,6 +60,7 @@ while(y)
                         "text": "s",
                         "rawText": "s",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
@@ -65,6 +70,7 @@ while(y)
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
@@ -75,27 +81,32 @@ while(y)
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "returnType": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 22
                 },
                 "elseKeyword": null,
                 "alternate": null,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 22
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 28
             },
@@ -104,10 +115,12 @@ while(y)
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -116,6 +129,7 @@ while(y)
     "source": "do if(8)function s(){}\nwhile(y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -124,11 +138,8 @@ while(y)
 ### Printed
 
 ```javascript
-
-  do
-    if (8)
-      function s() {} while (y)
-
+do  if (8) function s() {}
+while (y);
 ```
 
 ### Diagnostics

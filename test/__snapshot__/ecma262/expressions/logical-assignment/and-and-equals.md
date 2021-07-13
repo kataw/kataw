@@ -31,12 +31,14 @@ obj.a &&= b;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4139,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 5
                 },
@@ -45,14 +47,17 @@ obj.a &&= b;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 8
         },
@@ -67,6 +72,7 @@ obj.a &&= b;
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
@@ -75,16 +81,19 @@ obj.a &&= b;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 8,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4139,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
@@ -93,14 +102,17 @@ obj.a &&= b;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 8,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 21
         }
@@ -109,6 +121,7 @@ obj.a &&= b;
     "source": "a &&= b;\nobj.a &&= b;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -117,9 +130,8 @@ obj.a &&= b;
 ### Printed
 
 ```javascript
-
-  a &&= b;
-  obj.a &&= b;
+a &&= b;
+obj.a &&= b;
 
 ```
 

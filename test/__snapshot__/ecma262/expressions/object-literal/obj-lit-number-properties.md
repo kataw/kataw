@@ -26,6 +26,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -45,6 +46,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": 0.9,
                                             "rawText": ".9",
                                             "flags": 32864,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 5
                                         },
@@ -53,10 +55,12 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         },
                                         "flags": 32800,
+                                        "transformFlags": 128,
                                         "start": 3,
                                         "end": 7
                                     },
@@ -68,6 +72,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": 132,
                                             "rawText": "0x84",
                                             "flags": 1048672,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 13
                                         },
@@ -76,10 +81,12 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
                                         "flags": 1048608,
+                                        "transformFlags": 128,
                                         "start": 8,
                                         "end": 15
                                     },
@@ -91,6 +98,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": 1,
                                             "rawText": "0b1",
                                             "flags": 524384,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -99,10 +107,12 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 22
                                         },
                                         "flags": 524320,
+                                        "transformFlags": 128,
                                         "start": 16,
                                         "end": 22
                                     },
@@ -114,6 +124,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": 23,
                                             "rawText": "0o27",
                                             "flags": 262240,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
                                         },
@@ -122,10 +133,12 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 30
                                         },
                                         "flags": 262176,
+                                        "transformFlags": 128,
                                         "start": 23,
                                         "end": 30
                                     },
@@ -137,6 +150,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": 1e+234,
                                             "rawText": "1e234",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 37
                                         },
@@ -145,34 +159,41 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 39
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 31,
                                         "end": 39
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32784,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 39
                             },
                             "flags": 32816,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 40
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 40
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 42
         },
@@ -185,6 +206,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 45
                 },
@@ -209,6 +231,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "text": 0.9,
                                                 "rawText": ".9",
                                                 "flags": 32864,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 49
                                             },
@@ -218,6 +241,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32800,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 51
                                             },
@@ -229,18 +253,22 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 52
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 53
                                             },
                                             "flags": 32800,
+                                            "transformFlags": 0,
                                             "start": 49,
                                             "end": 53
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 53
                                     },
@@ -257,6 +285,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "text": 132,
                                                 "rawText": "0x84",
                                                 "flags": 1048672,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 59
                                             },
@@ -266,6 +295,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1048608,
+                                                "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 61
                                             },
@@ -277,18 +307,22 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 62,
                                                     "end": 62
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 63
                                             },
                                             "flags": 1048608,
+                                            "transformFlags": 0,
                                             "start": 59,
                                             "end": 63
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 54,
                                         "end": 63
                                     },
@@ -305,6 +339,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "text": 1,
                                                 "rawText": "0b1",
                                                 "flags": 524384,
+                                                "transformFlags": 0,
                                                 "start": 64,
                                                 "end": 68
                                             },
@@ -314,6 +349,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 524320,
+                                                "transformFlags": 0,
                                                 "start": 69,
                                                 "end": 70
                                             },
@@ -325,18 +361,22 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 71,
                                                     "end": 71
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 70,
                                                 "end": 72
                                             },
                                             "flags": 524320,
+                                            "transformFlags": 0,
                                             "start": 68,
                                             "end": 72
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 64,
                                         "end": 72
                                     },
@@ -353,6 +393,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "text": 23,
                                                 "rawText": "0o27",
                                                 "flags": 262240,
+                                                "transformFlags": 0,
                                                 "start": 73,
                                                 "end": 78
                                             },
@@ -362,6 +403,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 262176,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 80
                                             },
@@ -373,18 +415,22 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 81,
                                                     "end": 81
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 80,
                                                 "end": 82
                                             },
                                             "flags": 262176,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 82
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 73,
                                         "end": 82
                                     },
@@ -401,6 +447,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "text": 1e+234,
                                                 "rawText": "1e234",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 83,
                                                 "end": 89
                                             },
@@ -410,6 +457,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 90,
                                                 "end": 91
                                             },
@@ -421,42 +469,51 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 92,
                                                     "end": 92
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 93
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 93
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 83,
                                         "end": 93
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32784,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 93
                             },
                             "flags": 32816,
+                            "transformFlags": 8,
                             "start": 46,
                             "end": 94
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 94
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 42,
                 "end": 95
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 42,
             "end": 96
         }
@@ -465,6 +522,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
     "source": "x({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});\n\nx({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 96
 }
@@ -473,9 +531,8 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
 ### Printed
 
 ```javascript
-
-  x({ 0.9: a, 0x84: b, 0b1: c, 0o27: d, 1e234: e });
-  x({ 0.9() {}, 0x84() {}, 0b1() {}, 0o27() {}, 1e234() {} });
+x({ 0.9: a, 0x84: b, 0b1: c, 0o27: d, 1e234: e });
+x({ 0.9() {}, 0x84() {}, 0b1() {}, 0o27() {}, 1e234() {} });
 
 ```
 

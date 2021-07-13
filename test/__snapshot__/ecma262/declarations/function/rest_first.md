@@ -41,10 +41,12 @@ let ...a = 1;
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 3
         },
@@ -57,12 +59,14 @@ let ...a = 1;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -71,14 +75,17 @@ let ...a = 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 7,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 13
         }
@@ -87,6 +94,7 @@ let ...a = 1;
     "source": "let ...a = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

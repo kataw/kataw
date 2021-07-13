@@ -32,6 +32,7 @@ foo(a)(b)(c)(d)(e)
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 0,
                                     "end": 3
                                 },
@@ -43,16 +44,19 @@ foo(a)(b)(c)(d)(e)
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 0,
                                 "end": 6
                             },
@@ -64,16 +68,19 @@ foo(a)(b)(c)(d)(e)
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 0,
                             "end": 9
                         },
@@ -85,16 +92,19 @@ foo(a)(b)(c)(d)(e)
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 0,
                         "end": 12
                     },
@@ -106,16 +116,19 @@ foo(a)(b)(c)(d)(e)
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 15
                 },
@@ -127,20 +140,24 @@ foo(a)(b)(c)(d)(e)
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 18
         }
@@ -149,6 +166,7 @@ foo(a)(b)(c)(d)(e)
     "source": "foo(a)(b)(c)(d)(e)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -157,9 +175,7 @@ foo(a)(b)(c)(d)(e)
 ### Printed
 
 ```javascript
-
-  foo(a)(b)(c)(d)(e);
-
+foo(a)(b)(c)(d)(e);
 ```
 
 ### Diagnostics

@@ -26,7 +26,8 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -34,6 +35,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
@@ -44,18 +46,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         },
@@ -66,10 +72,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 9
         }
@@ -78,6 +86,7 @@
     "source": "()=>{}\n.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

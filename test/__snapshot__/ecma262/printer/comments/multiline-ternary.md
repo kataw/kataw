@@ -23,6 +23,7 @@ const resolver = options.resolver
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ const resolver = options.resolver
                             "text": "resolver",
                             "rawText": "resolver",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 14
                         },
@@ -49,6 +51,7 @@ const resolver = options.resolver
                                     "text": "options",
                                     "rawText": "options",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 24
                                 },
@@ -57,16 +60,19 @@ const resolver = options.resolver
                                     "text": "resolver",
                                     "rawText": "resolver",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 33
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 16,
                                 "end": 33
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 56
                             },
@@ -77,6 +83,7 @@ const resolver = options.resolver
                                     "text": "require",
                                     "rawText": "require",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 64
                                 },
@@ -90,6 +97,7 @@ const resolver = options.resolver
                                                 "text": "options",
                                                 "rawText": "options",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 72
                                             },
@@ -98,26 +106,31 @@ const resolver = options.resolver
                                                 "text": "resolver",
                                                 "rawText": "resolver",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 73,
                                                 "end": 81
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 65,
                                             "end": 81
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 81
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 56,
                                 "end": 82
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 86
                             },
@@ -126,23 +139,28 @@ const resolver = options.resolver
                                 "text": "defaultResolver",
                                 "rawText": "defaultResolver",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 102
                             },
                             "flags": 96,
+                            "transformFlags": 4096,
                             "start": 16,
                             "end": 102
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 102
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 102
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 103
         }
@@ -151,6 +169,7 @@ const resolver = options.resolver
     "source": "const resolver = options.resolver\n  /* $FlowFixMe */\n  ? require(options.resolver)\n  : defaultResolver;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 103
 }
@@ -159,11 +178,7 @@ const resolver = options.resolver
 ### Printed
 
 ```javascript
-
-  const resolver = options.resolver 
-   /* $FlowFixMe */
-  ? require(options.resolver) : defaultResolver;
-
+const resolver = options.resolver ? require(options.resolver) : defaultResolver;
 ```
 
 ### Diagnostics

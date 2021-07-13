@@ -29,6 +29,7 @@ type a = (1) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (1) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (1) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -66,22 +69,26 @@ type a = (1) => T;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
@@ -96,27 +103,33 @@ type a = (1) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -125,6 +138,7 @@ type a = (1) => T;
     "source": "type a = (1) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -133,9 +147,7 @@ type a = (1) => T;
 ### Printed
 
 ```javascript
-
-  type a = (1) => T
-
+type a = (1) => T
 ```
 
 ### Diagnostics

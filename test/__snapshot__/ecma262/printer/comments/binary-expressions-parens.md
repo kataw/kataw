@@ -35,6 +35,7 @@ Math.min(
                         "text": "Math",
                         "rawText": "Math",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 4
                     },
@@ -43,10 +44,12 @@ Math.min(
                         "text": "min",
                         "rawText": "min",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 8
                 },
@@ -68,6 +71,7 @@ Math.min(
                                                 "text": "document",
                                                 "rawText": "document",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 187
                                             },
@@ -76,10 +80,12 @@ Math.min(
                                                 "text": "body",
                                                 "rawText": "body",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 188,
                                                 "end": 192
                                             },
                                             "flags": 97,
+                                            "transformFlags": 2,
                                             "start": 9,
                                             "end": 192
                                         },
@@ -88,16 +94,19 @@ Math.min(
                                             "text": "scrollHeight",
                                             "rawText": "scrollHeight",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 193,
                                             "end": 205
                                         },
                                         "flags": 97,
+                                        "transformFlags": 2,
                                         "start": 9,
                                         "end": 205
                                     },
                                     "operatorToken": {
                                         "kind": 134318643,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 205,
                                         "end": 207
                                     },
@@ -112,6 +121,7 @@ Math.min(
                                                     "text": "window",
                                                     "rawText": "window",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 213,
                                                     "end": 219
                                                 },
@@ -120,16 +130,19 @@ Math.min(
                                                     "text": "scrollY",
                                                     "rawText": "scrollY",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 220,
                                                     "end": 227
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 207,
                                                 "end": 227
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 227,
                                                 "end": 229
                                             },
@@ -140,6 +153,7 @@ Math.min(
                                                     "text": "window",
                                                     "rawText": "window",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 229,
                                                     "end": 236
                                                 },
@@ -148,32 +162,39 @@ Math.min(
                                                     "text": "innerHeight",
                                                     "rawText": "innerHeight",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 237,
                                                     "end": 248
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 229,
                                                 "end": 248
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 207,
                                             "end": 248
                                         },
-                                        "flags": 32,
-                                        "start": 207,
+                                        "flags": 207,
+                                        "transformFlags": 0,
+                                        "start": 33,
                                         "end": 249
                                     },
                                     "flags": 97,
+                                    "transformFlags": 5120,
                                     "start": 9,
                                     "end": 249
                                 },
-                                "flags": 32,
-                                "start": 9,
+                                "flags": 9,
+                                "transformFlags": 0,
+                                "start": 33,
                                 "end": 253
                             },
                             "operatorToken": {
                                 "kind": 134318643,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 253,
                                 "end": 255
                             },
@@ -182,10 +203,12 @@ Math.min(
                                 "text": "devsite_footer_height",
                                 "rawText": "devsite_footer_height",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 255,
                                 "end": 277
                             },
-                            "flags": 32,
+                            "flags": 41,
+                            "transformFlags": 5120,
                             "start": 9,
                             "end": 277
                         },
@@ -194,20 +217,24 @@ Math.min(
                             "text": 0,
                             "rawText": "0",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 278,
                             "end": 282
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 283
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 285
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 285
         }
@@ -216,6 +243,7 @@ Math.min(
     "source": "Math.min(\n  (\n    /* $FlowFixMe(>=0.38.0 site=www) - Flow error detected during the\n     * deployment of v0.38.0. To see the error, remove this comment and\n     * run flow */\n    document.body.scrollHeight -\n    (window.scrollY + window.innerHeight)\n  ) - devsite_footer_height,\n  0,\n)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 285
 }
@@ -224,13 +252,18 @@ Math.min(
 ### Printed
 
 ```javascript
+Math.min(
 
-  Math.min((
-   /* $FlowFixMe(>=0.38.0 site=www) - Flow error detected during the
+    (
+      /* $FlowFixMe(>=0.38.0 site=www) - Flow error detected during the
      * deployment of v0.38.0. To see the error, remove this comment and
      * run flow */
-  document.body.scrollHeight - (window.scrollY + window.innerHeight)) - devsite_footer_height, 0,);
-
+      document.body.scrollHeight -
+      (window.scrollY + window.innerHeight)
+    ) - devsite_footer_height
+  ,
+  0,
+);
 ```
 
 ### Diagnostics

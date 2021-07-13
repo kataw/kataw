@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -54,6 +56,7 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 20
                                     },
@@ -62,6 +65,7 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     },
@@ -70,6 +74,7 @@
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 26
                                         },
@@ -78,6 +83,7 @@
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 30
                                         },
@@ -85,16 +91,19 @@
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 4096,
                                         "start": 23,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 30
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 31
                         },
@@ -106,23 +115,28 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 35
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 33,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 17,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 36
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 37
         }
@@ -131,6 +145,7 @@
     "source": "'use strict'; let [a,b,...rest] = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -140,9 +155,8 @@
 
 ```javascript
 
-  "'use strict'";
-  let [a, b, ...rest] = {};
-
+"'use strict'";
+let [a, b, ...rest] = {};
 ```
 
 ### Diagnostics

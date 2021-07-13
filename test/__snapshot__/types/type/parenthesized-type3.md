@@ -29,6 +29,7 @@ type Foo = (string)
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Foo = (string)
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -44,6 +46,7 @@ type Foo = (string)
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -56,18 +59,22 @@ type Foo = (string)
                     "type": {
                         "kind": 134234347,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 18
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 19
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 19
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -76,6 +83,7 @@ type Foo = (string)
     "source": "type Foo = (string)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -84,9 +92,7 @@ type Foo = (string)
 ### Printed
 
 ```javascript
-
-  type Foo = (string)
-
+type Foo = (string)
 ```
 
 ### Diagnostics

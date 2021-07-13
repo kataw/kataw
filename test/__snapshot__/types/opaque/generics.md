@@ -33,12 +33,14 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -47,6 +49,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                 "text": "MyObject",
                 "rawText": "MyObject",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 20
             },
@@ -62,6 +65,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
                             },
@@ -69,6 +73,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 22
                         },
@@ -79,6 +84,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
@@ -86,6 +92,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
@@ -96,6 +103,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
@@ -103,16 +111,19 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 28
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 20,
                 "end": 29
             },
@@ -134,6 +145,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 36
                             },
@@ -149,19 +161,23 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 39
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 40
                         },
@@ -176,6 +192,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 44
                             },
@@ -191,29 +208,35 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 47
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 47
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 47
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 47
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 49
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 49
             },
@@ -235,6 +258,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 59
                             },
@@ -250,19 +274,23 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 62
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 62
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 53,
                             "end": 63
                         },
@@ -277,6 +305,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 69
                             },
@@ -292,19 +321,23 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 72
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 72
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 72
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 73
                         },
@@ -319,6 +352,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "text": "baz",
                                 "rawText": "baz",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 79
                             },
@@ -334,39 +368,47 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                         "text": "C",
                                         "rawText": "C",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 82
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 82
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 80,
                                 "end": 82
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 73,
                             "end": 83
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 85
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 85
             },
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 0,
             "end": 85
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 85,
             "end": 86
         }
@@ -375,6 +417,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
     "source": "opaque type MyObject<A, B, C>: { foo: A, bar: B } = {\n  foo: A,\n  bar: B,\n  baz: C,\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 86
 }
@@ -383,10 +426,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
 ### Printed
 
 ```javascript
-
-  opaque type MyObject<A, B, C>: { foo: A, bar: B } = { foo: A, bar: B, baz: C }
-  ;
-
+opaque type MyObject<A, B, C>: { foo: A, bar: B } = { foo: A, bar: B, baz: C };
 ```
 
 ### Diagnostics

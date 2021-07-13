@@ -29,6 +29,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -50,6 +52,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                         "text": "argument1",
                         "rawText": "argument1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 20
                     },
@@ -65,6 +68,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 33
                                     },
@@ -73,11 +77,13 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 36
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 36
                                 },
@@ -88,6 +94,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 47
                                     },
@@ -96,11 +103,13 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 50
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 50
                                 },
@@ -109,6 +118,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 51,
                                         "end": 55
                                     },
@@ -117,6 +127,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 55,
                                         "end": 56
                                     },
@@ -124,22 +135,26 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 0,
+                                    "transformFlags": 4096,
                                     "start": 51,
                                     "end": 56
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 56
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 57
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 57
             },
@@ -150,15 +165,18 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 60
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 61
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -167,6 +185,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
     "source": "function f(argument1, { __proto__: x, __proto__: y, ...z}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }
@@ -175,9 +194,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
 ### Printed
 
 ```javascript
-
-  function f(argument1, { __proto__: x, __proto__: y, ...z }) {}
-
+function f(argument1, { __proto__: x, __proto__: y, ...z }) {}
 ```
 
 ### Diagnostics

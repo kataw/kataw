@@ -22,6 +22,7 @@ a?.b.b
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ a?.b.b
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -45,14 +47,17 @@ a?.b.b
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 4
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 4
                     },
@@ -61,18 +66,22 @@ a?.b.b
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
                     "flags": 536870944,
+                    "transformFlags": 2,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         }
@@ -81,6 +90,7 @@ a?.b.b
     "source": "a?.b.b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }
@@ -89,9 +99,7 @@ a?.b.b
 ### Printed
 
 ```javascript
-
-  a?.bb;
-
+a?.b.b;
 ```
 
 ### Diagnostics

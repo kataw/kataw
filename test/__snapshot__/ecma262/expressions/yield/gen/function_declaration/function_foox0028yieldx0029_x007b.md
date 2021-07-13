@@ -29,6 +29,7 @@ function not_gen() { function foo(yield) { }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { function foo(yield) { }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { function foo(yield) { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,6 +66,7 @@ function not_gen() { function foo(yield) { }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
@@ -72,6 +76,7 @@ function not_gen() { function foo(yield) { }}
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 33
                             },
@@ -84,12 +89,14 @@ function not_gen() { function foo(yield) { }}
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 39
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 39
                             },
@@ -100,29 +107,35 @@ function not_gen() { function foo(yield) { }}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 44
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 44
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 45
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -131,6 +144,7 @@ function not_gen() { function foo(yield) { }}
     "source": "function not_gen() { function foo(yield) { }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -139,11 +153,9 @@ function not_gen() { function foo(yield) { }}
 ### Printed
 
 ```javascript
-
-  function not_gen() {
-    function foo(yield) {}
-  }
-
+function not_gen() {
+  function foo(yield) {}
+}
 ```
 
 ### Diagnostics

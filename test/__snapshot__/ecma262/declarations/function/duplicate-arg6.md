@@ -21,12 +21,14 @@ async function f(a, a) { 'use strict' }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(a, a) { 'use strict' }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -48,6 +51,7 @@ async function f(a, a) { 'use strict' }
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 18
                     },
@@ -56,12 +60,14 @@ async function f(a, a) { 'use strict' }
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
@@ -75,21 +81,25 @@ async function f(a, a) { 'use strict' }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 37
                         }
                     ],
                     "statements": [],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 39
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -98,6 +108,7 @@ async function f(a, a) { 'use strict' }
     "source": "async function f(a, a) { 'use strict' }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

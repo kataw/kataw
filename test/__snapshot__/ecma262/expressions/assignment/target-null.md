@@ -28,12 +28,14 @@ null = 42;
                 "left": {
                     "kind": 138477575,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
@@ -42,14 +44,17 @@ null = 42;
                     "text": 42,
                     "rawText": "42",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 10
         }
@@ -58,6 +63,7 @@ null = 42;
     "source": "null = 42;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

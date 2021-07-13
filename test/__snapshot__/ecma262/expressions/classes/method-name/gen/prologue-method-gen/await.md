@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -46,6 +47,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -58,6 +60,7 @@
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 22
                                     },
@@ -70,6 +73,7 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 24
                                             },
@@ -78,12 +82,14 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 224,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 28
                                     },
@@ -95,36 +101,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 30
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 31
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 31
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 31
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 31
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 15,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 34
         }
@@ -133,6 +147,7 @@
     "source": "'use strict'; ({*await(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -142,9 +157,8 @@
 
 ```javascript
 
-  "'use strict'";
-  ({ * await(x, y) {} });
-
+"'use strict'";
+({ *await(x, y) {} });
 ```
 
 ### Diagnostics

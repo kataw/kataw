@@ -28,6 +28,7 @@ class x { "prot\u{6f}type"(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class x { "prot\u{6f}type"(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -62,6 +64,7 @@ class x { "prot\u{6f}type"(){} }
                                     "text": "prototype",
                                     "rawText": "\"prot\\u{6f}type\"",
                                     "flags": 8288,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 26
                                 },
@@ -71,6 +74,7 @@ class x { "prot\u{6f}type"(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -82,31 +86,38 @@ class x { "prot\u{6f}type"(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -115,6 +126,7 @@ class x { "prot\u{6f}type"(){} }
     "source": "class x { \"prot\\u{6f}type\"(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -123,11 +135,9 @@ class x { "prot\u{6f}type"(){} }
 ### Printed
 
 ```javascript
-
-  class x {
-    "\"prot\u{6f}type\""() {}
-  }
-
+class x {
+  "\"prot\u{6f}type\""() {}
+}
 ```
 
 ### Diagnostics

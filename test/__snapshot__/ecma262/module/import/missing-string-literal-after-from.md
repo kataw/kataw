@@ -26,6 +26,7 @@ import { a } from;
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { a } from;
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 17
                 },
@@ -44,10 +46,12 @@ import { a } from;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -72,27 +76,33 @@ import { a } from;
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -101,6 +111,7 @@ import { a } from;
     "source": "import { a } from;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

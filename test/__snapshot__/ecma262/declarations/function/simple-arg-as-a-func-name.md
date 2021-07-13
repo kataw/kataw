@@ -22,6 +22,7 @@ function f(x) { function x() {} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(x) { function x() {} }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,12 +45,14 @@ function f(x) { function x() {} }
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
@@ -65,6 +69,7 @@ function f(x) { function x() {} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 24
                             },
@@ -74,6 +79,7 @@ function f(x) { function x() {} }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -83,6 +89,7 @@ function f(x) { function x() {} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
@@ -93,29 +100,35 @@ function f(x) { function x() {} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -124,6 +137,7 @@ function f(x) { function x() {} }
     "source": "function f(x) { function x() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -132,11 +146,9 @@ function f(x) { function x() {} }
 ### Printed
 
 ```javascript
-
-  function f(x) {
-    function x() {}
-  }
-
+function f(x) {
+  function x() {}
+}
 ```
 
 ### Diagnostics

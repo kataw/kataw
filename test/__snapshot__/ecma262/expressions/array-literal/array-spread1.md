@@ -36,6 +36,7 @@ var y: Array<string> = ['3', ...x];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ var y: Array<string> = ['3', ...x];
                             "text": "A",
                             "rawText": "A",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -63,6 +65,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -71,6 +74,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -79,29 +83,35 @@ var y: Array<string> = ['3', ...x];
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -111,6 +121,7 @@ var y: Array<string> = ['3', ...x];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -124,6 +135,7 @@ var y: Array<string> = ['3', ...x];
                             "text": "B",
                             "rawText": "B",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -138,6 +150,7 @@ var y: Array<string> = ['3', ...x];
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 29
                                         },
@@ -146,33 +159,40 @@ var y: Array<string> = ['3', ...x];
                                             "text": "A",
                                             "rawText": "A",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 30
                                         },
                                         "flags": 1073741856,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 24,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 20,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 32
         },
@@ -182,6 +202,7 @@ var y: Array<string> = ['3', ...x];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
@@ -195,6 +216,7 @@ var y: Array<string> = ['3', ...x];
                             "text": "C",
                             "rawText": "C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 38
                         },
@@ -209,6 +231,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 43
                                     },
@@ -217,6 +240,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 45
                                     },
@@ -225,29 +249,35 @@ var y: Array<string> = ['3', ...x];
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 47
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 47
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 40,
                             "end": 48
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 36,
                         "end": 48
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 49
         },
@@ -262,6 +292,7 @@ var y: Array<string> = ['3', ...x];
                         "text": "B",
                         "rawText": "B",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 49,
                         "end": 51
                     },
@@ -270,10 +301,12 @@ var y: Array<string> = ['3', ...x];
                         "text": "sort",
                         "rawText": "sort",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 52,
                         "end": 56
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 49,
                     "end": 56
                 },
@@ -292,6 +325,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 59
                                     },
@@ -300,12 +334,14 @@ var y: Array<string> = ['3', ...x];
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 62
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 63
                             },
@@ -313,6 +349,7 @@ var y: Array<string> = ['3', ...x];
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 63,
                                 "end": 66
                             },
@@ -323,12 +360,14 @@ var y: Array<string> = ['3', ...x];
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 68
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 70
                                 },
@@ -337,28 +376,34 @@ var y: Array<string> = ['3', ...x];
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 72
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 66,
                                 "end": 72
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 72
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 72
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 49,
                 "end": 73
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 49,
             "end": 74
         },
@@ -373,6 +418,7 @@ var y: Array<string> = ['3', ...x];
                         "text": "C",
                         "rawText": "C",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 74,
                         "end": 76
                     },
@@ -381,10 +427,12 @@ var y: Array<string> = ['3', ...x];
                         "text": "sort",
                         "rawText": "sort",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 81
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 74,
                     "end": 81
                 },
@@ -403,6 +451,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 83,
                                         "end": 84
                                     },
@@ -411,12 +460,14 @@ var y: Array<string> = ['3', ...x];
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 85,
                                         "end": 87
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 83,
                                 "end": 88
                             },
@@ -424,6 +475,7 @@ var y: Array<string> = ['3', ...x];
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 88,
                                 "end": 91
                             },
@@ -434,12 +486,14 @@ var y: Array<string> = ['3', ...x];
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 91,
                                     "end": 93
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 93,
                                     "end": 95
                                 },
@@ -448,28 +502,34 @@ var y: Array<string> = ['3', ...x];
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 95,
                                     "end": 97
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 91,
                                 "end": 97
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 82,
                             "end": 97
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 82,
                     "end": 97
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 74,
                 "end": 98
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 74,
             "end": 99
         },
@@ -479,6 +539,7 @@ var y: Array<string> = ['3', ...x];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 104
             },
@@ -492,6 +553,7 @@ var y: Array<string> = ['3', ...x];
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 104,
                             "end": 106
                         },
@@ -506,6 +568,7 @@ var y: Array<string> = ['3', ...x];
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 113
                                 },
@@ -521,28 +584,34 @@ var y: Array<string> = ['3', ...x];
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 114,
                                                     "end": 120
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 114,
                                                 "end": 120
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 114,
                                         "end": 120
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 113,
                                     "end": 121
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 121
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 121
                         },
@@ -556,6 +625,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": "1",
                                         "rawText": "'1'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 125,
                                         "end": 128
                                     },
@@ -564,29 +634,35 @@ var y: Array<string> = ['3', ...x];
                                         "text": "2",
                                         "rawText": "'2'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 129,
                                         "end": 133
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 125,
                                 "end": 133
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 123,
                             "end": 134
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 104,
                         "end": 134
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 134
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 99,
             "end": 135
         },
@@ -596,6 +672,7 @@ var y: Array<string> = ['3', ...x];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 139
             },
@@ -609,6 +686,7 @@ var y: Array<string> = ['3', ...x];
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 139,
                             "end": 141
                         },
@@ -623,6 +701,7 @@ var y: Array<string> = ['3', ...x];
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 142,
                                     "end": 148
                                 },
@@ -638,28 +717,34 @@ var y: Array<string> = ['3', ...x];
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 149,
                                                     "end": 155
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 149,
                                                 "end": 155
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 149,
                                         "end": 155
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 512,
                                     "start": 148,
                                     "end": 156
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 142,
                                 "end": 156
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 142,
                             "end": 156
                         },
@@ -673,6 +758,7 @@ var y: Array<string> = ['3', ...x];
                                         "text": "3",
                                         "rawText": "'3'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 160,
                                         "end": 163
                                     },
@@ -681,6 +767,7 @@ var y: Array<string> = ['3', ...x];
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 164,
                                             "end": 168
                                         },
@@ -689,33 +776,40 @@ var y: Array<string> = ['3', ...x];
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 169
                                         },
                                         "flags": 1073741856,
+                                        "transformFlags": 0,
                                         "start": 164,
                                         "end": 169
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 160,
                                 "end": 169
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 158,
                             "end": 170
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 139,
                         "end": 170
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 139,
                 "end": 170
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 135,
             "end": 171
         }
@@ -724,6 +818,7 @@ var y: Array<string> = ['3', ...x];
     "source": "var A = [1,2,3];\nvar B = [...A];\nvar C = [1,2,3];\nB.sort((a, b) => a - b);\nC.sort((a, b) => a - b);\n\nvar x: Array<string> = ['1', '2'];\nvar y: Array<string> = ['3', ...x];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 171
 }
@@ -732,14 +827,18 @@ var y: Array<string> = ['3', ...x];
 ### Printed
 
 ```javascript
+var A = [1, 2, 3];
+var B = [...A];
 
-  var A = [1, 2, 3,];
-  var B = [...A];
-  var C = [1, 2, 3,];
-  B.sort((a, b) => a - b);
-  C.sort((a, b) => a - b);
-  var x: Array<string> = ["'1'", "'2'",];
-  var y: Array<string> = ["'3'", ...x];
+var C = [1, 2, 3];
+
+B.sort((a, b) => a - b);
+
+C.sort((a, b) => a - b);
+
+var x: Array<string> = ["'1'", "'2'"];
+
+var y: Array<string> = ["'3'", ...x];
 
 ```
 

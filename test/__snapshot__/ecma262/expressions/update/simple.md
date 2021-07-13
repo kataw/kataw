@@ -24,6 +24,7 @@ a++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -32,14 +33,17 @@ a++;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 3
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -50,6 +54,7 @@ a++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -58,14 +63,17 @@ a++;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 10
         }
@@ -74,6 +82,7 @@ a++;
     "source": "++a;\n\na++;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }
@@ -82,9 +91,8 @@ a++;
 ### Printed
 
 ```javascript
-
-  ++a;
-  a++;
+++ a;
+a++;
 
 ```
 

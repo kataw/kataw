@@ -26,6 +26,7 @@ try {} catch (e) { for (let e in y) {} }
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,10 +36,12 @@ try {} catch (e) { for (let e in y) {} }
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -47,6 +50,7 @@ try {} catch (e) { for (let e in y) {} }
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -55,6 +59,7 @@ try {} catch (e) { for (let e in y) {} }
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -68,6 +73,7 @@ try {} catch (e) { for (let e in y) {} }
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -76,6 +82,7 @@ try {} catch (e) { for (let e in y) {} }
                                     "lexicalKeyword": {
                                         "kind": 41951307,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 27
                                     },
@@ -89,27 +96,32 @@ try {} catch (e) { for (let e in y) {} }
                                                     "text": "e",
                                                     "rawText": "e",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 29
                                                 },
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
+                                                "transformFlags": 4224,
                                                 "start": 27,
                                                 "end": 29
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 29
                                     },
                                     "flags": 33554448,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 29
                                 },
                                 "inKeyword": {
                                     "kind": 21006388,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 32
                                 },
@@ -118,6 +130,7 @@ try {} catch (e) { for (let e in y) {} }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
@@ -127,33 +140,40 @@ try {} catch (e) { for (let e in y) {} }
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 37
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 38
                                 },
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 38
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 38
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 40
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 40
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -162,6 +182,7 @@ try {} catch (e) { for (let e in y) {} }
     "source": "try {} catch (e) { for (let e in y) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -170,12 +191,9 @@ try {} catch (e) { for (let e in y) {} }
 ### Printed
 
 ```javascript
-
-  try { }
-  catch (e){
-    for (let e in y) { }
-  }
-
+try {} catch (e) {
+  for (let e in y) {}
+}
 ```
 
 ### Diagnostics

@@ -35,6 +35,7 @@ class A {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,21 +49,25 @@ class A {
                             "text": "C",
                             "rawText": "C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -73,6 +78,7 @@ class A {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 16
             },
@@ -82,6 +88,7 @@ class A {
                 "text": "decorator",
                 "rawText": "decorator",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 26
             },
@@ -94,12 +101,14 @@ class A {
                         "text": "el",
                         "rawText": "el",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
@@ -114,6 +123,7 @@ class A {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 41
                             },
@@ -126,6 +136,7 @@ class A {
                                         "text": "Object",
                                         "rawText": "Object",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 48
                                     },
@@ -134,10 +145,12 @@ class A {
                                         "text": "assign",
                                         "rawText": "assign",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 55
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 41,
                                     "end": 55
                                 },
@@ -149,6 +162,7 @@ class A {
                                             "text": "el",
                                             "rawText": "el",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 56,
                                             "end": 58
                                         },
@@ -170,6 +184,7 @@ class A {
                                                                 "text": "finisher",
                                                                 "rawText": "finisher",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 61,
                                                                 "end": 74
                                                             },
@@ -182,12 +197,14 @@ class A {
                                                                         "text": "Class",
                                                                         "rawText": "Class",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 75,
                                                                         "end": 80
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 75,
                                                                 "end": 81
                                                             },
@@ -207,12 +224,14 @@ class A {
                                                                                     "text": "C",
                                                                                     "rawText": "C",
                                                                                     "flags": 97,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 83,
                                                                                     "end": 91
                                                                                 },
                                                                                 "operatorToken": {
                                                                                     "kind": 4125,
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 91,
                                                                                     "end": 93
                                                                                 },
@@ -221,69 +240,84 @@ class A {
                                                                                     "text": "Class",
                                                                                     "rawText": "Class",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 93,
                                                                                     "end": 99
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 0,
+                                                                                "transformFlags": 128,
                                                                                 "start": 83,
                                                                                 "end": 99
                                                                             },
                                                                             "flags": 16,
+                                                                            "transformFlags": 4096,
                                                                             "start": 83,
                                                                             "end": 100
                                                                         }
                                                                     ],
                                                                     "flags": 33,
+                                                                    "transformFlags": 0,
                                                                     "start": 83,
                                                                     "end": 100
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 81,
                                                                 "end": 106
                                                             },
                                                             "flags": 33,
+                                                            "transformFlags": 0,
                                                             "start": 74,
                                                             "end": 106
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 106
                                                     }
                                                 ],
                                                 "trailingComma": true,
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 107
                                             },
                                             "flags": 49,
+                                            "transformFlags": 8,
                                             "start": 59,
                                             "end": 111
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 111
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 41,
                                 "end": 112
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 32,
                             "end": 113
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 113
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 115
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 115
         },
@@ -294,6 +328,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 122
             },
@@ -302,6 +337,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 124
             },
@@ -323,6 +359,7 @@ class A {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 126,
                                             "end": 130
                                         },
@@ -331,15 +368,18 @@ class A {
                                             "text": "decorator",
                                             "rawText": "decorator",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 130,
                                             "end": 139
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 130,
                                         "end": 139
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 126,
                                 "end": 139
                             },
@@ -355,6 +395,7 @@ class A {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 139,
                                     "end": 145
                                 },
@@ -364,6 +405,7 @@ class A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 146,
                                     "end": 147
                                 },
@@ -375,31 +417,38 @@ class A {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 149,
                                         "end": 149
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 147,
                                     "end": 150
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 145,
                                 "end": 150
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 126,
                             "end": 150
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 126,
                     "end": 150
                 },
                 "flags": 124,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 152
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 115,
             "end": 152
         }
@@ -408,6 +457,7 @@ class A {
     "source": "var C;\n\nfunction decorator(el) {\n  return Object.assign(el, {\n    finisher(Class) {\n      C = Class;\n    },\n  });\n}\n\nclass A {\n  @decorator\n  foo() {}\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 153
 }
@@ -416,19 +466,18 @@ class A {
 ### Printed
 
 ```javascript
-
-  var C;
-  function decorator(el) {
-    return Object.assign(el, {
+var C;
+function decorator(el) {
+  return Object.assign(el, {
       finisher(Class) {
         C = Class;
       },
     });
-  }
-  class A {
-    @decorator
-    foo() {}
-  }
+}
+
+class A {
+  @decorator foo() {}
+}
 
 ```
 

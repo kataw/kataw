@@ -36,6 +36,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -51,6 +52,7 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 7
                                         },
@@ -59,37 +61,44 @@
                                             "importKeyword": {
                                                 "kind": 37814364,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 15
                                             },
                                             "metaIdentifier": {
                                                 "kind": 16595,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 20
                                             },
                                             "flags": 15,
+                                            "transformFlags": 0,
                                             "start": 96,
                                             "end": 20
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 20
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 23
                 },
@@ -97,6 +106,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 26
                 },
@@ -113,12 +123,14 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 31
                                 },
@@ -129,41 +141,50 @@
                                         "importKeyword": {
                                             "kind": 37814364,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 38
                                         },
                                         "metaIdentifier": {
                                             "kind": 16595,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 43
                                         },
                                         "flags": 38,
+                                        "transformFlags": 0,
                                         "start": 96,
                                         "end": 43
                                     },
                                     "flags": 16,
+                                    "transformFlags": 4096,
                                     "start": 31,
                                     "end": 43
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 43
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 43
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 45
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 45
         }
@@ -172,6 +193,7 @@
     "source": "(x, { x: import.meta }) => { x: import.meta }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

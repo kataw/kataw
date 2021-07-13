@@ -30,6 +30,7 @@ foo[...x];
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -38,14 +39,17 @@ foo[...x];
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -56,16 +60,19 @@ foo[...x];
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 7,
             "end": 8
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 10
         }
@@ -74,6 +81,7 @@ foo[...x];
     "source": "foo[...x];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

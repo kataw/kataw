@@ -34,6 +34,7 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     },
@@ -44,42 +45,50 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 6
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
                                         },
                                         "right": {
                                             "kind": 24752947,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 13
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 2,
                                         "end": 13
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 2,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 13
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -88,18 +97,22 @@
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -108,6 +121,7 @@
     "source": "({a: x = true} = y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -116,9 +130,7 @@
 ### Printed
 
 ```javascript
-
-  ({ a: x = true } = y);
-
+({ a: x = true } = y);
 ```
 
 ### Diagnostics

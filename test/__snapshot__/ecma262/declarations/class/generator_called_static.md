@@ -41,6 +41,7 @@ class x{   *static(){}    }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class x{   *static(){}    }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -70,6 +72,7 @@ class x{   *static(){}    }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 8,
                                 "end": 12
                             },
@@ -80,6 +83,7 @@ class x{   *static(){}    }
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 18
                                 },
@@ -89,6 +93,7 @@ class x{   *static(){}    }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 },
@@ -100,31 +105,38 @@ class x{   *static(){}    }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 21
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 22
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 22
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -133,6 +145,7 @@ class x{   *static(){}    }
     "source": "class x{   *static(){}    }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -141,11 +154,9 @@ class x{   *static(){}    }
 ### Printed
 
 ```javascript
-
-  class x {
-    * static() {}
-  }
-
+class x {
+  *static() {}
+}
 ```
 
 ### Diagnostics

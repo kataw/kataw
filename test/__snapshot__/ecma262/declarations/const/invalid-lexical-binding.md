@@ -28,6 +28,7 @@ for(const a = 1, let = 2;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for(const a = 1, let = 2;;);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 9
                 },
@@ -49,6 +51,7 @@ for(const a = 1, let = 2;;);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -58,10 +61,12 @@ for(const a = 1, let = 2;;);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 9,
                             "end": 15
                         },
@@ -72,6 +77,7 @@ for(const a = 1, let = 2;;);
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -81,19 +87,23 @@ for(const a = 1, let = 2;;);
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 16,
                             "end": 24
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 24
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
@@ -102,10 +112,12 @@ for(const a = 1, let = 2;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 28
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -114,6 +126,7 @@ for(const a = 1, let = 2;;);
     "source": "for(const a = 1, let = 2;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

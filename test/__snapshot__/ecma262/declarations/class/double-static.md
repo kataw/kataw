@@ -22,6 +22,7 @@ class A { static static constructor() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A { static static constructor() {} }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -47,6 +49,7 @@ class A { static static constructor() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -56,6 +59,7 @@ class A { static static constructor() {} }
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 23
                             },
@@ -63,6 +67,7 @@ class A { static static constructor() {} }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 16,
                             "end": 23
                         },
@@ -82,6 +87,7 @@ class A { static static constructor() {} }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 35
                                 },
@@ -91,6 +97,7 @@ class A { static static constructor() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -102,31 +109,38 @@ class A { static static constructor() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 39
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 40
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 40
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -135,6 +149,7 @@ class A { static static constructor() {} }
     "source": "class A { static static constructor() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

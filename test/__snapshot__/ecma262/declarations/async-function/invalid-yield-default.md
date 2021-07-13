@@ -24,12 +24,14 @@ function* wrap() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -38,6 +40,7 @@ function* wrap() {
                 "text": "wrap",
                 "rawText": "wrap",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 14
             },
@@ -47,6 +50,7 @@ function* wrap() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -63,6 +67,7 @@ function* wrap() {
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 26
                                 },
@@ -78,6 +83,7 @@ function* wrap() {
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 28
                                             },
@@ -88,6 +94,7 @@ function* wrap() {
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 36
                                                 },
@@ -98,20 +105,24 @@ function* wrap() {
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 38
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 30,
                                                 "end": 38
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 27,
                                             "end": 38
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 39
                                 },
@@ -119,6 +130,7 @@ function* wrap() {
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 42
                                 },
@@ -127,34 +139,41 @@ function* wrap() {
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 44
                                 },
                                 "flags": 290,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 44
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 18,
                             "end": 44
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 46
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 47
         }
@@ -163,6 +182,7 @@ function* wrap() {
     "source": "function* wrap() {\n  async(a = yield b) => a\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }
@@ -171,12 +191,9 @@ function* wrap() {
 ### Printed
 
 ```javascript
-
-  function* wrap() {
-    async (a = yield  b) => a;
-  }
-  ;
-
+function *wrap() {
+  async (a = yield b) => a;
+}
 ```
 
 ### Diagnostics

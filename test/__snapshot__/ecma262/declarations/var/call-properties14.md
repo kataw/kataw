@@ -29,6 +29,7 @@ var d: { (): string } = (x) => "hi"
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var d: { (): string } = (x) => "hi"
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,6 +64,7 @@ var d: { (): string } = (x) => "hi"
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -72,24 +75,29 @@ var d: { (): string } = (x) => "hi"
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 19
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 21
                         },
@@ -105,12 +113,14 @@ var d: { (): string } = (x) => "hi"
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 26
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
@@ -118,6 +128,7 @@ var d: { (): string } = (x) => "hi"
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
@@ -126,23 +137,28 @@ var d: { (): string } = (x) => "hi"
                                 "text": "hi",
                                 "rawText": "\"hi\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 35
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -151,6 +167,7 @@ var d: { (): string } = (x) => "hi"
     "source": "var d: { (): string } = (x) => \"hi\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -159,9 +176,7 @@ var d: { (): string } = (x) => "hi"
 ### Printed
 
 ```javascript
-
-  var d: { (): string } = (x) => "\"hi\"";
-
+var d: { (): string } = (x) => "\"hi\"";
 ```
 
 ### Diagnostics

@@ -22,12 +22,14 @@ function *g() { (x = u + yield z) => {}; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g() { (x = u + yield z) => {}; }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g() { (x = u + yield z) => {}; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -71,6 +75,7 @@ function *g() { (x = u + yield z) => {}; }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 18
                                             },
@@ -83,12 +88,14 @@ function *g() { (x = u + yield z) => {}; }
                                                     "text": "u",
                                                     "rawText": "u",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 22
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 24
                                                 },
@@ -97,6 +104,7 @@ function *g() { (x = u + yield z) => {}; }
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 30
                                                     },
@@ -107,24 +115,29 @@ function *g() { (x = u + yield z) => {}; }
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 32
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 4096,
                                                     "start": 24,
                                                     "end": 32
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 5120,
                                                 "start": 20,
                                                 "end": 32
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 15,
                                             "end": 32
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 33
                                 },
@@ -132,6 +145,7 @@ function *g() { (x = u + yield z) => {}; }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 36
                                 },
@@ -142,32 +156,39 @@ function *g() { (x = u + yield z) => {}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 38
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 39
                                 },
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 39
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 15,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 42
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -176,6 +197,7 @@ function *g() { (x = u + yield z) => {}; }
     "source": "function *g() { (x = u + yield z) => {}; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

@@ -34,6 +34,7 @@
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 7
                             },
@@ -53,6 +54,7 @@
                                                         "text": "ident",
                                                         "rawText": "ident",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 15
                                                     },
@@ -68,6 +70,7 @@
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 18,
                                                                         "end": 21
                                                                     },
@@ -76,22 +79,26 @@
                                                                         "text": "bar",
                                                                         "rawText": "bar",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 22,
                                                                         "end": 26
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 18,
                                                                 "end": 26
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 8,
                                                             "start": 16,
                                                             "end": 27
                                                         },
                                                         "operatorToken": {
                                                             "kind": 35640,
                                                             "flags": 96,
+                                                            "transformFlags": 32,
                                                             "start": 27,
                                                             "end": 28
                                                         },
@@ -100,31 +107,37 @@
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 28,
                                                             "end": 29
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 5120,
                                                         "start": 10,
                                                         "end": 29
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 29
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 29
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 31
                             },
@@ -132,6 +145,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 34
                             },
@@ -140,23 +154,28 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
                             },
                             "flags": 290,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -165,6 +184,7 @@
     "source": "{ async ({ident: [foo, bar]/x}) => x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

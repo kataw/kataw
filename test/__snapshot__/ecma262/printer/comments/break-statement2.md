@@ -28,12 +28,14 @@ foo: while (
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -42,6 +44,7 @@ foo: while (
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
@@ -50,6 +53,7 @@ foo: while (
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
@@ -63,6 +67,7 @@ foo: while (
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 43
                                 },
@@ -71,27 +76,33 @@ foo: while (
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 63
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 64
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 64
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 66
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 66
         }
@@ -100,6 +111,7 @@ foo: while (
     "source": "foo: while (\n  x\n  // comment 1\n) {\n  break /* comment 2 */ foo;\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }
@@ -108,13 +120,10 @@ foo: while (
 ### Printed
 
 ```javascript
-
-  foo: while (x
-   // comment 1
-  ) {
-    break/* comment 2 */ foo;
+foo:  while (x// comment 1
+) {
+    break/* comment 2 */  foo;
   }
-
 ```
 
 ### Diagnostics

@@ -26,6 +26,7 @@ export {𐀀 as x} from 'path'
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,12 +44,14 @@ export {𐀀 as x} from 'path'
                                 "text": "𐀀",
                                 "rawText": "𐀀",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -57,19 +60,23 @@ export {𐀀 as x} from 'path'
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 15
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 16
             },
@@ -79,6 +86,7 @@ export {𐀀 as x} from 'path'
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
@@ -87,15 +95,18 @@ export {𐀀 as x} from 'path'
                     "text": "path",
                     "rawText": "'path'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 28
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 28
             },
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -104,6 +115,7 @@ export {𐀀 as x} from 'path'
     "source": "export {𐀀 as x} from 'path'",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -112,9 +124,7 @@ export {𐀀 as x} from 'path'
 ### Printed
 
 ```javascript
-
-  export { 𐀀 as  x, } from "'path'";
-
+export { 𐀀 as  x } from "'path'";;
 ```
 
 ### Diagnostics

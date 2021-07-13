@@ -20,6 +20,7 @@ with (foo) bar;
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -28,6 +29,7 @@ with (foo) bar;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -38,14 +40,17 @@ with (foo) bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 10,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -54,6 +59,7 @@ with (foo) bar;
     "source": "with (foo) bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -62,10 +68,7 @@ with (foo) bar;
 ### Printed
 
 ```javascript
-
-  with (foo)
-    bar;
-
+with (foo) bar;
 ```
 
 ### Diagnostics

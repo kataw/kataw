@@ -22,10 +22,12 @@
                 "text": "q",
                 "rawText": "\"\\xdq\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 6
         }
@@ -34,6 +36,7 @@
     "source": "\"\\xdq\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

@@ -24,6 +24,7 @@ fn = function() {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,12 +38,14 @@ fn = function() {};
                             "text": "xFn",
                             "rawText": "xFn",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 7
                     },
@@ -53,21 +56,25 @@ fn = function() {};
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 8,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -80,12 +87,14 @@ fn = function() {};
                     "text": "xFn",
                     "rawText": "xFn",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -95,6 +104,7 @@ fn = function() {};
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 28
                     },
@@ -104,6 +114,7 @@ fn = function() {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 30
                     },
@@ -113,6 +124,7 @@ fn = function() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
@@ -123,23 +135,28 @@ fn = function() {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 34
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 35
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 12,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 36
         },
@@ -152,12 +169,14 @@ fn = function() {};
                     "text": "fn",
                     "rawText": "fn",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 39
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 41
                 },
@@ -167,6 +186,7 @@ fn = function() {};
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 50
                     },
@@ -178,6 +198,7 @@ fn = function() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 51
                     },
@@ -188,23 +209,28 @@ fn = function() {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 54
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 52,
                         "end": 55
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 55
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 36,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 36,
             "end": 56
         }
@@ -213,6 +239,7 @@ fn = function() {};
     "source": "var xFn, fn;\n\nxFn = function x() {};\nfn = function() {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }
@@ -221,10 +248,10 @@ fn = function() {};
 ### Printed
 
 ```javascript
+var xFn, fn;
+xFn = function x() {};
 
-  var xFn, fn;
-  xFn = function x() {};
-  fn = function () {};
+fn = function () {};
 
 ```
 

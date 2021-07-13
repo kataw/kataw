@@ -20,6 +20,7 @@ throw x = y, z;
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,12 +34,14 @@ throw x = y, z;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
@@ -47,10 +50,12 @@ throw x = y, z;
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 0,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 11
                     },
@@ -59,15 +64,18 @@ throw x = y, z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 5,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -76,6 +84,7 @@ throw x = y, z;
     "source": "throw x = y, z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -84,9 +93,7 @@ throw x = y, z;
 ### Printed
 
 ```javascript
-
-  throw x = y, z;
-
+throw x = y, z;
 ```
 
 ### Diagnostics

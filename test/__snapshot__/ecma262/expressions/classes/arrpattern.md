@@ -29,6 +29,7 @@ class n extends ([] = x) {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class n extends ([] = x) {}
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class n extends ([] = x) {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -62,16 +65,19 @@ class n extends ([] = x) {}
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 17,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
@@ -80,19 +86,23 @@ class n extends ([] = x) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 17,
                             "end": 23
                         },
-                        "flags": 32,
-                        "start": 15,
+                        "flags": 15,
+                        "transformFlags": 0,
+                        "start": 34,
                         "end": 24
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 24
                 },
@@ -100,14 +110,17 @@ class n extends ([] = x) {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -116,6 +129,7 @@ class n extends ([] = x) {}
     "source": "class n extends ([] = x) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -124,10 +138,7 @@ class n extends ([] = x) {}
 ### Printed
 
 ```javascript
-
-  class n extends ([] = x) {
-  }
-
+class n extends ([] = x) {}
 ```
 
 ### Diagnostics

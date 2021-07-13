@@ -22,6 +22,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -51,6 +53,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 16
                             },
@@ -64,7 +67,8 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 20
                                 },
@@ -72,6 +76,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -86,6 +91,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                 "forKeyword": {
                                                     "kind": 37757017,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 30
                                                 },
@@ -94,58 +100,70 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                     "text": "#foo",
                                                     "rawText": "#foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 36
                                                 },
                                                 "inKeyword": {
                                                     "kind": 21006388,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 39
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 44
                                                 },
                                                 "statement": {
                                                     "kind": 168,
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 47
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 47
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 47
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 49
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 49
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 49
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -154,6 +172,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
     "source": "class Foo { #foo = () => { for (#foo in this) ; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }
@@ -162,14 +181,11 @@ class Foo { #foo = () => { for (#foo in this) ; } }
 ### Printed
 
 ```javascript
-
-  class Foo {
-    #foo = () => {
-      for (#foo in this)
-        ;
-    }
-  }
-
+class Foo {
+  #foo = () => {
+    for (#foo in this);
+  };
+}
 ```
 
 ### Diagnostics

@@ -22,10 +22,12 @@ type number = string;
                 "text": "type",
                 "rawText": "type",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         },
@@ -38,12 +40,14 @@ type number = string;
                     "text": "number",
                     "rawText": "number",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -52,14 +56,17 @@ type number = string;
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 4,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 4,
             "end": 21
         }
@@ -68,6 +75,7 @@ type number = string;
     "source": "type number = string;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

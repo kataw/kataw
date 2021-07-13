@@ -25,6 +25,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -33,6 +34,7 @@
                         "text": "package",
                         "rawText": "package",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 14
                     },
@@ -44,22 +46,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 14,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 17
         }
@@ -68,6 +75,7 @@
     "source": "(class package{})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

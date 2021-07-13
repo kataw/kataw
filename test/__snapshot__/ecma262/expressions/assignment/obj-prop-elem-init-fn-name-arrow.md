@@ -24,12 +24,14 @@ result = { x: arrow = () => {} } = {};
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -48,6 +50,7 @@ result = { x: arrow = () => {} } = {};
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -58,12 +61,14 @@ result = { x: arrow = () => {} } = {};
                                             "text": "arrow",
                                             "rawText": "arrow",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 19
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
@@ -75,7 +80,8 @@ result = { x: arrow = () => {} } = {};
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 23
                                             },
@@ -83,6 +89,7 @@ result = { x: arrow = () => {} } = {};
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 27
                                             },
@@ -93,38 +100,46 @@ result = { x: arrow = () => {} } = {};
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 29
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 30
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 30
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 10,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 10,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 30
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 8,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
@@ -135,22 +150,27 @@ result = { x: arrow = () => {} } = {};
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 36
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 34,
                         "end": 37
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 38
         }
@@ -159,6 +179,7 @@ result = { x: arrow = () => {} } = {};
     "source": "result = { x: arrow = () => {} } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -167,9 +188,7 @@ result = { x: arrow = () => {} } = {};
 ### Printed
 
 ```javascript
-
-  result = { x: arrow = () => {} } = {};
-
+result = { x: arrow = () => {} } = {};
 ```
 
 ### Diagnostics

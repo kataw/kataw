@@ -27,6 +27,7 @@ for({ x: import.meta } in y);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ for({ x: import.meta } in y);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
                             },
@@ -51,36 +53,43 @@ for({ x: import.meta } in y);
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 15
                                 },
                                 "metaIdentifier": {
                                     "kind": 16595,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
                                 "flags": 15,
+                                "transformFlags": 0,
                                 "start": 96,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 5,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 20
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 4,
                 "end": 22
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
@@ -89,16 +98,19 @@ for({ x: import.meta } in y);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -107,6 +119,7 @@ for({ x: import.meta } in y);
     "source": "for({ x: import.meta } in y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

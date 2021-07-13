@@ -20,6 +20,7 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 36
             },
@@ -37,16 +39,19 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 54
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 70
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 70
         }
@@ -55,6 +60,7 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
     "source": "if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // comment 5",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 83
 }
@@ -63,8 +69,7 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
 ### Printed
 
 ```javascript
-
-  if/* comment 1 */ (/* comment 2 */x /* comment 3 */) {/* comment 4 */ } // comment 5
+if (/* comment 2 */ x /* comment 3 */) {/* comment 4 */ } // comment 5
 
 ```
 

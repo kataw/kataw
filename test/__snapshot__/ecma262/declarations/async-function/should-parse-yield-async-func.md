@@ -32,6 +32,7 @@ const f = async function * (source, block, opts) {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,6 +46,7 @@ const f = async function * (source, block, opts) {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -54,18 +56,21 @@ const f = async function * (source, block, opts) {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 24
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 24,
                                 "end": 26
                             },
@@ -79,6 +84,7 @@ const f = async function * (source, block, opts) {
                                         "text": "source",
                                         "rawText": "source",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 34
                                     },
@@ -87,6 +93,7 @@ const f = async function * (source, block, opts) {
                                         "text": "block",
                                         "rawText": "block",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 41
                                     },
@@ -95,12 +102,14 @@ const f = async function * (source, block, opts) {
                                         "text": "opts",
                                         "rawText": "opts",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 47
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 47
                             },
@@ -115,12 +124,14 @@ const f = async function * (source, block, opts) {
                                             "forKeyword": {
                                                 "kind": 37757017,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 60
                                             },
                                             "awaitKeyword": {
                                                 "kind": 82196,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 66
                                             },
@@ -129,6 +140,7 @@ const f = async function * (source, block, opts) {
                                                 "lexicalKeyword": {
                                                     "kind": 37757004,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 68,
                                                     "end": 73
                                                 },
@@ -142,27 +154,32 @@ const f = async function * (source, block, opts) {
                                                                 "text": "entry",
                                                                 "rawText": "entry",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 73,
                                                                 "end": 79
                                                             },
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
+                                                            "transformFlags": 4224,
                                                             "start": 73,
                                                             "end": 79
                                                         }
                                                     ],
                                                     "flags": 16777232,
+                                                    "transformFlags": 0,
                                                     "start": 73,
                                                     "end": 79
                                                 },
                                                 "flags": 33554448,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 79
                                             },
                                             "ofKeyword": {
                                                 "kind": 16793717,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 82
                                             },
@@ -171,6 +188,7 @@ const f = async function * (source, block, opts) {
                                                 "text": "source",
                                                 "rawText": "source",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 82,
                                                 "end": 89
                                             },
@@ -186,6 +204,7 @@ const f = async function * (source, block, opts) {
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 65,
+                                                                    "transformFlags": 0,
                                                                     "start": 92,
                                                                     "end": 106
                                                                 },
@@ -196,12 +215,14 @@ const f = async function * (source, block, opts) {
                                                                     "asyncKeyword": {
                                                                         "kind": 82031,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 106,
                                                                         "end": 112
                                                                     },
                                                                     "functionKeyword": {
                                                                         "kind": 37822554,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 112,
                                                                         "end": 121
                                                                     },
@@ -213,6 +234,7 @@ const f = async function * (source, block, opts) {
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 123,
                                                                         "end": 123
                                                                     },
@@ -227,6 +249,7 @@ const f = async function * (source, block, opts) {
                                                                                     "lexicalKeyword": {
                                                                                         "kind": 37757004,
                                                                                         "flags": 81,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 126,
                                                                                         "end": 142
                                                                                     },
@@ -240,6 +263,7 @@ const f = async function * (source, block, opts) {
                                                                                                     "text": "cid",
                                                                                                     "rawText": "cid",
                                                                                                     "flags": 96,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 142,
                                                                                                     "end": 146
                                                                                                 },
@@ -249,6 +273,7 @@ const f = async function * (source, block, opts) {
                                                                                                     "awaitKeyword": {
                                                                                                         "kind": 82196,
                                                                                                         "flags": 64,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 148,
                                                                                                         "end": 154
                                                                                                     },
@@ -259,6 +284,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "text": "persist",
                                                                                                             "rawText": "persist",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 154,
                                                                                                             "end": 162
                                                                                                         },
@@ -276,6 +302,7 @@ const f = async function * (source, block, opts) {
                                                                                                                                 "text": "entry",
                                                                                                                                 "rawText": "entry",
                                                                                                                                 "flags": 96,
+                                                                                                                                "transformFlags": 0,
                                                                                                                                 "start": 163,
                                                                                                                                 "end": 168
                                                                                                                             },
@@ -284,10 +311,12 @@ const f = async function * (source, block, opts) {
                                                                                                                                 "text": "content",
                                                                                                                                 "rawText": "content",
                                                                                                                                 "flags": 96,
+                                                                                                                                "transformFlags": 0,
                                                                                                                                 "start": 169,
                                                                                                                                 "end": 176
                                                                                                                             },
                                                                                                                             "flags": 96,
+                                                                                                                            "transformFlags": 2,
                                                                                                                             "start": 163,
                                                                                                                             "end": 176
                                                                                                                         },
@@ -296,10 +325,12 @@ const f = async function * (source, block, opts) {
                                                                                                                             "text": "serialize",
                                                                                                                             "rawText": "serialize",
                                                                                                                             "flags": 96,
+                                                                                                                            "transformFlags": 0,
                                                                                                                             "start": 177,
                                                                                                                             "end": 186
                                                                                                                         },
                                                                                                                         "flags": 96,
+                                                                                                                        "transformFlags": 2,
                                                                                                                         "start": 163,
                                                                                                                         "end": 186
                                                                                                                     },
@@ -308,10 +339,12 @@ const f = async function * (source, block, opts) {
                                                                                                                         "elements": [],
                                                                                                                         "trailingComma": false,
                                                                                                                         "flags": 32,
+                                                                                                                        "transformFlags": 0,
                                                                                                                         "start": 187,
                                                                                                                         "end": 187
                                                                                                                     },
                                                                                                                     "flags": 268435488,
+                                                                                                                    "transformFlags": 1,
                                                                                                                     "start": 163,
                                                                                                                     "end": 188
                                                                                                                 },
@@ -320,6 +353,7 @@ const f = async function * (source, block, opts) {
                                                                                                                     "text": "block",
                                                                                                                     "rawText": "block",
                                                                                                                     "flags": 96,
+                                                                                                                    "transformFlags": 0,
                                                                                                                     "start": 189,
                                                                                                                     "end": 195
                                                                                                                 },
@@ -328,33 +362,40 @@ const f = async function * (source, block, opts) {
                                                                                                                     "text": "opts",
                                                                                                                     "rawText": "opts",
                                                                                                                     "flags": 96,
+                                                                                                                    "transformFlags": 0,
                                                                                                                     "start": 196,
                                                                                                                     "end": 201
                                                                                                                 }
                                                                                                             ],
                                                                                                             "trailingComma": false,
                                                                                                             "flags": 32,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 163,
                                                                                                             "end": 201
                                                                                                         },
                                                                                                         "flags": 268435488,
+                                                                                                        "transformFlags": 1,
                                                                                                         "start": 154,
                                                                                                         "end": 202
                                                                                                     },
                                                                                                     "flags": 32,
+                                                                                                    "transformFlags": 4096,
                                                                                                     "start": 148,
                                                                                                     "end": 202
                                                                                                 },
                                                                                                 "flags": 16,
+                                                                                                "transformFlags": 4224,
                                                                                                 "start": 142,
                                                                                                 "end": 202
                                                                                             }
                                                                                         ],
                                                                                         "flags": 16777232,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 142,
                                                                                         "end": 202
                                                                                     },
                                                                                     "flags": 33554448,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 126,
                                                                                     "end": 202
                                                                                 },
@@ -363,6 +404,7 @@ const f = async function * (source, block, opts) {
                                                                                     "returnKeyword": {
                                                                                         "kind": 37757022,
                                                                                         "flags": 81,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 202,
                                                                                         "end": 219
                                                                                     },
@@ -376,6 +418,7 @@ const f = async function * (source, block, opts) {
                                                                                                     "text": "cid",
                                                                                                     "rawText": "cid",
                                                                                                     "flags": 97,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 221,
                                                                                                     "end": 237
                                                                                                 },
@@ -387,6 +430,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "text": "path",
                                                                                                         "rawText": "path",
                                                                                                         "flags": 97,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 238,
                                                                                                         "end": 255
                                                                                                     },
@@ -397,6 +441,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "text": "entry",
                                                                                                             "rawText": "entry",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 256,
                                                                                                             "end": 262
                                                                                                         },
@@ -405,14 +450,17 @@ const f = async function * (source, block, opts) {
                                                                                                             "text": "path",
                                                                                                             "rawText": "path",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 263,
                                                                                                             "end": 267
                                                                                                         },
                                                                                                         "flags": 96,
+                                                                                                        "transformFlags": 2,
                                                                                                         "start": 238,
                                                                                                         "end": 267
                                                                                                     },
                                                                                                     "flags": 33,
+                                                                                                    "transformFlags": 128,
                                                                                                     "start": 238,
                                                                                                     "end": 267
                                                                                                 },
@@ -424,6 +472,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "text": "unixfs",
                                                                                                         "rawText": "unixfs",
                                                                                                         "flags": 97,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 268,
                                                                                                         "end": 287
                                                                                                     },
@@ -436,6 +485,7 @@ const f = async function * (source, block, opts) {
                                                                                                                 "text": "UnixFS",
                                                                                                                 "rawText": "UnixFS",
                                                                                                                 "flags": 96,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 288,
                                                                                                                 "end": 295
                                                                                                             },
@@ -444,10 +494,12 @@ const f = async function * (source, block, opts) {
                                                                                                                 "text": "unmarshal",
                                                                                                                 "rawText": "unmarshal",
                                                                                                                 "flags": 96,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 296,
                                                                                                                 "end": 305
                                                                                                             },
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 2,
                                                                                                             "start": 268,
                                                                                                             "end": 305
                                                                                                         },
@@ -463,6 +515,7 @@ const f = async function * (source, block, opts) {
                                                                                                                             "text": "entry",
                                                                                                                             "rawText": "entry",
                                                                                                                             "flags": 96,
+                                                                                                                            "transformFlags": 0,
                                                                                                                             "start": 306,
                                                                                                                             "end": 311
                                                                                                                         },
@@ -471,10 +524,12 @@ const f = async function * (source, block, opts) {
                                                                                                                             "text": "content",
                                                                                                                             "rawText": "content",
                                                                                                                             "flags": 96,
+                                                                                                                            "transformFlags": 0,
                                                                                                                             "start": 312,
                                                                                                                             "end": 319
                                                                                                                         },
                                                                                                                         "flags": 96,
+                                                                                                                        "transformFlags": 2,
                                                                                                                         "start": 306,
                                                                                                                         "end": 319
                                                                                                                     },
@@ -483,24 +538,29 @@ const f = async function * (source, block, opts) {
                                                                                                                         "text": "Data",
                                                                                                                         "rawText": "Data",
                                                                                                                         "flags": 96,
+                                                                                                                        "transformFlags": 0,
                                                                                                                         "start": 320,
                                                                                                                         "end": 324
                                                                                                                     },
                                                                                                                     "flags": 96,
+                                                                                                                    "transformFlags": 2,
                                                                                                                     "start": 306,
                                                                                                                     "end": 324
                                                                                                                 }
                                                                                                             ],
                                                                                                             "trailingComma": false,
                                                                                                             "flags": 32,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 306,
                                                                                                             "end": 324
                                                                                                         },
                                                                                                         "flags": 268435488,
+                                                                                                        "transformFlags": 1,
                                                                                                         "start": 268,
                                                                                                         "end": 325
                                                                                                     },
                                                                                                     "flags": 33,
+                                                                                                    "transformFlags": 128,
                                                                                                     "start": 268,
                                                                                                     "end": 325
                                                                                                 },
@@ -512,6 +572,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "text": "node",
                                                                                                         "rawText": "node",
                                                                                                         "flags": 97,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 326,
                                                                                                         "end": 343
                                                                                                     },
@@ -522,6 +583,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "text": "entry",
                                                                                                             "rawText": "entry",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 344,
                                                                                                             "end": 350
                                                                                                         },
@@ -530,90 +592,110 @@ const f = async function * (source, block, opts) {
                                                                                                             "text": "content",
                                                                                                             "rawText": "content",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 351,
                                                                                                             "end": 358
                                                                                                         },
                                                                                                         "flags": 96,
+                                                                                                        "transformFlags": 2,
                                                                                                         "start": 326,
                                                                                                         "end": 358
                                                                                                     },
                                                                                                     "flags": 33,
+                                                                                                    "transformFlags": 128,
                                                                                                     "start": 326,
                                                                                                     "end": 358
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
                                                                                             "flags": 17,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 221,
                                                                                             "end": 358
                                                                                         },
                                                                                         "flags": 49,
+                                                                                        "transformFlags": 8,
                                                                                         "start": 219,
                                                                                         "end": 370
                                                                                     },
                                                                                     "flags": 81,
+                                                                                    "transformFlags": 256,
                                                                                     "start": 202,
                                                                                     "end": 370
                                                                                 }
                                                                             ],
                                                                             "flags": 33,
+                                                                            "transformFlags": 0,
                                                                             "start": 126,
                                                                             "end": 370
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 124,
                                                                         "end": 380
                                                                     },
                                                                     "returnType": null,
                                                                     "flags": 160,
+                                                                    "transformFlags": 0,
                                                                     "start": 106,
                                                                     "end": 380
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 92,
                                                                 "end": 380
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 92,
                                                             "end": 380
                                                         }
                                                     ],
                                                     "flags": 17,
+                                                    "transformFlags": 0,
                                                     "start": 92,
                                                     "end": 380
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 90,
                                                 "end": 388
                                             },
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 388
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 388
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 394
                             },
                             "returnType": null,
                             "flags": 416,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 394
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 394
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 394
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 394
         }
@@ -622,6 +704,7 @@ const f = async function * (source, block, opts) {
     "source": "const f = async function * (source, block, opts) {\n      for await (const entry of source) {\n        yield async function () {\n          const cid = await persist(entry.content.serialize(), block, opts)\n          return {\n            cid,\n            path: entry.path,\n            unixfs: UnixFS.unmarshal(entry.content.Data),\n            node: entry.content\n          }\n        }\n      }\n    }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 394
 }
@@ -630,21 +713,19 @@ const f = async function * (source, block, opts) {
 ### Printed
 
 ```javascript
-
-  const f = async function* (source, block, opts) {
+const f = async function *(source, block, opts) {
     for await (const entry of source) {
-      yield  async function () {
-        const cid = await persist(entry.content.serialize(), block, opts);
-        return {
-          cid,
-          path: entry.path,
-          unixfs: UnixFS.unmarshal(entry.content.Data),
-          node: entry.content
+        yield async function () {
+          const cid = await persist(entry.content.serialize(), block, opts);
+          return {
+            cid,
+            path: entry.path,
+            unixfs: UnixFS.unmarshal(entry.content.Data),
+            node: entry.content
+          };
         };
-      };
-    }
+      }
   };
-
 ```
 
 ### Diagnostics

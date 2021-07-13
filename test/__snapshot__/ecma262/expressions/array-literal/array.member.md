@@ -31,6 +31,7 @@
                                     "text": "ok",
                                     "rawText": "ok",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 3
                                 },
@@ -39,26 +40,31 @@
                                     "text": "v",
                                     "rawText": "v",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 5
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 5
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -67,14 +73,17 @@
                     "text": 20,
                     "rawText": "20",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         }
@@ -83,6 +92,7 @@
     "source": "[ok.v] = 20;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -91,9 +101,7 @@
 ### Printed
 
 ```javascript
-
-  [ok.v,] = 20;
-
+[ok.v] = 20;
 ```
 
 ### Diagnostics

@@ -29,6 +29,7 @@ type Fn2 = <A, B>(A, B) => A | B;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "text": "Fn2",
                 "rawText": "Fn2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -44,6 +46,7 @@ type Fn2 = <A, B>(A, B) => A | B;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -65,6 +68,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     },
@@ -72,6 +76,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
@@ -82,6 +87,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -89,16 +95,19 @@ type Fn2 = <A, B>(A, B) => A | B;
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 10,
                         "end": 17
                     },
@@ -117,15 +126,18 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 19
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 19
                             },
@@ -141,27 +153,32 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 22
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 26
                     },
@@ -179,11 +196,13 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -194,32 +213,39 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 32
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 }
                             ],
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 32
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 32
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 32
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 32
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -228,6 +254,7 @@ type Fn2 = <A, B>(A, B) => A | B;
     "source": "type Fn2 = <A, B>(A, B) => A | B;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }
@@ -236,9 +263,7 @@ type Fn2 = <A, B>(A, B) => A | B;
 ### Printed
 
 ```javascript
-
-  type Fn2 = <A, B>(A, B) => A | B
-
+type Fn2 = <A, B>(A, B) => A | B
 ```
 
 ### Diagnostics

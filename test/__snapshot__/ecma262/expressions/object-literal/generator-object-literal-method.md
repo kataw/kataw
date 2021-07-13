@@ -21,6 +21,7 @@ var x = { *test () { yield *v } };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var x = { *test () { yield *v } };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -49,6 +51,7 @@ var x = { *test () { yield *v } };
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
+                                            "transformFlags": 32,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -61,6 +64,7 @@ var x = { *test () { yield *v } };
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 15
                                             },
@@ -70,6 +74,7 @@ var x = { *test () { yield *v } };
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 18
                                             },
@@ -87,6 +92,7 @@ var x = { *test () { yield *v } };
                                                                 "yieldKeyword": {
                                                                     "kind": 8454253,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 20,
                                                                     "end": 26
                                                                 },
@@ -94,6 +100,7 @@ var x = { *test () { yield *v } };
                                                                 "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
+                                                                    "transformFlags": 32,
                                                                     "start": 26,
                                                                     "end": 28
                                                                 },
@@ -102,54 +109,66 @@ var x = { *test () { yield *v } };
                                                                     "text": "v",
                                                                     "rawText": "v",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 28,
                                                                     "end": 29
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 4096,
                                                                 "start": 20,
                                                                 "end": 29
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 4096,
                                                             "start": 20,
                                                             "end": 29
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 29
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 31
                                             },
                                             "flags": 160,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 31
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 33
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -158,6 +177,7 @@ var x = { *test () { yield *v } };
     "source": "var x = { *test () { yield *v } };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -166,11 +186,9 @@ var x = { *test () { yield *v } };
 ### Printed
 
 ```javascript
-
-  var x = { * test() {
-      yield*  v;
-    } };
-
+var x = { *test() {
+    yield* v;
+  } };
 ```
 
 ### Diagnostics

@@ -21,12 +21,14 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -60,12 +64,14 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 28
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 37
                             },
@@ -75,6 +81,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
@@ -84,6 +91,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 40
                             },
@@ -110,6 +118,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 47
                                                             },
@@ -135,6 +144,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                         "awaitKeyword": {
                                                                                             "kind": 82196,
                                                                                             "flags": 64,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 51,
                                                                                             "end": 56
                                                                                         },
@@ -143,14 +153,17 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                             "text": "foo",
                                                                                             "rawText": "foo",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 56,
                                                                                             "end": 60
                                                                                         },
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 4096,
                                                                                         "start": 51,
                                                                                         "end": 60
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 50,
                                                                                     "end": 61
                                                                                 },
@@ -160,6 +173,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                     "formalParameters": [],
                                                                                     "trailingComma": false,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 62,
                                                                                     "end": 63
                                                                                 },
@@ -171,18 +185,22 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                         "directives": [],
                                                                                         "statements": [],
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 64,
                                                                                         "end": 64
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 63,
                                                                                     "end": 65
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 61,
                                                                                 "end": 65
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 50,
                                                                             "end": 65
                                                                         },
@@ -199,6 +217,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                     "text": "x",
                                                                                     "rawText": "\"x\"",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 66,
                                                                                     "end": 70
                                                                                 },
@@ -208,6 +227,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                     "formalParameters": [],
                                                                                     "trailingComma": false,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 71,
                                                                                     "end": 72
                                                                                 },
@@ -219,38 +239,46 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                         "directives": [],
                                                                                         "statements": [],
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 73,
                                                                                         "end": 73
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 72,
                                                                                     "end": 74
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 70,
                                                                                 "end": 74
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 66,
                                                                             "end": 74
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 16,
+                                                                    "transformFlags": 0,
                                                                     "start": 50,
                                                                     "end": 74
                                                                 },
                                                                 "flags": 48,
+                                                                "transformFlags": 8,
                                                                 "start": 48,
                                                                 "end": 75
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 4096,
                                                             "start": 42,
                                                             "end": 75
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 2,
+                                                    "flags": 34,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 77
                                                 },
@@ -258,6 +286,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "arrowToken": {
                                                     "kind": 10,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 77,
                                                     "end": 80
                                                 },
@@ -266,42 +295,51 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 80,
                                                     "end": 82
                                                 },
                                                 "flags": 34,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 82
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 42,
                                             "end": 82
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 82
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 87
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 87
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 87
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 92
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 92
         }
@@ -310,6 +348,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
     "source": "async function f(){    async function f(){   (a= {[await foo](){}, \"x\"(){}} ) => a    }    }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 92
 }
@@ -318,13 +357,11 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 ### Printed
 
 ```javascript
-
+async function f() {
   async function f() {
-    async function f() {
-      (a = { [await foo]() {}, "\"x\""() {} }) => a;
-    }
+    (a = { [await foo]() {}, "\"x\""() {} }) => a;
   }
-
+}
 ```
 
 ### Diagnostics

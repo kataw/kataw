@@ -31,6 +31,7 @@
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
@@ -39,16 +40,19 @@
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
@@ -57,14 +61,17 @@
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -75,10 +82,12 @@
                 "text": "comment",
                 "rawText": "comment",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 12,
             "end": 20
         }
@@ -87,6 +96,7 @@
     "source": "0/*\\n*/--> a comment",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

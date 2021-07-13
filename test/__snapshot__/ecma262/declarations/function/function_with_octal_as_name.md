@@ -22,6 +22,7 @@ function 00004() { "use strict"; 00004; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function 00004() { "use strict"; 00004; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
@@ -43,15 +45,18 @@ function 00004() { "use strict"; 00004; }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -64,6 +69,7 @@ function 00004() { "use strict"; 00004; }
                     "text": 4,
                     "rawText": "00004",
                     "flags": 131168,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
@@ -72,14 +78,17 @@ function 00004() { "use strict"; 00004; }
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 8,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 16
         },
@@ -95,10 +104,12 @@ function 00004() { "use strict"; 00004; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 18,
                         "end": 32
                     },
@@ -109,19 +120,23 @@ function 00004() { "use strict"; 00004; }
                             "text": 4,
                             "rawText": "00004",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 38
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 32,
                         "end": 39
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 41
         }
@@ -130,6 +145,7 @@ function 00004() { "use strict"; 00004; }
     "source": "function 00004() { \"use strict\"; 00004; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

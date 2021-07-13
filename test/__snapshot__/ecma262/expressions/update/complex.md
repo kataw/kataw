@@ -22,6 +22,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 37
                 },
@@ -42,6 +43,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                             "member": {
                                                 "kind": 4276321,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 0,
                                                 "end": 4
                                             },
@@ -50,10 +52,12 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 8
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 0,
                                             "end": 8
                                         },
@@ -62,10 +66,12 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 12
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 0,
                                         "end": 13
                                     },
@@ -74,10 +80,12 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 17
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 0,
                                     "end": 17
                                 },
@@ -87,16 +95,19 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                         {
                                             "kind": 4276321,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 22
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 0,
                                 "end": 23
                             },
@@ -108,16 +119,19 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 0,
                             "end": 28
                         },
@@ -126,10 +140,12 @@ this.foo[foo].bar(this)(bar)[foo]()--
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 32
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 0,
                         "end": 33
                     },
@@ -138,18 +154,22 @@ this.foo[foo].bar(this)(bar)[foo]()--
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 37
         }
@@ -158,6 +178,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
     "source": "this.foo[foo].bar(this)(bar)[foo]()--",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

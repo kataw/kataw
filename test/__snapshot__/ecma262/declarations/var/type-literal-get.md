@@ -31,6 +31,7 @@ var obj: {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,6 +45,7 @@ var obj: {
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -61,6 +63,7 @@ var obj: {
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 16
                                         },
@@ -70,6 +73,7 @@ var obj: {
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -81,6 +85,7 @@ var obj: {
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 21
                                             },
@@ -91,43 +96,52 @@ var obj: {
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 30
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 30
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 30
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 33
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 33
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 33
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -136,6 +150,7 @@ var obj: {
     "source": "var obj: {\n  get foo(): string;\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -144,9 +159,7 @@ var obj: {
 ### Printed
 
 ```javascript
-
-  var obj: { foo(): string };
-
+var obj: { foo(): string };
 ```
 
 ### Diagnostics

@@ -35,6 +35,7 @@ class D extends C<O> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,6 +44,7 @@ class D extends C<O> {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -58,6 +60,7 @@ class D extends C<O> {
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
@@ -65,16 +68,19 @@ class D extends C<O> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 8,
                 "end": 11
             },
@@ -95,6 +101,7 @@ class D extends C<O> {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -110,39 +117,47 @@ class D extends C<O> {
                                         "text": "X",
                                         "rawText": "X",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 13,
                             "end": 18
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
                 "flags": 11,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -153,6 +168,7 @@ class D extends C<O> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 28
             },
@@ -161,6 +177,7 @@ class D extends C<O> {
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
@@ -172,6 +189,7 @@ class D extends C<O> {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 38
                     },
@@ -180,6 +198,7 @@ class D extends C<O> {
                         "text": "C",
                         "rawText": "C",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 40
                     },
@@ -199,29 +218,35 @@ class D extends C<O> {
                                             "text": "O",
                                             "rawText": "O",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 42
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 42
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 42
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 42
                         },
                         "flags": 2097152,
+                        "transformFlags": 512,
                         "start": 40,
                         "end": 43
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 43
                 },
@@ -244,6 +269,7 @@ class D extends C<O> {
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 51
                                 },
@@ -253,6 +279,7 @@ class D extends C<O> {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 53
                                 },
@@ -270,6 +297,7 @@ class D extends C<O> {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 60
                                                     },
@@ -278,44 +306,54 @@ class D extends C<O> {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 62
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 55,
                                                     "end": 62
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 55,
                                                 "end": 63
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 55,
                                         "end": 63
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 65
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 65
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 65
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 65
                 },
                 "flags": 30,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 67
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 21,
             "end": 67
         }
@@ -324,6 +362,7 @@ class D extends C<O> {
     "source": "\nclass C<X> { x: X; }\n\nclass D extends C<O> {\n  bar() { this.x; }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }
@@ -332,16 +371,14 @@ class D extends C<O> {
 ### Printed
 
 ```javascript
-
-  class C <X>{
-    x: X
-    ;
+class C <X>{
+  x: X;;
+}
+class D extends C<O> {
+  bar() {
+    this.x;
   }
-  class D extends C<O> {
-    bar() {
-      this.x;
-    }
-  }
+}
 
 ```
 

@@ -31,6 +31,7 @@ type a = (bj[c] | e) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -39,6 +40,7 @@ type a = (bj[c] | e) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -46,6 +48,7 @@ type a = (bj[c] | e) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -74,11 +77,13 @@ type a = (bj[c] | e) => T;
                                                     "text": "bj",
                                                     "rawText": "bj",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 12
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 12
                                             },
@@ -93,19 +98,23 @@ type a = (bj[c] | e) => T;
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 14
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 14
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 17
                                         },
@@ -116,34 +125,40 @@ type a = (bj[c] | e) => T;
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 19
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 19
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 20
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
@@ -158,27 +173,33 @@ type a = (bj[c] | e) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 25
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -188,6 +209,7 @@ type a = (bj[c] | e) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 32
             },
@@ -196,6 +218,7 @@ type a = (bj[c] | e) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
@@ -203,6 +226,7 @@ type a = (bj[c] | e) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 36
             },
@@ -231,11 +255,13 @@ type a = (bj[c] | e) => T;
                                                     "text": "bj",
                                                     "rawText": "bj",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 38,
                                                     "end": 40
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 40
                                             },
@@ -250,19 +276,23 @@ type a = (bj[c] | e) => T;
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 42
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 42
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 42
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 45
                                         },
@@ -273,34 +303,40 @@ type a = (bj[c] | e) => T;
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 47
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 47
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 47
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 48
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 48
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 51
                     },
@@ -315,27 +351,33 @@ type a = (bj[c] | e) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 53
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 53
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 53
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 53
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 53
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 26,
             "end": 54
         }
@@ -344,6 +386,7 @@ type a = (bj[c] | e) => T;
     "source": "type a = (bj[c] & d) => T;\n\ntype a = (bj[c] | e) => T;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }
@@ -352,9 +395,8 @@ type a = (bj[c] | e) => T;
 ### Printed
 
 ```javascript
-
-  type a = (bj[ c] & d) => T
-  type a = (bj[ c] | e) => T
+type a = (bj[c] & d) => T
+type a = (bj[c] | e) => T
 
 ```
 

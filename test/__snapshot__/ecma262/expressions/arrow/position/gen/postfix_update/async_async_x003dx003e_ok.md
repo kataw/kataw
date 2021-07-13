@@ -29,6 +29,7 @@ async async => ok++
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async async => ok++
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
@@ -45,6 +47,7 @@ async async => ok++
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -53,6 +56,7 @@ async async => ok++
                     "operandToken": {
                         "kind": 196635,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
@@ -61,18 +65,22 @@ async async => ok++
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 19
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -81,6 +89,7 @@ async async => ok++
     "source": "async async => ok++",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -89,9 +98,7 @@ async async => ok++
 ### Printed
 
 ```javascript
-
-  async async => ok++;
-
+async async => ok++;
 ```
 
 ### Diagnostics

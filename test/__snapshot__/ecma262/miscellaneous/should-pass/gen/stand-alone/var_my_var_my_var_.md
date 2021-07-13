@@ -28,6 +28,7 @@ var my_var; my_var;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ var my_var; my_var;
                             "text": "my_var",
                             "rawText": "my_var",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -66,10 +71,12 @@ var my_var; my_var;
                 "text": "my_var",
                 "rawText": "my_var",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 11,
             "end": 19
         }
@@ -78,6 +85,7 @@ var my_var; my_var;
     "source": "var my_var; my_var;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -86,9 +94,8 @@ var my_var; my_var;
 ### Printed
 
 ```javascript
-
-  var my_var;
-  my_var;
+var my_var;
+my_var;
 
 ```
 

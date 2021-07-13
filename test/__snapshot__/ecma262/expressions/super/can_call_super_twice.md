@@ -22,6 +22,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { constructor() { super.mom; super.mom; } }
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -85,6 +91,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -102,6 +109,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 35,
                                                         "end": 41
                                                     },
@@ -110,14 +118,17 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                         "text": "mom",
                                                         "rawText": "mom",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 42,
                                                         "end": 45
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 35,
                                                     "end": 45
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 35,
                                                 "end": 46
                                             },
@@ -128,6 +139,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 46,
                                                         "end": 52
                                                     },
@@ -136,44 +148,54 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                         "text": "mom",
                                                         "rawText": "mom",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 56
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 46,
                                                     "end": 56
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 46,
                                                 "end": 57
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 57
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 59
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 59
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 59
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 59
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -182,6 +204,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
     "source": "class x extends y { constructor() { super.mom; super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }
@@ -190,14 +213,12 @@ class x extends y { constructor() { super.mom; super.mom; } }
 ### Printed
 
 ```javascript
-
-  class x extends y {
-    constructor() {
-      super.mom;
-      super.mom;
-    }
+class x extends y {
+  constructor() {
+    super.mom;
+    super.mom;
   }
-
+}
 ```
 
 ### Diagnostics

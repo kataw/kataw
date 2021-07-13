@@ -29,6 +29,7 @@ type foo<number> = string;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type foo<number> = string;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -52,6 +54,7 @@ type foo<number> = string;
                                 "text": "number",
                                 "rawText": "number",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -59,22 +62,26 @@ type foo<number> = string;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 8,
                 "end": 16
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -85,14 +92,17 @@ type foo<number> = string;
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 25
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -101,6 +111,7 @@ type foo<number> = string;
     "source": "type foo<number> = string;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }
@@ -109,9 +120,7 @@ type foo<number> = string;
 ### Printed
 
 ```javascript
-
-  type foo<number> = string
-
+type foo<number> = string
 ```
 
 ### Diagnostics

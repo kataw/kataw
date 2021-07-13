@@ -29,6 +29,7 @@ function  a(b,,) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function  a(b,,) {}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -50,12 +52,14 @@ function  a(b,,) {}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 13
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
@@ -66,15 +70,18 @@ function  a(b,,) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -84,10 +91,12 @@ function  a(b,,) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 19
         }
@@ -96,6 +105,7 @@ function  a(b,,) {}
     "source": "function  a(b,,) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

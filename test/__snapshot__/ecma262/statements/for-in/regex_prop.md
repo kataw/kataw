@@ -39,6 +39,7 @@ for (/foo/.x in c) d;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for (/foo/.x in c) d;
                     "kind": 371,
                     "text": "/foo/",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -56,16 +58,19 @@ for (/foo/.x in c) d;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 12
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -74,6 +79,7 @@ for (/foo/.x in c) d;
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
@@ -84,14 +90,17 @@ for (/foo/.x in c) d;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 18,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -100,6 +109,7 @@ for (/foo/.x in c) d;
     "source": "for (/foo/.x in c) d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -108,10 +118,7 @@ for (/foo/.x in c) d;
 ### Printed
 
 ```javascript
-
-  for (/foo/.x in c)
-    d;
-
+for (/foo/.x in c) d;
 ```
 
 ### Diagnostics

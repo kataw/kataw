@@ -29,6 +29,7 @@ type a = (bj[c])[d];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (bj[c])[d];
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (bj[c])[d];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -64,11 +67,13 @@ type a = (bj[c])[d];
                                     "text": "bj",
                                     "rawText": "bj",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
@@ -83,23 +88,28 @@ type a = (bj[c])[d];
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 14
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 16
                     },
@@ -114,27 +124,33 @@ type a = (bj[c])[d];
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 18
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 20
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -143,6 +159,7 @@ type a = (bj[c])[d];
     "source": "type a = (bj[c])[d];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -151,9 +168,7 @@ type a = (bj[c])[d];
 ### Printed
 
 ```javascript
-
-  type a = (bj[ c])[ d]
-
+type a = (bj[c])[d]
 ```
 
 ### Diagnostics

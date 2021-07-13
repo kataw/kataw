@@ -31,6 +31,7 @@ async (x = (catch) = f) => {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -44,12 +45,14 @@ async (x = (catch) = f) => {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -60,28 +63,34 @@ async (x = (catch) = f) => {}
                                     "text": "",
                                     "rawText": "",
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 12
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 268435490,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 12
         },
@@ -94,10 +103,12 @@ async (x = (catch) = f) => {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -106,6 +117,7 @@ async (x = (catch) = f) => {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 17
                 },
@@ -116,20 +128,24 @@ async (x = (catch) = f) => {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 17
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 17
         },
@@ -140,10 +156,12 @@ async (x = (catch) = f) => {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 20,
             "end": 22
         },
@@ -153,10 +171,12 @@ async (x = (catch) = f) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 29
         }
@@ -165,6 +185,7 @@ async (x = (catch) = f) => {}
     "source": "async (x = (catch) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

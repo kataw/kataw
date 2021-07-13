@@ -41,6 +41,7 @@
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 2,
                                             "end": 6
                                         },
@@ -53,12 +54,14 @@
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 8
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4229173,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 19
                                                 },
@@ -67,16 +70,19 @@
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 21
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 5120,
                                                 "start": 6,
                                                 "end": 21
                                             },
                                             "operatorToken": {
                                                 "kind": 34883,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 23
                                             },
@@ -85,10 +91,12 @@
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 6,
                                             "end": 25
                                         },
@@ -96,22 +104,26 @@
                                         "type": null,
                                         "right": null,
                                         "flags": 1073741856,
+                                        "transformFlags": 4096,
                                         "start": 2,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 28
                 },
@@ -119,6 +131,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 31
                 },
@@ -127,14 +140,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 33
         }
@@ -143,6 +159,7 @@
     "source": "([ ... a instanceof b > c ]) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

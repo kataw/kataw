@@ -26,12 +26,14 @@ export default class Foo {}++x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,6 +44,7 @@ export default class Foo {}++x
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
@@ -50,6 +53,7 @@ export default class Foo {}++x
                     "text": "Foo",
                     "rawText": "Foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 24
                 },
@@ -61,18 +65,22 @@ export default class Foo {}++x
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 24,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 27
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         },
@@ -83,6 +91,7 @@ export default class Foo {}++x
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -91,14 +100,17 @@ export default class Foo {}++x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 27,
             "end": 30
         }
@@ -107,6 +119,7 @@ export default class Foo {}++x
     "source": "export default class Foo {}++x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -115,11 +128,7 @@ export default class Foo {}++x
 ### Printed
 
 ```javascript
-
-  export default class Foo {
-  };
-  ++x;
-
+export default class Foo {};++ x;
 ```
 
 ### Diagnostics

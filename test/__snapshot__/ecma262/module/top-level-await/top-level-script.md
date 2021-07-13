@@ -28,10 +28,12 @@ await 0;
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -42,10 +44,12 @@ await 0;
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 8
         }
@@ -54,6 +58,7 @@ await 0;
     "source": "await 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

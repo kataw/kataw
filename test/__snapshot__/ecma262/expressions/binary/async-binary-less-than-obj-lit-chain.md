@@ -28,12 +28,14 @@ async <{}>(x) >> y + z
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 536971330,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -44,20 +46,24 @@ async <{}>(x) >> y + z
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 9
                         },
                         "flags": 96,
+                        "transformFlags": 5120,
                         "start": 0,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 34883,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
@@ -70,16 +76,19 @@ async <{}>(x) >> y + z
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
-                            "flags": 32,
-                            "start": 10,
+                            "flags": 10,
+                            "transformFlags": 0,
+                            "start": 32,
                             "end": 13
                         },
                         "operatorToken": {
                             "kind": 35141,
                             "flags": 96,
+                            "transformFlags": 64,
                             "start": 13,
                             "end": 16
                         },
@@ -88,20 +97,24 @@ async <{}>(x) >> y + z
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 42,
+                        "transformFlags": 5120,
                         "start": 13,
                         "end": 18
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 0,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -110,14 +123,17 @@ async <{}>(x) >> y + z
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -126,6 +142,7 @@ async <{}>(x) >> y + z
     "source": "async <{}>(x) >> y + z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -134,9 +151,7 @@ async <{}>(x) >> y + z
 ### Printed
 
 ```javascript
-
-  async  < {} > (x) >> y + z;
-
+async  < {} > (x) >> y + z;
 ```
 
 ### Diagnostics

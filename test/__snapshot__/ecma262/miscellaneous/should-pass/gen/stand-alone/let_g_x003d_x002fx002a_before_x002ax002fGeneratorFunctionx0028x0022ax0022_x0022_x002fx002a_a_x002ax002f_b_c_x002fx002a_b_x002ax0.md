@@ -27,6 +27,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
                             "text": "g",
                             "rawText": "g",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,6 +53,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
                                 "text": "GeneratorFunction",
                                 "rawText": "GeneratorFunction",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 37
                             },
@@ -62,6 +65,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
                                         "text": "a",
                                         "rawText": "\"a\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 41
                                     },
@@ -70,6 +74,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
                                         "text": " /* a */ b, c /* b */ //",
                                         "rawText": "\" /* a */ b, c /* b */ //\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 69
                                     },
@@ -78,29 +83,35 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
                                         "text": "/* c */ yield yield; /* d */ //",
                                         "rawText": "\"/* c */ yield yield; /* d */ //\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 104
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 104
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 7,
                             "end": 105
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 105
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 105
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 117
         }
@@ -109,6 +120,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
     "source": "let g = /* before */GeneratorFunction(\"a\", \" /* a */ b, c /* b */ //\", \"/* c */ yield yield; /* d */ //\")/* after */;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 117
 }
@@ -117,9 +129,11 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
 ### Printed
 
 ```javascript
-
-  let g =/* before */ GeneratorFunction("\"a\"", "\" /* a */ b, c /* b */ //\"", "\"/* c */ yield yield; /* d */ //\"") /* after */;
-
+let g =/* before */  GeneratorFunction(
+    "\"a\"",
+    "\" /* a */ b, c /* b */ //\"",
+    "\"/* c */ yield yield; /* d */ //\""
+  ) /* after */;
 ```
 
 ### Diagnostics

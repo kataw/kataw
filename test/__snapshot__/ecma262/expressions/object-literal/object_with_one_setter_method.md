@@ -24,6 +24,7 @@ wrap({set [foo](a){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -43,6 +44,7 @@ wrap({set [foo](a){}});
                                         "setKeyword": {
                                             "kind": 16499,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 9
                                         },
@@ -55,10 +57,12 @@ wrap({set [foo](a){}});
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 14
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 15
                                             },
@@ -71,12 +75,14 @@ wrap({set [foo](a){}});
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 17
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 608,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 18
                                             },
@@ -88,42 +94,51 @@ wrap({set [foo](a){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 19
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 20
                                             },
                                             "flags": 544,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 20
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 21
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 23
         }
@@ -132,6 +147,7 @@ wrap({set [foo](a){}});
     "source": "wrap({set [foo](a){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -140,9 +156,7 @@ wrap({set [foo](a){}});
 ### Printed
 
 ```javascript
-
-  wrap({ set [foo](a) {} });
-
+wrap({ set [foo](a) {} });
 ```
 
 ### Diagnostics

@@ -31,12 +31,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 15
                 },
@@ -44,6 +46,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
@@ -54,18 +57,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         },
@@ -76,6 +83,7 @@
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 29
                 },
@@ -88,12 +96,14 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 32
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 39
                 },
@@ -101,6 +111,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 42
                 },
@@ -111,18 +122,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 44
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 45
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 21,
             "end": 45
         }
@@ -131,6 +146,7 @@
     "source": " (/*1*/x,/*1*/) => {}\n\n async (x,/*1*/) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }
@@ -139,9 +155,8 @@
 ### Printed
 
 ```javascript
-
-  (/*1*/x) => {};
-  async (x) => {};
+(/*1*/ x) => {};
+async (x) => {};
 
 ```
 

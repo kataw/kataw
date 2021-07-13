@@ -39,6 +39,7 @@ for (a.b in c) d;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ for (a.b in c) d;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
@@ -57,16 +59,19 @@ for (a.b in c) d;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 8
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -75,6 +80,7 @@ for (a.b in c) d;
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
@@ -85,14 +91,17 @@ for (a.b in c) d;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 14,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -101,6 +110,7 @@ for (a.b in c) d;
     "source": "for (a.b in c) d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -109,10 +119,7 @@ for (a.b in c) d;
 ### Printed
 
 ```javascript
-
-  for (a.b in c)
-    d;
-
+for (a.b in c) d;
 ```
 
 ### Diagnostics

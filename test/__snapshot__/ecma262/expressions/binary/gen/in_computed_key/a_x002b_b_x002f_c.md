@@ -31,12 +31,14 @@ x = {[ a + b / c ]: y}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -57,12 +59,14 @@ x = {[ a + b / c ]: y}
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 10
                                         },
@@ -73,12 +77,14 @@ x = {[ a + b / c ]: y}
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 12
                                             },
                                             "operatorToken": {
                                                 "kind": 35640,
                                                 "flags": 96,
+                                                "transformFlags": 32,
                                                 "start": 12,
                                                 "end": 14
                                             },
@@ -87,18 +93,22 @@ x = {[ a + b / c ]: y}
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "flags": 96,
+                                            "transformFlags": 5120,
                                             "start": 12,
                                             "end": 16
                                         },
                                         "flags": 96,
+                                        "transformFlags": 5120,
                                         "start": 6,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 18
                                 },
@@ -107,28 +117,34 @@ x = {[ a + b / c ]: y}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 21
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -137,6 +153,7 @@ x = {[ a + b / c ]: y}
     "source": "x = {[ a + b / c ]: y}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -145,9 +162,7 @@ x = {[ a + b / c ]: y}
 ### Printed
 
 ```javascript
-
-  x = { [a + b / c]: y };
-
+x = { [a + b / c]: y };
 ```
 
 ### Diagnostics

@@ -28,6 +28,7 @@ let x: -1n;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: -1n;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,30 +55,36 @@ let x: -1n;
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
                                 "text": "1",
                                 "rawText": "1n",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 10
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -85,6 +93,7 @@ let x: -1n;
     "source": "let x: -1n;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -93,9 +102,7 @@ let x: -1n;
 ### Printed
 
 ```javascript
-
-  let x: -1n;
-
+let x: -1n;
 ```
 
 ### Diagnostics

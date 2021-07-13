@@ -27,6 +27,7 @@ function x(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -36,6 +37,7 @@ function x(){
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -45,6 +47,7 @@ function x(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -59,6 +62,7 @@ function x(){
                             "ifKeyword": {
                                 "kind": 37757019,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 18
                             },
@@ -67,6 +71,7 @@ function x(){
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
                             },
@@ -75,16 +80,19 @@ function x(){
                                 "debuggerKeyword": {
                                     "kind": 37757010,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 35
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 35
                             },
                             "elseKeyword": null,
                             "alternate": null,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 35
                         },
@@ -94,30 +102,36 @@ function x(){
                                 "kind": 371,
                                 "text": "/ /",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 43
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 35,
                             "end": 44
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 44
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 51,
             "end": 52
         }
@@ -126,6 +140,7 @@ function x(){
     "source": "function x(){\n  if (x)\n    debugger\n    / /;\n  else;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

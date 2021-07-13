@@ -28,6 +28,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 8
                         },
@@ -38,12 +39,14 @@
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -52,36 +55,43 @@
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 27
                         },
                         {
                             "kind": 230,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 28
                         },
                         {
                             "kind": 230,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 30
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 39
         }
@@ -90,6 +100,7 @@
     "source": " [/*1*/a,/*2*/b/*3*/=/*4*/c, , , /*5*/]\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -98,9 +109,7 @@
 ### Printed
 
 ```javascript
-
-  [/*1*/a, /*2*/b /*3*/ =/*4*/ c, , ,/*5*/];
-
+[/*1*/ a, /*2*/ b /*3*/ =/*4*/  c, , ,];
 ```
 
 ### Diagnostics

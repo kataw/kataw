@@ -32,12 +32,14 @@ a ? async (b) : c => d : e;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -46,6 +48,7 @@ a ? async (b) : c => d : e;
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -58,12 +61,14 @@ a ? async (b) : c => d : e;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
@@ -78,21 +83,25 @@ a ? async (b) : c => d : e;
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
@@ -101,16 +110,19 @@ a ? async (b) : c => d : e;
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 22
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
@@ -119,14 +131,17 @@ a ? async (b) : c => d : e;
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 27
         }
@@ -135,6 +150,7 @@ a ? async (b) : c => d : e;
     "source": "a ? async (b) : c => d : e;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -143,9 +159,7 @@ a ? async (b) : c => d : e;
 ### Printed
 
 ```javascript
-
-  a ? async (b) => d : e;
-
+a ? async (b) => d : e;
 ```
 
 ### Diagnostics

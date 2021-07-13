@@ -30,6 +30,7 @@ export var { x = await foo } = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ export var { x = await foo } = {};
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -52,19 +54,23 @@ export var { x = await foo } = {};
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -73,6 +79,7 @@ export var { x = await foo } = {};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 20
             },
@@ -82,6 +89,7 @@ export var { x = await foo } = {};
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 24
                 },
@@ -95,6 +103,7 @@ export var { x = await foo } = {};
                                 "text": "name1",
                                 "rawText": "name1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 30
                             },
@@ -104,6 +113,7 @@ export var { x = await foo } = {};
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 38
                                 },
@@ -112,23 +122,28 @@ export var { x = await foo } = {};
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 32,
                                 "end": 42
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 24,
                             "end": 42
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 42
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 43
             },
@@ -137,6 +152,7 @@ export var { x = await foo } = {};
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 12,
             "end": 43
         },
@@ -145,6 +161,7 @@ export var { x = await foo } = {};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 50
             },
@@ -154,6 +171,7 @@ export var { x = await foo } = {};
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 54
                 },
@@ -175,6 +193,7 @@ export var { x = await foo } = {};
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 56,
                                                 "end": 58
                                             },
@@ -185,6 +204,7 @@ export var { x = await foo } = {};
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 60,
                                                     "end": 66
                                                 },
@@ -193,24 +213,29 @@ export var { x = await foo } = {};
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 66,
                                                     "end": 70
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 60,
                                                 "end": 70
                                             },
                                             "flags": 0,
+                                            "transformFlags": 4096,
                                             "start": 56,
                                             "end": 70
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 70
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 54,
                                 "end": 72
                             },
@@ -222,23 +247,28 @@ export var { x = await foo } = {};
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 76,
                                     "end": 76
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 74,
                                 "end": 77
                             },
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 54,
                             "end": 77
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 77
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 78
             },
@@ -247,6 +277,7 @@ export var { x = await foo } = {};
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 43,
             "end": 78
         }
@@ -255,6 +286,7 @@ export var { x = await foo } = {};
     "source": "var foo = 1;\n\nexport var name1 = await foo;\nexport var { x = await foo } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 78
 }
@@ -263,12 +295,10 @@ export var { x = await foo } = {};
 ### Printed
 
 ```javascript
+var foo = 1;
+export var name1 = await foo;
 
-  var foo = 1;
-  export var name1 = await foo;
-  export var {
-    x = await foo
-  } = {};
+export var { x = await foo } = {};
 
 ```
 

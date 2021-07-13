@@ -20,6 +20,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -49,6 +51,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -59,10 +62,12 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 0,
+                                        "transformFlags": 4096,
                                         "start": 7,
                                         "end": 10
                                     },
@@ -73,6 +78,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
@@ -81,11 +87,13 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 14
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 14
                                     },
@@ -96,6 +104,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 16
                                         },
@@ -104,6 +113,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -112,10 +122,12 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 20
                                     },
@@ -128,10 +140,12 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 24
                                         },
@@ -145,31 +159,37 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                                         "text": "h",
                                                         "rawText": "h",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 27
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 27
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 28
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 29
                         },
@@ -179,19 +199,23 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 31
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -200,6 +224,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
     "source": "let {a,b=0,c:d,e:f=0,[g]:[h]}=0",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }
@@ -208,15 +233,13 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
 ### Printed
 
 ```javascript
-
-  let {
+let {
     a,
     b = 0,
     c: d,
     e: f = 0,
     [g]: [h]
   } = 0;
-
 ```
 
 ### Diagnostics

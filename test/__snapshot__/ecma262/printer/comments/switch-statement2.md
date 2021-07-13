@@ -20,6 +20,7 @@ switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -28,6 +29,7 @@ switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
@@ -35,10 +37,12 @@ switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 46
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -47,6 +51,7 @@ switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */
     "source": "switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }
@@ -55,10 +60,7 @@ switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */
 ### Printed
 
 ```javascript
-
-  switch/* comment 1 */ (x)/* comment 2 */ {
-  } /* comment 3 */
-
+switch /* comment 1 */ (x)/* comment 2 */  {} /* comment 3 */
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ function package() { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function package() { "use strict"; }
                 "text": "package",
                 "rawText": "package",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -40,6 +42,7 @@ function package() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -53,21 +56,25 @@ function package() { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 33
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 36
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -76,6 +83,7 @@ function package() { "use strict"; }
     "source": "function package() { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

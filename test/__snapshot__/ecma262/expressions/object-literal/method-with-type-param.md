@@ -32,12 +32,14 @@ a={id<T>(x: T): T {}}
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -59,6 +61,7 @@ a={id<T>(x: T): T {}}
                                         "text": "id",
                                         "rawText": "id",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 5
                                     },
@@ -74,6 +77,7 @@ a={id<T>(x: T): T {}}
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 7
                                                     },
@@ -81,16 +85,19 @@ a={id<T>(x: T): T {}}
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 7
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 512,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -105,6 +112,7 @@ a={id<T>(x: T): T {}}
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 10
                                                 },
@@ -120,26 +128,31 @@ a={id<T>(x: T): T {}}
                                                             "text": "T",
                                                             "rawText": "T",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 11,
                                                             "end": 13
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 13
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 13
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 4096,
                                                 "start": 9,
                                                 "end": 13
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 14
                                     },
@@ -154,15 +167,18 @@ a={id<T>(x: T): T {}}
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 17
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -173,36 +189,44 @@ a={id<T>(x: T): T {}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 19
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 20
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 20
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 21
         }
@@ -211,6 +235,7 @@ a={id<T>(x: T): T {}}
     "source": "a={id<T>(x: T): T {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }
@@ -219,9 +244,7 @@ a={id<T>(x: T): T {}}
 ### Printed
 
 ```javascript
-
-  a = { id<T>(x: T): T {} };
-
+a = { id<T>(x: T): T {} };
 ```
 
 ### Diagnostics

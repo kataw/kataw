@@ -32,6 +32,7 @@ async async => {}, a
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -41,6 +42,7 @@ async async => {}, a
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
@@ -48,6 +50,7 @@ async async => {}, a
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
@@ -58,14 +61,17 @@ async async => {}, a
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 17
                     },
@@ -74,15 +80,18 @@ async async => {}, a
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 20
         }
@@ -91,6 +100,7 @@ async async => {}, a
     "source": "async async => {}, a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -99,9 +109,7 @@ async async => {}, a
 ### Printed
 
 ```javascript
-
-  async async => {}, a;
-
+async async => {}, a;
 ```
 
 ### Diagnostics

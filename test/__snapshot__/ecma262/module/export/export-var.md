@@ -26,6 +26,7 @@ export var bar;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ export var bar;
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -48,21 +50,25 @@ export var bar;
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 4224,
                             "start": 10,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 15
             },
@@ -71,6 +77,7 @@ export var bar;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -79,6 +86,7 @@ export var bar;
     "source": "export var bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -87,9 +95,7 @@ export var bar;
 ### Printed
 
 ```javascript
-
-  export var bar;
-
+export var bar;
 ```
 
 ### Diagnostics

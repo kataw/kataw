@@ -44,6 +44,7 @@ class C { get name(private) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -52,6 +53,7 @@ class C { get name(private) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -71,6 +73,7 @@ class C { get name(private) {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
@@ -83,6 +86,7 @@ class C { get name(private) {} }
                                     "text": "name",
                                     "rawText": "name",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -95,12 +99,14 @@ class C { get name(private) {} }
                                             "text": "interface",
                                             "rawText": "interface",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 29
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 1120,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 30
                                 },
@@ -112,31 +118,38 @@ class C { get name(private) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 33
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 33
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 33
                 },
                 "flags": 8,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -147,6 +160,7 @@ class C { get name(private) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 42
             },
@@ -155,6 +169,7 @@ class C { get name(private) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 44
             },
@@ -174,6 +189,7 @@ class C { get name(private) {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 50
                             },
@@ -186,6 +202,7 @@ class C { get name(private) {} }
                                     "text": "name",
                                     "rawText": "name",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 55
                                 },
@@ -198,12 +215,14 @@ class C { get name(private) {} }
                                             "text": "public",
                                             "rawText": "public",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 56,
                                             "end": 62
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 1120,
+                                    "transformFlags": 0,
                                     "start": 56,
                                     "end": 63
                                 },
@@ -215,31 +234,38 @@ class C { get name(private) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 65,
                                         "end": 65
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 66
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 66
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 66
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 66
                 },
                 "flags": 44,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 68
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 35,
             "end": 68
         },
@@ -250,6 +276,7 @@ class C { get name(private) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 75
             },
@@ -258,6 +285,7 @@ class C { get name(private) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 77
             },
@@ -277,6 +305,7 @@ class C { get name(private) {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 79,
                                 "end": 83
                             },
@@ -289,6 +318,7 @@ class C { get name(private) {} }
                                     "text": "name",
                                     "rawText": "name",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 83,
                                     "end": 88
                                 },
@@ -301,12 +331,14 @@ class C { get name(private) {} }
                                             "text": "private",
                                             "rawText": "private",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 96
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 1120,
+                                    "transformFlags": 0,
                                     "start": 89,
                                     "end": 97
                                 },
@@ -318,31 +350,38 @@ class C { get name(private) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 99,
                                         "end": 99
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 97,
                                     "end": 100
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 88,
                                 "end": 100
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 100
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 79,
                     "end": 100
                 },
                 "flags": 77,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 102
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 68,
             "end": 102
         },
@@ -353,10 +392,12 @@ class C { get name(private) {} }
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 116
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 102,
             "end": 117
         },
@@ -367,6 +408,7 @@ class C { get name(private) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 123
             },
@@ -375,6 +417,7 @@ class C { get name(private) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 125
             },
@@ -394,6 +437,7 @@ class C { get name(private) {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 127,
                                 "end": 131
                             },
@@ -406,6 +450,7 @@ class C { get name(private) {} }
                                     "text": "name",
                                     "rawText": "name",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 131,
                                     "end": 136
                                 },
@@ -418,12 +463,14 @@ class C { get name(private) {} }
                                             "text": "implements",
                                             "rawText": "implements",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 137,
                                             "end": 147
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 1120,
+                                    "transformFlags": 0,
                                     "start": 137,
                                     "end": 148
                                 },
@@ -435,31 +482,38 @@ class C { get name(private) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 150,
                                         "end": 150
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 148,
                                     "end": 151
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 136,
                                 "end": 151
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 127,
                             "end": 151
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 151
                 },
                 "flags": 125,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 153
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 117,
             "end": 153
         },
@@ -470,10 +524,12 @@ class C { get name(private) {} }
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 167
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 153,
             "end": 168
         },
@@ -484,6 +540,7 @@ class C { get name(private) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 168,
                 "end": 174
             },
@@ -492,6 +549,7 @@ class C { get name(private) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 174,
                 "end": 176
             },
@@ -511,6 +569,7 @@ class C { get name(private) {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 178,
                                 "end": 182
                             },
@@ -523,6 +582,7 @@ class C { get name(private) {} }
                                     "text": "name",
                                     "rawText": "name",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 182,
                                     "end": 187
                                 },
@@ -535,12 +595,14 @@ class C { get name(private) {} }
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 188,
                                             "end": 193
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 1120,
+                                    "transformFlags": 0,
                                     "start": 188,
                                     "end": 194
                                 },
@@ -552,31 +614,38 @@ class C { get name(private) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 196,
                                         "end": 196
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 194,
                                     "end": 197
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 187,
                                 "end": 197
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 178,
                             "end": 197
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 197
                 },
                 "flags": 176,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 199
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 168,
             "end": 199
         },
@@ -587,10 +656,12 @@ class C { get name(private) {} }
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 199,
                 "end": 213
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 199,
             "end": 214
         },
@@ -601,6 +672,7 @@ class C { get name(private) {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 214,
                 "end": 220
             },
@@ -609,6 +681,7 @@ class C { get name(private) {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 220,
                 "end": 222
             },
@@ -628,6 +701,7 @@ class C { get name(private) {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 224,
                                 "end": 228
                             },
@@ -640,6 +714,7 @@ class C { get name(private) {} }
                                     "text": "name",
                                     "rawText": "name",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 228,
                                     "end": 233
                                 },
@@ -649,6 +724,7 @@ class C { get name(private) {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 234,
                                     "end": 237
                                 },
@@ -660,18 +736,22 @@ class C { get name(private) {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 234,
                                         "end": 234
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 234,
                                     "end": 234
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 233,
                                 "end": 234
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 224,
                             "end": 234
                         },
@@ -686,6 +766,7 @@ class C { get name(private) {} }
                                 "text": "var",
                                 "rawText": "var",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 234,
                                 "end": 237
                             },
@@ -693,19 +774,23 @@ class C { get name(private) {} }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 234,
                             "end": 237
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 224,
                     "end": 237
                 },
                 "flags": 222,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 237
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 214,
             "end": 237
         },
@@ -715,10 +800,12 @@ class C { get name(private) {} }
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 240,
                 "end": 240
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 238,
             "end": 241
         },
@@ -729,10 +816,12 @@ class C { get name(private) {} }
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 243,
                 "end": 257
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 243,
             "end": 258
         },
@@ -746,6 +835,7 @@ class C { get name(private) {} }
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 260,
                         "end": 265
                     },
@@ -766,6 +856,7 @@ class C { get name(private) {} }
                                     "setKeyword": {
                                         "kind": 16498,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 267,
                                         "end": 271
                                     },
@@ -778,6 +869,7 @@ class C { get name(private) {} }
                                             "text": "name",
                                             "rawText": "name",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 271,
                                             "end": 276
                                         },
@@ -790,12 +882,14 @@ class C { get name(private) {} }
                                                     "text": "package",
                                                     "rawText": "package",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 277,
                                                     "end": 284
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 1120,
+                                            "transformFlags": 0,
                                             "start": 277,
                                             "end": 285
                                         },
@@ -807,39 +901,48 @@ class C { get name(private) {} }
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 287,
                                                 "end": 287
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 285,
                                             "end": 288
                                         },
                                         "flags": 1024,
+                                        "transformFlags": 0,
                                         "start": 276,
                                         "end": 288
                                     },
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 267,
                                     "end": 288
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 267,
                             "end": 288
                         },
                         "flags": 265,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 290
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 260,
                     "end": 290
                 },
-                "flags": 32,
-                "start": 258,
+                "flags": 258,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 291
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 258,
             "end": 291
         },
@@ -850,10 +953,12 @@ class C { get name(private) {} }
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 291,
                 "end": 305
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 291,
             "end": 306
         },
@@ -867,6 +972,7 @@ class C { get name(private) {} }
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 308,
                         "end": 313
                     },
@@ -887,6 +993,7 @@ class C { get name(private) {} }
                                     "setKeyword": {
                                         "kind": 16498,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 315,
                                         "end": 319
                                     },
@@ -899,6 +1006,7 @@ class C { get name(private) {} }
                                             "text": "name",
                                             "rawText": "name",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 319,
                                             "end": 324
                                         },
@@ -911,12 +1019,14 @@ class C { get name(private) {} }
                                                     "text": "static",
                                                     "rawText": "static",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 325,
                                                     "end": 331
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 1120,
+                                            "transformFlags": 0,
                                             "start": 325,
                                             "end": 332
                                         },
@@ -928,39 +1038,48 @@ class C { get name(private) {} }
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 334,
                                                 "end": 334
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 332,
                                             "end": 335
                                         },
                                         "flags": 1024,
+                                        "transformFlags": 0,
                                         "start": 324,
                                         "end": 335
                                     },
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 315,
                                     "end": 335
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 315,
                             "end": 335
                         },
                         "flags": 313,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 337
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 308,
                     "end": 337
                 },
-                "flags": 32,
-                "start": 306,
+                "flags": 306,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 338
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 306,
             "end": 338
         }
@@ -969,6 +1088,7 @@ class C { get name(private) {} }
     "source": "\nclass C { get name(interface) {} }\n\nclass C { get name(public) {} }\n\nclass C { get name(private) {} }\n\n'use strict'; class C { get name(implements) {} }\n\n'use strict'; class C { get name(yield) {} }\n\n'use strict'; class C { get name(var) {} }\n\n'use strict'; (class { get name(package) {} })\n\n'use strict'; (class { get name(static) {} })\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 339
 }

@@ -32,6 +32,7 @@
                         "forKeyword": {
                             "kind": 37757017,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -40,6 +41,7 @@
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 12
                             },
@@ -53,6 +55,7 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
@@ -62,25 +65,30 @@
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 12,
                                         "end": 18
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 18
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 18
                         },
                         "inKeyword": {
                             "kind": 21006388,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 21
                         },
@@ -89,6 +97,7 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
@@ -98,23 +107,28 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -123,6 +137,7 @@
     "source": "{ for (const x = 0 in y){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

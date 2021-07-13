@@ -29,6 +29,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -65,12 +68,14 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                     "text": "unction",
                                     "rawText": "unction",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 28
                                 },
                                 "operatorToken": {
                                     "kind": 67143222,
                                     "flags": 96,
+                                    "transformFlags": 32,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -81,6 +86,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "text": "gf",
                                         "rawText": "gf",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 32
                                     },
@@ -89,18 +95,22 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "elements": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 29,
                                     "end": 34
                                 },
                                 "flags": 96,
+                                "transformFlags": 5120,
                                 "start": 20,
                                 "end": 34
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 34
                         },
@@ -115,6 +125,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "varKeyword": {
                                             "kind": 37757002,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 40
                                         },
@@ -128,6 +139,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 40,
                                                         "end": 42
                                                     },
@@ -137,19 +149,23 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 44,
                                                         "end": 50
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 4224,
                                                     "start": 40,
                                                     "end": 50
                                                 }
                                             ],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 50
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 50
                                     },
@@ -160,33 +176,40 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                             "text": "foo",
                                             "rawText": "'foo'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 56
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4096,
                                         "start": 50,
                                         "end": 57
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 57
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 59
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 59
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -195,6 +218,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
     "source": "function not_gen() { unction* gf() { var a = yield 'foo'; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }

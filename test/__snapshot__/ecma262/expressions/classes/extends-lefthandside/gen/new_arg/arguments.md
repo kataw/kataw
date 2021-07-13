@@ -29,6 +29,7 @@ new arguments
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new arguments
                     "text": "arguments",
                     "rawText": "arguments",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 13
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 13
         }
@@ -54,6 +58,7 @@ new arguments
     "source": "new arguments",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -62,9 +67,7 @@ new arguments
 ### Printed
 
 ```javascript
-
-  new arguments;
-
+new arguments;
 ```
 
 ### Diagnostics

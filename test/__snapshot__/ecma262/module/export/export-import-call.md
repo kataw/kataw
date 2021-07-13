@@ -28,12 +28,14 @@ import(y);
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,6 +44,7 @@ import(y);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 21
                 },
@@ -50,14 +53,17 @@ import(y);
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -68,6 +74,7 @@ import(y);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 33
                 },
@@ -76,14 +83,17 @@ import(y);
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 25,
             "end": 37
         }
@@ -92,6 +102,7 @@ import(y);
     "source": "export default import(y);\n\nimport(y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -100,9 +111,8 @@ import(y);
 ### Printed
 
 ```javascript
-
-  export default import(y);
-  import(y);
+export default import(y);
+import(y);
 
 ```
 

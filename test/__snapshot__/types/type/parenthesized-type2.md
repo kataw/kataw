@@ -29,6 +29,7 @@ type Foo = (string | number)
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Foo = (string | number)
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -44,6 +46,7 @@ type Foo = (string | number)
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -59,29 +62,35 @@ type Foo = (string | number)
                             {
                                 "kind": 134234347,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 18
                             },
                             {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 27
                             }
                         ],
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 27
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 28
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 28
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -90,6 +99,7 @@ type Foo = (string | number)
     "source": "type Foo = (string | number)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }
@@ -98,9 +108,7 @@ type Foo = (string | number)
 ### Printed
 
 ```javascript
-
-  type Foo = (string | number)
-
+type Foo = (string | number)
 ```
 
 ### Diagnostics

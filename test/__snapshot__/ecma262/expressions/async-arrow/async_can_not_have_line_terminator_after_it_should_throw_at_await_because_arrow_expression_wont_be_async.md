@@ -21,6 +21,7 @@ g => await g
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ g => await g
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -43,19 +45,23 @@ g => await g
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -70,6 +76,7 @@ g => await g
                     "text": "g",
                     "rawText": "g",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -77,6 +84,7 @@ g => await g
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
@@ -85,14 +93,17 @@ g => await g
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 13,
             "end": 24
         },
@@ -103,10 +114,12 @@ g => await g
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 24,
             "end": 26
         }
@@ -115,6 +128,7 @@ g => await g
     "source": "let f = async\ng => await g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -22,12 +22,14 @@ function* bar() { yield class {} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* bar() { yield class {} }
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 13
             },
@@ -45,6 +48,7 @@ function* bar() { yield class {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -61,6 +65,7 @@ function* bar() { yield class {} }
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -72,6 +77,7 @@ function* bar() { yield class {} }
                                     "classKeyword": {
                                         "kind": 37822544,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 29
                                     },
@@ -84,36 +90,44 @@ function* bar() { yield class {} }
                                             "kind": 303,
                                             "elements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 31
                                         },
                                         "flags": 29,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 32
                                 },
                                 "flags": 32,
+                                "transformFlags": 4096,
                                 "start": 17,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 17,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 34
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -122,6 +136,7 @@ function* bar() { yield class {} }
     "source": "function* bar() { yield class {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }
@@ -130,12 +145,9 @@ function* bar() { yield class {} }
 ### Printed
 
 ```javascript
-
-  function* bar() {
-    yield  class {
-    };
-  }
-
+function *bar() {
+  yield class {};
+}
 ```
 
 ### Diagnostics

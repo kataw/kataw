@@ -24,12 +24,14 @@ a ? b ** x : c ? d : e
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -40,12 +42,14 @@ a ? b ** x : c ? d : e
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -54,16 +58,19 @@ a ? b ** x : c ? d : e
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 3,
                     "end": 10
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -74,12 +81,14 @@ a ? b ** x : c ? d : e
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -88,12 +97,14 @@ a ? b ** x : c ? d : e
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -102,18 +113,22 @@ a ? b ** x : c ? d : e
                         "text": "e",
                         "rawText": "e",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 96,
+                    "transformFlags": 4096,
                     "start": 12,
                     "end": 22
                 },
                 "flags": 96,
+                "transformFlags": 4096,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 22
         }
@@ -122,6 +137,7 @@ a ? b ** x : c ? d : e
     "source": "a ? b ** x : c ? d : e",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -130,9 +146,7 @@ a ? b ** x : c ? d : e
 ### Printed
 
 ```javascript
-
-  a ? b ** x : c ? d : e;
-
+a ? b ** x : c ? d : e;
 ```
 
 ### Diagnostics

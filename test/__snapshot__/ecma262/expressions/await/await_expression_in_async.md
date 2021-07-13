@@ -21,12 +21,14 @@ async function f(){ async(await x); }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){ async(await x); }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){ async(await x); }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,6 +67,7 @@ async function f(){ async(await x); }
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 25
                                 },
@@ -74,6 +79,7 @@ async function f(){ async(await x); }
                                             "awaitKeyword": {
                                                 "kind": 82196,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 31
                                             },
@@ -82,38 +88,46 @@ async function f(){ async(await x); }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 33
                                             },
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 26,
                                             "end": 33
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 19,
                                 "end": 34
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 19,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 37
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -122,6 +136,7 @@ async function f(){ async(await x); }
     "source": "async function f(){ async(await x); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }
@@ -130,11 +145,9 @@ async function f(){ async(await x); }
 ### Printed
 
 ```javascript
-
-  async function f() {
-    async(await x);
-  }
-
+async function f() {
+  async(await x);
+}
 ```
 
 ### Diagnostics

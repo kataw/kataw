@@ -31,6 +31,7 @@ or (;false;) label: function foo() {}
                     "text": "or",
                     "rawText": "or",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -39,14 +40,17 @@ or (;false;) label: function foo() {}
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -55,10 +59,12 @@ or (;false;) label: function foo() {}
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 11
         },
@@ -69,12 +75,14 @@ or (;false;) label: function foo() {}
                 "text": "label",
                 "rawText": "label",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 18
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
@@ -85,6 +93,7 @@ or (;false;) label: function foo() {}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 28
                 },
@@ -94,6 +103,7 @@ or (;false;) label: function foo() {}
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 32
                 },
@@ -103,6 +113,7 @@ or (;false;) label: function foo() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 33
                 },
@@ -113,19 +124,23 @@ or (;false;) label: function foo() {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 36
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 37
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 37
         }
@@ -134,6 +149,7 @@ or (;false;) label: function foo() {}
     "source": "or (;false;) label: function foo() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

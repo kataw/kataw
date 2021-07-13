@@ -35,6 +35,7 @@ var callCount = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ var callCount = 0;
                             "text": "source",
                             "rawText": "source",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -62,6 +64,7 @@ var callCount = 0;
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 15
                                     },
@@ -70,6 +73,7 @@ var callCount = 0;
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
@@ -78,29 +82,35 @@ var callCount = 0;
                                         "text": 5,
                                         "rawText": "5",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 12,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -110,6 +120,7 @@ var callCount = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 27
             },
@@ -123,21 +134,25 @@ var callCount = 0;
                             "text": "target",
                             "rawText": "target",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 34
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 27,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 35
         },
@@ -147,6 +162,7 @@ var callCount = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 40
             },
@@ -160,6 +176,7 @@ var callCount = 0;
                             "text": "callCount",
                             "rawText": "callCount",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 50
                         },
@@ -169,19 +186,23 @@ var callCount = 0;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 54
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 40,
                         "end": 54
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 55
         },
@@ -199,6 +220,7 @@ var callCount = 0;
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 66
                             },
@@ -210,6 +232,7 @@ var callCount = 0;
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 67
                             },
@@ -230,6 +253,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 70,
                                                         "end": 79
                                                     },
@@ -238,10 +262,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 80,
                                                         "end": 89
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 70,
                                                     "end": 89
                                                 },
@@ -255,6 +281,7 @@ var callCount = 0;
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 90,
                                                                 "end": 99
                                                             },
@@ -263,10 +290,12 @@ var callCount = 0;
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 100,
                                                                 "end": 106
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 90,
                                                             "end": 106
                                                         },
@@ -275,20 +304,24 @@ var callCount = 0;
                                                             "text": 5,
                                                             "rawText": "5",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 107,
                                                             "end": 109
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 90,
                                                     "end": 109
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 70,
                                                 "end": 110
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 70,
                                             "end": 111
                                         },
@@ -303,6 +336,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 111,
                                                         "end": 120
                                                     },
@@ -311,10 +345,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 121,
                                                         "end": 130
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 111,
                                                     "end": 130
                                                 },
@@ -328,6 +364,7 @@ var callCount = 0;
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 131,
                                                                 "end": 140
                                                             },
@@ -336,10 +373,12 @@ var callCount = 0;
                                                                 "text": 0,
                                                                 "rawText": "0",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 141,
                                                                 "end": 142
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 131,
                                                             "end": 143
                                                         },
@@ -348,20 +387,24 @@ var callCount = 0;
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 144,
                                                             "end": 146
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 131,
                                                     "end": 146
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 111,
                                                 "end": 147
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 111,
                                             "end": 148
                                         },
@@ -376,6 +419,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 148,
                                                         "end": 157
                                                     },
@@ -384,10 +428,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 158,
                                                         "end": 167
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 148,
                                                     "end": 167
                                                 },
@@ -401,6 +447,7 @@ var callCount = 0;
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 168,
                                                                 "end": 177
                                                             },
@@ -409,10 +456,12 @@ var callCount = 0;
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 178,
                                                                 "end": 179
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 168,
                                                             "end": 180
                                                         },
@@ -421,20 +470,24 @@ var callCount = 0;
                                                             "text": 2,
                                                             "rawText": "2",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 181,
                                                             "end": 183
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 168,
                                                     "end": 183
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 148,
                                                 "end": 184
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 148,
                                             "end": 185
                                         },
@@ -449,6 +502,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 185,
                                                         "end": 194
                                                     },
@@ -457,10 +511,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 195,
                                                         "end": 204
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 185,
                                                     "end": 204
                                                 },
@@ -474,6 +530,7 @@ var callCount = 0;
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 205,
                                                                 "end": 214
                                                             },
@@ -482,10 +539,12 @@ var callCount = 0;
                                                                 "text": 2,
                                                                 "rawText": "2",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 215,
                                                                 "end": 216
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 205,
                                                             "end": 217
                                                         },
@@ -494,20 +553,24 @@ var callCount = 0;
                                                             "text": 3,
                                                             "rawText": "3",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 218,
                                                             "end": 220
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 205,
                                                     "end": 220
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 185,
                                                 "end": 221
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 185,
                                             "end": 222
                                         },
@@ -522,6 +585,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 222,
                                                         "end": 231
                                                     },
@@ -530,10 +594,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 232,
                                                         "end": 241
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 222,
                                                     "end": 241
                                                 },
@@ -547,6 +613,7 @@ var callCount = 0;
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 242,
                                                                 "end": 251
                                                             },
@@ -555,10 +622,12 @@ var callCount = 0;
                                                                 "text": 3,
                                                                 "rawText": "3",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 252,
                                                                 "end": 253
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 242,
                                                             "end": 254
                                                         },
@@ -567,20 +636,24 @@ var callCount = 0;
                                                             "text": 4,
                                                             "rawText": "4",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 255,
                                                             "end": 257
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 242,
                                                     "end": 257
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 222,
                                                 "end": 258
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 222,
                                             "end": 259
                                         },
@@ -595,6 +668,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 259,
                                                         "end": 268
                                                     },
@@ -603,10 +677,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 269,
                                                         "end": 278
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 259,
                                                     "end": 278
                                                 },
@@ -620,6 +696,7 @@ var callCount = 0;
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 279,
                                                                 "end": 288
                                                             },
@@ -628,10 +705,12 @@ var callCount = 0;
                                                                 "text": 4,
                                                                 "rawText": "4",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 289,
                                                                 "end": 290
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 279,
                                                             "end": 291
                                                         },
@@ -640,20 +719,24 @@ var callCount = 0;
                                                             "text": 5,
                                                             "rawText": "5",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 292,
                                                             "end": 294
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 279,
                                                     "end": 294
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 259,
                                                 "end": 295
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 259,
                                             "end": 296
                                         },
@@ -668,6 +751,7 @@ var callCount = 0;
                                                         "text": "assert",
                                                         "rawText": "assert",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 296,
                                                         "end": 305
                                                     },
@@ -676,10 +760,12 @@ var callCount = 0;
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 306,
                                                         "end": 315
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 296,
                                                     "end": 315
                                                 },
@@ -691,6 +777,7 @@ var callCount = 0;
                                                             "text": "target",
                                                             "rawText": "target",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 316,
                                                             "end": 322
                                                         },
@@ -699,20 +786,24 @@ var callCount = 0;
                                                             "text": "source",
                                                             "rawText": "source",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 323,
                                                             "end": 330
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 316,
                                                     "end": 330
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 296,
                                                 "end": 331
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 296,
                                             "end": 332
                                         },
@@ -725,12 +816,14 @@ var callCount = 0;
                                                     "text": "callCount",
                                                     "rawText": "callCount",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 332,
                                                     "end": 344
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4130,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 344,
                                                     "end": 347
                                                 },
@@ -739,28 +832,34 @@ var callCount = 0;
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 347,
                                                     "end": 349
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 332,
                                                 "end": 349
                                             },
                                             "flags": 16,
+                                            "transformFlags": 4096,
                                             "start": 332,
                                             "end": 350
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 350
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 352
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 58,
                             "end": 352
                         },
@@ -769,10 +868,12 @@ var callCount = 0;
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 353,
                             "end": 358
                         },
                         "flags": 32,
+                        "transformFlags": 2,
                         "start": 58,
                         "end": 358
                     },
@@ -782,6 +883,7 @@ var callCount = 0;
                             {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 359,
                                 "end": 363
                             },
@@ -795,6 +897,7 @@ var callCount = 0;
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 366,
                                             "end": 367
                                         },
@@ -803,6 +906,7 @@ var callCount = 0;
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 368,
                                             "end": 370
                                         },
@@ -811,6 +915,7 @@ var callCount = 0;
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 371,
                                                 "end": 375
                                             },
@@ -821,12 +926,14 @@ var callCount = 0;
                                                     "text": "target",
                                                     "rawText": "target",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 375,
                                                     "end": 381
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 381,
                                                     "end": 383
                                                 },
@@ -835,42 +942,51 @@ var callCount = 0;
                                                     "text": "source",
                                                     "rawText": "source",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 383,
                                                     "end": 390
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 375,
                                                 "end": 390
                                             },
                                             "flags": 1073741856,
+                                            "transformFlags": 0,
                                             "start": 371,
                                             "end": 390
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 366,
                                     "end": 390
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 364,
                                 "end": 391
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 359,
                         "end": 391
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 58,
                     "end": 392
                 },
-                "flags": 32,
-                "start": 55,
+                "flags": 55,
+                "transformFlags": 0,
+                "start": 33,
                 "end": 393
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 55,
             "end": 394
         }
@@ -879,6 +995,7 @@ var callCount = 0;
     "source": "var source = [3, 4, 5];\nvar target;\n\nvar callCount = 0;\n\n(function() {\n  assert.sameValue(arguments.length, 5);\n  assert.sameValue(arguments[0], 1);\n  assert.sameValue(arguments[1], 2);\n  assert.sameValue(arguments[2], 3);\n  assert.sameValue(arguments[3], 4);\n  assert.sameValue(arguments[4], 5);\n  assert.sameValue(target, source);\n  callCount += 1;\n}.apply(null, [1, 2, ...target = source]));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 394
 }
@@ -887,11 +1004,12 @@ var callCount = 0;
 ### Printed
 
 ```javascript
+var source = [3, 4, 5];
+var target;
 
-  var source = [3, 4, 5,];
-  var target;
-  var callCount = 0;
-  (function () {
+var callCount = 0;
+
+(function () {
     assert.sameValue(arguments.length, 5);
     assert.sameValue(arguments[0], 1);
     assert.sameValue(arguments[1], 2);

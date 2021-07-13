@@ -48,17 +48,20 @@
                                                         "text": "__proto__",
                                                         "rawText": "__proto__",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 4,
                                                         "end": 14
                                                     },
                                                     "value": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 20
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 4,
                                                     "end": 20
                                                 },
@@ -69,17 +72,20 @@
                                                         "text": "other",
                                                         "rawText": "other",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 27
                                                     },
                                                     "value": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 33
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 33
                                                 },
@@ -90,33 +96,39 @@
                                                         "text": "__proto__",
                                                         "rawText": "\"__proto__\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 46
                                                     },
                                                     "value": {
                                                         "kind": 138477575,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 52
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 52
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 52
                                         },
                                         "flags": 52,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 54
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 55
                             },
@@ -124,6 +136,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 58
                             },
@@ -132,23 +145,28 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 62
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 62
                         },
                         "flags": 16,
+                        "transformFlags": 4096,
                         "start": 1,
                         "end": 63
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 65
         }
@@ -157,6 +175,7 @@
     "source": "{ ({ __proto__: null, other: null, \"__proto__\": null }) => foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }

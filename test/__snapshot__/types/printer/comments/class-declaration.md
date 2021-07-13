@@ -45,6 +45,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -53,6 +54,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                 "text": "Item",
                 "rawText": "Item",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 16
             },
@@ -68,6 +70,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
@@ -75,16 +78,19 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 16,
                 "end": 19
             },
@@ -105,6 +111,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                 "text": "prop",
                                 "rawText": "prop",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 33
                             },
@@ -120,26 +127,31 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 36
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 26,
                             "end": 36
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 37
                         },
@@ -159,6 +171,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 58
                                 },
@@ -174,6 +187,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                 "text": "param",
                                                 "rawText": "param",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 64,
                                                 "end": 69
                                             },
@@ -189,26 +203,31 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 75,
                                                         "end": 77
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 75,
                                                     "end": 77
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 77
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 4096,
                                             "start": 64,
                                             "end": 77
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2080,
+                                    "transformFlags": 0,
                                     "start": 64,
                                     "end": 78
                                 },
@@ -228,6 +247,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 80,
                                                             "end": 89
                                                         },
@@ -236,16 +256,19 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                             "text": "prop",
                                                             "rawText": "prop",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 95,
                                                             "end": 104
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 80,
                                                         "end": 104
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 104,
                                                         "end": 106
                                                     },
@@ -254,31 +277,38 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                         "text": "param",
                                                         "rawText": "param",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 106,
                                                         "end": 112
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 80,
                                                     "end": 112
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 80,
                                                 "end": 113
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 113
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 117
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 117
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 117
                         },
@@ -298,6 +328,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 117,
                                     "end": 132
                                 },
@@ -307,6 +338,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 134
                                 },
@@ -321,15 +353,18 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 135,
                                             "end": 142
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 135,
                                         "end": 142
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 135,
                                     "end": 142
                                 },
@@ -344,6 +379,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 150,
                                                     "end": 167
                                                 },
@@ -352,6 +388,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 167,
                                                         "end": 172
                                                     },
@@ -360,44 +397,54 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                         "text": "prop",
                                                         "rawText": "prop",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 185,
                                                         "end": 189
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 167,
                                                     "end": 189
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 150,
                                                 "end": 190
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 150,
                                         "end": 190
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 142,
                                     "end": 200
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 132,
                                 "end": 200
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 117,
                             "end": 200
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 200
                 },
                 "flags": 19,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 209
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 209
         },
@@ -408,6 +455,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 209,
                 "end": 217
             },
@@ -416,6 +464,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                 "text": "GenericClass",
                 "rawText": "GenericClass",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 217,
                 "end": 230
             },
@@ -431,6 +480,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 236,
                                 "end": 242
                             },
@@ -438,16 +488,19 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 236,
                             "end": 242
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 236,
                     "end": 242
                 },
                 "flags": 2097152,
+                "transformFlags": 512,
                 "start": 230,
                 "end": 248
             },
@@ -458,14 +511,17 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 255,
                     "end": 255
                 },
                 "flags": 248,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 256
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 209,
             "end": 256
         }
@@ -474,6 +530,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
     "source": "class /*1*/ Item<T>/*2*/ {\n  prop: T; /*3*/\n\n  constructor/*4*/(param/*5*/: T) {\n    this/*6*/./*7*/prop = param;\n  }\n/*8*/\n  method(): /*9*/T/*10*/ {/*11*/\n    return this/*12*//*13*/.prop;/*14*/\n  }\n/*15*/\n}\n\n\nclass GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 257
 }
@@ -482,22 +539,16 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
 ### Printed
 
 ```javascript
-
-  class/*1*/ Item <T> /*2*/{
-    prop: T
-    ; /*3*/
-    constructor /*4*/(param /*5*/: T) {
-      this /*6*/./*7*/prop = param;
-    }
-     /*8*/
-     /*8*/
-    method():/*9*/ T /*10*/ {/*11*/
-      return this /*12*/ /*13*/.prop; /*14*/
-    }
-   /*15*/
+class /*1*/ Item <T> /*2*/{
+  prop: T;; /*3*/
+  constructor /*4*/(param /*5*/: T) {
+    this /*6*/./*7*/ prop = param;
   }
-  class GenericClass /*1*/ </*2*/T> /*3*/ /*4*/{
-  }
+  /*8*/ method():/*9*/  T /*10*/ {
+    return this /*12*/ /*13*/.prop;
+  } /*14*/
+}
+class GenericClass /*1*/ </*2*/ T> /*3*/ /*4*/{}
 
 ```
 

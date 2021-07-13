@@ -27,6 +27,7 @@ do( /**/ /x do while while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,14 +39,17 @@ do( /**/ /x do while while
                         "kind": 371,
                         "text": "/x do while while",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 26
                     },
-                    "flags": 32,
-                    "start": 2,
+                    "flags": 2,
+                    "transformFlags": 0,
+                    "start": 32,
                     "end": 26
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 26
             },
@@ -55,10 +59,12 @@ do( /**/ /x do while while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -67,6 +73,7 @@ do( /**/ /x do while while
     "source": "do( /**/ /x do while while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

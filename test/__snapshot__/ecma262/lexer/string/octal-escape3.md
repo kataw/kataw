@@ -22,10 +22,12 @@
                 "text": "\u0000121",
                 "rawText": "\"\\0121\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 7
         }
@@ -34,6 +36,7 @@
     "source": "\"\\0121\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -42,9 +45,7 @@
 ### Printed
 
 ```javascript
-
-  "\"\0121\"";
-
+"\"\0121\"";
 ```
 
 ### Diagnostics

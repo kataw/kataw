@@ -29,6 +29,7 @@ new async (x, y) => ok
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,6 +38,7 @@ new async (x, y) => ok
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
@@ -48,6 +50,7 @@ new async (x, y) => ok
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -56,20 +59,24 @@ new async (x, y) => ok
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 2048,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         },
@@ -80,10 +87,12 @@ new async (x, y) => ok
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 19,
             "end": 22
         }
@@ -92,6 +101,7 @@ new async (x, y) => ok
     "source": "new async (x, y) => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

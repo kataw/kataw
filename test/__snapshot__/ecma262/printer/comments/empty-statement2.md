@@ -27,6 +27,7 @@ while-statement6# Kataw parser test case
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -35,6 +36,7 @@ while-statement6# Kataw parser test case
     "source": " /*1*/\n\n\n\n ;\n\n\n\n\n /*2*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -44,8 +46,6 @@ while-statement6# Kataw parser test case
 
 ```javascript
 /*1*/
-  ;
-   /*2*/
 
 ```
 

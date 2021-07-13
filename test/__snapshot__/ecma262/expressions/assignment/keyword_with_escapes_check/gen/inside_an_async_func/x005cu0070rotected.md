@@ -29,6 +29,7 @@ async () => {  \u0070rotected = x  }
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async () => {  \u0070rotected = x  }
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async () => {  \u0070rotected = x  }
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -63,12 +66,14 @@ async () => {  \u0070rotected = x  }
                                         "text": "protected",
                                         "rawText": "\\u0070rotected",
                                         "flags": 16480,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 29
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
@@ -77,31 +82,38 @@ async () => {  \u0070rotected = x  }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 13,
                                     "end": 33
                                 },
                                 "flags": 16,
+                                "transformFlags": 4096,
                                 "start": 13,
                                 "end": 33
                             }
                         ],
                         "flags": 16416,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 36
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 36
         }
@@ -110,6 +122,7 @@ async () => {  \u0070rotected = x  }
     "source": "async () => {  \\u0070rotected = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }
@@ -118,11 +131,9 @@ async () => {  \u0070rotected = x  }
 ### Printed
 
 ```javascript
-
-  async () => {
-    \u0070rotected = x;
-  };
-
+async () => {
+  \u0070rotected = x;
+};
 ```
 
 ### Diagnostics

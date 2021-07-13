@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -54,6 +55,7 @@
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 14
                                     },
@@ -61,33 +63,40 @@
                                     "type": null,
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 8,
                                     "end": 14
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 15
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 17
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 19
         }
@@ -96,6 +105,7 @@
     "source": "(class { await; });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }
@@ -104,12 +114,9 @@
 ### Printed
 
 ```javascript
-
-  (class {
-    await
-    ;
+(class {
+    await;;
   });
-
 ```
 
 ### Diagnostics

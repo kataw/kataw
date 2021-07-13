@@ -27,6 +27,7 @@ do let {x} = y while (a);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,10 +38,12 @@ do let {x} = y while (a);
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 6
             },
@@ -57,22 +60,26 @@ do let {x} = y while (a);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 6,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -81,14 +88,17 @@ do let {x} = y while (a);
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 6,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -97,6 +107,7 @@ do let {x} = y while (a);
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
@@ -105,16 +116,19 @@ do let {x} = y while (a);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 14,
             "end": 25
         }
@@ -123,6 +137,7 @@ do let {x} = y while (a);
     "source": "do let {x} = y while (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

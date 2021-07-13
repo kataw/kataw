@@ -23,6 +23,7 @@ const anyTestFailures = !(
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ const anyTestFailures = !(
                             "text": "anyTestFailures",
                             "rawText": "anyTestFailures",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 21
                         },
@@ -45,6 +47,7 @@ const anyTestFailures = !(
                             "operandToken": {
                                 "kind": 65584,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
@@ -61,6 +64,7 @@ const anyTestFailures = !(
                                                 "text": "aggregatedResults",
                                                 "rawText": "aggregatedResults",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 46
                                             },
@@ -69,16 +73,19 @@ const anyTestFailures = !(
                                                 "text": "numFailedTests",
                                                 "rawText": "numFailedTests",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 61
                                             },
                                             "flags": 97,
+                                            "transformFlags": 2,
                                             "start": 25,
                                             "end": 61
                                         },
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
+                                            "transformFlags": 16,
                                             "start": 61,
                                             "end": 65
                                         },
@@ -87,16 +94,19 @@ const anyTestFailures = !(
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 65,
                                             "end": 67
                                         },
                                         "flags": 97,
+                                        "transformFlags": 5120,
                                         "start": 25,
                                         "end": 67
                                     },
                                     "operatorToken": {
                                         "kind": 33594,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 67,
                                         "end": 70
                                     },
@@ -109,6 +119,7 @@ const anyTestFailures = !(
                                                 "text": "aggregatedResults",
                                                 "rawText": "aggregatedResults",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 70,
                                                 "end": 90
                                             },
@@ -117,16 +128,19 @@ const anyTestFailures = !(
                                                 "text": "numRuntimeErrorTestSuites",
                                                 "rawText": "numRuntimeErrorTestSuites",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 116
                                             },
                                             "flags": 97,
+                                            "transformFlags": 2,
                                             "start": 70,
                                             "end": 116
                                         },
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
+                                            "transformFlags": 16,
                                             "start": 116,
                                             "end": 120
                                         },
@@ -135,35 +149,43 @@ const anyTestFailures = !(
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 120,
                                             "end": 122
                                         },
                                         "flags": 97,
+                                        "transformFlags": 5120,
                                         "start": 116,
                                         "end": 122
                                     },
                                     "flags": 97,
+                                    "transformFlags": 5120,
                                     "start": 25,
                                     "end": 122
                                 },
-                                "flags": 32,
-                                "start": 25,
+                                "flags": 25,
+                                "transformFlags": 0,
+                                "start": 32,
                                 "end": 124
                             },
                             "flags": 32,
+                            "transformFlags": 1024,
                             "start": 23,
                             "end": 124
                         },
                         "flags": 16,
+                        "transformFlags": 4224,
                         "start": 5,
                         "end": 124
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 124
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 125
         }
@@ -172,6 +194,7 @@ const anyTestFailures = !(
     "source": "const anyTestFailures = !(\n  aggregatedResults.numFailedTests === 0 &&\n  aggregatedResults.numRuntimeErrorTestSuites === 0\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 125
 }
@@ -180,9 +203,10 @@ const anyTestFailures = !(
 ### Printed
 
 ```javascript
-
-  const anyTestFailures = ! (aggregatedResults.numFailedTests === 0 && aggregatedResults.numRuntimeErrorTestSuites === 0);
-
+const anyTestFailures = !(
+    aggregatedResults.numFailedTests === 0 &&
+    aggregatedResults.numRuntimeErrorTestSuites === 0
+  );
 ```
 
 ### Diagnostics

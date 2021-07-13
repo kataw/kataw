@@ -34,6 +34,7 @@ function relativeComplement() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -43,6 +44,7 @@ function relativeComplement() {
                 "text": "relativeComplement",
                 "rawText": "relativeComplement",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 27
             },
@@ -52,6 +54,7 @@ function relativeComplement() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
@@ -68,12 +71,14 @@ function relativeComplement() {
                                 "text": "outer",
                                 "rawText": "outer",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 39
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 40
                             },
@@ -82,6 +87,7 @@ function relativeComplement() {
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 44
                                 },
@@ -91,6 +97,7 @@ function relativeComplement() {
                                     "operandToken": {
                                         "kind": 196635,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 82
                                     },
@@ -99,10 +106,12 @@ function relativeComplement() {
                                         "text": "offsetB",
                                         "rawText": "offsetB",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 80
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 82
                                 },
@@ -113,12 +122,14 @@ function relativeComplement() {
                                         "text": "offsetB",
                                         "rawText": "offsetB",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 55
                                     },
                                     "operatorToken": {
                                         "kind": 536971330,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 55,
                                         "end": 57
                                     },
@@ -129,6 +140,7 @@ function relativeComplement() {
                                             "text": "arrayB",
                                             "rawText": "arrayB",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 57,
                                             "end": 64
                                         },
@@ -137,14 +149,17 @@ function relativeComplement() {
                                             "text": "length",
                                             "rawText": "length",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 65,
                                             "end": 71
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 57,
                                         "end": 71
                                     },
                                     "flags": 96,
+                                    "transformFlags": 5120,
                                     "start": 47,
                                     "end": 71
                                 },
@@ -160,12 +175,14 @@ function relativeComplement() {
                                                     "text": "inner",
                                                     "rawText": "inner",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 85,
                                                     "end": 95
                                                 },
                                                 "colonToken": {
                                                     "kind": 21,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 95,
                                                     "end": 96
                                                 },
@@ -174,6 +191,7 @@ function relativeComplement() {
                                                     "forKeyword": {
                                                         "kind": 37757017,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 96,
                                                         "end": 100
                                                     },
@@ -183,6 +201,7 @@ function relativeComplement() {
                                                         "operandToken": {
                                                             "kind": 196635,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 136,
                                                             "end": 138
                                                         },
@@ -191,10 +210,12 @@ function relativeComplement() {
                                                             "text": "offsetA",
                                                             "rawText": "offsetA",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 128,
                                                             "end": 136
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 128,
                                                         "end": 138
                                                     },
@@ -205,12 +226,14 @@ function relativeComplement() {
                                                             "text": "offsetA",
                                                             "rawText": "offsetA",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 103,
                                                             "end": 111
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 111,
                                                             "end": 113
                                                         },
@@ -221,6 +244,7 @@ function relativeComplement() {
                                                                 "text": "arrayA",
                                                                 "rawText": "arrayA",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 113,
                                                                 "end": 120
                                                             },
@@ -229,14 +253,17 @@ function relativeComplement() {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 121,
                                                                 "end": 127
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 113,
                                                             "end": 127
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 5120,
                                                         "start": 103,
                                                         "end": 127
                                                     },
@@ -250,6 +277,7 @@ function relativeComplement() {
                                                                     "switchKeyword": {
                                                                         "kind": 37757024,
                                                                         "flags": 81,
+                                                                        "transformFlags": 0,
                                                                         "start": 141,
                                                                         "end": 153
                                                                     },
@@ -260,6 +288,7 @@ function relativeComplement() {
                                                                             "text": "comparer",
                                                                             "rawText": "comparer",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 155,
                                                                             "end": 163
                                                                         },
@@ -273,6 +302,7 @@ function relativeComplement() {
                                                                                         "text": "arrayB",
                                                                                         "rawText": "arrayB",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 164,
                                                                                         "end": 170
                                                                                     },
@@ -281,10 +311,12 @@ function relativeComplement() {
                                                                                         "text": "offsetB",
                                                                                         "rawText": "offsetB",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 171,
                                                                                         "end": 178
                                                                                     },
                                                                                     "flags": 536870944,
+                                                                                    "transformFlags": 4,
                                                                                     "start": 164,
                                                                                     "end": 179
                                                                                 },
@@ -295,6 +327,7 @@ function relativeComplement() {
                                                                                         "text": "arrayA",
                                                                                         "rawText": "arrayA",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 180,
                                                                                         "end": 187
                                                                                     },
@@ -303,20 +336,24 @@ function relativeComplement() {
                                                                                         "text": "offsetA",
                                                                                         "rawText": "offsetA",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 188,
                                                                                         "end": 195
                                                                                     },
                                                                                     "flags": 536870944,
+                                                                                    "transformFlags": 4,
                                                                                     "start": 180,
                                                                                     "end": 196
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 164,
                                                                             "end": 196
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 155,
                                                                         "end": 197
                                                                     },
@@ -328,6 +365,7 @@ function relativeComplement() {
                                                                                 "caseKeyword": {
                                                                                     "kind": 4194382,
                                                                                     "flags": 81,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 200,
                                                                                     "end": 212
                                                                                 },
@@ -336,6 +374,7 @@ function relativeComplement() {
                                                                                     "operandToken": {
                                                                                         "kind": 134318643,
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 212,
                                                                                         "end": 214
                                                                                     },
@@ -344,16 +383,19 @@ function relativeComplement() {
                                                                                         "text": 1,
                                                                                         "rawText": "1",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 214,
                                                                                         "end": 215
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 1024,
                                                                                     "start": 212,
                                                                                     "end": 215
                                                                                 },
                                                                                 "colonToken": {
                                                                                     "kind": 21,
                                                                                     "flags": 64,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 215,
                                                                                     "end": 216
                                                                                 },
@@ -363,6 +405,7 @@ function relativeComplement() {
                                                                                         "breakKeyword": {
                                                                                             "kind": 37757005,
                                                                                             "flags": 80,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 216,
                                                                                             "end": 222
                                                                                         },
@@ -371,15 +414,18 @@ function relativeComplement() {
                                                                                             "text": "inner",
                                                                                             "rawText": "inner",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 222,
                                                                                             "end": 228
                                                                                         },
                                                                                         "flags": 16,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 216,
                                                                                         "end": 229
                                                                                     }
                                                                                 ],
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 200,
                                                                                 "end": 229
                                                                             },
@@ -388,6 +434,7 @@ function relativeComplement() {
                                                                                 "caseKeyword": {
                                                                                     "kind": 4194382,
                                                                                     "flags": 81,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 229,
                                                                                     "end": 241
                                                                                 },
@@ -396,12 +443,14 @@ function relativeComplement() {
                                                                                     "text": 0,
                                                                                     "rawText": "0",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 241,
                                                                                     "end": 243
                                                                                 },
                                                                                 "colonToken": {
                                                                                     "kind": 21,
                                                                                     "flags": 64,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 243,
                                                                                     "end": 244
                                                                                 },
@@ -411,6 +460,7 @@ function relativeComplement() {
                                                                                         "continueKeyword": {
                                                                                             "kind": 37757009,
                                                                                             "flags": 80,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 244,
                                                                                             "end": 253
                                                                                         },
@@ -419,15 +469,18 @@ function relativeComplement() {
                                                                                             "text": "outer",
                                                                                             "rawText": "outer",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 253,
                                                                                             "end": 259
                                                                                         },
                                                                                         "flags": 16,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 244,
                                                                                         "end": 260
                                                                                     }
                                                                                 ],
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 229,
                                                                                 "end": 260
                                                                             },
@@ -436,6 +489,7 @@ function relativeComplement() {
                                                                                 "caseKeyword": {
                                                                                     "kind": 4194382,
                                                                                     "flags": 81,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 260,
                                                                                     "end": 272
                                                                                 },
@@ -444,12 +498,14 @@ function relativeComplement() {
                                                                                     "text": 1,
                                                                                     "rawText": "1",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 272,
                                                                                     "end": 274
                                                                                 },
                                                                                 "colonToken": {
                                                                                     "kind": 21,
                                                                                     "flags": 64,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 274,
                                                                                     "end": 275
                                                                                 },
@@ -459,6 +515,7 @@ function relativeComplement() {
                                                                                         "continueKeyword": {
                                                                                             "kind": 37757009,
                                                                                             "flags": 80,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 275,
                                                                                             "end": 284
                                                                                         },
@@ -467,41 +524,50 @@ function relativeComplement() {
                                                                                             "text": "inner",
                                                                                             "rawText": "inner",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 284,
                                                                                             "end": 290
                                                                                         },
                                                                                         "flags": 16,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 275,
                                                                                         "end": 291
                                                                                     }
                                                                                 ],
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 260,
                                                                                 "end": 291
                                                                             }
                                                                         ],
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 200,
                                                                         "end": 291
                                                                     },
                                                                     "flags": 81,
+                                                                    "transformFlags": 0,
                                                                     "start": 141,
                                                                     "end": 299
                                                                 }
                                                             ],
                                                             "flags": 17,
+                                                            "transformFlags": 0,
                                                             "start": 141,
                                                             "end": 299
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 139,
                                                         "end": 305
                                                     },
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 96,
                                                     "end": 305
                                                 },
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 85,
                                                 "end": 305
                                             },
@@ -516,6 +582,7 @@ function relativeComplement() {
                                                             "text": "result",
                                                             "rawText": "result",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 305,
                                                             "end": 314
                                                         },
@@ -524,10 +591,12 @@ function relativeComplement() {
                                                             "text": "push",
                                                             "rawText": "push",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 315,
                                                             "end": 319
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 305,
                                                         "end": 319
                                                     },
@@ -541,6 +610,7 @@ function relativeComplement() {
                                                                     "text": "arrayB",
                                                                     "rawText": "arrayB",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 320,
                                                                     "end": 326
                                                                 },
@@ -549,41 +619,50 @@ function relativeComplement() {
                                                                     "text": "offsetB",
                                                                     "rawText": "offsetB",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 327,
                                                                     "end": 334
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 4,
                                                                 "start": 320,
                                                                 "end": 335
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 320,
                                                         "end": 335
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 305,
                                                     "end": 336
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 305,
                                                 "end": 337
                                             }
                                         ],
                                         "flags": 17,
+                                        "transformFlags": 0,
                                         "start": 85,
                                         "end": 337
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 83,
                                     "end": 340
                                 },
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 340
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 340
                         },
@@ -592,6 +671,7 @@ function relativeComplement() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 340,
                                 "end": 348
                             },
@@ -600,24 +680,29 @@ function relativeComplement() {
                                 "text": "result",
                                 "rawText": "result",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 348,
                                 "end": 355
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 340,
                             "end": 356
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 356
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 358
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 358
         }
@@ -626,6 +711,7 @@ function relativeComplement() {
     "source": "function relativeComplement() {\n  outer: for (; offsetB < arrayB.length; offsetB++) {\n    inner: for (; offsetA < arrayA.length; offsetA++) {\n     switch (comparer(arrayB[offsetB], arrayA[offsetA])) {\n       case -1: break inner;\n       case 0: continue outer;\n       case 1: continue inner;\n      }\n    }\n  result.push(arrayB[offsetB]);\n }\n return result;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 358
 }
@@ -634,24 +720,22 @@ function relativeComplement() {
 ### Printed
 
 ```javascript
-
-  function relativeComplement() {
-    outer: for (; offsetB++; offsetB  < arrayB.length) {
-      inner: for (; offsetA++; offsetA  < arrayA.length) {
-        switch (comparer(arrayB[offsetB], arrayA[offsetA])) {
-          case - 1: 
-            break inner;
-          case 0: 
-            continue outer;
-          case 1: 
-            continue inner;
+function relativeComplement() {
+  outer:  for (; offsetB++; offsetB  < arrayB.length) {
+      inner:  for (; offsetA++; offsetA  < arrayA.length) {
+          switch (comparer(arrayB[offsetB], arrayA[offsetA])) {
+            case -1:
+              break inner;
+            case 0:
+              continue outer;
+            case 1:
+              continue inner;
+          }
         }
-      }
       result.push(arrayB[offsetB]);
     }
-    return result;
-  }
-
+  return result;
+}
 ```
 
 ### Diagnostics

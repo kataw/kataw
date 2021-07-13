@@ -29,6 +29,7 @@ class C { constructor() { new super; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { constructor() { new super; } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class C { constructor() { new super; } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -72,6 +75,7 @@ class C { constructor() { new super; } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -89,6 +93,7 @@ class C { constructor() { new super; } }
                                                     "newKeyword": {
                                                         "kind": 138477661,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 29
                                                     },
@@ -97,6 +102,7 @@ class C { constructor() { new super; } }
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 35
                                                         },
@@ -105,49 +111,60 @@ class C { constructor() { new super; } }
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 35,
                                                             "end": 35
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 2,
                                                         "start": 29,
                                                         "end": 35
                                                     },
                                                     "argumentList": null,
                                                     "flags": 96,
+                                                    "transformFlags": 2048,
                                                     "start": 25,
                                                     "end": 35
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 4096,
                                                 "start": 25,
                                                 "end": 36
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 38
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 38
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 38
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -156,6 +173,7 @@ class C { constructor() { new super; } }
     "source": "class C { constructor() { new super; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

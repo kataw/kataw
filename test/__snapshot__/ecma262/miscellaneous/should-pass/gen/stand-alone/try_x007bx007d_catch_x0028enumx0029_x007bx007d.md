@@ -27,6 +27,7 @@ try {} catch (enum) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,10 +37,12 @@ try {} catch (enum) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -48,6 +51,7 @@ try {} catch (enum) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -56,6 +60,7 @@ try {} catch (enum) {}
                     "text": "enum",
                     "rawText": "enum",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
@@ -65,20 +70,24 @@ try {} catch (enum) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 21
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 22
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -87,6 +96,7 @@ try {} catch (enum) {}
     "source": "try {} catch (enum) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }
@@ -95,10 +105,7 @@ try {} catch (enum) {}
 ### Printed
 
 ```javascript
-
-  try { }
-  catch (enum){ }
-
+try {} catch (enum) {}
 ```
 
 ### Diagnostics

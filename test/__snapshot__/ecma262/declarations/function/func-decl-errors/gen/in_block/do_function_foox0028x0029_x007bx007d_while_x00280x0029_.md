@@ -32,6 +32,7 @@
                         "doKeyword": {
                             "kind": 4202580,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 3
                         },
@@ -42,6 +43,7 @@
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 12
                             },
@@ -51,6 +53,7 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 16
                             },
@@ -60,6 +63,7 @@
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
@@ -70,21 +74,25 @@
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 21
                         },
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 64,
+                            "flags": 80,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 27
                         },
@@ -93,19 +101,23 @@
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 30
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -114,6 +126,7 @@
     "source": "{do function foo() {} while (0);}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

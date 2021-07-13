@@ -31,6 +31,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -50,16 +51,19 @@ foo({ __proto__: null, other: null, "__proto__": null });
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 15
                                         },
                                         "right": {
                                             "kind": 138477575,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 21
                                         },
                                         "flags": 36,
+                                        "transformFlags": 128,
                                         "start": 5,
                                         "end": 21
                                     },
@@ -71,16 +75,19 @@ foo({ __proto__: null, other: null, "__proto__": null });
                                             "text": "other",
                                             "rawText": "other",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
                                         "right": {
                                             "kind": 138477575,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 22,
                                         "end": 34
                                     },
@@ -92,40 +99,48 @@ foo({ __proto__: null, other: null, "__proto__": null });
                                             "text": "__proto__",
                                             "rawText": "\"__proto__\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 47
                                         },
                                         "right": {
                                             "kind": 138477575,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 53
                                         },
                                         "flags": 36,
+                                        "transformFlags": 128,
                                         "start": 35,
                                         "end": 53
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 20,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 53
                             },
                             "flags": 52,
+                            "transformFlags": 8,
                             "start": 4,
                             "end": 55
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 55
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 57
         }
@@ -134,6 +149,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
     "source": "foo({ __proto__: null, other: null, \"__proto__\": null });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

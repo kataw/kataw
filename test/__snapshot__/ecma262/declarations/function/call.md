@@ -38,6 +38,7 @@ function g(x: () => any) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -47,6 +48,7 @@ function g(x: () => any) {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -62,6 +64,7 @@ function g(x: () => any) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -73,21 +76,25 @@ function g(x: () => any) {
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -106,6 +113,7 @@ function g(x: () => any) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
                                 },
@@ -114,14 +122,17 @@ function g(x: () => any) {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 25
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 20,
                                 "end": 26
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 20,
                             "end": 27
                         },
@@ -130,6 +141,7 @@ function g(x: () => any) {
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -143,6 +155,7 @@ function g(x: () => any) {
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 37
                                         },
@@ -154,6 +167,7 @@ function g(x: () => any) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 41
                                             },
@@ -162,37 +176,45 @@ function g(x: () => any) {
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 42
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 39,
                                             "end": 43
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 35,
                                         "end": 43
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 43
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 44
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 46
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         },
@@ -203,6 +225,7 @@ function g(x: () => any) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 56
             },
@@ -212,6 +235,7 @@ function g(x: () => any) {
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 58
             },
@@ -227,6 +251,7 @@ function g(x: () => any) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 60
                         },
@@ -243,12 +268,14 @@ function g(x: () => any) {
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 63
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 64,
                                     "end": 67
                                 },
@@ -259,29 +286,35 @@ function g(x: () => any) {
                                     "type": {
                                         "kind": 134234252,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 67,
                                         "end": 71
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 67,
                                     "end": 71
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 71
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 61,
                             "end": 71
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 4096,
                         "start": 59,
                         "end": 71
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 71
             },
@@ -300,6 +333,7 @@ function g(x: () => any) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 74,
                                     "end": 78
                                 },
@@ -308,14 +342,17 @@ function g(x: () => any) {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 79
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 74,
                                 "end": 80
                             },
                             "flags": 16,
+                            "transformFlags": 4096,
                             "start": 74,
                             "end": 81
                         },
@@ -324,6 +361,7 @@ function g(x: () => any) {
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 81,
                                 "end": 89
                             },
@@ -337,6 +375,7 @@ function g(x: () => any) {
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 91
                                         },
@@ -348,6 +387,7 @@ function g(x: () => any) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 93,
                                                 "end": 95
                                             },
@@ -356,37 +396,45 @@ function g(x: () => any) {
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 96,
                                                 "end": 96
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 93,
                                             "end": 97
                                         },
                                         "flags": 16,
+                                        "transformFlags": 4224,
                                         "start": 89,
                                         "end": 97
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 89,
                                 "end": 97
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 81,
                             "end": 98
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 74,
                     "end": 98
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 100
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 100
         }
@@ -395,6 +443,7 @@ function g(x: () => any) {
     "source": "function f(x: any) {\n  x();\n  const y = x();\n}\n\nfunction g(x: () => any) {\n  x();\n  const y = x();\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 100
 }
@@ -403,15 +452,14 @@ function g(x: () => any) {
 ### Printed
 
 ```javascript
-
-  function f(x: any) {
-    x();
-    const y = x();
-  }
-  function g(x: () => any) {
-    x();
-    const y = x();
-  }
+function f(x: any) {
+  x();
+  const y = x();
+}
+function g(x: () => any) {
+  x();
+  const y = x();
+}
 
 ```
 

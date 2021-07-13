@@ -29,6 +29,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,11 +72,13 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 13
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     },
@@ -89,11 +94,13 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 19
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 19
                                                 },
@@ -120,29 +127,34 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                                                                     "text": "x",
                                                                                     "rawText": "x",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 24,
                                                                                     "end": 25
                                                                                 },
                                                                                 "typeParameters": null,
                                                                                 "flags": 2097152,
+                                                                                "transformFlags": 0,
                                                                                 "start": 23,
                                                                                 "end": 25
                                                                             },
                                                                             "optionalToken": null,
                                                                             "types": null,
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 23,
                                                                             "end": 25
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 23,
                                                                     "end": 25
                                                                 },
                                                                 "arrowToken": {
                                                                     "kind": 10,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 25,
                                                                     "end": 28
                                                                 },
@@ -157,63 +169,77 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                                                             "text": "T",
                                                                             "rawText": "T",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 28,
                                                                             "end": 30
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 28,
                                                                         "end": 30
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 28,
                                                                     "end": 30
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 23,
                                                                 "end": 30
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 23,
                                                             "end": 30
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 30
                                                 }
                                             ],
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 30
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 31
                                     }
                                 ],
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 31
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 31
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 31
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 31
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 31
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         },
@@ -224,10 +250,12 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 36,
             "end": 38
         },
@@ -238,10 +266,12 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 42,
             "end": 44
         },
@@ -252,10 +282,12 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 48,
             "end": 50
         },
@@ -266,10 +298,12 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 54,
             "end": 56
         },
@@ -280,10 +314,12 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 60,
             "end": 63
         }
@@ -292,6 +328,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
     "source": "type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }

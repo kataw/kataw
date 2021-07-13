@@ -33,12 +33,14 @@
                         "text": "implements",
                         "rawText": "implements",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -47,18 +49,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 15
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 34,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 16
         }
@@ -67,6 +73,7 @@
     "source": "(implements = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -75,9 +82,7 @@
 ### Printed
 
 ```javascript
-
-  (implements = x);
-
+(implements = x);
 ```
 
 ### Diagnostics

@@ -30,6 +30,7 @@ class Yo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Yo {
                 "text": "Yo",
                 "rawText": "Yo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
@@ -59,6 +61,7 @@ class Yo {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 14
                                         },
@@ -69,6 +72,7 @@ class Yo {
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 17
                                             },
@@ -80,25 +84,30 @@ class Yo {
                                                         "text": "hello",
                                                         "rawText": "\"hello\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 25
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 25
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 14,
                                             "end": 26
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 26
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 26
                             },
@@ -106,6 +115,7 @@ class Yo {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 34
                             },
@@ -119,6 +129,7 @@ class Yo {
                                     "text": "plop",
                                     "rawText": "plop",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 39
                                 },
@@ -128,6 +139,7 @@ class Yo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 41
                                 },
@@ -139,18 +151,22 @@ class Yo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 43
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 44
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 44
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 44
                         },
@@ -165,6 +181,7 @@ class Yo {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 49
                                         },
@@ -175,6 +192,7 @@ class Yo {
                                                 "text": "anotherDecoratorWithALongName",
                                                 "rawText": "anotherDecoratorWithALongName",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 78
                                             },
@@ -186,25 +204,30 @@ class Yo {
                                                         "text": "and a very long string as a first argument",
                                                         "rawText": "\"and a very long string as a first argument\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 79,
                                                         "end": 123
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 123
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 49,
                                             "end": 124
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 124
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 124
                             },
@@ -212,6 +235,7 @@ class Yo {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 132
                             },
@@ -225,6 +249,7 @@ class Yo {
                                     "text": "plip",
                                     "rawText": "plip",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 137
                                 },
@@ -234,6 +259,7 @@ class Yo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 138,
                                     "end": 139
                                 },
@@ -245,18 +271,22 @@ class Yo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 141,
                                         "end": 141
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 139,
                                     "end": 142
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 137,
                                 "end": 142
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 142
                         },
@@ -271,6 +301,7 @@ class Yo {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 142,
                                             "end": 147
                                         },
@@ -281,6 +312,7 @@ class Yo {
                                                 "text": "anotherDecoratorWithALongName",
                                                 "rawText": "anotherDecoratorWithALongName",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 147,
                                                 "end": 176
                                             },
@@ -292,25 +324,30 @@ class Yo {
                                                         "text": "another very long string, but now inline",
                                                         "rawText": "\"another very long string, but now inline\"",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 177,
                                                         "end": 219
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 177,
                                                 "end": 219
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 147,
                                             "end": 220
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 147,
                                         "end": 220
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 142,
                                 "end": 220
                             },
@@ -318,6 +355,7 @@ class Yo {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 142,
                                 "end": 226
                             },
@@ -331,6 +369,7 @@ class Yo {
                                     "text": "plip",
                                     "rawText": "plip",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 226,
                                     "end": 231
                                 },
@@ -340,6 +379,7 @@ class Yo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 232,
                                     "end": 233
                                 },
@@ -351,31 +391,38 @@ class Yo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 235,
                                         "end": 235
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 233,
                                     "end": 236
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 231,
                                 "end": 236
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 142,
                             "end": 236
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 236
                 },
                 "flags": 8,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 238
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 238
         }
@@ -384,6 +431,7 @@ class Yo {
     "source": "class Yo {\n  @foo(\"hello\")\n  async plop() {}\n\n  @anotherDecoratorWithALongName(\"and a very long string as a first argument\")\n  async plip() {}\n\n  @anotherDecoratorWithALongName(\"another very long string, but now inline\") async plip() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 238
 }
@@ -392,16 +440,15 @@ class Yo {
 ### Printed
 
 ```javascript
-
-  class Yo {
-    @foo("\"hello\"")
-    async plop() {}
-    @anotherDecoratorWithALongName("\"and a very long string as a first argument\"")
-    async plip() {}
-    @anotherDecoratorWithALongName("\"another very long string, but now inline\"")
-    async plip() {}
-  }
-
+class Yo {
+  @foo("\"hello\"") async plop() {}
+  @anotherDecoratorWithALongName(
+    "\"and a very long string as a first argument\""
+  ) async plip() {}
+  @anotherDecoratorWithALongName(
+    "\"another very long string, but now inline\""
+  ) async plip() {}
+}
 ```
 
 ### Diagnostics

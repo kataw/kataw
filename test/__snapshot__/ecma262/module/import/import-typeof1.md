@@ -27,6 +27,7 @@ import typeof { foo25, bar1 } from "baz";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -34,6 +35,7 @@ import typeof { foo25, bar1 } from "baz";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -42,6 +44,7 @@ import typeof { foo25, bar1 } from "baz";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 34
                 },
@@ -50,10 +53,12 @@ import typeof { foo25, bar1 } from "baz";
                     "text": "baz",
                     "rawText": "\"baz\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 40
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 40
             },
@@ -78,10 +83,12 @@ import typeof { foo25, bar1 } from "baz";
                                     "text": "foo25",
                                     "rawText": "foo25",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -96,27 +103,33 @@ import typeof { foo25, bar1 } from "baz";
                                     "text": "bar1",
                                     "rawText": "bar1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 27
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 27
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 29
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -125,6 +138,7 @@ import typeof { foo25, bar1 } from "baz";
     "source": "import typeof { foo25, bar1 } from \"baz\";\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }
@@ -133,9 +147,7 @@ import typeof { foo25, bar1 } from "baz";
 ### Printed
 
 ```javascript
-
-  import typeof {  foo25,  bar1, } from "\"baz\"";
-
+import typeof {  foo25,  bar1 } from "\"baz\"";
 ```
 
 ### Diagnostics

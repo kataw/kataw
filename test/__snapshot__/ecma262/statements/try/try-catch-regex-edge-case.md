@@ -20,6 +20,7 @@ try/catch/finally/{
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try/catch/finally/{
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
@@ -44,14 +47,17 @@ try/catch/finally/{
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -63,12 +69,14 @@ try/catch/finally/{
                     "kind": 371,
                     "text": "/catch/finally",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 17,
                     "end": 18
                 },
@@ -79,18 +87,22 @@ try/catch/finally/{
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 18,
                     "end": 19
                 },
                 "flags": 96,
+                "transformFlags": 5120,
                 "start": 3,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 3,
             "end": 19
         }
@@ -99,6 +111,7 @@ try/catch/finally/{
     "source": "try/catch/finally/{",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

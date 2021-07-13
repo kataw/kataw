@@ -27,12 +27,14 @@ state = {
                     "text": "state",
                     "rawText": "state",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -49,6 +51,7 @@ state = {
                                     "text": "hoverColumn",
                                     "rawText": "hoverColumn",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 37
                                 },
@@ -57,6 +60,7 @@ state = {
                                     "operandToken": {
                                         "kind": 134318643,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 40
                                     },
@@ -65,32 +69,39 @@ state = {
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 1024,
                                     "start": 38,
                                     "end": 41
                                 },
                                 "flags": 33,
+                                "transformFlags": 128,
                                 "start": 9,
                                 "end": 41
                             }
                         ],
                         "trailingComma": false,
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 41
                     },
                     "flags": 49,
+                    "transformFlags": 8,
                     "start": 7,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 44
         }
@@ -99,6 +110,7 @@ state = {
     "source": "state = {\n  // students\n  hoverColumn: -1\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -107,12 +119,10 @@ state = {
 ### Printed
 
 ```javascript
-
-  state = {
-     // students
-    hoverColumn: - 1
-  };
-
+state = {
+  // students
+  hoverColumn: -1
+};
 ```
 
 ### Diagnostics

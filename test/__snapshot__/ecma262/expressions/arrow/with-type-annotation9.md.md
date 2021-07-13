@@ -31,14 +31,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 5
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "transformFlags": 0,
+                "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 5
         },
@@ -49,10 +52,12 @@
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 5,
             "end": 6
         },
@@ -63,10 +68,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 8,
             "end": 15
         },
@@ -77,10 +84,12 @@
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 18,
             "end": 20
         }
@@ -89,6 +98,7 @@
     "source": "(...[0]: string)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

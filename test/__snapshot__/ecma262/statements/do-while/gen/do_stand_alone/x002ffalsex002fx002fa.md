@@ -27,6 +27,7 @@ do /false//a
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,12 +39,14 @@ do /false//a
                         "kind": 371,
                         "text": "/false/",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 10,
                         "end": 11
                     },
@@ -52,14 +55,17 @@ do /false//a
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 96,
+                    "transformFlags": 5120,
                     "start": 2,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 4096,
                 "start": 2,
                 "end": 12
             },
@@ -69,10 +75,12 @@ do /false//a
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -81,6 +89,7 @@ do /false//a
     "source": "do /false//a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

@@ -30,6 +30,7 @@ example.inner?.<string>()
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -40,6 +41,7 @@ example.inner?.<string>()
                         "text": "example",
                         "rawText": "example",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 7
                     },
@@ -48,10 +50,12 @@ example.inner?.<string>()
                         "text": "inner",
                         "rawText": "inner",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 13
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 13
                 },
@@ -72,20 +76,24 @@ example.inner?.<string>()
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 22
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
                             "flags": 2097152,
+                            "transformFlags": 512,
                             "start": 15,
                             "end": 23
                         },
@@ -94,22 +102,27 @@ example.inner?.<string>()
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 24
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 15,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 25
         }
@@ -118,6 +131,7 @@ example.inner?.<string>()
     "source": "example.inner?.<string>()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -126,9 +140,7 @@ example.inner?.<string>()
 ### Printed
 
 ```javascript
-
-  example.inner?.<string>();
-
+example.inner?.<string>();
 ```
 
 ### Diagnostics

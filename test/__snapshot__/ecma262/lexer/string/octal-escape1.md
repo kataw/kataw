@@ -22,10 +22,12 @@
                 "text": "\u0000",
                 "rawText": "\"\\0\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 4096,
             "start": 0,
             "end": 4
         }
@@ -34,6 +36,7 @@
     "source": "\"\\0\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }
@@ -42,9 +45,7 @@
 ### Printed
 
 ```javascript
-
-  "\"\0\"";
-
+"\"\0\"";
 ```
 
 ### Diagnostics
