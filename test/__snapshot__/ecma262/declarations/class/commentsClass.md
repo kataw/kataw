@@ -1866,7 +1866,7 @@ var i2 = new c2();
 var i2_c = c2;
 
 class c3 {
-  /** Constructor comment*/constructor() {} // trailing comment of constructor
+  /** Constructor comment*/ constructor() {} // trailing comment of constructor
 
 } /* trailing comment 2 */
 
@@ -1876,7 +1876,7 @@ var i3_c = c3;
 
 /** Class comment*/
 class c4 {
-  /** Constructor comment*/constructor() {} /* trailing comment of constructor 2*/
+  /** Constructor comment*/ constructor() {} /* trailing comment of constructor 2*/
 }
 
 var i4 = new c4();
@@ -1921,10 +1921,10 @@ var i7_c = c7;
 /** class with statics and constructor
  */
 class c8 {
-  /** s1 comment */static s1: number;; /** s1 comment2 */
+  /** s1 comment */ static s1: number;; /** s1 comment2 */
   /** constructor comment
-    */constructor() {/** constructor comment2
-        */}
+    */ constructor() {/** constructor comment2
+        */ }
 }
 
 var i8 = new c8();

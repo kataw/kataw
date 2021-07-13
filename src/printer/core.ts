@@ -293,32 +293,34 @@ export function printComments(
 	trailingSeparator: boolean,
 ): any {
 	if (comments && comments.length > 0) {
-		let pussy: any = [];
+		let parts: any = [];
 		if (leadingSeparator) {
-			pussy.push(' ');
+			parts.push(' ');
 		}
 		let emitInterveningSeparator = false;
+
 		for (const comment of comments) {
 			if (emitInterveningSeparator) {
-				pussy.push(' ');
+				parts.push(' ');
 				emitInterveningSeparator = false;
 			}
-			pussy.push(printer, printer.source.substring(comment.pos, comment.end));
+			parts.push(printer, printer.source.substring(comment.pos, comment.end));
+
 			if (comment.kind === SyntaxKind.MultiLineComment) {
 				if (comment.hasTrailingNewLine) {
-					pussy.push(softline);
+					parts.push(concat([line]));
 				} else {
 					emitInterveningSeparator = true;
 				}
 			} else {
-				pussy.push(hardline);
+				parts.push(hardline);
 			}
 		}
 
 		if (emitInterveningSeparator && trailingSeparator) {
-			pussy.push(' ');
+			parts.push(' ');
 		}
-		return concat(pussy);
+		return concat(parts);
 	}
 	return '';
 }

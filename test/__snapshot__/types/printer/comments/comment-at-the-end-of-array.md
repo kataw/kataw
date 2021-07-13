@@ -1219,17 +1219,17 @@ const yiyv = [/* comment */ 1 /* comment */];
 const yig = [// comment start
     1, 2,];
 
-const yius = [/* element 1 */1,];
+const yius = [/* element 1 */ 1,];
 
-const yuh = [/* element 1 */1,];
+const yuh = [/* element 1 */ 1,];
 
 const hsy = [1,];
 
 const aiya = [// comment start
     1, 2,];
 
-const hj = [/* element 1 */1,];
-const ig = [/* element 1 */1,];const yj = [/* element 1 */1,];const ka = [
+const hj = [/* element 1 */ 1,];
+const ig = [/* element 1 */ 1,];const yj = [/* element 1 */ 1,];const ka = [
     /* element 1 */
     1,,
   ];

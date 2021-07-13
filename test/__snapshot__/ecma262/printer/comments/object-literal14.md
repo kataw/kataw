@@ -132,7 +132,7 @@
 ### Printed
 
 ```javascript
-({ async /*1*/ */*2*/ /*3*/x(/*4*/ ) {} });
+({ async /*1*/ */*2*/ /*3*/ x(/*4*/ ) {} });
 ```
 
 ### Diagnostics

@@ -101,9 +101,9 @@ a(
 
 ```javascript
 a(/*1*/ );
-a(/*first*/// foo
-/*middle*/// bar
-/*last*/);
+a(/*first*/ // foo
+/*middle*/ // bar
+/*last*/ );
 
 ```
 

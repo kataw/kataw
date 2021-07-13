@@ -161,7 +161,7 @@ class WebControls {
 class WebControls {
   /**
      * Render a control
-     */createControl(): any {}
+     */ createControl(): any {}
 }
 ```
 

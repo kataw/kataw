@@ -79,7 +79,7 @@ y) //c
 ### Printed
 
 ```javascript
-for (x /*a*/in //b
+for (x /*a*/ in //b
 y)//c
 ;
 ```

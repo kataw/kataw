@@ -123,7 +123,7 @@ var Person = makeClass(
 // @removeComments: false
 var Person = makeClass(/**
      @scope Person
-   */{});
+   */ {});
 ```
 
 ### Diagnostics

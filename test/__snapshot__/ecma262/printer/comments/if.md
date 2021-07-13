@@ -983,12 +983,12 @@ else /* comment */  {
   }
 
 if (14)// comment
- /* comment */// comment
+ /* comment */ // comment
   {
     true;
   }
 else  if (15)// comment
- /* comment *//* comment */ // comment
+ /* comment */ /* comment */ // comment
   true;
 
 ```

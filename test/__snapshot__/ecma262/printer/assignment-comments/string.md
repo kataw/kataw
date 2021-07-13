@@ -1956,11 +1956,11 @@ fnString = // Comment
 fnString = // Comment
 "'some'" + "'long'" + "'string'";
 
-fnString = /* comment */"'some'" + "'long'" + "'string'";
+fnString = /* comment */ "'some'" + "'long'" + "'string'";
 
 fnString = /**
    * multi-line
-   */"'some'" + "'long'" + "'string'";
+   */ "'some'" + "'long'" + "'string'";
 
 fnString = /* inline */
   "'some'" +
@@ -1993,11 +1993,11 @@ var fnString = // Comment
 var fnString = // Comment
 "'some'" + "'long'" + "'string'";
 
-var fnString = /* comment */"'some'" + "'long'" + "'string'";
+var fnString = /* comment */ "'some'" + "'long'" + "'string'";
 
 var fnString = /**
    * multi-line
-   */"'some'" + "'long'" + "'string'";
+   */ "'some'" + "'long'" + "'string'";
 
 var fnString = /* inline */
   "'some'" +

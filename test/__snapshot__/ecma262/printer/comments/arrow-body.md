@@ -158,10 +158,10 @@ const test = () => {
 ```javascript
 const test = () => /**
      * Multiline comment
-     **/{
+     **/ {
     /**
      * Multiline comment
-     **/return bar();
+     **/ return bar();
   };
 ```
 
