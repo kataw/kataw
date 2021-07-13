@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 
 /**
  * Dummy identifier
@@ -14,6 +14,7 @@ export function createDummyIdentifier(start: number, end: number): DummyIdentifi
     text: '',
     rawText: '',
     flags: NodeFlags.NoChildren,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

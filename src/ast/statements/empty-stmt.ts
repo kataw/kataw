@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 
 /**
  * Empty statement.
@@ -9,6 +9,7 @@ export function createEmptyStatement(start: number, end: number): EmptyStatement
   return {
     kind: SyntaxKind.EmptyStatement,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

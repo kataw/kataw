@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { TypeInstantiations } from './type-instantiations';
 
 export interface TypeParameterInstantiation extends SyntaxNode {
@@ -15,6 +15,7 @@ export function createTypeParameterInstantiation(
     kind: SyntaxKind.TypeParameterInstantiation,
     typeInstantiations,
     flags,
+    transformFlags: TransformFlags.TypeParameter,
     start,
     end
   };

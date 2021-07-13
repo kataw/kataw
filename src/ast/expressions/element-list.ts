@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SpreadElement } from './spread-element';
 import { Elison } from './elison';
 import { ExpressionNode } from '.';
@@ -26,6 +26,7 @@ export function createElementList(
     elements,
     trailingComma,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

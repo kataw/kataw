@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StatementNode } from '.';
 import { ExpressionNode } from '../expressions';
@@ -29,6 +29,7 @@ export function createDoWhileStatement(
     whileKeyword,
     expression,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

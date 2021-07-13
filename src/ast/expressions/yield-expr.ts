@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
 
@@ -27,6 +27,7 @@ export function createYieldExpression(
     asteriskToken,
     expression,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.ArrowFolding,
     start,
     end
   };

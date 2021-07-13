@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from './identifier-expr';
 import { ExpressionNode } from './';
@@ -42,6 +42,7 @@ export function createFieldDefinition(
     type,
     initializer,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.ShouldIndentIfInlining,
     start,
     end
   };

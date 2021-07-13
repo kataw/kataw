@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { CaseBlock } from './case-block';
 import { ExpressionNode } from '../expressions/index';
@@ -26,6 +26,7 @@ export function createSwitchStatement(
     expression,
     caseBlock,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

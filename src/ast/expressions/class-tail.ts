@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ClassElement } from '../expressions/class-element';
 import { StaticBlock } from '../expressions/static-block';
@@ -7,7 +7,7 @@ import { ClassBody } from './class-body';
 import { ObjectType } from '../types/object-type';
 import { ExpressionNode } from '.';
 
-export type ClassElements = SyntaxToken<TokenSyntaxKind>  | ClassElement | FieldDefinition | StaticBlock;
+export type ClassElements = SyntaxToken<TokenSyntaxKind> | ClassElement | FieldDefinition | StaticBlock;
 
 /**
  * ClassTail
@@ -30,6 +30,7 @@ export function createClassTail(
     classHeritage,
     body,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

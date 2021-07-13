@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { ExpressionNode } from '.';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 
@@ -18,6 +18,7 @@ export function createUnaryExpression(
     operandToken,
     operand,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.CanBreak,
     start,
     end
   };

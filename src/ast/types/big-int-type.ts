@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 
 export interface BigIntType extends SyntaxNode {
   readonly text: number;
@@ -11,6 +11,7 @@ export function createBigIntType(text: number, rawText: string, start: number, e
     text,
     rawText,
     flags: NodeFlags.IsTypeNode | NodeFlags.NoChildren,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

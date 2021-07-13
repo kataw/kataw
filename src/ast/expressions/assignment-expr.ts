@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
 
@@ -12,6 +12,7 @@ export function createAssignmentExpression(
   left: ExpressionNode,
   operatorToken: SyntaxToken<TokenSyntaxKind>,
   right: ExpressionNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): AssignmentExpression {
@@ -20,7 +21,8 @@ export function createAssignmentExpression(
     left,
     operatorToken,
     right,
-    flags: NodeFlags.ExpressionNode,
+    flags,
+    transformFlags: TransformFlags.ShouldIndentIfInlining,
     start,
     end
   };

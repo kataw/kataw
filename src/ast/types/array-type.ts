@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { TypeNode } from '.';
 
 /**
@@ -14,6 +14,7 @@ export function createArrayType(type: TypeNode, start: number, end: number): Arr
     kind: SyntaxKind.ArrayType,
     type,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

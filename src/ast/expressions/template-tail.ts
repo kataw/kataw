@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 
 /**
  * Template tail
@@ -20,6 +20,7 @@ export function createTemplateTail(
     text,
     rawText,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

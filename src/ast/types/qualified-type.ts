@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { Identifier } from '../expressions/identifier-expr';
 import { DummyIdentifier } from '../internal/dummy-identifier';
 
@@ -18,6 +18,7 @@ export function createQualifiedType(
     qualification,
     name,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

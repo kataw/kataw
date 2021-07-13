@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from './';
 
@@ -25,6 +25,7 @@ export function createBinaryExpression(
     operatorToken,
     right,
     flags,
+    transformFlags: TransformFlags.CanBreak | TransformFlags.ArrowFolding,
     start,
     end
   };

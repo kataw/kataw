@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeNode } from './';
@@ -29,6 +29,7 @@ export function createObjectTypeCallProperty(
     value,
     returnType,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

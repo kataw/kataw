@@ -6,7 +6,7 @@ export function lastOrUndefined<T>(array: readonly T[]): any {
   return array.length === 0 ? undefined : array[array.length - 1];
 }
 
-export function extractComments(text: string, pos: number, trailing: boolean): any[] {
+export function extractComments(text: string, pos: number, trailing: boolean, consumedCommentRanges?: any): any[] {
   let result: any;
   let collecting = trailing || pos === 0;
 
@@ -57,12 +57,15 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
               pos++;
             }
           }
-          if (collecting) {
+          if (collecting && (!consumedCommentRanges || !(startPos in consumedCommentRanges))) {
             if (!result) {
               result = [];
             }
 
             result.push({ pos: startPos, end: pos, hasTrailingNewLine, kind });
+            if (consumedCommentRanges) {
+              consumedCommentRanges[startPos] = true;
+              }
           }
           continue;
         }
@@ -89,10 +92,10 @@ export function getTrailingComments(text: string, pos: number): any[] {
   return extractComments(text, pos, /*trailing*/ true);
 }
 
-export function collectLeadingComments(text: string, pos: number): any[] {
-  return extractComments(text, pos, /*trailing*/ false);
+export function collectLeadingComments(text: string, pos: number, consumedCommentRanges?: any): any[] {
+  return extractComments(text, pos, /*trailing*/ false, consumedCommentRanges);
 }
 
-export function collectTrailingComments(text: string, pos: number): any[] {
-  return extractComments(text, pos, /*trailing*/ true);
+export function collectTrailingComments(text: string, pos: number, consumedCommentRanges?: any): any[] {
+  return extractComments(text, pos, /*trailing*/ true, consumedCommentRanges);
 }

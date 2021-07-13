@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
@@ -20,6 +20,7 @@ export function createNewTarget(
     newKeyword,
     targetIdentifier,
     flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

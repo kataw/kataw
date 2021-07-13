@@ -174,6 +174,7 @@ export function visitEachChild(
             (<AssignmentExpression>node).left,
             (<AssignmentExpression>node).operatorToken,
             (<AssignmentExpression>node).right,
+            (<AssignmentExpression>node).flags,
             (<AssignmentExpression>node).start,
             (<AssignmentExpression>node).end
           )
@@ -212,6 +213,7 @@ export function visitEachChild(
         ? createParenthesizedExpression(
             (<ParenthesizedExpression>node).expression,
             (<ParenthesizedExpression>node).start,
+            (<ParenthesizedExpression>node).flags,
             (<ParenthesizedExpression>node).end
           )
         : node;
@@ -267,6 +269,7 @@ export function visitEachChild(
         ? createArgumentList(
             (<ArgumentList>node).elements,
             (<ArgumentList>node).trailingComma,
+            (<ArgumentList>node).flags,
             (<ArgumentList>node).start,
             (<ArgumentList>node).end
           )

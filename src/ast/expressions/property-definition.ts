@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
 import { AssignmentExpression } from './assignment-expr';
@@ -33,6 +33,7 @@ export function createPropertyDefinition(
     left,
     right,
     flags,
+    transformFlags: TransformFlags.ShouldIndentIfInlining,
     start,
     end
   };

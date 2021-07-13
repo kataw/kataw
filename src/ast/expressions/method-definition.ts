@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { FunctionBody } from './function-body';
 import { FormalParameterList } from './formal-parameter-list';
 import { TypeNode } from '../types';
@@ -48,6 +48,7 @@ export function createMethodDefinition(
     returnType,
     contents,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

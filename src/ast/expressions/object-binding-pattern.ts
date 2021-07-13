@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { BindingPropertyList } from './binding-property-list';
 
 /**
@@ -18,6 +18,7 @@ export function createObjectBindingPattern(
     kind: SyntaxKind.ObjectBindingPattern,
     propertyList,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

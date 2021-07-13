@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { BlockStatement } from './block-stmt';
 import { CatchClause } from './catch-stmt';
@@ -31,6 +31,7 @@ export function createTryStatement(
     finallyKeyword,
     finallyBlock,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

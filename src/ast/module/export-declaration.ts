@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, ExportKind } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, ExportKind, TransformFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { NamedExports } from './named-exports';
 import { StatementNode } from '../statements';
@@ -48,6 +48,7 @@ export function createExportDeclaration(
     fromClause,
     exportKind,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

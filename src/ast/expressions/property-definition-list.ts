@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
 import { SpreadProperty } from './spread-property';
 import { Identifier } from './identifier-expr';
 import { CoverInitializedName } from './cover-initialized-name';
@@ -26,6 +26,7 @@ export function createPropertyDefinitionList(
     properties,
     trailingComma,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };
