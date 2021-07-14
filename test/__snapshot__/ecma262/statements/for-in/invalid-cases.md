@@ -5331,7 +5331,7 @@ for ({}.bar = x in obj);
                     "end": 1231
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 1217,
                 "end": 1231
             },
@@ -7020,7 +7020,7 @@ for ({}.bar = x in obj);
                     "end": 1654
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 1634,
                 "end": 1654
             },

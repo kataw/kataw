@@ -294,7 +294,7 @@ function f2() {
                                                                         "end": 144
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 126,
                                                                     "end": 144
                                                                 },
@@ -672,7 +672,7 @@ function f2() {
                                                                             "end": 317
                                                                         },
                                                                         "flags": 32,
-                                                                        "transformFlags": 1024,
+                                                                        "transformFlags": 0,
                                                                         "start": 299,
                                                                         "end": 317
                                                                     },

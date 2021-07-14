@@ -164,7 +164,7 @@ var O = { p: 1 }, x = 10; ; (void ** 1)
                             "end": 33
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 33
                     },

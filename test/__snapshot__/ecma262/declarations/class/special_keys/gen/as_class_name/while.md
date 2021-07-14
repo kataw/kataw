@@ -33,15 +33,7 @@ class while {}
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -130,7 +122,7 @@ class while {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 5, end: 11
+✖ Missing an opening brace - '{ - start: 6, end: 11
 ✖ Missing an opening parentheses - '( - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 14
 

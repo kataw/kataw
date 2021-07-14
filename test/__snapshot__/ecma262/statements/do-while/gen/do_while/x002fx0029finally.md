@@ -36,6 +36,7 @@ do /)finally while
                 "expression": {
                     "kind": 371,
                     "text": "/)finally while",
+                    "rawText": "/)finally while",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 2,

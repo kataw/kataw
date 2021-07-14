@@ -61,7 +61,7 @@ a + typeof b += c in d
                         "end": 12
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 12
                 },

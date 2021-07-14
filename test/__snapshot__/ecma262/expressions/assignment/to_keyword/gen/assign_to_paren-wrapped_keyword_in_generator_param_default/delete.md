@@ -90,7 +90,7 @@ function *f(x = (delete) = f) {}
                                         "end": 23
                                     },
                                     "flags": 32,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },

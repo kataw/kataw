@@ -38,6 +38,7 @@ do /false//a while
                     "left": {
                         "kind": 371,
                         "text": "/false/",
+                        "rawText": "/false/",
                         "flags": 96,
                         "transformFlags": 0,
                         "start": 2,

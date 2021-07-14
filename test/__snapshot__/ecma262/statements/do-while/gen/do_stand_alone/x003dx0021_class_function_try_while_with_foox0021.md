@@ -94,7 +94,7 @@ do =! class function try while with foo!
                             "end": 11
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 11
                     },
@@ -261,7 +261,7 @@ do =! class function try while with foo!
                             "end": 40
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 40
                     },

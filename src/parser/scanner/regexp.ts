@@ -101,7 +101,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
     cp = source.charCodeAt(++pos);
   }
 
-  parser.tokenValue = source.slice(parser.tokenPos, pos);
+  parser.tokenValue = parser.tokenRaw = source.slice(parser.tokenPos, pos);
   parser.pos = pos;
 
   return SyntaxKind.RegularExpression;

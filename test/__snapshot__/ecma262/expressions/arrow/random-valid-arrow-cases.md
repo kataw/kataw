@@ -2250,7 +2250,7 @@ foo((x, y) => {});
                     "end": 444
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 425,
                 "end": 444
             },

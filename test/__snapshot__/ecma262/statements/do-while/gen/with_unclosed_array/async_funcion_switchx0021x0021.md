@@ -142,12 +142,12 @@ do[ async funcion switch!!
                         "end": 26
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 26
             },

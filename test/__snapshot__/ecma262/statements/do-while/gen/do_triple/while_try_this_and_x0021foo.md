@@ -166,7 +166,7 @@ do do do while try this and !foo while while while
                     "end": 32
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 32
             },

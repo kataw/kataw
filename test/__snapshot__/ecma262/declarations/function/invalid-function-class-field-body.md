@@ -137,7 +137,7 @@ function* foo() {
                                                         "end": 93
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 88,
                                                     "end": 93
                                                 },

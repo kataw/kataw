@@ -33,15 +33,7 @@ class case {}
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -99,7 +91,7 @@ class case {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 5, end: 10
+✖ Missing an opening brace - '{ - start: 6, end: 10
 
 ```
 

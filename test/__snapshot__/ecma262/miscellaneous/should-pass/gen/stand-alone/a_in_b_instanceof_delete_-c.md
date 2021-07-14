@@ -93,12 +93,12 @@ a in b instanceof delete -c
                             "end": 27
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 27
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 27
                 },

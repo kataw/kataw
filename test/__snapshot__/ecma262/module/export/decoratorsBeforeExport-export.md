@@ -58,15 +58,7 @@ export class Foo {}
                 "end": 10
             },
             "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 10,
-                "end": 10
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -169,7 +161,7 @@ export class Foo {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 10, end: 17
+✖ Missing an opening brace - '{ - start: 11, end: 17
 
 ```
 

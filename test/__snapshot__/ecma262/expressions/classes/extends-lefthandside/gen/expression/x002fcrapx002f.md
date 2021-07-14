@@ -60,6 +60,7 @@
                             "expression": {
                                 "kind": 371,
                                 "text": "/crap/",
+                                "rawText": "/crap/",
                                 "flags": 96,
                                 "transformFlags": 0,
                                 "start": 16,

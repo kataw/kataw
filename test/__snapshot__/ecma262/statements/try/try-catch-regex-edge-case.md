@@ -68,6 +68,7 @@ try/catch/finally/{
                 "left": {
                     "kind": 371,
                     "text": "/catch/finally",
+                    "rawText": "/catch/finally",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 3,

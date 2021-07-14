@@ -50,7 +50,7 @@ for (void x in x) ;
                     "end": 11
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 11
             },

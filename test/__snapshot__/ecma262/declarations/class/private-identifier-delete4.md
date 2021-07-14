@@ -147,7 +147,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "end": 43
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 43
                                                 },
@@ -344,7 +344,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "end": 92
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 74,
                                                     "end": 92
                                                 },

@@ -34,6 +34,7 @@ for (/more crap/g in x) ;
             "initializer": {
                 "kind": 371,
                 "text": "/more crap/g",
+                "rawText": "/more crap/g",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 5,

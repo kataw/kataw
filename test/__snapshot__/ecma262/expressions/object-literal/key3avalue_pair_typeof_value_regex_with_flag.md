@@ -48,13 +48,14 @@
                                     "operand": {
                                         "kind": 371,
                                         "text": "/x/g",
+                                        "rawText": "/x/g",
                                         "flags": 96,
                                         "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
                                     },
                                     "flags": 32,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 18
                                 },

@@ -66,7 +66,7 @@ var x = typ\u0065of 'blah'
                                 "end": 26
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 26
                         },

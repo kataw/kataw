@@ -123,7 +123,7 @@ function *f(x = delete ((foo) = f)) {}
                                 "end": 34
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 34
                         },

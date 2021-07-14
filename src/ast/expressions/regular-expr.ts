@@ -5,12 +5,14 @@ import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-nod
  */
 export interface RegularExpressionLiteral extends SyntaxNode {
   readonly text: string;
+  readonly rawText: string;
 }
 
-export function createRegularExpressionLiteral(text: string, start: number, end: number): RegularExpressionLiteral {
+export function createRegularExpressionLiteral(text: string, rawText: string, start: number, end: number): RegularExpressionLiteral {
   return {
     kind: SyntaxKind.RegularExpressionLiteral,
     text,
+    rawText,
     flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     transformFlags: TransformFlags.None,
     start,

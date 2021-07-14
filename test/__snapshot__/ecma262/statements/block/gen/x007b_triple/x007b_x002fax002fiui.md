@@ -47,6 +47,7 @@
                                                             "expression": {
                                                                 "kind": 371,
                                                                 "text": "/a/iui",
+                                                                "rawText": "/a/iui",
                                                                 "flags": 96,
                                                                 "transformFlags": 0,
                                                                 "start": 7,

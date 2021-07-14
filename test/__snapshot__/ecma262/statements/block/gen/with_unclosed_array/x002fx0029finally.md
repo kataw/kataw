@@ -37,6 +37,7 @@
                                     {
                                         "kind": 371,
                                         "text": "/)finally",
+                                        "rawText": "/)finally",
                                         "flags": 96,
                                         "transformFlags": 0,
                                         "start": 2,

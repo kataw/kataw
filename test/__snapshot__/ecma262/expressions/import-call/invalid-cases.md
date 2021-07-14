@@ -1749,7 +1749,7 @@ new import(x);
                     "end": 420
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 419,
                 "end": 420
             },

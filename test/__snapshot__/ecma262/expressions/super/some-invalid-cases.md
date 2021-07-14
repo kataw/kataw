@@ -1114,15 +1114,7 @@ let x = { foo(){ super(); } };
                                                     "start": 279,
                                                     "end": 285
                                                 },
-                                                "name": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 64,
-                                                    "transformFlags": 0,
-                                                    "start": 285,
-                                                    "end": 285
-                                                },
+                                                "name": null,
                                                 "typeParameters": null,
                                                 "tail": {
                                                     "kind": 277,
@@ -2961,7 +2953,7 @@ let x = { foo(){ super(); } };
 ✖ Expected a computed property - start: 245, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Declaration or statement expected - start: 251, end: 253
-✖ Binding identifier expected - start: 285, end: 291
+✖ Missing an opening brace - '{ - start: 286, end: 291
 ✖ Expected a `;` - start: 295, end: 297
 ✖ Duplicate identifier - start: 310, end: 312
 ✖ Missing an opening brace - '{ - start: 356, end: 357

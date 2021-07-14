@@ -156,15 +156,7 @@ left@{x2028}@right
                 "end": 18
             },
             "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 18,
-                "end": 18
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -209,7 +201,7 @@ left@{x2028}@right
 ```javascript
 ✖ Identifier expected. A decorator name can only be an identifier - start: 5, end: 6
 ✖ A class declaration without the 'default' modifier must have a name. - start: 5, end: 6
-✖ Binding identifier expected - start: 18, end: 18
+✖ Missing an opening brace - '{ - start: 13, end: 18
 
 ```
 

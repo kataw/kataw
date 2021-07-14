@@ -77,6 +77,7 @@ do {} while (x) { /**/ /x do while
                         "expression": {
                             "kind": 371,
                             "text": "/x do while",
+                            "rawText": "/x do while",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 17,

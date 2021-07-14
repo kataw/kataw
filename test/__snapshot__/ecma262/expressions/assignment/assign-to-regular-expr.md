@@ -42,6 +42,7 @@ x = /a/y;
                 "right": {
                     "kind": 371,
                     "text": "/a/i",
+                    "rawText": "/a/i",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 3,
@@ -80,6 +81,7 @@ x = /a/y;
                 "right": {
                     "kind": 371,
                     "text": "/a/u",
+                    "rawText": "/a/u",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 14,
@@ -118,6 +120,7 @@ x = /a/y;
                 "right": {
                     "kind": 371,
                     "text": "/a/y",
+                    "rawText": "/a/y",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 25,

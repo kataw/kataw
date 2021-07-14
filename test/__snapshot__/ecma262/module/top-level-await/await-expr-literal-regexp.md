@@ -35,6 +35,7 @@ await /1/;
                 "expression": {
                     "kind": 371,
                     "text": "/1/",
+                    "rawText": "/1/",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 5,

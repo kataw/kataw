@@ -80,7 +80,7 @@ async () => {  v\u006fid = x  }
                                             "end": 24
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 24
                                     },

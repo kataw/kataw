@@ -88,6 +88,7 @@ async function * gen() {yield / yield}
                                 "expression": {
                                     "kind": 371,
                                     "text": "/ yield}",
+                                    "rawText": "/ yield}",
                                     "flags": 96,
                                     "transformFlags": 0,
                                     "start": 29,

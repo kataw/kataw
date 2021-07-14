@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 371,
                 "text": "/++!{class",
+                "rawText": "/++!{class",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 2,

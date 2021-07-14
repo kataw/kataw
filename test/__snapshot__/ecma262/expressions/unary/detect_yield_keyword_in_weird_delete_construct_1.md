@@ -117,7 +117,7 @@ function *f(){ delete ("x"[(yield)]) }
                                     "end": 36
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 36
                             },

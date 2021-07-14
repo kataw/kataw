@@ -366,15 +366,7 @@
                 "end": 45
             },
             "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 45,
-                "end": 45
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,

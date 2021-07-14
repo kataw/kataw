@@ -217,7 +217,7 @@ let tests = [
                                                                     "end": 82
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 0,
                                                                 "start": 80,
                                                                 "end": 82
                                                             },

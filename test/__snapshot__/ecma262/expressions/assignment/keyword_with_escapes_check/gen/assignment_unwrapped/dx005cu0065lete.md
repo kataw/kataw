@@ -45,7 +45,7 @@ d\u0065lete = x;
                         "end": 11
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },

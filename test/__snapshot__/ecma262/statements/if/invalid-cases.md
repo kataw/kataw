@@ -487,7 +487,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 115
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 113,
                 "end": 115
             },

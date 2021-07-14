@@ -70,7 +70,7 @@ test/**/*-test.js
                         "end": 17
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },

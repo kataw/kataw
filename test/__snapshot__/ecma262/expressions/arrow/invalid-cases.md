@@ -515,6 +515,7 @@ a++ => {};
                 "expression": {
                     "kind": 371,
                     "text": "/a;",
+                    "rawText": "/a;",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 95,
@@ -3472,7 +3473,7 @@ a++ => {};
                                                         "end": 675
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 673,
                                                     "end": 675
                                                 },
@@ -3859,7 +3860,7 @@ a++ => {};
                                                                     "end": 745
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 1024,
+                                                                "transformFlags": 0,
                                                                 "start": 743,
                                                                 "end": 745
                                                             },
@@ -4655,7 +4656,7 @@ a++ => {};
                                                             "end": 899
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 0,
                                                         "start": 897,
                                                         "end": 899
                                                     },
@@ -4788,7 +4789,7 @@ a++ => {};
                                                                         "end": 922
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 920,
                                                                     "end": 922
                                                                 },
@@ -6424,7 +6425,7 @@ a++ => {};
                                                                 "end": 1240
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 1024,
+                                                            "transformFlags": 0,
                                                             "start": 1238,
                                                             "end": 1240
                                                         },
@@ -7014,6 +7015,7 @@ a++ => {};
                                                                 "left": {
                                                                     "kind": 371,
                                                                     "text": "/x/",
+                                                                    "rawText": "/x/",
                                                                     "flags": 96,
                                                                     "transformFlags": 0,
                                                                     "start": 1340,
@@ -7505,7 +7507,7 @@ a++ => {};
                                                                         "end": 1442
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 1440,
                                                                     "end": 1442
                                                                 },
@@ -7601,6 +7603,7 @@ a++ => {};
                                             "expression": {
                                                 "kind": 371,
                                                 "text": "/x/g",
+                                                "rawText": "/x/g",
                                                 "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 1457,
@@ -7633,6 +7636,7 @@ a++ => {};
                                             "expression": {
                                                 "kind": 371,
                                                 "text": "/x/g",
+                                                "rawText": "/x/g",
                                                 "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 1467,
@@ -11027,7 +11031,7 @@ a++ => {};
                     "end": 3057
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 3048,
                 "end": 3057
             },
@@ -11059,7 +11063,7 @@ a++ => {};
                         "end": 3062
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 3060,
                     "end": 3062
                 },
@@ -11121,7 +11125,7 @@ a++ => {};
                                 "end": 3074
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 3072,
                             "end": 3074
                         },
@@ -11207,7 +11211,7 @@ a++ => {};
                                 "end": 3092
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 3089,
                             "end": 3092
                         }
@@ -12419,7 +12423,7 @@ a++ => {};
                                 "end": 3379
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 3374,
                             "end": 3379
                         }

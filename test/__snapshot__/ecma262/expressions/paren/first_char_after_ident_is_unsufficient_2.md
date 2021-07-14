@@ -38,6 +38,7 @@
                                     "member": {
                                         "kind": 371,
                                         "text": "/=g/m",
+                                        "rawText": "/=g/m",
                                         "flags": 96,
                                         "transformFlags": 0,
                                         "start": 6,
@@ -58,7 +59,7 @@
                                     "end": 14
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 14
                             }

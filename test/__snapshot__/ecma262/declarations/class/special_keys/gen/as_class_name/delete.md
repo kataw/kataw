@@ -33,15 +33,7 @@ class delete {}
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -92,7 +84,7 @@ class delete {}
                     "end": 15
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -121,7 +113,7 @@ class delete {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 5, end: 12
+✖ Missing an opening brace - '{ - start: 6, end: 12
 
 ```
 

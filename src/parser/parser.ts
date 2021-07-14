@@ -148,7 +148,7 @@ import { createClassDeclaration, ClassDeclaration } from '../ast/statements/clas
 import { createLexicalBinding, LexicalBinding } from '../ast/statements/lexical-binding';
 import { createLexicalDeclaration, LexicalDeclaration } from '../ast/statements/lexical-declaration';
 import { createTypeAlias, TypeAlias } from '../ast/types/type-alias-declaration';
-import { createOpaqueType } from '../ast/types/opaque-type';
+import { createOpaqueType, OpaqueType } from '../ast/types/opaque-type';
 import { createObjectTypeProperty, ObjectTypeProperty } from '../ast/types/object-type-property';
 import { createFunctionDeclaration, FunctionDeclaration } from '../ast/statements/function-declaration';
 import { createDummyIdentifier, DummyIdentifier } from '../ast/internal/dummy-identifier';
@@ -157,11 +157,11 @@ import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import { Char } from './scanner/char';
 import { isLineTerminator } from '../parser/scanner/common';
+import { createPropertyDefinitionList, PropertyDefinitionList } from '../ast/expressions/property-definition-list';
 import {
   createTypeParameterInstantiation,
   TypeParameterInstantiation
 } from '../ast/types/type-parameter-instantiation';
-import { createPropertyDefinitionList, PropertyDefinitionList } from '../ast/expressions/property-definition-list';
 import {
   ParserState,
   Tristate,
@@ -3645,10 +3645,10 @@ function paresSpreadPropertyArgument(
 // RegularExpressionLiteral :
 //   `/` RegularExpressionBody `/` RegularExpressionFlags
 function parseRegularExpression(parser: ParserState, context: Context): RegularExpressionLiteral {
-  const { curPos, tokenValue } = parser;
+  const { curPos, tokenValue, tokenRaw } = parser;
   nextToken(parser, context);
   parser.assignable = false;
-  return createRegularExpressionLiteral(tokenValue, curPos, parser.curPos);
+  return createRegularExpressionLiteral(tokenValue, tokenRaw, curPos, parser.curPos);
 }
 
 // NumericLiteral
@@ -9903,22 +9903,35 @@ function parseTemplateTail(parser: ParserState, context: Context, flags: NodeFla
 function parseClassDeclaration(
   parser: ParserState,
   context: Context,
-  scope: any,
+  scope: ScopeState,
   isDefaultModifier: boolean,
   labels: any
-): any {
+):
+  | ClassDeclaration
+  | LabelledStatement
+  | ExpressionStatement
+  | VariableStatement
+  | TypeAlias
+  | Identifier
+  | OpaqueType
+  | FunctionDeclaration {
   const pos = parser.curPos;
   let declareKeyword = null;
 
   if (parser.token === SyntaxKind.DeclareKeyword) {
-    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    let expr: Identifier | DummyIdentifier | ArrowFunction = parseIdentifier(
+      parser,
+      context,
+      Constants.Identifier,
+      DiagnosticCode.Identifier_expected
+    );
     if ((context & Context.OptionsAllowTypes) === 0 || (parser.token & SyntaxKind.IsStatementStart) === 0) {
       parser.assignable = true;
       if ((parser.token as SyntaxKind) === SyntaxKind.Colon) {
         return parseLabelledStatement(
           parser,
           context,
-          expr as Identifier,
+          expr,
           SyntaxKind.DeclareKeyword,
           NodeFlags.IsStatement,
           /* allowFunction */ true,
@@ -9927,7 +9940,9 @@ function parseClassDeclaration(
           null,
           pos
         );
-      } else if ((parser.token as SyntaxKind) === SyntaxKind.Arrow) {
+      }
+
+      if ((parser.token as SyntaxKind) === SyntaxKind.Arrow) {
         expr = parseArrowFunction(
           parser,
           context,
@@ -9938,7 +9953,7 @@ function parseClassDeclaration(
           /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           pos
-        ) as any;
+        );
       }
       return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, pos), pos);
     }
@@ -9970,24 +9985,18 @@ function parseClassDeclaration(
 
   let name = null;
 
-  if (parser.token !== SyntaxKind.ExtendsKeyword) {
-    if (isDefaultModifier) {
-      if (parser.token & Constants.Identifier) {
-        name = parseBindingIdentifier(parser, context, scope, BindingType.Const);
-      }
-    } else {
-      if (parser.token === SyntaxKind.LeftBrace) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.A_class_declaration_without_the_default_modifier_must_have_a_name],
-          parser.curPos,
-          parser.pos
-        );
-      } else {
-        name = parseBindingIdentifier(parser, context, scope, BindingType.Const);
-      }
+  if (parser.token === SyntaxKind.LeftBrace) {
+    if (!isDefaultModifier) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.A_class_declaration_without_the_default_modifier_must_have_a_name],
+        parser.curPos,
+        parser.pos
+      );
     }
+  } else if (parser.token & Constants.Identifier && parser.token !== SyntaxKind.ExtendsKeyword) {
+    name = parseBindingIdentifier(parser, context, scope, BindingType.Const);
   }
 
   // "class Foo<T> {}"

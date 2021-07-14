@@ -54,6 +54,7 @@ do do do /**/ /x do while while while while
                         "expression": {
                             "kind": 371,
                             "text": "/x do while while while while",
+                            "rawText": "/x do while while while while",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 8,

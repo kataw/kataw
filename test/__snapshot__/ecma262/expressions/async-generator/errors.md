@@ -3488,6 +3488,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 371,
                                     "text": "/ yield}",
+                                    "rawText": "/ yield}",
                                     "flags": 96,
                                     "transformFlags": 0,
                                     "start": 1519,
@@ -3581,7 +3582,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 1560
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 0,
                                                 "start": 1553,
                                                 "end": 1560
                                             },
@@ -3693,7 +3694,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 1595
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 0,
                                                 "start": 1586,
                                                 "end": 1595
                                             },

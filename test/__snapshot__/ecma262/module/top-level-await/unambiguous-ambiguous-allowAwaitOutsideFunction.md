@@ -87,7 +87,7 @@ await / 0 /u
                         "end": 18
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
@@ -131,7 +131,7 @@ await / 0 /u
                         "end": 28
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 28
                 },
@@ -243,6 +243,7 @@ await / 0 /u
                 "expression": {
                     "kind": 371,
                     "text": "/ 0 /u",
+                    "rawText": "/ 0 /u",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 58,

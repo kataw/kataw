@@ -90,7 +90,7 @@ function *f(x = (void) = f) {}
                                         "end": 21
                                     },
                                     "flags": 32,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 21
                                 },

@@ -43,6 +43,7 @@ f(new /z/)
                             "expression": {
                                 "kind": 371,
                                 "text": "/z/",
+                                "rawText": "/z/",
                                 "flags": 96,
                                 "transformFlags": 0,
                                 "start": 5,

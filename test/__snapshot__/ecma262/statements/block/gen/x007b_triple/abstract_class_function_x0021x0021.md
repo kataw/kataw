@@ -64,15 +64,7 @@
                                                     "start": 14,
                                                     "end": 20
                                                 },
-                                                "name": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 64,
-                                                    "transformFlags": 0,
-                                                    "start": 20,
-                                                    "end": 20
-                                                },
+                                                "name": null,
                                                 "typeParameters": null,
                                                 "tail": {
                                                     "kind": 277,
@@ -170,12 +162,12 @@
                                                             "end": 32
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 1024,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 32
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 32
                                                 },
@@ -238,7 +230,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 14, end: 20
-✖ Binding identifier expected - start: 20, end: 29
+✖ Missing an opening brace - '{ - start: 21, end: 29
 ✖ Binding identifier expected - start: 29, end: 31
 ✖ Missing an opening parentheses - '( - start: 30, end: 31
 ✖ Identifier expected - start: 32, end: 32

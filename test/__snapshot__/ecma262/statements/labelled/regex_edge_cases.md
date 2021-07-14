@@ -35,6 +35,7 @@ debugger
             "expression": {
                 "kind": 371,
                 "text": "/bar",
+                "rawText": "/bar",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 8,

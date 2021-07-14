@@ -100,7 +100,7 @@ function *f(x = delete ((switch) = f)) {}
                                 "end": 25
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 25
                         },

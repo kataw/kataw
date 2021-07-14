@@ -18,7 +18,7 @@ export function createUnaryExpression(
     operandToken,
     operand,
     flags: NodeFlags.ExpressionNode,
-    transformFlags: TransformFlags.CanBreak,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

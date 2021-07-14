@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 371,
                 "text": "/a/",
+                "rawText": "/a/",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 0,

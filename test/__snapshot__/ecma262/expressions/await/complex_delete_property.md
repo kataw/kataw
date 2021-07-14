@@ -172,7 +172,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                     "end": 60
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 1024,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 60
                                             },

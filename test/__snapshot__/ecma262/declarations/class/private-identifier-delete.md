@@ -144,7 +144,7 @@ class Foo { #foo; foo() { delete this.#foo } }
                                                         "end": 42
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 42
                                                 },

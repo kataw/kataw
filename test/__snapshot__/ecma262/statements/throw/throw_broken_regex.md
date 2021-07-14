@@ -27,6 +27,7 @@ throw/("
             "expression": {
                 "kind": 371,
                 "text": "/(\"",
+                "rawText": "/(\"",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 5,

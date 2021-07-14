@@ -84,7 +84,7 @@ do do do try { !xxx while while while
                                                 "end": 19
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 19
                                         },

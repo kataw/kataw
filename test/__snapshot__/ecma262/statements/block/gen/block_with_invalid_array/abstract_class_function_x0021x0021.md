@@ -143,15 +143,7 @@
                 "start": 18,
                 "end": 24
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 24,
-                "end": 24
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -249,12 +241,12 @@
                         "end": 36
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 36
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
@@ -287,7 +279,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Expected a `;` - start: 18, end: 24
-✖ Binding identifier expected - start: 24, end: 33
+✖ Missing an opening brace - '{ - start: 25, end: 33
 ✖ Binding identifier expected - start: 33, end: 35
 ✖ Missing an opening parentheses - '( - start: 34, end: 35
 ✖ Identifier expected - start: 36, end: 36

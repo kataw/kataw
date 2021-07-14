@@ -109,6 +109,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "expression": {
                                                         "kind": 371,
                                                         "text": "/ x}   }",
+                                                        "rawText": "/ x}   }",
                                                         "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 34,

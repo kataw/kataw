@@ -74,6 +74,7 @@ function* bar() { yield /re/ }
                                 "expression": {
                                     "kind": 371,
                                     "text": "/re/",
+                                    "rawText": "/re/",
                                     "flags": 96,
                                     "transformFlags": 0,
                                     "start": 23,

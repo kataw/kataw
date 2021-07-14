@@ -107,7 +107,7 @@ async (x = delete ((static) = f)) => {}
                                     "end": 32
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 32
                             },

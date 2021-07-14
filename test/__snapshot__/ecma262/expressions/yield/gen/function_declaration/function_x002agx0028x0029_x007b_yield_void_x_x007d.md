@@ -134,7 +134,7 @@ function not_gen() { function *g() { yield void x } }}
                                                         "end": 49
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 49
                                                 },

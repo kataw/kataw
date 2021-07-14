@@ -37,6 +37,7 @@
                                     {
                                         "kind": 371,
                                         "text": "/if",
+                                        "rawText": "/if",
                                         "flags": 96,
                                         "transformFlags": 0,
                                         "start": 2,

@@ -70,6 +70,7 @@ _ => {}
             "expression": {
                 "kind": 371,
                 "text": "/foo",
+                "rawText": "/foo",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 7,

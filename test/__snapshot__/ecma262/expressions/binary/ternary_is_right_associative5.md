@@ -155,7 +155,7 @@ typeof x;
                     "end": 31
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 31
             },

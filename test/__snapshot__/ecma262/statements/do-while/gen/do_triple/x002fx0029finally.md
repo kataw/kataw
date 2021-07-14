@@ -54,6 +54,7 @@ do do do /)finally while while while
                         "expression": {
                             "kind": 371,
                             "text": "/)finally while while while",
+                            "rawText": "/)finally while while while",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 8,

@@ -31,6 +31,7 @@
                     "member": {
                         "kind": 371,
                         "text": "/b/",
+                        "rawText": "/b/",
                         "flags": 96,
                         "transformFlags": 0,
                         "start": 2,

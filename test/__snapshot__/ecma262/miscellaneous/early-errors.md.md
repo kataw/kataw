@@ -2728,6 +2728,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 371,
                 "text": "/./",
+                "rawText": "/./",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 2963,
@@ -2759,6 +2760,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 371,
                 "text": "/./",
+                "rawText": "/./",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 3066,
@@ -3289,7 +3291,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3292
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 3262,
                                                     "end": 3292
                                                 },
@@ -3542,7 +3544,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3364
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 3333,
                                                     "end": 3364
                                                 },
@@ -3795,7 +3797,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3439
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 3405,
                                                     "end": 3439
                                                 },
@@ -4058,7 +4060,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3515
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 1024,
+                                                    "transformFlags": 0,
                                                     "start": 3480,
                                                     "end": 3515
                                                 },
@@ -6163,6 +6165,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 371,
                 "text": "/./",
+                "rawText": "/./",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 4966,
@@ -6194,6 +6197,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 371,
                 "text": "/./",
+                "rawText": "/./",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 5069,

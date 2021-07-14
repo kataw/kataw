@@ -82,7 +82,7 @@ delete async async => {}
                     "end": 24
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },

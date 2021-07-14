@@ -42,6 +42,7 @@
                         "right": {
                             "kind": 371,
                             "text": "/i/",
+                            "rawText": "/i/",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 3,
@@ -67,6 +68,7 @@
                 "right": {
                     "kind": 371,
                     "text": "/i/",
+                    "rawText": "/i/",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 9,

@@ -211,15 +211,7 @@ class C { #@{x29e3d}@ }
                 "end": 21
             },
             "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 21,
-                "end": 21
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,

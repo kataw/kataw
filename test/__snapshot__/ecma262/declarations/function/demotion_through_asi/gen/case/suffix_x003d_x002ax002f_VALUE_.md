@@ -119,6 +119,7 @@ function f(){
                                     "right": {
                                         "kind": 371,
                                         "text": "/ VALUE;",
+                                        "rawText": "/ VALUE;",
                                         "flags": 96,
                                         "transformFlags": 0,
                                         "start": 41,

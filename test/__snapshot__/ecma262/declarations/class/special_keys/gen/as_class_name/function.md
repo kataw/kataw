@@ -33,15 +33,7 @@ class function {}
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -146,7 +138,7 @@ class function {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 5, end: 14
+✖ Missing an opening brace - '{ - start: 6, end: 14
 ✖ Binding identifier expected - start: 14, end: 16
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ ',' expected - start: 16, end: 17

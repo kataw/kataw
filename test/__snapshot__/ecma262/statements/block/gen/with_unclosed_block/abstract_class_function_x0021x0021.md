@@ -143,15 +143,7 @@
                                         "start": 26,
                                         "end": 32
                                     },
-                                    "name": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "rawText": "",
-                                        "flags": 64,
-                                        "transformFlags": 0,
-                                        "start": 32,
-                                        "end": 32
-                                    },
+                                    "name": null,
                                     "typeParameters": null,
                                     "tail": {
                                         "kind": 277,
@@ -249,12 +241,12 @@
                                                 "end": 44
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 44
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 44
                                     },
@@ -308,7 +300,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Expected a `;` - start: 26, end: 32
-✖ Binding identifier expected - start: 32, end: 41
+✖ Missing an opening brace - '{ - start: 33, end: 41
 ✖ Binding identifier expected - start: 41, end: 43
 ✖ Missing an opening parentheses - '( - start: 42, end: 43
 ✖ Identifier expected - start: 44, end: 44

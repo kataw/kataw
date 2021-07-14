@@ -166,7 +166,7 @@ do while [catch] try { !xxx
                                     "end": 27
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             },

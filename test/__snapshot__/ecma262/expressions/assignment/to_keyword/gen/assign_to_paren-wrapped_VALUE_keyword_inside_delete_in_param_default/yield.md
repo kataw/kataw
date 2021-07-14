@@ -131,7 +131,7 @@ function *f(x = delete ((yield) = f)) {}
                                 "end": 36
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 36
                         },

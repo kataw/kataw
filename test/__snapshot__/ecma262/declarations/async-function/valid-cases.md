@@ -127,7 +127,7 @@ new async function() { await 0 }.x
                         "end": 33
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 33
                 },

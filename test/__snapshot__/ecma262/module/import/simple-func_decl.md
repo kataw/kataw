@@ -156,15 +156,7 @@ x@{x9}@+@{x9}@y
                 "end": 7
             },
             "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 7,
-                "end": 7
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -281,7 +273,7 @@ x@{x9}@+@{x9}@y
                     "end": 13
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 13
             },
@@ -326,15 +318,7 @@ x@{x9}@+@{x9}@y
                 "end": 15
             },
             "classKeyword": null,
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 15,
-                "end": 15
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -381,7 +365,7 @@ x@{x9}@+@{x9}@y
 ✖ A class declaration without the 'default' modifier must have a name. - start: 2, end: 3
 ✖ Identifier expected. A decorator name can only be an identifier - start: 7, end: 8
 ✖ Identifier expected. A decorator name can only be an identifier - start: 9, end: 10
-✖ Binding identifier expected - start: 15, end: 15
+✖ Missing an opening brace - '{ - start: 14, end: 15
 
 ```
 

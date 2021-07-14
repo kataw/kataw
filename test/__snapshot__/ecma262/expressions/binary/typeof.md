@@ -36,7 +36,7 @@ typeof x
                     "end": 8
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },

@@ -61,7 +61,7 @@ typeof class{}
                     "end": 14
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -75,6 +75,7 @@ typeof class{}
             "expression": {
                 "kind": 371,
                 "text": "/foo/",
+                "rawText": "/foo/",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 14,

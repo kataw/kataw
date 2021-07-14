@@ -40,6 +40,7 @@
                                     "member": {
                                         "kind": 371,
                                         "text": "/a/g",
+                                        "rawText": "/a/g",
                                         "flags": 96,
                                         "transformFlags": 0,
                                         "start": 8,
@@ -60,7 +61,7 @@
                                     "end": 15
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 15
                             }
@@ -112,6 +113,7 @@
                                             "member": {
                                                 "kind": 371,
                                                 "text": "/a/g",
+                                                "rawText": "/a/g",
                                                 "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 28,
@@ -132,7 +134,7 @@
                                             "end": 35
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 35
                                     }
@@ -167,6 +169,7 @@
                                             "member": {
                                                 "kind": 371,
                                                 "text": "/a/g",
+                                                "rawText": "/a/g",
                                                 "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 45,
@@ -187,7 +190,7 @@
                                             "end": 52
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 52
                                     }

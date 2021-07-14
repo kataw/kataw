@@ -98,6 +98,7 @@ a : { b : 1 }/2/;
             "expression": {
                 "kind": 371,
                 "text": "/2/",
+                "rawText": "/2/",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 13,

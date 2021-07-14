@@ -138,7 +138,7 @@ var C = class { async method() {
                                                                         "end": 47
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 32,
                                                                     "end": 47
                                                                 },

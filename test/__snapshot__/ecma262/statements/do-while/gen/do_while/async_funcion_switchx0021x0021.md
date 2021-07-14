@@ -125,12 +125,12 @@ do async funcion switch!! while
                         "end": 25
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 25
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },

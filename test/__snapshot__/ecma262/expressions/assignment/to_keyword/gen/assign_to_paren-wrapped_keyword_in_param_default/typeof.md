@@ -74,7 +74,7 @@ async (x = (typeof) = f) => {}
                                             "end": 18
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 18
                                     },

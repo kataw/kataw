@@ -58,6 +58,7 @@ x(class {} ?? 1);
                             "left": {
                                 "kind": 371,
                                 "text": "/./",
+                                "rawText": "/./",
                                 "flags": 96,
                                 "transformFlags": 0,
                                 "start": 2,
@@ -387,7 +388,7 @@ x(class {} ?? 1);
                                     "end": 69
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 69
                             },
@@ -545,7 +546,7 @@ x(class {} ?? 1);
                                     "end": 102
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 94,
                                 "end": 102
                             },
@@ -638,7 +639,7 @@ x(class {} ?? 1);
                                                 "end": 123
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 116,
                                             "end": 123
                                         }

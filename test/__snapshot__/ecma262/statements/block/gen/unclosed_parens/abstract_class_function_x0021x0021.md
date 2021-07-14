@@ -60,15 +60,7 @@
                             "start": 11,
                             "end": 17
                         },
-                        "name": {
-                            "kind": 16637,
-                            "text": "",
-                            "rawText": "",
-                            "flags": 64,
-                            "transformFlags": 0,
-                            "start": 17,
-                            "end": 17
-                        },
+                        "name": null,
                         "typeParameters": null,
                         "tail": {
                             "kind": 277,
@@ -166,12 +158,12 @@
                                     "end": 29
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 29
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 29
                         },
@@ -212,7 +204,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 12, end: 17
-✖ Binding identifier expected - start: 17, end: 26
+✖ Missing an opening brace - '{ - start: 18, end: 26
 ✖ Binding identifier expected - start: 26, end: 28
 ✖ Missing an opening parentheses - '( - start: 27, end: 28
 ✖ Identifier expected - start: 29, end: 29

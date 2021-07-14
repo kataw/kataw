@@ -33,15 +33,7 @@ class export {}
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -117,7 +109,7 @@ class export {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 5, end: 12
+✖ Missing an opening brace - '{ - start: 6, end: 12
 ✖ The `export` keyword can only be used with the module goal - start: 5, end: 12
 
 ```

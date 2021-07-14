@@ -123,7 +123,7 @@ function *f(x = delete ((package) = f)) {}
                                 "end": 38
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 38
                         },

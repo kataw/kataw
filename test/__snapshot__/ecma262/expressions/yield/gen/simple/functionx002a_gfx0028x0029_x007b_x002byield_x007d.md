@@ -94,7 +94,7 @@ function* gf() { +yield; }
                                     "end": 23
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 23
                             },

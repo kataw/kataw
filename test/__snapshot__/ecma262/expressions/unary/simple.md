@@ -39,7 +39,7 @@ typeof x;
                     "end": 2
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -69,7 +69,7 @@ typeof x;
                     "end": 6
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -99,7 +99,7 @@ typeof x;
                     "end": 17
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 17
             },

@@ -148,12 +148,12 @@
                                                 "end": 29
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 29
                                         },
                                         "flags": 32,
-                                        "transformFlags": 1024,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 29
                                     }

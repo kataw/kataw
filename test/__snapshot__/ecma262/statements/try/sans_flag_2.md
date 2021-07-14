@@ -90,6 +90,7 @@ try {} catch (e) {}
             "expression": {
                 "kind": 371,
                 "text": "/foo/g",
+                "rawText": "/foo/g",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 19,

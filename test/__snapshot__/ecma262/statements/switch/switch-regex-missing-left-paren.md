@@ -31,6 +31,7 @@ switch (/a/i {}
             "expression": {
                 "kind": 371,
                 "text": "/a/i",
+                "rawText": "/a/i",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 6,
@@ -61,6 +62,7 @@ switch (/a/i {}
             "expression": {
                 "kind": 371,
                 "text": "/a/i",
+                "rawText": "/a/i",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 23,
@@ -91,6 +93,7 @@ switch (/a/i {}
             "expression": {
                 "kind": 371,
                 "text": "/a/i",
+                "rawText": "/a/i",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 41,

@@ -194,7 +194,7 @@ var O = { p: 1 }, x = 10; ; if (++delete O.p ** 10) { foo(); }
                             "end": 44
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 44
                     },

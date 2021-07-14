@@ -950,7 +950,7 @@
                                                 "end": 226
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 226
                                         },
@@ -1141,6 +1141,7 @@
                                         "expression": {
                                             "kind": 371,
                                             "text": "/x/",
+                                            "rawText": "/x/",
                                             "flags": 96,
                                             "transformFlags": 0,
                                             "start": 282,

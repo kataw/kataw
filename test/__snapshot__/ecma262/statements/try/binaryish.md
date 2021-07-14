@@ -793,7 +793,7 @@ function f() {
                                         "end": 597
                                     },
                                     "flags": 32,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 0,
                                     "start": 559,
                                     "end": 597
                                 },
@@ -892,7 +892,7 @@ function f() {
                                         "end": 649
                                     },
                                     "flags": 32,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 0,
                                     "start": 600,
                                     "end": 649
                                 },

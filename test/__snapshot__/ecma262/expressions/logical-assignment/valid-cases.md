@@ -454,6 +454,7 @@ x((y ?? z) ?? 1);
                             "left": {
                                 "kind": 371,
                                 "text": "/./",
+                                "rawText": "/./",
                                 "flags": 96,
                                 "transformFlags": 0,
                                 "start": 65,
@@ -1028,7 +1029,7 @@ x((y ?? z) ?? 1);
                                     "end": 192
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 186,
                                 "end": 192
                             },
@@ -1107,7 +1108,7 @@ x((y ?? z) ?? 1);
                                     "end": 204
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 202,
                                 "end": 204
                             },
@@ -1186,7 +1187,7 @@ x((y ?? z) ?? 1);
                                     "end": 216
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 214,
                                 "end": 216
                             },
@@ -1265,7 +1266,7 @@ x((y ?? z) ?? 1);
                                     "end": 228
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 226,
                                 "end": 228
                             },
@@ -1344,7 +1345,7 @@ x((y ?? z) ?? 1);
                                     "end": 240
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 238,
                                 "end": 240
                             },
@@ -1739,7 +1740,7 @@ x((y ?? z) ?? 1);
                                     "end": 310
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 302,
                                 "end": 310
                             },
@@ -1818,7 +1819,7 @@ x((y ?? z) ?? 1);
                                     "end": 328
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 320,
                                 "end": 328
                             },
@@ -2001,7 +2002,7 @@ x((y ?? z) ?? 1);
                                                 "end": 361
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 358,
                                             "end": 361
                                         }
@@ -2193,7 +2194,7 @@ x((y ?? z) ?? 1);
                                                 "end": 401
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 394,
                                             "end": 401
                                         }

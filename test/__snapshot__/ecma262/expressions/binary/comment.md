@@ -1184,7 +1184,7 @@ foo[
                                 "end": 863
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 805,
                             "end": 863
                         },
@@ -1199,7 +1199,7 @@ foo[
                     "end": 865
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 772,
                 "end": 865
             },

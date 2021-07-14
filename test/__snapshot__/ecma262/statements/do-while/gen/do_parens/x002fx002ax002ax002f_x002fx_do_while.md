@@ -38,6 +38,7 @@ do( /**/ /x do while while
                     "expression": {
                         "kind": 371,
                         "text": "/x do while while",
+                        "rawText": "/x do while while",
                         "flags": 96,
                         "transformFlags": 0,
                         "start": 3,

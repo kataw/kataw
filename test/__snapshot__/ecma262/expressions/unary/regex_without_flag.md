@@ -31,6 +31,7 @@ delete /foo/.bar;
                     "member": {
                         "kind": 371,
                         "text": "/foo/",
+                        "rawText": "/foo/",
                         "flags": 96,
                         "transformFlags": 0,
                         "start": 6,
@@ -51,7 +52,7 @@ delete /foo/.bar;
                     "end": 16
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },

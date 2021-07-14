@@ -152,7 +152,7 @@ var C = class { async *gen() {
                                                                         "end": 45
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 30,
                                                                     "end": 45
                                                                 },

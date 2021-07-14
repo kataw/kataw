@@ -101,7 +101,7 @@ function *f(x = delete ((void) = f)) {}
                                                 "end": 29
                                             },
                                             "flags": 32,
-                                            "transformFlags": 1024,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 29
                                         },
@@ -137,7 +137,7 @@ function *f(x = delete ((void) = f)) {}
                                 "end": 35
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 35
                         },

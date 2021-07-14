@@ -82,6 +82,7 @@
                                                     "right": {
                                                         "kind": 371,
                                                         "text": "/ function while}}",
+                                                        "rawText": "/ function while}}",
                                                         "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 8,

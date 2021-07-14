@@ -78,15 +78,7 @@ function *f(){
                                 "start": 14,
                                 "end": 22
                             },
-                            "name": {
-                                "kind": 16637,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 64,
-                                "transformFlags": 0,
-                                "start": 22,
-                                "end": 22
-                            },
+                            "name": null,
                             "typeParameters": null,
                             "tail": {
                                 "kind": 277,
@@ -162,7 +154,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 22, end: 24
+✖ Missing an opening brace - '{ - start: 23, end: 24
 ✖ Declaration or statement expected - start: 27, end: 29
 
 ```

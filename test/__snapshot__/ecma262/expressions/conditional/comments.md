@@ -340,7 +340,7 @@ c */? foo : bar : bar;
                                                                         "end": 123
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 116,
                                                                     "end": 123
                                                                 },
@@ -363,7 +363,7 @@ c */? foo : bar : bar;
                                                                         "end": 131
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 124,
                                                                     "end": 131
                                                                 },
@@ -836,7 +836,7 @@ c */? foo : bar : bar;
                                                                         "end": 378
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 371,
                                                                     "end": 378
                                                                 },
@@ -859,7 +859,7 @@ c */? foo : bar : bar;
                                                                         "end": 386
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 1024,
+                                                                    "transformFlags": 0,
                                                                     "start": 379,
                                                                     "end": 386
                                                                 },

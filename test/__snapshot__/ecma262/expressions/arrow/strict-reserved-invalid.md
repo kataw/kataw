@@ -62,7 +62,7 @@ new package => x
                     "end": 8
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -147,7 +147,7 @@ new package => x
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 26
             },
@@ -324,7 +324,7 @@ new package => x
                                 "end": 80
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 80
                         },
@@ -395,7 +395,7 @@ new package => x
                     "end": 95
                 },
                 "flags": 32,
-                "transformFlags": 1024,
+                "transformFlags": 0,
                 "start": 80,
                 "end": 95
             },

@@ -45,7 +45,7 @@ new delete
                         "end": 10
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 10
                 },

@@ -782,7 +782,7 @@ typeof a == 'b';
                             "end": 152
                         },
                         "flags": 32,
-                        "transformFlags": 1024,
+                        "transformFlags": 0,
                         "start": 142,
                         "end": 152
                     },
@@ -856,7 +856,7 @@ typeof a == 'b';
                         "end": 173
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 163,
                     "end": 173
                 },

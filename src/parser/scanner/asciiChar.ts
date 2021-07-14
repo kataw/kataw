@@ -15,7 +15,8 @@ export const enum AsciiCharFlags {
   LeftBraceOrLessThan = 1 << 10,
   GreaterThanOrRightBrace = 1 << 11,
   BigInt = 1 << 12,
-  RegExpFlags = 1 << 13
+  RegExpFlags = 1 << 13,
+  Backslash = 1 << 14
 }
 
 /**
@@ -120,7 +121,7 @@ export const AsciiCharTypes = [
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x59 Y */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart /* 0x5A Z */,
   AsciiCharFlags.Unknown /* 0x5B */,
-  AsciiCharFlags.IdentifierStart /* 0x5C  */,
+  AsciiCharFlags.IdentifierStart | AsciiCharFlags.Backslash /* 0x5C  */,
   AsciiCharFlags.Unknown /* 0x5D   */,
   AsciiCharFlags.Unknown /* 0x5E   */,
   AsciiCharFlags.IdentifierStart | AsciiCharFlags.IdentifierPart | AsciiCharFlags.IsSeparator /* 0x5F _ */,

@@ -33,15 +33,7 @@ class catch {}
                 "start": 0,
                 "end": 5
             },
-            "name": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "transformFlags": 0,
-                "start": 5,
-                "end": 5
-            },
+            "name": null,
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -139,7 +131,7 @@ class catch {}
 ### Diagnostics
 
 ```javascript
-✖ Binding identifier expected - start: 5, end: 11
+✖ Missing an opening brace - '{ - start: 6, end: 11
 ✖ 'try' expected - start: 5, end: 11
 
 ```

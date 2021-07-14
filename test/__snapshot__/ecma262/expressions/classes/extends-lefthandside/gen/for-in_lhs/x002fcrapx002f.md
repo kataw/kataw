@@ -34,6 +34,7 @@ for (/crap/ in x) ;
             "initializer": {
                 "kind": 371,
                 "text": "/crap/",
+                "rawText": "/crap/",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 5,

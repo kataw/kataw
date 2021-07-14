@@ -121,7 +121,7 @@ function *f(x = delete ((this) = f)) {}
                                 "end": 35
                             },
                             "flags": 32,
-                            "transformFlags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 35
                         },

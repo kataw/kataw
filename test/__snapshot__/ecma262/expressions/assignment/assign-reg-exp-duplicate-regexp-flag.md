@@ -50,6 +50,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/msuygig",
+                    "rawText": "/x/msuygig",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 3,
@@ -88,6 +89,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/mmsig",
+                    "rawText": "/x/mmsig",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 19,
@@ -126,6 +128,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/ssug",
+                    "rawText": "/x/ssug",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 33,
@@ -164,6 +167,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/suuygig",
+                    "rawText": "/x/suuygig",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 46,
@@ -202,6 +206,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/msyygi",
+                    "rawText": "/x/msyygi",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 62,
@@ -240,6 +245,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/msii",
+                    "rawText": "/x/msii",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 77,
@@ -278,6 +284,7 @@ x = /x/xxx;
                 "right": {
                     "kind": 371,
                     "text": "/x/xxx",
+                    "rawText": "/x/xxx",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 124,

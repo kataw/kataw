@@ -1366,7 +1366,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 271
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 268,
                                 "end": 271
                             },
@@ -1396,7 +1396,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 276
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 273,
                                 "end": 276
                             },
@@ -1475,7 +1475,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 287
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 284,
                                 "end": 287
                             },
@@ -1570,7 +1570,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 302
                                 },
                                 "flags": 32,
-                                "transformFlags": 1024,
+                                "transformFlags": 0,
                                 "start": 299,
                                 "end": 302
                             },
@@ -1706,7 +1706,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 328
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 325,
                     "end": 328
                 },
@@ -1736,7 +1736,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 333
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 330,
                     "end": 333
                 },
@@ -2763,7 +2763,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 502
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 499,
                     "end": 502
                 },
@@ -2793,7 +2793,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 507
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 504,
                     "end": 507
                 },

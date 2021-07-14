@@ -267,6 +267,7 @@ switch (answer) { case 0: let a; };
                         {
                             "kind": 371,
                             "text": "/a/",
+                            "rawText": "/a/",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 72,
@@ -334,7 +335,7 @@ switch (answer) { case 0: let a; };
                                         "end": 90
                                     },
                                     "flags": 32,
-                                    "transformFlags": 1024,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 90
                                 },
@@ -2467,6 +2468,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 371,
                                     "text": "/a/",
+                                    "rawText": "/a/",
                                     "flags": 96,
                                     "transformFlags": 0,
                                     "start": 775,
@@ -5111,6 +5113,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 371,
                 "text": "/foo/",
+                "rawText": "/foo/",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 1528,

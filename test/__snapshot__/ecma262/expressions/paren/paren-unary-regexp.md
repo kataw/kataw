@@ -33,6 +33,7 @@
                         "member": {
                             "kind": 371,
                             "text": "/a/g",
+                            "rawText": "/a/g",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 7,
@@ -53,7 +54,7 @@
                         "end": 14
                     },
                     "flags": 32,
-                    "transformFlags": 1024,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 14
                 },

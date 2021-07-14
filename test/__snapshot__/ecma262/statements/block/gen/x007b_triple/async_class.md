@@ -64,15 +64,7 @@
                                                     "start": 11,
                                                     "end": 17
                                                 },
-                                                "name": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 64,
-                                                    "transformFlags": 0,
-                                                    "start": 17,
-                                                    "end": 17
-                                                },
+                                                "name": null,
                                                 "typeParameters": null,
                                                 "tail": {
                                                     "kind": 277,

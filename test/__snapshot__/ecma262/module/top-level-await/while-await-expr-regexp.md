@@ -42,6 +42,7 @@ while (await /1/) { break; }
                 "expression": {
                     "kind": 371,
                     "text": "/1/",
+                    "rawText": "/1/",
                     "flags": 96,
                     "transformFlags": 0,
                     "start": 12,

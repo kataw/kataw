@@ -76,6 +76,7 @@ for (x of 3) continue
             "expression": {
                 "kind": 371,
                 "text": "/x/g",
+                "rawText": "/x/g",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 21,
