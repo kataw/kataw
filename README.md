@@ -96,7 +96,7 @@ Here is a few examples:
     if (kataw.isKeyword(node) && kataw.hasUnicodeEscape(node)) {}
 ```
 
-A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will will change based on the context you
+A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will change based on the context you
 are parsing in. The diagnostics have been designed like this so you can quickly understand what the problem is and correct it.
 
 These features used together gives you more options to adjust, modify and customize the CST tree compared to a regular AST parser and you can also write fewer
