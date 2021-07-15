@@ -120,6 +120,7 @@
 ✖ Identifier expected - start: 15, end: 21
 ✖ The `export` keyword can only be used with the module goal - start: 15, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
+✖ Declaration or statement expected - start: 21, end: 23
 ✖ Expected a `;` - start: 25, end: 26
 
 ```

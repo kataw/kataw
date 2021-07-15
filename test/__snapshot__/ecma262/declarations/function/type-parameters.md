@@ -1180,10 +1180,10 @@ type T = <
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 34, end: 35
+✖ ',' expected - start: 34, end: 35
 ✖ Expression expected - start: 34, end: 35
 ✖ Identifier expected - start: 82, end: 96
-✖ Expected a `;` - start: 98, end: 99
+✖ ',' expected - start: 98, end: 99
 ✖ Expression expected - start: 98, end: 99
 ✖ Identifier expected - start: 114, end: 128
 ✖ Expected a `;` - start: 144, end: 148
@@ -1192,11 +1192,11 @@ type T = <
 ✖ Identifier expected - start: 154, end: 168
 ✖ Identifier expected - start: 178, end: 179
 ✖ Identifier expected - start: 194, end: 208
-✖ Expected a `;` - start: 259, end: 260
+✖ ',' expected - start: 259, end: 260
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
 ✖ Identifier expected - start: 310, end: 327
-✖ Expected a `;` - start: 329, end: 330
+✖ ',' expected - start: 329, end: 330
 ✖ Expression expected - start: 329, end: 330
 ✖ Identifier expected - start: 345, end: 362
 ✖ Expected a `;` - start: 378, end: 382

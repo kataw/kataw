@@ -188,7 +188,7 @@ async function f(){ let y = x => await x; }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 38, end: 40
+✖ Lexical declaration expected - start: 38, end: 40
 
 ```
 

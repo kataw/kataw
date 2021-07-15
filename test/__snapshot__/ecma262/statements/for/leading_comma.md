@@ -140,7 +140,7 @@ for (let [,foo] = arr);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 21, end: 22
+✖ Lexical declaration expected - start: 21, end: 22
 ✖ Identifier expected - start: 21, end: 22
 
 ```

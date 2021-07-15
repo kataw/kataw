@@ -111,7 +111,7 @@ let x: string;
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 5, end: 6
+✖ Lexical declaration expected - start: 5, end: 6
 ✖ Expected a `;` - start: 5, end: 6
 
 ```

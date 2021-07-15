@@ -130,7 +130,7 @@ for (let [,] = x);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 16, end: 17
+✖ Lexical declaration expected - start: 16, end: 17
 ✖ Identifier expected - start: 16, end: 17
 
 ```

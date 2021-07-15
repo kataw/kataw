@@ -162,7 +162,7 @@ function a({ option1, option2 } = {}) {
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 11, end: 55
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 54, end: 55
 
 ```
 

@@ -174,6 +174,7 @@ for (let {x,,} = obj;;);
 ✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 13
 ✖ Missing initializer in destructuring declaration - start: 12, end: 13
 ✖ Trailing comma not allowed. - start: 13, end: 14
+✖ Identifier expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 16
 ✖ Declaration or statement expected - start: 22, end: 23
 

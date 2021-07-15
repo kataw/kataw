@@ -358,7 +358,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 0, end: 23
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 22, end: 23
 
 ```
 

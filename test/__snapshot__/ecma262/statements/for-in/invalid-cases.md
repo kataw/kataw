@@ -8258,7 +8258,7 @@ for ({}.bar = x in obj);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 307, end: 309
 ✖ Identifier expected - start: 331, end: 332
 ✖ Identifier expected - start: 351, end: 352
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 362, end: 366
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 362, end: 369
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 428, end: 430
 ✖ Expected a ')' to match the '(' token here - start: 450, end: 451
 ✖ Declaration or statement expected - start: 452, end: 453
@@ -8301,14 +8301,14 @@ for ({}.bar = x in obj);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1234, end: 1236
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1274, end: 1276
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1312, end: 1315
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1365, end: 1371
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1365, end: 1374
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1406, end: 1409
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1432, end: 1438
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1432, end: 1441
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1473, end: 1476
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1506, end: 1512
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1506, end: 1515
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1512, end: 1515
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1537, end: 1540
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1565, end: 1571
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1565, end: 1574
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1571, end: 1574
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1596, end: 1599
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1623, end: 1625

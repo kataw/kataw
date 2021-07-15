@@ -131,7 +131,7 @@ foo() in x);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 12, end: 13
+✖ Lexical declaration expected - start: 12, end: 13
 ✖ Expression expected - start: 14, end: 17
 
 ```

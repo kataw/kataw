@@ -125,7 +125,7 @@ for (let [foo]);
 
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 14, end: 15
-✖ ',' expected - start: 14, end: 15
+✖ Lexical declaration expected - start: 14, end: 15
 ✖ Identifier expected - start: 14, end: 15
 
 ```

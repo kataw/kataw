@@ -158,7 +158,7 @@ for (let [foo] = arr, bar = arr2);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 32, end: 33
+✖ Lexical declaration expected - start: 32, end: 33
 ✖ Identifier expected - start: 32, end: 33
 
 ```

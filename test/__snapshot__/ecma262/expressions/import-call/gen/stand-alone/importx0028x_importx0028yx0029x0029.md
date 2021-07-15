@@ -105,6 +105,7 @@ import(x,import(y))
 
 ```javascript
 ✖ Dynamic import must have one specifier as an argument. - start: 8, end: 9
+✖ Expected a ')' to match the '(' token here - start: 8, end: 9
 ✖ Expected a `;` - start: 18, end: 19
 
 ```

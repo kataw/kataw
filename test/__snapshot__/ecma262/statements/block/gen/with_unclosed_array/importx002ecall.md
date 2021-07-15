@@ -108,6 +108,7 @@
 ```javascript
 ✖ Cannot use 'import.meta' outside a module - start: 9, end: 14
 ✖ 'import.meta' is the only valid meta property for import - start: 9, end: 14
+✖ ',' expected - start: 10, end: 14
 
 ```
 

@@ -146,7 +146,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 24, end: 30
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 24, end: 33
 
 ```
 

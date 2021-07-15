@@ -92,7 +92,7 @@ let async => async
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 12
+✖ Lexical declaration expected - start: 9, end: 12
 ✖ Expected a `;` - start: 9, end: 12
 
 ```

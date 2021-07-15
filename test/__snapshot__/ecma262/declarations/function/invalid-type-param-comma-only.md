@@ -171,7 +171,7 @@ function foo<,>() {}
 ```javascript
 ✖ Expected to find a '>' to match the '<' token here. - start: 13, end: 14
 ✖ Identifier expected - start: 14, end: 15
-✖ Expected a `;` - start: 17, end: 19
+✖ ',' expected - start: 17, end: 19
 ✖ Expected a `;` - start: 17, end: 19
 
 ```

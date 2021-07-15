@@ -141,6 +141,7 @@ function *f(){
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 14, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 25
 ✖ Declaration or statement expected - start: 28, end: 30
 
 ```

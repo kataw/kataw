@@ -136,7 +136,7 @@ for (const x = 0 in y){}
 ### Diagnostics
 
 ```javascript
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 10, end: 16
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 10, end: 19
 
 ```
 

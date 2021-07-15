@@ -917,7 +917,7 @@ class Foo extends async x => {} {}
 ```javascript
 ✖ Expected a `;` - start: 17, end: 22
 ✖ Duplicate identifier - start: 35, end: 39
-✖ Expected a `;` - start: 50, end: 53
+✖ ',' expected - start: 50, end: 53
 ✖ Expected a `;` - start: 50, end: 53
 ✖ Duplicate identifier - start: 66, end: 70
 ✖ Expected a `;` - start: 84, end: 86

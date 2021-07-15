@@ -348,7 +348,7 @@ const f = async <T, R, S>(
 ```javascript
 ✖ Missing initializer in const declaration - start: 21, end: 22
 ✖ Missing initializer in const declaration - start: 24, end: 25
-✖ ',' expected - start: 24, end: 25
+✖ Lexical declaration expected - start: 24, end: 25
 ✖ Expected a `;` - start: 24, end: 25
 ✖ Expected a ')' to match the '(' token here - start: 30, end: 31
 ✖ Expected a `;` - start: 38, end: 39

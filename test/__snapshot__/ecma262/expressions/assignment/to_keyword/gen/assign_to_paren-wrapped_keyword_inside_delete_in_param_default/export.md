@@ -188,6 +188,7 @@ async (x = delete ((export) = f)) => {}
 ✖ Identifier expected - start: 20, end: 26
 ✖ The `export` keyword can only be used with the module goal - start: 20, end: 26
 ✖ Declaration or statement expected - start: 26, end: 27
+✖ Declaration or statement expected - start: 26, end: 27
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Expected a `;` - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33

@@ -145,6 +145,7 @@ let x: [y,,] = z;
 
 ```javascript
 ✖ Trailing comma not allowed. - start: 11, end: 12
+✖ Expected a `;` - start: 11, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14
 
 ```

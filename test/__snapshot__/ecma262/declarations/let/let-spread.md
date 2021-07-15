@@ -170,7 +170,7 @@ let {...(a,b)} = foo
 ✖ Identifier expected - start: 8, end: 9
 ✖ ',' expected - start: 8, end: 9
 ✖ Missing initializer in destructuring declaration - start: 8, end: 9
-✖ ',' expected - start: 8, end: 9
+✖ Lexical declaration expected - start: 8, end: 9
 ✖ Declaration or statement expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 16
 

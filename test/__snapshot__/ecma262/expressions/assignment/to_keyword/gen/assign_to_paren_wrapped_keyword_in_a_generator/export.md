@@ -165,6 +165,7 @@ function *f(){
 ✖ Identifier expected - start: 18, end: 24
 ✖ The `export` keyword can only be used with the module goal - start: 18, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 27
 ✖ Declaration or statement expected - start: 30, end: 32
 

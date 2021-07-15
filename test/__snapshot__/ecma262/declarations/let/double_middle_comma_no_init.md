@@ -112,6 +112,7 @@ let foo,,bar
 
 ```javascript
 ✖ Trailing comma not allowed. - start: 8, end: 9
+✖ Expected a `;` - start: 8, end: 9
 
 ```
 

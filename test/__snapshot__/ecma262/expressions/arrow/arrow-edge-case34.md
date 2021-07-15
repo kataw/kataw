@@ -322,7 +322,7 @@ let x = (y: any): ([,[b]]) => {} => { };
 
 ```javascript
 ✖ ',' expected - start: 24, end: 25
-✖ ',' expected - start: 24, end: 25
+✖ Lexical declaration expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29
 ✖ Declaration or statement expected - start: 32, end: 35

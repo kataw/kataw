@@ -136,7 +136,7 @@ for (var {} = x in y) {}
 ### Diagnostics
 
 ```javascript
-✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 8, end: 15
+✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 8, end: 18
 
 ```
 

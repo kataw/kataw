@@ -184,7 +184,7 @@ for (let [x, ...[foo, bar]] = obj);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 33, end: 34
+✖ Lexical declaration expected - start: 33, end: 34
 ✖ Identifier expected - start: 33, end: 34
 
 ```

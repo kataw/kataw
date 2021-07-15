@@ -245,7 +245,7 @@ async function a(options = {}) {
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 71, end: 102
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 101, end: 102
 
 ```
 

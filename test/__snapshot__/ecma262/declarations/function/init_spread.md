@@ -101,7 +101,7 @@ let x = ...y;
 
 ```javascript
 ✖ Identifier expected - start: 7, end: 11
-✖ ',' expected - start: 7, end: 11
+✖ Lexical declaration expected - start: 7, end: 11
 
 ```
 

@@ -2681,13 +2681,13 @@ async ([a]:string)=>c;
 ✖ Duplicate identifier - start: 422, end: 424
 ✖ Invalid hexadecimal escape sequence - start: 426, end: 432
 ✖ Invalid hexadecimal escape sequence - start: 432, end: 432
-✖ ',' expected - start: 432, end: 433
+✖ Lexical declaration expected - start: 432, end: 433
 ✖ Expected a `;` - start: 432, end: 433
 ✖ Expected a `;` - start: 437, end: 440
 ✖ Duplicate identifier - start: 447, end: 449
 ✖ Invalid hexadecimal escape sequence - start: 451, end: 457
 ✖ Invalid hexadecimal escape sequence - start: 457, end: 457
-✖ ',' expected - start: 457, end: 458
+✖ Lexical declaration expected - start: 457, end: 458
 ✖ Expected a `;` - start: 457, end: 458
 ✖ Expected a `;` - start: 462, end: 465
 ✖ Invalid hexadecimal escape sequence - start: 478, end: 484

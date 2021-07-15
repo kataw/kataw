@@ -140,7 +140,7 @@ class x extends ()=>{} {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 18, end: 20
+✖ ',' expected - start: 18, end: 20
 ✖ Expected a `;` - start: 18, end: 20
 
 ```

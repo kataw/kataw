@@ -100,6 +100,7 @@ export ...x = y
 
 ```javascript
 ✖ Declaration or statement expected - start: 6, end: 10
+✖ Declaration or statement expected - start: 6, end: 10
 
 ```
 

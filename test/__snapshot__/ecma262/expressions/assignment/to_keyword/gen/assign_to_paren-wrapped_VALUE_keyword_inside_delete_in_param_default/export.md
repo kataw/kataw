@@ -211,6 +211,7 @@ function *f(x = delete ((export) = f)) {}
 ✖ Identifier expected - start: 25, end: 31
 ✖ The `export` keyword can only be used with the module goal - start: 25, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32
+✖ Declaration or statement expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 34
 ✖ Expected a `;` - start: 36, end: 37
 ✖ Declaration or statement expected - start: 37, end: 38

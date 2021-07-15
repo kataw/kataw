@@ -203,7 +203,7 @@ var obj = {
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 18, end: 51
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 50, end: 51
 
 ```
 

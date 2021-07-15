@@ -200,6 +200,7 @@
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Cannot use 'import.meta' outside a module - start: 24, end: 29
 ✖ 'import.meta' is the only valid meta property for import - start: 24, end: 29
+✖ Expected a `;` - start: 25, end: 29
 
 ```
 

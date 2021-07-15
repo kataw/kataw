@@ -98,7 +98,7 @@ function package() { "use strict"; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 8, end: 20
+✖ Identifier expected. Reserved word in strict mode - start: 33, end: 34
 
 ```
 

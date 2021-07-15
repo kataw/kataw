@@ -163,7 +163,7 @@ for (let x = 42 in list) process(x);
 ### Diagnostics
 
 ```javascript
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 8, end: 15
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 8, end: 18
 
 ```
 

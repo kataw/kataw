@@ -240,6 +240,7 @@ foo = {
 ✖ Identifier expected - start: 42, end: 48
 ✖ The `export` keyword can only be used with the module goal - start: 42, end: 48
 ✖ Declaration or statement expected - start: 48, end: 50
+✖ The parser expected to find a '}' to match the '{' token here - start: 49, end: 50
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 50
 ✖ Expected a `;` - start: 52, end: 53
 ✖ Declaration or statement expected - start: 54, end: 58

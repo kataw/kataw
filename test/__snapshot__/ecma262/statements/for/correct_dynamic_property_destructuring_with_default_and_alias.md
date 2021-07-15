@@ -164,7 +164,7 @@ for (let {[x]: y = z} = a);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 25, end: 26
+✖ Lexical declaration expected - start: 25, end: 26
 ✖ Identifier expected - start: 25, end: 26
 
 ```

@@ -164,7 +164,7 @@ let { x: import.meta }
 ✖ Object property expected - start: 15, end: 16
 ✖ ',' expected - start: 15, end: 16
 ✖ Missing initializer in destructuring declaration - start: 15, end: 16
-✖ ',' expected - start: 15, end: 16
+✖ Lexical declaration expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 20, end: 22
 
 ```

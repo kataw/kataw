@@ -317,7 +317,7 @@ for (let {...a.b} in c);
 ✖ ',' expected - start: 36, end: 37
 ✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 37
 ✖ Missing initializer in destructuring declaration - start: 36, end: 37
-✖ ',' expected - start: 36, end: 37
+✖ Lexical declaration expected - start: 36, end: 37
 ✖ Identifier expected - start: 38, end: 39
 ✖ Identifier expected - start: 39, end: 42
 ✖ Expected a `;` - start: 44, end: 45

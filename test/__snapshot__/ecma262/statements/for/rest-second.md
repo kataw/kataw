@@ -178,6 +178,7 @@ for (let a, ...b = 1;;);
 
 ```javascript
 ✖ Trailing comma not allowed. - start: 11, end: 15
+✖ Identifier expected - start: 11, end: 15
 ✖ Declaration or statement expected - start: 22, end: 23
 
 ```

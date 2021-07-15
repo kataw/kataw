@@ -6492,13 +6492,13 @@ for ({a: b.c}-- of d) e;
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 13, end: 15
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 69, end: 71
 ✖ The left-hand side of a for-of loop cannot start with 'let' - start: 76, end: 79
-✖ ',' expected - start: 101, end: 103
+✖ Lexical declaration expected - start: 101, end: 103
 ✖ Missing initializer in destructuring declaration - start: 104, end: 106
-✖ ',' expected - start: 104, end: 106
+✖ Lexical declaration expected - start: 104, end: 106
 ✖ Identifier expected - start: 104, end: 106
 ✖ Binding identifier expected - start: 126, end: 127
 ✖ A rest element must be last in a destructuring pattern - start: 123, end: 128
-✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 148, end: 156
+✖ The variable declaration of a 'for...of ... in' statement cannot have an initializer. - start: 148, end: 159
 ✖ Identifier expected - start: 178, end: 179
 ✖ Identifier expected - start: 191, end: 192
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 214, end: 217
@@ -6509,8 +6509,8 @@ for ({a: b.c}-- of d) e;
 ✖ Expected a `;` - start: 361, end: 362
 ✖ Expected a ')' to match the '(' token here - start: 387, end: 388
 ✖ Expected a `;` - start: 391, end: 392
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 408, end: 418
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 466
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 408, end: 421
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 469
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 535, end: 537
 ✖ The left-hand side of a for-of loop cannot start with 'let' - start: 555, end: 558
 ✖ The left-hand side of a for-of loop cannot start with 'let' - start: 595, end: 598
@@ -6525,9 +6525,10 @@ for ({a: b.c}-- of d) e;
 ✖ The parser expected to find a '}' to match the '{' token here - start: 728, end: 729
 ✖ Missing initializer in destructuring declaration - start: 728, end: 729
 ✖ Trailing comma not allowed. - start: 729, end: 730
+✖ Identifier expected - start: 729, end: 730
 ✖ Expected a `;` - start: 733, end: 737
 ✖ Expected a `;` - start: 737, end: 738
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 749, end: 760
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 749, end: 763
 ✖ Object property expected - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
 ✖ Variable declaration not allowed at this location - start: 793, end: 795
@@ -6542,20 +6543,20 @@ for ({a: b.c}-- of d) e;
 ✖ Only a single variable declaration is allowed in a 'for...of' statement. - start: 1075, end: 1078
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1108, end: 1111
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1134, end: 1137
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1165, end: 1171
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1165, end: 1174
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1171, end: 1174
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1197, end: 1200
 ✖ Expected a ')' to match the '(' token here - start: 1202, end: 1203
 ✖ Identifier expected - start: 1203, end: 1208
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1216, end: 1222
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1216, end: 1225
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1222, end: 1225
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1242, end: 1253
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1242, end: 1256
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1253, end: 1256
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1288, end: 1291
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1316, end: 1319
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1349, end: 1355
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1349, end: 1358
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1355, end: 1358
-✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1381, end: 1392
+✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1381, end: 1395
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1392, end: 1395
 ✖ Missing initializer in destructuring declaration - start: 1437, end: 1438
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 1522, end: 1524

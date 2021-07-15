@@ -190,6 +190,7 @@ function *f(x = (export) = f) {}
 ✖ Identifier expected - start: 17, end: 23
 ✖ The `export` keyword can only be used with the module goal - start: 17, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
+✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
 ✖ Expected a `;` - start: 28, end: 29
 

@@ -149,7 +149,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 32, end: 34
+✖ Lexical declaration expected - start: 32, end: 34
 ✖ Expected a `;` - start: 32, end: 34
 
 ```

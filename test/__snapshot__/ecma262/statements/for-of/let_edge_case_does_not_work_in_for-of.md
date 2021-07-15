@@ -153,8 +153,8 @@ for (let of x) y
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 11, end: 13
-✖ ',' expected - start: 13, end: 14
+✖ Lexical declaration expected - start: 11, end: 13
+✖ Lexical declaration expected - start: 13, end: 14
 ✖ Identifier expected - start: 13, end: 14
 
 ```

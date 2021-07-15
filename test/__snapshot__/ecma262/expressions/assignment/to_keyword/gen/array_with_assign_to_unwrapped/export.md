@@ -128,6 +128,7 @@ async x => export = 1
 ✖ Identifier expected - start: 10, end: 17
 ✖ The `export` keyword can only be used with the module goal - start: 10, end: 17
 ✖ Declaration or statement expected - start: 17, end: 19
+✖ Declaration or statement expected - start: 17, end: 19
 
 ```
 

@@ -120,7 +120,7 @@ const x = ...y;
 
 ```javascript
 ✖ Identifier expected - start: 9, end: 13
-✖ ',' expected - start: 9, end: 13
+✖ Lexical declaration expected - start: 9, end: 13
 
 ```
 

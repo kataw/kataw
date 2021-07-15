@@ -147,7 +147,7 @@ const [foo:bar] = obj;
 ✖ ',' expected - start: 10, end: 11
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 11
 ✖ Missing initializer in const declaration - start: 10, end: 11
-✖ ',' expected - start: 10, end: 11
+✖ Lexical declaration expected - start: 10, end: 11
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 17
 

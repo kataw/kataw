@@ -400,6 +400,7 @@
 ✖ Binding identifier expected - start: 58, end: 59
 ✖ Missing an opening parentheses - '( - start: 58, end: 59
 ✖ Trailing comma not allowed. - start: 83, end: 89
+✖ Expected a `;` - start: 83, end: 89
 ✖ 'super' must be followed by an argument list or member access. - start: 83, end: 90
 ✖ Dot property must be an identifier - start: 89, end: 90
 ✖ 'super' must be followed by an argument list or member access. - start: 115, end: 123

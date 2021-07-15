@@ -89,6 +89,7 @@
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 13, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
+✖ Declaration or statement expected - start: 20, end: 22
 
 ```
 

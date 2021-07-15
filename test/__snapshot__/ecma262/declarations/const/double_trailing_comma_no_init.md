@@ -97,6 +97,7 @@ const foo,,
 ```javascript
 ✖ Missing initializer in const declaration - start: 9, end: 10
 ✖ Trailing comma not allowed. - start: 10, end: 11
+✖ Expected a `;` - start: 10, end: 11
 
 ```
 

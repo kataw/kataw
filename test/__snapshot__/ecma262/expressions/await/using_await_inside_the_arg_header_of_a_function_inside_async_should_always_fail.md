@@ -151,8 +151,8 @@ let f = () => (y=await foo) => y;
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 26
-✖ ',' expected - start: 22, end: 26
-✖ ',' expected - start: 26, end: 27
+✖ Lexical declaration expected - start: 22, end: 26
+✖ Lexical declaration expected - start: 26, end: 27
 ✖ Expected a `;` - start: 26, end: 27
 ✖ Declaration or statement expected - start: 27, end: 30
 

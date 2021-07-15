@@ -218,7 +218,7 @@ for (let {x:y=z} = obj, {a:b=c});
 
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 31, end: 32
-✖ ',' expected - start: 31, end: 32
+✖ Lexical declaration expected - start: 31, end: 32
 ✖ Identifier expected - start: 31, end: 32
 
 ```

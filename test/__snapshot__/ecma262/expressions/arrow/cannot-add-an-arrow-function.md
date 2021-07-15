@@ -436,7 +436,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 3, end: 8
-✖ Expected a `;` - start: 19, end: 22
+✖ ',' expected - start: 19, end: 22
 ✖ Expected a `;` - start: 19, end: 22
 ✖ Expected a `;` - start: 34, end: 37
 ✖ Expected a `;` - start: 51, end: 53

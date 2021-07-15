@@ -179,6 +179,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Cannot use 'import.meta' outside a module - start: 16, end: 21
 ✖ 'import.meta' is the only valid meta property for import - start: 16, end: 21
+✖ Expected a `;` - start: 17, end: 21
 
 ```
 

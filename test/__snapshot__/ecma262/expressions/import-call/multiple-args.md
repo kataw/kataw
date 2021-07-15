@@ -106,6 +106,7 @@ import('hello', 'world', '!');
 
 ```javascript
 ✖ Dynamic import must have one specifier as an argument. - start: 14, end: 15
+✖ Expected a ')' to match the '(' token here - start: 14, end: 15
 ✖ Expected a `;` - start: 28, end: 29
 
 ```

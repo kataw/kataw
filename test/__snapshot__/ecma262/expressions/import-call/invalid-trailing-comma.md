@@ -97,6 +97,7 @@ import("foo",);
 
 ```javascript
 ✖ Dynamic import must have one specifier as an argument. - start: 12, end: 13
+✖ Expected a ')' to match the '(' token here - start: 12, end: 13
 ✖ Identifier expected - start: 13, end: 14
 
 ```

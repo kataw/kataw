@@ -215,8 +215,8 @@
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 0, end: 30
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 0, end: 64
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 29, end: 30
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 63, end: 64
 
 ```
 

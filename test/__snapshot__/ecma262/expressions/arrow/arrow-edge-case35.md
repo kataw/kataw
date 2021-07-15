@@ -288,7 +288,7 @@ let x = (y: any): ([a,[b]]) => {} => { };
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 33, end: 36
+✖ Lexical declaration expected - start: 33, end: 36
 ✖ Expected a `;` - start: 33, end: 36
 
 ```

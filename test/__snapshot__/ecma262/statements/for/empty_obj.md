@@ -122,7 +122,7 @@ for (let {} = obj);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 17, end: 18
+✖ Lexical declaration expected - start: 17, end: 18
 ✖ Identifier expected - start: 17, end: 18
 
 ```

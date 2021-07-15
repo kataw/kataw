@@ -75,6 +75,7 @@ import.call
 ```javascript
 ✖ Cannot use 'import.meta' outside a module - start: 6, end: 11
 ✖ 'import.meta' is the only valid meta property for import - start: 6, end: 11
+✖ Expected a `;` - start: 7, end: 11
 
 ```
 

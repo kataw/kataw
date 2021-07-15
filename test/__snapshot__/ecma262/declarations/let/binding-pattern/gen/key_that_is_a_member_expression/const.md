@@ -158,7 +158,7 @@ const {a.b: c} = v
 ✖ ',' expected - start: 8, end: 9
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Missing initializer in const declaration - start: 8, end: 9
-✖ ',' expected - start: 8, end: 9
+✖ Lexical declaration expected - start: 8, end: 9
 ✖ Declaration or statement expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 16
 
