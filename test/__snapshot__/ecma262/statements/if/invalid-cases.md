@@ -2401,7 +2401,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ An async function declaration is not allowed as `if-else` child - start: 306, end: 312
 ✖ Expected a `;` - start: 353, end: 355
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 369, end: 373
+ [` is a restricted production at the start of a statement - start: 369, end: 379
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 397, end: 401
 ✖ The left-hand side must be a variable or a property access. - start: 437, end: 439
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 464, end: 473

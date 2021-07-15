@@ -805,7 +805,7 @@ class C {
 ✖ Identifier expected - start: 301, end: 302
 ✖ Await expression cannot be used inside class static block. - start: 505, end: 500
 ✖ Identifier expected - start: 768, end: 769
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 703, end: 769
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 768, end: 769
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 833, end: 834
 
 ```

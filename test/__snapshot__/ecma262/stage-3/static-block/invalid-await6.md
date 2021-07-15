@@ -224,7 +224,7 @@ class C {
 
 ```javascript
 ✖ Identifier expected - start: 41, end: 42
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 31, end: 42
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 41, end: 42
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 106, end: 107
 
 ```

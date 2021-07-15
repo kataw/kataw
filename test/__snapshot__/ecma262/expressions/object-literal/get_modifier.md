@@ -132,7 +132,7 @@
 ### Diagnostics
 
 ```javascript
-✖ A get accessor cannot be a generator - start: 2, end: 11
+✖ A get accessor cannot be a generator - start: 2, end: 12
 
 ```
 

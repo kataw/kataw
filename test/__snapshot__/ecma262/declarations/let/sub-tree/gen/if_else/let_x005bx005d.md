@@ -124,7 +124,7 @@ else let
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 14, end: 18
+ [` is a restricted production at the start of a statement - start: 14, end: 20
 ✖ An member access expression should take an argument. - start: 14, end: 21
 ✖ Identifier expected - start: 20, end: 21
 

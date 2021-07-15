@@ -2593,18 +2593,18 @@ y = (x => {}(0));
 ✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
 ✖ Expected a ')' to match the '(' token here - start: 307, end: 309
 ✖ Expected a `;` - start: 312, end: 313
-✖ Block body arrows can not be immediately invoked without a group - start: 324, end: 325
-✖ Block body arrows can not be immediately invoked without a group - start: 337, end: 338
-✖ Block body arrows can not be immediately invoked without a group - start: 356, end: 357
-✖ Block body arrows can not be immediately invoked without a group - start: 374, end: 375
-✖ Block body arrows can not be immediately invoked without a group - start: 395, end: 396
-✖ Block body arrows can not be immediately invoked without a group - start: 411, end: 412
+✖ An arrow function can not be part of an operator to the right - start: 324, end: 325
+✖ An arrow function can not be part of an operator to the right - start: 337, end: 338
+✖ An arrow function can not be part of an operator to the right - start: 356, end: 357
+✖ An arrow function can not be part of an operator to the right - start: 374, end: 375
+✖ An arrow function can not be part of an operator to the right - start: 395, end: 396
+✖ An arrow function can not be part of an operator to the right - start: 411, end: 412
 ✖ Expected a `;` - start: 414, end: 415
-✖ Block body arrows can not be immediately invoked without a group - start: 430, end: 431
-✖ Block body arrows can not be immediately invoked without a group - start: 452, end: 453
-✖ Block body arrows can not be immediately invoked without a group - start: 474, end: 475
-✖ Block body arrows can not be immediately invoked without a group - start: 496, end: 497
-✖ Block body arrows can not be immediately invoked without a group - start: 518, end: 519
+✖ An arrow function can not be part of an operator to the right - start: 430, end: 431
+✖ An arrow function can not be part of an operator to the right - start: 452, end: 453
+✖ An arrow function can not be part of an operator to the right - start: 474, end: 475
+✖ An arrow function can not be part of an operator to the right - start: 496, end: 497
+✖ An arrow function can not be part of an operator to the right - start: 518, end: 519
 
 ```
 

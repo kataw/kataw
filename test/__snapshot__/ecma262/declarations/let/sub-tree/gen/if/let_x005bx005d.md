@@ -102,7 +102,7 @@ if (a) let
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 6, end: 10
+ [` is a restricted production at the start of a statement - start: 6, end: 12
 ✖ An member access expression should take an argument. - start: 6, end: 13
 ✖ Identifier expected - start: 12, end: 13
 

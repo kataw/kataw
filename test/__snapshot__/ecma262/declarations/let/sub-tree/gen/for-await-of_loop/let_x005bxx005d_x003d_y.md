@@ -145,7 +145,7 @@ for await (a of b) let [x] = y
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 9, end: 11
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 18, end: 22
+ [` is a restricted production at the start of a statement - start: 18, end: 24
 
 ```
 

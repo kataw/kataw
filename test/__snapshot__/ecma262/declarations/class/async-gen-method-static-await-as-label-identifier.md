@@ -233,7 +233,7 @@ var C = class { static async *gen() {
 
 ```javascript
 ✖ Identifier expected - start: 47, end: 48
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 37, end: 48
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 47, end: 48
 
 ```
 

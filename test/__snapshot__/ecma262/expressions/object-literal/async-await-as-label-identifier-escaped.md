@@ -204,7 +204,7 @@ var obj = {
 ```javascript
 ✖ 'await' keyword must not contain escaped characters - start: 30, end: 45
 ✖ Identifier expected - start: 45, end: 46
-✖ Unicode escapes at the start of labels should not allow keywords - start: 30, end: 46
+✖ Unicode escapes at the start of labels should not allow keywords - start: 45, end: 46
 
 ```
 

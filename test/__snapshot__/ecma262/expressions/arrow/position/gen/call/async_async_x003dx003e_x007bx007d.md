@@ -113,7 +113,7 @@ async async => {}()
 ### Diagnostics
 
 ```javascript
-✖ Block body arrows can not be immediately invoked without a group - start: 17, end: 18
+✖ An arrow function can not be part of an operator to the right - start: 17, end: 18
 ✖ Expression expected - start: 19, end: 19
 
 ```

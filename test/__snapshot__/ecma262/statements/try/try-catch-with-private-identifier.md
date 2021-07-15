@@ -110,7 +110,7 @@ try {} catch(#private){}
 ### Diagnostics
 
 ```javascript
-✖ Private identifiers cannot be used as parameters - start: 13, end: 21
+✖ Private identifiers are not allowed outside class bodies - start: 13, end: 21
 
 ```
 

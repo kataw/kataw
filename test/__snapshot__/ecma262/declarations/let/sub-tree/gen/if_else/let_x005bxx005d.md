@@ -122,7 +122,7 @@ else let [x];
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 14, end: 18
+ [` is a restricted production at the start of a statement - start: 14, end: 20
 
 ```
 

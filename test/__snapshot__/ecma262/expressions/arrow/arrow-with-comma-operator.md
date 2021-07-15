@@ -114,7 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Duplicate arrow formal parameter - start: 6, end: 17
+✖ Duplicate arrow formal parameter - start: 15, end: 17
 
 ```
 

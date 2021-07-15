@@ -147,7 +147,7 @@ for await (a of b) let
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 9, end: 11
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 18, end: 22
+ [` is a restricted production at the start of a statement - start: 18, end: 24
 ✖ An member access expression should take an argument. - start: 18, end: 25
 ✖ Identifier expected - start: 24, end: 25
 

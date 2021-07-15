@@ -119,7 +119,7 @@ while(true) let[a] = 0
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 11, end: 15
+ [` is a restricted production at the start of a statement - start: 11, end: 16
 
 ```
 

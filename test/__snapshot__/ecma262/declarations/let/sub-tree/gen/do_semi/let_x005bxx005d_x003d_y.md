@@ -128,7 +128,7 @@ do let [x] = y; while (a);
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 2, end: 6
+ [` is a restricted production at the start of a statement - start: 2, end: 8
 
 ```
 

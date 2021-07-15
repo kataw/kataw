@@ -142,7 +142,7 @@
 ### Diagnostics
 
 ```javascript
-✖ A set accessor cannot be a generator - start: 2, end: 11
+✖ A set accessor cannot be a generator - start: 2, end: 12
 
 ```
 

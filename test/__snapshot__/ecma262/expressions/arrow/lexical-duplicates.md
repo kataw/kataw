@@ -2369,7 +2369,7 @@ a = b => { let b; };
 ✖ Duplicate identifier - start: 8, end: 9
 ✖ Cannot redeclare block-scoped variable - start: 29, end: 31
 ✖ Cannot redeclare block-scoped variable - start: 49, end: 51
-✖ Duplicate arrow formal parameter - start: 65, end: 73
+✖ Duplicate arrow formal parameter - start: 71, end: 73
 ✖ Identifier expected - start: 81, end: 87
 ✖ Missing initializer in const declaration - start: 91, end: 92
 ✖ Expected a `;` - start: 106, end: 112
@@ -2380,12 +2380,12 @@ a = b => { let b; };
 ✖ Cannot redeclare block-scoped variable - start: 169, end: 170
 ✖ Cannot redeclare block-scoped variable - start: 193, end: 194
 ✖ Cannot redeclare block-scoped variable - start: 214, end: 215
-✖ Duplicate arrow formal parameter - start: 230, end: 238
-✖ Duplicate arrow formal parameter - start: 254, end: 261
-✖ Duplicate arrow formal parameter - start: 271, end: 278
-✖ Duplicate arrow formal parameter - start: 288, end: 298
-✖ Duplicate arrow formal parameter - start: 310, end: 318
-✖ Duplicate arrow formal parameter - start: 334, end: 341
+✖ Duplicate arrow formal parameter - start: 236, end: 238
+✖ Duplicate arrow formal parameter - start: 259, end: 261
+✖ Duplicate arrow formal parameter - start: 276, end: 278
+✖ Duplicate arrow formal parameter - start: 296, end: 298
+✖ Duplicate arrow formal parameter - start: 316, end: 318
+✖ Duplicate arrow formal parameter - start: 339, end: 341
 ✖ Cannot redeclare block-scoped variable - start: 384, end: 386
 ✖ Cannot redeclare block-scoped variable - start: 410, end: 412
 

@@ -115,7 +115,7 @@ for (;;) let [x] = y
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 8, end: 12
+ [` is a restricted production at the start of a statement - start: 8, end: 14
 
 ```
 

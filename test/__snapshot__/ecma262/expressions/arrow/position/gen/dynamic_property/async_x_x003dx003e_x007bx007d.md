@@ -130,7 +130,7 @@ async x => {}[foo]
 ### Diagnostics
 
 ```javascript
-✖ Block body arrows can not be immediately invoked without a group - start: 13, end: 14
+✖ An arrow function can not be part of an operator to the right - start: 13, end: 14
 
 ```
 

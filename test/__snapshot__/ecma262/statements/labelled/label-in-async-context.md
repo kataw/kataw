@@ -151,7 +151,7 @@ async function x() {
 
 ```javascript
 ✖ Identifier expected - start: 28, end: 29
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 20, end: 29
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 28, end: 29
 ✖ Function declarations cannot be used in a single-statement context - start: 29, end: 35
 
 ```

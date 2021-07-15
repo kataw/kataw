@@ -98,7 +98,7 @@ while (a) let [x];
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 9, end: 13
+ [` is a restricted production at the start of a statement - start: 9, end: 15
 
 ```
 

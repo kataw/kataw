@@ -1423,9 +1423,9 @@
 ✖ The left hand side of the arrow is not destructible  - start: 186, end: 189
 ✖ The left hand side of the arrow is not destructible  - start: 208, end: 211
 ✖ The left hand side of the arrow is not destructible  - start: 233, end: 236
-✖ Duplicate arrow formal parameter - start: 222, end: 238
+✖ Duplicate arrow formal parameter - start: 236, end: 238
 ✖ The left hand side of the arrow is not destructible  - start: 258, end: 261
-✖ Duplicate arrow formal parameter - start: 247, end: 263
+✖ Duplicate arrow formal parameter - start: 261, end: 263
 ✖ The left hand side of the arrow is not destructible  - start: 279, end: 282
 
 ```

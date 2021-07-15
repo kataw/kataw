@@ -123,7 +123,7 @@ if (a) let [x] = y
 
 ```javascript
 ✖ `let 
- [` is a restricted production at the start of a statement - start: 6, end: 10
+ [` is a restricted production at the start of a statement - start: 6, end: 12
 
 ```
 
