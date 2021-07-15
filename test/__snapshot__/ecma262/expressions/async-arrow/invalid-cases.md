@@ -2692,7 +2692,7 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 462, end: 465
 ✖ Invalid hexadecimal escape sequence - start: 478, end: 484
 ✖ Invalid hexadecimal escape sequence - start: 484, end: 484
-✖ ',' expected - start: 484, end: 485
+✖ Variable declaration not allowed at this location - start: 484, end: 485
 ✖ Expected a `;` - start: 484, end: 485
 ✖ Expected a `;` - start: 492, end: 495
 ✖ Expected a `;` - start: 524, end: 527

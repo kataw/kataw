@@ -281,7 +281,7 @@ do do do while try this and !foo while while while
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 15, end: 18
-✖ Declaration or statement expected - start: 18, end: 23
+✖ 'catch' expected - start: 18, end: 23
 ✖ Declaration or statement expected - start: 24, end: 27
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 33, end: 38

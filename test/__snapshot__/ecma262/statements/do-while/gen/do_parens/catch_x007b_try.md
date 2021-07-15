@@ -232,7 +232,7 @@ do( catch { try while
 ```javascript
 ✖ Identifier expected - start: 3, end: 9
 ✖ 'try' expected - start: 3, end: 9
-✖ Declaration or statement expected - start: 15, end: 21
+✖ 'catch' expected - start: 15, end: 21
 
 ```
 

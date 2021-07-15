@@ -242,7 +242,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ 'try' expected - start: 9, end: 15
-✖ Declaration or statement expected - start: 21, end: 21
+✖ 'catch' expected - start: 21, end: 21
 
 ```
 

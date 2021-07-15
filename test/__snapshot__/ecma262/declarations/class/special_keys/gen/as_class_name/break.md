@@ -33,7 +33,15 @@ class break {}
                 "start": 0,
                 "end": 5
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 5
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -114,7 +122,7 @@ class break {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 6, end: 11
+✖ Binding identifier expected - start: 5, end: 11
 ✖ Identifier expected - start: 11, end: 13
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 11, end: 13
 

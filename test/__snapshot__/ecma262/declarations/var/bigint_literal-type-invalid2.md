@@ -119,7 +119,7 @@ var a: 1e5n
 
 ```javascript
 ✖ Unexpected token. - start: 6, end: 10
-✖ ',' expected - start: 10, end: 11
+✖ Variable declaration not allowed at this location - start: 10, end: 11
 
 ```
 

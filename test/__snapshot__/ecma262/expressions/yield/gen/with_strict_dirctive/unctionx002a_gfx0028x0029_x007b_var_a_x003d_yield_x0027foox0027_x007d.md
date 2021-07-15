@@ -190,7 +190,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 27, end: 29
-✖ ',' expected - start: 43, end: 49
+✖ Variable declaration not allowed at this location - start: 43, end: 49
 ✖ Expected a `;` - start: 43, end: 49
 
 ```

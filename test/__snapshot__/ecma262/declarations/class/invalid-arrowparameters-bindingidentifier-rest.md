@@ -128,7 +128,7 @@ var af = ...x => x;
 
 ```javascript
 ✖ Identifier expected - start: 8, end: 12
-✖ ',' expected - start: 8, end: 12
+✖ Variable declaration not allowed at this location - start: 8, end: 12
 
 ```
 

@@ -190,7 +190,7 @@ function *f(){
 
 ```javascript
 ✖ Identifier expected - start: 18, end: 21
-✖ Declaration or statement expected - start: 21, end: 22
+✖ 'catch' expected - start: 21, end: 22
 ✖ Declaration or statement expected - start: 22, end: 24
 ✖ Declaration or statement expected - start: 27, end: 29
 

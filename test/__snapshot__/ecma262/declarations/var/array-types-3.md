@@ -133,7 +133,7 @@ var a?: number[][]
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 5, end: 6
+✖ Variable declaration not allowed at this location - start: 5, end: 6
 ✖ Expected a `;` - start: 5, end: 6
 ✖ Declaration or statement expected - start: 6, end: 7
 ✖ An member access expression should take an argument. - start: 7, end: 16

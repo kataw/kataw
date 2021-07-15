@@ -166,7 +166,7 @@ var f = async(x = await 1) => x;
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 26, end: 29
+✖ Variable declaration not allowed at this location - start: 26, end: 29
 ✖ Expected a `;` - start: 26, end: 29
 
 ```

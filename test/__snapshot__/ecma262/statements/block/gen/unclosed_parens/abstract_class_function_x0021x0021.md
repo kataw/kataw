@@ -60,7 +60,15 @@
                             "start": 11,
                             "end": 17
                         },
-                        "name": null,
+                        "name": {
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
+                            "transformFlags": 0,
+                            "start": 17,
+                            "end": 17
+                        },
                         "typeParameters": null,
                         "tail": {
                             "kind": 277,
@@ -204,7 +212,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 12, end: 17
-✖ Missing an opening brace - '{ - start: 18, end: 26
+✖ Binding identifier expected - start: 17, end: 26
 ✖ Binding identifier expected - start: 26, end: 28
 ✖ Missing an opening parentheses - '( - start: 27, end: 28
 ✖ Identifier expected - start: 29, end: 29

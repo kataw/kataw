@@ -152,7 +152,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 10, end: 10
+✖ 'catch' expected - start: 10, end: 10
 
 ```
 

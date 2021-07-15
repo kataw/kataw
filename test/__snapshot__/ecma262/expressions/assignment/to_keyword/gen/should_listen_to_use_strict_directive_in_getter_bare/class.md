@@ -115,7 +115,15 @@ foo = {
                                                             "start": 36,
                                                             "end": 46
                                                         },
-                                                        "name": null,
+                                                        "name": {
+                                                            "kind": 16637,
+                                                            "text": "",
+                                                            "rawText": "",
+                                                            "flags": 64,
+                                                            "transformFlags": 0,
+                                                            "start": 46,
+                                                            "end": 46
+                                                        },
                                                         "typeParameters": null,
                                                         "tail": {
                                                             "kind": 277,
@@ -222,7 +230,7 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 47, end: 48
+✖ Binding identifier expected - start: 46, end: 48
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 48
 ✖ Declaration or statement expected - start: 50, end: 54
 ✖ Declaration or statement expected - start: 54, end: 56

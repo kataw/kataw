@@ -158,7 +158,7 @@ for (var [foo] = arr, bar);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 25, end: 26
+✖ Variable declaration not allowed at this location - start: 25, end: 26
 ✖ Identifier expected - start: 25, end: 26
 
 ```

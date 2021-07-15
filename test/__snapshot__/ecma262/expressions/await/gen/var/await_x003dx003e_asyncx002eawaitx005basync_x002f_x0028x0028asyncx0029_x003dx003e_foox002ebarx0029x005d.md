@@ -278,7 +278,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
 
 ```javascript
 ✖ Identifier expected - start: 44, end: 47
-✖ ',' expected - start: 44, end: 47
+✖ Variable declaration not allowed at this location - start: 44, end: 47
 ✖ Declaration or statement expected - start: 89, end: 91
 ✖ Declaration or statement expected - start: 91, end: 92
 

@@ -33,7 +33,15 @@ class typeof {}
                 "start": 0,
                 "end": 5
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 5
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -113,7 +121,7 @@ class typeof {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 6, end: 12
+✖ Binding identifier expected - start: 5, end: 12
 
 ```
 

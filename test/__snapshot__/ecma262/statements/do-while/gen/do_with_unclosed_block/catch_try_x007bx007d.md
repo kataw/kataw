@@ -205,7 +205,7 @@ do {} while (x) { catch try {}
 
 ```javascript
 ✖ 'try' expected - start: 17, end: 23
-✖ Declaration or statement expected - start: 30, end: 30
+✖ 'catch' expected - start: 30, end: 30
 
 ```
 

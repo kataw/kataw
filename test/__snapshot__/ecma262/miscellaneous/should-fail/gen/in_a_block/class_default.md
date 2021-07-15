@@ -38,7 +38,15 @@
                             "start": 1,
                             "end": 7
                         },
-                        "name": null,
+                        "name": {
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
+                            "transformFlags": 0,
+                            "start": 7,
+                            "end": 7
+                        },
                         "typeParameters": null,
                         "tail": {
                             "kind": 277,
@@ -92,7 +100,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 8, end: 15
+✖ Binding identifier expected - start: 7, end: 15
 ✖ Declaration or statement expected - start: 15, end: 17
 
 ```

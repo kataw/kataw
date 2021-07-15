@@ -143,7 +143,15 @@
                                         "start": 23,
                                         "end": 29
                                     },
-                                    "name": null,
+                                    "name": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
+                                        "flags": 64,
+                                        "transformFlags": 0,
+                                        "start": 29,
+                                        "end": 29
+                                    },
                                     "typeParameters": null,
                                     "tail": {
                                         "kind": 277,

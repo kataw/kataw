@@ -83,7 +83,15 @@ function f() {
                                 "start": 30,
                                 "end": 38
                             },
-                            "name": null,
+                            "name": {
+                                "kind": 16637,
+                                "text": "",
+                                "rawText": "",
+                                "flags": 64,
+                                "transformFlags": 0,
+                                "start": 38,
+                                "end": 38
+                            },
                             "typeParameters": null,
                             "tail": {
                                 "kind": 277,
@@ -159,7 +167,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 39, end: 40
+✖ Binding identifier expected - start: 38, end: 40
 ✖ Declaration or statement expected - start: 42, end: 44
 
 ```

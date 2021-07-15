@@ -236,12 +236,34 @@ export function consumeToken<T extends TokenSyntaxKind>(
   return null;
 }
 
+export function consumeAndCheckForEscapeSequence<T extends TokenSyntaxKind>(
+  parser: ParserState,
+  context: Context,
+  flag: NodeFlags,
+  pos: number
+): any {
+  const { token, nodeFlags } = parser;
+  if (nodeFlags & 0b00000000000000000110000000000000) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+      pos,
+      parser.pos
+    );
+  }
+  parser.assignable = false;
+  nextToken(parser, context);
+  return createToken(token, flag | NodeFlags.NoChildren | nodeFlags, pos, parser.curPos);
+}
+
 export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKind>(
   parser: ParserState,
   context: Context,
   token: T,
   flag: NodeFlags,
-  pos: number
+  pos: number,
+  diagnosticMessage?: DiagnosticCode
 ): any {
   if (parser.token === token) {
     const { token, nodeFlags } = parser;
@@ -257,6 +279,16 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
     parser.assignable = false;
     nextToken(parser, context);
     return createToken(token, flag | NodeFlags.NoChildren | nodeFlags, pos, parser.curPos);
+  }
+  if (diagnosticMessage && parser.previousErrorPos !== parser.pos) {
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[diagnosticMessage],
+      parser.curPos,
+      parser.pos
+    );
   }
   return null;
 }

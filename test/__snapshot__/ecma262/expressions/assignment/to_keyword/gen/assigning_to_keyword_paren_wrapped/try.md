@@ -128,7 +128,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 4
-✖ Declaration or statement expected - start: 4, end: 6
+✖ 'catch' expected - start: 4, end: 6
 ✖ Expected a `;` - start: 8, end: 9
 
 ```

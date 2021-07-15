@@ -328,7 +328,7 @@ do {} while (x) { =! class function try while with foo!
 ✖ Missing an opening brace - '{ - start: 27, end: 35
 ✖ Binding identifier expected - start: 35, end: 39
 ✖ Missing an opening parentheses - '( - start: 36, end: 39
-✖ Declaration or statement expected - start: 39, end: 45
+✖ 'catch' expected - start: 39, end: 45
 ✖ Missing an opening parentheses - '( - start: 46, end: 50
 ✖ Missing an opening parentheses - '( - start: 51, end: 54
 ✖ Declaration or statement expected - start: 54, end: 55

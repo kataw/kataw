@@ -190,6 +190,7 @@ import {
   lookupBreakTarget,
   lookupContinueTarget,
   FunctionTypeFlags,
+  consumeAndCheckForEscapeSequence,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
@@ -272,21 +273,21 @@ export function parse(
 
   const statements = [];
   const directives = [];
-
+  let expr!: StringLiteral;
   while (parser.token === SyntaxKind.StringLiteral) {
-    const start = parser.curPos;
-    const expr = parseStringLiteral(parser, context);
+    expr = parseStringLiteral(parser, context);
     if (isValidDirective(parser) && expr.rawText.length === 12 && expr.text === 'use strict') {
       context |= Context.Strict;
       parseSemicolon(parser, context);
       directives.push(expr);
     } else {
       statements.push(
-        parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, start), start)
+        parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, expr.start), expr.start)
       );
     }
   }
 
+  // TODO: Should we allocate memory for this?
   const scope: ScopeState = {
     kind: ScopeKind.Block,
     scope: null,
@@ -459,10 +460,9 @@ function parseSwitchStatement(
   ownLabels: any
 ): SwitchStatement {
   const pos = parser.curPos;
-  const switchToken = consumeKeywordAndCheckForEscapeSequence(
+  const switchToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.SwitchKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -587,10 +587,6 @@ function isCaseOrDefaultClause(t: SyntaxKind): boolean {
 //
 // Finally :
 //   `finally` Block
-//
-// CatchParameter :
-//   BindingIdentifier
-//   BindingPattern
 function parseTryStatement(parser: ParserState, context: Context, scope: ScopeState, labels: any): TryStatement {
   const pos = parser.curPos;
   const tryToken = consumeKeywordAndCheckForEscapeSequence(
@@ -615,8 +611,7 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
     labels,
     null
   );
-  const catchClause =
-    parser.token === SyntaxKind.CatchKeyword ? parseCatchClause(parser, context, scope, labels) : null;
+  const catchClause = parseCatchClause(parser, context, scope, labels);
 
   // If we don't have a catch clause, then we must have a finally clause. Try to parse
   // one out no matter what.
@@ -627,7 +622,9 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
       parser,
       context | Context.AllowRegExp,
       SyntaxKind.FinallyKeyword,
-      DiagnosticCode.Declaration_or_statement_expected
+      !catchClause && parser.token !== SyntaxKind.FinallyKeyword
+        ? DiagnosticCode._catch_expected
+        : DiagnosticCode._finally_expected
     );
     finallyBlock = parseBlockStatement(
       parser,
@@ -644,7 +641,10 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
   return createTryStatement(tryToken, block, catchClause, finallyKeyword, finallyBlock, pos, parser.curPos);
 }
 
-function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState, labels: any): CatchClause {
+// CatchParameter :
+//   BindingIdentifier
+//   BindingPattern
+function parseCatchClause(parser: ParserState, context: Context, scope: ScopeState, labels: any): CatchClause | null {
   const pos = parser.curPos;
   const catchToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -653,6 +653,9 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
     NodeFlags.IsStatement,
     pos
   );
+
+  if (!catchToken) return null;
+
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
 
@@ -683,10 +686,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
         ? DiagnosticCode.Catch_clause_variable_cannot_have_an_initializer
         : DiagnosticCode.Expected_a_to_match_the_token_here
     );
-    // https://tc39.es/ecma262/#sec-runtime-semantics-catchclauseevaluation
-    //
-    // Step 8 means that the body of a catch block always has an additional
-    // lexical scope.
+
     scope = {
       kind: ScopeKind.CatchBlock,
       scope,
@@ -705,10 +705,9 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
 
 function parseDebuggerStatement(parser: ParserState, context: Context): DebuggerStatement {
   const pos = parser.curPos;
-  const debuggerToken = consumeKeywordAndCheckForEscapeSequence(
+  const debuggerToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.DebuggerKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -728,10 +727,9 @@ function parseEmptyStatement(parser: ParserState, context: Context): EmptyStatem
 function parseBreakStatement(parser: ParserState, context: Context, labels: any): BreakStatement {
   const pos = parser.curPos;
   let label = null;
-  const breakToken = consumeKeywordAndCheckForEscapeSequence(
+  const breakToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.BreakKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -779,10 +777,9 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
     );
   }
   let label = null;
-  const continueToken = consumeKeywordAndCheckForEscapeSequence(
+  const continueToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.ContinueKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -807,13 +804,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
 //  `if` `(` Expression `)` Statement [lookahead != `else`]
 function parseIfStatement(parser: ParserState, context: Context, scope: ScopeState, labels: any): IfStatement {
   const pos = parser.curPos;
-  const ifKeyword = consumeKeywordAndCheckForEscapeSequence(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.IfKeyword,
-    NodeFlags.IsStatement,
-    pos
-  );
+  const ifKeyword = consumeAndCheckForEscapeSequence(parser, context | Context.AllowRegExp, NodeFlags.IsStatement, pos);
   const openParenExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -920,7 +911,7 @@ function parseIterationStatement(
   parser: ParserState,
   context: Context,
   allowFunction: boolean,
-  scope: any,
+  scope: ScopeState,
   labels: any,
   ownLabels: any
 ): any {
@@ -973,10 +964,9 @@ function parseWhileStatement(
   ownLabels: any
 ): WhileStatement {
   const pos = parser.curPos;
-  const whileToken = consumeKeywordAndCheckForEscapeSequence(
+  const whileToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.WhileKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -1022,13 +1012,7 @@ function parseDoWhileStatement(
   ownLabels: any
 ): DoWhileStatement {
   const pos = parser.curPos;
-  const doKeyword = consumeKeywordAndCheckForEscapeSequence(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.DoKeyword,
-    NodeFlags.IsStatement,
-    pos
-  );
+  const doKeyword = consumeAndCheckForEscapeSequence(parser, context | Context.AllowRegExp, NodeFlags.IsStatement, pos);
   const statement = parseIterationStatement(
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
@@ -1090,10 +1074,9 @@ function parseWithStatement(
       parser.pos
     );
   }
-  const withKeyword = consumeKeywordAndCheckForEscapeSequence(
+  const withKeyword = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.WithKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -1134,10 +1117,9 @@ function parseWithStatement(
 //   `throw` [no LineTerminator here] Expression `;`
 function parseThrowStatement(parser: ParserState, context: Context): ThrowStatement {
   const pos = parser.curPos;
-  const throwKeyword = consumeKeywordAndCheckForEscapeSequence(
+  const throwKeyword = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.ThrowKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -1173,10 +1155,9 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
       parser.pos
     );
   }
-  const returnToken = consumeKeywordAndCheckForEscapeSequence(
+  const returnToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.ReturnKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -1300,10 +1281,9 @@ function parseForStatement(
   labels: any
 ): ForStatement | ForInStatement | ForOfStatement {
   const pos = parser.curPos;
-  const forKeyword = consumeKeywordAndCheckForEscapeSequence(
+  const forKeyword = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.ForKeyword,
     NodeFlags.IsStatement,
     pos
   );
@@ -2704,13 +2684,7 @@ function parsePrimaryExpression(
 
     // - `this`
     if (parser.token === SyntaxKind.ThisKeyword) {
-      return consumeKeywordAndCheckForEscapeSequence(
-        parser,
-        context,
-        SyntaxKind.ThisKeyword,
-        NodeFlags.ExpressionNode,
-        parser.curPos
-      );
+      return consumeAndCheckForEscapeSequence(parser, context, NodeFlags.ExpressionNode, parser.curPos);
     }
 
     // - `await`
@@ -3695,10 +3669,9 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
 // NewExpression
 function parseNewExpression(parser: ParserState, context: Context): NewTarget | NewExpression {
   const pos = parser.curPos;
-  const newToken = consumeKeywordAndCheckForEscapeSequence(
+  const newToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
-    SyntaxKind.NewKeyword,
     NodeFlags.ExpressionNode,
     pos
   );
@@ -8820,7 +8793,9 @@ function parseVariableDeclarationList(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        parser.token & SyntaxKind.IsKeyword ? DiagnosticCode.Variable_declaration_expected : DiagnosticCode._expected
+        parser.token & SyntaxKind.IsKeyword
+          ? DiagnosticCode.Variable_declaration_expected
+          : DiagnosticCode.Variable_declaration_not_allowed_at_this_location
       ],
       parser.curPos,
       parser.pos
@@ -8906,11 +8881,10 @@ function parseTypeAsIdentifierOrTypeAlias(
   labels: any,
   ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement {
-  const pos = parser.curPos;
   const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
   let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    const expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    const expr = parseIdentifier(parser, context, Constants.Identifier);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -8929,10 +8903,12 @@ function parseTypeAsIdentifierOrTypeAlias(
       assignToken,
       type as any,
       nodeFlags,
-      pos,
+      typeToken.start,
       parser.curPos
     );
   }
+
+  parser.assignable = true;
 
   let expr = createIdentifier(
     'type',
@@ -8942,7 +8918,6 @@ function parseTypeAsIdentifierOrTypeAlias(
     typeToken.end
   );
 
-  parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
     return parseLabelledStatement(
       parser,
@@ -8954,7 +8929,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       scope,
       labels,
       ownLabels,
-      pos
+      typeToken.start
     );
   }
   if (parser.token === SyntaxKind.Arrow) {
@@ -8967,10 +8942,15 @@ function parseTypeAsIdentifierOrTypeAlias(
       /* params */ expr,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
-      pos
+      typeToken.start
     ) as any;
   }
-  return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, pos), pos);
+  return parseExpressionStatement(
+    parser,
+    context,
+    parseExpressionRest(parser, context, expr, typeToken.start),
+    typeToken.start
+  );
 }
 
 function parseLetAsIdentifierOrLexicalDeclaration(
@@ -9995,7 +9975,7 @@ function parseClassDeclaration(
         parser.pos
       );
     }
-  } else if (parser.token & Constants.Identifier && parser.token !== SyntaxKind.ExtendsKeyword) {
+  } else if (parser.token !== SyntaxKind.ExtendsKeyword) {
     name = parseBindingIdentifier(parser, context, scope, BindingType.Const);
   }
 
@@ -10003,7 +9983,7 @@ function parseClassDeclaration(
   // "class Foo<T = undefined> {}"
   const typeParameters = parseTypeParameterDeclaration(parser, context);
 
-  const classTail = parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true);
+  const classTail = parseClassTail(parser, context | Context.InClassBody, !!declareKeyword, true);
 
   parser.assignable = false;
 
@@ -10041,6 +10021,33 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
         parser.pos
       );
     }
+    if (context & (Context.Strict | Context.YieldContext) && parser.token === SyntaxKind.YieldKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    } else if (
+      context & (Context.Module | Context.ClassStaticBlockContext | Context.AwaitContext) &&
+      parser.token === SyntaxKind.AwaitKeyword
+    ) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[
+          context & Context.ClassStaticBlockContext
+            ? DiagnosticCode.Await_expression_cannot_be_used_inside_class_static_block
+            : context & Context.Module
+            ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal
+            : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
+        ],
+        parser.curPos,
+        pos
+      );
+    }
+
     name = parseIdentifierReference(parser, context);
   }
 

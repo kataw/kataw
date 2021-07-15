@@ -121,7 +121,7 @@ var x = ...y;
 
 ```javascript
 ✖ Identifier expected - start: 7, end: 11
-✖ ',' expected - start: 7, end: 11
+✖ Variable declaration not allowed at this location - start: 7, end: 11
 
 ```
 

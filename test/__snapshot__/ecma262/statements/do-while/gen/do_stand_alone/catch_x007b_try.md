@@ -169,7 +169,7 @@ do catch { try
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ Declaration or statement expected - start: 14, end: 14
+✖ 'catch' expected - start: 14, end: 14
 
 ```
 

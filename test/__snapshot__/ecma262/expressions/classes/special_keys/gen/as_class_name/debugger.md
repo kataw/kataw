@@ -33,7 +33,15 @@ class debugger {}
                 "start": 0,
                 "end": 5
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 5
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -105,7 +113,7 @@ class debugger {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 6, end: 14
+✖ Binding identifier expected - start: 5, end: 14
 ✖ Expected a `;` - start: 14, end: 16
 
 ```

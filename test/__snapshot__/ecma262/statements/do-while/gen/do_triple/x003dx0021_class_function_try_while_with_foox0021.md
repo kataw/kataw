@@ -437,7 +437,7 @@ do do do =! class function try while with foo! while while while
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 10
 ✖ Missing an opening brace - '{ - start: 18, end: 26
 ✖ Missing an opening parentheses - '( - start: 27, end: 30
-✖ Declaration or statement expected - start: 30, end: 36
+✖ 'catch' expected - start: 30, end: 36
 ✖ Missing an opening parentheses - '( - start: 37, end: 41
 ✖ Missing an opening parentheses - '( - start: 42, end: 45
 ✖ Declaration or statement expected - start: 45, end: 46

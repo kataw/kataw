@@ -290,7 +290,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Missing an opening parentheses - '( - start: 24, end: 27
-✖ Declaration or statement expected - start: 27, end: 32
+✖ 'catch' expected - start: 27, end: 32
 ✖ Expected a `;` - start: 32, end: 36
 ✖ Expected a `;` - start: 36, end: 38
 ✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 41

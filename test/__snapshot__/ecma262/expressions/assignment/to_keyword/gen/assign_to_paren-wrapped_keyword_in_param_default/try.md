@@ -192,7 +192,7 @@ async (x = (try) = f) => {}
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 15
-✖ Declaration or statement expected - start: 15, end: 16
+✖ 'catch' expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 18
 ✖ Expected a `;` - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 24

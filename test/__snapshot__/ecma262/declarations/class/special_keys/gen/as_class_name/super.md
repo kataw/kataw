@@ -33,7 +33,15 @@ class super {}
                 "start": 0,
                 "end": 5
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 5
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -121,7 +129,7 @@ class super {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 6, end: 11
+✖ Binding identifier expected - start: 5, end: 11
 ✖ 'super' must be followed by an argument list or member access. - start: 5, end: 13
 ✖ Dot property must be an identifier - start: 11, end: 13
 ✖ Expected a `;` - start: 11, end: 13

@@ -172,7 +172,7 @@ for (var r == y in x );
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 10, end: 13
+✖ Variable declaration not allowed at this location - start: 10, end: 13
 ✖ Identifier expected - start: 10, end: 13
 
 ```

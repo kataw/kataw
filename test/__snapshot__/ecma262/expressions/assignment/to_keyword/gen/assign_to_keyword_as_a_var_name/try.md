@@ -104,7 +104,7 @@ try = x
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 3, end: 5
+✖ 'catch' expected - start: 3, end: 5
 
 ```
 

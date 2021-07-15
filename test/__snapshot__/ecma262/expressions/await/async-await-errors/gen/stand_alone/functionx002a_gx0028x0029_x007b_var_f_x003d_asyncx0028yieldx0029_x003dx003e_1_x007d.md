@@ -202,7 +202,7 @@ function* g() { var f = async(yield) => 1; }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 36, end: 39
+✖ Variable declaration not allowed at this location - start: 36, end: 39
 ✖ Expected a `;` - start: 36, end: 39
 ✖ Declaration or statement expected - start: 42, end: 44
 

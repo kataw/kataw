@@ -8673,7 +8673,7 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Did you forgot a ']' to match the `[` token? - start: 2515, end: 2517
 ✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
-✖ ',' expected - start: 2514, end: 2517
+✖ Variable declaration not allowed at this location - start: 2514, end: 2517
 ✖ Expected a `;` - start: 2517, end: 2518
 ✖ Declaration or statement expected - start: 2518, end: 2520
 ✖ Declaration or statement expected - start: 2526, end: 2527
@@ -8681,7 +8681,7 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2562, end: 2565
 ✖ Did you forgot a ']' to match the `[` token? - start: 2563, end: 2565
 ✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
-✖ ',' expected - start: 2562, end: 2565
+✖ Variable declaration not allowed at this location - start: 2562, end: 2565
 ✖ Expected a `;` - start: 2565, end: 2566
 ✖ Declaration or statement expected - start: 2566, end: 2568
 ✖ Declaration or statement expected - start: 2574, end: 2575

@@ -269,7 +269,7 @@ declare var x2: X;
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 34, end: 35
+✖ Variable declaration not allowed at this location - start: 34, end: 35
 ✖ Expected a `;` - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 36
 

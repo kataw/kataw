@@ -265,7 +265,7 @@ foo = {
 
 ```javascript
 ✖ Identifier expected - start: 42, end: 45
-✖ Declaration or statement expected - start: 45, end: 47
+✖ 'catch' expected - start: 45, end: 47
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 47
 ✖ Expected a `;` - start: 49, end: 50
 ✖ Declaration or statement expected - start: 51, end: 55

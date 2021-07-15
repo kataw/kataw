@@ -222,7 +222,7 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
-✖ Declaration or statement expected - start: 22, end: 22
+✖ 'catch' expected - start: 22, end: 22
 
 ```
 

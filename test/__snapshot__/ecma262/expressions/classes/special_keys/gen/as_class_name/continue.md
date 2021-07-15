@@ -33,7 +33,15 @@ class continue {}
                 "start": 0,
                 "end": 5
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 5,
+                "end": 5
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -114,7 +122,7 @@ class continue {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 6, end: 14
+✖ Binding identifier expected - start: 5, end: 14
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 5, end: 14
 ✖ Identifier expected - start: 14, end: 16
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 5, end: 16

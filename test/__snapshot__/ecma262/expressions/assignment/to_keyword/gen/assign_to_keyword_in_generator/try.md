@@ -166,7 +166,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 20, end: 22
+✖ 'catch' expected - start: 20, end: 22
 ✖ Declaration or statement expected - start: 25, end: 27
 
 ```

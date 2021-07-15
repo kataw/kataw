@@ -192,7 +192,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 5, end: 11
-✖ Declaration or statement expected - start: 18, end: 18
+✖ 'catch' expected - start: 18, end: 18
 
 ```
 

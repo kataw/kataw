@@ -126,7 +126,7 @@ var a: -z
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 5, end: 6
+✖ Variable declaration not allowed at this location - start: 5, end: 6
 ✖ Expected a `;` - start: 5, end: 6
 
 ```

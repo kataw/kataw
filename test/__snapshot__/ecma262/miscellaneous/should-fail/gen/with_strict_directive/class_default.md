@@ -43,7 +43,15 @@
                 "start": 13,
                 "end": 19
             },
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 19,
+                "end": 19
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,
@@ -86,7 +94,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 20, end: 27
+✖ Binding identifier expected - start: 19, end: 27
 
 ```
 

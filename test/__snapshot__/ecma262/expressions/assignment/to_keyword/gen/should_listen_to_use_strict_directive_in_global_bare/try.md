@@ -114,7 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 17, end: 19
+✖ 'catch' expected - start: 17, end: 19
 
 ```
 

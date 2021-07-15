@@ -60,7 +60,15 @@ class C2 {
                 "end": 1
             },
             "classKeyword": null,
-            "name": null,
+            "name": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 1,
+                "end": 1
+            },
             "typeParameters": null,
             "tail": {
                 "kind": 277,

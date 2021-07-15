@@ -213,7 +213,7 @@ async (x = delete ((try) = f)) => {}
 
 ```javascript
 ✖ Identifier expected - start: 20, end: 23
-✖ Declaration or statement expected - start: 23, end: 24
+✖ 'catch' expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
 ✖ Expected a `;` - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30

@@ -183,7 +183,7 @@ var f = (x): string | (number) => 123 => 123;
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 37, end: 40
+✖ Variable declaration not allowed at this location - start: 37, end: 40
 ✖ Expected a `;` - start: 37, end: 40
 
 ```

@@ -212,7 +212,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 50, end: 53
+✖ Variable declaration not allowed at this location - start: 50, end: 53
 ✖ Expected a `;` - start: 50, end: 53
 ✖ Declaration or statement expected - start: 56, end: 58
 

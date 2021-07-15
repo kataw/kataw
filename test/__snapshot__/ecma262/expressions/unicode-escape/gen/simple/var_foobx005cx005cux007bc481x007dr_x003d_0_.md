@@ -125,7 +125,7 @@ var foob\\u{c481}r = 0;
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 3, end: 8
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 8
-✖ ',' expected - start: 8, end: 9
+✖ Variable declaration not allowed at this location - start: 8, end: 9
 ✖ Expected a `;` - start: 8, end: 9
 
 ```

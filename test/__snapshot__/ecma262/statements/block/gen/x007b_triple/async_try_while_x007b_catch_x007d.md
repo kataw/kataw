@@ -209,7 +209,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 11, end: 15
-✖ Declaration or statement expected - start: 15, end: 21
+✖ 'catch' expected - start: 15, end: 21
 ✖ Missing an opening parentheses - '( - start: 22, end: 23
 ✖ Property definition expected. Did you mean to use a ':'? - start: 29, end: 31
 ✖ Declaration or statement expected - start: 30, end: 31

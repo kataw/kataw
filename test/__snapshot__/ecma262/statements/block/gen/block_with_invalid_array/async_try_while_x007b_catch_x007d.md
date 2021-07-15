@@ -258,7 +258,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Expected a `;` - start: 15, end: 19
-✖ Declaration or statement expected - start: 19, end: 25
+✖ 'catch' expected - start: 19, end: 25
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
 ✖ Property definition expected. Did you mean to use a ':'? - start: 33, end: 35
 ✖ Declaration or statement expected - start: 34, end: 35

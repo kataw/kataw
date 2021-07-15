@@ -6530,7 +6530,7 @@ for ({a: b.c}-- of d) e;
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 749, end: 760
 ✖ Object property expected - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
-✖ ',' expected - start: 793, end: 795
+✖ Variable declaration not allowed at this location - start: 793, end: 795
 ✖ Identifier expected - start: 805, end: 807
 ✖ Expected a `;` - start: 815, end: 816
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 840, end: 842

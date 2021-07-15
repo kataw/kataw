@@ -562,6 +562,7 @@ class C {
 
 ```javascript
 ✖ Identifier expected - start: 87, end: 88
+✖ Await expression cannot be used inside class static block. - start: 271, end: 266
 
 ```
 

@@ -212,7 +212,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
 ✖ Invalid hexadecimal escape sequence - start: 64, end: 68
 ✖ Invalid hexadecimal escape sequence - start: 68, end: 68
 ✖ Expected a `;` - start: 68, end: 69
-✖ ',' expected - start: 68, end: 69
+✖ Variable declaration not allowed at this location - start: 68, end: 69
 ✖ Declaration or statement expected - start: 76, end: 78
 ✖ Declaration or statement expected - start: 78, end: 80
 ✖ Declaration or statement expected - start: 80, end: 81

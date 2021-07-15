@@ -294,7 +294,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 
 ```javascript
 ✖ Expected a `;` - start: 53, end: 55
-✖ ',' expected - start: 69, end: 75
+✖ Variable declaration not allowed at this location - start: 69, end: 75
 ✖ Expected a `;` - start: 69, end: 75
 
 ```

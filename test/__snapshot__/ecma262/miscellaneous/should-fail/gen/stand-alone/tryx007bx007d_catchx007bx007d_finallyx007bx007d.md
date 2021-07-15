@@ -203,7 +203,7 @@ try{};catch{};finally{}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 5, end: 6
+✖ 'catch' expected - start: 5, end: 6
 ✖ 'try' expected - start: 6, end: 11
 ✖ 'try' expected - start: 14, end: 21
 

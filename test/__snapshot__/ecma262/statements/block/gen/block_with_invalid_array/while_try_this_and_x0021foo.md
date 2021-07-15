@@ -269,7 +269,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Missing an opening parentheses - '( - start: 16, end: 19
-✖ Declaration or statement expected - start: 19, end: 24
+✖ 'catch' expected - start: 19, end: 24
 ✖ Expected a `;` - start: 24, end: 28
 ✖ Expected a `;` - start: 28, end: 30
 

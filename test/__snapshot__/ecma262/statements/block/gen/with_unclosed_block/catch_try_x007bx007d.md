@@ -262,7 +262,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ 'try' expected - start: 17, end: 23
-✖ Declaration or statement expected - start: 30, end: 30
+✖ 'catch' expected - start: 30, end: 30
 
 ```
 

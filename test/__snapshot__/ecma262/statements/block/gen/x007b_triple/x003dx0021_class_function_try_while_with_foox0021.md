@@ -315,7 +315,7 @@
 ✖ Missing an opening brace - '{ - start: 15, end: 23
 ✖ Binding identifier expected - start: 23, end: 27
 ✖ Missing an opening parentheses - '( - start: 24, end: 27
-✖ Declaration or statement expected - start: 27, end: 33
+✖ 'catch' expected - start: 27, end: 33
 ✖ Missing an opening parentheses - '( - start: 34, end: 38
 ✖ Missing an opening parentheses - '( - start: 39, end: 42
 ✖ Declaration or statement expected - start: 42, end: 43

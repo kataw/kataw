@@ -215,7 +215,7 @@ function *f(x = (try) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 20
-✖ Declaration or statement expected - start: 20, end: 21
+✖ 'catch' expected - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
 ✖ Expected a `;` - start: 25, end: 26
 

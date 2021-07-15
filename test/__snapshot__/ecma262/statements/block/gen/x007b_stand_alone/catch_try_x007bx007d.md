@@ -160,7 +160,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 1, end: 7
-✖ Declaration or statement expected - start: 14, end: 14
+✖ 'catch' expected - start: 14, end: 14
 
 ```
 

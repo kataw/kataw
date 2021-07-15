@@ -54,7 +54,15 @@
                             "start": 10,
                             "end": 16
                         },
-                        "name": null,
+                        "name": {
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
+                            "transformFlags": 0,
+                            "start": 16,
+                            "end": 16
+                        },
                         "typeParameters": null,
                         "tail": {
                             "kind": 277,
@@ -198,7 +206,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 10, end: 16
-✖ Missing an opening brace - '{ - start: 17, end: 25
+✖ Binding identifier expected - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 27
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
 ✖ Identifier expected - start: 28, end: 28
