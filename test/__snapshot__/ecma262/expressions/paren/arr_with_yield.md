@@ -62,7 +62,7 @@ result = [x[yield]] = vals;
                                         "start": 12,
                                         "end": 17
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 4,
                                     "start": 10,
                                     "end": 18

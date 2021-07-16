@@ -103,7 +103,7 @@ class A extends x in y {}
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 17,
                     "end": 20
                 },
@@ -162,7 +162,7 @@ class A extends x in y {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 18, end: 20
-✖ Expected a `;` - start: 22, end: 24
+✖ '; ' expected - start: 22, end: 24
 
 ```
 

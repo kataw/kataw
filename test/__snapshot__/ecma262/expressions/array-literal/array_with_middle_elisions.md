@@ -85,12 +85,13 @@
 ### Printed
 
 ```javascript
-[x, , y];
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ HTML comments can only be used with web compatibility enabled - start: 0, end: 14
+
 ```
 

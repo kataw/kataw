@@ -70,7 +70,7 @@ import(x,y(
                             "start": 11,
                             "end": 11
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 9,
                         "end": 11

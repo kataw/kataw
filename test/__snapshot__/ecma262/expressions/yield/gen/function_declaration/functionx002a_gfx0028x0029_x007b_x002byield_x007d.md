@@ -73,7 +73,7 @@ function not_gen() { function* gf() { +yield; } }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 30
                             },
@@ -131,7 +131,7 @@ function not_gen() { function* gf() { +yield; } }}
                                                     "end": 44
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 37,
                                                 "end": 44
                                             },

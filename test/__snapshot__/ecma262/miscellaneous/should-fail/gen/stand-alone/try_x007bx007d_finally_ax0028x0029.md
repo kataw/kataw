@@ -96,7 +96,7 @@ try {} finally a()
                     "start": 17,
                     "end": 17
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 14,
                 "end": 18

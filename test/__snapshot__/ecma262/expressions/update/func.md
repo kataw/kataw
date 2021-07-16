@@ -80,7 +80,7 @@ function f(){ return --a; }
                                     "end": 24
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 20,
                                 "end": 24
                             },

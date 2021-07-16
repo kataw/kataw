@@ -6,6 +6,7 @@ import { scanString } from './string';
 import { scanTemplate } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
+import { skipMultilineComment, skipSingleLineComment } from './comments';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import {
@@ -148,9 +149,9 @@ export const firstCharKinds = [
 ];
 
 export function nextToken(parser: ParserState, context: Context): void {
-  parser.nodeFlags = NodeFlags.None; //context & Context.Strict ? NodeFlags.Strict : NodeFlags.None;
+  parser.nodeFlags = NodeFlags.None;
   parser.curPos = parser.pos;
-  (parser.token as any) = scan(parser, context);
+  parser.token = scan(parser, context);
 }
 
 export function scan(parser: ParserState, context: Context): SyntaxKind {
@@ -317,60 +318,13 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         cp = source.charCodeAt(++parser.pos);
         // is it a // comment?
         if (cp === Char.Slash) {
-          let pos = parser.pos;
-          while (pos < parser.end && !isLineTerminator(cp)) {
-            cp = source.charCodeAt(++pos);
-            // kataw-ignore
-            if (
-              cp === Char.LowerK &&
-              source.charCodeAt(pos + 1) === Char.LowerA &&
-              (source.charCodeAt(pos + 12) === Char.LineFeed || source.charCodeAt(pos + 12) === Char.CarriageReturn) &&
-              source.charCodeAt(pos + 11) === Char.LowerE &&
-              source.charCodeAt(pos + 10) === Char.LowerR &&
-              source.charCodeAt(pos + 9) === Char.LowerO &&
-              source.charCodeAt(pos + 8) === Char.LowerN &&
-              source.charCodeAt(pos + 7) === Char.LowerG &&
-              source.charCodeAt(pos + 5) === Char.Hyphen &&
-              source.charCodeAt(pos + 6) === Char.LowerI &&
-              source.charCodeAt(pos + 2) === Char.LowerT &&
-              source.charCodeAt(pos + 3) === Char.LowerA &&
-              source.charCodeAt(pos + 4) === Char.LowerW
-            ) {
-              parser.nodeFlags |= NodeFlags.IgnoreNextNode;
-            }
-          }
-          parser.pos = pos;
+          skipSingleLineComment(parser, cp, source);
           break;
         }
 
         // is it a /* or /** comment?
         if (cp === Char.Asterisk) {
-          cp = source.charCodeAt(++parser.pos);
-
-          let commentClosed = false;
-
-          do {
-            if (cp === Char.Asterisk && source.charCodeAt(parser.pos + 1) === Char.Slash) {
-              parser.pos += 2;
-              commentClosed = true;
-              break;
-            }
-
-            if (isLineTerminator(cp)) parser.nodeFlags |= NodeFlags.NewLine;
-
-            parser.pos++;
-            cp = source.charCodeAt(parser.pos);
-          } while (parser.pos < parser.end);
-
-          if (!commentClosed) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Unexpected_token],
-              parser.curPos,
-              parser.pos
-            );
-          }
+          skipMultilineComment(parser, cp, source);
           break;
         }
         if (context & Context.AllowRegExp) return scanRegularExpression(parser, source);
@@ -392,14 +346,24 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           parser.pos++;
           // treat HTML end-comment after possible whitespace
           // after line start as comment-until-eol
-          if (
-            (context & Context.Module) === 0 &&
-            source.charCodeAt(parser.pos) === Char.GreaterThan &&
-            parser.nodeFlags & NodeFlags.NewLine
-          ) {
+          if (source.charCodeAt(parser.pos) === Char.GreaterThan && parser.nodeFlags & NodeFlags.NewLine) {
+            const pos = parser.pos;
             parser.pos++;
             while (parser.pos < parser.end && !isLineTerminator(source.charCodeAt(parser.pos))) {
               parser.pos++;
+            }
+            if (context & (Context.Module | Context.OptionsDisableWebCompat)) {
+              parser.onError(
+                DiagnosticSource.Parser,
+                DiagnosticKind.Error,
+                diagnosticMap[
+                  context & Context.OptionsDisableWebCompat
+                    ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
+                    : DiagnosticCode.HTML_comments_can_only_be_used_in_script_mode
+                ],
+                pos - 1,
+                parser.pos
+              );
             }
             continue;
           }
@@ -412,7 +376,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         }
         return SyntaxKind.Subtract;
 
-      // `<`, `<=`, `<<`, `<<=`, `</`, `<!--`
+      // `<`, `<=`, `<<`, `<<=`, `<!--`
       case SyntaxKind.LessThan:
         cp = source.charCodeAt(++parser.pos);
         if (context & Context.InType) return SyntaxKind.LessThan;
@@ -431,19 +395,24 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
         // NB: Treat HTML open-comment as comment-till-eol
         if (cp === Char.Exclamation) {
-          if (context & Context.Module) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Invalid_character],
-              parser.curPos,
-              parser.pos
-            );
-          }
           parser.pos++;
           if (source.charCodeAt(parser.pos + 1) === Char.Hyphen && source.charCodeAt(parser.pos) == Char.Hyphen) {
+            const pos = parser.pos;
             while (parser.pos < parser.end && !isLineTerminator(source.charCodeAt(parser.pos))) {
               parser.pos++;
+            }
+            if (context & (Context.Module | Context.OptionsDisableWebCompat)) {
+              parser.onError(
+                DiagnosticSource.Parser,
+                DiagnosticKind.Error,
+                diagnosticMap[
+                  context & Context.OptionsDisableWebCompat
+                    ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
+                    : DiagnosticCode.HTML_comments_can_only_be_used_in_script_mode
+                ],
+                pos - 1,
+                parser.pos
+              );
             }
             continue;
           }

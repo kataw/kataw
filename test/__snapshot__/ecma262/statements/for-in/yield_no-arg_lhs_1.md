@@ -55,7 +55,7 @@ for (yield in x);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 10,
                 "end": 13
             },

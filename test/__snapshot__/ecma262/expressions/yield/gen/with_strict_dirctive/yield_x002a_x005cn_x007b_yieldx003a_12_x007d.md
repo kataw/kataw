@@ -48,7 +48,7 @@
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -164,7 +164,7 @@
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 22
 ✖ Identifier expected - start: 21, end: 23
-✖ Expected a `;` - start: 24, end: 26
+✖ '; ' expected - start: 24, end: 26
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 26, end: 33
 
 ```

@@ -110,7 +110,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 21,
                                                 "end": 26
                                             },

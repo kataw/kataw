@@ -130,7 +130,7 @@ function a() {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 29, end: 31
+✖ '; ' expected - start: 29, end: 31
 
 ```
 

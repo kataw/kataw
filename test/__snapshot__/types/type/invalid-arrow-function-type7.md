@@ -226,7 +226,7 @@ type a = ({} | {proto [x]:string}) => T;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 25, end: 26
+✖ '; ' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 37

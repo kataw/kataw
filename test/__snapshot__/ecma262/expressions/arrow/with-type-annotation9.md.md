@@ -114,9 +114,9 @@
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 5, end: 6
-✖ Expected a `;` - start: 6, end: 7
+✖ '; ' expected - start: 6, end: 7
 ✖ Declaration or statement expected - start: 7, end: 8
-✖ Expected a `;` - start: 15, end: 16
+✖ '; ' expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 18
 
 ```

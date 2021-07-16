@@ -36,7 +36,7 @@ function *f(x = (else) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -171,7 +171,7 @@ function *f(x = (else) = f) {}
 ✖ Identifier expected - start: 17, end: 21
 ✖ Declaration or statement expected - start: 21, end: 22
 ✖ Declaration or statement expected - start: 22, end: 24
-✖ Expected a `;` - start: 26, end: 27
+✖ '; ' expected - start: 26, end: 27
 
 ```
 

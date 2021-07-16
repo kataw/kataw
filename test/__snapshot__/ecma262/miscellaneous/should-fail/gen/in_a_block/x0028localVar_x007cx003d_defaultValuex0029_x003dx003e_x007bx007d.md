@@ -119,7 +119,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 28, end: 31
+✖ '; ' expected - start: 28, end: 31
 ✖ Declaration or statement expected - start: 34, end: 36
 
 ```

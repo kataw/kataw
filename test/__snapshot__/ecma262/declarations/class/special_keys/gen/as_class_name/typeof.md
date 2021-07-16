@@ -71,7 +71,7 @@ class typeof {}
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 5,
                     "end": 12
                 },
@@ -92,7 +92,7 @@ class typeof {}
                     "end": 15
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 5,
                 "end": 15
             },

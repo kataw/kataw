@@ -36,7 +36,7 @@ function *f(x = (catch) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -227,7 +227,7 @@ function *f(x = (catch) = f) {}
 ✖ 'try' expected - start: 17, end: 22
 ✖ Declaration or statement expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
-✖ Expected a `;` - start: 27, end: 28
+✖ '; ' expected - start: 27, end: 28
 
 ```
 

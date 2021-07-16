@@ -72,7 +72,7 @@ debugger = x
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 8, end: 10
+✖ '; ' expected - start: 8, end: 10
 
 ```
 

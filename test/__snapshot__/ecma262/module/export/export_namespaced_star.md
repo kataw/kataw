@@ -37,7 +37,7 @@ export * as x from "x" foo
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -128,7 +128,7 @@ export * as x from "x" foo
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 22, end: 26
+✖ '; ' expected - start: 22, end: 26
 
 ```
 

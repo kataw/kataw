@@ -280,7 +280,7 @@ type T27 = ArgumentType<never>;  // any
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 84,
                                                 "end": 89
                                             },
@@ -566,7 +566,7 @@ type T27 = ArgumentType<never>;  // any
                                         "typeOfKeyword": {
                                             "kind": 138477613,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 168,
                                             "end": 174
                                         },
@@ -680,7 +680,7 @@ type T27 = ArgumentType<never>;  // any
                                         "typeOfKeyword": {
                                             "kind": 138477613,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 232,
                                             "end": 238
                                         },
@@ -1185,7 +1185,7 @@ type T27 = ArgumentType<never>;  // any
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 436,
                                                 "end": 441
                                             },

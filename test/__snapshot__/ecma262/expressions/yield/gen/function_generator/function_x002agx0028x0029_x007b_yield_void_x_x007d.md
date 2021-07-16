@@ -36,7 +36,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 50
                                             },
@@ -163,7 +163,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 8192,
                                                                         "start": 61,
                                                                         "end": 66
                                                                     },
@@ -177,7 +177,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                         "end": 68
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 61,
                                                                     "end": 68
                                                                 },

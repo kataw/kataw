@@ -95,7 +95,7 @@ class C {
                                                                                 "asteriskToken": {
                                                                                     "kind": 67143222,
                                                                                     "flags": 65,
-                                                                                    "transformFlags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 27,
                                                                                     "end": 35
                                                                                 },
@@ -281,7 +281,7 @@ class C {
                                                             "start": 115,
                                                             "end": 115
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 20,
                                                         "end": 116
@@ -295,7 +295,7 @@ class C {
                                                         "start": 117,
                                                         "end": 121
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 20,
                                                     "end": 121
@@ -309,7 +309,7 @@ class C {
                                                     "start": 122,
                                                     "end": 122
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 20,
                                                 "end": 123

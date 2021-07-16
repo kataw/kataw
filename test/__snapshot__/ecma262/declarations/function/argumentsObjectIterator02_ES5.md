@@ -301,7 +301,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                             "start": 118,
                                             "end": 133
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 4,
                                         "start": 107,
                                         "end": 134
@@ -456,7 +456,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                 "start": 183,
                                 "end": 183
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 177,
                             "end": 184
@@ -537,7 +537,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                 "start": 208,
                                                 "end": 217
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 187,
                                             "end": 218
@@ -700,10 +700,10 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ```javascript
 ✖ ',' expected - start: 33, end: 34
 ✖ Missing an opening brace - '{ - start: 41, end: 42
-✖ Expected a `;` - start: 55, end: 56
-✖ Expected a `;` - start: 63, end: 64
+✖ '; ' expected - start: 55, end: 56
+✖ '; ' expected - start: 63, end: 64
 ✖ Declaration or statement expected - start: 64, end: 65
-✖ Expected a `;` - start: 90, end: 92
+✖ '; ' expected - start: 90, end: 92
 ✖ A return statement can only be used within a function_body - start: 225, end: 236
 ✖ Identifier expected - start: 236, end: 238
 

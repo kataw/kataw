@@ -258,7 +258,7 @@ module.exports = [
                                     "start": 91,
                                     "end": 91
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 82,
                                 "end": 92
@@ -283,7 +283,7 @@ module.exports = [
                                     "start": 101,
                                     "end": 101
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 93,
                                 "end": 102

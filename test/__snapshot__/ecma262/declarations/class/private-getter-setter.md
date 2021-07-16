@@ -604,7 +604,7 @@ class Foo {
                                                             "start": 164,
                                                             "end": 164
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 158,
                                                         "end": 165
@@ -618,7 +618,7 @@ class Foo {
                                                         "start": 166,
                                                         "end": 170
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 158,
                                                     "end": 170
@@ -654,7 +654,7 @@ class Foo {
                                                                 "start": 176,
                                                                 "end": 176
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 170,
                                                             "end": 177
@@ -668,7 +668,7 @@ class Foo {
                                                             "start": 178,
                                                             "end": 182
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 170,
                                                         "end": 182
@@ -723,7 +723,7 @@ class Foo {
                                                             "start": 192,
                                                             "end": 192
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 186,
                                                         "end": 193
@@ -737,7 +737,7 @@ class Foo {
                                                         "start": 194,
                                                         "end": 199
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 186,
                                                     "end": 199
@@ -773,7 +773,7 @@ class Foo {
                                                                 "start": 205,
                                                                 "end": 205
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 199,
                                                             "end": 206
@@ -787,7 +787,7 @@ class Foo {
                                                             "start": 207,
                                                             "end": 212
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 199,
                                                         "end": 212
@@ -919,7 +919,7 @@ class Foo {
                                                                 "start": 238,
                                                                 "end": 238
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 232,
                                                             "end": 239
@@ -933,7 +933,7 @@ class Foo {
                                                             "start": 240,
                                                             "end": 245
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 232,
                                                         "end": 245
@@ -981,7 +981,7 @@ class Foo {
                                                                 "start": 254,
                                                                 "end": 254
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 248,
                                                             "end": 255
@@ -995,7 +995,7 @@ class Foo {
                                                             "start": 256,
                                                             "end": 261
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 248,
                                                         "end": 261
@@ -1043,7 +1043,7 @@ class Foo {
                                                                 "start": 272,
                                                                 "end": 272
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 269,
                                                             "end": 273
@@ -1057,13 +1057,13 @@ class Foo {
                                                             "start": 274,
                                                             "end": 279
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 269,
                                                         "end": 279
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 264,
                                                     "end": 279
                                                 },
@@ -1105,7 +1105,7 @@ class Foo {
                                                                 "start": 288,
                                                                 "end": 288
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 285,
                                                             "end": 289
@@ -1119,13 +1119,13 @@ class Foo {
                                                             "start": 290,
                                                             "end": 295
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 285,
                                                         "end": 295
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 280,
                                                     "end": 295
                                                 },
@@ -1228,7 +1228,7 @@ class Foo {
                                                                 "start": 319,
                                                                 "end": 319
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 313,
                                                             "end": 320
@@ -1242,7 +1242,7 @@ class Foo {
                                                             "start": 321,
                                                             "end": 326
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 313,
                                                         "end": 326
@@ -1299,7 +1299,7 @@ class Foo {
                                                                 "start": 337,
                                                                 "end": 337
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 331,
                                                             "end": 338
@@ -1313,7 +1313,7 @@ class Foo {
                                                             "start": 339,
                                                             "end": 344
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 331,
                                                         "end": 344
@@ -1370,7 +1370,7 @@ class Foo {
                                                                 "start": 356,
                                                                 "end": 356
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 350,
                                                             "end": 357
@@ -1384,7 +1384,7 @@ class Foo {
                                                             "start": 358,
                                                             "end": 363
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 350,
                                                         "end": 363
@@ -1441,7 +1441,7 @@ class Foo {
                                                                 "start": 375,
                                                                 "end": 375
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 369,
                                                             "end": 376
@@ -1455,7 +1455,7 @@ class Foo {
                                                             "start": 377,
                                                             "end": 382
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 369,
                                                         "end": 382
@@ -1512,7 +1512,7 @@ class Foo {
                                                                 "start": 394,
                                                                 "end": 394
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 388,
                                                             "end": 395
@@ -1526,7 +1526,7 @@ class Foo {
                                                             "start": 396,
                                                             "end": 401
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 388,
                                                         "end": 401
@@ -1583,7 +1583,7 @@ class Foo {
                                                                 "start": 413,
                                                                 "end": 413
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 407,
                                                             "end": 414
@@ -1597,7 +1597,7 @@ class Foo {
                                                             "start": 415,
                                                             "end": 420
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 407,
                                                         "end": 420
@@ -1654,7 +1654,7 @@ class Foo {
                                                                 "start": 432,
                                                                 "end": 432
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 426,
                                                             "end": 433
@@ -1668,7 +1668,7 @@ class Foo {
                                                             "start": 434,
                                                             "end": 439
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 426,
                                                         "end": 439
@@ -1725,7 +1725,7 @@ class Foo {
                                                                 "start": 452,
                                                                 "end": 452
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 446,
                                                             "end": 453
@@ -1739,7 +1739,7 @@ class Foo {
                                                             "start": 454,
                                                             "end": 459
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 446,
                                                         "end": 459
@@ -1796,7 +1796,7 @@ class Foo {
                                                                 "start": 472,
                                                                 "end": 472
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 466,
                                                             "end": 473
@@ -1810,7 +1810,7 @@ class Foo {
                                                             "start": 474,
                                                             "end": 479
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 466,
                                                         "end": 479
@@ -1867,7 +1867,7 @@ class Foo {
                                                                 "start": 492,
                                                                 "end": 492
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 486,
                                                             "end": 493
@@ -1881,7 +1881,7 @@ class Foo {
                                                             "start": 494,
                                                             "end": 499
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 486,
                                                         "end": 499
@@ -1938,7 +1938,7 @@ class Foo {
                                                                 "start": 513,
                                                                 "end": 513
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 507,
                                                             "end": 514
@@ -1952,7 +1952,7 @@ class Foo {
                                                             "start": 515,
                                                             "end": 520
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 507,
                                                         "end": 520
@@ -2009,7 +2009,7 @@ class Foo {
                                                                 "start": 532,
                                                                 "end": 532
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 526,
                                                             "end": 533
@@ -2023,7 +2023,7 @@ class Foo {
                                                             "start": 534,
                                                             "end": 539
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 526,
                                                         "end": 539
@@ -2080,7 +2080,7 @@ class Foo {
                                                                 "start": 551,
                                                                 "end": 551
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 545,
                                                             "end": 552
@@ -2094,7 +2094,7 @@ class Foo {
                                                             "start": 553,
                                                             "end": 558
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 545,
                                                         "end": 558
@@ -2151,7 +2151,7 @@ class Foo {
                                                                 "start": 570,
                                                                 "end": 570
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 564,
                                                             "end": 571
@@ -2165,7 +2165,7 @@ class Foo {
                                                             "start": 572,
                                                             "end": 577
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 564,
                                                         "end": 577
@@ -2222,7 +2222,7 @@ class Foo {
                                                                 "start": 590,
                                                                 "end": 590
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 584,
                                                             "end": 591
@@ -2236,7 +2236,7 @@ class Foo {
                                                             "start": 592,
                                                             "end": 597
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 584,
                                                         "end": 597
@@ -2293,7 +2293,7 @@ class Foo {
                                                                 "start": 610,
                                                                 "end": 610
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 604,
                                                             "end": 611
@@ -2307,7 +2307,7 @@ class Foo {
                                                             "start": 612,
                                                             "end": 617
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 604,
                                                         "end": 617

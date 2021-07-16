@@ -94,7 +94,7 @@ if (somethingGoesWrong) { // Why this comment goes to the next line...
                                     "start": 87,
                                     "end": 109
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 25,
                                 "end": 110

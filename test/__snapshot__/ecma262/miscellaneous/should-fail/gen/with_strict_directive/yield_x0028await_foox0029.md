@@ -73,7 +73,7 @@
                     "start": 21,
                     "end": 30
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 13,
                 "end": 31

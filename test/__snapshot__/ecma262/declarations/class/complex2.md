@@ -408,7 +408,7 @@ class C2<X, Y> {
                                                                         "start": 106,
                                                                         "end": 106
                                                                     },
-                                                                    "flags": 268435488,
+                                                                    "flags": 32,
                                                                     "transformFlags": 1,
                                                                     "start": 92,
                                                                     "end": 107
@@ -479,7 +479,7 @@ class C2<X, Y> {
                                                         "start": 135,
                                                         "end": 135
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 125,
                                                     "end": 136

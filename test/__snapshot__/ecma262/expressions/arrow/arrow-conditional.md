@@ -188,7 +188,7 @@ a ? b : (): string => {}
                         "start": 33,
                         "end": 33
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 33,
                     "end": 42
@@ -691,10 +691,10 @@ a ? b : (): string => {}
 
 ```javascript
 ✖ Identifier expected - start: 7, end: 8
-✖ Expected a `;` - start: 21, end: 24
-✖ Expected a `;` - start: 56, end: 59
+✖ '; ' expected - start: 21, end: 24
+✖ '; ' expected - start: 56, end: 59
 ✖ Identifier expected - start: 71, end: 72
-✖ Expected a `;` - start: 85, end: 88
+✖ '; ' expected - start: 85, end: 88
 ✖ Identifier expected - start: 92, end: 93
 ✖ Identifier expected - start: 111, end: 112
 ✖ Identifier expected - start: 138, end: 139

@@ -57,7 +57,7 @@ do let
                             "start": 8,
                             "end": 8
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 2,
                         "end": 9
@@ -133,7 +133,7 @@ do let
  [` is a restricted production at the start of a statement - start: 2, end: 8
 ✖ An member access expression should take an argument. - start: 2, end: 9
 ✖ Identifier expected - start: 8, end: 9
-✖ Expected a `;` - start: 13, end: 19
+✖ '; ' expected - start: 13, end: 19
 
 ```
 

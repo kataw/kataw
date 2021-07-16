@@ -86,7 +86,7 @@ else let [x];
                         "start": 20,
                         "end": 21
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 14,
                     "end": 22

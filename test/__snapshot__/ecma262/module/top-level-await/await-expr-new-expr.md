@@ -132,7 +132,7 @@ await new Promise(function(res, rej) { res(1); });
                                                         "start": 43,
                                                         "end": 44
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 38,
                                                     "end": 45

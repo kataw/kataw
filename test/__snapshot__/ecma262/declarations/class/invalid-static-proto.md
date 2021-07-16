@@ -164,7 +164,7 @@ declare class C {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 34, end: 35
+✖ '; ' expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 38, end: 40
 
 ```

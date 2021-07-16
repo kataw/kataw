@@ -128,7 +128,7 @@ obj.a?.[true]
                                                                     "start": 6,
                                                                     "end": 10
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 32,
                                                                 "transformFlags": 4,
                                                                 "start": 5,
                                                                 "end": 10
@@ -147,7 +147,7 @@ obj.a?.[true]
                                                             "start": 11,
                                                             "end": 16
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 11,
                                                         "end": 16
@@ -171,7 +171,7 @@ obj.a?.[true]
                                                             "start": 19,
                                                             "end": 23
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 4,
                                                         "start": 18,
                                                         "end": 23
@@ -202,7 +202,7 @@ obj.a?.[true]
                                                             "start": 27,
                                                             "end": 32
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 4,
                                                         "start": 26,
                                                         "end": 32
@@ -221,7 +221,7 @@ obj.a?.[true]
                                                     "start": 33,
                                                     "end": 38
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "transformFlags": 2,
                                                 "start": 33,
                                                 "end": 38
@@ -245,7 +245,7 @@ obj.a?.[true]
                                                         "start": 41,
                                                         "end": 45
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "transformFlags": 4,
                                                     "start": 40,
                                                     "end": 45
@@ -264,7 +264,7 @@ obj.a?.[true]
                                                 "start": 46,
                                                 "end": 51
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 2,
                                             "start": 46,
                                             "end": 51
@@ -286,7 +286,7 @@ obj.a?.[true]
                                                 "start": 54,
                                                 "end": 58
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 4,
                                             "start": 53,
                                             "end": 58
@@ -315,7 +315,7 @@ obj.a?.[true]
                                                 "start": 62,
                                                 "end": 66
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 4,
                                             "start": 61,
                                             "end": 66
@@ -334,7 +334,7 @@ obj.a?.[true]
                                         "start": 67,
                                         "end": 72
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 67,
                                     "end": 72
@@ -374,7 +374,7 @@ obj.a?.[true]
                                         "start": 77,
                                         "end": 81
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 4,
                                     "start": 76,
                                     "end": 81
@@ -393,7 +393,7 @@ obj.a?.[true]
                                 "start": 82,
                                 "end": 87
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 82,
                             "end": 87
@@ -429,7 +429,7 @@ obj.a?.[true]
                             "start": 92,
                             "end": 96
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 91,
                         "end": 96

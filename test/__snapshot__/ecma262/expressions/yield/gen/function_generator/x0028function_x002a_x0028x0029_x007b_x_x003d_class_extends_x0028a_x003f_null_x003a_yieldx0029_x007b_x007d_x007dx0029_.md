@@ -36,7 +36,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -119,7 +119,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                     "asteriskToken": {
                                                         "kind": 67143222,
                                                         "flags": 64,
-                                                        "transformFlags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 49,
                                                         "end": 51
                                                     },

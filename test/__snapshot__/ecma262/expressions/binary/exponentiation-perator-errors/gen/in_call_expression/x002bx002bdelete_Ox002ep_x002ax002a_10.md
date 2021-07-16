@@ -164,7 +164,7 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                                     "operandToken": {
                                         "kind": 4259886,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 32,
                                         "end": 38
                                     },
@@ -194,12 +194,12 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                                         "end": 42
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 32,
                                     "end": 42
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 30,
                                 "end": 42
                             },
@@ -231,7 +231,7 @@ var O = { p: 1 }, x = 10; foo(++delete O.p ** 10)
                     "start": 30,
                     "end": 48
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 25,
                 "end": 49

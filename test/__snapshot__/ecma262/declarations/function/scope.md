@@ -837,7 +837,7 @@ function for_scope_var() {
                                                     "start": 444,
                                                     "end": 444
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 441,
                                                 "end": 445

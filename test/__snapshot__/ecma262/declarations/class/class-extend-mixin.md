@@ -120,7 +120,7 @@ class Foo<T> extends mixin(Bar) { }
                             "start": 27,
                             "end": 30
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 20,
                         "end": 31

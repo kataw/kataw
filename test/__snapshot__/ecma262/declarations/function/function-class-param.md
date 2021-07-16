@@ -29,7 +29,7 @@ function* foo(a = class {*bar() { yield b }}) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -89,7 +89,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 26
                                             },
@@ -244,7 +244,7 @@ function* foo(a = class {*bar() { yield b }}) {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 39, end: 41
+✖ '; ' expected - start: 39, end: 41
 
 ```
 

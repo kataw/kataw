@@ -207,7 +207,7 @@ opaque stuff: Box<T> = Container<T>
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 6, end: 12
+✖ '; ' expected - start: 6, end: 12
 ✖ Identifier expected - start: 20, end: 22
 ✖ Identifier expected - start: 35, end: 35
 

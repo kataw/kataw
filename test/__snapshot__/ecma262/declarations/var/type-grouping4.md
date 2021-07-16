@@ -62,7 +62,7 @@ var a: (typeof A)
                                         "typeOfKeyword": {
                                             "kind": 138477613,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 8,
                                             "end": 14
                                         },

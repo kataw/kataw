@@ -130,7 +130,7 @@ async function f(){ await foo\n/foo/g }
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 32
                     },
@@ -151,7 +151,7 @@ async function f(){ await foo\n/foo/g }
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 36
                 },
@@ -196,7 +196,7 @@ async function f(){ await foo\n/foo/g }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 25, end: 29
 ✖ Invalid hexadecimal escape sequence - start: 29, end: 29
-✖ Expected a `;` - start: 29, end: 30
+✖ '; ' expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 37, end: 39
 
 ```

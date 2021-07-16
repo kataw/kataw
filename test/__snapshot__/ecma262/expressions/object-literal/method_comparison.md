@@ -100,14 +100,14 @@
                         "end": 7
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 34622,
                     "flags": 96,
-                    "transformFlags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },

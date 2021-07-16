@@ -311,7 +311,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                 "start": 99,
                                                                                                                                 "end": 108
                                                                                                                             },
-                                                                                                                            "flags": 268435488,
+                                                                                                                            "flags": 32,
                                                                                                                             "transformFlags": 1,
                                                                                                                             "start": 94,
                                                                                                                             "end": 109

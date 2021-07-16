@@ -94,7 +94,7 @@ export async\nfunction async() { await 1; }
                     "start": 22,
                     "end": 22
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 22,
                 "end": 30
@@ -176,10 +176,10 @@ export async\nfunction async() { await 1; }
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
 ✖ Declaration or statement expected - start: 6, end: 13
-✖ Expected a `;` - start: 12, end: 13
-✖ Expected a `;` - start: 22, end: 28
-✖ Expected a `;` - start: 30, end: 32
-✖ Expected a `;` - start: 38, end: 40
+✖ '; ' expected - start: 12, end: 13
+✖ '; ' expected - start: 22, end: 28
+✖ '; ' expected - start: 30, end: 32
+✖ '; ' expected - start: 38, end: 40
 
 ```
 

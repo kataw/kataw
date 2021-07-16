@@ -89,7 +89,7 @@ for (function(){ a in b; }.prop in x);
                                         "operatorToken": {
                                             "kind": 21006388,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 18,
                                             "end": 21
                                         },
@@ -146,7 +146,7 @@ for (function(){ a in b; }.prop in x);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 31,
                 "end": 34
             },

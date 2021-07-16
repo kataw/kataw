@@ -479,7 +479,7 @@ import { let as l } from 'm.js';
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 148,
                         "end": 150
                     },
@@ -1008,7 +1008,7 @@ import { let as l } from 'm.js';
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 324,
                         "end": 326
                     },
@@ -1181,7 +1181,7 @@ import { let as l } from 'm.js';
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 388,
                         "end": 390
                     },
@@ -1925,20 +1925,20 @@ import { let as l } from 'm.js';
 
 ```javascript
 ✖ Identifier expected - start: 148, end: 150
-✖ Expected a `;` - start: 153, end: 157
-✖ Expected a `;` - start: 157, end: 162
-✖ Expected a `;` - start: 162, end: 171
+✖ '; ' expected - start: 153, end: 157
+✖ '; ' expected - start: 157, end: 162
+✖ '; ' expected - start: 162, end: 171
 ✖ Duplicate identifier - start: 264, end: 266
 ✖ Duplicate identifier - start: 290, end: 291
 ✖ Duplicate identifier - start: 296, end: 298
 ✖ Identifier expected - start: 324, end: 326
-✖ Expected a `;` - start: 329, end: 335
-✖ Expected a `;` - start: 335, end: 340
-✖ Expected a `;` - start: 340, end: 347
+✖ '; ' expected - start: 329, end: 335
+✖ '; ' expected - start: 335, end: 340
+✖ '; ' expected - start: 340, end: 347
 ✖ Identifier expected - start: 388, end: 390
-✖ Expected a `;` - start: 393, end: 398
-✖ Expected a `;` - start: 398, end: 403
-✖ Expected a `;` - start: 403, end: 410
+✖ '; ' expected - start: 393, end: 398
+✖ '; ' expected - start: 398, end: 403
+✖ '; ' expected - start: 403, end: 410
 ✖ Duplicate identifier - start: 429, end: 430
 ✖ Duplicate identifier - start: 435, end: 437
 ✖ Duplicate identifier - start: 472, end: 474

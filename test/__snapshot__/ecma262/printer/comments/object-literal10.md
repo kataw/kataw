@@ -100,7 +100,7 @@
                         "start": 12,
                         "end": 31
                     },
-                    "flags": 268435489,
+                    "flags": 33,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 32
@@ -125,7 +125,7 @@
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 47
                                         },
@@ -198,7 +198,7 @@
                     "start": 35,
                     "end": 68
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 69

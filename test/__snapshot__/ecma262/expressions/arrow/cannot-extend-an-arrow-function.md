@@ -545,7 +545,7 @@ class Foo extends async x => {} {}
                                 "start": 126,
                                 "end": 152
                             },
-                            "flags": 268435489,
+                            "flags": 33,
                             "transformFlags": 1,
                             "start": 95,
                             "end": 153
@@ -655,7 +655,7 @@ class Foo extends async x => {} {}
                             "start": 156,
                             "end": 186
                         },
-                        "flags": 268435489,
+                        "flags": 33,
                         "transformFlags": 1,
                         "start": 95,
                         "end": 187
@@ -765,7 +765,7 @@ class Foo extends async x => {} {}
                         "start": 190,
                         "end": 221
                     },
-                    "flags": 268435489,
+                    "flags": 33,
                     "transformFlags": 1,
                     "start": 95,
                     "end": 222
@@ -885,7 +885,7 @@ class Foo extends async x => {} {}
                     "start": 225,
                     "end": 257
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 95,
                 "end": 258

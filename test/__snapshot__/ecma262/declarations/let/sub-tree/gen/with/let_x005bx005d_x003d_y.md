@@ -66,7 +66,7 @@ with (a) let
                             "start": 14,
                             "end": 14
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 8,
                         "end": 15

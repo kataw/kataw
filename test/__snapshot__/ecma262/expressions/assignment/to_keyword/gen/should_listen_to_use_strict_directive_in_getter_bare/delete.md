@@ -111,7 +111,7 @@ foo = {
                                                             "operandToken": {
                                                                 "kind": 4259886,
                                                                 "flags": 97,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 8192,
                                                                 "start": 36,
                                                                 "end": 47
                                                             },
@@ -125,7 +125,7 @@ foo = {
                                                                 "end": 47
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 16384,
                                                             "start": 36,
                                                             "end": 47
                                                         },

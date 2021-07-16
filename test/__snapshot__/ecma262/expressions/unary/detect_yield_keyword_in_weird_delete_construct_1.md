@@ -29,7 +29,7 @@ function *f(){ delete ("x"[(yield)]) }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -65,7 +65,7 @@ function *f(){ delete ("x"[(yield)]) }
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 14,
                                     "end": 21
                                 },
@@ -106,7 +106,7 @@ function *f(){ delete ("x"[(yield)]) }
                                             "start": 32,
                                             "end": 34
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 4,
                                         "start": 23,
                                         "end": 35
@@ -117,7 +117,7 @@ function *f(){ delete ("x"[(yield)]) }
                                     "end": 36
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 14,
                                 "end": 36
                             },

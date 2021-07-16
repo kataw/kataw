@@ -47,7 +47,7 @@ a + typeof b += c in d
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 3,
                         "end": 10
                     },
@@ -61,7 +61,7 @@ a + typeof b += c in d
                         "end": 12
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3,
                     "end": 12
                 },
@@ -91,7 +91,7 @@ a + typeof b += c in d
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 17,
                     "end": 20
                 },
@@ -134,7 +134,7 @@ a + typeof b += c in d
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 15
+✖ '; ' expected - start: 12, end: 15
 
 ```
 

@@ -425,13 +425,13 @@ async function f(){}
                                                         "start": 108,
                                                         "end": 108
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 106,
                                                     "end": 109
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 104,
                                                 "end": 109
                                             },
@@ -536,7 +536,7 @@ async function f(){}
                                                     "end": 129
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 126,
                                                 "end": 129
                                             },
@@ -619,7 +619,7 @@ async function f(){}
                                                     "end": 144
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 142,
                                                 "end": 144
                                             },
@@ -772,7 +772,7 @@ async function f(){}
                                                     "end": 175
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 174,
                                                 "end": 175
                                             },
@@ -899,7 +899,7 @@ async function f(){}
                                                     "end": 208
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 191,
                                                 "end": 208
                                             },
@@ -1088,12 +1088,12 @@ async function f(){}
 ✖ Duplicate identifier - start: 87, end: 89
 ✖ Binding identifier expected - start: 104, end: 106
 ✖ Missing an opening parentheses - '( - start: 105, end: 106
-✖ Expected a `;` - start: 109, end: 110
+✖ '; ' expected - start: 109, end: 110
 ✖ Duplicate identifier - start: 123, end: 125
 ✖ Expected a ')' to match the '(' token here - start: 126, end: 127
 ✖ Duplicate identifier - start: 139, end: 141
 ✖ Expected a ')' to match the '(' token here - start: 142, end: 143
-✖ Expected a `;` - start: 144, end: 151
+✖ '; ' expected - start: 144, end: 151
 ✖ Missing an opening parentheses - '( - start: 152, end: 155
 ✖ Declaration or statement expected - start: 156, end: 159
 ✖ Missing an opening parentheses - '( - start: 172, end: 173

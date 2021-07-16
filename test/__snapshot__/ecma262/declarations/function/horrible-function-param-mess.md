@@ -1090,7 +1090,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "start": 347,
                                                         "end": 351
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 338,
                                                     "end": 352
@@ -1120,7 +1120,7 @@ function processArgs<A1: {}, A2: {}>(
                                             "start": 334,
                                             "end": 370
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 324,
                                         "end": 371

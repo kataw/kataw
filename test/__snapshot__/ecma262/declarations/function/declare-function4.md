@@ -188,7 +188,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 50,
                     "end": 55
                 },

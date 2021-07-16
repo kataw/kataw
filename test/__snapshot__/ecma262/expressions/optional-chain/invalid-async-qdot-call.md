@@ -50,7 +50,7 @@ async?.() => {}
                             "start": 8,
                             "end": 8
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 7,
                         "end": 9
@@ -105,7 +105,7 @@ async?.() => {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 9, end: 12
+✖ '; ' expected - start: 9, end: 12
 
 ```
 

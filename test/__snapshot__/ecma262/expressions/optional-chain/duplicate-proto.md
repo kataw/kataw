@@ -120,7 +120,7 @@ async?.({ __proto__: x, __proto__: y })
                             "start": 8,
                             "end": 38
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 7,
                         "end": 39

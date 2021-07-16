@@ -163,7 +163,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 8, end: 10
+✖ '; ' expected - start: 8, end: 10
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19
 
 ```

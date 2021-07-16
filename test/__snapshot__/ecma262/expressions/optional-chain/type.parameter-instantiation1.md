@@ -98,7 +98,7 @@ a?.<number>(y)
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 3,
                         "end": 14

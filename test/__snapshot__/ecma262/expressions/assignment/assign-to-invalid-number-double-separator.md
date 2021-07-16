@@ -211,9 +211,9 @@ x = 0o0011___________;
 
 ```javascript
 ✖ Multiple consecutive numeric separators are not permitted - start: 8, end: 9
-✖ Expected a `;` - start: 9, end: 13
+✖ '; ' expected - start: 9, end: 13
 ✖ Multiple consecutive numeric separators are not permitted - start: 24, end: 25
-✖ Expected a `;` - start: 25, end: 40
+✖ '; ' expected - start: 25, end: 40
 ✖ Multiple consecutive numeric separators are not permitted - start: 53, end: 54
 ✖ Numeric separators not allowed here - start: 52, end: 53
 ✖ Numeric separators not allowed here - start: 52, end: 53
@@ -226,7 +226,7 @@ x = 0o0011___________;
 ✖ Numeric separators not allowed here - start: 52, end: 53
 ✖ Numeric separators not allowed here - start: 52, end: 53
 ✖ Numeric separators not allowed here - start: 52, end: 53
-✖ Expected a `;` - start: 52, end: 64
+✖ '; ' expected - start: 52, end: 64
 
 ```
 

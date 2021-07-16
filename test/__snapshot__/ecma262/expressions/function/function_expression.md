@@ -105,7 +105,7 @@ new function() {};
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 22,
                     "end": 29
                 },
@@ -161,7 +161,7 @@ new function() {};
                     "end": 45
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 22,
                 "end": 45
             },
@@ -236,7 +236,7 @@ new function() {};
                         "start": 63,
                         "end": 63
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 46,
                     "end": 64

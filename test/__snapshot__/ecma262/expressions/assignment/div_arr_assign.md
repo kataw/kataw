@@ -31,7 +31,7 @@ y/[]=x
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },

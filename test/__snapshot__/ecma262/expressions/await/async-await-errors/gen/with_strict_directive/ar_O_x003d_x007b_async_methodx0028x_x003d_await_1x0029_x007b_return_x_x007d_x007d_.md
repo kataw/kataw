@@ -242,7 +242,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 18
+✖ '; ' expected - start: 16, end: 18
 ✖ `await` expression cannot be used in function parameters - start: 39, end: 45
 
 ```

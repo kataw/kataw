@@ -32,7 +32,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 3
                 },

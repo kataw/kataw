@@ -2372,7 +2372,7 @@ a = b => { let b; };
 ✖ Duplicate arrow formal parameter - start: 71, end: 73
 ✖ Identifier expected - start: 81, end: 87
 ✖ Missing initializer in const declaration - start: 91, end: 92
-✖ Expected a `;` - start: 106, end: 112
+✖ '; ' expected - start: 106, end: 112
 ✖ Cannot redeclare block-scoped variable - start: 127, end: 129
 ✖ Missing initializer in const declaration - start: 129, end: 131
 ✖ Cannot redeclare block-scoped variable - start: 151, end: 153

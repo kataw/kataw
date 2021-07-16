@@ -56,7 +56,7 @@ async (x = delete ((void) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -71,7 +71,7 @@ async (x = delete ((void) = f)) => {}
                                                 "operandToken": {
                                                     "kind": 138477615,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 8192,
                                                     "start": 20,
                                                     "end": 24
                                                 },
@@ -85,7 +85,7 @@ async (x = delete ((void) = f)) => {}
                                                     "end": 24
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 20,
                                                 "end": 24
                                             },
@@ -121,7 +121,7 @@ async (x = delete ((void) = f)) => {}
                                     "end": 30
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 30
                             },

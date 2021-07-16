@@ -43,7 +43,7 @@ for (x in y in x) ;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 6,
                 "end": 9
             },
@@ -61,7 +61,7 @@ for (x in y in x) ;
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 11,
                     "end": 14
                 },

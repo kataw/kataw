@@ -37,7 +37,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -287,7 +287,7 @@
 
 ```javascript
 ✖ Method definition expected - start: 30, end: 31
-✖ Expected a `;` - start: 31, end: 33
+✖ '; ' expected - start: 31, end: 33
 ✖ 'super' must be followed by an argument list or member access. - start: 33, end: 40
 ✖ Dot property must be an identifier - start: 39, end: 40
 ✖ Declaration or statement expected - start: 42, end: 44

@@ -74,7 +74,7 @@ await 5;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 7
+✖ '; ' expected - start: 5, end: 7
 
 ```
 

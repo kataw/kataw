@@ -113,7 +113,7 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 11
 ✖ Identifier expected - start: 11, end: 13
-✖ Expected a `;` - start: 15, end: 16
+✖ '; ' expected - start: 15, end: 16
 
 ```
 

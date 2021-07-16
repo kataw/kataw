@@ -252,7 +252,7 @@ wrap(
                     "start": 211,
                     "end": 252
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 204,
                 "end": 254

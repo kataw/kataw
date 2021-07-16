@@ -107,7 +107,7 @@ async(a, [q].z = y);
                     "start": 0,
                     "end": 13
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 14
@@ -156,7 +156,7 @@ async(a, [q].z = y);
                     "start": 15,
                     "end": 25
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 15,
                 "end": 26
@@ -209,7 +209,7 @@ async(a, [q].z = y);
                                 "start": 38,
                                 "end": 39
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 34,
                             "end": 40
@@ -221,7 +221,7 @@ async(a, [q].z = y);
                     "start": 27,
                     "end": 40
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 27,
                 "end": 41
@@ -276,7 +276,7 @@ async(a, [q].z = y);
                                     "start": 53,
                                     "end": 54
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 49,
                                 "end": 55
@@ -309,7 +309,7 @@ async(a, [q].z = y);
                     "start": 42,
                     "end": 59
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 42,
                 "end": 60
@@ -397,7 +397,7 @@ async(a, [q].z = y);
                     "start": 61,
                     "end": 79
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 61,
                 "end": 80
@@ -508,7 +508,7 @@ async(a, [q].z = y);
                     "start": 81,
                     "end": 103
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 81,
                 "end": 104
@@ -596,7 +596,7 @@ async(a, [q].z = y);
                     "start": 105,
                     "end": 119
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 105,
                 "end": 120
@@ -663,7 +663,7 @@ async(a, [q].z = y);
                     "start": 121,
                     "end": 138
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 121,
                 "end": 139
@@ -721,7 +721,7 @@ async(a, [q].z = y);
                     "start": 140,
                     "end": 153
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 140,
                 "end": 154
@@ -783,7 +783,7 @@ async(a, [q].z = y);
                                 "start": 169,
                                 "end": 170
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 164,
                             "end": 171
@@ -795,7 +795,7 @@ async(a, [q].z = y);
                     "start": 155,
                     "end": 171
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 155,
                 "end": 172
@@ -859,7 +859,7 @@ async(a, [q].z = y);
                                     "start": 187,
                                     "end": 188
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 182,
                                 "end": 189
@@ -892,7 +892,7 @@ async(a, [q].z = y);
                     "start": 173,
                     "end": 193
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 173,
                 "end": 194
@@ -989,7 +989,7 @@ async(a, [q].z = y);
                     "start": 195,
                     "end": 216
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 195,
                 "end": 217
@@ -1109,7 +1109,7 @@ async(a, [q].z = y);
                     "start": 218,
                     "end": 243
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 218,
                 "end": 244
@@ -1206,7 +1206,7 @@ async(a, [q].z = y);
                     "start": 245,
                     "end": 262
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 245,
                 "end": 263
@@ -1278,7 +1278,7 @@ async(a, [q].z = y);
                     "start": 264,
                     "end": 264
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 264,
                 "end": 282
@@ -1341,7 +1341,7 @@ async(a, [q].z = y);
                     "start": 283,
                     "end": 283
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 283,
                 "end": 297
@@ -1403,7 +1403,7 @@ async(a, [q].z = y);
                                     "start": 312,
                                     "end": 313
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 308,
                                 "end": 314
@@ -1420,7 +1420,7 @@ async(a, [q].z = y);
                     "start": 298,
                     "end": 298
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 298,
                 "end": 315
@@ -1484,7 +1484,7 @@ async(a, [q].z = y);
                                         "start": 330,
                                         "end": 331
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 4,
                                     "start": 326,
                                     "end": 332
@@ -1522,7 +1522,7 @@ async(a, [q].z = y);
                     "start": 316,
                     "end": 316
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 316,
                 "end": 337
@@ -1624,7 +1624,7 @@ async(a, [q].z = y);
                     "start": 338,
                     "end": 338
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 338,
                 "end": 360
@@ -1749,7 +1749,7 @@ async(a, [q].z = y);
                     "start": 361,
                     "end": 361
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 361,
                 "end": 387
@@ -1851,7 +1851,7 @@ async(a, [q].z = y);
                     "start": 388,
                     "end": 388
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 388,
                 "end": 406
@@ -1933,7 +1933,7 @@ async(a, [q].z = y);
                     "start": 407,
                     "end": 407
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 407,
                 "end": 423
@@ -1990,7 +1990,7 @@ async(a, [q].z = y);
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 434,
                                 "end": 436
                             },
@@ -2015,7 +2015,7 @@ async(a, [q].z = y);
                     "start": 424,
                     "end": 424
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 424,
                 "end": 439
@@ -2097,7 +2097,7 @@ async(a, [q].z = y);
                     "start": 440,
                     "end": 440
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 440,
                 "end": 456
@@ -2170,7 +2170,7 @@ async(a, [q].z = y);
                                 "start": 468,
                                 "end": 469
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 464,
                             "end": 470
@@ -2182,7 +2182,7 @@ async(a, [q].z = y);
                     "start": 457,
                     "end": 457
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 457,
                 "end": 471
@@ -2257,7 +2257,7 @@ async(a, [q].z = y);
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 486,
                                     "end": 488
                                 },
@@ -2287,7 +2287,7 @@ async(a, [q].z = y);
                     "start": 472,
                     "end": 472
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 472,
                 "end": 491
@@ -2385,7 +2385,7 @@ async(a, [q].z = y);
                     "start": 492,
                     "end": 492
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 492,
                 "end": 509
@@ -2476,7 +2476,7 @@ async(a, [q].z = y);
                     "start": 510,
                     "end": 510
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 510,
                 "end": 529
@@ -2542,7 +2542,7 @@ async(a, [q].z = y);
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 543,
                                 "end": 545
                             },
@@ -2567,7 +2567,7 @@ async(a, [q].z = y);
                     "start": 530,
                     "end": 530
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 530,
                 "end": 548
@@ -2658,7 +2658,7 @@ async(a, [q].z = y);
                     "start": 549,
                     "end": 549
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 549,
                 "end": 568
@@ -2740,7 +2740,7 @@ async(a, [q].z = y);
                                 "start": 583,
                                 "end": 584
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 578,
                             "end": 585
@@ -2752,7 +2752,7 @@ async(a, [q].z = y);
                     "start": 569,
                     "end": 569
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 569,
                 "end": 586
@@ -2836,7 +2836,7 @@ async(a, [q].z = y);
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 604,
                                     "end": 606
                                 },
@@ -2866,7 +2866,7 @@ async(a, [q].z = y);
                     "start": 587,
                     "end": 587
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 587,
                 "end": 609
@@ -2973,7 +2973,7 @@ async(a, [q].z = y);
                     "start": 610,
                     "end": 610
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 610,
                 "end": 630

@@ -196,7 +196,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 48
                 },
@@ -487,7 +487,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 115
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 113,
                 "end": 115
             },
@@ -649,7 +649,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 180
                 },
@@ -1216,7 +1216,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                             "start": 379,
                             "end": 380
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 369,
                         "end": 381
@@ -1356,7 +1356,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 415,
                                     "end": 415
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 410,
                                 "end": 416
@@ -1516,7 +1516,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 453,
                                     "end": 453
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 448,
                                 "end": 454
@@ -1670,7 +1670,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 490,
                                     "end": 490
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 485,
                                 "end": 491
@@ -1885,7 +1885,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 "start": 534,
                                 "end": 534
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 529,
                             "end": 535
@@ -2015,7 +2015,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 568,
                                     "end": 568
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 563,
                                 "end": 569
@@ -2175,7 +2175,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 606,
                                     "end": 606
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 601,
                                 "end": 607
@@ -2329,7 +2329,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 643,
                                     "end": 643
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 638,
                                 "end": 644
@@ -2384,7 +2384,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 18
+✖ '; ' expected - start: 16, end: 18
 ✖ Generators can only be declared at the top level or inside a block - start: 48, end: 50
 ✖ Class declarations cannot be used in a single-statement context - start: 64, end: 70
 ✖ Missing an opening parentheses - '( - start: 81, end: 86
@@ -2394,12 +2394,12 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ An async function declaration is not allowed as `if-else` child - start: 139, end: 145
 ✖ Generators can only be declared at the top level or inside a block - start: 180, end: 181
 ✖ A return statement can only be used within a function_body - start: 197, end: 204
-✖ Expected a `;` - start: 206, end: 211
+✖ '; ' expected - start: 206, end: 211
 ✖ Class declarations cannot be used in a single-statement context - start: 226, end: 232
 ✖ Identifier expected - start: 249, end: 255
 ✖ An async function declaration is not allowed as `if-else` child - start: 277, end: 283
 ✖ An async function declaration is not allowed as `if-else` child - start: 306, end: 312
-✖ Expected a `;` - start: 353, end: 355
+✖ '; ' expected - start: 353, end: 355
 ✖ `let 
  [` is a restricted production at the start of a statement - start: 369, end: 379
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 397, end: 401

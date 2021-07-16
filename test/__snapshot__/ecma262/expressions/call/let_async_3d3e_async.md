@@ -93,7 +93,7 @@ let async => async
 
 ```javascript
 ✖ Lexical declaration expected - start: 9, end: 12
-✖ Expected a `;` - start: 9, end: 12
+✖ '; ' expected - start: 9, end: 12
 
 ```
 

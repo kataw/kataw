@@ -56,7 +56,7 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
                     "start": 3,
                     "end": 24
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 41

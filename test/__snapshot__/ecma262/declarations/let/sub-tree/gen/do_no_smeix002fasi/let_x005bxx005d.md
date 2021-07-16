@@ -53,7 +53,7 @@ do let [x] while (a);
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 2,
                     "end": 10
@@ -106,7 +106,7 @@ do let [x] while (a);
 ```javascript
 ✖ `let 
  [` is a restricted production at the start of a statement - start: 2, end: 8
-✖ Expected a `;` - start: 10, end: 16
+✖ '; ' expected - start: 10, end: 16
 
 ```
 

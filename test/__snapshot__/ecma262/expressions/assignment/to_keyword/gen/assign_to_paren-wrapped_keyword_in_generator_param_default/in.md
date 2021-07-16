@@ -36,7 +36,7 @@ function *f(x = (in) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -85,7 +85,7 @@ function *f(x = (in) = f) {}
                                     "operatorToken": {
                                         "kind": 21006388,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 17,
                                         "end": 19
                                     },

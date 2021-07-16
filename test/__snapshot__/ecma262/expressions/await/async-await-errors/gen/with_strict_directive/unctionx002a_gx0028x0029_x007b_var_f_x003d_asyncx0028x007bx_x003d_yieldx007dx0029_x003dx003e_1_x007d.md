@@ -48,7 +48,7 @@
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 22
                 },
@@ -72,7 +72,7 @@
                         "start": 25,
                         "end": 25
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 22,
                     "end": 26
@@ -251,7 +251,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 26, end: 28
+✖ '; ' expected - start: 26, end: 28
 
 ```
 

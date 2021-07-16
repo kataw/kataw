@@ -69,7 +69,7 @@ c?.(d)?.[e]
                                 "start": 4,
                                 "end": 5
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 3,
                             "end": 6
@@ -98,7 +98,7 @@ c?.(d)?.[e]
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 8,
                         "end": 10

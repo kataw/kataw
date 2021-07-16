@@ -126,7 +126,7 @@ function g(x: () => any) {
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 20,
                                 "end": 26
@@ -180,7 +180,7 @@ function g(x: () => any) {
                                                 "start": 42,
                                                 "end": 42
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 39,
                                             "end": 43
@@ -346,7 +346,7 @@ function g(x: () => any) {
                                     "start": 79,
                                     "end": 79
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 74,
                                 "end": 80
@@ -400,7 +400,7 @@ function g(x: () => any) {
                                                 "start": 96,
                                                 "end": 96
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 93,
                                             "end": 97

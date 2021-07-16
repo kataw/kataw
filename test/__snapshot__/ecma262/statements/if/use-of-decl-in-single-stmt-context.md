@@ -58,7 +58,7 @@ if (0) let
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 6,
                         "end": 14

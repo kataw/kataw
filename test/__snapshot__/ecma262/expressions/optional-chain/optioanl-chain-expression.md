@@ -67,7 +67,7 @@ a.b?.c()
                                 "start": 5,
                                 "end": 6
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 5,
                             "end": 6
@@ -87,7 +87,7 @@ a.b?.c()
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 6,
                     "end": 8

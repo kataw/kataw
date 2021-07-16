@@ -162,7 +162,7 @@ class Bar {
                                 "start": 2,
                                 "end": 34
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 1,
                             "end": 35

@@ -144,7 +144,7 @@ class two {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 39,
                                         "end": 44
                                     },
@@ -267,7 +267,7 @@ class two {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 76,
                                         "end": 81
                                     },
@@ -396,7 +396,7 @@ class two {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 113,
                                         "end": 118
                                     },
@@ -495,7 +495,7 @@ class two {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 137,
                                         "end": 142
                                     },

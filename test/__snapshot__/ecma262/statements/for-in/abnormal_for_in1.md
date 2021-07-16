@@ -279,7 +279,7 @@ function baz(x: boolean) {
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 69,
                                 "end": 72
                             },
@@ -527,7 +527,7 @@ function baz(x: boolean) {
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 176,
                                 "end": 179
                             },
@@ -726,7 +726,7 @@ function baz(x: boolean) {
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 247,
                                 "end": 250
                             },

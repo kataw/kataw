@@ -155,7 +155,7 @@
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 10
 ✖ Invalid hexadecimal escape sequence - start: 10, end: 10
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 11
-✖ Expected a `;` - start: 12, end: 16
+✖ '; ' expected - start: 12, end: 16
 ✖ Declaration or statement expected - start: 16, end: 18
 ✖ Declaration or statement expected - start: 18, end: 19
 

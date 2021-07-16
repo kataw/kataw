@@ -108,7 +108,7 @@ let[x] in x;
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 6,
                     "end": 9
                 },
@@ -152,7 +152,7 @@ let[x] in x;
 
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 6, end: 9
-✖ Expected a `;` - start: 6, end: 9
+✖ '; ' expected - start: 6, end: 9
 
 ```
 

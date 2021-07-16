@@ -151,7 +151,7 @@ async function a(){     async ([v] = await bar);     }
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 268435490,
+                                "flags": 34,
                                 "transformFlags": 1,
                                 "start": 19,
                                 "end": 47

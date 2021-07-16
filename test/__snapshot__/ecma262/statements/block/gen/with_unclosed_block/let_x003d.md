@@ -198,7 +198,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ Identifier expected - start: 24, end: 24
 
 ```

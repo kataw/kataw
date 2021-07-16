@@ -112,7 +112,7 @@ await(x);
                     "start": 30,
                     "end": 31
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 22,
                 "end": 32

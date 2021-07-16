@@ -36,7 +36,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -176,7 +176,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
                                                                     "start": 58,
                                                                     "end": 59
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 50,
                                                                 "end": 60
@@ -193,7 +193,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
                                                     "start": 43,
                                                     "end": 60
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 35,
                                                 "end": 61

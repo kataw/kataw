@@ -119,7 +119,7 @@
                                             "inKeyword": {
                                                 "kind": 21006388,
                                                 "flags": 64,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 30,
                                                 "end": 33
                                             },
@@ -301,7 +301,7 @@
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 80,
                                 "end": 83
                             },
@@ -405,7 +405,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 50, end: 53
+✖ '; ' expected - start: 50, end: 53
 ✖ Binding identifier expected - start: 62, end: 64
 
 ```

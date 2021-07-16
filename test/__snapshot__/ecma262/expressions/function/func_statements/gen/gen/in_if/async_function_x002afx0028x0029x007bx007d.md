@@ -60,7 +60,7 @@ if (x) async function *f(){}
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },

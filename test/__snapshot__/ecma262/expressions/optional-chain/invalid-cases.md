@@ -93,7 +93,7 @@ x?.y = 0;
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 3,
                             "end": 4
@@ -238,7 +238,7 @@ x?.y = 0;
                                 "start": 28,
                                 "end": 29
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 28,
                             "end": 29
@@ -290,7 +290,7 @@ x?.y = 0;
                             "start": 32,
                             "end": 36
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 31,
                         "end": 36
@@ -353,7 +353,7 @@ x?.y = 0;
                                 "start": 42,
                                 "end": 43
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 42,
                             "end": 43
@@ -447,7 +447,7 @@ x?.y = 0;
                                     "start": 56,
                                     "end": 57
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 56,
                                 "end": 57
@@ -652,7 +652,7 @@ x?.y = 0;
                                                         "start": 81,
                                                         "end": 82
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 81,
                                                     "end": 82
@@ -681,7 +681,7 @@ x?.y = 0;
                                                     "start": 84,
                                                     "end": 85
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "transformFlags": 2,
                                                 "start": 84,
                                                 "end": 85
@@ -710,7 +710,7 @@ x?.y = 0;
                                                 "start": 87,
                                                 "end": 88
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 2,
                                             "start": 87,
                                             "end": 88
@@ -739,7 +739,7 @@ x?.y = 0;
                                             "start": 90,
                                             "end": 91
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 90,
                                         "end": 91
@@ -768,7 +768,7 @@ x?.y = 0;
                                         "start": 93,
                                         "end": 94
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 93,
                                     "end": 94
@@ -797,7 +797,7 @@ x?.y = 0;
                                     "start": 96,
                                     "end": 97
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 96,
                                 "end": 97
@@ -939,7 +939,7 @@ x?.y = 0;
                                                     "start": 111,
                                                     "end": 112
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "transformFlags": 2,
                                                 "start": 111,
                                                 "end": 112
@@ -968,7 +968,7 @@ x?.y = 0;
                                                 "start": 114,
                                                 "end": 115
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 2,
                                             "start": 114,
                                             "end": 115
@@ -997,7 +997,7 @@ x?.y = 0;
                                             "start": 117,
                                             "end": 118
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 117,
                                         "end": 118
@@ -1026,7 +1026,7 @@ x?.y = 0;
                                         "start": 120,
                                         "end": 121
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 120,
                                     "end": 121
@@ -1055,7 +1055,7 @@ x?.y = 0;
                                     "start": 123,
                                     "end": 124
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 123,
                                 "end": 124
@@ -1084,7 +1084,7 @@ x?.y = 0;
                                 "start": 126,
                                 "end": 127
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 126,
                             "end": 127
@@ -1178,7 +1178,7 @@ x?.y = 0;
                                     "start": 140,
                                     "end": 141
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 140,
                                 "end": 141
@@ -1331,7 +1331,7 @@ x?.y = 0;
                                                             "start": 155,
                                                             "end": 156
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 2,
                                                         "start": 155,
                                                         "end": 156
@@ -1360,7 +1360,7 @@ x?.y = 0;
                                                         "start": 158,
                                                         "end": 159
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 158,
                                                     "end": 159
@@ -1389,7 +1389,7 @@ x?.y = 0;
                                                     "start": 161,
                                                     "end": 162
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "transformFlags": 2,
                                                 "start": 161,
                                                 "end": 162
@@ -1418,7 +1418,7 @@ x?.y = 0;
                                                 "start": 164,
                                                 "end": 165
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 2,
                                             "start": 164,
                                             "end": 165
@@ -1447,7 +1447,7 @@ x?.y = 0;
                                             "start": 167,
                                             "end": 168
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 167,
                                         "end": 168
@@ -1476,7 +1476,7 @@ x?.y = 0;
                                         "start": 170,
                                         "end": 171
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 170,
                                     "end": 171
@@ -1505,7 +1505,7 @@ x?.y = 0;
                                     "start": 173,
                                     "end": 174
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 173,
                                 "end": 174
@@ -1595,7 +1595,7 @@ x?.y = 0;
                                 "start": 188,
                                 "end": 189
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 188,
                             "end": 189
@@ -1690,7 +1690,7 @@ x?.y = 0;
                                         "start": 199,
                                         "end": 200
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 199,
                                     "end": 200
@@ -1719,7 +1719,7 @@ x?.y = 0;
                                     "start": 202,
                                     "end": 203
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 202,
                                 "end": 203
@@ -1748,7 +1748,7 @@ x?.y = 0;
                                 "start": 205,
                                 "end": 206
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 205,
                             "end": 206
@@ -1843,7 +1843,7 @@ x?.y = 0;
                                         "start": 216,
                                         "end": 217
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 216,
                                     "end": 217
@@ -1872,7 +1872,7 @@ x?.y = 0;
                                     "start": 219,
                                     "end": 220
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 219,
                                 "end": 220
@@ -1901,7 +1901,7 @@ x?.y = 0;
                                 "start": 222,
                                 "end": 223
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 222,
                             "end": 223
@@ -1987,7 +1987,7 @@ x?.y = 0;
                                     "start": 234,
                                     "end": 235
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 234,
                                 "end": 235
@@ -2086,7 +2086,7 @@ x?.y = 0;
                                     "start": 248,
                                     "end": 249
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 248,
                                 "end": 249
@@ -2185,7 +2185,7 @@ x?.y = 0;
                                     "start": 262,
                                     "end": 264
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 262,
                                 "end": 264
@@ -2284,7 +2284,7 @@ x?.y = 0;
                                     "start": 276,
                                     "end": 278
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 276,
                                 "end": 278
@@ -2386,7 +2386,7 @@ x?.y = 0;
                                         "start": 291,
                                         "end": 291
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 290,
                                     "end": 292
@@ -2405,7 +2405,7 @@ x?.y = 0;
                                 "start": 292,
                                 "end": 293
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 292,
                             "end": 293
@@ -2544,7 +2544,7 @@ x?.y = 0;
                             "start": 306,
                             "end": 313
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 305,
                         "end": 313
@@ -2709,7 +2709,7 @@ x?.y = 0;
                                     "start": 334,
                                     "end": 334
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 333,
                                 "end": 335
@@ -2799,7 +2799,7 @@ x?.y = 0;
                                 "start": 347,
                                 "end": 348
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 347,
                             "end": 348
@@ -2870,7 +2870,7 @@ x?.y = 0;
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 ✖ Identifier expected - start: 32, end: 34
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
-✖ Expected a `;` - start: 45, end: 46
+✖ '; ' expected - start: 45, end: 46
 ✖ Declaration or statement expected - start: 46, end: 48
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 59, end: 61
 ✖ An member access expression should take an argument. - start: 70, end: 71
@@ -2879,7 +2879,7 @@ x?.y = 0;
 ✖ An member access expression should take an argument. - start: 100, end: 101
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 99, end: 103
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 101, end: 103
-✖ Expected a `;` - start: 129, end: 130
+✖ '; ' expected - start: 129, end: 130
 ✖ Declaration or statement expected - start: 130, end: 132
 ✖ An member access expression should take an argument. - start: 144, end: 145
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 143, end: 147
@@ -2904,7 +2904,7 @@ x?.y = 0;
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 295, end: 297
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 309, end: 311
 ✖ ',' expected - start: 313, end: 314
-✖ Expected a `;` - start: 319, end: 320
+✖ '; ' expected - start: 319, end: 320
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 323, end: 325
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 337, end: 339
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 347, end: 350

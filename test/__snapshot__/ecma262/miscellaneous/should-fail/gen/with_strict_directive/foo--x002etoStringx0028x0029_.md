@@ -84,7 +84,7 @@
                     "start": 29,
                     "end": 29
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 20,
                 "end": 30
@@ -114,7 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 19, end: 20
+✖ '; ' expected - start: 19, end: 20
 
 ```
 

@@ -93,7 +93,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                         "asteriskToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 28,
                                                             "end": 29
                                                         },
@@ -198,7 +198,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                             "start": 47,
                                                                                                             "end": 56
                                                                                                         },
-                                                                                                        "flags": 268435488,
+                                                                                                        "flags": 32,
                                                                                                         "transformFlags": 1,
                                                                                                         "start": 42,
                                                                                                         "end": 57

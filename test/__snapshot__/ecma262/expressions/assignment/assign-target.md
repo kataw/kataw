@@ -148,7 +148,7 @@ x[y] = 0;
                         "start": 18,
                         "end": 19
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 15,
                     "end": 20

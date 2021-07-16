@@ -31,7 +31,7 @@ v\u006fid = x;
                     "operandToken": {
                         "kind": 138477615,
                         "flags": 16480,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 0,
                         "end": 9
                     },
@@ -45,7 +45,7 @@ v\u006fid = x;
                         "end": 9
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 0,
                     "end": 9
                 },

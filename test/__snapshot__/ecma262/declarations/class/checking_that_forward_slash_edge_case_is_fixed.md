@@ -116,7 +116,7 @@ class x { static / foo(){} }
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
@@ -140,7 +140,7 @@ class x { static / foo(){} }
                         "start": 23,
                         "end": 23
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 18,
                     "end": 24
@@ -191,7 +191,7 @@ class x { static / foo(){} }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
-✖ Expected a `;` - start: 24, end: 25
+✖ '; ' expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 26, end: 28
 
 ```

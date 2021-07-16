@@ -46,7 +46,7 @@
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
@@ -138,7 +138,7 @@
                                                 "start": 37,
                                                 "end": 37
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 37,
                                             "end": 50
@@ -213,7 +213,7 @@
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 50, end: 53
-✖ Expected a `;` - start: 50, end: 53
+✖ '; ' expected - start: 50, end: 53
 ✖ Declaration or statement expected - start: 56, end: 58
 
 ```

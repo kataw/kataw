@@ -99,7 +99,7 @@ for (var r == y in x );
                 "operatorToken": {
                     "kind": 34622,
                     "flags": 96,
-                    "transformFlags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
@@ -117,7 +117,7 @@ for (var r == y in x );
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 15,
                         "end": 18
                     },

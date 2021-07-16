@@ -104,7 +104,7 @@ let x: (y) => void = () => {}
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 13,
                                         "end": 18
                                     },

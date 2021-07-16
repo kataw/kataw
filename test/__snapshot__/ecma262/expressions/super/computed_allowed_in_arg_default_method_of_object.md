@@ -93,7 +93,7 @@ x={ foo(a = super[foo]){ }}
                                                         "start": 18,
                                                         "end": 21
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "transformFlags": 4,
                                                     "start": 11,
                                                     "end": 22

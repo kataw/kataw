@@ -37,7 +37,7 @@ export * as foo, {bar} from 'bar';
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -171,7 +171,7 @@ export * as foo, {bar} from 'bar';
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 16
-✖ Expected a `;` - start: 27, end: 33
+✖ '; ' expected - start: 27, end: 33
 
 ```
 

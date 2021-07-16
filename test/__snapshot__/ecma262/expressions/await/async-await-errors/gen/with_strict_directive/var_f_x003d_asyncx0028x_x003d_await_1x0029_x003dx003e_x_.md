@@ -119,7 +119,7 @@
                                 "start": 21,
                                 "end": 39
                             },
-                            "flags": 268435490,
+                            "flags": 34,
                             "transformFlags": 1,
                             "start": 21,
                             "end": 40
@@ -177,7 +177,7 @@
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 40, end: 43
-✖ Expected a `;` - start: 40, end: 43
+✖ '; ' expected - start: 40, end: 43
 
 ```
 

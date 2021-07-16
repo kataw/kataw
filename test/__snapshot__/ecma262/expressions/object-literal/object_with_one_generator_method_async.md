@@ -42,7 +42,7 @@ wrap({*async(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -115,7 +115,7 @@ wrap({*async(){}});
                     "start": 5,
                     "end": 17
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 18

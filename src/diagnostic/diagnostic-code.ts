@@ -248,7 +248,10 @@ export const enum DiagnosticCode {
   A_static_initialization_block_cannot_have_the_static_modifier = 253,
   Variable_declaration_not_allowed_at_this_location = 255,
   _finally_expected = 256,
-  _catch_expected = 257
+  _catch_expected = 257,
+  _0_expected = 258,
+  HTML_comments_can_only_be_used_in_script_mode = 259,
+  HTML_comments_can_only_be_used_with_web_compatibility_enabled = 260
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -501,5 +504,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [253]: "A 'static {}' initialization block cannot have the 'static' modifier",
   [255]: 'Variable declaration not allowed at this location',
   [256]: "'finally' expected",
-  [257]: "'catch' expected"
+  [257]: "'catch' expected",
+  [258]: "'{0}' expected",
+  [259]: 'HTML comments can only be used in script mode',
+  [260]: 'HTML comments can only be used with web compatibility enabled'
 };

@@ -63,7 +63,7 @@ for (/foo/[x] in c) d;
                     "start": 11,
                     "end": 12
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 13
@@ -71,7 +71,7 @@ for (/foo/[x] in c) d;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 13,
                 "end": 16
             },

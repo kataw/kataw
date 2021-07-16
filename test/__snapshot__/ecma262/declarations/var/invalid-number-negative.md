@@ -97,7 +97,7 @@ var a: -z
                     "end": 9
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 6,
                 "end": 9
             },
@@ -127,7 +127,7 @@ var a: -z
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
-✖ Expected a `;` - start: 5, end: 6
+✖ '; ' expected - start: 5, end: 6
 
 ```
 

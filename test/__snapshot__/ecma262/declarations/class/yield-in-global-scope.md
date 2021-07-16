@@ -67,7 +67,7 @@ yield 10
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 8
+✖ '; ' expected - start: 5, end: 8
 
 ```
 

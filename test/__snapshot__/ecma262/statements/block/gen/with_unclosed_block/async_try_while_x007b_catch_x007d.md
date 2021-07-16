@@ -277,8 +277,8 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
-✖ Expected a `;` - start: 23, end: 27
+✖ '; ' expected - start: 15, end: 17
+✖ '; ' expected - start: 23, end: 27
 ✖ 'catch' expected - start: 27, end: 33
 ✖ Missing an opening parentheses - '( - start: 34, end: 35
 ✖ Property definition expected. Did you mean to use a ':'? - start: 41, end: 43

@@ -137,7 +137,7 @@ function f(){ x({[new.target]:y}) }
                                     "start": 16,
                                     "end": 32
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 13,
                                 "end": 33

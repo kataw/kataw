@@ -69,7 +69,7 @@ var gen = async function *g() {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -401,7 +401,7 @@ var gen = async function *g() {
                                                                             "start": 175,
                                                                             "end": 180
                                                                         },
-                                                                        "flags": 268435488,
+                                                                        "flags": 32,
                                                                         "transformFlags": 1,
                                                                         "start": 94,
                                                                         "end": 181

@@ -351,11 +351,11 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
-✖ Expected a `;` - start: 22, end: 23
+✖ '; ' expected - start: 22, end: 23
 ✖ Did you forgot a ']' to match the `[` token? - start: 23, end: 24
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 32
-✖ Expected a `;` - start: 38, end: 39
+✖ '; ' expected - start: 38, end: 39
 ✖ Declaration or statement expected - start: 39, end: 40
 ✖ Declaration or statement expected - start: 40, end: 41
 ✖ Declaration or statement expected - start: 41, end: 42

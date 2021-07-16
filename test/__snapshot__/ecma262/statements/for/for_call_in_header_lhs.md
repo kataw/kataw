@@ -71,7 +71,7 @@ for (x(x in t);;) x
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 8,
                                 "end": 11
                             },
@@ -96,7 +96,7 @@ for (x(x in t);;) x
                     "start": 7,
                     "end": 13
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 5,
                 "end": 14

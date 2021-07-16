@@ -246,7 +246,7 @@ foo = {
 ✖ Identifier expected - start: 50, end: 52
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 42, end: 52
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 52
-✖ Expected a `;` - start: 54, end: 55
+✖ '; ' expected - start: 54, end: 55
 ✖ Declaration or statement expected - start: 56, end: 60
 ✖ Declaration or statement expected - start: 60, end: 62
 

@@ -177,7 +177,7 @@
                                 "start": 17,
                                 "end": 17
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 16,
                             "end": 18
@@ -252,7 +252,7 @@
 
 ```javascript
 ✖ Identifier expected. A decorator name can only be an identifier - start: 1, end: 2
-✖ Expected a `;` - start: 2, end: 8
+✖ '; ' expected - start: 2, end: 8
 ✖ Identifier expected. A decorator name can only be an identifier - start: 16, end: 17
 ✖ An member access expression should take an argument. - start: 16, end: 18
 ✖ Identifier expected - start: 17, end: 18

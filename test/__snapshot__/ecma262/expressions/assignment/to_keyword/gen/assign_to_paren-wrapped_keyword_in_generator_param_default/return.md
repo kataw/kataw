@@ -36,7 +36,7 @@ function *f(x = (return) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -195,7 +195,7 @@ function *f(x = (return) = f) {}
 ✖ A return statement can only be used within a function_body - start: 17, end: 23
 ✖ Identifier expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 
 ```
 

@@ -59,7 +59,7 @@ class A extends void x {}
                         "operandToken": {
                             "kind": 138477615,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 15,
                             "end": 20
                         },
@@ -73,7 +73,7 @@ class A extends void x {}
                             "end": 22
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 16384,
                         "start": 15,
                         "end": 22
                     },

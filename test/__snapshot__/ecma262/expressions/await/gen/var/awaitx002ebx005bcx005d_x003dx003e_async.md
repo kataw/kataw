@@ -164,7 +164,7 @@ var await; var f = (async function() { await.b[c] => async });
 
 ```javascript
 ✖ Identifier expected - start: 44, end: 45
-✖ Expected a `;` - start: 49, end: 52
+✖ '; ' expected - start: 49, end: 52
 ✖ Variable declaration not allowed at this location - start: 49, end: 52
 ✖ Declaration or statement expected - start: 58, end: 60
 ✖ Declaration or statement expected - start: 60, end: 61

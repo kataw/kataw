@@ -54,7 +54,7 @@ foo?.function?.bar
                                 "start": 5,
                                 "end": 10
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 5,
                             "end": 10
@@ -73,7 +73,7 @@ foo?.function?.bar
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 10,
                     "end": 14
@@ -124,7 +124,7 @@ foo?.function?.bar
                                 "start": 20,
                                 "end": 28
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 20,
                             "end": 28
@@ -143,7 +143,7 @@ foo?.function?.bar
                         "start": 29,
                         "end": 32
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 28,
                     "end": 32
@@ -201,7 +201,7 @@ foo?.function?.bar
                                 "start": 38,
                                 "end": 41
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 38,
                             "end": 41
@@ -232,7 +232,7 @@ foo?.function?.bar
                                 "start": 43,
                                 "end": 48
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 43,
                             "end": 48
@@ -251,7 +251,7 @@ foo?.function?.bar
                         "start": 49,
                         "end": 52
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 48,
                     "end": 52
@@ -309,7 +309,7 @@ foo?.function?.bar
                                 "start": 58,
                                 "end": 66
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 58,
                             "end": 66
@@ -338,7 +338,7 @@ foo?.function?.bar
                             "start": 68,
                             "end": 71
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 68,
                         "end": 71

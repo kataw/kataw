@@ -767,7 +767,7 @@ var z : Object = (x) => "hi"
                                     "start": 396,
                                     "end": 396
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 384,
                                 "end": 397
@@ -1147,7 +1147,7 @@ var z : Object = (x) => "hi"
                                     "start": 588,
                                     "end": 588
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 577,
                                 "end": 589
@@ -1399,7 +1399,7 @@ var z : Object = (x) => "hi"
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 715,
                                                 "end": 720
                                             },
@@ -1719,7 +1719,7 @@ var z : Object = (x) => "hi"
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 812,
                                                 "end": 817
                                             },
@@ -1798,7 +1798,7 @@ var z : Object = (x) => "hi"
                                                 "operatorToken": {
                                                     "kind": 67143222,
                                                     "flags": 96,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 832,
                                                     "end": 834
                                                 },

@@ -65,7 +65,7 @@ do do do /false//a while while while
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
@@ -171,7 +171,7 @@ do do do /false//a while while while
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 18, end: 24
+✖ '; ' expected - start: 18, end: 24
 ✖ Missing an opening parentheses - '( - start: 25, end: 30
 ✖ Missing an opening parentheses - '( - start: 31, end: 36
 

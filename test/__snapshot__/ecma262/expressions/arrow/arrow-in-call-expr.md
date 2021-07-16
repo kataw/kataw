@@ -101,7 +101,7 @@ foo(y,(y) => ok);
                     "start": 4,
                     "end": 16
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 17
@@ -195,7 +195,7 @@ foo(y,(y) => ok);
                     "start": 23,
                     "end": 34
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 18,
                 "end": 35
@@ -282,7 +282,7 @@ foo(y,(y) => ok);
                     "start": 41,
                     "end": 52
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 36,
                 "end": 53

@@ -139,7 +139,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                                         "start": 50,
                                                         "end": 51
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 45,
                                                     "end": 52

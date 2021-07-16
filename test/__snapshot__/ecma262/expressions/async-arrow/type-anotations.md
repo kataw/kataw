@@ -1083,7 +1083,7 @@ async (...[x]?: string, a?) => {};
                     "start": 250,
                     "end": 250
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 250,
                 "end": 279
@@ -1135,7 +1135,7 @@ async (...[x]?: string, a?) => {};
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 279, end: 282
+✖ '; ' expected - start: 279, end: 282
 
 ```
 

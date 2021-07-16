@@ -140,7 +140,7 @@ class Foo {
                                                     "operandToken": {
                                                         "kind": 4259886,
                                                         "flags": 97,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 8192,
                                                         "start": 35,
                                                         "end": 46
                                                     },
@@ -174,7 +174,7 @@ class Foo {
                                                                     "start": 53,
                                                                     "end": 55
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 32,
                                                                 "transformFlags": 2,
                                                                 "start": 53,
                                                                 "end": 55
@@ -190,7 +190,7 @@ class Foo {
                                                         "end": 55
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 35,
                                                     "end": 55
                                                 },

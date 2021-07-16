@@ -93,7 +93,7 @@ async (a, ...b+b=c) => a;
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 16
@@ -155,8 +155,8 @@ async (a, ...b+b=c) => a;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 17
-✖ Expected a `;` - start: 18, end: 19
+✖ '; ' expected - start: 16, end: 17
+✖ '; ' expected - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 22
 
 ```

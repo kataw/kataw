@@ -83,7 +83,7 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 8
 ✖ Declaration or statement expected - start: 8, end: 10
-✖ Expected a `;` - start: 12, end: 13
+✖ '; ' expected - start: 12, end: 13
 
 ```
 

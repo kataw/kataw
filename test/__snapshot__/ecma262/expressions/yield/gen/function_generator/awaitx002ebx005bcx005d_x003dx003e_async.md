@@ -36,7 +36,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -140,7 +140,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                     "start": 48,
                                                     "end": 49
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "transformFlags": 4,
                                                 "start": 39,
                                                 "end": 50
@@ -220,7 +220,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 50, end: 53
+✖ '; ' expected - start: 50, end: 53
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Declaration or statement expected - start: 61, end: 62
 

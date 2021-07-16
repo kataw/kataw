@@ -25,7 +25,7 @@ export function createCallChain(
     chain,
     typeArguments,
     argumentList,
-    flags: NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+    flags: NodeFlags.ExpressionNode,
     transformFlags: TransformFlags.CallExpression,
     start,
     end

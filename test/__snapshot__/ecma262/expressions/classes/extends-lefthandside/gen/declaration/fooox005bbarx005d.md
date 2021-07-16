@@ -74,7 +74,7 @@ class A extends fooo[bar] {}
                             "start": 21,
                             "end": 24
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 15,
                         "end": 25

@@ -64,7 +64,7 @@ while (a) let [x] = y;
                             "start": 15,
                             "end": 16
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 9,
                         "end": 17

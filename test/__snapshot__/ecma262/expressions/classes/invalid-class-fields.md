@@ -1129,7 +1129,7 @@
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 182,
                                             "end": 183
                                         },
@@ -1268,7 +1268,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 203,
                                         "end": 204
                                     },
@@ -1402,7 +1402,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 225,
                                         "end": 226
                                     },
@@ -3273,7 +3273,7 @@
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 576,
                                             "end": 578
                                         },
@@ -3514,7 +3514,7 @@
                                                     "start": 595,
                                                     "end": 626
                                                 },
-                                                "flags": 268435489,
+                                                "flags": 33,
                                                 "transformFlags": 1,
                                                 "start": 580,
                                                 "end": 627
@@ -3789,7 +3789,7 @@
                         "start": 630,
                         "end": 665
                     },
-                    "flags": 268435489,
+                    "flags": 33,
                     "transformFlags": 1,
                     "start": 564,
                     "end": 666

@@ -36,7 +36,7 @@ function * gen() { function not_gen() { yield * }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -118,7 +118,7 @@ function * gen() { function not_gen() { yield * }}
                                                 "operatorToken": {
                                                     "kind": 67143222,
                                                     "flags": 96,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 47
                                                 },

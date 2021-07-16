@@ -295,7 +295,7 @@ class Base {
                                                                                 "start": 121,
                                                                                 "end": 121
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 71,
                                                                             "end": 122

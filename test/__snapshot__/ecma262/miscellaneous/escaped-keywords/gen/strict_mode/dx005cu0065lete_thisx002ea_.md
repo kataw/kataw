@@ -29,7 +29,7 @@ d\u0065lete this.a;
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 16480,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 0,
                     "end": 11
                 },
@@ -57,7 +57,7 @@ d\u0065lete this.a;
                     "end": 18
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 0,
                 "end": 18
             },

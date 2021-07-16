@@ -36,7 +36,7 @@ function *f(x = (void) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -76,7 +76,7 @@ function *f(x = (void) = f) {}
                                     "operandToken": {
                                         "kind": 138477615,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 17,
                                         "end": 21
                                     },
@@ -90,7 +90,7 @@ function *f(x = (void) = f) {}
                                         "end": 21
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 17,
                                     "end": 21
                                 },

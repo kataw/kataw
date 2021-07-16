@@ -175,7 +175,7 @@ for (let [.x] = obj);
 ✖ Lexical declaration expected - start: 10, end: 11
 ✖ Identifier expected - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 15
-✖ Expected a `;` - start: 19, end: 20
+✖ '; ' expected - start: 19, end: 20
 
 ```
 

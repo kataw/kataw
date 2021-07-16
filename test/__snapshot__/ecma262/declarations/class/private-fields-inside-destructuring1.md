@@ -687,7 +687,7 @@ class Test {
                                                             "start": 209,
                                                             "end": 209
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 197,
                                                         "end": 210

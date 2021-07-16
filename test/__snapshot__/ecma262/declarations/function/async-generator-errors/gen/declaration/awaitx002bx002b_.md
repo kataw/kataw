@@ -43,7 +43,7 @@ async function * gen() {await++;}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -102,7 +102,7 @@ async function * gen() {await++;}
                                         "end": 31
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 29,
                                     "end": 31
                                 },

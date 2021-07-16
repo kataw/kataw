@@ -112,7 +112,7 @@ do let x; while (false)
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 6, end: 8
+✖ '; ' expected - start: 6, end: 8
 ✖ Declaration or statement expected - start: 8, end: 9
 ✖ Identifier expected - start: 23, end: 23
 

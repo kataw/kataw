@@ -1598,7 +1598,7 @@ try {} catch({ x: "str" }) {}
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 376,
                         "end": 377
                     },
@@ -3413,7 +3413,7 @@ try {} catch({ x: "str" }) {}
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 842,
                         "end": 843
                     },
@@ -3778,7 +3778,7 @@ try {} catch({ x: "str" }) {}
                         "start": 921,
                         "end": 921
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 915,
                     "end": 922
@@ -3960,7 +3960,7 @@ try {} catch({ x: "str" }) {}
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 22, end: 24
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 57, end: 59
 ✖ 'catch' expected - start: 106, end: 111
-✖ Expected a `;` - start: 147, end: 148
+✖ '; ' expected - start: 147, end: 148
 ✖ Cannot redeclare block-scoped variable - start: 171, end: 175
 ✖ Duplicate identifier - start: 199, end: 203
 ✖ A rest element cannot have an initializer - start: 242, end: 244
@@ -4010,7 +4010,7 @@ try {} catch({ x: "str" }) {}
 ✖ ',' expected - start: 801, end: 803
 ✖ ',' expected - start: 803, end: 806
 ✖ Did you forgot a ']' to match the `[` token? - start: 804, end: 806
-✖ Expected a `;` - start: 808, end: 809
+✖ '; ' expected - start: 808, end: 809
 ✖ Declaration or statement expected - start: 809, end: 810
 ✖ Object property expected - start: 832, end: 834
 ✖ ',' expected - start: 832, end: 834

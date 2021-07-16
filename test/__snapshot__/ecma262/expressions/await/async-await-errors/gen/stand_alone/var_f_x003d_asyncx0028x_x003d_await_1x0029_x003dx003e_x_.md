@@ -109,7 +109,7 @@ var f = async(x = await 1) => x;
                                 "start": 7,
                                 "end": 25
                             },
-                            "flags": 268435490,
+                            "flags": 34,
                             "transformFlags": 1,
                             "start": 7,
                             "end": 26
@@ -167,7 +167,7 @@ var f = async(x = await 1) => x;
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 26, end: 29
-✖ Expected a `;` - start: 26, end: 29
+✖ '; ' expected - start: 26, end: 29
 
 ```
 

@@ -53,7 +53,7 @@ let gen = function*() {};
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 20
                             },
@@ -151,7 +151,7 @@ let gen = function*() {};
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 48
                             },

@@ -120,7 +120,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                 "start": 31,
                                                 "end": 33
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 8,
                                             "end": 34
@@ -149,7 +149,7 @@ async ({ident: [foo, bar].join("")}) => x
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 36
@@ -195,7 +195,7 @@ async ({ident: [foo, bar].join("")}) => x
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 36, end: 39
+✖ '; ' expected - start: 36, end: 39
 
 ```
 

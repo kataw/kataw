@@ -249,7 +249,7 @@
                     "start": 50,
                     "end": 50
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 51

@@ -91,7 +91,7 @@ const uuid = String(this._uuidCounter++);
                     "start": 20,
                     "end": 20
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 21
@@ -196,7 +196,7 @@ const uuid = String(this._uuidCounter++);
                     "start": 39,
                     "end": 39
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 32,
                 "end": 40
@@ -288,7 +288,7 @@ const uuid = String(this._uuidCounter++);
                                 "start": 62,
                                 "end": 81
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 54,
                             "end": 82

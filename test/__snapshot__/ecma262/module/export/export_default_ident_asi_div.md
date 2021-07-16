@@ -52,7 +52,7 @@ export default x
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 97,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },

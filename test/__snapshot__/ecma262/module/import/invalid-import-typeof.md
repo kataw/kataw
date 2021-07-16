@@ -34,7 +34,7 @@ import typeof from "iteration"
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 6,
                 "end": 13
             },

@@ -77,7 +77,7 @@ function bar(a = foo()) {
                                 "start": 21,
                                 "end": 21
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 16,
                             "end": 22
@@ -175,7 +175,7 @@ function bar(a = foo()) {
                                 "start": 50,
                                 "end": 50
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 45,
                             "end": 51

@@ -251,7 +251,7 @@ class Foo {
                                                         "end": 62
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 50,
                                                     "end": 62
                                                 },
@@ -295,7 +295,7 @@ class Foo {
                                                         "end": 74
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 62,
                                                     "end": 74
                                                 },

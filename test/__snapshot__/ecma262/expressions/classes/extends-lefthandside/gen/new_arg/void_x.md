@@ -38,7 +38,7 @@ new void x
                     "operandToken": {
                         "kind": 138477615,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 3,
                         "end": 8
                     },
@@ -52,7 +52,7 @@ new void x
                         "end": 10
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3,
                     "end": 10
                 },

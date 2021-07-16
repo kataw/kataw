@@ -60,7 +60,7 @@ new C?.b.d()
                                     "start": 7,
                                     "end": 8
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 7,
                                 "end": 8
@@ -79,7 +79,7 @@ new C?.b.d()
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 8,
                         "end": 10

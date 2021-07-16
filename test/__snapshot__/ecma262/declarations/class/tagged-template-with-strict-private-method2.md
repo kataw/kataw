@@ -350,7 +350,7 @@ new Foo();
                                                                 "operatorToken": {
                                                                     "kind": 34620,
                                                                     "flags": 96,
-                                                                    "transformFlags": 16,
+                                                                    "transformFlags": 0,
                                                                     "start": 161,
                                                                     "end": 165
                                                                 },
@@ -373,7 +373,7 @@ new Foo();
                                                         "start": 153,
                                                         "end": 170
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 133,
                                                     "end": 171
@@ -508,7 +508,7 @@ new Foo();
                                                                 "operatorToken": {
                                                                     "kind": 34620,
                                                                     "flags": 96,
-                                                                    "transformFlags": 16,
+                                                                    "transformFlags": 0,
                                                                     "start": 253,
                                                                     "end": 257
                                                                 },
@@ -531,7 +531,7 @@ new Foo();
                                                         "start": 244,
                                                         "end": 262
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 224,
                                                     "end": 263

@@ -70,7 +70,7 @@ async (x--, y) => x;
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 14
@@ -116,7 +116,7 @@ async (x--, y) => x;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 14, end: 17
+✖ '; ' expected - start: 14, end: 17
 
 ```
 

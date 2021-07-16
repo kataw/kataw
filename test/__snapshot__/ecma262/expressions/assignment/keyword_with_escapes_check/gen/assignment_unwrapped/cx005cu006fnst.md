@@ -81,7 +81,7 @@ c\u006fnst = x;
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 0, end: 10
-✖ Expected a `;` - start: 10, end: 12
+✖ '; ' expected - start: 10, end: 12
 
 ```
 

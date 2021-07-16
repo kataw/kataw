@@ -86,7 +86,7 @@ foo(async async => ok)
                     "start": 4,
                     "end": 21
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 22

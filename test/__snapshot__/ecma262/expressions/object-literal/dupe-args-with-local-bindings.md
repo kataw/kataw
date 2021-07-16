@@ -266,7 +266,7 @@ class o {f([b, a], ...b) {}}
                                 "start": 42,
                                 "end": 43
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 40,
                             "end": 44
@@ -855,7 +855,7 @@ class o {f([b, a], ...b) {}}
 ```javascript
 ✖ Cannot redeclare block-scoped variable - start: 21, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 40
-✖ Expected a `;` - start: 44, end: 46
+✖ '; ' expected - start: 44, end: 46
 ✖ Duplicate identifier - start: 72, end: 74
 ✖ Duplicate identifier - start: 99, end: 101
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 115, end: 117

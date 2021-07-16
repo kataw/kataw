@@ -37,7 +37,7 @@ pa\u0073s();
                     "start": 10,
                     "end": 10
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 11

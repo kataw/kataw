@@ -38,7 +38,7 @@ unction* gf() { var a = yield 'foo'; }
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
@@ -62,7 +62,7 @@ unction* gf() { var a = yield 'foo'; }
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 8,
                     "end": 13
@@ -179,9 +179,9 @@ unction* gf() { var a = yield 'foo'; }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 13, end: 15
+✖ '; ' expected - start: 13, end: 15
 ✖ Variable declaration not allowed at this location - start: 29, end: 35
-✖ Expected a `;` - start: 29, end: 35
+✖ '; ' expected - start: 29, end: 35
 
 ```
 

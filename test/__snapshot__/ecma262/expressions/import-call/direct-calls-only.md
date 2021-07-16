@@ -105,7 +105,7 @@ function failsParse() {
                                     "start": 45,
                                     "end": 45
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 40,
                                 "end": 46
@@ -154,7 +154,7 @@ function failsParse() {
 ```javascript
 ✖ Cannot use 'import.meta' outside a module - start: 39, end: 44
 ✖ 'import.meta' is the only valid meta property for import - start: 39, end: 44
-✖ Expected a `;` - start: 40, end: 44
+✖ '; ' expected - start: 40, end: 44
 
 ```
 

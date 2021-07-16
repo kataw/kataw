@@ -80,7 +80,7 @@ class Something {
                                                 "start": 34,
                                                 "end": 34
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 23,
                                             "end": 35

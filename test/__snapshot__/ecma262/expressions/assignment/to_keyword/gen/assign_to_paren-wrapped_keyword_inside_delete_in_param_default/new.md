@@ -56,7 +56,7 @@ async (x = delete ((new) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -122,7 +122,7 @@ async (x = delete ((new) = f)) => {}
                                     "end": 29
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 29
                             },

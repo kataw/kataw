@@ -129,7 +129,7 @@ while (a) let {x} = y;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 13, end: 15
+✖ '; ' expected - start: 13, end: 15
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 19, end: 21
 
 ```

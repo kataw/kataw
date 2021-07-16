@@ -36,7 +36,7 @@ for (void x in x) ;
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 5,
                     "end": 9
                 },
@@ -50,14 +50,14 @@ for (void x in x) ;
                     "end": 11
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 5,
                 "end": 11
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 11,
                 "end": 14
             },

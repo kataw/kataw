@@ -36,7 +36,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -227,8 +227,8 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 45, end: 47
-✖ Expected a `;` - start: 55, end: 57
+✖ '; ' expected - start: 45, end: 47
+✖ '; ' expected - start: 55, end: 57
 
 ```
 

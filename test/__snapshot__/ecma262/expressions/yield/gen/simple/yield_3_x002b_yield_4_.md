@@ -113,8 +113,8 @@ yield 3 + yield 4;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 7
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 5, end: 7
+✖ '; ' expected - start: 15, end: 17
 
 ```
 

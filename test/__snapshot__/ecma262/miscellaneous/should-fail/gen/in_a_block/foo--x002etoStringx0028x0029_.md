@@ -90,7 +90,7 @@
                     "start": 17,
                     "end": 17
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 8,
                 "end": 18
@@ -120,7 +120,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 7, end: 8
+✖ '; ' expected - start: 7, end: 8
 ✖ Declaration or statement expected - start: 19, end: 21
 
 ```

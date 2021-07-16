@@ -60,7 +60,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -192,7 +192,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 45
                             },
@@ -261,7 +261,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 63
                             },
@@ -405,7 +405,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 108,
                                 "end": 110
                             },

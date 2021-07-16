@@ -89,7 +89,7 @@ class C extends Base { async *#arguments() {} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },

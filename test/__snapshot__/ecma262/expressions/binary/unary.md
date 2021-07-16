@@ -85,7 +85,7 @@ const anyTestFailures = !(
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 65
                                         },
@@ -140,7 +140,7 @@ const anyTestFailures = !(
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 116,
                                             "end": 120
                                         },
@@ -169,7 +169,7 @@ const anyTestFailures = !(
                                 "end": 124
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 23,
                             "end": 124
                         },

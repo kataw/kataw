@@ -53,7 +53,7 @@ new fooo[bar]
                         "start": 9,
                         "end": 12
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 0,
                     "end": 13

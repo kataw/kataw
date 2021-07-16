@@ -36,7 +36,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 49
                                             },
@@ -174,7 +174,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                                     "end": 63
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 16384,
                                                                 "start": 56,
                                                                 "end": 63
                                                             },

@@ -160,7 +160,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ✖ ',' expected - start: 30, end: 31
 ✖ Missing an opening brace - '{ - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 39
-✖ Expected a `;` - start: 54, end: 56
+✖ '; ' expected - start: 54, end: 56
 
 ```
 

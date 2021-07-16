@@ -51,7 +51,7 @@ a?.b.b
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 3,
                             "end": 4
@@ -70,7 +70,7 @@ a?.b.b
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 4,
                     "end": 6

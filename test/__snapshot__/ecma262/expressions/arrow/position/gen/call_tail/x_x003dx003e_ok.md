@@ -82,7 +82,7 @@ foo(x => ok).bar
                         "start": 4,
                         "end": 11
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 12
@@ -96,7 +96,7 @@ foo(x => ok).bar
                     "start": 13,
                     "end": 16
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 2,
                 "start": 0,
                 "end": 16

@@ -167,7 +167,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "start": 33,
                                         "end": 36
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 4,
                                     "start": 30,
                                     "end": 37

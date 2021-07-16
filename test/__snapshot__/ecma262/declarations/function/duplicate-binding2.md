@@ -71,7 +71,7 @@ function f() { { function* x() {} { var x } }}
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 26
                                         },

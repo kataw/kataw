@@ -284,7 +284,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 75,
                                     "end": 77
                                 },
@@ -472,7 +472,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 133
                                 },

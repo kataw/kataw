@@ -132,7 +132,7 @@ type a = (?!x) => T;
                     "end": 13
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 11,
                 "end": 13
             },
@@ -178,7 +178,7 @@ type a = (?!x) => T;
 
 ```javascript
 ✖ Type expected - start: 11, end: 12
-✖ Expected a `;` - start: 13, end: 14
+✖ '; ' expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 17
 
 ```

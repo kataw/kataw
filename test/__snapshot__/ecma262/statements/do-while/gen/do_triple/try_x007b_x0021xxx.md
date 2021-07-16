@@ -84,7 +84,7 @@ do do do try { !xxx while while while
                                                 "end": 19
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 16384,
                                             "start": 14,
                                             "end": 19
                                         },
@@ -276,7 +276,7 @@ do do do try { !xxx while while while
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 19, end: 25
+✖ '; ' expected - start: 19, end: 25
 ✖ Missing an opening parentheses - '( - start: 26, end: 31
 ✖ Missing an opening parentheses - '( - start: 32, end: 37
 

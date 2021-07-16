@@ -58,7 +58,7 @@ for (new a in b in c in d) break
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 10,
                 "end": 13
             },
@@ -78,7 +78,7 @@ for (new a in b in c in d) break
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 15,
                         "end": 18
                     },
@@ -99,7 +99,7 @@ for (new a in b in c in d) break
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 20,
                     "end": 23
                 },

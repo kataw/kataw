@@ -92,7 +92,7 @@ var p/
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
@@ -136,7 +136,7 @@ var p/
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
-✖ Expected a `;` - start: 5, end: 6
+✖ '; ' expected - start: 5, end: 6
 
 ```
 

@@ -16,7 +16,7 @@ export function createMemberAccessExpression(
     kind: SyntaxKind.MemberAccessExpression,
     member,
     expression,
-    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    flags: NodeFlags.ExpressionNode,
     transformFlags: TransformFlags.MemberAccessExpression,
     start,
     end

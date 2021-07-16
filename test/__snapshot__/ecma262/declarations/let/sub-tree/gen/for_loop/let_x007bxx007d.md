@@ -107,7 +107,7 @@ for (;;) let {x}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 14
+✖ '; ' expected - start: 12, end: 14
 
 ```
 

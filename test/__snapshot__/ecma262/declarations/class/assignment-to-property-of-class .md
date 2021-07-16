@@ -103,7 +103,7 @@ c.m = n => n * 3;
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 89,
                                         "end": 91
                                     },
@@ -297,7 +297,7 @@ c.m = n => n * 3;
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 129,
                             "end": 131
                         },

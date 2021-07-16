@@ -60,7 +60,7 @@ class C { *method() { var f = function { super(); } } }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -216,7 +216,7 @@ class C { *method() { var f = function { super(); } } }
                                                                     "start": 47,
                                                                     "end": 47
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 29,
                                                                 "end": 48

@@ -476,7 +476,7 @@ class Array { concat(items:number | string) {}; }
                                 "typeOfKeyword": {
                                     "kind": 138477613,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 97,
                                     "end": 104
                                 },
@@ -2440,7 +2440,7 @@ class Array { concat(items:number | string) {}; }
                                         "typeOfKeyword": {
                                             "kind": 138477613,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 674,
                                             "end": 681
                                         },

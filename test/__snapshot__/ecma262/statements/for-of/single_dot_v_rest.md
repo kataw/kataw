@@ -190,8 +190,8 @@ for (let [.x] of obj);
 ✖ Missing initializer in destructuring declaration - start: 10, end: 11
 ✖ Lexical declaration expected - start: 10, end: 11
 ✖ Identifier expected - start: 12, end: 13
-✖ Expected a `;` - start: 16, end: 20
-✖ Expected a `;` - start: 20, end: 21
+✖ '; ' expected - start: 16, end: 20
+✖ '; ' expected - start: 20, end: 21
 
 ```
 

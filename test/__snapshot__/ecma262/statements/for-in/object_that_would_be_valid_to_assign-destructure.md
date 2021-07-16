@@ -105,7 +105,7 @@ for ({x: a.b} in obj);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 13,
                 "end": 16
             },

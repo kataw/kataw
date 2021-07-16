@@ -36,7 +36,7 @@ function *f(x = (continue) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -196,7 +196,7 @@ function *f(x = (continue) = f) {}
 ✖ Identifier expected - start: 25, end: 26
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 17, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ Expected a `;` - start: 30, end: 31
+✖ '; ' expected - start: 30, end: 31
 
 ```
 

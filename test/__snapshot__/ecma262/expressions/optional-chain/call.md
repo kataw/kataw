@@ -60,7 +60,7 @@ a?.(x)
                             "start": 4,
                             "end": 5
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 3,
                         "end": 6

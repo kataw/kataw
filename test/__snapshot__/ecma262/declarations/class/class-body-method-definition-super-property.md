@@ -122,7 +122,7 @@ class A {
                                                         "start": 47,
                                                         "end": 47
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 27,
                                                     "end": 48

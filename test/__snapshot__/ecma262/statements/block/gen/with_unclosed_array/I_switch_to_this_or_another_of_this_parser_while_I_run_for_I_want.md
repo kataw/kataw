@@ -313,15 +313,15 @@
 ✖ ',' expected - start: 5, end: 11
 ✖ Missing an opening parentheses - '( - start: 12, end: 14
 ✖ Declaration or statement expected - start: 15, end: 19
-✖ Expected a `;` - start: 19, end: 22
-✖ Expected a `;` - start: 22, end: 30
-✖ Expected a `;` - start: 30, end: 33
-✖ Expected a `;` - start: 33, end: 38
-✖ Expected a `;` - start: 38, end: 45
-✖ Expected a `;` - start: 45, end: 51
+✖ '; ' expected - start: 19, end: 22
+✖ '; ' expected - start: 22, end: 30
+✖ '; ' expected - start: 30, end: 33
+✖ '; ' expected - start: 33, end: 38
+✖ '; ' expected - start: 38, end: 45
+✖ '; ' expected - start: 45, end: 51
 ✖ Missing an opening parentheses - '( - start: 52, end: 53
 ✖ Declaration or statement expected - start: 54, end: 57
-✖ Expected a `;` - start: 57, end: 61
+✖ '; ' expected - start: 57, end: 61
 ✖ Missing an opening parentheses - '( - start: 62, end: 63
 ✖ Identifier expected - start: 68, end: 68
 

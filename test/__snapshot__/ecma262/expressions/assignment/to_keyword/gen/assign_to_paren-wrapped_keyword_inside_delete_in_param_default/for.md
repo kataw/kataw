@@ -61,7 +61,7 @@ async (x = delete ((for) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -89,7 +89,7 @@ async (x = delete ((for) = f)) => {}
                                     "end": 20
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 20
                             },
@@ -105,7 +105,7 @@ async (x = delete ((for) = f)) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -226,7 +226,7 @@ async (x = delete ((for) = f)) => {}
 ✖ Missing an opening parentheses - '( - start: 23, end: 24
 ✖ Identifier expected - start: 24, end: 26
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 24, end: 26
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 33
 

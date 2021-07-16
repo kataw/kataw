@@ -40,7 +40,7 @@ test !== false ? success() : error()
                     "operatorToken": {
                         "kind": 34621,
                         "flags": 96,
-                        "transformFlags": 16,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 8
                     },
@@ -83,7 +83,7 @@ test !== false ? success() : error()
                         "start": 25,
                         "end": 25
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 16,
                     "end": 26
@@ -115,7 +115,7 @@ test !== false ? success() : error()
                         "start": 35,
                         "end": 35
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 28,
                     "end": 36

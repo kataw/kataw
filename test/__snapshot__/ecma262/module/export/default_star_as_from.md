@@ -68,7 +68,7 @@ export bar, * as foo from 'bar';
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -167,9 +167,9 @@ export bar, * as foo from 'bar';
 ```javascript
 ✖ Declaration or statement expected - start: 6, end: 10
 ✖ Identifier expected - start: 11, end: 13
-✖ Expected a `;` - start: 16, end: 20
-✖ Expected a `;` - start: 20, end: 25
-✖ Expected a `;` - start: 25, end: 31
+✖ '; ' expected - start: 16, end: 20
+✖ '; ' expected - start: 20, end: 25
+✖ '; ' expected - start: 25, end: 31
 
 ```
 

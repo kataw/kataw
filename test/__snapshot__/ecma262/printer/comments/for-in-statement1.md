@@ -43,7 +43,7 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 39,
                 "end": 59
             },
@@ -89,7 +89,7 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 151,
                 "end": 159
             },

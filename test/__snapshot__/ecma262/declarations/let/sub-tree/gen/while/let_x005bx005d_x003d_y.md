@@ -66,7 +66,7 @@ while (a) let
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 9,
                         "end": 16

@@ -84,7 +84,7 @@ async (x = (continue) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -173,7 +173,7 @@ async (x = (continue) = f) => {}
 ✖ Identifier expected - start: 20, end: 21
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 12, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
-✖ Expected a `;` - start: 25, end: 26
+✖ '; ' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29
 
 ```

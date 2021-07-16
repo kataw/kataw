@@ -121,7 +121,7 @@
 ✖ Identifier expected - start: 14, end: 19
 ✖ Identifier expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
-✖ Expected a `;` - start: 24, end: 25
+✖ '; ' expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29
 

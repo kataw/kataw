@@ -58,7 +58,7 @@ for (obj?.foo.bar in {}) ;
                                 "start": 10,
                                 "end": 13
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 10,
                             "end": 13
@@ -77,7 +77,7 @@ for (obj?.foo.bar in {}) ;
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 13,
                     "end": 17
@@ -90,7 +90,7 @@ for (obj?.foo.bar in {}) ;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 17,
                 "end": 20
             },

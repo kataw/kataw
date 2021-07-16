@@ -62,7 +62,7 @@ while(true) let[a] = 0
                             "start": 16,
                             "end": 17
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 11,
                         "end": 18

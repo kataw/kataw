@@ -36,7 +36,7 @@ function* g() { var f = async(yield) => 1; }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -128,7 +128,7 @@ function* g() { var f = async(yield) => 1; }
                                                 "start": 23,
                                                 "end": 23
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 23,
                                             "end": 36
@@ -203,7 +203,7 @@ function* g() { var f = async(yield) => 1; }
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 36, end: 39
-✖ Expected a `;` - start: 36, end: 39
+✖ '; ' expected - start: 36, end: 39
 ✖ Declaration or statement expected - start: 42, end: 44
 
 ```

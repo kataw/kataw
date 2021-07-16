@@ -60,7 +60,7 @@ await.b[c] => async
                     "start": 8,
                     "end": 9
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 10
@@ -106,7 +106,7 @@ await.b[c] => async
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 10, end: 13
+✖ '; ' expected - start: 10, end: 13
 
 ```
 

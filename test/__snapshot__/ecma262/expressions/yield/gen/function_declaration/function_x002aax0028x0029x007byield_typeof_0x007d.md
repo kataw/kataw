@@ -73,7 +73,7 @@ function not_gen() { function *a(){yield typeof 0} }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 31
                             },
@@ -120,7 +120,7 @@ function not_gen() { function *a(){yield typeof 0} }}
                                                     "operandToken": {
                                                         "kind": 138477613,
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 8192,
                                                         "start": 40,
                                                         "end": 47
                                                     },
@@ -134,7 +134,7 @@ function not_gen() { function *a(){yield typeof 0} }}
                                                         "end": 49
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 40,
                                                     "end": 49
                                                 },

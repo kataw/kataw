@@ -65,7 +65,7 @@ do a + b / c while (x);
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -134,7 +134,7 @@ do a + b / c while (x);
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 18
+✖ '; ' expected - start: 12, end: 18
 
 ```
 

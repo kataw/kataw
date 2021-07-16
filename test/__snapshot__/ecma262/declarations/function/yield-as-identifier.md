@@ -272,7 +272,7 @@ function *foo() { let x = {yield} }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 80
             },
@@ -395,7 +395,7 @@ function *foo() { let x = {yield} }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 113,
                 "end": 115
             },

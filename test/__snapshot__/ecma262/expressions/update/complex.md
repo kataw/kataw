@@ -70,7 +70,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                             "start": 9,
                                             "end": 12
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 4,
                                         "start": 0,
                                         "end": 13
@@ -84,7 +84,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                         "start": 14,
                                         "end": 17
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 0,
                                     "end": 17
@@ -106,7 +106,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                     "start": 18,
                                     "end": 22
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 0,
                                 "end": 23
@@ -130,7 +130,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                 "start": 24,
                                 "end": 27
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 0,
                             "end": 28
@@ -144,7 +144,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                             "start": 29,
                             "end": 32
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 0,
                         "end": 33
@@ -158,7 +158,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                         "start": 34,
                         "end": 34
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 35

@@ -344,7 +344,7 @@ class C { foo() { this.#a = 1; }}
                     "start": 44,
                     "end": 81
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 82

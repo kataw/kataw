@@ -67,7 +67,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -93,7 +93,7 @@
                                                 "start": 20,
                                                 "end": 21
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 4,
                                             "start": 17,
                                             "end": 22
@@ -144,7 +144,7 @@
                                             "start": 23,
                                             "end": 44
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 17,
                                         "end": 44
@@ -230,7 +230,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 72
                                     },
@@ -256,7 +256,7 @@
                                                 "start": 75,
                                                 "end": 76
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 4,
                                             "start": 72,
                                             "end": 77
@@ -307,7 +307,7 @@
                                             "start": 78,
                                             "end": 99
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 72,
                                         "end": 99
@@ -495,7 +495,7 @@
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 282,
                                             "end": 284
                                         },
@@ -534,7 +534,7 @@
                             "start": 288,
                             "end": 288
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 278,
                         "end": 289
@@ -628,7 +628,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 348,
                                         "end": 350
                                     },
@@ -667,7 +667,7 @@
                         "start": 354,
                         "end": 354
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 344,
                     "end": 355
@@ -756,7 +756,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 416,
                                         "end": 418
                                     },
@@ -795,7 +795,7 @@
                         "start": 422,
                         "end": 422
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 412,
                     "end": 423
@@ -884,7 +884,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 484,
                                         "end": 486
                                     },
@@ -923,7 +923,7 @@
                         "start": 490,
                         "end": 490
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 480,
                     "end": 491
@@ -987,7 +987,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 517,
                                         "end": 519
                                     },
@@ -1013,7 +1013,7 @@
                                                 "start": 522,
                                                 "end": 523
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 4,
                                             "start": 519,
                                             "end": 524
@@ -1141,7 +1141,7 @@
                                                                                                 "operatorToken": {
                                                                                                     "kind": 35640,
                                                                                                     "flags": 96,
-                                                                                                    "transformFlags": 32,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 550,
                                                                                                     "end": 552
                                                                                                 },
@@ -1180,7 +1180,7 @@
                                                                                     "start": 556,
                                                                                     "end": 556
                                                                                 },
-                                                                                "flags": 268435488,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 1,
                                                                                 "start": 546,
                                                                                 "end": 557
@@ -1227,7 +1227,7 @@
                                             "start": 525,
                                             "end": 562
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 519,
                                         "end": 563
@@ -1308,7 +1308,7 @@
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 584,
                                             "end": 586
                                         },
@@ -1334,7 +1334,7 @@
                                                     "start": 589,
                                                     "end": 590
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "transformFlags": 4,
                                                 "start": 586,
                                                 "end": 591
@@ -1442,7 +1442,7 @@
                                                                                                     "operatorToken": {
                                                                                                         "kind": 35640,
                                                                                                         "flags": 96,
-                                                                                                        "transformFlags": 32,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 613,
                                                                                                         "end": 615
                                                                                                     },
@@ -1481,7 +1481,7 @@
                                                                                         "start": 619,
                                                                                         "end": 619
                                                                                     },
-                                                                                    "flags": 268435488,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 1,
                                                                                     "start": 609,
                                                                                     "end": 620
@@ -1528,7 +1528,7 @@
                                                 "start": 592,
                                                 "end": 625
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 586,
                                             "end": 626
@@ -1634,7 +1634,7 @@
                                                 "operatorToken": {
                                                     "kind": 35640,
                                                     "flags": 96,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 653,
                                                     "end": 655
                                                 },
@@ -1660,7 +1660,7 @@
                                                             "start": 658,
                                                             "end": 659
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 4,
                                                         "start": 655,
                                                         "end": 660
@@ -1768,7 +1768,7 @@
                                                                                                             "operatorToken": {
                                                                                                                 "kind": 35640,
                                                                                                                 "flags": 96,
-                                                                                                                "transformFlags": 32,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 682,
                                                                                                                 "end": 684
                                                                                                             },
@@ -1807,7 +1807,7 @@
                                                                                                 "start": 688,
                                                                                                 "end": 688
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 678,
                                                                                             "end": 689
@@ -1854,7 +1854,7 @@
                                                         "start": 661,
                                                         "end": 694
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 655,
                                                     "end": 695
@@ -1945,7 +1945,7 @@
 ✖ Property definition expected. Did you mean to use a ':'? - start: 43, end: 44
 ✖ ',' expected - start: 43, end: 44
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ Expected a `;` - start: 46, end: 47
+✖ '; ' expected - start: 46, end: 47
 ✖ Declaration or statement expected - start: 47, end: 48
 ✖ Declaration or statement expected - start: 48, end: 49
 ✖ Declaration or statement expected - start: 49, end: 50
@@ -1954,7 +1954,7 @@
 ✖ Property definition expected. Did you mean to use a ':'? - start: 98, end: 99
 ✖ ',' expected - start: 98, end: 99
 ✖ Expected a ')' to match the '(' token here - start: 99, end: 100
-✖ Expected a `;` - start: 101, end: 102
+✖ '; ' expected - start: 101, end: 102
 ✖ Declaration or statement expected - start: 102, end: 103
 ✖ Declaration or statement expected - start: 103, end: 104
 ✖ Declaration or statement expected - start: 104, end: 105
@@ -1965,7 +1965,7 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 134, end: 162
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 133, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
-✖ Expected a `;` - start: 164, end: 165
+✖ '; ' expected - start: 164, end: 165
 ✖ Declaration or statement expected - start: 165, end: 166
 ✖ Declaration or statement expected - start: 166, end: 167
 ✖ Declaration or statement expected - start: 167, end: 168
@@ -1983,7 +1983,7 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 262, end: 278
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 261, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
-✖ Expected a `;` - start: 290, end: 291
+✖ '; ' expected - start: 290, end: 291
 ✖ Declaration or statement expected - start: 291, end: 292
 ✖ Declaration or statement expected - start: 292, end: 293
 ✖ Declaration or statement expected - start: 293, end: 294
@@ -1995,9 +1995,9 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 324, end: 339
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 323, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
-✖ Expected a `;` - start: 341, end: 342
+✖ '; ' expected - start: 341, end: 342
 ✖ Declaration or statement expected - start: 342, end: 344
-✖ Expected a `;` - start: 356, end: 357
+✖ '; ' expected - start: 356, end: 357
 ✖ Declaration or statement expected - start: 357, end: 358
 ✖ Declaration or statement expected - start: 358, end: 359
 ✖ Declaration or statement expected - start: 359, end: 360
@@ -2010,9 +2010,9 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 390, end: 407
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 389, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
-✖ Expected a `;` - start: 409, end: 410
+✖ '; ' expected - start: 409, end: 410
 ✖ Declaration or statement expected - start: 410, end: 412
-✖ Expected a `;` - start: 424, end: 425
+✖ '; ' expected - start: 424, end: 425
 ✖ Declaration or statement expected - start: 425, end: 426
 ✖ Declaration or statement expected - start: 426, end: 427
 ✖ Declaration or statement expected - start: 427, end: 428
@@ -2024,9 +2024,9 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 458, end: 475
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 457, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
-✖ Expected a `;` - start: 477, end: 478
+✖ '; ' expected - start: 477, end: 478
 ✖ Declaration or statement expected - start: 478, end: 480
-✖ Expected a `;` - start: 492, end: 493
+✖ '; ' expected - start: 492, end: 493
 ✖ Declaration or statement expected - start: 493, end: 494
 ✖ Declaration or statement expected - start: 494, end: 495
 ✖ Declaration or statement expected - start: 495, end: 496

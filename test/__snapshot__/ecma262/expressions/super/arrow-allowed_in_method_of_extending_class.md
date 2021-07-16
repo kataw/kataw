@@ -150,7 +150,7 @@ class x extends y { fo(){ return () => super[bar]; }}
                                                             "start": 45,
                                                             "end": 48
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 4,
                                                         "start": 38,
                                                         "end": 49

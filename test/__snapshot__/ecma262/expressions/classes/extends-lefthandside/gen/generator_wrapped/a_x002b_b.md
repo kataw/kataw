@@ -38,7 +38,7 @@ function *P(){
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -153,7 +153,7 @@ function *P(){
                                     "end": 38
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 34,
                                 "end": 38
                             },
@@ -215,7 +215,7 @@ function *P(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 35, end: 36
-✖ Expected a `;` - start: 38, end: 40
+✖ '; ' expected - start: 38, end: 40
 
 ```
 

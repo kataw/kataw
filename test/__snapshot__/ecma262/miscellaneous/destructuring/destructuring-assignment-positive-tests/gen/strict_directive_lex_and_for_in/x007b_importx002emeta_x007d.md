@@ -130,7 +130,7 @@
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 33,
                 "end": 36
             },
@@ -297,7 +297,7 @@
 ✖ ',' expected - start: 49, end: 50
 ✖ Expected a ')' to match the '(' token here - start: 55, end: 56
 ✖ Declaration or statement expected - start: 56, end: 58
-✖ Expected a `;` - start: 65, end: 66
+✖ '; ' expected - start: 65, end: 66
 
 ```
 

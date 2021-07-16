@@ -231,7 +231,7 @@
                     "start": 40,
                     "end": 40
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 23,
                 "end": 41
@@ -472,7 +472,7 @@
                     "start": 90,
                     "end": 90
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 70,
                 "end": 91

@@ -31,7 +31,7 @@ typeof a + b instanceof c
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 0,
                         "end": 6
                     },
@@ -45,7 +45,7 @@ typeof a + b instanceof c
                         "end": 8
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 0,
                     "end": 8
                 },

@@ -83,7 +83,7 @@ for (a of b) let
                             "start": 18,
                             "end": 18
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 12,
                         "end": 19

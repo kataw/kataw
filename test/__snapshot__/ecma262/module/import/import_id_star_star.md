@@ -134,7 +134,7 @@ import a, ** from 'f';
 ```javascript
 ✖ Import declaration expected - start: 9, end: 12
 ✖ Identifier expected - start: 9, end: 12
-✖ Expected a `;` - start: 17, end: 21
+✖ '; ' expected - start: 17, end: 21
 
 ```
 

@@ -261,7 +261,7 @@ class C {
                                                     "start": 99,
                                                     "end": 109
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 20,
                                                 "end": 110
@@ -294,7 +294,7 @@ class C {
                                                                 "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
-                                                                    "transformFlags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 126,
                                                                     "end": 128
                                                                 },
@@ -464,7 +464,7 @@ class C {
                                                             "start": 196,
                                                             "end": 216
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 111,
                                                         "end": 217
@@ -478,7 +478,7 @@ class C {
                                                         "start": 218,
                                                         "end": 222
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 111,
                                                     "end": 222
@@ -492,7 +492,7 @@ class C {
                                                     "start": 223,
                                                     "end": 223
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 111,
                                                 "end": 224
@@ -691,7 +691,7 @@ class C {
                                                     "start": 322,
                                                     "end": 338
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 225,
                                                 "end": 339

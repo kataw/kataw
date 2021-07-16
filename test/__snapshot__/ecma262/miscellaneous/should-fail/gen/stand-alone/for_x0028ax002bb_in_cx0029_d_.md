@@ -63,7 +63,7 @@ for (a+b in c) d;
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 8,
                         "end": 11
                     },

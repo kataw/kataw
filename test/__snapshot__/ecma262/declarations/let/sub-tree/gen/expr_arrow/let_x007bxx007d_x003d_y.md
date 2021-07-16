@@ -132,7 +132,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 9, end: 11
+✖ '; ' expected - start: 9, end: 11
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 15, end: 17
 
 ```

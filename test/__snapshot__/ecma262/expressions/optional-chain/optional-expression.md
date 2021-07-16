@@ -58,7 +58,7 @@ obj?.a?.b
                                 "start": 5,
                                 "end": 6
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 5,
                             "end": 6
@@ -87,7 +87,7 @@ obj?.a?.b
                             "start": 8,
                             "end": 9
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 8,
                         "end": 9

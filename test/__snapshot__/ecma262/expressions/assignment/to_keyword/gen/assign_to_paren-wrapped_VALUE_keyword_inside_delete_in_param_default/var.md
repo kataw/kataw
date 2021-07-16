@@ -36,7 +36,7 @@ function *f(x = delete ((var) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((var) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 15,
                                 "end": 22
                             },
@@ -100,7 +100,7 @@ function *f(x = delete ((var) = f)) {}
                                 "end": 25
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 15,
                             "end": 25
                         },
@@ -213,9 +213,9 @@ function *f(x = delete ((var) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 28
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
-✖ Expected a `;` - start: 33, end: 34
+✖ '; ' expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 
 ```

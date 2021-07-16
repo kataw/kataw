@@ -98,7 +98,7 @@ async x => {}++
                     "end": 15
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 13,
                 "end": 15
             },
@@ -127,7 +127,7 @@ async x => {}++
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 13, end: 15
+✖ '; ' expected - start: 13, end: 15
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 15, end: 15
 
 ```

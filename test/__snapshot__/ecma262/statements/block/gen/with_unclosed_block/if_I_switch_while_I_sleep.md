@@ -254,7 +254,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ Missing an opening parentheses - '( - start: 21, end: 22
 ✖ Declaration or statement expected - start: 23, end: 29
 ✖ Missing an opening parentheses - '( - start: 30, end: 35

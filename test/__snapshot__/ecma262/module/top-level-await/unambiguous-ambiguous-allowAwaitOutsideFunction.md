@@ -87,7 +87,7 @@ await / 0 /u
                         "end": 18
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 14,
                     "end": 18
                 },
@@ -131,7 +131,7 @@ await / 0 /u
                         "end": 28
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 24,
                     "end": 28
                 },

@@ -138,7 +138,7 @@ x?.[y] = 0;
                         "start": 18,
                         "end": 18
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 15,
                     "end": 19
@@ -205,7 +205,7 @@ x?.[y] = 0;
                                 "start": 28,
                                 "end": 29
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 28,
                             "end": 29
@@ -282,7 +282,7 @@ x?.[y] = 0;
                                 "start": 39,
                                 "end": 40
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 38,
                             "end": 40

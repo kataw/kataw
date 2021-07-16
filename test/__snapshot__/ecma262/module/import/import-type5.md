@@ -72,7 +72,7 @@ import type a * from "b";
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
@@ -116,7 +116,7 @@ import type a * from "b";
 ### Printed
 
 ```javascript
-import type a from "\"b\"";
+import type a;  from "\"b\"";
 ```
 
 ### Diagnostics

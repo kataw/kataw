@@ -85,7 +85,7 @@ var C = class { async *gen() {
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 23
                                             },
@@ -124,7 +124,7 @@ var C = class { async *gen() {
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 97,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 8192,
                                                                         "start": 30,
                                                                         "end": 39
                                                                     },
@@ -152,7 +152,7 @@ var C = class { async *gen() {
                                                                         "end": 45
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 30,
                                                                     "end": 45
                                                                 },

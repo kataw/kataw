@@ -50,7 +50,7 @@ for (async function *(){} in x) ;
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -90,7 +90,7 @@ for (async function *(){} in x) ;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 25,
                 "end": 28
             },

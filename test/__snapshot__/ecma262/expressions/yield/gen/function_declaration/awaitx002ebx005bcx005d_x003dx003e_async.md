@@ -97,7 +97,7 @@ function not_gen() { await.b[c] => async }}
                                     "start": 29,
                                     "end": 30
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 20,
                                 "end": 31
@@ -160,7 +160,7 @@ function not_gen() { await.b[c] => async }}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 31, end: 34
+✖ '; ' expected - start: 31, end: 34
 ✖ Declaration or statement expected - start: 40, end: 42
 ✖ Declaration or statement expected - start: 42, end: 43
 

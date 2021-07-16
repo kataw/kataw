@@ -155,7 +155,7 @@
 ✖ Missing an opening parentheses - '( - start: 17, end: 18
 ✖ Identifier expected - start: 18, end: 20
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
-✖ Expected a `;` - start: 22, end: 23
+✖ '; ' expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 27
 

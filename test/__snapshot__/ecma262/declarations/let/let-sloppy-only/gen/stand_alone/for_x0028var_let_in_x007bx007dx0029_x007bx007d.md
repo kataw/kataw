@@ -75,7 +75,7 @@ for (var let in {}) {}
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 12,
                 "end": 15
             },

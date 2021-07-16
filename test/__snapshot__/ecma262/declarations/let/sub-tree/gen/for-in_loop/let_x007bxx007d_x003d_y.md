@@ -43,7 +43,7 @@ for (a in b) let {x} = y
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 6,
                 "end": 9
             },
@@ -145,7 +145,7 @@ for (a in b) let {x} = y
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 18
+✖ '; ' expected - start: 16, end: 18
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 22, end: 24
 
 ```

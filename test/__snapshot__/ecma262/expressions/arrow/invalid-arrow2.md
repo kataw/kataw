@@ -72,7 +72,7 @@
                                 "start": 3,
                                 "end": 6
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 0,
                             "end": 7
@@ -163,7 +163,7 @@
                                 "start": 26,
                                 "end": 29
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 18,
                             "end": 30
@@ -1357,22 +1357,22 @@
 
 ```javascript
 ✖ The left hand side of the arrow is not destructible  - start: 11, end: 14
-✖ Expected a `;` - start: 31, end: 34
+✖ '; ' expected - start: 31, end: 34
 ✖ A rest element cannot have an initializer - start: 47, end: 49
 ✖ Expected a ')' to match the '(' token here - start: 67, end: 68
-✖ Expected a `;` - start: 70, end: 71
+✖ '; ' expected - start: 70, end: 71
 ✖ Declaration or statement expected - start: 71, end: 74
 ✖ The left hand side of the arrow is not destructible  - start: 90, end: 94
 ✖ The left hand side of the arrow is not destructible  - start: 114, end: 117
-✖ Expected a `;` - start: 134, end: 137
-✖ Expected a `;` - start: 157, end: 160
-✖ Expected a `;` - start: 176, end: 179
-✖ Expected a `;` - start: 198, end: 201
-✖ Expected a `;` - start: 221, end: 224
-✖ Expected a `;` - start: 247, end: 250
+✖ '; ' expected - start: 134, end: 137
+✖ '; ' expected - start: 157, end: 160
+✖ '; ' expected - start: 176, end: 179
+✖ '; ' expected - start: 198, end: 201
+✖ '; ' expected - start: 221, end: 224
+✖ '; ' expected - start: 247, end: 250
 ✖ The left hand side of the arrow is not destructible  - start: 268, end: 271
 ✖ Did you forgot a ']' to match the `[` token? - start: 283, end: 284
-✖ Expected a `;` - start: 284, end: 286
+✖ '; ' expected - start: 284, end: 286
 ✖ Declaration or statement expected - start: 286, end: 287
 ✖ Declaration or statement expected - start: 287, end: 290
 ✖ Identifier expected - start: 300, end: 306

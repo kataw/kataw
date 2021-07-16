@@ -60,7 +60,7 @@ class C { *method() { var f = function*() { super(); } } }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -130,7 +130,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                 "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
-                                                                    "transformFlags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 38,
                                                                     "end": 39
                                                                 },
@@ -171,7 +171,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                                         "start": 50,
                                                                                         "end": 50
                                                                                     },
-                                                                                    "flags": 268435488,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 1,
                                                                                     "start": 43,
                                                                                     "end": 51

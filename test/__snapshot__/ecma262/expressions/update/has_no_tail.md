@@ -97,7 +97,7 @@ x.foo++.bar
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 7, end: 8
+✖ '; ' expected - start: 7, end: 8
 
 ```
 

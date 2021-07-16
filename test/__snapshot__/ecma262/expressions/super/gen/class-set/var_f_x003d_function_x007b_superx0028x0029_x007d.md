@@ -226,7 +226,7 @@ class C { set x(_) { var f = function { super(); } } }
                                                                     "start": 46,
                                                                     "end": 46
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 28,
                                                                 "end": 47

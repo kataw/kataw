@@ -301,7 +301,7 @@ new Foo();
                                                                 "operatorToken": {
                                                                     "kind": 34620,
                                                                     "flags": 96,
-                                                                    "transformFlags": 16,
+                                                                    "transformFlags": 0,
                                                                     "start": 139,
                                                                     "end": 143
                                                                 },
@@ -324,7 +324,7 @@ new Foo();
                                                         "start": 131,
                                                         "end": 148
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 111,
                                                     "end": 149

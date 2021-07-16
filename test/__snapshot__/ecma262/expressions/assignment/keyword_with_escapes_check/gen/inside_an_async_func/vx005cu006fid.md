@@ -66,7 +66,7 @@ async () => {  v\u006fid = x  }
                                         "operandToken": {
                                             "kind": 138477615,
                                             "flags": 16480,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 13,
                                             "end": 24
                                         },
@@ -80,7 +80,7 @@ async () => {  v\u006fid = x  }
                                             "end": 24
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 13,
                                         "end": 24
                                     },

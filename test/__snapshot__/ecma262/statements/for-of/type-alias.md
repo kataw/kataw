@@ -109,7 +109,7 @@ type x = y;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 4, end: 6
+✖ '; ' expected - start: 4, end: 6
 
 ```
 

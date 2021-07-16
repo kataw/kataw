@@ -157,7 +157,7 @@
 
 ```javascript
 ✖ The left hand side of the arrow is not destructible  - start: 15, end: 18
-✖ Expected a `;` - start: 21, end: 22
+✖ '; ' expected - start: 21, end: 22
 
 ```
 

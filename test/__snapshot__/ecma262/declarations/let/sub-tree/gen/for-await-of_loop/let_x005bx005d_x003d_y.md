@@ -89,7 +89,7 @@ for await (a of b) let
                             "start": 24,
                             "end": 24
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 18,
                         "end": 25

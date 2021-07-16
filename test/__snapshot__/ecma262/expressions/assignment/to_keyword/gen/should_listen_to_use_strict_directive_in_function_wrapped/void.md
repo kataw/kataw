@@ -83,7 +83,7 @@ function f() {
                                         "operandToken": {
                                             "kind": 138477615,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 34,
                                             "end": 38
                                         },
@@ -97,7 +97,7 @@ function f() {
                                             "end": 38
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 34,
                                         "end": 38
                                     },

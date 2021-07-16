@@ -105,7 +105,7 @@ for (((x)=>{}) in y);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 14,
                 "end": 17
             },

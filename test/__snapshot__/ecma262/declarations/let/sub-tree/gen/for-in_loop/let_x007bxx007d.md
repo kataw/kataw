@@ -43,7 +43,7 @@ for (a in b) let {x}
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 6,
                 "end": 9
             },
@@ -129,7 +129,7 @@ for (a in b) let {x}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 18
+✖ '; ' expected - start: 16, end: 18
 
 ```
 

@@ -95,7 +95,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                         "end": 19
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 11,
                     "end": 19
                 },
@@ -241,11 +241,11 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
 ```javascript
 ✖ Identifier expected - start: 19, end: 20
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 19, end: 20
-✖ Expected a `;` - start: 22, end: 26
+✖ '; ' expected - start: 22, end: 26
 ✖ Invalid hexadecimal escape sequence - start: 27, end: 34
 ✖ Invalid hexadecimal escape sequence - start: 34, end: 34
-✖ Expected a `;` - start: 34, end: 35
-✖ Expected a `;` - start: 39, end: 41
+✖ '; ' expected - start: 34, end: 35
+✖ '; ' expected - start: 39, end: 41
 
 ```
 

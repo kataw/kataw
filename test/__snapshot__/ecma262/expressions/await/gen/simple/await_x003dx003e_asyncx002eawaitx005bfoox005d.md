@@ -81,7 +81,7 @@ await => async.await[foo]
                         "start": 21,
                         "end": 24
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 8,
                     "end": 25

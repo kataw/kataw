@@ -634,7 +634,7 @@ a = { y: x = 1 } = b;
                                         "end": 106
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 101,
                                     "end": 106
                                 },
@@ -712,7 +712,7 @@ a = { y: x = 1 } = b;
                                         "end": 122
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 117,
                                     "end": 122
                                 },
@@ -783,7 +783,7 @@ a = { y: x = 1 } = b;
                                         "end": 136
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 131,
                                     "end": 136
                                 },
@@ -1318,7 +1318,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 255,
                                     "end": 257
                                 },
@@ -1857,7 +1857,7 @@ a = { y: x = 1 } = b;
                     "start": 333,
                     "end": 352
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 329,
                 "end": 353
@@ -2375,7 +2375,7 @@ a = { y: x = 1 } = b;
                     "start": 444,
                     "end": 460
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 440,
                 "end": 461
@@ -2594,7 +2594,7 @@ a = { y: x = 1 } = b;
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 504,
                                             "end": 506
                                         },
@@ -2667,7 +2667,7 @@ a = { y: x = 1 } = b;
                     "start": 495,
                     "end": 514
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 491,
                 "end": 515
@@ -2979,7 +2979,7 @@ a = { y: x = 1 } = b;
                     "start": 562,
                     "end": 580
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 558,
                 "end": 581
@@ -3089,7 +3089,7 @@ a = { y: x = 1 } = b;
                     "start": 586,
                     "end": 597
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 582,
                 "end": 598
@@ -3135,7 +3135,7 @@ a = { y: x = 1 } = b;
                                                 "start": 610,
                                                 "end": 610
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 605,
                                             "end": 611
@@ -3221,7 +3221,7 @@ a = { y: x = 1 } = b;
                             "start": 631,
                             "end": 631
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 624,
                         "end": 632
@@ -3628,7 +3628,7 @@ a = { y: x = 1 } = b;
                                                             "start": 733,
                                                             "end": 739
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 724,
                                                         "end": 740
@@ -3843,7 +3843,7 @@ a = { y: x = 1 } = b;
                         "start": 764,
                         "end": 779
                     },
-                    "flags": 268435489,
+                    "flags": 33,
                     "transformFlags": 1,
                     "start": 751,
                     "end": 780
@@ -3873,7 +3873,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 785,
                                     "end": 786
                                 },
@@ -3964,7 +3964,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 801,
                                     "end": 802
                                 },
@@ -4055,7 +4055,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 820,
                                     "end": 821
                                 },
@@ -4260,7 +4260,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 863,
                                     "end": 864
                                 },
@@ -4367,7 +4367,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 884,
                                     "end": 885
                                 },
@@ -4602,7 +4602,7 @@ a = { y: x = 1 } = b;
                                     "operandToken": {
                                         "kind": 138477613,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 928,
                                         "end": 935
                                     },
@@ -4616,7 +4616,7 @@ a = { y: x = 1 } = b;
                                         "end": 937
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 928,
                                     "end": 937
                                 },

@@ -130,7 +130,7 @@ this.subscriptions.add(
                                 "start": 18,
                                 "end": 24
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 8,
                             "end": 25
@@ -207,7 +207,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 54,
                                                             "end": 55
                                                         },
@@ -249,7 +249,7 @@ this.subscriptions.add(
                                 "start": 44,
                                 "end": 57
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 37,
                             "end": 58
@@ -261,7 +261,7 @@ this.subscriptions.add(
                     "start": 8,
                     "end": 58
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 60
@@ -359,7 +359,7 @@ this.subscriptions.add(
                                 "start": 89,
                                 "end": 95
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 79,
                             "end": 96
@@ -436,7 +436,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 125,
                                                             "end": 126
                                                         },
@@ -478,7 +478,7 @@ this.subscriptions.add(
                                 "start": 115,
                                 "end": 128
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 108,
                             "end": 129
@@ -490,7 +490,7 @@ this.subscriptions.add(
                     "start": 79,
                     "end": 129
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 61,
                 "end": 131
@@ -572,7 +572,7 @@ this.subscriptions.add(
                                 "start": 159,
                                 "end": 165
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 149,
                             "end": 166
@@ -649,7 +649,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 195,
                                                             "end": 196
                                                         },
@@ -691,7 +691,7 @@ this.subscriptions.add(
                                 "start": 185,
                                 "end": 198
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 178,
                             "end": 199
@@ -703,7 +703,7 @@ this.subscriptions.add(
                     "start": 149,
                     "end": 199
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 132,
                 "end": 201
@@ -801,7 +801,7 @@ this.subscriptions.add(
                                 "start": 237,
                                 "end": 243
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 227,
                             "end": 244
@@ -878,7 +878,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 273,
                                                             "end": 274
                                                         },
@@ -920,7 +920,7 @@ this.subscriptions.add(
                                 "start": 263,
                                 "end": 276
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 256,
                             "end": 277
@@ -932,7 +932,7 @@ this.subscriptions.add(
                     "start": 227,
                     "end": 277
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 202,
                 "end": 279
@@ -1005,7 +1005,7 @@ this.subscriptions.add(
                                 "start": 339,
                                 "end": 343
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 323,
                             "end": 344
@@ -1112,7 +1112,7 @@ this.subscriptions.add(
                                 "start": 367,
                                 "end": 373
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 360,
                             "end": 374
@@ -1133,7 +1133,7 @@ this.subscriptions.add(
                     "start": 360,
                     "end": 383
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 345,
                 "end": 384
@@ -1277,7 +1277,7 @@ this.subscriptions.add(
                                 "start": 412,
                                 "end": 418
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 405,
                             "end": 419
@@ -1298,7 +1298,7 @@ this.subscriptions.add(
                     "start": 405,
                     "end": 428
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 385,
                 "end": 429
@@ -1409,7 +1409,7 @@ this.subscriptions.add(
                                 "start": 469,
                                 "end": 473
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 450,
                             "end": 474
@@ -1421,7 +1421,7 @@ this.subscriptions.add(
                     "start": 450,
                     "end": 474
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 430,
                 "end": 475
@@ -1604,7 +1604,7 @@ this.subscriptions.add(
                                                                     "start": 537,
                                                                     "end": 543
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 530,
                                                                 "end": 544
@@ -1625,7 +1625,7 @@ this.subscriptions.add(
                                                         "start": 530,
                                                         "end": 553
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 511,
                                                     "end": 554
@@ -1810,7 +1810,7 @@ this.subscriptions.add(
                                                     "start": 653,
                                                     "end": 663
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 643,
                                                 "end": 664
@@ -1845,7 +1845,7 @@ this.subscriptions.add(
                                                     "start": 687,
                                                     "end": 694
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 665,
                                                 "end": 695
@@ -1857,7 +1857,7 @@ this.subscriptions.add(
                                         "start": 643,
                                         "end": 695
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 586,
                                     "end": 696
@@ -1871,7 +1871,7 @@ this.subscriptions.add(
                                     "start": 714,
                                     "end": 723
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 586,
                                 "end": 723
@@ -1928,7 +1928,7 @@ this.subscriptions.add(
                                 "start": 724,
                                 "end": 753
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 586,
                             "end": 754
@@ -1940,7 +1940,7 @@ this.subscriptions.add(
                     "start": 586,
                     "end": 754
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 561,
                 "end": 764

@@ -59,7 +59,7 @@ class x extends delete {}
                         "operandToken": {
                             "kind": 4259886,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 15,
                             "end": 22
                         },
@@ -80,7 +80,7 @@ class x extends delete {}
                             "end": 25
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 16384,
                         "start": 15,
                         "end": 25
                     },

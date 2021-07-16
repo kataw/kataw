@@ -22,7 +22,7 @@ delete super[foo]
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 0,
                     "end": 6
                 },
@@ -44,13 +44,13 @@ delete super[foo]
                         "start": 13,
                         "end": 16
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 6,
                     "end": 17
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 0,
                 "end": 17
             },

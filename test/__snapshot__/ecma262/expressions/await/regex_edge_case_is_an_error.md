@@ -91,7 +91,7 @@ async function f(){ await foo
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 97,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
@@ -112,7 +112,7 @@ async function f(){ await foo
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 35
                                 },

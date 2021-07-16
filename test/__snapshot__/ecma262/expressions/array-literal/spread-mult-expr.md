@@ -315,7 +315,7 @@ var callCount = 0;
                                                     "start": 90,
                                                     "end": 109
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 70,
                                                 "end": 110
@@ -377,7 +377,7 @@ var callCount = 0;
                                                                 "start": 141,
                                                                 "end": 142
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 131,
                                                             "end": 143
@@ -398,7 +398,7 @@ var callCount = 0;
                                                     "start": 131,
                                                     "end": 146
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 111,
                                                 "end": 147
@@ -460,7 +460,7 @@ var callCount = 0;
                                                                 "start": 178,
                                                                 "end": 179
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 168,
                                                             "end": 180
@@ -481,7 +481,7 @@ var callCount = 0;
                                                     "start": 168,
                                                     "end": 183
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 148,
                                                 "end": 184
@@ -543,7 +543,7 @@ var callCount = 0;
                                                                 "start": 215,
                                                                 "end": 216
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 205,
                                                             "end": 217
@@ -564,7 +564,7 @@ var callCount = 0;
                                                     "start": 205,
                                                     "end": 220
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 185,
                                                 "end": 221
@@ -626,7 +626,7 @@ var callCount = 0;
                                                                 "start": 252,
                                                                 "end": 253
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 242,
                                                             "end": 254
@@ -647,7 +647,7 @@ var callCount = 0;
                                                     "start": 242,
                                                     "end": 257
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 222,
                                                 "end": 258
@@ -709,7 +709,7 @@ var callCount = 0;
                                                                 "start": 289,
                                                                 "end": 290
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 279,
                                                             "end": 291
@@ -730,7 +730,7 @@ var callCount = 0;
                                                     "start": 279,
                                                     "end": 294
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 259,
                                                 "end": 295
@@ -797,7 +797,7 @@ var callCount = 0;
                                                     "start": 316,
                                                     "end": 330
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 296,
                                                 "end": 331
@@ -975,7 +975,7 @@ var callCount = 0;
                         "start": 359,
                         "end": 391
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 58,
                     "end": 392

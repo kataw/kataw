@@ -171,7 +171,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                                 "start": 52,
                                                                 "end": 55
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 45,
                                                             "end": 56

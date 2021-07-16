@@ -68,7 +68,7 @@ for (x[a in b] in y);
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 8,
                         "end": 11
                     },
@@ -86,7 +86,7 @@ for (x[a in b] in y);
                     "start": 7,
                     "end": 13
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 14
@@ -94,7 +94,7 @@ for (x[a in b] in y);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 14,
                 "end": 17
             },

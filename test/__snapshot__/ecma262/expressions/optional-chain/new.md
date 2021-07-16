@@ -58,7 +58,7 @@ new foo?.bar
                                 "start": 9,
                                 "end": 12
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 9,
                             "end": 12

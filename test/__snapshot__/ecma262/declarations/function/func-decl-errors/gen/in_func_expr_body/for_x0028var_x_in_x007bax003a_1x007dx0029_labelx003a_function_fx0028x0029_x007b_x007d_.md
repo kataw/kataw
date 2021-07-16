@@ -109,7 +109,7 @@
                                         "inKeyword": {
                                             "kind": 21006388,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 23,
                                             "end": 26
                                         },
@@ -275,7 +275,7 @@
                     "start": 62,
                     "end": 62
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 63

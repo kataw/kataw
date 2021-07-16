@@ -121,7 +121,7 @@ var x, y, z; for (x in { import.meta } = z = {});
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 19,
                 "end": 22
             },
@@ -265,7 +265,7 @@ var x, y, z; for (x in { import.meta } = z = {});
 ✖ ',' expected - start: 31, end: 32
 ✖ Expected a ')' to match the '(' token here - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 40
-✖ Expected a `;` - start: 47, end: 48
+✖ '; ' expected - start: 47, end: 48
 
 ```
 

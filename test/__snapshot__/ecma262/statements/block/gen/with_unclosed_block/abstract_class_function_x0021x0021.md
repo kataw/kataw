@@ -249,12 +249,12 @@
                                                 "end": 44
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 16384,
                                             "start": 43,
                                             "end": 44
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 41,
                                         "end": 44
                                     },
@@ -306,8 +306,8 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
-✖ Expected a `;` - start: 26, end: 32
+✖ '; ' expected - start: 15, end: 17
+✖ '; ' expected - start: 26, end: 32
 ✖ Binding identifier expected - start: 32, end: 41
 ✖ Binding identifier expected - start: 41, end: 43
 ✖ Missing an opening parentheses - '( - start: 42, end: 43

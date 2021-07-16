@@ -51,7 +51,7 @@ for (fooo[bar] in x) ;
                     "start": 10,
                     "end": 13
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 14
@@ -59,7 +59,7 @@ for (fooo[bar] in x) ;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 14,
                 "end": 17
             },

@@ -38,7 +38,7 @@ function *f(){
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -143,7 +143,7 @@ function *f(){
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 14, end: 27
-✖ Expected a `;` - start: 27, end: 29
+✖ '; ' expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 31, end: 33
 
 ```

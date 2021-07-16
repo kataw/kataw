@@ -20,7 +20,7 @@ export function createMemberAccessChain(
     kind: SyntaxKind.MemberAccessChain,
     chain,
     expression,
-    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    flags: NodeFlags.ExpressionNode,
     transformFlags: TransformFlags.MemberAccessExpression,
     start,
     end

@@ -121,7 +121,7 @@ for ({a: x + y} = z in obj);
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 19,
                         "end": 22
                     },

@@ -99,7 +99,7 @@ for (function(){ }[foo] of x);
                     "start": 19,
                     "end": 22
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 23

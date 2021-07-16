@@ -149,7 +149,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                         "start": 50,
                                                         "end": 53
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "transformFlags": 4,
                                                     "start": 43,
                                                     "end": 54

@@ -34,7 +34,7 @@ function* foo() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -137,7 +137,7 @@ function* foo() {
                                                         "end": 93
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 88,
                                                     "end": 93
                                                 },

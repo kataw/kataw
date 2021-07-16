@@ -104,7 +104,7 @@ async function p(){
                                         "operandToken": {
                                             "kind": 4259886,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 37,
                                             "end": 44
                                         },
@@ -118,7 +118,7 @@ async function p(){
                                             "end": 46
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 37,
                                         "end": 46
                                     },

@@ -36,7 +36,7 @@ function *f(x = delete ((switch) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((switch) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 15,
                                 "end": 22
                             },
@@ -100,7 +100,7 @@ function *f(x = delete ((switch) = f)) {}
                                 "end": 25
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 15,
                             "end": 25
                         },
@@ -223,7 +223,7 @@ function *f(x = delete ((switch) = f)) {}
 ✖ Identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 31, end: 32
 ✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 34
-✖ Expected a `;` - start: 36, end: 37
+✖ '; ' expected - start: 36, end: 37
 ✖ Declaration or statement expected - start: 37, end: 38
 
 ```

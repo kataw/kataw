@@ -310,7 +310,7 @@ Thing(/* dangling */);
                     "start": 146,
                     "end": 146
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 139,
                 "end": 161

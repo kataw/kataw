@@ -626,7 +626,7 @@ a});
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 147,
                                         "end": 149
                                     },
@@ -1308,7 +1308,7 @@ a});
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 297,
                                         "end": 299
                                     },
@@ -2035,7 +2035,7 @@ a});
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 474,
                                         "end": 476
                                     },
@@ -2752,7 +2752,7 @@ a});
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 644,
                                         "end": 646
                                     },

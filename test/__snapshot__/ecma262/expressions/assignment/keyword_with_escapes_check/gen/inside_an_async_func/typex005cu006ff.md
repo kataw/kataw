@@ -66,7 +66,7 @@ async () => {  type\u006ff = x  }
                                         "operandToken": {
                                             "kind": 138477613,
                                             "flags": 16480,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 13,
                                             "end": 26
                                         },
@@ -80,7 +80,7 @@ async () => {  type\u006ff = x  }
                                             "end": 26
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 13,
                                         "end": 26
                                     },

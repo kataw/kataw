@@ -88,7 +88,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                             "start": 7,
                             "end": 15
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 0,
                         "end": 16
@@ -102,7 +102,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                         "start": 17,
                         "end": 43
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 0,
                     "end": 43
@@ -133,7 +133,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                     "start": 44,
                     "end": 61
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 62

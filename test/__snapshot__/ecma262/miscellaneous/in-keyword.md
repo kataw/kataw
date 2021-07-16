@@ -146,7 +146,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 59,
                                                                     "end": 62
                                                                 },
@@ -199,7 +199,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 78,
                                                                     "end": 81
                                                                 },
@@ -277,7 +277,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 104,
                                                                     "end": 107
                                                                 },
@@ -330,7 +330,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 119,
                                                                     "end": 122
                                                                 },
@@ -453,7 +453,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 189,
                                                                     "end": 192
                                                                 },
@@ -506,7 +506,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 204,
                                                                     "end": 207
                                                                 },
@@ -559,7 +559,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 226,
                                                                     "end": 229
                                                                 },
@@ -657,7 +657,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 296,
                                                                     "end": 299
                                                                 },
@@ -736,7 +736,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 330,
                                                                     "end": 333
                                                                 },
@@ -860,7 +860,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 406,
                                                                     "end": 409
                                                                 },
@@ -906,7 +906,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 435,
                                                                     "end": 438
                                                                 },
@@ -952,7 +952,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 466,
                                                                     "end": 469
                                                                 },
@@ -961,7 +961,7 @@ let tests = [
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 8192,
                                                                         "start": 469,
                                                                         "end": 474
                                                                     },
@@ -975,7 +975,7 @@ let tests = [
                                                                         "end": 476
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 469,
                                                                     "end": 476
                                                                 },
@@ -1012,7 +1012,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 498,
                                                                     "end": 501
                                                                 },
@@ -1099,7 +1099,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 572,
                                                                     "end": 575
                                                                 },
@@ -1145,7 +1145,7 @@ let tests = [
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 8192,
                                                                         "start": 595,
                                                                         "end": 599
                                                                     },
@@ -1159,14 +1159,14 @@ let tests = [
                                                                         "end": 601
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 595,
                                                                     "end": 601
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 601,
                                                                     "end": 604
                                                                 },
@@ -1226,7 +1226,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 626,
                                                                     "end": 629
                                                                 },
@@ -1286,7 +1286,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 651,
                                                                     "end": 654
                                                                 },
@@ -1337,7 +1337,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 679,
                                                                     "end": 682
                                                                 },
@@ -1440,7 +1440,7 @@ let tests = [
                                                             "operatorToken": {
                                                                 "kind": 21006388,
                                                                 "flags": 96,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 8192,
                                                                 "start": 750,
                                                                 "end": 753
                                                             },
@@ -1510,14 +1510,14 @@ let tests = [
                                                                     "end": 785
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 16384,
                                                                 "start": 779,
                                                                 "end": 785
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 21006388,
                                                                 "flags": 96,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 8192,
                                                                 "start": 785,
                                                                 "end": 788
                                                             },
@@ -1598,7 +1598,7 @@ let tests = [
                                                                     "operatorToken": {
                                                                         "kind": 21006388,
                                                                         "flags": 96,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 8192,
                                                                         "start": 841,
                                                                         "end": 844
                                                                     },
@@ -1629,7 +1629,7 @@ let tests = [
                                                                 "end": 848
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 16384,
                                                             "start": 834,
                                                             "end": 848
                                                         },
@@ -1809,7 +1809,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 927,
                                                                     "end": 930
                                                                 },
@@ -1855,7 +1855,7 @@ let tests = [
                                                                 "operatorToken": {
                                                                     "kind": 21006388,
                                                                     "flags": 96,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 8192,
                                                                     "start": 951,
                                                                     "end": 954
                                                                 },

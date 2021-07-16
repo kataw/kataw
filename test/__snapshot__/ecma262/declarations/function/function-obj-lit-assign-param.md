@@ -29,7 +29,7 @@ function* foo(a = {*bar() { yield b }}) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -71,7 +71,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },

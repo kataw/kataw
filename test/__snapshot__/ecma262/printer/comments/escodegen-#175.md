@@ -31,7 +31,7 @@ test/**/*-test.js
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 9
                 },
@@ -70,7 +70,7 @@ test/**/*-test.js
                         "end": 17
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 9,
                     "end": 17
                 },

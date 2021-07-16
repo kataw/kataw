@@ -147,7 +147,7 @@ const test = (names: string[]) =>
                                                 "start": 72,
                                                 "end": 78
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 2,
                                             "start": 72,
                                             "end": 78
@@ -203,7 +203,7 @@ const test = (names: string[]) =>
                                         "start": 79,
                                         "end": 85
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 78,
                                     "end": 86

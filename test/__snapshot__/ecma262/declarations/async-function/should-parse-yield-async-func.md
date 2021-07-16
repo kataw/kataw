@@ -70,7 +70,7 @@ const f = async function * (source, block, opts) {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -343,7 +343,7 @@ const f = async function * (source, block, opts) {
                                                                                                                         "start": 187,
                                                                                                                         "end": 187
                                                                                                                     },
-                                                                                                                    "flags": 268435488,
+                                                                                                                    "flags": 32,
                                                                                                                     "transformFlags": 1,
                                                                                                                     "start": 163,
                                                                                                                     "end": 188
@@ -373,7 +373,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "start": 163,
                                                                                                             "end": 201
                                                                                                         },
-                                                                                                        "flags": 268435488,
+                                                                                                        "flags": 32,
                                                                                                         "transformFlags": 1,
                                                                                                         "start": 154,
                                                                                                         "end": 202
@@ -554,7 +554,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "start": 306,
                                                                                                             "end": 324
                                                                                                         },
-                                                                                                        "flags": 268435488,
+                                                                                                        "flags": 32,
                                                                                                         "transformFlags": 1,
                                                                                                         "start": 268,
                                                                                                         "end": 325

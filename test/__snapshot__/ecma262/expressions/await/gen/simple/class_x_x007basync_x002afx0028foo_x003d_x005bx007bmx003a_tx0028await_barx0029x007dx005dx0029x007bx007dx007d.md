@@ -66,7 +66,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
@@ -165,7 +165,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                 "start": 31,
                                                                                 "end": 40
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 26,
                                                                             "end": 41

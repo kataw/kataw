@@ -51,7 +51,7 @@ export default function *f(){} foo
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },

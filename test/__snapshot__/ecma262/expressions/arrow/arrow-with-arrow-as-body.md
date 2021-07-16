@@ -113,7 +113,7 @@
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
                             },
@@ -152,7 +152,7 @@
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 28
                             },

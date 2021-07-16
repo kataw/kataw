@@ -31,7 +31,7 @@
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 2,
                                     "end": 8
                                 },
@@ -61,7 +61,7 @@
                                     "end": 15
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 2,
                                 "end": 15
                             }
@@ -104,7 +104,7 @@
                                         "operandToken": {
                                             "kind": 4259886,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -134,7 +134,7 @@
                                             "end": 35
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 22,
                                         "end": 35
                                     }
@@ -160,7 +160,7 @@
                                         "operandToken": {
                                             "kind": 4259886,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 39,
                                             "end": 45
                                         },
@@ -190,7 +190,7 @@
                                             "end": 52
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 39,
                                         "end": 52
                                     }

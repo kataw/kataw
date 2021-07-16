@@ -150,7 +150,7 @@ do while try this and !foo while
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 21,
                 "end": 26
             },
@@ -221,8 +221,8 @@ do while try this and !foo while
 ✖ Missing an opening parentheses - '( - start: 9, end: 12
 ✖ 'catch' expected - start: 12, end: 17
 ✖ Declaration or statement expected - start: 18, end: 21
-✖ Expected a `;` - start: 21, end: 23
-✖ Expected a `;` - start: 26, end: 32
+✖ '; ' expected - start: 21, end: 23
+✖ '; ' expected - start: 26, end: 32
 
 ```
 

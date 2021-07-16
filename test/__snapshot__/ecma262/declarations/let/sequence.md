@@ -104,7 +104,7 @@ let d = (1, 2, 3);
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 21
                                                         },
@@ -271,7 +271,7 @@ let d = (1, 2, 3);
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 54,
                                                             "end": 56
                                                         },
@@ -404,7 +404,7 @@ let d = (1, 2, 3);
                                         "operatorToken": {
                                             "kind": 67143222,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 80,
                                             "end": 82
                                         },
@@ -451,7 +451,7 @@ let d = (1, 2, 3);
                                 "start": 86,
                                 "end": 87
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 72,
                             "end": 88

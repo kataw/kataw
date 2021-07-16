@@ -146,7 +146,7 @@ export function bar() {
                                         "start": 45,
                                         "end": 45
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 34,
                                     "end": 46

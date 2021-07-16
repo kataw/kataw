@@ -44,7 +44,7 @@ a(
                     "start": 2,
                     "end": 2
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 8
@@ -76,7 +76,7 @@ a(
                     "start": 12,
                     "end": 12
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 78

@@ -53,7 +53,7 @@ f2`hello world`?.a;
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 9,
                         "end": 10
@@ -123,7 +123,7 @@ f2`hello world`?.a;
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 20,
                         "end": 21
@@ -193,7 +193,7 @@ f2`hello world`?.a;
                             "start": 41,
                             "end": 42
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 41,
                         "end": 42

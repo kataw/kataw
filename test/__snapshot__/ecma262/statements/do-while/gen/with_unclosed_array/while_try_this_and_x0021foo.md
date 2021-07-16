@@ -172,7 +172,7 @@ do[ while try this and !foo
                     "end": 27
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 22,
                 "end": 27
             },
@@ -204,8 +204,8 @@ do[ while try this and !foo
 ✖ Did you forgot a ']' to match the `[` token? - start: 4, end: 9
 ✖ Missing an opening parentheses - '( - start: 10, end: 13
 ✖ 'catch' expected - start: 13, end: 18
-✖ Expected a `;` - start: 18, end: 22
-✖ Expected a `;` - start: 22, end: 24
+✖ '; ' expected - start: 18, end: 22
+✖ '; ' expected - start: 22, end: 24
 
 ```
 

@@ -97,7 +97,7 @@
 ```javascript
 ✖ A rest element cannot have an initializer - start: 10, end: 14
 ✖ Identifier expected - start: 10, end: 14
-✖ Expected a `;` - start: 17, end: 18
+✖ '; ' expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 21
 
 ```

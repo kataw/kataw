@@ -106,7 +106,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                         "asteriskToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 35
                                                         },

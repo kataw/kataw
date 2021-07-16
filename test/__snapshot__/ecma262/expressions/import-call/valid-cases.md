@@ -266,7 +266,7 @@ import(x).then();
                     "start": 88,
                     "end": 88
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 71,
                 "end": 89

@@ -155,7 +155,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 30,
                                     "end": 34
                                 },
@@ -169,7 +169,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                                     "end": 34
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 30,
                                 "end": 34
                             },
@@ -201,7 +201,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                     "start": 30,
                     "end": 39
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 25,
                 "end": 40

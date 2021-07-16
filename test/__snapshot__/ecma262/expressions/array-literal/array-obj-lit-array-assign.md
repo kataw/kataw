@@ -70,7 +70,7 @@
                                     "start": 4,
                                     "end": 7
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 1,
                                 "end": 8

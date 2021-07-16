@@ -133,7 +133,7 @@ foo[
                                             "start": 36,
                                             "end": 36
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 5,
                                         "end": 37
@@ -141,7 +141,7 @@ foo[
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 39
                                     },
@@ -161,7 +161,7 @@ foo[
                                             "operatorToken": {
                                                 "kind": 67143222,
                                                 "flags": 96,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 49
                                             },
@@ -214,7 +214,7 @@ foo[
                                         "start": 32,
                                         "end": 76
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 5120,
                                     "start": 5,
                                     "end": 76
@@ -247,7 +247,7 @@ foo[
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 102,
                                         "end": 104
                                     },
@@ -759,7 +759,7 @@ foo[
                                 "start": 537,
                                 "end": 672
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 534,
                             "end": 673
@@ -969,7 +969,7 @@ foo[
                             "start": 716,
                             "end": 765
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 709,
                         "end": 769
@@ -979,7 +979,7 @@ foo[
                     "start": 680,
                     "end": 769
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 674,
                 "end": 771
@@ -1184,7 +1184,7 @@ foo[
                                 "end": 863
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 805,
                             "end": 863
                         },
@@ -1199,7 +1199,7 @@ foo[
                     "end": 865
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 772,
                 "end": 865
             },

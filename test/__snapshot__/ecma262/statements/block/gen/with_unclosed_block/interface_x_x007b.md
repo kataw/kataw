@@ -206,9 +206,9 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
-✖ Expected a `;` - start: 27, end: 29
-✖ Expected a `;` - start: 29, end: 31
+✖ '; ' expected - start: 15, end: 17
+✖ '; ' expected - start: 27, end: 29
+✖ '; ' expected - start: 29, end: 31
 
 ```
 

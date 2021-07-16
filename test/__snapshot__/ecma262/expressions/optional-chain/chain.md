@@ -86,7 +86,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                             "start": 3,
                                             "end": 4
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 3,
                                         "end": 4
@@ -115,7 +115,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                         "start": 6,
                                         "end": 7
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 6,
                                     "end": 7
@@ -155,7 +155,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "start": 10,
                                     "end": 11
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 9,
                                 "end": 12
@@ -186,7 +186,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "start": 15,
                                     "end": 16
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 14,
                                 "end": 16
@@ -205,7 +205,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "start": 18,
                             "end": 19
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 17,
                         "end": 19
@@ -229,7 +229,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "start": 21,
                             "end": 22
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 21,
                         "end": 22

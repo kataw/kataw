@@ -120,7 +120,7 @@ async function f() {
                                     "operatorToken": {
                                         "kind": 21006388,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 39,
                                         "end": 42
                                     },
@@ -138,7 +138,7 @@ async function f() {
                                     "start": 38,
                                     "end": 44
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 36,
                                 "end": 45

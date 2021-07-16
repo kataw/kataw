@@ -34,7 +34,7 @@ import typeof a * from "b";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 6,
                 "end": 13
             },
@@ -55,7 +55,7 @@ import typeof a * from "b";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
@@ -139,7 +139,7 @@ import typeof a * from "b";
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 17
-✖ Expected a `;` - start: 22, end: 26
+✖ '; ' expected - start: 22, end: 26
 
 ```
 

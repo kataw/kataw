@@ -59,7 +59,7 @@ new obj?.()
                                 "start": 10,
                                 "end": 10
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 9,
                             "end": 11

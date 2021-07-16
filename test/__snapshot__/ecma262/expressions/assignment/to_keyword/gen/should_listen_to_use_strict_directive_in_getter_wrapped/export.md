@@ -242,7 +242,7 @@ foo = {
 ✖ Declaration or statement expected - start: 48, end: 50
 ✖ The parser expected to find a '}' to match the '{' token here - start: 49, end: 50
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 50
-✖ Expected a `;` - start: 52, end: 53
+✖ '; ' expected - start: 52, end: 53
 ✖ Declaration or statement expected - start: 54, end: 58
 ✖ Declaration or statement expected - start: 58, end: 60
 

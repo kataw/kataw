@@ -192,7 +192,7 @@ f(/* ... */ a, b);
                     "start": 52,
                     "end": 52
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 25,
                 "end": 62
@@ -1026,7 +1026,7 @@ f(/* ... */ a, b);
                     "start": 396,
                     "end": 396
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 392,
                 "end": 406
@@ -1068,7 +1068,7 @@ f(/* ... */ a, b);
                     "start": 410,
                     "end": 412
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 407,
                 "end": 423
@@ -1119,7 +1119,7 @@ f(/* ... */ a, b);
                     "start": 427,
                     "end": 441
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 424,
                 "end": 442
@@ -1170,7 +1170,7 @@ f(/* ... */ a, b);
                     "start": 446,
                     "end": 460
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 443,
                 "end": 461

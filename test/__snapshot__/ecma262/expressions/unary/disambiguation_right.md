@@ -70,7 +70,7 @@ x + + y.x
                         "end": 9
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3,
                     "end": 9
                 },

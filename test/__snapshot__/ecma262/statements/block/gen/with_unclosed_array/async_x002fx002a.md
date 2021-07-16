@@ -91,8 +91,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 8, end: 12
-✖ ',' expected - start: 9, end: 12
+✖ Unexpected token. - start: 8, end: 11
+✖ ',' expected - start: 9, end: 11
 
 ```
 

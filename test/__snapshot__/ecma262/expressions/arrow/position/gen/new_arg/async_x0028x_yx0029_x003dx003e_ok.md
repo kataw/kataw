@@ -116,7 +116,7 @@ new async (x, y) => ok
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 19
+✖ '; ' expected - start: 16, end: 19
 
 ```
 

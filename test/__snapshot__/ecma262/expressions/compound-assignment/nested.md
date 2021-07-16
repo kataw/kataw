@@ -98,7 +98,7 @@ z(z(z(a&&=)));
                                             "start": 6,
                                             "end": 10
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 4,
                                         "end": 11
@@ -110,7 +110,7 @@ z(z(z(a&&=)));
                                 "start": 4,
                                 "end": 11
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 2,
                             "end": 12
@@ -122,7 +122,7 @@ z(z(z(a&&=)));
                     "start": 2,
                     "end": 12
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 13

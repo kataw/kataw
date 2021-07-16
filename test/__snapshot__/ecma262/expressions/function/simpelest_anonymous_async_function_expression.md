@@ -94,7 +94,7 @@ foo(async function(){})
                     "start": 4,
                     "end": 22
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 23

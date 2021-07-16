@@ -135,7 +135,7 @@ async function f5() {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 47
                                 },
@@ -220,7 +220,7 @@ async function f5() {
                                     "operatorToken": {
                                         "kind": 34620,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 115
                                     },
@@ -350,7 +350,7 @@ async function f5() {
                                                                                     "start": 192,
                                                                                     "end": 192
                                                                                 },
-                                                                                "flags": 268435488,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 1,
                                                                                 "start": 170,
                                                                                 "end": 193
@@ -362,7 +362,7 @@ async function f5() {
                                                                         "start": 170,
                                                                         "end": 193
                                                                     },
-                                                                    "flags": 268435488,
+                                                                    "flags": 32,
                                                                     "transformFlags": 1,
                                                                     "start": 159,
                                                                     "end": 194
@@ -374,7 +374,7 @@ async function f5() {
                                                             "start": 159,
                                                             "end": 194
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 140,
                                                         "end": 195
@@ -467,7 +467,7 @@ async function f5() {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 249,
                                             "end": 253
                                         },
@@ -638,7 +638,7 @@ async function f5() {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 358,
                                     "end": 362
                                 },
@@ -700,7 +700,7 @@ async function f5() {
                                     "operatorToken": {
                                         "kind": 34620,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 415,
                                         "end": 419
                                     },
@@ -785,7 +785,7 @@ async function f5() {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 483,
                                             "end": 487
                                         },
@@ -940,7 +940,7 @@ async function f5() {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 586,
                                     "end": 590
                                 },
@@ -1002,7 +1002,7 @@ async function f5() {
                                     "operatorToken": {
                                         "kind": 34620,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 653,
                                         "end": 657
                                     },
@@ -1087,7 +1087,7 @@ async function f5() {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 728,
                                             "end": 732
                                         },
@@ -1242,7 +1242,7 @@ async function f5() {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 850,
                                     "end": 854
                                 },
@@ -1327,7 +1327,7 @@ async function f5() {
                                     "operatorToken": {
                                         "kind": 34620,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 928,
                                         "end": 932
                                     },
@@ -1457,7 +1457,7 @@ async function f5() {
                                                                                     "start": 1015,
                                                                                     "end": 1015
                                                                                 },
-                                                                                "flags": 268435488,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 1,
                                                                                 "start": 993,
                                                                                 "end": 1016
@@ -1469,7 +1469,7 @@ async function f5() {
                                                                         "start": 993,
                                                                         "end": 1016
                                                                     },
-                                                                    "flags": 268435488,
+                                                                    "flags": 32,
                                                                     "transformFlags": 1,
                                                                     "start": 982,
                                                                     "end": 1017
@@ -1481,7 +1481,7 @@ async function f5() {
                                                             "start": 982,
                                                             "end": 1017
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 963,
                                                         "end": 1018
@@ -1574,7 +1574,7 @@ async function f5() {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 1078,
                                             "end": 1082
                                         },
@@ -1745,7 +1745,7 @@ async function f5() {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 1195,
                                     "end": 1199
                                 },
@@ -1830,7 +1830,7 @@ async function f5() {
                                     "operatorToken": {
                                         "kind": 34620,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 1263,
                                         "end": 1267
                                     },
@@ -1960,7 +1960,7 @@ async function f5() {
                                                                                     "start": 1344,
                                                                                     "end": 1344
                                                                                 },
-                                                                                "flags": 268435488,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 1,
                                                                                 "start": 1322,
                                                                                 "end": 1345
@@ -1972,7 +1972,7 @@ async function f5() {
                                                                         "start": 1322,
                                                                         "end": 1345
                                                                     },
-                                                                    "flags": 268435488,
+                                                                    "flags": 32,
                                                                     "transformFlags": 1,
                                                                     "start": 1311,
                                                                     "end": 1346
@@ -1984,7 +1984,7 @@ async function f5() {
                                                             "start": 1311,
                                                             "end": 1346
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 1292,
                                                         "end": 1347
@@ -2077,7 +2077,7 @@ async function f5() {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 1401,
                                             "end": 1405
                                         },

@@ -113,8 +113,8 @@
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 23
-✖ Expected a `;` - start: 23, end: 25
-✖ Expected a `;` - start: 27, end: 28
+✖ '; ' expected - start: 23, end: 25
+✖ '; ' expected - start: 27, end: 28
 
 ```
 

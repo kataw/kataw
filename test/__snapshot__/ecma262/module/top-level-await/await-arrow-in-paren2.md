@@ -100,7 +100,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                         "start": 24,
                         "end": 24
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 6,
                     "end": 25

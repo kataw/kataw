@@ -38,7 +38,7 @@ yield * \n { yield: 12 }
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -154,7 +154,7 @@ yield * \n { yield: 12 }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 7, end: 8
 ✖ Identifier expected - start: 7, end: 9
-✖ Expected a `;` - start: 10, end: 12
+✖ '; ' expected - start: 10, end: 12
 
 ```
 

@@ -89,7 +89,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 6, end: 8
+✖ '; ' expected - start: 6, end: 8
 
 ```
 

@@ -120,7 +120,7 @@ while (a) let {x};
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 13, end: 15
+✖ '; ' expected - start: 13, end: 15
 
 ```
 

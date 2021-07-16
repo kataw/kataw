@@ -121,16 +121,71 @@ y;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "text": "comment",
+                "rawText": "comment",
                 "flags": 97,
                 "transformFlags": 0,
                 "start": 59,
-                "end": 136
+                "end": 106
             },
             "flags": 16,
             "transformFlags": 4096,
             "start": 59,
+            "end": 106
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 201392130,
+                    "text": 13,
+                    "rawText": "13",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 106,
+                    "end": 109
+                },
+                "operatorToken": {
+                    "kind": 67143222,
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 109,
+                    "end": 111
+                },
+                "right": {
+                    "kind": 371,
+                    "text": "/",
+                    "rawText": "/",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 111,
+                    "end": 112
+                },
+                "flags": 96,
+                "transformFlags": 5120,
+                "start": 106,
+                "end": 112
+            },
+            "flags": 16,
+            "transformFlags": 4096,
+            "start": 106,
+            "end": 112
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 97,
+                "transformFlags": 0,
+                "start": 112,
+                "end": 136
+            },
+            "flags": 16,
+            "transformFlags": 4096,
+            "start": 112,
             "end": 137
         },
         {
@@ -202,6 +257,8 @@ y;
 
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 0, end: 18
+✖ '; ' expected - start: 106, end: 109
+✖ Unterminated regular expression - start: 111, end: 112
 
 ```
 

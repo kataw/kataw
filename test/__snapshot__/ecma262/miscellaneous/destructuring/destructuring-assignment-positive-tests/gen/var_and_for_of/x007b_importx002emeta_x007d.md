@@ -289,7 +289,7 @@ var x, y, z; for (x of x = { import.meta } = z = {});
 ✖ ',' expected - start: 35, end: 36
 ✖ Expected a ')' to match the '(' token here - start: 41, end: 42
 ✖ Declaration or statement expected - start: 42, end: 44
-✖ Expected a `;` - start: 51, end: 52
+✖ '; ' expected - start: 51, end: 52
 
 ```
 

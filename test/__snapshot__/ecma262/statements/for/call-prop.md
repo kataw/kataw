@@ -113,7 +113,7 @@ var a : string
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 7
-✖ Expected a `;` - start: 5, end: 7
+✖ '; ' expected - start: 5, end: 7
 
 ```
 

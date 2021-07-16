@@ -46,7 +46,7 @@ foo()?.bar
                         "start": 4,
                         "end": 4
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 5
@@ -65,7 +65,7 @@ foo()?.bar
                             "start": 7,
                             "end": 10
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 7,
                         "end": 10

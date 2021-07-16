@@ -1013,7 +1013,7 @@ const processArgs =
                                                         "start": 223,
                                                         "end": 227
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 214,
                                                     "end": 228
@@ -1043,7 +1043,7 @@ const processArgs =
                                             "start": 210,
                                             "end": 246
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 196,
                                         "end": 247

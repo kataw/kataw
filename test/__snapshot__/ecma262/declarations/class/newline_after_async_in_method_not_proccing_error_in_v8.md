@@ -150,7 +150,7 @@ class K extends {} {;async\n async *1(){}}
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
@@ -174,7 +174,7 @@ class K extends {} {;async\n async *1(){}}
                         "start": 38,
                         "end": 38
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 36,
                     "end": 39
@@ -227,8 +227,8 @@ class K extends {} {;async\n async *1(){}}
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 26
 ✖ Invalid hexadecimal escape sequence - start: 26, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
-✖ Expected a `;` - start: 28, end: 34
-✖ Expected a `;` - start: 39, end: 40
+✖ '; ' expected - start: 28, end: 34
+✖ '; ' expected - start: 39, end: 40
 ✖ Declaration or statement expected - start: 41, end: 42
 
 ```

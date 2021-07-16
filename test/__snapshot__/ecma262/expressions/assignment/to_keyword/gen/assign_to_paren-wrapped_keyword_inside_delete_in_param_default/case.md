@@ -61,7 +61,7 @@ async (x = delete ((case) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -89,7 +89,7 @@ async (x = delete ((case) = f)) => {}
                                     "end": 20
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 20
                             },
@@ -105,7 +105,7 @@ async (x = delete ((case) = f)) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -169,7 +169,7 @@ async (x = delete ((case) = f)) => {}
 ✖ Identifier expected - start: 20, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 27
-✖ Expected a `;` - start: 29, end: 30
+✖ '; ' expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 34
 

@@ -52,7 +52,7 @@ new --x
                         "end": 7
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3,
                     "end": 7
                 },

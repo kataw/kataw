@@ -72,7 +72,7 @@ async (a, async, await);
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 23

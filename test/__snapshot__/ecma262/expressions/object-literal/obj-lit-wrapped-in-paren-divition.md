@@ -131,7 +131,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
@@ -280,7 +280,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 52
                 },
@@ -429,7 +429,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 80,
                     "end": 82
                 },
@@ -585,7 +585,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 112,
                     "end": 114
                 },
@@ -751,7 +751,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 142,
                     "end": 144
                 },
@@ -900,7 +900,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 170,
                     "end": 172
                 },
@@ -1056,7 +1056,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 200,
                     "end": 202
                 },
@@ -1212,7 +1212,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 230,
                     "end": 232
                 },
@@ -1375,7 +1375,7 @@
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 262,
                     "end": 264
                 },
@@ -1446,7 +1446,7 @@
                                     "operatorToken": {
                                         "kind": 21006388,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 278,
                                         "end": 281
                                     },
@@ -1850,7 +1850,7 @@
                                     "operandToken": {
                                         "kind": 138477613,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 359,
                                         "end": 366
                                     },
@@ -1864,7 +1864,7 @@
                                         "end": 368
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 359,
                                     "end": 368
                                 },
@@ -1928,7 +1928,7 @@
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 385,
                                         "end": 387
                                     },

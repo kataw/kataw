@@ -151,7 +151,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 12,
                     "end": 21
@@ -335,7 +335,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                     "start": 29,
                     "end": 77
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 4096,
                 "start": 12,
                 "end": 77

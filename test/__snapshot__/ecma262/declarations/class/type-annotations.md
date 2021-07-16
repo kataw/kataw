@@ -362,7 +362,7 @@ class Array { concat(items:number | string) {}; }
                             "start": 77,
                             "end": 80
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 70,
                         "end": 81
@@ -639,7 +639,7 @@ class Array { concat(items:number | string) {}; }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 174,
                                         "end": 179
                                     },

@@ -100,7 +100,7 @@ new a.b.c.d()
                     "start": 12,
                     "end": 12
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 13

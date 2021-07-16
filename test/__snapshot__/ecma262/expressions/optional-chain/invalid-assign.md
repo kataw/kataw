@@ -51,7 +51,7 @@ obj?.foo = 0
                                 "start": 5,
                                 "end": 8
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 5,
                             "end": 8

@@ -151,7 +151,7 @@ var x, y, z; m(['b']) ? lhs : [this] = {}
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 12,
                     "end": 21
@@ -233,7 +233,7 @@ var x, y, z; m(['b']) ? lhs : [this] = {}
                     "start": 29,
                     "end": 41
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 4096,
                 "start": 12,
                 "end": 41

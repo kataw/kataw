@@ -95,7 +95,7 @@ class Yo {
                                                 "start": 18,
                                                 "end": 25
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 14,
                                             "end": 26
@@ -215,7 +215,7 @@ class Yo {
                                                 "start": 79,
                                                 "end": 123
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 49,
                                             "end": 124
@@ -335,7 +335,7 @@ class Yo {
                                                 "start": 177,
                                                 "end": 219
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 147,
                                             "end": 220

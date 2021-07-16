@@ -175,7 +175,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 32,
                                         "end": 37
                                     },
@@ -415,7 +415,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 92,
                                         "end": 97
                                     },

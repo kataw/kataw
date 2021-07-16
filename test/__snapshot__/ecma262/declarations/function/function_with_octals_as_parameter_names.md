@@ -155,7 +155,7 @@ function foo(001, 003) { "use strict"; }
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 13, end: 16
-✖ Expected a `;` - start: 21, end: 22
+✖ '; ' expected - start: 21, end: 22
 
 ```
 

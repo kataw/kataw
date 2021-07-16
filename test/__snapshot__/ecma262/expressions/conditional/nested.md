@@ -128,7 +128,7 @@ z(z(z(a ? b : c++)));
                                             "start": 6,
                                             "end": 17
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 4,
                                         "end": 18
@@ -140,7 +140,7 @@ z(z(z(a ? b : c++)));
                                 "start": 4,
                                 "end": 18
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 2,
                             "end": 19
@@ -152,7 +152,7 @@ z(z(z(a ? b : c++)));
                     "start": 2,
                     "end": 19
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20

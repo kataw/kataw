@@ -47,7 +47,7 @@ async function f3() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -599,7 +599,7 @@ async function f3() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 154
             },
@@ -661,7 +661,7 @@ async function f3() {
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 173,
                                         "end": 174
                                     },
@@ -765,7 +765,7 @@ async function f3() {
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 198,
                                                 "end": 199
                                             },
@@ -886,7 +886,7 @@ async function f3() {
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 227,
                                             "end": 228
                                         },
@@ -924,7 +924,7 @@ async function f3() {
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 238,
                                             "end": 239
                                         },

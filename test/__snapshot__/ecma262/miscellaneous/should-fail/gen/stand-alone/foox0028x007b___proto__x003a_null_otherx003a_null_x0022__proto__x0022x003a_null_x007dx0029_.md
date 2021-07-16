@@ -134,7 +134,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
                     "start": 4,
                     "end": 55
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 56

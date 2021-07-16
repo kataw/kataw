@@ -98,7 +98,7 @@ class x { `constructor`(){} }
                     "start": 24,
                     "end": 24
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 9,
                 "end": 25
@@ -144,7 +144,7 @@ class x { `constructor`(){} }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 23
-✖ Expected a `;` - start: 25, end: 26
+✖ '; ' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 27, end: 29
 
 ```

@@ -102,9 +102,9 @@ var v\u0061r = true
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 3, end: 12
+✖ '; ' expected - start: 3, end: 12
 ✖ Keywords cannot contain escape characters - start: 3, end: 12
-✖ Expected a `;` - start: 12, end: 14
+✖ '; ' expected - start: 12, end: 14
 
 ```
 

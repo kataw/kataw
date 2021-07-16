@@ -161,7 +161,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                                                         "end": 56
                                                                                     },
                                                                                     "flags": 32,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 16384,
                                                                                     "start": 50,
                                                                                     "end": 56
                                                                                 },
@@ -181,7 +181,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                                             "start": 50,
                                                                             "end": 60
                                                                         },
-                                                                        "flags": 268435488,
+                                                                        "flags": 32,
                                                                         "transformFlags": 1,
                                                                         "start": 45,
                                                                         "end": 61

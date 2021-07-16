@@ -939,7 +939,7 @@
                                             "start": 193,
                                             "end": 200
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 189,
                                         "end": 201
@@ -1078,7 +1078,7 @@
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 224,
                             "end": 226
                         },
@@ -1227,7 +1227,7 @@
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 251,
                             "end": 253
                         },
@@ -1423,7 +1423,7 @@
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 285,
                             "end": 287
                         },
@@ -1649,7 +1649,7 @@
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 325,
                             "end": 327
                         },
@@ -2101,7 +2101,7 @@
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 408,
                             "end": 410
                         },
@@ -2626,7 +2626,7 @@
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 508,
                         "end": 510
                     },
@@ -2689,7 +2689,7 @@
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 521,
                                         "end": 523
                                     },
@@ -3261,7 +3261,7 @@
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 626,
                                 "end": 628
                             },
@@ -3342,7 +3342,7 @@
                                             "operatorToken": {
                                                 "kind": 67143222,
                                                 "flags": 96,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 642,
                                                 "end": 644
                                             },
@@ -4100,7 +4100,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 802,
                                     "end": 803
                                 },

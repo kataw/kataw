@@ -29,7 +29,7 @@ function* g( x = function() { async(yield) }) {};
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -120,7 +120,7 @@ function* g( x = function() { async(yield) }) {};
                                                     "start": 29,
                                                     "end": 29
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 29,
                                                 "end": 42

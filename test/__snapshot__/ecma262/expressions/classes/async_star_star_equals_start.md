@@ -109,7 +109,7 @@ class A {async **=f(){}}
                     "start": 20,
                     "end": 20
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 18,
                 "end": 21
@@ -155,7 +155,7 @@ class A {async **=f(){}}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 18
-✖ Expected a `;` - start: 21, end: 22
+✖ '; ' expected - start: 21, end: 22
 ✖ Declaration or statement expected - start: 23, end: 24
 
 ```

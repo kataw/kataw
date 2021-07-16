@@ -59,7 +59,7 @@ class x { async *prot\u006ftype(){} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },

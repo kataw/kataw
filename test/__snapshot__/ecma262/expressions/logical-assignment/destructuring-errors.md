@@ -854,7 +854,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 196,
                     "end": 208
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 192,
                 "end": 208

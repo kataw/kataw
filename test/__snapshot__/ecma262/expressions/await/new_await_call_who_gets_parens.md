@@ -82,7 +82,7 @@ async () => new await x()
                                 "start": 24,
                                 "end": 24
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 21,
                             "end": 25

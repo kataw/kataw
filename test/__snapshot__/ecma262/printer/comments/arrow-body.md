@@ -100,7 +100,7 @@ const test = () => {
                                                     "start": 79,
                                                     "end": 79
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 74,
                                                 "end": 80

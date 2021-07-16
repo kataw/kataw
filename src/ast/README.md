@@ -19,7 +19,7 @@ interface SyntaxNode {
 The `Node` contains all CST nodes represented as a `SyntaxNode` object, which may have any
 prototype inheritance.
 
-The `kind` field is a number representing the AST variant type, and contrains a serie of
+The `kind` field is a string representing the AST variant type, and contrains a serie of
 bitwise masks - allows you to group AST nodes very easily. For example
 `kind & NodeKind.IsIdentfier` or `kind & NodeKind.ContainsList`.
 

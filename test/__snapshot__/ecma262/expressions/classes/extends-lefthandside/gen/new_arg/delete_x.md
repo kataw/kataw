@@ -38,7 +38,7 @@ new delete x
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 3,
                         "end": 10
                     },
@@ -52,7 +52,7 @@ new delete x
                         "end": 12
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3,
                     "end": 12
                 },

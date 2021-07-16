@@ -104,7 +104,7 @@ var \u{63}ontinue = 123;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 3, end: 17
+✖ '; ' expected - start: 3, end: 17
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 3, end: 17
 ✖ Keywords cannot contain escape characters - start: 3, end: 17
 ✖ Identifier expected - start: 17, end: 19

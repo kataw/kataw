@@ -120,7 +120,7 @@ let function () { for (const x in { a: x }) { } }
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 30,
                                 "end": 33
                             },
@@ -224,7 +224,7 @@ let function () { for (const x in { a: x }) { } }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 3, end: 12
+✖ '; ' expected - start: 3, end: 12
 ✖ Binding identifier expected - start: 12, end: 14
 
 ```

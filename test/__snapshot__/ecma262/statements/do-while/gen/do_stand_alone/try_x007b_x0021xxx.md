@@ -66,7 +66,7 @@ do try { !xxx
                                         "end": 13
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 8,
                                     "end": 13
                                 },

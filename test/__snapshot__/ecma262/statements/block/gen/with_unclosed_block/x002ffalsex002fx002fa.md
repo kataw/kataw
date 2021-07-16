@@ -132,7 +132,7 @@
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 26
                                         },
@@ -198,7 +198,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
 
 ```

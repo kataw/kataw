@@ -136,7 +136,7 @@ f(((a) => a + b)(1, 4), 5);
                                 "start": 17,
                                 "end": 21
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 2,
                             "end": 22
@@ -157,7 +157,7 @@ f(((a) => a + b)(1, 4), 5);
                     "start": 2,
                     "end": 25
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 26

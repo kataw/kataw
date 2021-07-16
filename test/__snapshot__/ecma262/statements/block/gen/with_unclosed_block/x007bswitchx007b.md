@@ -213,7 +213,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ Missing an opening parentheses - '( - start: 25, end: 26
 
 ```

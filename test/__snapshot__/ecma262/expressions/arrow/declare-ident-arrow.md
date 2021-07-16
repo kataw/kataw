@@ -349,7 +349,7 @@ declare => x, declare(y);
                             "start": 107,
                             "end": 108
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 98,
                         "end": 109

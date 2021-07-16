@@ -39,7 +39,7 @@ typeof x;
                     "end": 2
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 0,
                 "end": 2
             },
@@ -69,7 +69,7 @@ typeof x;
                     "end": 6
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 3,
                 "end": 6
             },
@@ -85,7 +85,7 @@ typeof x;
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 7,
                     "end": 15
                 },
@@ -99,7 +99,7 @@ typeof x;
                     "end": 17
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 7,
                 "end": 17
             },

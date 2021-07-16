@@ -79,7 +79,7 @@ class A {*=f(){}}
                     "start": 13,
                     "end": 13
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 11,
                 "end": 14
@@ -125,7 +125,7 @@ class A {*=f(){}}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
-✖ Expected a `;` - start: 14, end: 15
+✖ '; ' expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 16, end: 17
 
 ```

@@ -22,7 +22,7 @@ export function createIndexExpressionChain(
     kind: SyntaxKind.IndexExpressionChain,
     chain,
     expression,
-    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    flags: NodeFlags.ExpressionNode,
     transformFlags: TransformFlags.IndexExpression,
     start,
     end

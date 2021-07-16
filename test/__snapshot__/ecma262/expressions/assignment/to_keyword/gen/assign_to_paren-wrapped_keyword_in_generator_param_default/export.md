@@ -36,7 +36,7 @@ function *f(x = (export) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -192,7 +192,7 @@ function *f(x = (export) = f) {}
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 
 ```
 

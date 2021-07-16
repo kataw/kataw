@@ -114,7 +114,7 @@ for ({a: b.c}[x] of d) e
                     "start": 14,
                     "end": 15
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 16

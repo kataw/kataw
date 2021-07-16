@@ -32,7 +32,7 @@ function* fn() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -76,7 +76,7 @@ function* fn() {
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 65,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },

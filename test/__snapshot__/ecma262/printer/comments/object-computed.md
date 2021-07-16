@@ -99,7 +99,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "start": 21,
                         "end": 26
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 15,
                     "end": 27
@@ -152,7 +152,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "start": 40,
                         "end": 49
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 35,
                     "end": 50
@@ -227,7 +227,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                     "start": 67,
                                     "end": 72
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 4,
                                 "start": 58,
                                 "end": 73
@@ -241,7 +241,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                 "start": 74,
                                 "end": 88
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 58,
                             "end": 89
@@ -255,7 +255,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                             "start": 90,
                             "end": 93
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 58,
                         "end": 93
@@ -269,7 +269,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "start": 94,
                         "end": 107
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 58,
                     "end": 108

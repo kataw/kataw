@@ -903,7 +903,7 @@ function * x() { "use strict";  yield: 34; }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 406,
                                 "end": 408
                             },
@@ -1035,7 +1035,7 @@ function * x() { "use strict";  yield: 34; }
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 467,
                                         "end": 469
                                     },
@@ -1433,7 +1433,7 @@ function * x() { "use strict";  yield: 34; }
                                     "end": 633
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 625,
                                 "end": 633
                             },
@@ -1670,7 +1670,7 @@ function * x() { "use strict";  yield: 34; }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 742,
                 "end": 744
             },
@@ -1741,7 +1741,7 @@ function * x() { "use strict";  yield: 34; }
                                         "end": 772
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 770,
                                     "end": 772
                                 },
@@ -1786,7 +1786,7 @@ function * x() { "use strict";  yield: 34; }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 784,
                 "end": 786
             },

@@ -146,7 +146,7 @@ class D extends B {
                                                         "start": 51,
                                                         "end": 54
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 40,
                                                     "end": 55

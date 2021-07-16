@@ -125,7 +125,7 @@ function f2() {
                                                         "start": 52,
                                                         "end": 62
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 36,
                                                     "end": 63
@@ -139,7 +139,7 @@ function f2() {
                                                     "start": 64,
                                                     "end": 70
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 2,
                                                 "start": 36,
                                                 "end": 70
@@ -226,7 +226,7 @@ function f2() {
                                                                             "start": 122,
                                                                             "end": 122
                                                                         },
-                                                                        "flags": 268435488,
+                                                                        "flags": 32,
                                                                         "transformFlags": 1,
                                                                         "start": 95,
                                                                         "end": 123
@@ -288,13 +288,13 @@ function f2() {
                                                                             "start": 143,
                                                                             "end": 143
                                                                         },
-                                                                        "flags": 268435488,
+                                                                        "flags": 32,
                                                                         "transformFlags": 1,
                                                                         "start": 128,
                                                                         "end": 144
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 126,
                                                                     "end": 144
                                                                 },
@@ -346,7 +346,7 @@ function f2() {
                                                                     "start": 166,
                                                                     "end": 166
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 147,
                                                                 "end": 167
@@ -368,7 +368,7 @@ function f2() {
                                                 "start": 71,
                                                 "end": 167
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 36,
                                             "end": 171
@@ -501,7 +501,7 @@ function f2() {
                                                         "start": 228,
                                                         "end": 238
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 212,
                                                     "end": 239
@@ -515,7 +515,7 @@ function f2() {
                                                     "start": 240,
                                                     "end": 243
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 2,
                                                 "start": 212,
                                                 "end": 243
@@ -604,7 +604,7 @@ function f2() {
                                                                                 "start": 295,
                                                                                 "end": 295
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 268,
                                                                             "end": 296
@@ -666,13 +666,13 @@ function f2() {
                                                                                 "start": 316,
                                                                                 "end": 316
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 301,
                                                                             "end": 317
                                                                         },
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 16384,
                                                                         "start": 299,
                                                                         "end": 317
                                                                     },
@@ -724,7 +724,7 @@ function f2() {
                                                                         "start": 339,
                                                                         "end": 339
                                                                     },
-                                                                    "flags": 268435488,
+                                                                    "flags": 32,
                                                                     "transformFlags": 1,
                                                                     "start": 320,
                                                                     "end": 340
@@ -817,7 +817,7 @@ function f2() {
                                                 "start": 244,
                                                 "end": 371
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 212,
                                             "end": 375

@@ -91,7 +91,7 @@ async (a, ...true=b) => a;
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -138,7 +138,7 @@ async (a, ...true=b) => a;
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 17, end: 18
-✖ Expected a `;` - start: 20, end: 23
+✖ '; ' expected - start: 20, end: 23
 
 ```
 

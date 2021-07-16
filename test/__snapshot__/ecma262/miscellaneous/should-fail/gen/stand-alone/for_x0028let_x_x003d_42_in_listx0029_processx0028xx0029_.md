@@ -83,7 +83,7 @@ for (let x = 42 in list) process(x);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 15,
                 "end": 18
             },
@@ -128,7 +128,7 @@ for (let x = 42 in list) process(x);
                         "start": 33,
                         "end": 34
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 24,
                     "end": 35

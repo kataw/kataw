@@ -68,7 +68,7 @@ s = {"foo": yield /x/}
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         },
@@ -89,7 +89,7 @@ s = {"foo": yield /x/}
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 21
                                     },

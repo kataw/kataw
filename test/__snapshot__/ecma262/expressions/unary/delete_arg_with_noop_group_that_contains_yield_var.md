@@ -22,7 +22,7 @@ delete (((((foo(yield)))))).bar
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 0,
                     "end": 6
                 },
@@ -68,7 +68,7 @@ delete (((((foo(yield)))))).bar
                                                 "start": 16,
                                                 "end": 21
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 11,
                                             "end": 22
@@ -113,7 +113,7 @@ delete (((((foo(yield)))))).bar
                     "end": 31
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 0,
                 "end": 31
             },

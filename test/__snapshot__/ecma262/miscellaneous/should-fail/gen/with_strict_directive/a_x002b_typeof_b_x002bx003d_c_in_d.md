@@ -57,7 +57,7 @@
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 17,
                         "end": 24
                     },
@@ -71,7 +71,7 @@
                         "end": 26
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 17,
                     "end": 26
                 },
@@ -101,7 +101,7 @@
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 31,
                     "end": 34
                 },
@@ -144,7 +144,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 26, end: 29
+✖ '; ' expected - start: 26, end: 29
 
 ```
 

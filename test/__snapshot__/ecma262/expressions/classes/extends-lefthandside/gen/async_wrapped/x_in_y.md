@@ -148,7 +148,7 @@ async function p(){
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 39,
                                     "end": 42
                                 },
@@ -224,7 +224,7 @@ async function p(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 40, end: 42
-✖ Expected a `;` - start: 44, end: 46
+✖ '; ' expected - start: 44, end: 46
 
 ```
 

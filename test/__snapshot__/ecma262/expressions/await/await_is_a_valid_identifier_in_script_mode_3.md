@@ -37,7 +37,7 @@ await[x]
                     "start": 6,
                     "end": 7
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 8

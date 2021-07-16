@@ -36,7 +36,7 @@ function *f(x = (finally) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -218,7 +218,7 @@ function *f(x = (finally) = f) {}
 ✖ 'try' expected - start: 17, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 27
-✖ Expected a `;` - start: 29, end: 30
+✖ '; ' expected - start: 29, end: 30
 
 ```
 

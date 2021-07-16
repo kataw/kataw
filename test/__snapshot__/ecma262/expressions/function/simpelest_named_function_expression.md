@@ -96,7 +96,7 @@ foo(function f(){})
                     "start": 4,
                     "end": 18
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 19

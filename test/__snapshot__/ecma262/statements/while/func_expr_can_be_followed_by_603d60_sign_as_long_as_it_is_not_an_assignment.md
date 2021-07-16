@@ -39,7 +39,7 @@ while (function* () {} === x);
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 16
                     },
@@ -79,7 +79,7 @@ while (function* () {} === x);
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 26
                 },

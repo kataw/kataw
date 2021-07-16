@@ -36,7 +36,7 @@ function *f(x = delete ((instanceof) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((instanceof) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 15,
                                 "end": 22
                             },
@@ -146,7 +146,7 @@ function *f(x = delete ((instanceof) = f)) {}
                                 "end": 41
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 15,
                             "end": 41
                         },

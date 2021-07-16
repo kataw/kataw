@@ -79,7 +79,7 @@ for (a of b) let [x]
                         "start": 18,
                         "end": 19
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 12,
                     "end": 20

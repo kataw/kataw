@@ -58,7 +58,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                         "operatorToken": {
                             "kind": 34622,
                             "flags": 96,
-                            "transformFlags": 16,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -122,7 +122,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -246,7 +246,7 @@ x0 - x1 == x2 | x3 ** x4 / x5 ^ x6 || x7 && x8 < x9 & x10 << x
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
-                                "transformFlags": 64,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 60
                             },

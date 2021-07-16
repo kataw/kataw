@@ -91,7 +91,7 @@ let p/
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
@@ -135,7 +135,7 @@ let p/
 
 ```javascript
 ✖ Lexical declaration expected - start: 5, end: 6
-✖ Expected a `;` - start: 5, end: 6
+✖ '; ' expected - start: 5, end: 6
 
 ```
 

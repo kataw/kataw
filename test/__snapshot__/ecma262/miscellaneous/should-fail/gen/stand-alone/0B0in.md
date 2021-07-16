@@ -75,7 +75,7 @@
 
 ```javascript
 ✖ An identifier or keyword cannot immediately follow a numeric literal - start: 0, end: 3
-✖ Expected a `;` - start: 4, end: 5
+✖ '; ' expected - start: 4, end: 5
 
 ```
 

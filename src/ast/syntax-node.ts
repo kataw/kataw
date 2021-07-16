@@ -63,8 +63,8 @@ export enum NodeFlags {
   Lexical = 1 << 25, // Lexical declaration
   IgnoreNextNode = 1 << 26,
   TemplateLiteral = 1 << 27,
-  IsCallExpression = 1 << 28,
-  IsMemberExpression = 1 << 29,
+  Globals = 1 << 28,
+  Pragma = 1 << 29,
   DisallowTrailingComma = 1 << 30
 }
 
@@ -82,7 +82,9 @@ export enum TransformFlags {
   TypeParameter = 1 << 9,
   CanBreak = 1 << 10,
   NewExpression = 1 << 11,
-  ArrowFolding = 1 << 12
+  ArrowFolding = 1 << 12,
+  SpaceBeforeOperand = 1 << 13,
+  PrefixUpdateOrUnary = 1 << 14
 }
 
 // DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!
@@ -675,7 +677,19 @@ export function tokenToString(node: any): string {
       return 'meta';
     case SyntaxKind.Subtract:
       return '-';
+    case SyntaxKind.RightParen:
+      return ')';
+    case SyntaxKind.LeftParen:
+      return '(';
+    case SyntaxKind.RightBrace:
+      return '}';
+    case SyntaxKind.LeftBrace:
+      return '{';
+    case SyntaxKind.RightBracket:
+      return ']';
+    case SyntaxKind.LeftBracket:
+      return '[';
     default:
-      return '';
+      return '; ';
   }
 }

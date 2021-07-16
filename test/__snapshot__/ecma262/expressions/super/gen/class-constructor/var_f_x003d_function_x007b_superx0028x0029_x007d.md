@@ -210,7 +210,7 @@ class C { constructor() { var f = function { super(); } } }
                                                                     "start": 51,
                                                                     "end": 51
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 33,
                                                                 "end": 52

@@ -57,7 +57,7 @@ for (oh,no in x) ;
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 10,
                             "end": 13
                         },

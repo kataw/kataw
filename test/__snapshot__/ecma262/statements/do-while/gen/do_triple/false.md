@@ -146,7 +146,7 @@ do do do false while while while
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 14, end: 20
+✖ '; ' expected - start: 14, end: 20
 ✖ Missing an opening parentheses - '( - start: 21, end: 26
 ✖ Missing an opening parentheses - '( - start: 27, end: 32
 

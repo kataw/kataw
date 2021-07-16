@@ -109,7 +109,7 @@ runtimeAgent.getProperties(
                             "start": 4,
                             "end": 28
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 0,
                         "end": 29
@@ -123,7 +123,7 @@ runtimeAgent.getProperties(
                         "start": 30,
                         "end": 37
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 0,
                     "end": 37
@@ -202,7 +202,7 @@ runtimeAgent.getProperties(
                                             "start": 55,
                                             "end": 68
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 46,
                                         "end": 69
@@ -216,7 +216,7 @@ runtimeAgent.getProperties(
                                         "start": 70,
                                         "end": 77
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 46,
                                     "end": 77
@@ -396,7 +396,7 @@ runtimeAgent.getProperties(
                                                                                             "start": 194,
                                                                                             "end": 195
                                                                                         },
-                                                                                        "flags": 268435488,
+                                                                                        "flags": 32,
                                                                                         "transformFlags": 1,
                                                                                         "start": 177,
                                                                                         "end": 196
@@ -408,7 +408,7 @@ runtimeAgent.getProperties(
                                                                                 "start": 177,
                                                                                 "end": 196
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 150,
                                                                             "end": 197
@@ -479,7 +479,7 @@ runtimeAgent.getProperties(
                                                     "start": 120,
                                                     "end": 239
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 101,
                                                 "end": 247
@@ -496,7 +496,7 @@ runtimeAgent.getProperties(
                                     "start": 78,
                                     "end": 247
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 46,
                                 "end": 253
@@ -513,7 +513,7 @@ runtimeAgent.getProperties(
                     "start": 38,
                     "end": 253
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 255
@@ -746,7 +746,7 @@ runtimeAgent.getProperties(
                                                                                         "start": 387,
                                                                                         "end": 390
                                                                                     },
-                                                                                    "flags": 268435488,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 1,
                                                                                     "start": 379,
                                                                                     "end": 391
@@ -802,7 +802,7 @@ runtimeAgent.getProperties(
                                                                                     "start": 416,
                                                                                     "end": 422
                                                                                 },
-                                                                                "flags": 268435488,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 1,
                                                                                 "start": 407,
                                                                                 "end": 423
@@ -835,7 +835,7 @@ runtimeAgent.getProperties(
                                                     "start": 337,
                                                     "end": 432
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 327,
                                                 "end": 433
@@ -1041,7 +1041,7 @@ runtimeAgent.getProperties(
                     "start": 469,
                     "end": 649
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 440,
                 "end": 651

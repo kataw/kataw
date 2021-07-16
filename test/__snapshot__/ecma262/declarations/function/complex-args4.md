@@ -112,7 +112,7 @@ unction f([b, a], ...b) {}
                     "start": 10,
                     "end": 22
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 7,
                 "end": 23
@@ -157,8 +157,8 @@ unction f([b, a], ...b) {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 7, end: 9
-✖ Expected a `;` - start: 23, end: 25
+✖ '; ' expected - start: 7, end: 9
+✖ '; ' expected - start: 23, end: 25
 
 ```
 

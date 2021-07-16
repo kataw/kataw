@@ -72,7 +72,7 @@ var foo = {
                                                     "start": 19,
                                                     "end": 19
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 15,
                                                 "end": 20

@@ -110,7 +110,7 @@ for (class x extends a in b {} in c);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 22,
                 "end": 25
             },
@@ -159,7 +159,7 @@ for (class x extends a in b {} in c);
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 30,
                     "end": 33
                 },
@@ -213,7 +213,7 @@ for (class x extends a in b {} in c);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 25, end: 27
 ✖ Expected a ')' to match the '(' token here - start: 28, end: 29
 ✖ Identifier expected - start: 30, end: 33
-✖ Expected a `;` - start: 35, end: 36
+✖ '; ' expected - start: 35, end: 36
 
 ```
 

@@ -42,7 +42,7 @@ new it(/* comment */)
                     "start": 8,
                     "end": 8
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 22
@@ -113,7 +113,7 @@ new it(/* comment */)
                     "start": 57,
                     "end": 57
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 49,
                 "end": 71
@@ -184,7 +184,7 @@ new it(/* comment */)
                     "start": 101,
                     "end": 101
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 97,
                 "end": 115

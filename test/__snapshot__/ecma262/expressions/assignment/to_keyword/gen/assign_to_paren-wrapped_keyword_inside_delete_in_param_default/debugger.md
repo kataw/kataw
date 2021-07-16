@@ -61,7 +61,7 @@ async (x = delete ((debugger) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -89,7 +89,7 @@ async (x = delete ((debugger) = f)) => {}
                                     "end": 20
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 20
                             },
@@ -105,7 +105,7 @@ async (x = delete ((debugger) = f)) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -181,9 +181,9 @@ async (x = delete ((debugger) = f)) => {}
 
 ```javascript
 ✖ Identifier expected - start: 20, end: 28
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
-✖ Expected a `;` - start: 33, end: 34
+✖ '; ' expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 38
 

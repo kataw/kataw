@@ -320,7 +320,7 @@ const o = {
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 16,
+                        "transformFlags": 0,
                         "start": 382,
                         "end": 386
                     },
@@ -449,7 +449,7 @@ const o = {
                                             "operatorToken": {
                                                 "kind": 34620,
                                                 "flags": 96,
-                                                "transformFlags": 16,
+                                                "transformFlags": 0,
                                                 "start": 489,
                                                 "end": 493
                                             },

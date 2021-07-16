@@ -36,7 +36,7 @@ function *f(x = (do) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -211,7 +211,7 @@ function *f(x = (do) = f) {}
 ✖ Identifier expected - start: 17, end: 19
 ✖ Identifier expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
-✖ Expected a `;` - start: 24, end: 25
+✖ '; ' expected - start: 24, end: 25
 
 ```
 

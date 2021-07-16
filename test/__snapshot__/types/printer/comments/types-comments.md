@@ -167,7 +167,7 @@ type x = {get x (/*1*/): string }
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 38,
                             "end": 43
                         },
@@ -393,7 +393,7 @@ type x = {get x (/*1*/): string }
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 97,
                             "end": 102
                         },
@@ -619,7 +619,7 @@ type x = {get x (/*1*/): string }
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 170,
                             "end": 175
                         },

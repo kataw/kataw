@@ -250,7 +250,7 @@ function test1() {
                                                                     "start": 111,
                                                                     "end": 111
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 106,
                                                                 "end": 112

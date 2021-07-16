@@ -55,7 +55,7 @@ x = let []
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 3,
                     "end": 10

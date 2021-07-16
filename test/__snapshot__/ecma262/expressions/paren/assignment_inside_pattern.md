@@ -48,7 +48,7 @@
                                             "start": 9,
                                             "end": 9
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 2,
                                         "end": 10
@@ -106,12 +106,12 @@
                                             "start": 21,
                                             "end": 24
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 11,
                                         "end": 25
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 4,
                                     "start": 2,
                                     "end": 26

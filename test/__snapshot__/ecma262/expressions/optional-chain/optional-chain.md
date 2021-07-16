@@ -72,7 +72,7 @@ arr?.[i + 1]
                             "start": 6,
                             "end": 11
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 5,
                         "end": 11

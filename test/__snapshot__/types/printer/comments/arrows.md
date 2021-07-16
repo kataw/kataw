@@ -105,7 +105,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 26
                                                         },
@@ -272,7 +272,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 74,
                                                             "end": 76
                                                         },
@@ -405,7 +405,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                         "operatorToken": {
                                             "kind": 67143222,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 112,
                                             "end": 114
                                         },
@@ -452,7 +452,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                 "start": 124,
                                 "end": 125
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 98,
                             "end": 126

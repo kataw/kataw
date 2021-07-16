@@ -85,7 +85,7 @@ for (function(){ }[x in y] of x);
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 20,
                         "end": 23
                     },
@@ -103,7 +103,7 @@ for (function(){ }[x in y] of x);
                     "start": 19,
                     "end": 25
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 26

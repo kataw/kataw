@@ -48,7 +48,7 @@ async
                     "start": 0,
                     "end": 8
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 9

@@ -170,7 +170,7 @@ var await; var f = (async function() { return async (await) => {}; });
 
 ```javascript
 ✖ Identifier expected - start: 58, end: 59
-✖ Expected a `;` - start: 59, end: 62
+✖ '; ' expected - start: 59, end: 62
 ✖ Variable declaration not allowed at this location - start: 59, end: 62
 ✖ Declaration or statement expected - start: 66, end: 68
 ✖ Declaration or statement expected - start: 68, end: 69

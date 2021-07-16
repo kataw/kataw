@@ -53,7 +53,7 @@ do let [x]; while (a);
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 2,
                     "end": 10

@@ -163,7 +163,7 @@ async function f(){   function fh([+ await x]) { }   }
                                     "end": 44
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 35,
                                 "end": 44
                             },
@@ -225,7 +225,7 @@ async function f(){   function fh([+ await x]) { }   }
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 35, end: 36
-✖ Expected a `;` - start: 44, end: 45
+✖ '; ' expected - start: 44, end: 45
 ✖ Declaration or statement expected - start: 45, end: 46
 ✖ Declaration or statement expected - start: 50, end: 54
 

@@ -146,7 +146,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                                     "start": 57,
                                                     "end": 60
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 48,
                                                 "end": 61

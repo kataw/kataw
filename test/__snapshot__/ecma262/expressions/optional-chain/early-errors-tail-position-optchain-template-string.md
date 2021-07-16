@@ -51,7 +51,7 @@ a?.fn`hello`;
                                 "start": 3,
                                 "end": 5
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 3,
                             "end": 5

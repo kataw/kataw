@@ -191,7 +191,7 @@ type A5<S = number, T: ?string = string> = T;
                                 "type": {
                                     "kind": 67143222,
                                     "flags": 2097216,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },

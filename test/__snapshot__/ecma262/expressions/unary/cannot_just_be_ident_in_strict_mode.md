@@ -22,7 +22,7 @@ delete foo
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 0,
                     "end": 6
                 },
@@ -36,7 +36,7 @@ delete foo
                     "end": 10
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 0,
                 "end": 10
             },

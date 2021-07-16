@@ -1488,7 +1488,7 @@ this.#f,
                                                         "start": 328,
                                                         "end": 390
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 312,
                                                     "end": 391

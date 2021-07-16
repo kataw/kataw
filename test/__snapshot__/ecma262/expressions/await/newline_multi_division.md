@@ -34,7 +34,7 @@ await
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -55,7 +55,7 @@ await
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },

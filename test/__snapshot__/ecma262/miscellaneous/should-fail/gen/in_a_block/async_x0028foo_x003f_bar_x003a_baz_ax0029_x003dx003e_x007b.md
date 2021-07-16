@@ -107,7 +107,7 @@
                                 "start": 1,
                                 "end": 1
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 1,
                             "end": 28
@@ -163,7 +163,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 28, end: 31
+✖ '; ' expected - start: 28, end: 31
 
 ```
 

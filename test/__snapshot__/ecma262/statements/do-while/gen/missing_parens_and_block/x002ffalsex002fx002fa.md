@@ -47,7 +47,7 @@ do /false//a while
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     },
@@ -111,7 +111,7 @@ do /false//a while
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 18
+✖ '; ' expected - start: 12, end: 18
 
 ```
 

@@ -348,7 +348,7 @@ for ({a: b.c}-- of d) e;
                     "start": 47,
                     "end": 52
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 42,
                 "end": 53
@@ -1356,7 +1356,7 @@ for ({a: b.c}-- of d) e;
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 303,
                     "end": 304
                 },
@@ -2357,7 +2357,7 @@ for ({a: b.c}-- of d) e;
                     "start": 531,
                     "end": 531
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 527,
                 "end": 532
@@ -2592,7 +2592,7 @@ for ({a: b.c}-- of d) e;
                     "start": 594,
                     "end": 594
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 590,
                 "end": 595
@@ -2666,7 +2666,7 @@ for ({a: b.c}-- of d) e;
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 614,
                         "end": 617
                     },
@@ -3280,7 +3280,7 @@ for ({a: b.c}-- of d) e;
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 753,
                                     "end": 758
                                 },
@@ -3294,7 +3294,7 @@ for ({a: b.c}-- of d) e;
                                     "end": 760
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 753,
                                 "end": 760
                             },
@@ -3530,7 +3530,7 @@ for ({a: b.c}-- of d) e;
                         "start": 804,
                         "end": 804
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 799,
                     "end": 805
@@ -3590,7 +3590,7 @@ for ({a: b.c}-- of d) e;
                     "start": 812,
                     "end": 814
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 807,
                 "end": 815
@@ -3695,7 +3695,7 @@ for ({a: b.c}-- of d) e;
                     "start": 833,
                     "end": 836
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 820,
                 "end": 837
@@ -3922,7 +3922,7 @@ for ({a: b.c}-- of d) e;
                     "start": 888,
                     "end": 888
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 872,
                 "end": 889
@@ -4661,7 +4661,7 @@ for ({a: b.c}-- of d) e;
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 1068,
                                     "end": 1073
                                 },
@@ -4675,7 +4675,7 @@ for ({a: b.c}-- of d) e;
                                     "end": 1075
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 1068,
                                 "end": 1075
                             },
@@ -5447,7 +5447,7 @@ for ({a: b.c}-- of d) e;
                                     "operandToken": {
                                         "kind": 138477615,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 1246,
                                         "end": 1251
                                     },
@@ -5461,7 +5461,7 @@ for ({a: b.c}-- of d) e;
                                         "end": 1253
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 1246,
                                     "end": 1253
                                 },
@@ -6014,7 +6014,7 @@ for ({a: b.c}-- of d) e;
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 1385,
                                     "end": 1390
                                 },
@@ -6028,7 +6028,7 @@ for ({a: b.c}-- of d) e;
                                     "end": 1392
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 1385,
                                 "end": 1392
                             },
@@ -6324,7 +6324,7 @@ for ({a: b.c}-- of d) e;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 1495,
                 "end": 1498
             },
@@ -6504,11 +6504,11 @@ for ({a: b.c}-- of d) e;
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 214, end: 217
 ✖ Function declarations cannot be used in a single-statement context - start: 258, end: 267
 ✖ Function declarations cannot be used in a single-statement context - start: 294, end: 303
-✖ Expected a `;` - start: 335, end: 337
+✖ '; ' expected - start: 335, end: 337
 ✖ Expected a ')' to match the '(' token here - start: 357, end: 358
-✖ Expected a `;` - start: 361, end: 362
+✖ '; ' expected - start: 361, end: 362
 ✖ Expected a ')' to match the '(' token here - start: 387, end: 388
-✖ Expected a `;` - start: 391, end: 392
+✖ '; ' expected - start: 391, end: 392
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 408, end: 421
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 469
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 535, end: 537
@@ -6518,7 +6518,7 @@ for ({a: b.c}-- of d) e;
 ✖ Identifier expected - start: 614, end: 617
 ✖ Identifier expected - start: 619, end: 620
 ✖ Expected a ')' to match the '(' token here - start: 634, end: 635
-✖ Expected a `;` - start: 636, end: 637
+✖ '; ' expected - start: 636, end: 637
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 675, end: 677
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 696, end: 698
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 710, end: 712
@@ -6526,14 +6526,14 @@ for ({a: b.c}-- of d) e;
 ✖ Missing initializer in destructuring declaration - start: 728, end: 729
 ✖ Trailing comma not allowed. - start: 729, end: 730
 ✖ Identifier expected - start: 729, end: 730
-✖ Expected a `;` - start: 733, end: 737
-✖ Expected a `;` - start: 737, end: 738
+✖ '; ' expected - start: 733, end: 737
+✖ '; ' expected - start: 737, end: 738
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 749, end: 763
 ✖ Object property expected - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
 ✖ Variable declaration not allowed at this location - start: 793, end: 795
 ✖ Identifier expected - start: 805, end: 807
-✖ Expected a `;` - start: 815, end: 816
+✖ '; ' expected - start: 815, end: 816
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 840, end: 842
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 892, end: 894
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 946, end: 949

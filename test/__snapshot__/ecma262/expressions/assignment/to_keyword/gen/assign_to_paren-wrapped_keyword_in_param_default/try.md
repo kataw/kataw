@@ -84,7 +84,7 @@ async (x = (try) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -194,7 +194,7 @@ async (x = (try) = f) => {}
 ✖ Identifier expected - start: 12, end: 15
 ✖ 'catch' expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 18
-✖ Expected a `;` - start: 20, end: 21
+✖ '; ' expected - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 24
 
 ```

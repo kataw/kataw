@@ -38,7 +38,7 @@ function *f(){
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -134,7 +134,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 25, end: 27
+✖ '; ' expected - start: 25, end: 27
 ✖ Declaration or statement expected - start: 30, end: 32
 
 ```

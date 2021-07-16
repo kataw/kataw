@@ -167,10 +167,10 @@ type x = (([1]: y) => T);
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 14, end: 15
-✖ Expected a `;` - start: 17, end: 18
+✖ '; ' expected - start: 14, end: 15
+✖ '; ' expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 21
-✖ Expected a `;` - start: 23, end: 24
+✖ '; ' expected - start: 23, end: 24
 
 ```
 

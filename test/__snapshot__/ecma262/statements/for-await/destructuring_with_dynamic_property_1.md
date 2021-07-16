@@ -86,7 +86,7 @@ for ([a.b][foo] of c) d
                     "start": 11,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 15

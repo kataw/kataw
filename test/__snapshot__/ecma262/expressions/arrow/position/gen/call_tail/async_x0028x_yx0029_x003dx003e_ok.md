@@ -107,7 +107,7 @@ foo(async (x, y) => ok).bar
                         "start": 4,
                         "end": 22
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 23
@@ -121,7 +121,7 @@ foo(async (x, y) => ok).bar
                     "start": 24,
                     "end": 27
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 2,
                 "start": 0,
                 "end": 27

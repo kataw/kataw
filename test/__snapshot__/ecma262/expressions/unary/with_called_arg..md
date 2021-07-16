@@ -55,13 +55,13 @@ new + x()
                             "start": 8,
                             "end": 8
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 5,
                         "end": 9
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3,
                     "end": 9
                 },

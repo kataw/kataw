@@ -130,7 +130,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
@@ -259,7 +259,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ `yield` expression cannot be used in function parameters - start: 35, end: 40
 ✖ ',' expected - start: 41, end: 42
 ✖ Missing an opening brace - '{ - start: 44, end: 45

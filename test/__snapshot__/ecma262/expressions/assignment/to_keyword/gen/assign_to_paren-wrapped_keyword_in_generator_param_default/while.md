@@ -36,7 +36,7 @@ function *f(x = (while) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -218,7 +218,7 @@ function *f(x = (while) = f) {}
 ✖ Missing an opening parentheses - '( - start: 22, end: 23
 ✖ Identifier expected - start: 23, end: 25
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 25
-✖ Expected a `;` - start: 27, end: 28
+✖ '; ' expected - start: 27, end: 28
 
 ```
 

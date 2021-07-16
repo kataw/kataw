@@ -29,7 +29,7 @@ for(delete(x in y);;)x
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 4,
                     "end": 10
                 },
@@ -49,7 +49,7 @@ for(delete(x in y);;)x
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 12,
                             "end": 15
                         },
@@ -73,7 +73,7 @@ for(delete(x in y);;)x
                     "end": 18
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 4,
                 "end": 18
             },

@@ -606,7 +606,7 @@ L: let
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 176,
                     "end": 178
                 },
@@ -650,7 +650,7 @@ L: let
                     "end": 188
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 181,
                 "end": 188
             },
@@ -924,7 +924,7 @@ L: let
                                                         "start": 267,
                                                         "end": 268
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 262,
                                                     "end": 269
@@ -941,7 +941,7 @@ L: let
                                         "start": 257,
                                         "end": 269
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 252,
                                     "end": 270
@@ -1131,7 +1131,7 @@ L: let
                     "start": 290,
                     "end": 309
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 273,
                 "end": 310
@@ -1173,7 +1173,7 @@ L: let
                     "start": 316,
                     "end": 319
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 310,
                 "end": 320

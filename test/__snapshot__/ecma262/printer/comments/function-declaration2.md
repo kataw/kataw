@@ -499,7 +499,7 @@ function foo4() {
                     "start": 211,
                     "end": 233
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 194,
                 "end": 234
@@ -1255,7 +1255,7 @@ function foo4() {
                     "start": 643,
                     "end": 643
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 615,
                 "end": 644
@@ -1337,7 +1337,7 @@ function foo4() {
                     "start": 675,
                     "end": 675
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 645,
                 "end": 676
@@ -1419,7 +1419,7 @@ function foo4() {
                     "start": 711,
                     "end": 711
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 677,
                 "end": 712
@@ -1501,7 +1501,7 @@ function foo4() {
                     "start": 764,
                     "end": 764
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 713,
                 "end": 765

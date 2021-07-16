@@ -1,6 +1,6 @@
 import { SyntaxKind, NodeFlags, Constants, ExportKind } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
-import { nextToken } from './scanner/scanner';
+import { nextToken, scan } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';
 import { createForBinding } from '../ast/statements/for-binding';
 import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
@@ -180,7 +180,6 @@ import {
   speculate,
   isIterationStatement,
   ScopeKind,
-  canParseSemicolon,
   isValidDirective,
   ScopeState,
   addVarOrBlock,
@@ -190,6 +189,7 @@ import {
   lookupBreakTarget,
   lookupContinueTarget,
   FunctionTypeFlags,
+  report,
   consumeAndCheckForEscapeSequence,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
@@ -211,10 +211,10 @@ export function create(source: string, pos: number, onError: OnError): ParserSta
   return {
     source,
     nodeFlags: NodeFlags.None,
-    curPos: 0,
+    curPos: pos,
     pos,
     end: source.length,
-    token: SyntaxKind.EndOfFileToken,
+    token: SyntaxKind.UnknownKeyword,
     tokenPos: 0,
     diagnosticStartPos: 0,
     destructible: DestructibleKind.None,
@@ -253,7 +253,6 @@ export function parse(
   // HTML close
   // https://tc39.es/ecma262/#sec-html-like-comments
   if (
-    !isModule &&
     source.charCodeAt(pos + 2) === Char.GreaterThan &&
     source.charCodeAt(pos + 1) === Char.Hyphen &&
     source.charCodeAt(0) === Char.Hyphen
@@ -262,12 +261,25 @@ export function parse(
     while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
       pos++;
     }
+
+    if (isModule || context & Context.OptionsDisableWebCompat) {
+      onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[
+          context & Context.OptionsDisableWebCompat
+            ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
+            : DiagnosticCode.HTML_comments_can_only_be_used_in_script_mode
+        ],
+        0,
+        pos
+      );
+    }
   }
 
   const parser = create(source, pos, onError);
 
-  // Prime the scanner
-  nextToken(parser, context | Context.AllowRegExp);
+  parser.token = scan(parser, context | Context.AllowRegExp);
 
   const moduleOrScript = isModule ? parseModuleItem : parseStatementListItem;
 
@@ -789,16 +801,6 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
   }
   parseSemicolon(parser, context);
   return createContinueStatement(continueToken, label as Identifier, pos, parser.curPos);
-}
-
-function report(parser: ParserState, pos: number, diagnostic: DiagnosticCode) {
-  parser.onError(
-    DiagnosticSource.Parser,
-    DiagnosticKind.Error | DiagnosticKind.EarlyError,
-    diagnosticMap[diagnostic],
-    pos,
-    parser.pos
-  );
 }
 
 // IfStatement :
@@ -2241,13 +2243,7 @@ function parseCallExpression(parser: ParserState, context: Context, expr: Expres
   const nodeFlags = parser.nodeFlags;
   const argumentList = parseArguments(parser, context);
   parser.assignable = false;
-  return createCallExpression(
-    expr,
-    argumentList,
-    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
-    pos,
-    parser.curPos
-  );
+  return createCallExpression(expr, argumentList, nodeFlags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
 
 function parseArrowFunction(
@@ -9985,7 +9981,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     return createCallExpression(
       expr,
       createArgumentList([], trailingComma, flags | NodeFlags.ExpressionNode, start, start),
-      flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+      flags | NodeFlags.ExpressionNode,
       start,
       parser.curPos
     );
@@ -10442,13 +10438,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       );
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
       parser.assignable = false;
-      return createCallExpression(
-        expr,
-        argumentList,
-        flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
-        start,
-        parser.curPos
-      );
+      return createCallExpression(expr, argumentList, flags | NodeFlags.ExpressionNode, start, parser.curPos);
     }
     params.push(expression);
 
@@ -10470,7 +10460,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     return createCallExpression(
       expr,
       createArgumentList(params, trailingComma, flags | NodeFlags.ExpressionNode, start, start),
-      flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+      flags | NodeFlags.ExpressionNode,
       start,
       parser.curPos
     );
@@ -10548,7 +10538,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   return createCallExpression(
     expr,
     createArgumentList(params, trailingComma, flags | NodeFlags.ExpressionNode, start, start),
-    flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
+    flags | NodeFlags.ExpressionNode,
     start,
     parser.curPos
   );

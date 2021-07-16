@@ -583,7 +583,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 101,
                                         "end": 102
                                     },
@@ -811,7 +811,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 153,
                                         "end": 155
                                     },
@@ -3673,7 +3673,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 737,
                                         "end": 739
                                     },
@@ -6688,7 +6688,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1504,
                                         "end": 1506
                                     },
@@ -6799,7 +6799,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1529,
                                         "end": 1531
                                     },
@@ -6910,7 +6910,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1554,
                                         "end": 1556
                                     },
@@ -7021,7 +7021,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1579,
                                         "end": 1581
                                     },
@@ -7132,7 +7132,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1602,
                                         "end": 1604
                                     },
@@ -7243,7 +7243,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1625,
                                         "end": 1627
                                     },
@@ -7354,7 +7354,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1651,
                                         "end": 1653
                                     },
@@ -7471,7 +7471,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1686,
                                         "end": 1688
                                     },
@@ -7588,7 +7588,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1717,
                                         "end": 1719
                                     },
@@ -7705,7 +7705,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1748,
                                         "end": 1750
                                     },
@@ -7822,7 +7822,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1779,
                                         "end": 1781
                                     },
@@ -7939,7 +7939,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1808,
                                         "end": 1810
                                     },
@@ -8056,7 +8056,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1837,
                                         "end": 1839
                                     },
@@ -8173,7 +8173,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1869,
                                         "end": 1871
                                     },
@@ -8741,7 +8741,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1986,
                                         "end": 1987
                                     },
@@ -9029,7 +9029,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2046,
                                         "end": 2048
                                     },
@@ -9629,7 +9629,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2171,
                                         "end": 2172
                                     },
@@ -9933,7 +9933,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2239,
                                         "end": 2241
                                     },
@@ -10501,7 +10501,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2344,
                                         "end": 2345
                                     },
@@ -10789,7 +10789,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2402,
                                         "end": 2404
                                     },
@@ -11389,7 +11389,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2523,
                                         "end": 2524
                                     },
@@ -11693,7 +11693,7 @@ class x { #foo() {}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2589,
                                         "end": 2591
                                     },

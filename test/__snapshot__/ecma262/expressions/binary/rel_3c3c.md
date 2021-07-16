@@ -31,7 +31,7 @@ a<<b
                 "operatorToken": {
                     "kind": 35140,
                     "flags": 96,
-                    "transformFlags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },

@@ -129,7 +129,7 @@ someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
                                                         "start": 40,
                                                         "end": 70
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 29,
                                                     "end": 71

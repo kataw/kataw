@@ -52,7 +52,7 @@
                                 "operandToken": {
                                     "kind": 138477613,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 5,
                                     "end": 12
                                 },
@@ -66,7 +66,7 @@
                                     "end": 14
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 5,
                                 "end": 14
                             },
@@ -107,7 +107,7 @@
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 19,
                     "end": 22
                 },
@@ -150,7 +150,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 14, end: 17
+✖ '; ' expected - start: 14, end: 17
 ✖ Declaration or statement expected - start: 24, end: 26
 
 ```

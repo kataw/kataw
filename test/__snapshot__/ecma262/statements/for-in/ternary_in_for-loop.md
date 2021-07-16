@@ -78,7 +78,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 17,
                         "end": 20
                     },

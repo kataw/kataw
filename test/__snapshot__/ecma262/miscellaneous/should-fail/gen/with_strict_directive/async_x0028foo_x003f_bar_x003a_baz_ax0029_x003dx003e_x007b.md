@@ -112,7 +112,7 @@
                     "start": 13,
                     "end": 13
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 13,
                 "end": 40
@@ -157,7 +157,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 40, end: 43
+✖ '; ' expected - start: 40, end: 43
 ✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45
 
 ```

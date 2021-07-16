@@ -129,7 +129,7 @@ async () => {  debugge\u0072 = x  }
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 13, end: 28
-✖ Expected a `;` - start: 28, end: 30
+✖ '; ' expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 
 ```

@@ -198,7 +198,7 @@ function f() {
 ✖ Identifier expected - start: 34, end: 36
 ✖ Identifier expected - start: 36, end: 38
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 36, end: 38
-✖ Expected a `;` - start: 40, end: 41
+✖ '; ' expected - start: 40, end: 41
 
 ```
 

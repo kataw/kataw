@@ -431,7 +431,7 @@ async function foo3(): Promise<string> {
                                     "start": 193,
                                     "end": 193
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 188,
                                 "end": 194

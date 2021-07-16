@@ -36,7 +36,7 @@ function *f(x = delete ((extends) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((extends) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 15,
                                 "end": 22
                             },
@@ -100,7 +100,7 @@ function *f(x = delete ((extends) = f)) {}
                                 "end": 25
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 15,
                             "end": 25
                         },
@@ -192,7 +192,7 @@ function *f(x = delete ((extends) = f)) {}
 ✖ Identifier expected - start: 25, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 35
-✖ Expected a `;` - start: 37, end: 38
+✖ '; ' expected - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 39
 
 ```

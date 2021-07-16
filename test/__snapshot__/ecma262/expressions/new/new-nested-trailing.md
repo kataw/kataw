@@ -50,7 +50,7 @@ new (x().y)();
                                 "start": 7,
                                 "end": 7
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 3,
                             "end": 8
@@ -64,7 +64,7 @@ new (x().y)();
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 3,
                         "end": 10

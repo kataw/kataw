@@ -234,7 +234,7 @@ function name() {
                                     "start": 131,
                                     "end": 131
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 108,
                                 "end": 132
@@ -266,7 +266,7 @@ function name() {
                                     "start": 156,
                                     "end": 156
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 132,
                                 "end": 157

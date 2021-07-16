@@ -175,7 +175,7 @@ declare class A { "static" foo(): number }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 30, end: 31
+✖ '; ' expected - start: 30, end: 31
 
 ```
 

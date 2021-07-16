@@ -461,7 +461,7 @@ declare var union: Foo | null | void;
                                     {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 150,
                                         "end": 155
                                     }

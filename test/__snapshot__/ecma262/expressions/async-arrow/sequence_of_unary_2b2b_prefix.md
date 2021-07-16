@@ -50,7 +50,7 @@ async (++x, y) => x;
                                 "end": 10
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 7,
                             "end": 10
                         },
@@ -70,7 +70,7 @@ async (++x, y) => x;
                     "start": 0,
                     "end": 13
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 14
@@ -116,7 +116,7 @@ async (++x, y) => x;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 14, end: 17
+✖ '; ' expected - start: 14, end: 17
 
 ```
 

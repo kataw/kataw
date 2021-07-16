@@ -102,7 +102,7 @@ async (foo ? bar : baz, a) => {
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 26
@@ -147,7 +147,7 @@ async (foo ? bar : baz, a) => {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 26, end: 29
+✖ '; ' expected - start: 26, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 31
 
 ```

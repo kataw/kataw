@@ -171,7 +171,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                                 "start": 60,
                                                                 "end": 63
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 53,
                                                             "end": 64

@@ -60,7 +60,7 @@ async?.(foo)
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 7,
                         "end": 12

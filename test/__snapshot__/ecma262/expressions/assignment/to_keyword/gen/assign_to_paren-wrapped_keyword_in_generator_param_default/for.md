@@ -36,7 +36,7 @@ function *f(x = (for) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -228,7 +228,7 @@ function *f(x = (for) = f) {}
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
 ✖ Identifier expected - start: 21, end: 23
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
-✖ Expected a `;` - start: 25, end: 26
+✖ '; ' expected - start: 25, end: 26
 
 ```
 

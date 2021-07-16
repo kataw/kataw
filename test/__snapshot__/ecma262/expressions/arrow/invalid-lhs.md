@@ -321,7 +321,7 @@ x = (a,b)+c=>{};
                         "start": 61,
                         "end": 62
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 53,
                     "end": 63
@@ -960,7 +960,7 @@ x = (a,b)+c=>{};
                         "start": 232,
                         "end": 233
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 228,
                     "end": 234
@@ -1030,7 +1030,7 @@ x = (a,b)+c=>{};
                         "start": 246,
                         "end": 247
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 242,
                     "end": 248
@@ -1208,22 +1208,22 @@ x = (a,b)+c=>{};
 
 ```javascript
 ✖ Expected '=>' - start: 6, end: 22
-✖ Expected a `;` - start: 25, end: 27
+✖ '; ' expected - start: 25, end: 27
 ✖ Expected '=>' - start: 36, end: 37
-✖ Expected a `;` - start: 44, end: 46
+✖ '; ' expected - start: 44, end: 46
 ✖ Expected '=>' - start: 60, end: 61
-✖ Expected a `;` - start: 63, end: 65
-✖ Expected a `;` - start: 96, end: 98
-✖ Expected a `;` - start: 128, end: 130
-✖ Expected a `;` - start: 165, end: 167
+✖ '; ' expected - start: 63, end: 65
+✖ '; ' expected - start: 96, end: 98
+✖ '; ' expected - start: 128, end: 130
+✖ '; ' expected - start: 165, end: 167
 ✖ Expression expected - start: 172, end: 188
-✖ Expected a `;` - start: 204, end: 206
+✖ '; ' expected - start: 204, end: 206
 ✖ Expression expected - start: 211, end: 212
-✖ Expected a `;` - start: 219, end: 221
+✖ '; ' expected - start: 219, end: 221
 ✖ Expression expected - start: 231, end: 232
-✖ Expected a `;` - start: 234, end: 236
+✖ '; ' expected - start: 234, end: 236
 ✖ Expression expected - start: 245, end: 246
-✖ Expected a `;` - start: 248, end: 250
+✖ '; ' expected - start: 248, end: 250
 ✖ Expected a `;` - start: 264, end: 267
 
 ```

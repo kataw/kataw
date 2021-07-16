@@ -70,7 +70,7 @@ for ({}[b] in c) d;
                     "start": 8,
                     "end": 9
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 10
@@ -78,7 +78,7 @@ for ({}[b] in c) d;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 10,
                 "end": 13
             },

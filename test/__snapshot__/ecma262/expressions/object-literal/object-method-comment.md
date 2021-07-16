@@ -105,7 +105,7 @@ function foo() {
                                                         "start": 80,
                                                         "end": 80
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 27,
                                                     "end": 81
@@ -126,7 +126,7 @@ function foo() {
                                                     "start": 83,
                                                     "end": 85
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 5120,
                                                 "start": 27,
                                                 "end": 85

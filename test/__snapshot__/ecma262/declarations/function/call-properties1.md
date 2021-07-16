@@ -237,7 +237,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "start": 72,
                                         "end": 72
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 69,
                                     "end": 73
@@ -279,12 +279,12 @@ function a(f: { (): string; (x: number): string }): string {
                                         "start": 78,
                                         "end": 81
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 75,
                                     "end": 82
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 5120,
                                 "start": 69,
                                 "end": 82

@@ -246,7 +246,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ Identifier expected - start: 21, end: 23
 ✖ Unterminated regular expression - start: 23, end: 41
 ✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 41

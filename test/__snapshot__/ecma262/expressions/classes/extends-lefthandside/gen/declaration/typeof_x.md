@@ -59,7 +59,7 @@ class A extends typeof x {}
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 15,
                             "end": 22
                         },
@@ -73,7 +73,7 @@ class A extends typeof x {}
                             "end": 24
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 16384,
                         "start": 15,
                         "end": 24
                     },

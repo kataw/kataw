@@ -530,7 +530,7 @@ a++ => {};
                     "start": 100,
                     "end": 100
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 95,
                 "end": 101
@@ -770,7 +770,7 @@ a++ => {};
                     "start": 144,
                     "end": 144
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 134,
                 "end": 145
@@ -1411,7 +1411,7 @@ a++ => {};
                                                                                             "end": 271
                                                                                         },
                                                                                         "flags": 32,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 16384,
                                                                                         "start": 268,
                                                                                         "end": 271
                                                                                     },
@@ -2053,7 +2053,7 @@ a++ => {};
                                         "end": 389
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 386,
                                     "end": 389
                                 },
@@ -2677,7 +2677,7 @@ a++ => {};
                                                         "start": 509,
                                                         "end": 509
                                                     },
-                                                    "flags": 268435490,
+                                                    "flags": 34,
                                                     "transformFlags": 1,
                                                     "start": 509,
                                                     "end": 520
@@ -2719,7 +2719,7 @@ a++ => {};
                                                     "start": 32,
                                                     "end": 527
                                                 },
-                                                "flags": 268435490,
+                                                "flags": 34,
                                                 "transformFlags": 5120,
                                                 "start": 509,
                                                 "end": 527
@@ -2874,7 +2874,7 @@ a++ => {};
                                                                             "start": 549,
                                                                             "end": 549
                                                                         },
-                                                                        "flags": 268435490,
+                                                                        "flags": 34,
                                                                         "transformFlags": 1,
                                                                         "start": 549,
                                                                         "end": 560
@@ -3473,7 +3473,7 @@ a++ => {};
                                                         "end": 675
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 673,
                                                     "end": 675
                                                 },
@@ -3860,7 +3860,7 @@ a++ => {};
                                                                     "end": 745
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 16384,
                                                                 "start": 743,
                                                                 "end": 745
                                                             },
@@ -4656,7 +4656,7 @@ a++ => {};
                                                             "end": 899
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 16384,
                                                         "start": 897,
                                                         "end": 899
                                                     },
@@ -4789,7 +4789,7 @@ a++ => {};
                                                                         "end": 922
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 920,
                                                                     "end": 922
                                                                 },
@@ -4920,7 +4920,7 @@ a++ => {};
                                                                                 "start": 940,
                                                                                 "end": 940
                                                                             },
-                                                                            "flags": 268435490,
+                                                                            "flags": 34,
                                                                             "transformFlags": 1,
                                                                             "start": 940,
                                                                             "end": 951
@@ -4970,7 +4970,7 @@ a++ => {};
                                                                             "end": 959
                                                                         },
                                                                         "flags": 32,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 16384,
                                                                         "start": 956,
                                                                         "end": 959
                                                                     },
@@ -5167,7 +5167,7 @@ a++ => {};
                                                             "start": 984,
                                                             "end": 984
                                                         },
-                                                        "flags": 268435490,
+                                                        "flags": 34,
                                                         "transformFlags": 1,
                                                         "start": 984,
                                                         "end": 995
@@ -5230,7 +5230,7 @@ a++ => {};
                                                             "start": 998,
                                                             "end": 998
                                                         },
-                                                        "flags": 268435490,
+                                                        "flags": 34,
                                                         "transformFlags": 1,
                                                         "start": 998,
                                                         "end": 1009
@@ -5551,7 +5551,7 @@ a++ => {};
                                                         "start": 1062,
                                                         "end": 1062
                                                     },
-                                                    "flags": 268435490,
+                                                    "flags": 34,
                                                     "transformFlags": 1,
                                                     "start": 1062,
                                                     "end": 1073
@@ -5584,7 +5584,7 @@ a++ => {};
                                                             "end": 1078
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 16384,
                                                         "start": 1075,
                                                         "end": 1078
                                                     },
@@ -5593,7 +5593,7 @@ a++ => {};
                                                     "start": 32,
                                                     "end": 1079
                                                 },
-                                                "flags": 268435490,
+                                                "flags": 34,
                                                 "transformFlags": 5120,
                                                 "start": 1062,
                                                 "end": 1079
@@ -6425,7 +6425,7 @@ a++ => {};
                                                                 "end": 1240
                                                             },
                                                             "flags": 32,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 16384,
                                                             "start": 1238,
                                                             "end": 1240
                                                         },
@@ -6768,7 +6768,7 @@ a++ => {};
                                                             "start": 1290,
                                                             "end": 1290
                                                         },
-                                                        "flags": 268435490,
+                                                        "flags": 34,
                                                         "transformFlags": 1,
                                                         "start": 1290,
                                                         "end": 1301
@@ -7119,7 +7119,7 @@ a++ => {};
                                                                     "start": 1358,
                                                                     "end": 1358
                                                                 },
-                                                                "flags": 268435490,
+                                                                "flags": 34,
                                                                 "transformFlags": 1,
                                                                 "start": 1358,
                                                                 "end": 1369
@@ -7507,7 +7507,7 @@ a++ => {};
                                                                         "end": 1442
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 16384,
                                                                     "start": 1440,
                                                                     "end": 1442
                                                                 },
@@ -8012,7 +8012,7 @@ a++ => {};
                                                                                         "end": 1549
                                                                                     },
                                                                                     "flags": 32,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 16384,
                                                                                     "start": 1546,
                                                                                     "end": 1549
                                                                                 },
@@ -8508,7 +8508,7 @@ a++ => {};
                     "start": 1770,
                     "end": 1770
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 1765,
                 "end": 1773
@@ -10940,7 +10940,7 @@ a++ => {};
                         "start": 3034,
                         "end": 3040
                     },
-                    "flags": 268435489,
+                    "flags": 33,
                     "transformFlags": 1,
                     "start": 3019,
                     "end": 3041
@@ -11031,7 +11031,7 @@ a++ => {};
                     "end": 3057
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 3048,
                 "end": 3057
             },
@@ -11063,7 +11063,7 @@ a++ => {};
                         "end": 3062
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 3060,
                     "end": 3062
                 },
@@ -11125,7 +11125,7 @@ a++ => {};
                                 "end": 3074
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 3072,
                             "end": 3074
                         },
@@ -11211,7 +11211,7 @@ a++ => {};
                                 "end": 3092
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 3089,
                             "end": 3092
                         }
@@ -12090,7 +12090,7 @@ a++ => {};
                                 "start": 3293,
                                 "end": 3296
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 3289,
                             "end": 3297
@@ -12181,7 +12181,7 @@ a++ => {};
                                 "start": 3315,
                                 "end": 3318
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 3308,
                             "end": 3319
@@ -12423,7 +12423,7 @@ a++ => {};
                                 "end": 3379
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 3374,
                             "end": 3379
                         }
@@ -12492,11 +12492,11 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 41, end: 48
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Identifier expected - start: 59, end: 62
-✖ Expected a `;` - start: 81, end: 82
+✖ '; ' expected - start: 81, end: 82
 ✖ Declaration or statement expected - start: 85, end: 86
 ✖ Unterminated regular expression - start: 95, end: 98
-✖ Expected a `;` - start: 95, end: 98
-✖ Expected a `;` - start: 101, end: 103
+✖ '; ' expected - start: 95, end: 98
+✖ '; ' expected - start: 101, end: 103
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 107, end: 109
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 117, end: 119
 ✖ An arrow function can not be part of an operator to the right - start: 129, end: 131
@@ -12545,13 +12545,13 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1778, end: 1856
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1859, end: 1868
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1871, end: 1883
-✖ Expected a `;` - start: 1895, end: 1898
+✖ '; ' expected - start: 1895, end: 1898
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1901, end: 1916
-✖ Expected a `;` - start: 1931, end: 1934
+✖ '; ' expected - start: 1931, end: 1934
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1937, end: 1952
-✖ Expected a `;` - start: 2858, end: 2861
+✖ '; ' expected - start: 2858, end: 2861
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2865, end: 2873
-✖ Expected a `;` - start: 2885, end: 2888
+✖ '; ' expected - start: 2885, end: 2888
 ✖ Missing an opening parentheses - '( - start: 2896, end: 2898
 ✖ Identifier expected - start: 2904, end: 2906
 ✖ Missing an opening parentheses - '( - start: 2906, end: 2907
@@ -12560,35 +12560,35 @@ a++ => {};
 ✖ Missing an opening parentheses - '( - start: 2921, end: 2922
 ✖ Identifier expected - start: 2922, end: 2925
 ✖ Expected a `;` - start: 2933, end: 2938
-✖ Expected a `;` - start: 2950, end: 2953
+✖ '; ' expected - start: 2950, end: 2953
 ✖ The left hand side of the arrow is not destructible  - start: 2968, end: 2971
-✖ Expected a `;` - start: 2986, end: 2989
-✖ Expected a `;` - start: 2997, end: 3000
+✖ '; ' expected - start: 2986, end: 2989
+✖ '; ' expected - start: 2997, end: 3000
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3004, end: 3013
 ✖ Unterminated string literal - start: 3019, end: 3032
 ✖ Expected a ')' to match the '(' token here - start: 3042, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3017, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3058, end: 3066
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3070, end: 3081
-✖ Expected a `;` - start: 3093, end: 3096
+✖ '; ' expected - start: 3093, end: 3096
 ✖ Declaration or statement expected - start: 3103, end: 3106
-✖ Expected a `;` - start: 3114, end: 3117
-✖ Expected a `;` - start: 3127, end: 3130
+✖ '; ' expected - start: 3114, end: 3117
+✖ '; ' expected - start: 3127, end: 3130
 ✖ The left hand side of the arrow is not destructible  - start: 3143, end: 3146
-✖ Expected a `;` - start: 3159, end: 3162
-✖ Expected a `;` - start: 3169, end: 3172
-✖ Expected a `;` - start: 3194, end: 3197
-✖ Expected a `;` - start: 3222, end: 3225
+✖ '; ' expected - start: 3159, end: 3162
+✖ '; ' expected - start: 3169, end: 3172
+✖ '; ' expected - start: 3194, end: 3197
+✖ '; ' expected - start: 3222, end: 3225
 ✖ The left hand side of the arrow is not destructible  - start: 3250, end: 3253
 ✖ The left hand side of the arrow is not destructible  - start: 3266, end: 3269
-✖ Expected a `;` - start: 3282, end: 3285
+✖ '; ' expected - start: 3282, end: 3285
 ✖ The left hand side of the arrow is not destructible  - start: 3301, end: 3304
-✖ Expected a `;` - start: 3320, end: 3323
+✖ '; ' expected - start: 3320, end: 3323
 ✖ A rest element cannot have an initializer - start: 3335, end: 3337
 ✖ Expected a ')' to match the '(' token here - start: 3355, end: 3356
-✖ Expected a `;` - start: 3358, end: 3359
+✖ '; ' expected - start: 3358, end: 3359
 ✖ Declaration or statement expected - start: 3359, end: 3362
-✖ Expected a `;` - start: 3380, end: 3383
+✖ '; ' expected - start: 3380, end: 3383
 
 ```
 

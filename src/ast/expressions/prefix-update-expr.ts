@@ -18,7 +18,7 @@ export function createPrefixUpdateExpression(
     operandToken,
     operand,
     flags: NodeFlags.ExpressionNode,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.PrefixUpdateOrUnary,
     start,
     end
   };

@@ -160,12 +160,12 @@
                                     "end": 28
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 27,
                                 "end": 28
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 25,
                             "end": 28
                         },
@@ -205,7 +205,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 10, end: 16
+✖ '; ' expected - start: 10, end: 16
 ✖ Binding identifier expected - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 27
 ✖ Missing an opening parentheses - '( - start: 26, end: 27

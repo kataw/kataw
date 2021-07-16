@@ -38,7 +38,7 @@ a++;
                     "end": 3
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 0,
                 "end": 3
             },

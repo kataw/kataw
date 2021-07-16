@@ -29,7 +29,7 @@ function *f(){  foo(await)  }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -90,7 +90,7 @@ function *f(){  foo(await)  }
                                     "start": 20,
                                     "end": 25
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 14,
                                 "end": 26

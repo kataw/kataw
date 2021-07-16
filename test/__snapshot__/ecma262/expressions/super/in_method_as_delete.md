@@ -81,7 +81,7 @@ x = { foo(){ delete super[foo]; }}
                                                         "operandToken": {
                                                             "kind": 4259886,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 8192,
                                                             "start": 12,
                                                             "end": 19
                                                         },
@@ -103,13 +103,13 @@ x = { foo(){ delete super[foo]; }}
                                                                 "start": 26,
                                                                 "end": 29
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 19,
                                                             "end": 30
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 16384,
                                                         "start": 12,
                                                         "end": 30
                                                     },

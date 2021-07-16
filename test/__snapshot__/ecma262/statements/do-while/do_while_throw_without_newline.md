@@ -161,7 +161,7 @@ do throw function (v, h) {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 43, end: 49
+✖ '; ' expected - start: 43, end: 49
 
 ```
 

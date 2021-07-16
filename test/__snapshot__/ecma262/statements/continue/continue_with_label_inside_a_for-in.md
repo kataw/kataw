@@ -54,7 +54,7 @@ foo: for (x in y) continue foo
                 "inKeyword": {
                     "kind": 21006388,
                     "flags": 64,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 11,
                     "end": 14
                 },

@@ -54,7 +54,7 @@ x({});
                     "start": 2,
                     "end": 4
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 5

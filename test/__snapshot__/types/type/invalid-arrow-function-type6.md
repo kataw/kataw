@@ -226,7 +226,7 @@ type a = ({} | {static [x]:string}) => T;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 26, end: 27
+✖ '; ' expected - start: 26, end: 27
 ✖ Declaration or statement expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 38

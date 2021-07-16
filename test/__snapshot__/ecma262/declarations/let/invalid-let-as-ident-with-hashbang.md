@@ -86,7 +86,7 @@ let x = ;
                     "end": 21
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 11,
                 "end": 21
             },

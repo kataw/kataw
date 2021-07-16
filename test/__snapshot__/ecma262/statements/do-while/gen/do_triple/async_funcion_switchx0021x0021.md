@@ -173,12 +173,12 @@ do do do async funcion switch!! while while while
                         "end": 31
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 30,
                     "end": 31
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 29,
                 "end": 31
             },

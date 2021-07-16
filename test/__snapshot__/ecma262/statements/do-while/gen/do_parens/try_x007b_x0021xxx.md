@@ -104,7 +104,7 @@ do( try { !xxx while
                                     "end": 14
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 9,
                                 "end": 14
                             },
@@ -206,7 +206,7 @@ do( try { !xxx while
 
 ```javascript
 ✖ Identifier expected - start: 3, end: 7
-✖ Expected a `;` - start: 14, end: 20
+✖ '; ' expected - start: 14, end: 20
 
 ```
 

@@ -52,7 +52,7 @@ for (456[x] in c) d;
                     "start": 9,
                     "end": 10
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 11
@@ -60,7 +60,7 @@ for (456[x] in c) d;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 11,
                 "end": 14
             },

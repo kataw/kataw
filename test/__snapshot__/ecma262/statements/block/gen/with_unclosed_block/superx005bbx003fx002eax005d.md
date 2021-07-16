@@ -159,7 +159,7 @@
                                                         "start": 27,
                                                         "end": 28
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "transformFlags": 2,
                                                     "start": 27,
                                                     "end": 28
@@ -174,7 +174,7 @@
                                             "start": 24,
                                             "end": 28
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 4,
                                         "start": 17,
                                         "end": 29
@@ -227,7 +227,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 17, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 

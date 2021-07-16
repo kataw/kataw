@@ -84,7 +84,7 @@ for (let {...a.b} in c);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 13,
                 "end": 16
             },
@@ -264,7 +264,7 @@ for (let {...a.b} in c);
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 39,
                     "end": 42
                 },
@@ -320,7 +320,7 @@ for (let {...a.b} in c);
 ✖ Lexical declaration expected - start: 36, end: 37
 ✖ Identifier expected - start: 38, end: 39
 ✖ Identifier expected - start: 39, end: 42
-✖ Expected a `;` - start: 44, end: 45
+✖ '; ' expected - start: 44, end: 45
 
 ```
 

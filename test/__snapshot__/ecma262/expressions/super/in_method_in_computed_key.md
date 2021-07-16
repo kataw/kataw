@@ -111,7 +111,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                                 "start": 28,
                                                                                 "end": 31
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 32,
                                                                             "transformFlags": 4,
                                                                             "start": 22,
                                                                             "end": 32

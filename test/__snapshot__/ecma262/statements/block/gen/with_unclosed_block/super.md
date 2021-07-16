@@ -189,7 +189,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ 'super' must be followed by an argument list or member access. - start: 17, end: 23
 ✖ Dot property must be an identifier - start: 23, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 23

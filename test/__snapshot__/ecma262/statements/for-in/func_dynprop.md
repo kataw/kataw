@@ -98,7 +98,7 @@ for (function(){ }[foo] in x);
                     "start": 19,
                     "end": 22
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 5,
                 "end": 23
@@ -106,7 +106,7 @@ for (function(){ }[foo] in x);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 23,
                 "end": 26
             },

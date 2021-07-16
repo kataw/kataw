@@ -173,7 +173,7 @@ s.map(// do something
                     "start": 39,
                     "end": 74
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 32,
                 "end": 75

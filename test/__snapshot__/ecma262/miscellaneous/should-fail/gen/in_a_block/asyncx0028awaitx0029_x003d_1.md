@@ -59,7 +59,7 @@
                                 "start": 1,
                                 "end": 1
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 1,
                             "end": 14
@@ -116,7 +116,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 14, end: 16
+✖ '; ' expected - start: 14, end: 16
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 16, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 

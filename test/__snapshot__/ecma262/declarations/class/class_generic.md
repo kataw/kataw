@@ -506,7 +506,7 @@ class C<T> {
                                                         "start": 113,
                                                         "end": 118
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 94,
                                                     "end": 119

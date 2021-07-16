@@ -93,7 +93,7 @@ async (foo ? bar : baz) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 23
@@ -138,7 +138,7 @@ async (foo ? bar : baz) => {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 23, end: 26
+✖ '; ' expected - start: 23, end: 26
 
 ```
 

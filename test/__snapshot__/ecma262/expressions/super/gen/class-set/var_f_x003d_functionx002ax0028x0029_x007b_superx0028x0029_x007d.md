@@ -140,7 +140,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                 "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
-                                                                    "transformFlags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 37,
                                                                     "end": 38
                                                                 },
@@ -181,7 +181,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                                         "start": 49,
                                                                                         "end": 49
                                                                                     },
-                                                                                    "flags": 268435488,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 1,
                                                                                     "start": 42,
                                                                                     "end": 50

@@ -75,7 +75,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                 "operatorToken": {
                                     "kind": 67143222,
                                     "flags": 96,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 29
                                 },
@@ -99,7 +99,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "start": 33,
                                         "end": 33
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 29,
                                     "end": 34
@@ -233,9 +233,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 34, end: 36
+✖ '; ' expected - start: 34, end: 36
 ✖ Variable declaration not allowed at this location - start: 50, end: 56
-✖ Expected a `;` - start: 50, end: 56
+✖ '; ' expected - start: 50, end: 56
 ✖ Declaration or statement expected - start: 61, end: 62
 
 ```

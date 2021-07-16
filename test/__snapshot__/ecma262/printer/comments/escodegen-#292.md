@@ -74,7 +74,7 @@ while-statement6# Kataw parser test case
                         "start": 18,
                         "end": 18
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 1,
                     "end": 19

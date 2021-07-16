@@ -51,7 +51,7 @@ foo(async[])
                                 "start": 10,
                                 "end": 10
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 4,
                             "end": 11
@@ -63,7 +63,7 @@ foo(async[])
                     "start": 4,
                     "end": 11
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12

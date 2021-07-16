@@ -128,12 +128,12 @@ a[{...()=>{}}.m()]
                         "start": 16,
                         "end": 16
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 2,
                     "end": 17
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 18

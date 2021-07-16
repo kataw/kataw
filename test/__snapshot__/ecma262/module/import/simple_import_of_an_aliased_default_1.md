@@ -49,7 +49,7 @@ import * as a from "y"
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -157,9 +157,9 @@ import * as a from "y"
 
 ```javascript
 ✖ Identifier expected - start: 6, end: 8
-✖ Expected a `;` - start: 11, end: 13
-✖ Expected a `;` - start: 13, end: 18
-✖ Expected a `;` - start: 18, end: 22
+✖ '; ' expected - start: 11, end: 13
+✖ '; ' expected - start: 13, end: 18
+✖ '; ' expected - start: 18, end: 22
 
 ```
 

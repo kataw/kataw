@@ -31,7 +31,7 @@ fuction *f() {  return await yield;  }
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -55,7 +55,7 @@ fuction *f() {  return await yield;  }
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 9,
                     "end": 12
@@ -145,9 +145,9 @@ fuction *f() {  return await yield;  }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 14
+✖ '; ' expected - start: 12, end: 14
 ✖ A return statement can only be used within a function_body - start: 14, end: 22
-✖ Expected a `;` - start: 28, end: 34
+✖ '; ' expected - start: 28, end: 34
 
 ```
 

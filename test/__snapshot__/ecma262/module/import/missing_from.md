@@ -156,7 +156,7 @@ import {a, b} fromx "c"
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 19, end: 23
+✖ '; ' expected - start: 19, end: 23
 
 ```
 

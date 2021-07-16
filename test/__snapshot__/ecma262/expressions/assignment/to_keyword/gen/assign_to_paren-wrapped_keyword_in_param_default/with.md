@@ -84,7 +84,7 @@ async (x = (with) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -195,7 +195,7 @@ async (x = (with) = f) => {}
 ✖ Missing an opening parentheses - '( - start: 16, end: 17
 ✖ Identifier expected - start: 17, end: 19
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 17, end: 19
-✖ Expected a `;` - start: 21, end: 22
+✖ '; ' expected - start: 21, end: 22
 ✖ Declaration or statement expected - start: 22, end: 25
 
 ```

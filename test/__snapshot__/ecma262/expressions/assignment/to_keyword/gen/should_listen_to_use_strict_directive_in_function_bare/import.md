@@ -146,7 +146,7 @@ function f() {
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 30, end: 41
 ✖ Declaration or statement expected - start: 39, end: 41
-✖ Expected a `;` - start: 39, end: 41
+✖ '; ' expected - start: 39, end: 41
 ✖ Declaration or statement expected - start: 43, end: 45
 
 ```

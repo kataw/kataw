@@ -123,8 +123,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 19, end: 21
-✖ Expected a `;` - start: 29, end: 31
+✖ '; ' expected - start: 19, end: 21
+✖ '; ' expected - start: 29, end: 31
 
 ```
 

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
@@ -154,7 +154,7 @@ export interface ParserState {
   nodeFlags: NodeFlags;
   curPos: number;
   pos: number;
-  token: TokenSyntaxKind;
+  token: any;
   tokenPos: number;
   end: number;
   onError: OnError;
@@ -302,13 +302,7 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
   }
   if (parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Expected_a],
-      parser.curPos,
-      parser.pos
-    );
+    report(parser, parser.curPos, DiagnosticCode._0_expected, tokenToString(parser.token) as any);
   }
   return false;
 }
@@ -486,14 +480,6 @@ export function isTemplateLiteral(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.TemplateLiteral) === NodeFlags.TemplateLiteral;
 }
 
-export function isCallExpression(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.IsCallExpression) === NodeFlags.IsCallExpression;
-}
-
-export function isMemberExpression(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.IsMemberExpression) === NodeFlags.IsMemberExpression;
-}
-
 export function shouldIgnoreNextNode(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IgnoreNextNode) === NodeFlags.IgnoreNextNode;
 }
@@ -640,4 +626,12 @@ export function lookupBreakTarget(labels: any, value: string): boolean {
 
 export function lastOrUndefined<T>(array: readonly T[]): any {
   return array.length === 0 ? undefined : array[array.length - 1];
+}
+
+export function report(parser: ParserState, pos: number, diagnostic: DiagnosticCode, ...args: string[]) {
+  let message = diagnosticMap[diagnostic];
+  if (arguments.length > 3) {
+    message = message.replace(/{(\d+)}/g, (__match: string, i: number) => args[i]);
+  }
+  parser.onError(DiagnosticSource.Parser, DiagnosticKind.Error | DiagnosticKind.EarlyError, message, pos, parser.pos);
 }

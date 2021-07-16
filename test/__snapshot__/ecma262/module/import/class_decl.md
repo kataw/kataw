@@ -172,7 +172,7 @@ class x { import {x} from "y"; }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
-✖ Expected a `;` - start: 25, end: 29
+✖ '; ' expected - start: 25, end: 29
 ✖ Declaration or statement expected - start: 30, end: 32
 
 ```

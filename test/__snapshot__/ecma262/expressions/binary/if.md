@@ -77,7 +77,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "start": 19,
                         "end": 35
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 4,
                     "end": 36
@@ -125,7 +125,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                             "start": 55,
                             "end": 55
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 39,
                         "end": 56
@@ -139,12 +139,12 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "start": 57,
                         "end": 61
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 39,
                     "end": 61
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 5120,
                 "start": 4,
                 "end": 61
@@ -226,7 +226,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "start": 86,
                         "end": 102
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 71,
                     "end": 103
@@ -276,7 +276,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                                 "start": 122,
                                 "end": 122
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 106,
                             "end": 123
@@ -290,7 +290,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                             "start": 124,
                             "end": 128
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 106,
                         "end": 128
@@ -298,7 +298,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 16,
+                        "transformFlags": 0,
                         "start": 128,
                         "end": 132
                     },
@@ -327,12 +327,12 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "start": 132,
                         "end": 145
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 5120,
                     "start": 128,
                     "end": 145
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 5120,
                 "start": 71,
                 "end": 145
@@ -414,7 +414,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "start": 170,
                         "end": 186
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 155,
                     "end": 187
@@ -464,7 +464,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                                 "start": 206,
                                 "end": 206
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 190,
                             "end": 207
@@ -478,7 +478,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                             "start": 208,
                             "end": 212
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 190,
                         "end": 212
@@ -486,7 +486,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 16,
+                        "transformFlags": 0,
                         "start": 212,
                         "end": 216
                     },
@@ -531,12 +531,12 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                         "start": 216,
                         "end": 235
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 5120,
                     "start": 212,
                     "end": 235
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 5120,
                 "start": 155,
                 "end": 235
@@ -586,7 +586,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 16,
+                    "transformFlags": 0,
                     "start": 281,
                     "end": 285
                 },

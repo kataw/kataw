@@ -74,7 +74,7 @@ foo--.toString();
                     "start": 15,
                     "end": 15
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 6,
                 "end": 16
@@ -104,7 +104,7 @@ foo--.toString();
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 6
+✖ '; ' expected - start: 5, end: 6
 
 ```
 

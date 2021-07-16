@@ -153,7 +153,7 @@ async function p(){
                                     "end": 43
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 39,
                                 "end": 43
                             },
@@ -215,7 +215,7 @@ async function p(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 40, end: 41
-✖ Expected a `;` - start: 43, end: 45
+✖ '; ' expected - start: 43, end: 45
 
 ```
 

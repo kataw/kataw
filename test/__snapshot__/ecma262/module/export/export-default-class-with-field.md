@@ -144,7 +144,7 @@ export default class {
                     "start": 46,
                     "end": 46
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 30,
                 "end": 47
@@ -244,7 +244,7 @@ export default class {
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
-✖ Expected a `;` - start: 47, end: 49
+✖ '; ' expected - start: 47, end: 49
 ✖ Declaration or statement expected - start: 69, end: 71
 
 ```

@@ -42,7 +42,7 @@
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 1,
                             "end": 3
                         },
@@ -113,7 +113,7 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 3
 ✖ Identifier expected - start: 3, end: 5
-✖ Expected a `;` - start: 7, end: 8
+✖ '; ' expected - start: 7, end: 8
 
 ```
 

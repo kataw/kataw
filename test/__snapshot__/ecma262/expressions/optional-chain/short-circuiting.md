@@ -79,11 +79,11 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                                 "end": 7
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 16384,
                                             "start": 4,
                                             "end": 7
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 4,
                                         "start": 3,
                                         "end": 7
@@ -102,7 +102,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "start": 8,
                                     "end": 31
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 8,
                                 "end": 31
@@ -128,7 +128,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                         "start": 33,
                                         "end": 34
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 33,
                                     "end": 34
@@ -147,7 +147,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "start": 35,
                                 "end": 36
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 34,
                             "end": 36
@@ -179,7 +179,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "end": 40
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 37,
                                 "end": 40
                             }
@@ -190,7 +190,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "start": 37,
                         "end": 40
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 41
@@ -204,7 +204,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "start": 42,
                     "end": 43
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 2,
                 "start": 0,
                 "end": 43
@@ -273,11 +273,11 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                                 "end": 87
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 16384,
                                             "start": 84,
                                             "end": 87
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "transformFlags": 4,
                                         "start": 83,
                                         "end": 87
@@ -296,7 +296,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "start": 88,
                                     "end": 119
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 88,
                                 "end": 119
@@ -322,7 +322,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                         "start": 121,
                                         "end": 122
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 121,
                                     "end": 122
@@ -341,7 +341,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "start": 123,
                                 "end": 124
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 122,
                             "end": 124
@@ -373,7 +373,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "end": 128
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 125,
                                 "end": 128
                             }
@@ -384,7 +384,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "start": 125,
                         "end": 128
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 44,
                     "end": 129
@@ -398,7 +398,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "start": 130,
                     "end": 131
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 2,
                 "start": 44,
                 "end": 131

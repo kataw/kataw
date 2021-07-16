@@ -79,7 +79,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 5,
                     "end": 5
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 11
@@ -121,7 +121,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 17,
                     "end": 19
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 13,
                 "end": 25
@@ -163,7 +163,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 31,
                     "end": 38
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 27,
                 "end": 44
@@ -205,7 +205,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 55,
                     "end": 57
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 46,
                 "end": 63
@@ -247,7 +247,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 74,
                     "end": 76
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 65,
                 "end": 82
@@ -291,7 +291,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                         "start": 99,
                         "end": 101
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 89,
                     "end": 107
@@ -340,7 +340,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                         "start": 127,
                         "end": 129
                     },
-                    "flags": 268435489,
+                    "flags": 33,
                     "transformFlags": 1,
                     "start": 115,
                     "end": 135
@@ -387,7 +387,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 156,
                     "end": 158
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 146,
                 "end": 184
@@ -459,7 +459,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 195,
                     "end": 214
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 186,
                 "end": 215

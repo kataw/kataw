@@ -489,7 +489,7 @@ import { type Foo12 } from "bar";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 176,
                 "end": 183
             },
@@ -510,7 +510,7 @@ import { type Foo12 } from "bar";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 183,
                         "end": 185
                     },
@@ -709,9 +709,9 @@ import { type Foo12 } from "bar";
 
 ```javascript
 ✖ Identifier expected - start: 183, end: 185
-✖ Expected a `;` - start: 188, end: 198
-✖ Expected a `;` - start: 198, end: 203
-✖ Expected a `;` - start: 203, end: 209
+✖ '; ' expected - start: 188, end: 198
+✖ '; ' expected - start: 198, end: 203
+✖ '; ' expected - start: 203, end: 209
 
 ```
 

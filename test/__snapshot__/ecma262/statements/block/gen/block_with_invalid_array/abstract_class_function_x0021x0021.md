@@ -249,12 +249,12 @@
                         "end": 36
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 35,
                     "end": 36
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 33,
                 "end": 36
             },
@@ -286,7 +286,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ Expected a `;` - start: 18, end: 24
+✖ '; ' expected - start: 18, end: 24
 ✖ Binding identifier expected - start: 24, end: 33
 ✖ Binding identifier expected - start: 33, end: 35
 ✖ Missing an opening parentheses - '( - start: 34, end: 35

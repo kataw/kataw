@@ -85,7 +85,7 @@ async (x = (yield x))
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -116,7 +116,7 @@ async (x = (yield x))
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 18, end: 19
-✖ Expected a `;` - start: 20, end: 21
+✖ '; ' expected - start: 20, end: 21
 
 ```
 

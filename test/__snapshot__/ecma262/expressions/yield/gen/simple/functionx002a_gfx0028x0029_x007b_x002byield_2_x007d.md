@@ -36,7 +36,7 @@ function* gf() { +yield 2; }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -102,7 +102,7 @@ function* gf() { +yield 2; }
                                     "end": 25
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 16,
                                 "end": 25
                             },

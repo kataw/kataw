@@ -104,7 +104,7 @@ const obsever = mockReducersAndSomething(
                                 "start": 41,
                                 "end": 119
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 15,
                             "end": 121

@@ -1202,7 +1202,7 @@ const foo3 = 123
                                     "start": 602,
                                     "end": 603
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 589,
                                 "end": 604
@@ -1219,7 +1219,7 @@ const foo3 = 123
                     "start": 585,
                     "end": 604
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 566,
                 "end": 605

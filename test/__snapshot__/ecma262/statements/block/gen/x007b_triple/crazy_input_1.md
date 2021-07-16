@@ -138,8 +138,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 11, end: 17
-✖ Expected a `;` - start: 17, end: 19
+✖ '; ' expected - start: 11, end: 17
+✖ '; ' expected - start: 17, end: 19
 
 ```
 

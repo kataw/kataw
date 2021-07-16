@@ -36,7 +36,7 @@ for (delete x in x) ;
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 8192,
                     "start": 5,
                     "end": 11
                 },
@@ -50,14 +50,14 @@ for (delete x in x) ;
                     "end": 13
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 5,
                 "end": 13
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 13,
                 "end": 16
             },

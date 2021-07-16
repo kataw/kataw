@@ -139,7 +139,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 41, end: 43
+✖ '; ' expected - start: 41, end: 43
 ✖ Declaration or statement expected - start: 45, end: 47
 
 ```

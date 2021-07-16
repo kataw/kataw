@@ -61,7 +61,7 @@ async (x = delete ((switch) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -89,7 +89,7 @@ async (x = delete ((switch) = f)) => {}
                                     "end": 20
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 20
                             },
@@ -105,7 +105,7 @@ async (x = delete ((switch) = f)) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -200,7 +200,7 @@ async (x = delete ((switch) = f)) => {}
 ✖ Identifier expected - start: 20, end: 26
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
-✖ Expected a `;` - start: 31, end: 32
+✖ '; ' expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 36
 

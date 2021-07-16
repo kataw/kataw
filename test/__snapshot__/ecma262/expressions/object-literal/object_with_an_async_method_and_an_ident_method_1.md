@@ -169,7 +169,7 @@ x({async foo(){}, bar(){}});
                     "start": 2,
                     "end": 26
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 27

@@ -221,7 +221,7 @@ export type * from "foo";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 65,
                         "end": 67
                     },
@@ -289,12 +289,12 @@ export type * from "foo";
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 11, end: 13
+✖ '; ' expected - start: 11, end: 13
 ✖ Declaration or statement expected - start: 11, end: 13
-✖ Expected a `;` - start: 33, end: 35
+✖ '; ' expected - start: 33, end: 35
 ✖ Declaration or statement expected - start: 33, end: 35
-✖ Expected a `;` - start: 46, end: 52
-✖ Expected a `;` - start: 72, end: 78
+✖ '; ' expected - start: 46, end: 52
+✖ '; ' expected - start: 72, end: 78
 ✖ Declaration or statement expected - start: 72, end: 78
 
 ```

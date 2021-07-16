@@ -152,7 +152,7 @@ do let {x} = y while (a);
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 6, end: 8
+✖ '; ' expected - start: 6, end: 8
 ✖ Declaration or statement expected - start: 15, end: 20
 
 ```

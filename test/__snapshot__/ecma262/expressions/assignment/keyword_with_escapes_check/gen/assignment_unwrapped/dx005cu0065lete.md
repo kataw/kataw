@@ -31,7 +31,7 @@ d\u0065lete = x;
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 16480,
-                        "transformFlags": 0,
+                        "transformFlags": 8192,
                         "start": 0,
                         "end": 11
                     },
@@ -45,7 +45,7 @@ d\u0065lete = x;
                         "end": 11
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 16384,
                     "start": 0,
                     "end": 11
                 },

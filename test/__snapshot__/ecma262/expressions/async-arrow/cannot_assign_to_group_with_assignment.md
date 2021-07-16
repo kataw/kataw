@@ -70,7 +70,7 @@ async (a=/i/) = /i/
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 13
@@ -116,7 +116,7 @@ async (a=/i/) = /i/
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 13, end: 15
+✖ '; ' expected - start: 13, end: 15
 
 ```
 

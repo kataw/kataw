@@ -84,7 +84,7 @@ class Bar{
                                                 "start": 20,
                                                 "end": 20
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 14,
                                             "end": 20
@@ -307,7 +307,7 @@ class Bar{
                     "start": 103,
                     "end": 103
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 88,
                 "end": 104
@@ -356,7 +356,7 @@ class Bar{
 ✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 42
 ✖ Missing an opening brace - '{ - start: 73, end: 74
 ✖ Declaration or statement expected - start: 84, end: 88
-✖ Expected a `;` - start: 104, end: 106
+✖ '; ' expected - start: 104, end: 106
 ✖ Declaration or statement expected - start: 107, end: 109
 
 ```

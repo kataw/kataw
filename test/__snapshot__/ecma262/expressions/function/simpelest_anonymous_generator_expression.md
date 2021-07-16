@@ -50,7 +50,7 @@ foo(function*(){})
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
@@ -94,7 +94,7 @@ foo(function*(){})
                     "start": 4,
                     "end": 17
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 18

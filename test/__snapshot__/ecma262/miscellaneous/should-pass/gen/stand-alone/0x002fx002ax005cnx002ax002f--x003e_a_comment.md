@@ -112,7 +112,7 @@
 
 ```javascript
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1, end: 9
-✖ Expected a `;` - start: 12, end: 20
+✖ '; ' expected - start: 12, end: 20
 
 ```
 

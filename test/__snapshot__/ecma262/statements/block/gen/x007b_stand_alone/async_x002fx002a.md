@@ -74,8 +74,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 7, end: 11
-✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 11
+✖ Unexpected token. - start: 7, end: 10
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 10
 
 ```
 

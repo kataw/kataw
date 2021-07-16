@@ -84,7 +84,7 @@ async (x = (return) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -172,7 +172,7 @@ async (x = (return) = f) => {}
 ✖ A return statement can only be used within a function_body - start: 12, end: 18
 ✖ Identifier expected - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 21
-✖ Expected a `;` - start: 23, end: 24
+✖ '; ' expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 27
 
 ```

@@ -112,8 +112,8 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 11
 ✖ Keywords cannot contain escape characters - start: 1, end: 11
-✖ Expected a `;` - start: 11, end: 13
-✖ Expected a `;` - start: 15, end: 16
+✖ '; ' expected - start: 11, end: 13
+✖ '; ' expected - start: 15, end: 16
 
 ```
 

@@ -62,7 +62,7 @@ new package => x
                     "end": 8
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 7,
                 "end": 8
             },
@@ -147,7 +147,7 @@ new package => x
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 25,
                 "end": 26
             },
@@ -190,7 +190,7 @@ new package => x
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 35
                     },
@@ -324,7 +324,7 @@ new package => x
                                 "end": 80
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 45,
                             "end": 80
                         },
@@ -395,7 +395,7 @@ new package => x
                     "end": 95
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 80,
                 "end": 95
             },
@@ -424,9 +424,9 @@ new package => x
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 7, end: 8
+✖ '; ' expected - start: 7, end: 8
 ✖ Identifier expected - start: 8, end: 11
-✖ Expected a `;` - start: 25, end: 26
+✖ '; ' expected - start: 25, end: 26
 ✖ Identifier expected - start: 26, end: 29
 ✖ Identifier expected - start: 34, end: 35
 ✖ Expected a `;` - start: 35, end: 45

@@ -96,8 +96,8 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 9
-✖ Expected a `;` - start: 9, end: 11
-✖ Expected a `;` - start: 13, end: 14
+✖ '; ' expected - start: 9, end: 11
+✖ '; ' expected - start: 13, end: 14
 
 ```
 

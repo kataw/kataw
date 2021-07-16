@@ -36,7 +36,7 @@ function *f(x = delete ((with) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((with) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 15,
                                 "end": 22
                             },
@@ -100,7 +100,7 @@ function *f(x = delete ((with) = f)) {}
                                 "end": 25
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 15,
                             "end": 25
                         },
@@ -239,7 +239,7 @@ function *f(x = delete ((with) = f)) {}
 ✖ Missing an opening parentheses - '( - start: 29, end: 30
 ✖ Identifier expected - start: 30, end: 32
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 30, end: 32
-✖ Expected a `;` - start: 34, end: 35
+✖ '; ' expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 36
 
 ```

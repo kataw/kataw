@@ -108,7 +108,7 @@ class A extends a + b {}
                     "end": 21
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 17,
                 "end": 21
             },
@@ -153,7 +153,7 @@ class A extends a + b {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 18, end: 19
-✖ Expected a `;` - start: 21, end: 23
+✖ '; ' expected - start: 21, end: 23
 
 ```
 

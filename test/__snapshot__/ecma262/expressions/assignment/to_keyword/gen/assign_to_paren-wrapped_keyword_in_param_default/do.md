@@ -84,7 +84,7 @@ async (x = (do) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -188,7 +188,7 @@ async (x = (do) = f) => {}
 ✖ Identifier expected - start: 12, end: 14
 ✖ Identifier expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 17
-✖ Expected a `;` - start: 19, end: 20
+✖ '; ' expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 23
 
 ```

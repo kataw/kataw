@@ -157,10 +157,10 @@ var foob\\u{}ar = 0;
 ✖ Invalid hexadecimal escape sequence - start: 3, end: 8
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 8
 ✖ Variable declaration not allowed at this location - start: 8, end: 9
-✖ Expected a `;` - start: 8, end: 9
+✖ '; ' expected - start: 8, end: 9
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 9
 ✖ Declaration or statement expected - start: 9, end: 10
-✖ Expected a `;` - start: 11, end: 12
+✖ '; ' expected - start: 11, end: 12
 
 ```
 

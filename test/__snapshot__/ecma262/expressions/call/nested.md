@@ -65,7 +65,7 @@ z(z(z()));
                                             "start": 6,
                                             "end": 6
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 4,
                                         "end": 7
@@ -77,7 +77,7 @@ z(z(z()));
                                 "start": 4,
                                 "end": 7
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 2,
                             "end": 8
@@ -89,7 +89,7 @@ z(z(z()));
                     "start": 2,
                     "end": 8
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 9

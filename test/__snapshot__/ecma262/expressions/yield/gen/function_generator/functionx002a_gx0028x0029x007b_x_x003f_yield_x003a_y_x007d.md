@@ -36,7 +36,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 49
                                             },

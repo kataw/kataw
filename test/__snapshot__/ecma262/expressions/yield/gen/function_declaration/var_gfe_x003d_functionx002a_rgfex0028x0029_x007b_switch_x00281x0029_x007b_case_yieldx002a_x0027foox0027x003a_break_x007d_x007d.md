@@ -97,7 +97,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 40
                                             },
@@ -169,7 +169,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                             "asteriskToken": {
                                                                                 "kind": 67143222,
                                                                                 "flags": 64,
-                                                                                "transformFlags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 73,
                                                                                 "end": 74
                                                                             },

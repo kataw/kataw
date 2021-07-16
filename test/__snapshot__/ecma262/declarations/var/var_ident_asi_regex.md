@@ -95,7 +95,7 @@ var q
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
@@ -116,7 +116,7 @@ var q
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },

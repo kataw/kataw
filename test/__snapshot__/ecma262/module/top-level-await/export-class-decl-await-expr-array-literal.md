@@ -229,7 +229,7 @@ export class C extends fn(await []) {};
                                 "start": 109,
                                 "end": 117
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 105,
                             "end": 118

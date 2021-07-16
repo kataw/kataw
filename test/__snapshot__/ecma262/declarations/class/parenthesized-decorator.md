@@ -71,7 +71,7 @@ class Foo {
                                                 "start": 6,
                                                 "end": 6
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 2,
                                             "end": 7
@@ -85,7 +85,7 @@ class Foo {
                                             "start": 8,
                                             "end": 11
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 2,
                                         "end": 11
@@ -97,7 +97,7 @@ class Foo {
                                 "start": 2,
                                 "end": 11
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 1,
                             "end": 12
@@ -185,7 +185,7 @@ class Foo {
                                                             "start": 36,
                                                             "end": 46
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "transformFlags": 4,
                                                         "start": 29,
                                                         "end": 47
@@ -197,7 +197,7 @@ class Foo {
                                                 "start": 29,
                                                 "end": 47
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 28,
                                             "end": 48
@@ -334,7 +334,7 @@ class Foo {
                                                 "start": 66,
                                                 "end": 75
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 65,
                                             "end": 76

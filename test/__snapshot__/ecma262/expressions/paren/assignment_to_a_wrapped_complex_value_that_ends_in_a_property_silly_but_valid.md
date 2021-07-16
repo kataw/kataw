@@ -63,7 +63,7 @@
                                         "start": 5,
                                         "end": 5
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 0,
                                     "end": 6
@@ -77,7 +77,7 @@
                                     "start": 7,
                                     "end": 8
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 0,
                                 "end": 8
@@ -91,7 +91,7 @@
                                 "start": 9,
                                 "end": 9
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 0,
                             "end": 10
@@ -105,7 +105,7 @@
                             "start": 11,
                             "end": 12
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 0,
                         "end": 12

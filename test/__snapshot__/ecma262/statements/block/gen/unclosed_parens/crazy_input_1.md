@@ -113,7 +113,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 9, end: 14
-✖ Expected a `;` - start: 14, end: 16
+✖ '; ' expected - start: 14, end: 16
 
 ```
 

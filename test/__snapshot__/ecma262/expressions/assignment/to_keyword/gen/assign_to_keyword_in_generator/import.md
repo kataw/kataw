@@ -38,7 +38,7 @@ function *f(){
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -141,7 +141,7 @@ function *f(){
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 14, end: 25
 ✖ Declaration or statement expected - start: 23, end: 25
-✖ Expected a `;` - start: 23, end: 25
+✖ '; ' expected - start: 23, end: 25
 ✖ Declaration or statement expected - start: 28, end: 30
 
 ```

@@ -74,7 +74,7 @@ async(x?);
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 9
@@ -135,7 +135,7 @@ async(x?);
                         "start": 13,
                         "end": 13
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 13,
                     "end": 22

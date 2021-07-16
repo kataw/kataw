@@ -80,7 +80,7 @@ export default async\n() => {}
                     "start": 23,
                     "end": 23
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 21,
                 "end": 24
@@ -127,8 +127,8 @@ export default async\n() => {}
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 20
 ✖ Invalid hexadecimal escape sequence - start: 20, end: 20
-✖ Expected a `;` - start: 20, end: 21
-✖ Expected a `;` - start: 24, end: 27
+✖ '; ' expected - start: 20, end: 21
+✖ '; ' expected - start: 24, end: 27
 
 ```
 

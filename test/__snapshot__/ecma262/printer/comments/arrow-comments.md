@@ -172,7 +172,7 @@ const bem = block =>
                                                                 "start": 555,
                                                                 "end": 560
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 542,
                                                             "end": 561
@@ -232,7 +232,7 @@ const bem = block =>
                                                                                 "start": 590,
                                                                                 "end": 597
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 586,
                                                                             "end": 598
@@ -333,7 +333,7 @@ const bem = block =>
                                                                                 "start": 635,
                                                                                 "end": 643
                                                                             },
-                                                                            "flags": 268435488,
+                                                                            "flags": 32,
                                                                             "transformFlags": 1,
                                                                             "start": 631,
                                                                             "end": 644
@@ -424,7 +424,7 @@ const bem = block =>
                                             "start": 665,
                                             "end": 667
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 521,
                                         "end": 668

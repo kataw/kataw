@@ -55,7 +55,7 @@ do let
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 2,
                     "end": 9

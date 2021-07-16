@@ -302,7 +302,7 @@ type a = {function((((-1) => [c|d]))):string};
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 19, end: 20
-✖ Expected a `;` - start: 36, end: 37
+✖ '; ' expected - start: 36, end: 37
 ✖ Declaration or statement expected - start: 37, end: 38
 ✖ Declaration or statement expected - start: 44, end: 45
 

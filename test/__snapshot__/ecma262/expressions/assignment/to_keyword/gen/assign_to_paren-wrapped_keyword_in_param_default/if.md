@@ -84,7 +84,7 @@ async (x = (if) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -197,7 +197,7 @@ async (x = (if) = f) => {}
 ✖ Missing an opening parentheses - '( - start: 14, end: 15
 ✖ Identifier expected - start: 15, end: 17
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 17
-✖ Expected a `;` - start: 19, end: 20
+✖ '; ' expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 23
 
 ```

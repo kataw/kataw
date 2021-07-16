@@ -54,7 +54,7 @@ a?.b
                                     "start": 3,
                                     "end": 4
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 3,
                                 "end": 4
@@ -72,7 +72,7 @@ a?.b
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
@@ -93,7 +93,7 @@ a?.b
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },

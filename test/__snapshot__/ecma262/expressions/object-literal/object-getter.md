@@ -53,7 +53,7 @@ x({get 0o4567(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 4
                                         },
@@ -113,7 +113,7 @@ x({get 0o4567(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 14
                                         },
@@ -186,7 +186,7 @@ x({get 0o4567(){}});
                     "start": 2,
                     "end": 22
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 23
@@ -364,7 +364,7 @@ x({get 0o4567(){}});
                     "start": 27,
                     "end": 53
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 24,
                 "end": 54
@@ -481,7 +481,7 @@ x({get 0o4567(){}});
                     "start": 58,
                     "end": 73
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 55,
                 "end": 74
@@ -665,7 +665,7 @@ x({get 0o4567(){}});
                     "start": 78,
                     "end": 108
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 75,
                 "end": 109
@@ -775,7 +775,7 @@ x({get 0o4567(){}});
                     "start": 113,
                     "end": 126
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 110,
                 "end": 127
@@ -945,7 +945,7 @@ x({get 0o4567(){}});
                     "start": 131,
                     "end": 157
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 128,
                 "end": 158
@@ -1055,7 +1055,7 @@ x({get 0o4567(){}});
                     "start": 162,
                     "end": 177
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 159,
                 "end": 178
@@ -1165,7 +1165,7 @@ x({get 0o4567(){}});
                     "start": 182,
                     "end": 193
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 179,
                 "end": 194
@@ -1275,7 +1275,7 @@ x({get 0o4567(){}});
                     "start": 198,
                     "end": 216
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 195,
                 "end": 217
@@ -1385,7 +1385,7 @@ x({get 0o4567(){}});
                     "start": 221,
                     "end": 236
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 218,
                 "end": 237
@@ -1495,7 +1495,7 @@ x({get 0o4567(){}});
                     "start": 241,
                     "end": 257
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 238,
                 "end": 258

@@ -38,7 +38,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
@@ -62,7 +62,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 8,
                     "end": 12
@@ -241,7 +241,7 @@ unction* g() { var f = async({x = yield}) => 1; }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 14
+✖ '; ' expected - start: 12, end: 14
 
 ```
 

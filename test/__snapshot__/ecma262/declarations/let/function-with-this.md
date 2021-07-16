@@ -111,7 +111,7 @@ let f: (this: number) => void;
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 0,
+                                        "transformFlags": 8192,
                                         "start": 24,
                                         "end": 29
                                     },

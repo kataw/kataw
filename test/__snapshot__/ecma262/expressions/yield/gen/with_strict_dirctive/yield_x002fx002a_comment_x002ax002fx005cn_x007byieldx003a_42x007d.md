@@ -140,8 +140,8 @@
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 19, end: 33
-✖ Expected a `;` - start: 19, end: 34
-✖ Expected a `;` - start: 35, end: 37
+✖ '; ' expected - start: 19, end: 34
+✖ '; ' expected - start: 35, end: 37
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 37, end: 43
 
 ```

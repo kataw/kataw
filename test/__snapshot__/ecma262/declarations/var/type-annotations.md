@@ -1014,7 +1014,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "typeOfKeyword": {
                                     "kind": 138477613,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 207,
                                     "end": 214
                                 },
@@ -1106,7 +1106,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "typeOfKeyword": {
                                             "kind": 138477613,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 8192,
                                             "start": 229,
                                             "end": 236
                                         },

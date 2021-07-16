@@ -1437,7 +1437,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "start": 302,
                                         "end": 302
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 293,
                                     "end": 303
@@ -1714,7 +1714,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "start": 349,
                                 "end": 352
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 4,
                             "start": 348,
                             "end": 352
@@ -1868,7 +1868,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 373,
                                     "end": 374
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 373,
                                 "end": 374
@@ -1897,7 +1897,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "start": 376,
                                 "end": 377
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 376,
                             "end": 377
@@ -2051,7 +2051,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 397,
                                     "end": 398
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "transformFlags": 2,
                                 "start": 397,
                                 "end": 398
@@ -2080,7 +2080,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "start": 400,
                                 "end": 401
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "transformFlags": 2,
                             "start": 400,
                             "end": 401
@@ -2875,7 +2875,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 608,
                                     "end": 610
                                 },
@@ -3675,7 +3675,7 @@ x = {y: {z: 1}}?.y?.z;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 255, end: 256
+✖ '; ' expected - start: 255, end: 256
 
 ```
 

@@ -63,7 +63,7 @@
                         "inKeyword": {
                             "kind": 21006388,
                             "flags": 64,
-                            "transformFlags": 0,
+                            "transformFlags": 8192,
                             "start": 12,
                             "end": 15
                         },
@@ -83,7 +83,7 @@
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 17,
                                     "end": 20
                                 },
@@ -104,7 +104,7 @@
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 22,
                                 "end": 25
                             },

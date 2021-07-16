@@ -36,7 +36,7 @@ function *f(x = (debugger) = f) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -183,9 +183,9 @@ function *f(x = (debugger) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 25
-✖ Expected a `;` - start: 25, end: 26
+✖ '; ' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ Expected a `;` - start: 30, end: 31
+✖ '; ' expected - start: 30, end: 31
 
 ```
 

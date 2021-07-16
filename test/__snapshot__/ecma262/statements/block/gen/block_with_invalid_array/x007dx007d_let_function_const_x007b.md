@@ -250,7 +250,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Declaration or statement expected - start: 9, end: 11
 ✖ Declaration or statement expected - start: 11, end: 12
-✖ Expected a `;` - start: 16, end: 25
+✖ '; ' expected - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 26, end: 31
 ✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 33

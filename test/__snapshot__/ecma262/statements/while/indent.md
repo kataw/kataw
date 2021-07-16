@@ -424,7 +424,7 @@ while (0);
                     "start": 323,
                     "end": 393
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 306,
                 "end": 394
@@ -517,7 +517,7 @@ while (0);
                     "start": 423,
                     "end": 493
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 406,
                 "end": 494
@@ -630,7 +630,7 @@ while (0);
                     "start": 529,
                     "end": 599
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 512,
                 "end": 600

@@ -90,7 +90,7 @@ type number = string;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 4, end: 11
+✖ '; ' expected - start: 4, end: 11
 
 ```
 

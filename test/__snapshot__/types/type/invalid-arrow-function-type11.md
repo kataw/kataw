@@ -175,7 +175,7 @@ type a = ([-1](x)) => T;
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 15
-✖ Expected a `;` - start: 17, end: 18
+✖ '; ' expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 21
 
 ```

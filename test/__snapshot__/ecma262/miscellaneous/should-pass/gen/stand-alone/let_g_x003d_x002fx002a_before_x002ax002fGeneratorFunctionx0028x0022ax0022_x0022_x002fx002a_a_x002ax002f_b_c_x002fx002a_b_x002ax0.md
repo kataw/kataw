@@ -94,7 +94,7 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
                                 "start": 38,
                                 "end": 104
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 7,
                             "end": 105

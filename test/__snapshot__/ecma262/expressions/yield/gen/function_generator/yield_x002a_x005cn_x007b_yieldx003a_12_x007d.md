@@ -36,7 +36,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -118,7 +118,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                                                 "operatorToken": {
                                                     "kind": 67143222,
                                                     "flags": 96,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 47
                                                 },
@@ -268,7 +268,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 47, end: 48
 ✖ Identifier expected - start: 47, end: 49
-✖ Expected a `;` - start: 50, end: 52
+✖ '; ' expected - start: 50, end: 52
 ✖ Declaration or statement expected - start: 64, end: 66
 ✖ Declaration or statement expected - start: 66, end: 67
 

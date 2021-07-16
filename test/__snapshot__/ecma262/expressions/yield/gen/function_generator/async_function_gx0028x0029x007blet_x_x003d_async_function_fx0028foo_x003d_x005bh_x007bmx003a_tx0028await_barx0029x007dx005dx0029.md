@@ -36,7 +36,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -288,7 +288,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                             "start": 100,
                                                                                                                             "end": 109
                                                                                                                         },
-                                                                                                                        "flags": 268435488,
+                                                                                                                        "flags": 32,
                                                                                                                         "transformFlags": 1,
                                                                                                                         "start": 95,
                                                                                                                         "end": 110

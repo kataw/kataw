@@ -190,8 +190,8 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
-✖ Expected a `;` - start: 22, end: 24
+✖ '; ' expected - start: 15, end: 17
+✖ '; ' expected - start: 22, end: 24
 
 ```
 

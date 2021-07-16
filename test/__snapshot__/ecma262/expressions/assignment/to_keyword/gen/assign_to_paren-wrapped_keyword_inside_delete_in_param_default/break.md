@@ -61,7 +61,7 @@ async (x = delete ((break) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -89,7 +89,7 @@ async (x = delete ((break) = f)) => {}
                                     "end": 20
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 20
                             },
@@ -105,7 +105,7 @@ async (x = delete ((break) = f)) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -193,7 +193,7 @@ async (x = delete ((break) = f)) => {}
 ✖ Identifier expected - start: 25, end: 26
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ Expected a `;` - start: 30, end: 31
+✖ '; ' expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 35
 

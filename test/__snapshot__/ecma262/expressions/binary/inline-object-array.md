@@ -1607,7 +1607,7 @@ const obj = {
                                                                 "start": 972,
                                                                 "end": 972
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 959,
                                                             "end": 973
@@ -1965,7 +1965,7 @@ const obj = {
                                                                 "start": 1181,
                                                                 "end": 1181
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 1,
                                                             "start": 1168,
                                                             "end": 1182

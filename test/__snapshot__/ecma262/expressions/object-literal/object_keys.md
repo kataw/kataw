@@ -162,7 +162,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "start": 32,
                             "end": 33
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 19,
                         "end": 34
@@ -176,7 +176,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                         "start": 35,
                         "end": 38
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 19,
                     "end": 38
@@ -298,7 +298,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                     "start": 39,
                     "end": 63
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 19,
                 "end": 64
@@ -469,7 +469,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "start": 107,
                             "end": 108
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 94,
                         "end": 109
@@ -483,7 +483,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                         "start": 110,
                         "end": 113
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 94,
                     "end": 113
@@ -605,7 +605,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                     "start": 114,
                     "end": 138
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 94,
                 "end": 139

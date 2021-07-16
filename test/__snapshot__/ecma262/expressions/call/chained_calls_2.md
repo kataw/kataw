@@ -55,7 +55,7 @@ foo(a)(b)(c)(d)(e)
                                     "start": 4,
                                     "end": 5
                                 },
-                                "flags": 268435488,
+                                "flags": 32,
                                 "transformFlags": 1,
                                 "start": 0,
                                 "end": 6
@@ -79,7 +79,7 @@ foo(a)(b)(c)(d)(e)
                                 "start": 7,
                                 "end": 8
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 0,
                             "end": 9
@@ -103,7 +103,7 @@ foo(a)(b)(c)(d)(e)
                             "start": 10,
                             "end": 11
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 0,
                         "end": 12
@@ -127,7 +127,7 @@ foo(a)(b)(c)(d)(e)
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 15
@@ -151,7 +151,7 @@ foo(a)(b)(c)(d)(e)
                     "start": 16,
                     "end": 17
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 18

@@ -57,7 +57,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                                 "typeOfKeyword": {
                                     "kind": 138477613,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 9,
                                     "end": 16
                                 },
@@ -145,7 +145,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                                 "typeOfKeyword": {
                                     "kind": 138477613,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 54,
                                     "end": 67
                                 },

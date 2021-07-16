@@ -151,7 +151,7 @@
                                                             "end": 28
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 16384,
                                                         "start": 23,
                                                         "end": 28
                                                     },
@@ -236,7 +236,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ Expected a `;` - start: 15, end: 17
+✖ '; ' expected - start: 15, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 28
 
 ```

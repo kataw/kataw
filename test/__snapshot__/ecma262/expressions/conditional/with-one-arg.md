@@ -56,7 +56,7 @@ z(x)?x:y;
                         "start": 2,
                         "end": 3
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 0,
                     "end": 4
@@ -93,7 +93,7 @@ z(x)?x:y;
                     "start": 7,
                     "end": 8
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 4096,
                 "start": 0,
                 "end": 8

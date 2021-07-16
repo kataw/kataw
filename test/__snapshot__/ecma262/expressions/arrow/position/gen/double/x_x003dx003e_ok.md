@@ -126,7 +126,7 @@ x => ok x => ok
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 7, end: 9
+✖ '; ' expected - start: 7, end: 9
 
 ```
 

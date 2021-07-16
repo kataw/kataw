@@ -89,7 +89,7 @@ var a?: number[][]
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 7,
                     "end": 16
@@ -103,7 +103,7 @@ var a?: number[][]
                     "start": 17,
                     "end": 17
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 7,
                 "end": 18
@@ -134,7 +134,7 @@ var a?: number[][]
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
-✖ Expected a `;` - start: 5, end: 6
+✖ '; ' expected - start: 5, end: 6
 ✖ Declaration or statement expected - start: 6, end: 7
 ✖ An member access expression should take an argument. - start: 7, end: 16
 ✖ Identifier expected - start: 15, end: 16

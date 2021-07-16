@@ -84,7 +84,7 @@ async (x = (case) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -148,7 +148,7 @@ async (x = (case) = f) => {}
 ✖ Identifier expected - start: 12, end: 16
 ✖ Declaration or statement expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 17, end: 19
-✖ Expected a `;` - start: 21, end: 22
+✖ '; ' expected - start: 21, end: 22
 ✖ Declaration or statement expected - start: 22, end: 25
 
 ```

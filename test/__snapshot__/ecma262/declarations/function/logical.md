@@ -2577,7 +2577,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "operatorToken": {
                                         "kind": 34623,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 1630,
                                         "end": 1633
                                     },
@@ -2813,7 +2813,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "operatorToken": {
                                         "kind": 34623,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 1804,
                                         "end": 1807
                                     },
@@ -3026,7 +3026,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "operatorToken": {
                                         "kind": 34623,
                                         "flags": 96,
-                                        "transformFlags": 16,
+                                        "transformFlags": 0,
                                         "start": 1975,
                                         "end": 1978
                                     },
@@ -4620,7 +4620,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "operatorToken": {
                                             "kind": 34623,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 3284,
                                             "end": 3287
                                         },
@@ -12397,7 +12397,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "operatorToken": {
                                     "kind": 34622,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 7824,
                                     "end": 7827
                                 },
@@ -12608,7 +12608,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "operatorToken": {
                                     "kind": 34622,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 7931,
                                     "end": 7934
                                 },
@@ -12759,7 +12759,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "operatorToken": {
                                     "kind": 34622,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 8024,
                                     "end": 8027
                                 },
@@ -12970,7 +12970,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "operatorToken": {
                                     "kind": 34622,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 8131,
                                     "end": 8134
                                 },

@@ -69,7 +69,7 @@ const a = [ -1 ];
                                             "end": 14
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16384,
                                         "start": 11,
                                         "end": 14
                                     }

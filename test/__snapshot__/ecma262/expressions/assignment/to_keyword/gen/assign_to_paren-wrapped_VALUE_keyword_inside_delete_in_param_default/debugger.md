@@ -36,7 +36,7 @@ function *f(x = delete ((debugger) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((debugger) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 15,
                                 "end": 22
                             },
@@ -100,7 +100,7 @@ function *f(x = delete ((debugger) = f)) {}
                                 "end": 25
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 15,
                             "end": 25
                         },
@@ -204,9 +204,9 @@ function *f(x = delete ((debugger) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 33
-✖ Expected a `;` - start: 33, end: 34
+✖ '; ' expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 36
-✖ Expected a `;` - start: 38, end: 39
+✖ '; ' expected - start: 38, end: 39
 ✖ Declaration or statement expected - start: 39, end: 40
 
 ```

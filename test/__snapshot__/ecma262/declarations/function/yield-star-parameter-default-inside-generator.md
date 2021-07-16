@@ -29,7 +29,7 @@ function* fn(x = yield* yield) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -73,7 +73,7 @@ function* fn(x = yield* yield) {}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },

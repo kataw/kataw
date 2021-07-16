@@ -65,7 +65,7 @@ debugger /foo/
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 8, end: 14
+✖ '; ' expected - start: 8, end: 14
 
 ```
 

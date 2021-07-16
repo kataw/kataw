@@ -236,7 +236,7 @@
                     "end": 33
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 28,
                 "end": 33
             },
@@ -270,8 +270,8 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Missing an opening parentheses - '( - start: 16, end: 19
 ✖ 'catch' expected - start: 19, end: 24
-✖ Expected a `;` - start: 24, end: 28
-✖ Expected a `;` - start: 28, end: 30
+✖ '; ' expected - start: 24, end: 28
+✖ '; ' expected - start: 28, end: 30
 
 ```
 

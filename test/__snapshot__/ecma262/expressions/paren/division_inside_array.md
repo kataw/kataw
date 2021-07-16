@@ -40,7 +40,7 @@
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 5
                                 },
@@ -106,7 +106,7 @@
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
@@ -157,7 +157,7 @@
                                             "operatorToken": {
                                                 "kind": 35640,
                                                 "flags": 96,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             },

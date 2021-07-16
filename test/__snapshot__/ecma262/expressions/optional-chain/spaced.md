@@ -49,7 +49,7 @@ a ?. b
                             "start": 4,
                             "end": 6
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 4,
                         "end": 6

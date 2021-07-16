@@ -188,7 +188,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                                         "start": 73,
                                                                         "end": 74
                                                                     },
-                                                                    "flags": 268435488,
+                                                                    "flags": 32,
                                                                     "transformFlags": 1,
                                                                     "start": 66,
                                                                     "end": 75
@@ -205,7 +205,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                         "start": 59,
                                                         "end": 75
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 51,
                                                     "end": 76

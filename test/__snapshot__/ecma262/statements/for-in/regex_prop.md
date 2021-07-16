@@ -71,7 +71,7 @@ for (/foo/.x in c) d;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 12,
                 "end": 15
             },

@@ -208,7 +208,7 @@ hello();
                                                     "start": 69,
                                                     "end": 87
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "transformFlags": 1,
                                                 "start": 54,
                                                 "end": 88
@@ -272,7 +272,7 @@ hello();
                     "start": 100,
                     "end": 100
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 92,
                 "end": 101

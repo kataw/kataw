@@ -91,7 +91,7 @@ do h(function(){});while(x)
                         "start": 5,
                         "end": 17
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 2,
                     "end": 18

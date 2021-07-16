@@ -193,7 +193,7 @@ const d: string | null = c?.c;
                                         "start": 56,
                                         "end": 57
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 56,
                                     "end": 57
@@ -389,7 +389,7 @@ const d: string | null = c?.c;
                                         "start": 109,
                                         "end": 110
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 109,
                                     "end": 110

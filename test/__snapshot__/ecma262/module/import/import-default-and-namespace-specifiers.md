@@ -49,7 +49,7 @@ import foo, * as bar from "foo";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -165,9 +165,9 @@ import foo, * as bar from "foo";
 
 ```javascript
 ✖ Identifier expected - start: 11, end: 13
-✖ Expected a `;` - start: 16, end: 20
-✖ Expected a `;` - start: 20, end: 25
-✖ Expected a `;` - start: 25, end: 31
+✖ '; ' expected - start: 16, end: 20
+✖ '; ' expected - start: 20, end: 25
+✖ '; ' expected - start: 25, end: 31
 
 ```
 

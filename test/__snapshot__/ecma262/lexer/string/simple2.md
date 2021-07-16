@@ -211,11 +211,11 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 7
+✖ '; ' expected - start: 5, end: 7
 ✖ Unterminated string literal - start: 7, end: 9
-✖ Expected a `;` - start: 7, end: 9
-✖ Expected a `;` - start: 17, end: 19
-✖ Expected a `;` - start: 19, end: 25
+✖ '; ' expected - start: 7, end: 9
+✖ '; ' expected - start: 17, end: 19
+✖ '; ' expected - start: 19, end: 25
 
 ```
 

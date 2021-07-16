@@ -83,7 +83,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 39
                             },

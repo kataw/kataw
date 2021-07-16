@@ -141,7 +141,7 @@ switch (0) { case 1: var f; default: function* f() {} }
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },

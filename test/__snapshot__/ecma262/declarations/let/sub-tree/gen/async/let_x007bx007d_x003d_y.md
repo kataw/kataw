@@ -111,7 +111,7 @@ async let
 ```javascript
 ✖ 'async' modifier cannot be used here - start: 9, end: 11
 ✖ Line terminator not permitted before arrow - start: 9, end: 11
-✖ Expected a `;` - start: 12, end: 14
+✖ '; ' expected - start: 12, end: 14
 
 ```
 

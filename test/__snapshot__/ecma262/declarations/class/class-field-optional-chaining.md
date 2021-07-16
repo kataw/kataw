@@ -169,7 +169,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                             "start": 25,
                                                             "end": 25
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 22,
                                                         "end": 26
@@ -188,7 +188,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                                 "start": 28,
                                                                 "end": 32
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 2,
                                                             "start": 28,
                                                             "end": 32

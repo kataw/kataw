@@ -59,7 +59,7 @@ a?.(/*1*/x/*2*/)/*3*/
                             "start": 8,
                             "end": 14
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 2,
                         "start": 8,
                         "end": 14
@@ -113,7 +113,7 @@ a?.(/*1*/x/*2*/)/*3*/
                             "start": 32,
                             "end": 33
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 26,
                         "end": 33
@@ -167,7 +167,7 @@ a?.(/*1*/x/*2*/)/*3*/
                             "start": 51,
                             "end": 57
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "transformFlags": 4,
                         "start": 45,
                         "end": 57
@@ -232,7 +232,7 @@ a?.(/*1*/x/*2*/)/*3*/
                             "start": 70,
                             "end": 76
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 69,
                         "end": 82

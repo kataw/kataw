@@ -157,7 +157,7 @@ type T = { proto p: string }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 18, end: 19
+✖ '; ' expected - start: 18, end: 19
 ✖ Declaration or statement expected - start: 26, end: 28
 
 ```

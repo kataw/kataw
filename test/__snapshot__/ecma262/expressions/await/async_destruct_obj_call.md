@@ -193,7 +193,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                                     "start": 48,
                                                                                     "end": 57
                                                                                 },
-                                                                                "flags": 268435488,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 1,
                                                                                 "start": 45,
                                                                                 "end": 58
@@ -244,7 +244,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 268435490,
+                                "flags": 34,
                                 "transformFlags": 1,
                                 "start": 19,
                                 "end": 61

@@ -124,7 +124,7 @@ async function * gen() {class C extends await { }}
                         "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 32
                         },
@@ -243,7 +243,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 68
             },
@@ -369,7 +369,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 107,
                 "end": 109
             },
@@ -495,7 +495,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 148,
                 "end": 150
             },
@@ -630,7 +630,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 199,
                 "end": 201
             },
@@ -765,7 +765,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 250,
                 "end": 252
             },
@@ -884,7 +884,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 296,
                 "end": 298
             },
@@ -1003,7 +1003,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 459,
                 "end": 461
             },
@@ -1055,7 +1055,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 484,
                                         "end": 486
                                     },
@@ -1147,7 +1147,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 515,
                 "end": 517
             },
@@ -1199,7 +1199,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 540,
                                         "end": 542
                                     },
@@ -1291,7 +1291,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 645,
                 "end": 647
             },
@@ -1340,7 +1340,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 669,
                                 "end": 671
                             },
@@ -1432,7 +1432,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 702,
                 "end": 704
             },
@@ -1484,7 +1484,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 727,
                                         "end": 729
                                     },
@@ -1586,7 +1586,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 761,
                 "end": 763
             },
@@ -1635,7 +1635,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 785,
                                 "end": 787
                             },
@@ -1727,7 +1727,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 818,
                 "end": 820
             },
@@ -1779,7 +1779,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 843,
                                         "end": 845
                                     },
@@ -1881,7 +1881,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 877,
                 "end": 879
             },
@@ -1994,7 +1994,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 913,
                 "end": 915
             },
@@ -2113,7 +2113,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 949,
                 "end": 951
             },
@@ -2260,7 +2260,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 995,
                 "end": 997
             },
@@ -2413,7 +2413,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1041,
                 "end": 1043
             },
@@ -2471,7 +2471,7 @@ async function * gen() {class C extends await { }}
                                     "end": 1058
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 1051,
                                 "end": 1058
                             },
@@ -2517,7 +2517,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1075,
                 "end": 1077
             },
@@ -2581,7 +2581,7 @@ async function * gen() {class C extends await { }}
                                     "end": 1092
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 1085,
                                 "end": 1092
                             },
@@ -2627,7 +2627,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1109,
                 "end": 1111
             },
@@ -2688,7 +2688,7 @@ async function * gen() {class C extends await { }}
                                         "end": 1126
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 1124,
                                     "end": 1126
                                 },
@@ -2739,7 +2739,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1143,
                 "end": 1145
             },
@@ -2798,7 +2798,7 @@ async function * gen() {class C extends await { }}
                                         "end": 1160
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 1158,
                                     "end": 1160
                                 },
@@ -2849,7 +2849,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1177,
                 "end": 1179
             },
@@ -2893,7 +2893,7 @@ async function * gen() {class C extends await { }}
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 1192,
                                     "end": 1194
                                 },
@@ -2953,7 +2953,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1210,
                 "end": 1212
             },
@@ -2999,7 +2999,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 1226,
                                         "end": 1228
                                     },
@@ -3064,7 +3064,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1343,
                 "end": 1345
             },
@@ -3201,7 +3201,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1387,
                 "end": 1389
             },
@@ -3314,7 +3314,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1422,
                 "end": 1424
             },
@@ -3443,7 +3443,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1504,
                 "end": 1506
             },
@@ -3524,7 +3524,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 1543,
                                 "end": 1545
                             },
@@ -3582,7 +3582,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 1560
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 1553,
                                                 "end": 1560
                                             },
@@ -3628,7 +3628,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 1576,
                                 "end": 1578
                             },
@@ -3694,7 +3694,7 @@ async function * gen() {class C extends await { }}
                                                     "end": 1595
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 1586,
                                                 "end": 1595
                                             },
@@ -3740,7 +3740,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 1668,
                                 "end": 1670
                             },
@@ -3843,7 +3843,7 @@ async function * gen() {class C extends await { }}
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 1685,
                     "end": 1686
                 },
@@ -3886,7 +3886,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1839,
                 "end": 1841
             },
@@ -4047,7 +4047,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1883,
                 "end": 1885
             },
@@ -4208,7 +4208,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 1942,
                 "end": 1944
             },
@@ -4269,7 +4269,7 @@ async function * gen() {class C extends await { }}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 2061,
                                         "end": 2063
                                     },
@@ -4429,7 +4429,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2106,
                                 "end": 2108
                             },
@@ -4579,7 +4579,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2151,
                                 "end": 2153
                             },
@@ -4763,7 +4763,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2204,
                                 "end": 2206
                             },
@@ -4947,7 +4947,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2257,
                                 "end": 2259
                             },
@@ -5094,7 +5094,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2298,
                                 "end": 2300
                             },
@@ -5247,7 +5247,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2339,
                                 "end": 2341
                             },
@@ -5435,7 +5435,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2388,
                                 "end": 2390
                             },
@@ -5629,7 +5629,7 @@ async function * gen() {class C extends await { }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 2494,
                                 "end": 2496
                             },
@@ -5820,7 +5820,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2542,
                 "end": 2544
             },
@@ -5994,7 +5994,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2590,
                 "end": 2592
             },
@@ -6204,7 +6204,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2646,
                 "end": 2648
             },
@@ -6414,7 +6414,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2702,
                 "end": 2704
             },
@@ -6569,7 +6569,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2746,
                 "end": 2748
             },
@@ -6722,7 +6722,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2790,
                 "end": 2792
             },
@@ -6918,7 +6918,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2842,
                 "end": 2844
             },
@@ -7112,7 +7112,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2894,
                 "end": 2896
             },
@@ -7178,7 +7178,7 @@ async function * gen() {class C extends await { }}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 2918,
                                 "end": 2921
                             },
@@ -7247,7 +7247,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2942,
                 "end": 2944
             },
@@ -7311,7 +7311,7 @@ async function * gen() {class C extends await { }}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 2966,
                                 "end": 2969
                             },
@@ -7380,7 +7380,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 2990,
                 "end": 2992
             },
@@ -7516,7 +7516,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3038,
                 "end": 3040
             },
@@ -7650,7 +7650,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3086,
                 "end": 3088
             },
@@ -7716,7 +7716,7 @@ async function * gen() {class C extends await { }}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 3110,
                                 "end": 3113
                             },
@@ -7741,7 +7741,7 @@ async function * gen() {class C extends await { }}
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 3116,
                                     "end": 3119
                                 },
@@ -7815,7 +7815,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3140,
                 "end": 3142
             },
@@ -7879,7 +7879,7 @@ async function * gen() {class C extends await { }}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 3164,
                                 "end": 3167
                             },
@@ -7904,7 +7904,7 @@ async function * gen() {class C extends await { }}
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 3170,
                                     "end": 3173
                                 },
@@ -7978,7 +7978,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3194,
                 "end": 3196
             },
@@ -8044,7 +8044,7 @@ async function * gen() {class C extends await { }}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 3218,
                                 "end": 3221
                             },
@@ -8144,7 +8144,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3248,
                 "end": 3250
             },
@@ -8208,7 +8208,7 @@ async function * gen() {class C extends await { }}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 8192,
                                 "start": 3272,
                                 "end": 3275
                             },
@@ -8308,7 +8308,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3302,
                 "end": 3304
             },
@@ -8462,7 +8462,7 @@ async function * gen() {class C extends await { }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 3353,
                 "end": 3355
             },
@@ -8648,16 +8648,16 @@ async function * gen() {class C extends await { }}
 ✖ Unterminated regular expression - start: 1519, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
-✖ Expected a `;` - start: 1683, end: 1684
+✖ '; ' expected - start: 1683, end: 1684
 ✖ Declaration or statement expected - start: 1687, end: 1688
 ✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 ✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
-✖ Expected a `;` - start: 1854, end: 1855
-✖ Expected a `;` - start: 1856, end: 1857
+✖ '; ' expected - start: 1854, end: 1855
+✖ '; ' expected - start: 1856, end: 1857
 ✖ Declaration or statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
-✖ Expected a `;` - start: 1898, end: 1913
-✖ Expected a `;` - start: 1914, end: 1916
+✖ '; ' expected - start: 1898, end: 1913
+✖ '; ' expected - start: 1914, end: 1916
 ✖ Declaration or statement expected - start: 1926, end: 1927
 ✖ 'yield' cannot be used as an identifier here - start: 2076, end: 2081
 ✖ 'await' cannot be used as an identifier here - start: 2121, end: 2126
@@ -8674,7 +8674,7 @@ async function * gen() {class C extends await { }}
 ✖ Did you forgot a ']' to match the `[` token? - start: 2515, end: 2517
 ✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
 ✖ Variable declaration not allowed at this location - start: 2514, end: 2517
-✖ Expected a `;` - start: 2517, end: 2518
+✖ '; ' expected - start: 2517, end: 2518
 ✖ Declaration or statement expected - start: 2518, end: 2520
 ✖ Declaration or statement expected - start: 2526, end: 2527
 ✖ 'await' cannot be used as an identifier here - start: 2557, end: 2562
@@ -8682,7 +8682,7 @@ async function * gen() {class C extends await { }}
 ✖ Did you forgot a ']' to match the `[` token? - start: 2563, end: 2565
 ✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
 ✖ Variable declaration not allowed at this location - start: 2562, end: 2565
-✖ Expected a `;` - start: 2565, end: 2566
+✖ '; ' expected - start: 2565, end: 2566
 ✖ Declaration or statement expected - start: 2566, end: 2568
 ✖ Declaration or statement expected - start: 2574, end: 2575
 ✖ 'yield' cannot be used as an identifier here - start: 2609, end: 2615
@@ -8707,12 +8707,12 @@ async function * gen() {class C extends await { }}
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3209, end: 3218
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3221, end: 3223
 ✖ Expected a ')' to match the '(' token here - start: 3225, end: 3227
-✖ Expected a `;` - start: 3227, end: 3229
+✖ '; ' expected - start: 3227, end: 3229
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3230, end: 3231
 ✖ Declaration or statement expected - start: 3232, end: 3233
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3275, end: 3277
 ✖ Expected a ')' to match the '(' token here - start: 3279, end: 3281
-✖ Expected a `;` - start: 3281, end: 3283
+✖ '; ' expected - start: 3281, end: 3283
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3327, end: 3335

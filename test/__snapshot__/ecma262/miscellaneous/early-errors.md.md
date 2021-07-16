@@ -532,7 +532,7 @@ try {} catch(e) { for(var e of 0); };
                     "end": 778
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 667,
                 "end": 778
             },
@@ -562,7 +562,7 @@ try {} catch(e) { for(var e of 0); };
                     "end": 783
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 16384,
                 "start": 779,
                 "end": 783
             },
@@ -1864,7 +1864,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 2264,
                 "end": 2267
             },
@@ -1927,7 +1927,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 2279,
                 "end": 2282
             },
@@ -2118,7 +2118,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 2419,
                 "end": 2422
             },
@@ -2252,7 +2252,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 2774,
                 "end": 2777
             },
@@ -2322,7 +2322,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 2791,
                 "end": 2794
             },
@@ -2534,7 +2534,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 8192,
                 "start": 2843,
                 "end": 2846
             },
@@ -2850,7 +2850,7 @@ try {} catch(e) { for(var e of 0); };
                                                             "start": 3177,
                                                             "end": 3177
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 3170,
                                                         "end": 3178
@@ -2998,7 +2998,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "start": 3212,
                                                                                                 "end": 3212
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 3205,
                                                                                             "end": 3213
@@ -3247,7 +3247,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "start": 3287,
                                                                                                 "end": 3287
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 3280,
                                                                                             "end": 3288
@@ -3291,7 +3291,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3292
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 3262,
                                                     "end": 3292
                                                 },
@@ -3446,7 +3446,7 @@ try {} catch(e) { for(var e of 0); };
                                                                     "asteriskToken": {
                                                                         "kind": 67143222,
                                                                         "flags": 64,
-                                                                        "transformFlags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 3336,
                                                                         "end": 3337
                                                                     },
@@ -3500,7 +3500,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "start": 3359,
                                                                                                 "end": 3359
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 3352,
                                                                                             "end": 3360
@@ -3544,7 +3544,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3364
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 3333,
                                                     "end": 3364
                                                 },
@@ -3753,7 +3753,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "start": 3434,
                                                                                                 "end": 3434
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 3427,
                                                                                             "end": 3435
@@ -3797,7 +3797,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3439
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 3405,
                                                     "end": 3439
                                                 },
@@ -4016,7 +4016,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "start": 3510,
                                                                                                 "end": 3510
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 3503,
                                                                                             "end": 3511
@@ -4060,7 +4060,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "end": 3515
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 3480,
                                                     "end": 3515
                                                 },
@@ -5025,7 +5025,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4704,
                 "end": 4705
             },
@@ -5171,7 +5171,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4740,
                 "end": 4741
             },
@@ -5325,7 +5325,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4778,
                 "end": 4779
             },
@@ -5390,7 +5390,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "asteriskToken": {
                                                     "kind": 67143222,
                                                     "flags": 64,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 4795,
                                                     "end": 4796
                                                 },
@@ -5485,7 +5485,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4817,
                 "end": 4818
             },
@@ -5593,7 +5593,7 @@ try {} catch(e) { for(var e of 0); };
                                                         "start": 4835,
                                                         "end": 4840
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 4832,
                                                     "end": 4841
@@ -5680,7 +5680,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4860,
                 "end": 4861
             },
@@ -5848,7 +5848,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4899,
                 "end": 4900
             },
@@ -6011,7 +6011,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 4937,
                 "end": 4938
             },
@@ -6684,16 +6684,16 @@ try {} catch(e) { for(var e of 0); };
 ✖ Declaration or statement expected - start: 2865, end: 2938
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
 ✖ Declaration or statement expected - start: 2938, end: 2939
-✖ Expected a `;` - start: 2940, end: 2941
+✖ '; ' expected - start: 2940, end: 2941
 ✖ Invalid hexadecimal escape sequence - start: 2949, end: 2950
 ✖ Declaration or statement expected - start: 2949, end: 2951
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
 ✖ Declaration or statement expected - start: 2951, end: 2952
-✖ Expected a `;` - start: 2953, end: 2954
+✖ '; ' expected - start: 2953, end: 2954
 ✖ Invalid hexadecimal escape sequence - start: 3058, end: 3058
-✖ Expected a `;` - start: 3058, end: 3059
+✖ '; ' expected - start: 3058, end: 3059
 ✖ Invalid hexadecimal escape sequence - start: 3070, end: 3070
-✖ Expected a `;` - start: 3070, end: 3071
+✖ '; ' expected - start: 3070, end: 3071
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3170, end: 3177
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3205, end: 3212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3280, end: 3287
@@ -6711,20 +6711,20 @@ try {} catch(e) { for(var e of 0); };
 ✖ Declaration or statement expected - start: 3738, end: 3743
 ✖ Invalid hexadecimal escape sequence - start: 3744, end: 3991
 ✖ Invalid hexadecimal escape sequence - start: 3991, end: 3991
-✖ Expected a `;` - start: 3991, end: 3992
+✖ '; ' expected - start: 3991, end: 3992
 ✖ Declaration or statement expected - start: 3992, end: 3998
 ✖ Invalid hexadecimal escape sequence - start: 3999, end: 4001
 ✖ Invalid hexadecimal escape sequence - start: 4001, end: 4001
-✖ Expected a `;` - start: 4001, end: 4002
+✖ '; ' expected - start: 4001, end: 4002
 ✖ Declaration or statement expected - start: 4002, end: 4007
 ✖ Function declarations cannot be used in a single-statement context - start: 4485, end: 4494
 ✖ Function declarations cannot be used in a single-statement context - start: 4522, end: 4531
 ✖ Function declarations cannot be used in a single-statement context - start: 4550, end: 4559
 ✖ Function declarations cannot be used in a single-statement context - start: 4592, end: 4601
 ✖ Invalid hexadecimal escape sequence - start: 5061, end: 5061
-✖ Expected a `;` - start: 5061, end: 5062
+✖ '; ' expected - start: 5061, end: 5062
 ✖ Invalid hexadecimal escape sequence - start: 5073, end: 5073
-✖ Expected a `;` - start: 5073, end: 5074
+✖ '; ' expected - start: 5073, end: 5074
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 5259, end: 5261
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 5292, end: 5294
 

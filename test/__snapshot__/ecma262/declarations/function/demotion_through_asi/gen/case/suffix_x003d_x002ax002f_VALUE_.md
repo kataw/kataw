@@ -112,7 +112,7 @@ function f(){
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 41
                                     },

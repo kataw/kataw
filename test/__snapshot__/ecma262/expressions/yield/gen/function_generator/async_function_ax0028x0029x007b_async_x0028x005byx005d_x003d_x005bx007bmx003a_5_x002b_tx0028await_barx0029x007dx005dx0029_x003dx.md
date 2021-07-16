@@ -36,7 +36,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -275,7 +275,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                     "start": 88,
                                                                                                                     "end": 97
                                                                                                                 },
-                                                                                                                "flags": 268435488,
+                                                                                                                "flags": 32,
                                                                                                                 "transformFlags": 1,
                                                                                                                 "start": 85,
                                                                                                                 "end": 98

@@ -154,7 +154,7 @@ for ({}[y] ^= x;;) x;
                         "start": 30,
                         "end": 31
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 20,
                     "end": 32
@@ -328,7 +328,7 @@ for ({}[y] ^= x;;) x;
                         "start": 76,
                         "end": 77
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 66,
                     "end": 78

@@ -61,7 +61,7 @@ async (x = delete ((try) = f)) => {}
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -89,7 +89,7 @@ async (x = delete ((try) = f)) => {}
                                     "end": 20
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 10,
                                 "end": 20
                             },
@@ -105,7 +105,7 @@ async (x = delete ((try) = f)) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 20
@@ -215,7 +215,7 @@ async (x = delete ((try) = f)) => {}
 ✖ Identifier expected - start: 20, end: 23
 ✖ 'catch' expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
-✖ Expected a `;` - start: 28, end: 29
+✖ '; ' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 33
 

@@ -29,7 +29,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -154,7 +154,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                         "start": 29,
                                                         "end": 39
                                                     },
-                                                    "flags": 268435488,
+                                                    "flags": 32,
                                                     "transformFlags": 1,
                                                     "start": 24,
                                                     "end": 40

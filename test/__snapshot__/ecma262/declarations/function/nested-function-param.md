@@ -364,7 +364,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 63
                                 },
@@ -435,7 +435,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 16,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 88
                                 },

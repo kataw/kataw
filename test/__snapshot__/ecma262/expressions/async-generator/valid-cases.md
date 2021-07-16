@@ -78,7 +78,7 @@ for (;;) {}});
                         "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
@@ -177,7 +177,7 @@ for (;;) {}});
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
@@ -221,7 +221,7 @@ for (;;) {}});
                                                 "asteriskToken": {
                                                     "kind": 67143222,
                                                     "flags": 64,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 56
                                                 },
@@ -268,7 +268,7 @@ for (;;) {}});
                     "start": 31,
                     "end": 60
                 },
-                "flags": 268435489,
+                "flags": 33,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 61
@@ -295,7 +295,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 73,
                         "end": 75
                     },
@@ -339,7 +339,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 88,
                                             "end": 90
                                         },
@@ -406,7 +406,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 108,
                         "end": 110
                     },
@@ -527,7 +527,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 145,
                         "end": 147
                     },
@@ -571,7 +571,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 160,
                                             "end": 162
                                         },
@@ -588,7 +588,7 @@ for (;;) {}});
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 32,
+                                                "transformFlags": 0,
                                                 "start": 168,
                                                 "end": 170
                                             },
@@ -660,7 +660,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 186,
                         "end": 188
                     },
@@ -811,7 +811,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 229,
                         "end": 231
                     },
@@ -855,7 +855,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 244,
                                             "end": 246
                                         },
@@ -892,7 +892,7 @@ for (;;) {}});
                                                     "asteriskToken": {
                                                         "kind": 67143222,
                                                         "flags": 64,
-                                                        "transformFlags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 257,
                                                         "end": 259
                                                     },
@@ -974,7 +974,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 277,
                         "end": 279
                     },
@@ -1018,7 +1018,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 292,
                                             "end": 294
                                         },
@@ -1100,7 +1100,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 317,
                         "end": 319
                     },
@@ -1228,7 +1228,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 358,
                         "end": 360
                     },
@@ -1272,7 +1272,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 373,
                                             "end": 375
                                         },
@@ -1362,7 +1362,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 401,
                         "end": 403
                     },
@@ -1522,7 +1522,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 457,
                         "end": 459
                     },
@@ -1566,7 +1566,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 472,
                                             "end": 474
                                         },
@@ -1627,7 +1627,7 @@ for (;;) {}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 494,
                                             "end": 496
                                         },
@@ -1694,7 +1694,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 518,
                         "end": 520
                     },
@@ -1791,7 +1791,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 547,
                         "end": 549
                     },
@@ -1888,7 +1888,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 575,
                         "end": 577
                     },
@@ -1985,7 +1985,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 605,
                         "end": 607
                     },
@@ -2089,7 +2089,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 635,
                         "end": 637
                     },
@@ -2203,7 +2203,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 665,
                         "end": 667
                     },
@@ -2316,7 +2316,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 695,
                         "end": 697
                     },
@@ -2439,7 +2439,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 730,
                         "end": 732
                     },
@@ -2560,7 +2560,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 765,
                         "end": 767
                     },
@@ -2719,7 +2719,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 811,
                         "end": 813
                     },
@@ -2878,7 +2878,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 934,
                         "end": 936
                     },
@@ -3007,7 +3007,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 975,
                         "end": 977
                     },
@@ -3181,7 +3181,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 1026,
                         "end": 1028
                     },
@@ -3291,7 +3291,7 @@ for (;;) {}});
                                                             "start": 1056,
                                                             "end": 1061
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 1053,
                                                         "end": 1062
@@ -3374,7 +3374,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 1078,
                         "end": 1080
                     },
@@ -3564,7 +3564,7 @@ for (;;) {}});
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 32,
+                        "transformFlags": 0,
                         "start": 1136,
                         "end": 1138
                     },

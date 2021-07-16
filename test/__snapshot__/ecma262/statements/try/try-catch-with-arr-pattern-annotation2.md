@@ -185,7 +185,7 @@ try {} catch([a:string]: number) {}
 
 ```javascript
 ✖ Catch clause variable cannot have an type annotation - start: 23, end: 24
-✖ Expected a `;` - start: 31, end: 32
+✖ '; ' expected - start: 31, end: 32
 
 ```
 

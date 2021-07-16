@@ -50,7 +50,7 @@
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 8192,
                                     "start": 4,
                                     "end": 11
                                 },
@@ -65,7 +65,7 @@
                                                 "operandToken": {
                                                     "kind": 138477615,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 8192,
                                                     "start": 14,
                                                     "end": 18
                                                 },
@@ -79,7 +79,7 @@
                                                     "end": 18
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 14,
                                                 "end": 18
                                             },
@@ -115,7 +115,7 @@
                                     "end": 24
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 16384,
                                 "start": 4,
                                 "end": 24
                             },

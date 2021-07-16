@@ -71,7 +71,7 @@ class C2 {
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 268435488,
+                            "flags": 32,
                             "transformFlags": 1,
                             "start": 1,
                             "end": 5

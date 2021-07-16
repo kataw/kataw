@@ -170,7 +170,7 @@ import {a: b} from "bar";
 ```javascript
 ✖ ',' expected - start: 9, end: 10
 ✖ Declaration or statement expected - start: 12, end: 13
-✖ Expected a `;` - start: 18, end: 24
+✖ '; ' expected - start: 18, end: 24
 
 ```
 

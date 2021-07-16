@@ -201,7 +201,7 @@ async function p(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 40, end: 41
-✖ Expected a `;` - start: 43, end: 45
+✖ '; ' expected - start: 43, end: 45
 ✖ Declaration or statement expected - start: 46, end: 48
 
 ```

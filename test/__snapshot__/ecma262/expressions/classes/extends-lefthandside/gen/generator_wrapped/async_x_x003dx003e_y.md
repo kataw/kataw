@@ -40,7 +40,7 @@ x => y {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -229,7 +229,7 @@ x => y {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 39, end: 40
-✖ Expected a `;` - start: 45, end: 47
+✖ '; ' expected - start: 45, end: 47
 
 ```
 

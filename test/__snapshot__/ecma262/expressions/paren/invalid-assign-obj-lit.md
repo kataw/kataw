@@ -1200,7 +1200,7 @@
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 222,
                             "end": 224
                         },
@@ -1367,7 +1367,7 @@
                                                                     "start": 258,
                                                                     "end": 258
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 32,
                                                                 "transformFlags": 4,
                                                                 "start": 256,
                                                                 "end": 259
@@ -1874,7 +1874,7 @@
                         "start": 348,
                         "end": 348
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 343,
                     "end": 349

@@ -153,7 +153,7 @@ f(await 1);
                     "start": 31,
                     "end": 38
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 27,
                 "end": 39

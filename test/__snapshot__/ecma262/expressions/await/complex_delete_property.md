@@ -114,7 +114,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                 "operandToken": {
                                                     "kind": 4259886,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 8192,
                                                     "start": 36,
                                                     "end": 43
                                                 },
@@ -156,7 +156,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                                 "start": 50,
                                                                 "end": 57
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 32,
                                                             "transformFlags": 4,
                                                             "start": 45,
                                                             "end": 58
@@ -172,7 +172,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                     "end": 60
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 16384,
                                                 "start": 36,
                                                 "end": 60
                                             },
@@ -188,7 +188,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 268435490,
+                                "flags": 34,
                                 "transformFlags": 1,
                                 "start": 19,
                                 "end": 61
@@ -257,7 +257,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 61, end: 64
+✖ '; ' expected - start: 61, end: 64
 ✖ Declaration or statement expected - start: 68, end: 74
 
 ```

@@ -335,7 +335,7 @@ switch (answer) { case 0: let a; };
                                         "end": 90
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16384,
                                     "start": 87,
                                     "end": 90
                                 },
@@ -562,7 +562,7 @@ switch (answer) { case 0: let a; };
                                                 "operatorToken": {
                                                     "kind": 35640,
                                                     "flags": 96,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 147,
                                                     "end": 149
                                                 },
@@ -690,7 +690,7 @@ switch (answer) { case 0: let a; };
                                         "start": 180,
                                         "end": 180
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 177,
                                     "end": 181
@@ -980,7 +980,7 @@ switch (answer) { case 0: let a; };
                                                 "operatorToken": {
                                                     "kind": 35640,
                                                     "flags": 96,
-                                                    "transformFlags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 279,
                                                     "end": 281
                                                 },
@@ -1230,7 +1230,7 @@ switch (answer) { case 0: let a; };
                                         "start": 343,
                                         "end": 346
                                     },
-                                    "flags": 268435488,
+                                    "flags": 32,
                                     "transformFlags": 1,
                                     "start": 340,
                                     "end": 347
@@ -1397,7 +1397,7 @@ switch (answer) { case 0: let a; };
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 390,
                     "end": 391
                 },
@@ -1421,7 +1421,7 @@ switch (answer) { case 0: let a; };
                         "start": 393,
                         "end": 394
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 391,
                     "end": 395
@@ -1523,7 +1523,7 @@ switch (answer) { case 0: let a; };
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 422,
                     "end": 423
                 },
@@ -1554,7 +1554,7 @@ switch (answer) { case 0: let a; };
                         "start": 32,
                         "end": 428
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "transformFlags": 4,
                     "start": 423,
                     "end": 429
@@ -1694,7 +1694,7 @@ switch (answer) { case 0: let a; };
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 479,
                                     "end": 481
                                 },
@@ -2219,7 +2219,7 @@ switch (answer) { case 0: let a; };
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 705,
                     "end": 706
                 },
@@ -2812,7 +2812,7 @@ switch (answer) { case 0: let a; };
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 867,
                                             "end": 869
                                         },
@@ -2968,7 +2968,7 @@ switch (answer) { case 0: let a; };
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
-                                            "transformFlags": 32,
+                                            "transformFlags": 0,
                                             "start": 910,
                                             "end": 912
                                         },
@@ -3826,7 +3826,7 @@ switch (answer) { case 0: let a; };
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 32,
+                    "transformFlags": 0,
                     "start": 1134,
                     "end": 1135
                 },
@@ -3860,7 +3860,7 @@ switch (answer) { case 0: let a; };
                         "start": 1137,
                         "end": 1138
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 1135,
                     "end": 1139
@@ -4183,7 +4183,7 @@ switch (answer) { case 0: let a; };
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 1248,
                                     "end": 1250
                                 },
@@ -4248,7 +4248,7 @@ switch (answer) { case 0: let a; };
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 1270,
                                     "end": 1272
                                 },
@@ -4727,7 +4727,7 @@ switch (answer) { case 0: let a; };
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 1403,
                                     "end": 1405
                                 },
@@ -4857,7 +4857,7 @@ switch (answer) { case 0: let a; };
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 32,
+                                    "transformFlags": 0,
                                     "start": 1445,
                                     "end": 1447
                                 },

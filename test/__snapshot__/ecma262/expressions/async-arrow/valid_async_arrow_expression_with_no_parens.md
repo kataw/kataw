@@ -79,7 +79,7 @@ f(async foo=>c)
                     "start": 2,
                     "end": 14
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 15

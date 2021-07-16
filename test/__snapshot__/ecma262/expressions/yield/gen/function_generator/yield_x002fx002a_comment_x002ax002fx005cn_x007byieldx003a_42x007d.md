@@ -36,7 +36,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -244,8 +244,8 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 45, end: 59
-✖ Expected a `;` - start: 45, end: 60
-✖ Expected a `;` - start: 61, end: 63
+✖ '; ' expected - start: 45, end: 60
+✖ '; ' expected - start: 61, end: 63
 ✖ Declaration or statement expected - start: 73, end: 75
 ✖ Declaration or statement expected - start: 75, end: 76
 

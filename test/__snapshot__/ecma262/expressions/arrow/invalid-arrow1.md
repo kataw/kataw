@@ -110,7 +110,7 @@ y = (x => {}(0));
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "transformFlags": 4,
                                             "start": 2,
                                             "end": 8
@@ -1657,7 +1657,7 @@ y = (x => {}(0));
                     "start": 325,
                     "end": 326
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 314,
                 "end": 327
@@ -1732,7 +1732,7 @@ y = (x => {}(0));
                     "start": 338,
                     "end": 339
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 328,
                 "end": 340
@@ -1988,7 +1988,7 @@ y = (x => {}(0));
                         "start": 396,
                         "end": 397
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 378,
                     "end": 398
@@ -2075,7 +2075,7 @@ y = (x => {}(0));
                     "start": 412,
                     "end": 413
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 400,
                 "end": 414
@@ -2177,7 +2177,7 @@ y = (x => {}(0));
                             "start": 431,
                             "end": 432
                         },
-                        "flags": 268435488,
+                        "flags": 32,
                         "transformFlags": 1,
                         "start": 421,
                         "end": 433
@@ -2270,7 +2270,7 @@ y = (x => {}(0));
                         "start": 453,
                         "end": 454
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 435,
                     "end": 455
@@ -2358,7 +2358,7 @@ y = (x => {}(0));
                         "start": 475,
                         "end": 476
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 457,
                     "end": 477
@@ -2446,7 +2446,7 @@ y = (x => {}(0));
                         "start": 497,
                         "end": 498
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 479,
                     "end": 499
@@ -2534,7 +2534,7 @@ y = (x => {}(0));
                         "start": 519,
                         "end": 520
                     },
-                    "flags": 268435488,
+                    "flags": 32,
                     "transformFlags": 1,
                     "start": 501,
                     "end": 521
@@ -2579,27 +2579,27 @@ y = (x => {}(0));
 ✖ The left hand side of the arrow is not destructible  - start: 184, end: 187
 ✖ Expected a ')' to match the '(' token here - start: 200, end: 202
 ✖ The left hand side of the arrow is not destructible  - start: 199, end: 202
-✖ Expected a `;` - start: 205, end: 206
+✖ '; ' expected - start: 205, end: 206
 ✖ Expected a ')' to match the '(' token here - start: 222, end: 224
 ✖ The left hand side of the arrow is not destructible  - start: 221, end: 224
-✖ Expected a `;` - start: 227, end: 228
+✖ '; ' expected - start: 227, end: 228
 ✖ Identifier expected - start: 232, end: 234
 ✖ Missing an opening parentheses - '( - start: 234, end: 235
 ✖ Identifier expected - start: 235, end: 238
 ✖ Expected a ')' to match the '(' token here - start: 248, end: 250
 ✖ Missing an opening parentheses - '( - start: 250, end: 251
 ✖ Identifier expected - start: 251, end: 254
-✖ Expected a `;` - start: 270, end: 273
+✖ '; ' expected - start: 270, end: 273
 ✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
 ✖ Expected a ')' to match the '(' token here - start: 307, end: 309
-✖ Expected a `;` - start: 312, end: 313
+✖ '; ' expected - start: 312, end: 313
 ✖ An arrow function can not be part of an operator to the right - start: 324, end: 325
 ✖ An arrow function can not be part of an operator to the right - start: 337, end: 338
 ✖ An arrow function can not be part of an operator to the right - start: 356, end: 357
 ✖ An arrow function can not be part of an operator to the right - start: 374, end: 375
 ✖ An arrow function can not be part of an operator to the right - start: 395, end: 396
 ✖ An arrow function can not be part of an operator to the right - start: 411, end: 412
-✖ Expected a `;` - start: 414, end: 415
+✖ '; ' expected - start: 414, end: 415
 ✖ An arrow function can not be part of an operator to the right - start: 430, end: 431
 ✖ An arrow function can not be part of an operator to the right - start: 452, end: 453
 ✖ An arrow function can not be part of an operator to the right - start: 474, end: 475

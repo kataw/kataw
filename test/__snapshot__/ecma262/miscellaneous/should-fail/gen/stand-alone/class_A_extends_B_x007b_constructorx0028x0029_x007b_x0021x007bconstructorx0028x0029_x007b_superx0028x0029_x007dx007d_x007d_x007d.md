@@ -179,7 +179,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                                                 "start": 60,
                                                                                                 "end": 60
                                                                                             },
-                                                                                            "flags": 268435488,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 1,
                                                                                             "start": 53,
                                                                                             "end": 61
@@ -223,7 +223,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                         "end": 65
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16384,
                                                     "start": 35,
                                                     "end": 65
                                                 },

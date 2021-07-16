@@ -38,7 +38,7 @@ function *f(){
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -142,7 +142,7 @@ function *f(){
 ✖ Keywords cannot contain escape characters - start: 14, end: 28
 ✖ The `import` keyword can only be used with the module goal - start: 14, end: 30
 ✖ Declaration or statement expected - start: 28, end: 30
-✖ Expected a `;` - start: 28, end: 30
+✖ '; ' expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 
 ```

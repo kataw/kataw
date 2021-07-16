@@ -76,7 +76,7 @@
                                             "start": 17,
                                             "end": 17
                                         },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "transformFlags": 1,
                                         "start": 13,
                                         "end": 17
@@ -241,7 +241,7 @@
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
 ✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 25
-✖ Expected a `;` - start: 25, end: 31
+✖ '; ' expected - start: 25, end: 31
 ✖ Declaration or statement expected - start: 50, end: 51
 ✖ Declaration or statement expected - start: 51, end: 52
 ✖ Expression expected - start: 54, end: 54

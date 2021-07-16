@@ -193,7 +193,7 @@ wrap({[foo](){}, set [bar](e){}});
                     "start": 5,
                     "end": 32
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 33

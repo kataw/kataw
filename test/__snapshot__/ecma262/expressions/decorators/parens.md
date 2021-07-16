@@ -97,7 +97,7 @@ class X {
                                                                     "start": 23,
                                                                     "end": 23
                                                                 },
-                                                                "flags": 268435488,
+                                                                "flags": 32,
                                                                 "transformFlags": 1,
                                                                 "start": 14,
                                                                 "end": 24
@@ -111,7 +111,7 @@ class X {
                                                                 "start": 25,
                                                                 "end": 33
                                                             },
-                                                            "flags": 268435488,
+                                                            "flags": 32,
                                                             "transformFlags": 2,
                                                             "start": 14,
                                                             "end": 33
@@ -125,7 +125,7 @@ class X {
                                                             "start": 34,
                                                             "end": 34
                                                         },
-                                                        "flags": 268435488,
+                                                        "flags": 32,
                                                         "transformFlags": 1,
                                                         "start": 14,
                                                         "end": 35
@@ -137,7 +137,7 @@ class X {
                                                 "start": 14,
                                                 "end": 35
                                             },
-                                            "flags": 268435488,
+                                            "flags": 32,
                                             "transformFlags": 1,
                                             "start": 13,
                                             "end": 36

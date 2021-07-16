@@ -192,7 +192,7 @@ do {} while (x) { while try this and !foo
                                 "end": 41
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 16384,
                             "start": 36,
                             "end": 41
                         },
@@ -234,8 +234,8 @@ do {} while (x) { while try this and !foo
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 24, end: 27
 ✖ 'catch' expected - start: 27, end: 32
-✖ Expected a `;` - start: 32, end: 36
-✖ Expected a `;` - start: 36, end: 38
+✖ '; ' expected - start: 32, end: 36
+✖ '; ' expected - start: 36, end: 38
 ✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 41
 
 ```

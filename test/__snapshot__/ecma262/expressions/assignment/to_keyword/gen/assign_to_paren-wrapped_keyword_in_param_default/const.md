@@ -84,7 +84,7 @@ async (x = (const) = f) => {}
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435490,
+                "flags": 34,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -168,9 +168,9 @@ async (x = (const) = f) => {}
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 17
-✖ Expected a `;` - start: 17, end: 18
+✖ '; ' expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
-✖ Expected a `;` - start: 22, end: 23
+✖ '; ' expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 26
 
 ```

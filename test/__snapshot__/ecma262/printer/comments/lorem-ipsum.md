@@ -210,7 +210,7 @@ function foo(a, b, c) {
                                             "operatorToken": {
                                                 "kind": 34620,
                                                 "flags": 96,
-                                                "transformFlags": 16,
+                                                "transformFlags": 0,
                                                 "start": 111,
                                                 "end": 115
                                             },
@@ -254,7 +254,7 @@ function foo(a, b, c) {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 16,
+                                            "transformFlags": 0,
                                             "start": 123,
                                             "end": 127
                                         },

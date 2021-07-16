@@ -54,7 +54,7 @@ async(await) = 1
                     "start": 0,
                     "end": 0
                 },
-                "flags": 268435488,
+                "flags": 32,
                 "transformFlags": 1,
                 "start": 0,
                 "end": 12
@@ -100,7 +100,7 @@ async(await) = 1
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 14
+✖ '; ' expected - start: 12, end: 14
 
 ```
 

@@ -99,8 +99,8 @@ import 'x' assert {,}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 10, end: 17
-✖ Expected a `;` - start: 17, end: 19
+✖ '; ' expected - start: 10, end: 17
+✖ '; ' expected - start: 17, end: 19
 ✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 21
 

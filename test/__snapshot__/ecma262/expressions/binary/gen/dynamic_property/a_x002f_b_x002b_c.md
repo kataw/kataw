@@ -51,7 +51,7 @@ foo[ a / b + c ]
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -90,7 +90,7 @@ foo[ a / b + c ]
                     "start": 4,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "transformFlags": 4,
                 "start": 0,
                 "end": 16

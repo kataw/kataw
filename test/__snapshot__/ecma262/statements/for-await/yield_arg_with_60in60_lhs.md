@@ -76,7 +76,7 @@ async function f(){
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 32,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
@@ -142,7 +142,7 @@ async function f(){
                                             "inKeyword": {
                                                 "kind": 21006388,
                                                 "flags": 64,
-                                                "transformFlags": 0,
+                                                "transformFlags": 8192,
                                                 "start": 59,
                                                 "end": 62
                                             },
@@ -257,8 +257,8 @@ async function f(){
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 52, end: 59
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 62, end: 64
 ✖ Expected a ')' to match the '(' token here - start: 65, end: 67
-✖ Expected a `;` - start: 67, end: 69
-✖ Expected a `;` - start: 69, end: 70
+✖ '; ' expected - start: 67, end: 69
+✖ '; ' expected - start: 69, end: 70
 ✖ Declaration or statement expected - start: 71, end: 75
 ✖ Declaration or statement expected - start: 75, end: 77
 
