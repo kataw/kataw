@@ -254,7 +254,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // ``string``
       case SyntaxKind.TemplateTail:
-        return scanTemplate(parser, context, /* isTaggedTemplate */ false, source);
+        return scanTemplate(parser, context, source);
 
       // `?`, `?.`, `??`, `??=`,
       case SyntaxKind.QuestionMark:

@@ -912,7 +912,7 @@ a?.b
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "\u00000",
+                "text": "00",
                 "rawText": "\\00",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -932,7 +932,7 @@ a?.b
                     {
                         "kind": 65764,
                         "rawText": "\\00",
-                        "text": "\u00000",
+                        "text": "00",
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
@@ -993,7 +993,7 @@ a?.b
                 ],
                 "tail": {
                     "kind": 458761,
-                    "text": "\u00000",
+                    "text": "00",
                     "rawText": "\\00",
                     "flags": 97,
                     "transformFlags": 0,
@@ -1036,7 +1036,7 @@ a?.b
                     {
                         "kind": 65764,
                         "rawText": "\\00",
-                        "text": "\u00000",
+                        "text": "00",
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
@@ -1075,7 +1075,7 @@ a?.b
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "nicode",
+                "text": "unicode",
                 "rawText": "\\unicode",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -1095,7 +1095,7 @@ a?.b
                     {
                         "kind": 65764,
                         "rawText": "\\unicode",
-                        "text": "nicode",
+                        "text": "unicode",
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
@@ -1156,7 +1156,7 @@ a?.b
                 ],
                 "tail": {
                     "kind": 458761,
-                    "text": "nicode",
+                    "text": "unicode",
                     "rawText": "\\unicode",
                     "flags": 97,
                     "transformFlags": 0,
@@ -1197,12 +1197,16 @@ a?.b
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 14, end: 16
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 59, end: 62
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 103, end: 106
-✖ Octal escape sequences are not allowed in template literal - start: 107, end: 112
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 114, end: 118
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 120, end: 124
-✖ Invalid hexadecimal escape sequence - start: 170, end: 174
-✖ Invalid hexadecimal escape sequence - start: 182, end: 186
-✖ Invalid hexadecimal escape sequence - start: 203, end: 206
+✖ Octal escape sequences are not allowed in template literal - start: 110, end: 112
+✖ Escapes \8 or \9 are not syntactically valid escapes - start: 116, end: 118
+✖ Escapes \8 or \9 are not syntactically valid escapes - start: 122, end: 124
+✖ Octal escape sequences are not allowed in template literal - start: 128, end: 130
+✖ Octal escape sequences are not allowed in template literal - start: 135, end: 137
+✖ Octal escape sequences are not allowed in template literal - start: 150, end: 152
+✖ Octal escape sequences are not allowed in template literal - start: 161, end: 163
+✖ Invalid hexadecimal escape sequence - start: 172, end: 174
+✖ Invalid hexadecimal escape sequence - start: 184, end: 186
+✖ Invalid hexadecimal escape sequence - start: 204, end: 206
 
 ```
 

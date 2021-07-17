@@ -66,7 +66,8 @@ export const enum Context {
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
   DecoratorContext = 1 << 27,
-  InType = 1 << 28
+  InType = 1 << 28,
+  TaggedTemplate = 1 << 23
 }
 
 export const enum DestructibleKind {
@@ -632,6 +633,7 @@ export function report(parser: ParserState, pos: number, diagnostic: DiagnosticC
   let message = diagnosticMap[diagnostic];
   if (arguments.length > 3) {
     message = message.replace(/{(\d+)}/g, (__match: string, i: number) => args[i]);
+    ///    console.log(message);
   }
   parser.onError(DiagnosticSource.Parser, DiagnosticKind.Error | DiagnosticKind.EarlyError, message, pos, parser.pos);
 }

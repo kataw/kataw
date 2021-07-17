@@ -140,7 +140,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                         "type": null,
                         "initializer": {
                             "kind": 458761,
-                            "text": "this is a templatewith multiple\nlines",
+                            "text": "this is a templatehis is a template\\\nwith multiple\nlines",
                             "rawText": "this is a template\\\nwith multiple\nlines",
                             "flags": 134217824,
                             "transformFlags": 0,

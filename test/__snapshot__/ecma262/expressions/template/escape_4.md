@@ -19,7 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "a 4 b",
+                "text": "a  \\4 b",
                 "rawText": "a \\4 b",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -51,7 +51,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal escape sequences are not allowed in template literal - start: 0, end: 5
+✖ Octal escape sequences are not allowed in template literal - start: 3, end: 5
 
 ```
 

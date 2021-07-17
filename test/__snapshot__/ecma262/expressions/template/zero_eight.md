@@ -19,7 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "\u00008",
+                "text": "08",
                 "rawText": "\\08",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -45,12 +45,13 @@
 ### Printed
 
 ```javascript
-`\08`;
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Octal escape sequences are not allowed in template literal - start: 1, end: 3
+
 ```
 

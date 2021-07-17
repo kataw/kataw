@@ -266,7 +266,7 @@ export function parse(
     if (isModule || context & Context.OptionsDisableWebCompat) {
       onError(
         DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError  ,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
           context & Context.OptionsDisableWebCompat
             ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
@@ -1538,6 +1538,7 @@ export function parseExpressionOrLabelledStatement(
   ownLabels: any
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
+
   const expr: any = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
   // 'let' followed by '[' means a lexical declaration, which should not appear here.
@@ -1670,6 +1671,7 @@ function parseIdentifierReference(
   diagnosticMessage?: DiagnosticCode
 ): Identifier | DummyIdentifier {
   const { curPos, tokenValue, tokenRaw, pos, nodeFlags } = parser;
+
   if (parser.token & Constants.Identifier) {
     parser.assignable = true;
     if (context & (Context.Strict | Context.YieldContext) && parser.token === SyntaxKind.YieldKeyword) {
@@ -2027,10 +2029,10 @@ function parseMemberExpression(
           parser.token === SyntaxKind.TemplateTail
             ? parseTemplateTail(
                 parser,
-                context,
+                context | Context.TaggedTemplate,
                 NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
               )
-            : parseTemplateExpression(parser, context, /* isTaggedTemplate */ true),
+            : parseTemplateExpression(parser, context | Context.TaggedTemplate),
           pos,
           parser.curPos
         );
@@ -2091,7 +2093,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
             context,
             NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
           )
-        : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
+        : parseTemplateExpression(parser, context),
       pos,
       parser.curPos
     );
@@ -2162,7 +2164,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
               context,
               NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
             )
-          : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
+          : parseTemplateExpression(parser, context),
         pos,
         parser.curPos
       );
@@ -2464,7 +2466,12 @@ function parsePrimaryExpression(
     }
 
     const token = parser.token;
-    const expression = parseIdentifierReference(parser, context, DiagnosticCode.Identifier_expected);
+
+    const expression = parseIdentifierReference(
+      parser,
+      context | Context.TaggedTemplate,
+      DiagnosticCode.Identifier_expected
+    );
 
     // - `x => y`
     if (parser.token === SyntaxKind.Arrow) {
@@ -2566,7 +2573,7 @@ function parsePrimaryExpression(
         NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
       );
     case SyntaxKind.TemplateCont:
-      return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
+      return parseTemplateExpression(parser, context);
     case SyntaxKind.ImportKeyword:
       return parseImportMetaOrCall(parser, context, leftHandSideContext);
     case SyntaxKind.LessThan:
@@ -9045,12 +9052,12 @@ export function parseImportMeta(
   );
 }
 
-function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
+function parseTemplateExpression(parser: ParserState, context: Context): TemplateExpression {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const templateSpans = [parseTemplateSpan(parser, context)];
 
-  while (scanTemplateTail(parser, context, isTaggedTemplate) === SyntaxKind.TemplateCont) {
+  while (scanTemplateTail(parser, context) === SyntaxKind.TemplateCont) {
     templateSpans.push(parseTemplateSpan(parser, context));
   }
 
