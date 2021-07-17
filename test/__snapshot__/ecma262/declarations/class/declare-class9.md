@@ -169,7 +169,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 67,
                                         "end": 71
                                     },

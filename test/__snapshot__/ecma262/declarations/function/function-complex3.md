@@ -558,7 +558,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "operatorToken": {
                                                     "kind": 34620,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 16,
                                                     "start": 183,
                                                     "end": 187
                                                 },
@@ -616,7 +616,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 168,
                                     "end": 173
                                 },
@@ -849,7 +849,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 249,
                                     "end": 253
                                 },
@@ -907,7 +907,7 @@ function b1<A: 'a', B: A>(b: B): void {
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 234,
                     "end": 239
                 },

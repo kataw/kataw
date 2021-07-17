@@ -126,7 +126,7 @@ const t = () => ({
                                                         "operatorToken": {
                                                             "kind": 21006388,
                                                             "flags": 96,
-                                                            "transformFlags": 8192,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 35
                                                         },

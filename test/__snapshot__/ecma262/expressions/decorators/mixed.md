@@ -122,7 +122,7 @@ class MyComponent {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 85,
                                 "end": 89
                             },

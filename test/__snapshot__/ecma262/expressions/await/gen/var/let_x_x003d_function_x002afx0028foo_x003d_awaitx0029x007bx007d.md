@@ -162,7 +162,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                 "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 32,
                                                                     "start": 55,
                                                                     "end": 57
                                                                 },

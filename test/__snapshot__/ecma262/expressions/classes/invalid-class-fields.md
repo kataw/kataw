@@ -1129,7 +1129,7 @@
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 182,
                                             "end": 183
                                         },
@@ -1268,7 +1268,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 203,
                                         "end": 204
                                     },
@@ -1402,7 +1402,7 @@
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 225,
                                         "end": 226
                                     },
@@ -3273,7 +3273,7 @@
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 576,
                                             "end": 578
                                         },

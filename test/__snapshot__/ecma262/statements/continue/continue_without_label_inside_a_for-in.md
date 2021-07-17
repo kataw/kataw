@@ -36,7 +36,7 @@ for (x in y) continue
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },

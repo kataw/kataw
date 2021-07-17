@@ -66,7 +66,7 @@ async () => {  d\u0065lete = x  }
                                         "operandToken": {
                                             "kind": 4259886,
                                             "flags": 16480,
-                                            "transformFlags": 8192,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 26
                                         },

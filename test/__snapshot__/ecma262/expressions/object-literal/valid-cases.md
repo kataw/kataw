@@ -2875,7 +2875,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 608,
                                     "end": 610
                                 },

@@ -38,7 +38,7 @@ function *f(){
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -83,7 +83,7 @@ function *f(){
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 97,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },

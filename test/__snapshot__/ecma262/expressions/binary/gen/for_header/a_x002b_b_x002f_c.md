@@ -63,7 +63,7 @@ for ( a + b / c ;;);
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 11,
                         "end": 13
                     },

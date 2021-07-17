@@ -124,7 +124,7 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 33
                         },
@@ -274,7 +274,7 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 76,
                             "end": 81
                         },
@@ -430,7 +430,7 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 124,
                             "end": 129
                         },
@@ -591,7 +591,7 @@ type ten = {
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 158,
                             "end": 163
                         },
@@ -718,7 +718,7 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 197,
                                         "end": 202
                                     },
@@ -841,7 +841,7 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 234,
                                         "end": 239
                                     },
@@ -970,7 +970,7 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 271,
                                         "end": 276
                                     },
@@ -1069,7 +1069,7 @@ type ten = {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 295,
                                         "end": 300
                                     },

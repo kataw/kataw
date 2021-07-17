@@ -1070,7 +1070,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "operatorToken": {
                             "kind": 34622,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 207,
                             "end": 210
                         },
@@ -1169,7 +1169,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "operatorToken": {
                             "kind": 34623,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 230,
                             "end": 233
                         },
@@ -2440,7 +2440,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "operatorToken": {
                         "kind": 34622,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 444,
                         "end": 447
                     },
@@ -2479,7 +2479,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "operatorToken": {
                         "kind": 34622,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 453,
                         "end": 456
                     },
@@ -3373,7 +3373,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "operatorToken": {
                         "kind": 34622,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 599,
                         "end": 602
                     },
@@ -3412,7 +3412,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "operatorToken": {
                         "kind": 34623,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 608,
                         "end": 611
                     },

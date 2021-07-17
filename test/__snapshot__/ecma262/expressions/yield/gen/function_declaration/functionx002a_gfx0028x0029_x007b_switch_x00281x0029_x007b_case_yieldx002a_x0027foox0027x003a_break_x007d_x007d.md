@@ -73,7 +73,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 29,
                                 "end": 30
                             },
@@ -145,7 +145,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 32,
                                                                 "start": 61,
                                                                 "end": 62
                                                             },

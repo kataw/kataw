@@ -33,7 +33,7 @@ a === b ? c : d % e;
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 1,
                         "end": 5
                     },
@@ -88,7 +88,7 @@ a === b ? c : d % e;
                     "operatorToken": {
                         "kind": 35639,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 15,
                         "end": 17
                     },

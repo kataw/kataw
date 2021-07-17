@@ -193,7 +193,7 @@ function foo3() {
                                     "operatorToken": {
                                         "kind": 34620,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 16,
                                         "start": 83,
                                         "end": 87
                                     },
@@ -436,7 +436,7 @@ function foo3() {
                                         "operatorToken": {
                                             "kind": 34620,
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 16,
                                             "start": 195,
                                             "end": 199
                                         },

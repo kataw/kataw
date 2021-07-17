@@ -36,7 +36,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 0,
+                                                "transformFlags": 32,
                                                 "start": 48,
                                                 "end": 49
                                             },
@@ -188,7 +188,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                                             "asteriskToken": {
                                                                                 "kind": 67143222,
                                                                                 "flags": 64,
-                                                                                "transformFlags": 0,
+                                                                                "transformFlags": 32,
                                                                                 "start": 80,
                                                                                 "end": 81
                                                                             },

@@ -79,7 +79,7 @@ function f2() {
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -100,7 +100,7 @@ function f2() {
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -141,7 +141,7 @@ function f2() {
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 97,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 38,
                                         "end": 42
                                     },
@@ -162,7 +162,7 @@ function f2() {
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 44,
                                     "end": 46
                                 },
@@ -273,7 +273,7 @@ function f2() {
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 77,
                                         "end": 79
                                     },
@@ -335,7 +335,7 @@ function f2() {
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 94,
                                         "end": 96
                                     },

@@ -186,7 +186,7 @@ a = !!b;
                                 "operatorToken": {
                                     "kind": 34622,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 23,
                                     "end": 26
                                 },
@@ -283,7 +283,7 @@ a = !!b;
                                 "operatorToken": {
                                     "kind": 34623,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 39,
                                     "end": 42
                                 },
@@ -380,7 +380,7 @@ a = !!b;
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 55,
                                     "end": 59
                                 },
@@ -477,7 +477,7 @@ a = !!b;
                                 "operatorToken": {
                                     "kind": 34621,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 72,
                                     "end": 76
                                 },
@@ -962,7 +962,7 @@ a = !!b;
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 151,
                                     "end": 154
                                 },
@@ -1332,7 +1332,7 @@ a = !!b;
                             "operandToken": {
                                 "kind": 138477615,
                                 "flags": 96,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 206,
                                 "end": 210
                             },

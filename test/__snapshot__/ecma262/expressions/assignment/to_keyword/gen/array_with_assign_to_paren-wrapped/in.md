@@ -69,7 +69,7 @@ async x => (in) = 1
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },

@@ -110,7 +110,7 @@ for (class x extends a in b {} in c);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
@@ -159,7 +159,7 @@ for (class x extends a in b {} in c);
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 33
                 },

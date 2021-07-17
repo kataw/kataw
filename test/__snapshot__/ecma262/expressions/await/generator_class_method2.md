@@ -96,7 +96,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 0,
+                                                "transformFlags": 32,
                                                 "start": 28,
                                                 "end": 29
                                             },

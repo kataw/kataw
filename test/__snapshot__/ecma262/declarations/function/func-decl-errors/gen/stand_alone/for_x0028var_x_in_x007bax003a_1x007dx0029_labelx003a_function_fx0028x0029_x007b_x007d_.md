@@ -75,7 +75,7 @@ for (var x in {a: 1}) label: function f() { };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },

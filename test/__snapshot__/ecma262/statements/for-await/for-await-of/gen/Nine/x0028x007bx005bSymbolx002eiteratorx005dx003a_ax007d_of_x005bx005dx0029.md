@@ -43,7 +43,7 @@ await ({[Symbol.iterator]: a} of []) { } }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },

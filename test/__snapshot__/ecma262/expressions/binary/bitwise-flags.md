@@ -57,7 +57,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 64,
                                 "start": 16,
                                 "end": 19
                             },
@@ -129,7 +129,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 64,
                                 "start": 39,
                                 "end": 42
                             },
@@ -201,7 +201,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                             "operatorToken": {
                                 "kind": 35140,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 64,
                                 "start": 62,
                                 "end": 65
                             },

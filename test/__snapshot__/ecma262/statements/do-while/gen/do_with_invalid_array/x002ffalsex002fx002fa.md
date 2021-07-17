@@ -147,7 +147,7 @@ do while [catch] /false//a
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 24,
                     "end": 25
                 },

@@ -83,7 +83,7 @@ var C = class { static async *gen() {
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 0,
+                                                "transformFlags": 32,
                                                 "start": 28,
                                                 "end": 30
                                             },

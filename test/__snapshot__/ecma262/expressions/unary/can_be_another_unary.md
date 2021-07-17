@@ -22,7 +22,7 @@ delete typeof true
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -31,7 +31,7 @@ delete typeof true
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 13
                     },

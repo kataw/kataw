@@ -54,7 +54,7 @@ a={*id<T>(x: T): T {}}
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 3,
                                     "end": 4
                                 },

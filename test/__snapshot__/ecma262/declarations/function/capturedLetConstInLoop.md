@@ -696,7 +696,7 @@ function foo8_c(x) {
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 183,
                                 "end": 186
                             },
@@ -1506,7 +1506,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 487,
                                     "end": 491
                                 },
@@ -2180,7 +2180,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 755,
                                     "end": 759
                                 },
@@ -3291,7 +3291,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1148,
                                     "end": 1152
                                 },
@@ -4134,7 +4134,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1453,
                                     "end": 1457
                                 },
@@ -5210,7 +5210,7 @@ function foo8_c(x) {
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 1858,
                                 "end": 1861
                             },
@@ -5998,7 +5998,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 2168,
                                     "end": 2172
                                 },
@@ -6680,7 +6680,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 2448,
                                     "end": 2452
                                 },
@@ -7747,7 +7747,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 2849,
                                     "end": 2853
                                 },
@@ -8622,7 +8622,7 @@ function foo8_c(x) {
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 3180,
                                     "end": 3184
                                 },

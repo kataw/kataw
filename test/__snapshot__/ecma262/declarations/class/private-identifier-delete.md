@@ -116,7 +116,7 @@ class Foo { #foo; foo() { delete this.#foo } }
                                                     "operandToken": {
                                                         "kind": 4259886,
                                                         "flags": 96,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 32
                                                     },

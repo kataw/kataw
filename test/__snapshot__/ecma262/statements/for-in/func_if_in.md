@@ -96,7 +96,7 @@ for (function(){ if (a in b); }.prop in x);
                                         "operatorToken": {
                                             "kind": 21006388,
                                             "flags": 96,
-                                            "transformFlags": 8192,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 25
                                         },
@@ -162,7 +162,7 @@ for (function(){ if (a in b); }.prop in x);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 39
             },

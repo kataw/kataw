@@ -50,7 +50,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -87,7 +87,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 19
                 },
@@ -145,7 +145,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 40
                 },
@@ -221,7 +221,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 61
                 },
@@ -276,7 +276,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 79
                 },
@@ -331,7 +331,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 94,
                     "end": 102
                 },
@@ -400,7 +400,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 126
                 },
@@ -473,7 +473,7 @@ typeof (0 ? 1 : x);
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 97,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 142,
                             "end": 150
                         },
@@ -494,7 +494,7 @@ typeof (0 ? 1 : x);
                     "operatorToken": {
                         "kind": 34622,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 152,
                         "end": 155
                     },
@@ -549,7 +549,7 @@ typeof (0 ? 1 : x);
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 97,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 163,
                             "end": 171
                         },
@@ -570,7 +570,7 @@ typeof (0 ? 1 : x);
                     "operatorToken": {
                         "kind": 34623,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 173,
                         "end": 176
                     },
@@ -621,7 +621,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 184,
                     "end": 190
                 },
@@ -651,7 +651,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 193,
                     "end": 201
                 },
@@ -711,7 +711,7 @@ typeof (0 ? 1 : x);
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 211,
                     "end": 219
                 },

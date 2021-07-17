@@ -31,7 +31,7 @@ function* wrap() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -98,7 +98,7 @@ function* wrap() {
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
-                                                "transformFlags": 0,
+                                                "transformFlags": 32,
                                                 "start": 32,
                                                 "end": 33
                                             },

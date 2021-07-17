@@ -108,7 +108,7 @@ let[x] in x;
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },

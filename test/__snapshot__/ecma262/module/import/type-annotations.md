@@ -489,7 +489,7 @@ import { type Foo12 } from "bar";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 176,
                 "end": 183
             },
@@ -510,7 +510,7 @@ import { type Foo12 } from "bar";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 183,
                         "end": 185
                     },

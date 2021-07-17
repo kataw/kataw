@@ -167,7 +167,7 @@ c */? foo : bar : bar;
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 15,
                                     "end": 19
                                 },
@@ -326,7 +326,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 8192,
+                                                                        "transformFlags": 0,
                                                                         "start": 116,
                                                                         "end": 121
                                                                     },
@@ -349,7 +349,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 8192,
+                                                                        "transformFlags": 0,
                                                                         "start": 124,
                                                                         "end": 129
                                                                     },
@@ -663,7 +663,7 @@ c */? foo : bar : bar;
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 270,
                                     "end": 274
                                 },
@@ -822,7 +822,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 8192,
+                                                                        "transformFlags": 0,
                                                                         "start": 371,
                                                                         "end": 376
                                                                     },
@@ -845,7 +845,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
-                                                                        "transformFlags": 8192,
+                                                                        "transformFlags": 0,
                                                                         "start": 379,
                                                                         "end": 384
                                                                     },
@@ -1972,7 +1972,7 @@ c */? foo : bar : bar;
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1177,
                                     "end": 1181
                                 },

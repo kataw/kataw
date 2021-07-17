@@ -53,7 +53,7 @@ function *infer_stmt() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -200,7 +200,7 @@ function *infer_stmt() {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 46
                                     },
@@ -216,7 +216,7 @@ function *infer_stmt() {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 52
                                     },
@@ -266,7 +266,7 @@ function *infer_stmt() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 90,
                 "end": 92
             },
@@ -356,7 +356,7 @@ function *infer_stmt() {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 120,
                                         "end": 124
                                     },
@@ -388,7 +388,7 @@ function *infer_stmt() {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 133,
                                         "end": 138
                                     },
@@ -438,7 +438,7 @@ function *infer_stmt() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 165,
                 "end": 167
             },
@@ -528,7 +528,7 @@ function *infer_stmt() {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 196,
                                         "end": 200
                                     },
@@ -560,7 +560,7 @@ function *infer_stmt() {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 209,
                                         "end": 214
                                     },
@@ -610,7 +610,7 @@ function *infer_stmt() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 242,
                 "end": 244
             },

@@ -48,7 +48,7 @@ function *f(){   for (yield x in y in z);   }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -114,7 +114,7 @@ function *f(){   for (yield x in y in z);   }
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -132,7 +132,7 @@ function *f(){   for (yield x in y in z);   }
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 37
                                 },

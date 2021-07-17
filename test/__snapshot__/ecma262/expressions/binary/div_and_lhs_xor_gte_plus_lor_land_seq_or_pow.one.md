@@ -39,7 +39,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -78,7 +78,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                                 "operatorToken": {
                                     "kind": 35140,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 64,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -207,7 +207,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                             "operatorToken": {
                                 "kind": 34620,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 16,
                                 "start": 46,
                                 "end": 50
                             },

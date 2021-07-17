@@ -58,7 +58,7 @@ x({*foo(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 3,
                                             "end": 4
                                         },
@@ -175,7 +175,7 @@ x({*foo(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -285,7 +285,7 @@ x({*foo(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 37,
                                             "end": 38
                                         },
@@ -1004,7 +1004,7 @@ x({*foo(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 167,
                                             "end": 169
                                         },
@@ -1114,7 +1114,7 @@ x({*foo(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 184,
                                             "end": 185
                                         },

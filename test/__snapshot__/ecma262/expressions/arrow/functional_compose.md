@@ -207,7 +207,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 32,
                                                             "start": 54,
                                                             "end": 55
                                                         },
@@ -436,7 +436,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 32,
                                                             "start": 125,
                                                             "end": 126
                                                         },
@@ -649,7 +649,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 32,
                                                             "start": 195,
                                                             "end": 196
                                                         },
@@ -878,7 +878,7 @@ this.subscriptions.add(
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 32,
                                                             "start": 273,
                                                             "end": 274
                                                         },

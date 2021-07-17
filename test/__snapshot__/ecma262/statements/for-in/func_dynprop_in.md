@@ -103,7 +103,7 @@ for (function(){ }[x in y] in x);
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 23
                     },
@@ -129,7 +129,7 @@ for (function(){ }[x in y] in x);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 29
             },

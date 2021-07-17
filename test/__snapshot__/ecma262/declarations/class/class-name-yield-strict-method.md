@@ -221,7 +221,7 @@ function *f() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 85,
                 "end": 87
             },

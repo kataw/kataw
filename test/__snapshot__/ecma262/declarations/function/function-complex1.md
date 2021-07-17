@@ -304,7 +304,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 58,
                                         "end": 63
                                     },
@@ -904,7 +904,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 213,
                                         "end": 218
                                     },

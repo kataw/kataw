@@ -395,7 +395,7 @@ var a: typeof A[];
                                     "typeOfKeyword": {
                                         "kind": 138477613,
                                         "flags": 64,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 84,
                                         "end": 91
                                     },

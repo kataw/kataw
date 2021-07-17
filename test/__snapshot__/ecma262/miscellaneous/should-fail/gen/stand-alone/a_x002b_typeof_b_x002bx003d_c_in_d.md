@@ -47,7 +47,7 @@ a + typeof b += c in d
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -91,7 +91,7 @@ a + typeof b += c in d
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },

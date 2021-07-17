@@ -775,7 +775,7 @@ foo((x, y) => {});
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 147,
                                 "end": 148
                             },
@@ -814,7 +814,7 @@ foo((x, y) => {});
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 153,
                                 "end": 154
                             },
@@ -1057,7 +1057,7 @@ foo((x, y) => {});
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 16,
                     "start": 199,
                     "end": 203
                 },
@@ -2203,7 +2203,7 @@ foo((x, y) => {});
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 425,
                     "end": 433
                 },
@@ -2389,7 +2389,7 @@ foo((x, y) => {});
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 475,
                                         "end": 476
                                     },
@@ -2410,7 +2410,7 @@ foo((x, y) => {});
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 477,
                                     "end": 478
                                 },

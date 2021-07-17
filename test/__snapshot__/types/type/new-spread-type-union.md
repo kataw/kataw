@@ -297,7 +297,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "typeOfKeyword": {
                                 "kind": 138477613,
                                 "flags": 64,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 76
                             },

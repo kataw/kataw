@@ -75,7 +75,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                 "operatorToken": {
                                     "kind": 67143222,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 26,
                                     "end": 28
                                 },
@@ -137,7 +137,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                 "operatorToken": {
                                     "kind": 67143222,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 48,
                                     "end": 50
                                 },

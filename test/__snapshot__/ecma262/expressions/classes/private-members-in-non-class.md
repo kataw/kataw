@@ -665,7 +665,7 @@ class C { test() {get #a() { }}}
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 162,
                                     "end": 163
                                 },
@@ -885,7 +885,7 @@ class C { test() {get #a() { }}}
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 209,
                                         "end": 211
                                     },

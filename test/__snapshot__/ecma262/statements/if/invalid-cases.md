@@ -196,7 +196,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 46,
                     "end": 48
                 },
@@ -649,7 +649,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 178,
                     "end": 180
                 },

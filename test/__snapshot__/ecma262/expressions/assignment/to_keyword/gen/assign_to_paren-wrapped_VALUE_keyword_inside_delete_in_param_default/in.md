@@ -36,7 +36,7 @@ function *f(x = delete ((in) = f)) {}
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f(x = delete ((in) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -96,7 +96,7 @@ function *f(x = delete ((in) = f)) {}
                                             "operatorToken": {
                                                 "kind": 21006388,
                                                 "flags": 96,
-                                                "transformFlags": 8192,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             },

@@ -94,7 +94,7 @@ function f2() { yield /=2 /d }
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 25,
                                         "end": 27
                                     },

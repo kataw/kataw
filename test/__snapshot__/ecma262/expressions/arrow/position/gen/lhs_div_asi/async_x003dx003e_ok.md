@@ -60,7 +60,7 @@ async => ok
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 11,
                         "end": 13
                     },

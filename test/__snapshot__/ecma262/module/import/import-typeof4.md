@@ -34,7 +34,7 @@ import typeof a * from "b";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -55,7 +55,7 @@ import typeof a * from "b";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 15,
                         "end": 17
                     },

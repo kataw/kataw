@@ -155,7 +155,7 @@ var O = { p: 1 }, x = 10; ; if (typeof O.p ** 10) { foo(); }
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 38
                     },

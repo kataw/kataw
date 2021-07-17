@@ -53,7 +53,7 @@ x({get 0o4567(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 3,
                                             "end": 4
                                         },
@@ -113,7 +113,7 @@ x({get 0o4567(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 13,
                                             "end": 14
                                         },

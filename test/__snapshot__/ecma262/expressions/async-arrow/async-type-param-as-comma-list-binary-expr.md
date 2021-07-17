@@ -97,7 +97,7 @@ async  <T, U>(x) >> y - z;
                             "operatorToken": {
                                 "kind": 35141,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 64,
                                 "start": 16,
                                 "end": 19
                             },

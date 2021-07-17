@@ -76,7 +76,7 @@ async function f(){
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 30,
                                 "end": 32
                             },
@@ -142,7 +142,7 @@ async function f(){
                                             "inKeyword": {
                                                 "kind": 21006388,
                                                 "flags": 64,
-                                                "transformFlags": 8192,
+                                                "transformFlags": 0,
                                                 "start": 59,
                                                 "end": 62
                                             },

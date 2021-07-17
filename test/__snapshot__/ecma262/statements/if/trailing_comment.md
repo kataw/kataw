@@ -49,7 +49,7 @@ if (
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 16,
                     "start": 8,
                     "end": 12
                 },
@@ -112,7 +112,7 @@ if (
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 16,
                     "start": 38,
                     "end": 42
                 },
@@ -175,7 +175,7 @@ if (
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 16,
                     "start": 79,
                     "end": 83
                 },
@@ -238,7 +238,7 @@ if (
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 16,
                     "start": 109,
                     "end": 113
                 },

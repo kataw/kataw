@@ -1598,7 +1598,7 @@ try {} catch({ x: "str" }) {}
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 376,
                         "end": 377
                     },
@@ -3413,7 +3413,7 @@ try {} catch({ x: "str" }) {}
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 842,
                         "end": 843
                     },

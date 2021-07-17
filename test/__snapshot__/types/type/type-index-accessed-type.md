@@ -63,7 +63,7 @@ type Age = typeof MyArray[number]["age"];
                             "typeOfKeyword": {
                                 "kind": 138477613,
                                 "flags": 64,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },

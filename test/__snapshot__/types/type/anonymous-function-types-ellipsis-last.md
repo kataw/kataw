@@ -225,7 +225,7 @@ type A = (Array<string>, ...Array<string>) => void
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 50
                         },

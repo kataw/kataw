@@ -121,7 +121,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },

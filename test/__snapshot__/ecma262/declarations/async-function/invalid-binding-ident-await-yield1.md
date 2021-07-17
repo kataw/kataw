@@ -262,7 +262,7 @@ function * bar1() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 96,
                 "end": 98
             },
@@ -372,7 +372,7 @@ function * bar1() {
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 136,
                 "end": 138
             },

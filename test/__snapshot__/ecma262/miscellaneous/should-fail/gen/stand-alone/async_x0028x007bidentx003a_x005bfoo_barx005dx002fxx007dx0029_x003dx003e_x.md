@@ -93,7 +93,7 @@ async ({ident: [foo, bar]/x}) => x
                                             "operatorToken": {
                                                 "kind": 35640,
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 32,
                                                 "start": 25,
                                                 "end": 26
                                             },

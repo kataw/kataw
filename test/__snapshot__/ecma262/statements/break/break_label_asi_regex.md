@@ -97,7 +97,7 @@ x: for(;;) break x
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 18,
                         "end": 20
                     },
@@ -118,7 +118,7 @@ x: for(;;) break x
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 21,
                     "end": 22
                 },

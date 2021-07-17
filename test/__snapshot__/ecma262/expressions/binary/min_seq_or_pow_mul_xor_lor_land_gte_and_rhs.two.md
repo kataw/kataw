@@ -60,7 +60,7 @@ typeof x;
                         "operatorToken": {
                             "kind": 34620,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 7,
                             "end": 11
                         },
@@ -124,7 +124,7 @@ typeof x;
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 25,
                                 "end": 27
                             },
@@ -248,7 +248,7 @@ typeof x;
                             "operatorToken": {
                                 "kind": 35141,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 64,
                                 "start": 59,
                                 "end": 62
                             },
@@ -293,7 +293,7 @@ typeof x;
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 97,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 72
                 },

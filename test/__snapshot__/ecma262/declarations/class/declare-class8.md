@@ -139,7 +139,7 @@ declare function foo(x: number, y: string): void;
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 48
                 },

@@ -179,7 +179,7 @@ declare class C {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 71
                                     },
@@ -268,7 +268,7 @@ declare class C {
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 100,
                                         "end": 105
                                     },

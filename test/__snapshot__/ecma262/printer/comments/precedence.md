@@ -333,7 +333,7 @@ g = b + -+-a++;
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 32,
                             "start": 43,
                             "end": 51
                         },
@@ -351,7 +351,7 @@ g = b + -+-a++;
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 53,
                                 "end": 55
                             },
@@ -453,7 +453,7 @@ g = b + -+-a++;
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 75,
                         "end": 77
                     },
@@ -471,7 +471,7 @@ g = b + -+-a++;
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 32,
                             "start": 79,
                             "end": 81
                         },
@@ -568,7 +568,7 @@ g = b + -+-a++;
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 96,
                         "end": 98
                     },
@@ -1148,7 +1148,7 @@ g = b + -+-a++;
                         "operatorToken": {
                             "kind": 34622,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 247,
                             "end": 250
                         },
@@ -1187,7 +1187,7 @@ g = b + -+-a++;
                         "operatorToken": {
                             "kind": 34623,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 257,
                             "end": 260
                         },
@@ -1364,7 +1364,7 @@ g = b + -+-a++;
                         "operatorToken": {
                             "kind": 34622,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 307,
                             "end": 310
                         },
@@ -1403,7 +1403,7 @@ g = b + -+-a++;
                         "operatorToken": {
                             "kind": 34623,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 16,
                             "start": 317,
                             "end": 320
                         },
@@ -1673,7 +1673,7 @@ g = b + -+-a++;
                         "operandToken": {
                             "kind": 138477613,
                             "flags": 96,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 404,
                             "end": 411
                         },
@@ -1694,7 +1694,7 @@ g = b + -+-a++;
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 413,
                         "end": 417
                     },
@@ -1758,7 +1758,7 @@ g = b + -+-a++;
                             "operandToken": {
                                 "kind": 138477613,
                                 "flags": 96,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 434,
                                 "end": 440
                             },
@@ -1784,7 +1784,7 @@ g = b + -+-a++;
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 442,
                         "end": 446
                     },
@@ -1850,7 +1850,7 @@ g = b + -+-a++;
                                 "operandToken": {
                                     "kind": 138477613,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 464,
                                     "end": 470
                                 },
@@ -1871,7 +1871,7 @@ g = b + -+-a++;
                             "operatorToken": {
                                 "kind": 34620,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 16,
                                 "start": 472,
                                 "end": 476
                             },
@@ -1934,7 +1934,7 @@ g = b + -+-a++;
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 492,
                         "end": 499
                     },
@@ -2566,7 +2566,7 @@ g = b + -+-a++;
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 674,
                         "end": 676
                     },
@@ -4081,7 +4081,7 @@ g = b + -+-a++;
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 970,
                         "end": 971
                     },
@@ -4749,7 +4749,7 @@ g = b + -+-a++;
                     "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 1198,
                         "end": 1199
                     },

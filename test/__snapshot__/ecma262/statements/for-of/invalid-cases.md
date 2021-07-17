@@ -1356,7 +1356,7 @@ for ({a: b.c}-- of d) e;
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 303,
                     "end": 304
                 },
@@ -2666,7 +2666,7 @@ for ({a: b.c}-- of d) e;
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 614,
                         "end": 617
                     },
@@ -3280,7 +3280,7 @@ for ({a: b.c}-- of d) e;
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 753,
                                     "end": 758
                                 },
@@ -4661,7 +4661,7 @@ for ({a: b.c}-- of d) e;
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 1068,
                                     "end": 1073
                                 },
@@ -5447,7 +5447,7 @@ for ({a: b.c}-- of d) e;
                                     "operandToken": {
                                         "kind": 138477615,
                                         "flags": 96,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 1246,
                                         "end": 1251
                                     },
@@ -6014,7 +6014,7 @@ for ({a: b.c}-- of d) e;
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 1385,
                                     "end": 1390
                                 },
@@ -6324,7 +6324,7 @@ for ({a: b.c}-- of d) e;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 1495,
                 "end": 1498
             },

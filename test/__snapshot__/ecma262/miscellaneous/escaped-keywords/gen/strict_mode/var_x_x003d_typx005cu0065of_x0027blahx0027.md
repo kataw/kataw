@@ -52,7 +52,7 @@ var x = typ\u0065of 'blah'
                             "operandToken": {
                                 "kind": 138477613,
                                 "flags": 16480,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 19
                             },

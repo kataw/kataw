@@ -29,7 +29,7 @@ function *f() {  return void yield;  }
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -72,7 +72,7 @@ function *f() {  return void yield;  }
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 28
                                 },

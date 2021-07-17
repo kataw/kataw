@@ -49,7 +49,7 @@ import * as foo from "foo";
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 6,
                         "end": 8
                     },

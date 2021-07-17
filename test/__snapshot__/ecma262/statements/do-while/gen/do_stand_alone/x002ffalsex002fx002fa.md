@@ -47,7 +47,7 @@ do /false//a
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 10,
                         "end": 11
                     },

@@ -31,7 +31,7 @@ typeof a + b / c
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 6
                     },
@@ -70,7 +70,7 @@ typeof a + b / c
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 12,
                         "end": 14
                     },

@@ -148,7 +148,7 @@ async function p(){
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 42
                                 },

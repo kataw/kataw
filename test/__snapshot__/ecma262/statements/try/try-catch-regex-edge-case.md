@@ -77,7 +77,7 @@ try/catch/finally/{
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 17,
                     "end": 18
                 },

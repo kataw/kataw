@@ -73,7 +73,7 @@ export {}
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 9,
                         "end": 11
                     },
@@ -94,7 +94,7 @@ export {}
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 14,
                     "end": 15
                 },

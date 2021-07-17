@@ -107,7 +107,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                 "inKeyword": {
                                                     "kind": 21006388,
                                                     "flags": 64,
-                                                    "transformFlags": 8192,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 39
                                                 },

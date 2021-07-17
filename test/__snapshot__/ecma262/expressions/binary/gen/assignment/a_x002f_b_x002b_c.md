@@ -58,7 +58,7 @@ x = a / b + c
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 32,
                             "start": 5,
                             "end": 7
                         },

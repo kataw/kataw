@@ -60,7 +60,7 @@ async x => (void) = 1
                             "operandToken": {
                                 "kind": 138477615,
                                 "flags": 96,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 16
                             },

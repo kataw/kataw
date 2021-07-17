@@ -56,7 +56,7 @@ class Foo {
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 11,
                                 "end": 14
                             },

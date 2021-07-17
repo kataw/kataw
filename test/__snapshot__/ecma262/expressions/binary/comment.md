@@ -141,7 +141,7 @@ foo[
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 37,
                                         "end": 39
                                     },
@@ -161,7 +161,7 @@ foo[
                                             "operatorToken": {
                                                 "kind": 67143222,
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 32,
                                                 "start": 47,
                                                 "end": 49
                                             },
@@ -247,7 +247,7 @@ foo[
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 32,
                                         "start": 102,
                                         "end": 104
                                     },

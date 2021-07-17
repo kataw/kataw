@@ -180,7 +180,7 @@ declare function three(value :mixed) :boolean;
                             "type": {
                                 "kind": 138477615,
                                 "flags": 2097216,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 71,
                                 "end": 75
                             },

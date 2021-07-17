@@ -73,7 +73,7 @@ function not_gen() { function *g() { yield void x } }}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 29,
                                 "end": 31
                             },
@@ -120,7 +120,7 @@ function not_gen() { function *g() { yield void x } }}
                                                     "operandToken": {
                                                         "kind": 138477615,
                                                         "flags": 96,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 42,
                                                         "end": 47
                                                     },

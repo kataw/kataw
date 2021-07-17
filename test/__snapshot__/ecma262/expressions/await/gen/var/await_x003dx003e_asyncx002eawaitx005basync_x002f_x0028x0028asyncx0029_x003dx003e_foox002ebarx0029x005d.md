@@ -163,7 +163,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 65,
                         "end": 67
                     },

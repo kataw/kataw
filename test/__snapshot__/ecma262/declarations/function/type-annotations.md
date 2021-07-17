@@ -713,7 +713,7 @@ function foo28(numVal?: number = 2) {}
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 270,
                                         "end": 275
                                     },
@@ -1651,7 +1651,7 @@ function foo28(numVal?: number = 2) {}
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
-                            "transformFlags": 8192,
+                            "transformFlags": 0,
                             "start": 553,
                             "end": 558
                         },

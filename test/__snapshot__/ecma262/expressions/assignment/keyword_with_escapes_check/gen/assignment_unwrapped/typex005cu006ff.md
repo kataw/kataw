@@ -31,7 +31,7 @@ type\u006ff = x;
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 16480,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },

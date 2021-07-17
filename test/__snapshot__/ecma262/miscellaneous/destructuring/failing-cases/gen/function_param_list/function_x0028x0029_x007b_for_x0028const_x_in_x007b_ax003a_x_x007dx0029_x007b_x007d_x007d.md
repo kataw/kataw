@@ -157,7 +157,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
                             },

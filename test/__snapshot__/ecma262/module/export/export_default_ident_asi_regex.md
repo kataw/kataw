@@ -54,7 +54,7 @@ export default x
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 16,
                         "end": 18
                     },
@@ -75,7 +75,7 @@ export default x
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 19,
                     "end": 20
                 },

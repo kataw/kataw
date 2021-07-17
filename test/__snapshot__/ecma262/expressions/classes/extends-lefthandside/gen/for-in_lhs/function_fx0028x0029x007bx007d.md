@@ -86,7 +86,7 @@ for (function f(){} in x) ;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },

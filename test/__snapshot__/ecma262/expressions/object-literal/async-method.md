@@ -40,7 +40,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -273,7 +273,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 74,
                                     "end": 76
                                 },
@@ -518,7 +518,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 133,
                                     "end": 135
                                 },
@@ -709,7 +709,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 184,
                                     "end": 186
                                 },
@@ -852,7 +852,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 218,
                                     "end": 220
                                 },

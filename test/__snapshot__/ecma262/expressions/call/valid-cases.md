@@ -532,7 +532,7 @@ x(class {} ?? 1);
                                 "operandToken": {
                                     "kind": 4259886,
                                     "flags": 96,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 100
                                 },
@@ -625,7 +625,7 @@ x(class {} ?? 1);
                                             "operandToken": {
                                                 "kind": 138477615,
                                                 "flags": 96,
-                                                "transformFlags": 8192,
+                                                "transformFlags": 0,
                                                 "start": 116,
                                                 "end": 121
                                             },

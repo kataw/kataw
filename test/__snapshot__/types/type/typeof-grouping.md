@@ -57,7 +57,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
                     "typeOfKeyword": {
                         "kind": 138477613,
                         "flags": 64,
-                        "transformFlags": 8192,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 48
                     },

@@ -29,7 +29,7 @@ for(delete((1)?y:x in y) in z)x
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
@@ -90,7 +90,7 @@ for(delete((1)?y:x in y) in z)x
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
-                                "transformFlags": 8192,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
@@ -126,7 +126,7 @@ for(delete((1)?y:x in y) in z)x
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 27
             },

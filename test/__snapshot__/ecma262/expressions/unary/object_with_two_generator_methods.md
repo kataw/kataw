@@ -42,7 +42,7 @@ wrap({* foo(){},*bar(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 6,
                                             "end": 7
                                         },
@@ -102,7 +102,7 @@ wrap({* foo(){},*bar(){}});
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 16,
                                             "end": 17
                                         },

@@ -1864,7 +1864,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 2264,
                 "end": 2267
             },
@@ -1927,7 +1927,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 2279,
                 "end": 2282
             },
@@ -2118,7 +2118,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 2419,
                 "end": 2422
             },
@@ -2252,7 +2252,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 2774,
                 "end": 2777
             },
@@ -2322,7 +2322,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 2791,
                 "end": 2794
             },
@@ -2534,7 +2534,7 @@ try {} catch(e) { for(var e of 0); };
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 2843,
                 "end": 2846
             },
@@ -3446,7 +3446,7 @@ try {} catch(e) { for(var e of 0); };
                                                                     "asteriskToken": {
                                                                         "kind": 67143222,
                                                                         "flags": 64,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 32,
                                                                         "start": 3336,
                                                                         "end": 3337
                                                                     },
@@ -5025,7 +5025,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4704,
                 "end": 4705
             },
@@ -5171,7 +5171,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4740,
                 "end": 4741
             },
@@ -5325,7 +5325,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4778,
                 "end": 4779
             },
@@ -5390,7 +5390,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "asteriskToken": {
                                                     "kind": 67143222,
                                                     "flags": 64,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 32,
                                                     "start": 4795,
                                                     "end": 4796
                                                 },
@@ -5485,7 +5485,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4817,
                 "end": 4818
             },
@@ -5680,7 +5680,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4860,
                 "end": 4861
             },
@@ -5848,7 +5848,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4899,
                 "end": 4900
             },
@@ -6011,7 +6011,7 @@ try {} catch(e) { for(var e of 0); };
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 4937,
                 "end": 4938
             },

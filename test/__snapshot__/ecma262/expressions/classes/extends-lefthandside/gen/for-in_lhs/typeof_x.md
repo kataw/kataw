@@ -36,7 +36,7 @@ for (typeof x in x) ;
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
-                    "transformFlags": 8192,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
@@ -57,7 +57,7 @@ for (typeof x in x) ;
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },

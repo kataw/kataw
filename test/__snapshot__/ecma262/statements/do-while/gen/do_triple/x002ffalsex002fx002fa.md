@@ -65,7 +65,7 @@ do do do /false//a while while while
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 16,
                                 "end": 17
                             },

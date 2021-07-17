@@ -44,7 +44,7 @@ do function *f(){} while (x);
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 11,
                     "end": 13
                 },

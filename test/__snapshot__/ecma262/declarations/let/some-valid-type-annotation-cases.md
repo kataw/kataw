@@ -286,7 +286,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "type": {
                                                     "kind": 138477615,
                                                     "flags": 2097216,
-                                                    "transformFlags": 8192,
+                                                    "transformFlags": 0,
                                                     "start": 55,
                                                     "end": 60
                                                 },
@@ -600,7 +600,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 143,
                                         "end": 148
                                     },

@@ -298,7 +298,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 128,
                         "end": 132
                     },
@@ -486,7 +486,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 212,
                         "end": 216
                     },
@@ -586,7 +586,7 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
                 "operatorToken": {
                     "kind": 34620,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 16,
                     "start": 281,
                     "end": 285
                 },

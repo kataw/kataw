@@ -1318,7 +1318,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 255,
                                     "end": 257
                                 },
@@ -2594,7 +2594,7 @@ a = { y: x = 1 } = b;
                                         "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
-                                            "transformFlags": 0,
+                                            "transformFlags": 32,
                                             "start": 504,
                                             "end": 506
                                         },
@@ -3873,7 +3873,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 785,
                                     "end": 786
                                 },
@@ -3964,7 +3964,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 801,
                                     "end": 802
                                 },
@@ -4055,7 +4055,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 820,
                                     "end": 821
                                 },
@@ -4260,7 +4260,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 863,
                                     "end": 864
                                 },
@@ -4367,7 +4367,7 @@ a = { y: x = 1 } = b;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 884,
                                     "end": 885
                                 },
@@ -4602,7 +4602,7 @@ a = { y: x = 1 } = b;
                                     "operandToken": {
                                         "kind": 138477613,
                                         "flags": 96,
-                                        "transformFlags": 8192,
+                                        "transformFlags": 0,
                                         "start": 928,
                                         "end": 935
                                     },

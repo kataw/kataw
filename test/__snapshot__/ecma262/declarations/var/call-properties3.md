@@ -1399,7 +1399,7 @@ var z : Object = (x) => "hi"
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 8192,
+                                                "transformFlags": 0,
                                                 "start": 715,
                                                 "end": 720
                                             },
@@ -1719,7 +1719,7 @@ var z : Object = (x) => "hi"
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
-                                                "transformFlags": 8192,
+                                                "transformFlags": 0,
                                                 "start": 812,
                                                 "end": 817
                                             },
@@ -1798,7 +1798,7 @@ var z : Object = (x) => "hi"
                                                 "operatorToken": {
                                                     "kind": 67143222,
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 32,
                                                     "start": 832,
                                                     "end": 834
                                                 },

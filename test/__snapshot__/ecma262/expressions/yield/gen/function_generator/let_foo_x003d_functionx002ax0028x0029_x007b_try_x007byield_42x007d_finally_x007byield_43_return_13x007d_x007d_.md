@@ -36,7 +36,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -139,7 +139,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 32,
                                                                 "start": 58,
                                                                 "end": 59
                                                             },

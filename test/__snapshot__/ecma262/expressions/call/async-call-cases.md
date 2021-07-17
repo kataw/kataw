@@ -1990,7 +1990,7 @@ async(a, [q].z = y);
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 434,
                                 "end": 436
                             },
@@ -2257,7 +2257,7 @@ async(a, [q].z = y);
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 486,
                                     "end": 488
                                 },
@@ -2542,7 +2542,7 @@ async(a, [q].z = y);
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 543,
                                 "end": 545
                             },
@@ -2836,7 +2836,7 @@ async(a, [q].z = y);
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 32,
                                     "start": 604,
                                     "end": 606
                                 },

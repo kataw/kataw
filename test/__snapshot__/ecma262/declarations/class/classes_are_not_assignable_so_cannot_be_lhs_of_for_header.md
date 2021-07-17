@@ -141,7 +141,7 @@ for (class x { [a](){} } in c);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 27
             },

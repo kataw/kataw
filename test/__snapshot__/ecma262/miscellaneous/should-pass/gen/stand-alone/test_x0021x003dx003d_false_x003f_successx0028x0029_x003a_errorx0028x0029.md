@@ -40,7 +40,7 @@ test !== false ? success() : error()
                     "operatorToken": {
                         "kind": 34621,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 16,
                         "start": 4,
                         "end": 8
                     },

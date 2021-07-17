@@ -253,7 +253,7 @@ class Twelve { static async ['prototype']() {} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 78,
                                 "end": 80
                             },
@@ -921,7 +921,7 @@ class Twelve { static async ['prototype']() {} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 320,
                                 "end": 322
                             },

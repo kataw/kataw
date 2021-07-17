@@ -66,7 +66,7 @@ class x {static * delete(){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
-                                "transformFlags": 0,
+                                "transformFlags": 32,
                                 "start": 15,
                                 "end": 17
                             },

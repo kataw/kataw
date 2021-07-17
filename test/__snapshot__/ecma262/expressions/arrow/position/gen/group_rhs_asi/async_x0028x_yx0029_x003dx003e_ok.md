@@ -39,7 +39,7 @@ x *
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 32,
                     "start": 1,
                     "end": 3
                 },

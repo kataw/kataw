@@ -479,7 +479,7 @@ import { let as l } from 'm.js';
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 148,
                         "end": 150
                     },
@@ -1008,7 +1008,7 @@ import { let as l } from 'm.js';
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 324,
                         "end": 326
                     },
@@ -1181,7 +1181,7 @@ import { let as l } from 'm.js';
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 32,
                         "start": 388,
                         "end": 390
                     },

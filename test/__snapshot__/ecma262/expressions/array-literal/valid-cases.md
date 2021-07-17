@@ -7283,7 +7283,7 @@
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1177,
                                     "end": 1181
                                 },
@@ -7451,7 +7451,7 @@
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1212,
                                     "end": 1216
                                 },
@@ -7727,7 +7727,7 @@
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1267,
                                     "end": 1271
                                 },
@@ -7836,7 +7836,7 @@
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1293,
                                     "end": 1297
                                 },
@@ -7980,7 +7980,7 @@
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 16,
                                     "start": 1320,
                                     "end": 1324
                                 },
@@ -8207,7 +8207,7 @@
                             "operatorToken": {
                                 "kind": 34620,
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 16,
                                 "start": 1365,
                                 "end": 1369
                             },

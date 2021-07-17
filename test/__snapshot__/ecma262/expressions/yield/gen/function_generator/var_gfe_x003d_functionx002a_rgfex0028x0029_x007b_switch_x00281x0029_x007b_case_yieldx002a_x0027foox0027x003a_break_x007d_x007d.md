@@ -36,7 +36,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
-                "transformFlags": 0,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -140,7 +140,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 32,
                                                                 "start": 58,
                                                                 "end": 59
                                                             },
@@ -212,7 +212,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "asteriskToken": {
                                                                                                 "kind": 67143222,
                                                                                                 "flags": 64,
-                                                                                                "transformFlags": 0,
+                                                                                                "transformFlags": 32,
                                                                                                 "start": 92,
                                                                                                 "end": 93
                                                                                             },

@@ -169,7 +169,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                 "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 32,
                                                                     "start": 53,
                                                                     "end": 55
                                                                 },

@@ -112,7 +112,7 @@ for(function () { for (const x in { a: x }) { } } in y);
                                 "inKeyword": {
                                     "kind": 21006388,
                                     "flags": 64,
-                                    "transformFlags": 8192,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 33
                                 },
@@ -199,7 +199,7 @@ for(function () { for (const x in { a: x }) { } } in y);
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
-                "transformFlags": 8192,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 52
             },

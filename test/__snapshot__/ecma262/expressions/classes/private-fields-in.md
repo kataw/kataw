@@ -289,7 +289,7 @@ class C {
                                                             "operatorToken": {
                                                                 "kind": 21006388,
                                                                 "flags": 96,
-                                                                "transformFlags": 8192,
+                                                                "transformFlags": 0,
                                                                 "start": 94,
                                                                 "end": 97
                                                             },
@@ -328,7 +328,7 @@ class C {
                                                             "operatorToken": {
                                                                 "kind": 21006388,
                                                                 "flags": 96,
-                                                                "transformFlags": 8192,
+                                                                "transformFlags": 0,
                                                                 "start": 112,
                                                                 "end": 115
                                                             },
@@ -372,7 +372,7 @@ class C {
                                                         "operatorToken": {
                                                             "kind": 21006388,
                                                             "flags": 96,
-                                                            "transformFlags": 8192,
+                                                            "transformFlags": 0,
                                                             "start": 130,
                                                             "end": 133
                                                         },
