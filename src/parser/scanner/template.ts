@@ -35,7 +35,7 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
 
     // Escape character
     if (cp === Char.Backslash) {
-      let start1 = parser.pos;
+      let diagnosticStart = parser.pos;
       const code = scanTemplateEscape(parser, source);
       if (code >= 0) {
         ret += fromCodePoint(code);
@@ -43,8 +43,8 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
         ret = '';
         cp = scanBadTemplate(parser, cp);
       } else {
-        handleStringError(parser, code, start1);
-        ret += parser.source.slice(start + 1, parser.pos);
+        handleStringError(parser, code, diagnosticStart);
+        ret += parser.source.slice(diagnosticStart + 1, parser.pos);
       }
     } else {
       parser.pos++;
