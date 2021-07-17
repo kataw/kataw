@@ -243,7 +243,7 @@ export function parse(
   let pos = 0;
 
   // "#!/usr/bin/env node"
-  if (source.charCodeAt(0) === Char.Hash && source.charCodeAt(1) === Char.Exclamation) {
+  if (source.charCodeAt(1) === Char.Exclamation && source.charCodeAt(0) === Char.Hash) {
     pos = 2; // skips: '#!...'
     while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
       pos++;
@@ -262,10 +262,11 @@ export function parse(
       pos++;
     }
 
+    // HTML comments can only be used with web compatibility or in script mode
     if (isModule || context & Context.OptionsDisableWebCompat) {
       onError(
         DiagnosticSource.Parser,
-        DiagnosticKind.Error,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError  ,
         diagnosticMap[
           context & Context.OptionsDisableWebCompat
             ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
