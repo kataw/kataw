@@ -59,7 +59,7 @@
     "prettier-all": "node ./scripts/prettier.js write",
     "bundle": "cross-env rimraf dist && node scripts/bundle.js",
     "bundle:bench": "cross-env rimraf dist && node scripts/bundle.js bench",
-    "test": "ts-node test/cli -c",
+    "test": "ts-node test/cli",
     "test:update-all": "ts-node test/cli -u all",
     "test:update-parser": "ts-node test/cli -u parser",
     "test:update-printer": "ts-node test/cli -u printer",
