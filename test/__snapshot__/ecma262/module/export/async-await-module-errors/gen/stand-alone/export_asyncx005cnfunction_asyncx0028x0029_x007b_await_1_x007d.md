@@ -176,10 +176,10 @@ export async\nfunction async() { await 1; }
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
 ✖ Declaration or statement expected - start: 6, end: 13
-✖ '; ' expected - start: 12, end: 13
-✖ 'async' expected - start: 22, end: 28
-✖ '{' expected - start: 30, end: 32
-✖ '; ' expected - start: 38, end: 40
+✖ '; ' is not allowed here. Did you mean ';'? - start: 12, end: 13
+✖ 'async' is not allowed here. Did you mean ';'? - start: 22, end: 28
+✖ '{' is not allowed here. Did you mean ';'? - start: 30, end: 32
+✖ '; ' is not allowed here. Did you mean ';'? - start: 38, end: 40
 
 ```
 

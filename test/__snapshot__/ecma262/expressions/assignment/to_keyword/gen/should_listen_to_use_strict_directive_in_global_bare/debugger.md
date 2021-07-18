@@ -82,7 +82,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '=' expected - start: 22, end: 24
+✖ '=' is not allowed here. Did you mean ';'? - start: 22, end: 24
 
 ```
 

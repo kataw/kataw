@@ -2870,7 +2870,7 @@ x?.y = 0;
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 ✖ Identifier expected - start: 32, end: 34
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
-✖ ']' expected - start: 45, end: 46
+✖ ']' is not allowed here. Did you mean ';'? - start: 45, end: 46
 ✖ Declaration or statement expected - start: 46, end: 48
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 59, end: 61
 ✖ An member access expression should take an argument. - start: 70, end: 71
@@ -2879,7 +2879,7 @@ x?.y = 0;
 ✖ An member access expression should take an argument. - start: 100, end: 101
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 99, end: 103
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 101, end: 103
-✖ ']' expected - start: 129, end: 130
+✖ ']' is not allowed here. Did you mean ';'? - start: 129, end: 130
 ✖ Declaration or statement expected - start: 130, end: 132
 ✖ An member access expression should take an argument. - start: 144, end: 145
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 143, end: 147
@@ -2904,7 +2904,7 @@ x?.y = 0;
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 295, end: 297
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 309, end: 311
 ✖ ',' expected - start: 313, end: 314
-✖ ')' expected - start: 319, end: 320
+✖ ')' is not allowed here. Did you mean ';'? - start: 319, end: 320
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 323, end: 325
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 337, end: 339
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 347, end: 350

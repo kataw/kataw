@@ -90,7 +90,7 @@
 ✖ ',' expected - start: 7, end: 8
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 17
-✖ ')' expected - start: 19, end: 20
+✖ ')' is not allowed here. Did you mean ';'? - start: 19, end: 20
 
 ```
 

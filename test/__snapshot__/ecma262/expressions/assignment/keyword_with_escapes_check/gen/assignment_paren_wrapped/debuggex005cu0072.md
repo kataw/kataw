@@ -104,8 +104,8 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 14
 ✖ Keywords cannot contain escape characters - start: 1, end: 14
-✖ '=' expected - start: 14, end: 16
-✖ ')' expected - start: 18, end: 19
+✖ '=' is not allowed here. Did you mean ';'? - start: 14, end: 16
+✖ ')' is not allowed here. Did you mean ';'? - start: 18, end: 19
 
 ```
 

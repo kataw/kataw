@@ -171,7 +171,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
 ```javascript
 ✖ Identifier expected - start: 70, end: 71
 ✖ Variable declaration not allowed at this location - start: 71, end: 74
-✖ '=>' expected - start: 71, end: 74
+✖ '=>' is not allowed here. Did you mean ';'? - start: 71, end: 74
 ✖ Variable declaration not allowed at this location - start: 71, end: 74
 ✖ Declaration or statement expected - start: 78, end: 80
 ✖ Declaration or statement expected - start: 80, end: 81

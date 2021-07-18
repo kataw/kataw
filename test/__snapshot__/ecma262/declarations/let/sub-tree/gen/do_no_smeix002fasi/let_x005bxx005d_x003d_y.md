@@ -129,7 +129,7 @@ do let [x] = y while (a);
 ```javascript
 ✖ `let 
  [` is a restricted production at the start of a statement - start: 2, end: 8
-✖ 'while' expected - start: 14, end: 20
+✖ 'while' is not allowed here. Did you mean ';'? - start: 14, end: 20
 
 ```
 

@@ -139,7 +139,7 @@ var [..x] = obj;
 ✖ Missing initializer in destructuring declaration - start: 5, end: 6
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
 ✖ Declaration or statement expected - start: 6, end: 7
-✖ ']' expected - start: 8, end: 9
+✖ ']' is not allowed here. Did you mean ';'? - start: 8, end: 9
 ✖ Declaration or statement expected - start: 9, end: 11
 
 ```

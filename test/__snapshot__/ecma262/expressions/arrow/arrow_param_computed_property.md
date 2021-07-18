@@ -230,7 +230,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 35, end: 38
+✖ '=>' is not allowed here. Did you mean ';'? - start: 35, end: 38
 
 ```
 

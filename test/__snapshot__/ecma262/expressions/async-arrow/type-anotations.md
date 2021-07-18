@@ -1135,7 +1135,7 @@ async (...[x]?: string, a?) => {};
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 279, end: 282
+✖ '=>' is not allowed here. Did you mean ';'? - start: 279, end: 282
 
 ```
 

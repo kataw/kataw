@@ -152,7 +152,7 @@ do let {x} = y while (a);
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 6, end: 8
+✖ '{' is not allowed here. Did you mean ';'? - start: 6, end: 8
 ✖ Declaration or statement expected - start: 15, end: 20
 
 ```

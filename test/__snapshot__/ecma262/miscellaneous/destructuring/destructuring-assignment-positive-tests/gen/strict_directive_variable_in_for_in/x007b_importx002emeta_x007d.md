@@ -277,7 +277,7 @@
 ✖ ',' expected - start: 40, end: 41
 ✖ Identifier expected - start: 45, end: 47
 ✖ Identifier expected - start: 47, end: 50
-✖ ')' expected - start: 53, end: 54
+✖ ')' is not allowed here. Did you mean ';'? - start: 53, end: 54
 
 ```
 

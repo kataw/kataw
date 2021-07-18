@@ -123,7 +123,7 @@
 ✖ Identifier expected - start: 22, end: 23
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 14, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
-✖ ')' expected - start: 27, end: 28
+✖ ')' is not allowed here. Did you mean ';'? - start: 27, end: 28
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 32
 

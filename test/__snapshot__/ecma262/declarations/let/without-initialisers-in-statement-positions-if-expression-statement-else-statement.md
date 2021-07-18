@@ -110,7 +110,7 @@ if (true) {} else let x;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 21, end: 23
+✖ '; ' is not allowed here. Did you mean ';'? - start: 21, end: 23
 
 ```
 

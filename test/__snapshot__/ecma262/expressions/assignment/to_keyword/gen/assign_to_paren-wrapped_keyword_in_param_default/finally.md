@@ -195,7 +195,7 @@ async (x = (finally) = f) => {}
 ✖ 'try' expected - start: 12, end: 19
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
-✖ ')' expected - start: 24, end: 25
+✖ ')' is not allowed here. Did you mean ';'? - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 28
 
 ```

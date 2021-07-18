@@ -89,7 +89,7 @@
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 13, end: 22
 ✖ Declaration or statement expected - start: 20, end: 22
-✖ '=' expected - start: 20, end: 22
+✖ '=' is not allowed here. Did you mean ';'? - start: 20, end: 22
 
 ```
 

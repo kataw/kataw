@@ -90,7 +90,7 @@ type number = string;
 ### Diagnostics
 
 ```javascript
-✖ 'number' expected - start: 4, end: 11
+✖ 'number' is not allowed here. Did you mean ';'? - start: 4, end: 11
 
 ```
 

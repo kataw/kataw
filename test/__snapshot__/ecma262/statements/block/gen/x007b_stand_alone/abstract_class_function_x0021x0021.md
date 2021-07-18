@@ -205,7 +205,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'class' expected - start: 10, end: 16
+✖ 'class' is not allowed here. Did you mean ';'? - start: 10, end: 16
 ✖ Binding identifier expected - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 27
 ✖ Missing an opening parentheses - '( - start: 26, end: 27

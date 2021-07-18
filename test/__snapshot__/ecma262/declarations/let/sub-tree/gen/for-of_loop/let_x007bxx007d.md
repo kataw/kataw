@@ -130,7 +130,7 @@ for (a of b) let {x}
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 16, end: 18
+✖ '{' is not allowed here. Did you mean ';'? - start: 16, end: 18
 
 ```
 

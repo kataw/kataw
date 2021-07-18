@@ -140,7 +140,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 16, end: 17
-✖ ')' expected - start: 24, end: 25
+✖ ')' is not allowed here. Did you mean ';'? - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 26
 
 ```

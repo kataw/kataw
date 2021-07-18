@@ -180,7 +180,7 @@ x => y {})
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 23, end: 24
-✖ '{' expected - start: 29, end: 31
+✖ '{' is not allowed here. Did you mean ';'? - start: 29, end: 31
 ✖ Declaration or statement expected - start: 32, end: 33
 
 ```

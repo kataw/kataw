@@ -197,10 +197,10 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ Cannot use 'import.meta' outside a module - start: 24, end: 29
 ✖ 'import.meta' is the only valid meta property for import - start: 24, end: 29
-✖ '; ' expected - start: 25, end: 29
+✖ '; ' is not allowed here. Did you mean ';'? - start: 25, end: 29
 
 ```
 

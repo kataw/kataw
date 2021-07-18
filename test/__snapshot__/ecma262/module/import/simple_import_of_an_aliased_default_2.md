@@ -165,9 +165,9 @@ import x, * as a from "y"
 
 ```javascript
 ✖ Identifier expected - start: 9, end: 11
-✖ '; ' expected - start: 14, end: 16
-✖ 'from' expected - start: 16, end: 21
-✖ '; ' expected - start: 21, end: 25
+✖ '; ' is not allowed here. Did you mean ';'? - start: 14, end: 16
+✖ 'from' is not allowed here. Did you mean ';'? - start: 16, end: 21
+✖ '; ' is not allowed here. Did you mean ';'? - start: 21, end: 25
 
 ```
 

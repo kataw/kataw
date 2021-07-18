@@ -92,7 +92,7 @@ import(x,undefined)
 ```javascript
 ✖ Dynamic import must have one specifier as an argument. - start: 8, end: 9
 ✖ Expected a ')' to match the '(' token here - start: 8, end: 9
-✖ ')' expected - start: 18, end: 19
+✖ ')' is not allowed here. Did you mean ';'? - start: 18, end: 19
 
 ```
 

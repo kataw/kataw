@@ -157,7 +157,7 @@ var foo = ((foo)): string => {};
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 17, end: 18
-✖ ':' expected - start: 17, end: 18
+✖ ':' is not allowed here. Did you mean ';'? - start: 17, end: 18
 
 ```
 

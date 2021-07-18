@@ -122,7 +122,7 @@
 ✖ Identifier expected - start: 19, end: 20
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
-✖ ')' expected - start: 24, end: 25
+✖ ')' is not allowed here. Did you mean ';'? - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29
 

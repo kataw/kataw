@@ -192,7 +192,7 @@ function *f(x = (export) = f) {}
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
-✖ ')' expected - start: 28, end: 29
+✖ ')' is not allowed here. Did you mean ';'? - start: 28, end: 29
 
 ```
 

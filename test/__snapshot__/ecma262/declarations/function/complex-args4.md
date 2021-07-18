@@ -157,8 +157,8 @@ unction f([b, a], ...b) {}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 7, end: 9
-✖ '{' expected - start: 23, end: 25
+✖ '; ' is not allowed here. Did you mean ';'? - start: 7, end: 9
+✖ '{' is not allowed here. Did you mean ';'? - start: 23, end: 25
 
 ```
 

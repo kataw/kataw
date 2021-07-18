@@ -128,7 +128,7 @@ export * as x from "x" foo
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 22, end: 26
+✖ '; ' is not allowed here. Did you mean ';'? - start: 22, end: 26
 
 ```
 

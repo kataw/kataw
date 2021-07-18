@@ -218,7 +218,7 @@ function *f(x = (with) = f) {}
 ✖ Missing an opening parentheses - '( - start: 21, end: 22
 ✖ Identifier expected - start: 22, end: 24
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 22, end: 24
-✖ ')' expected - start: 26, end: 27
+✖ ')' is not allowed here. Did you mean ';'? - start: 26, end: 27
 
 ```
 

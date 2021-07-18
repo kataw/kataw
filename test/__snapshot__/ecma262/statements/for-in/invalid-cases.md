@@ -8271,9 +8271,9 @@ for ({}.bar = x in obj);
 ✖ Cannot redeclare block-scoped variable - start: 589, end: 591
 ✖ Duplicate identifier - start: 611, end: 612
 ✖ Identifier expected - start: 661, end: 664
-✖ ')' expected - start: 670, end: 671
+✖ ')' is not allowed here. Did you mean ';'? - start: 670, end: 671
 ✖ Identifier expected - start: 685, end: 689
-✖ ')' expected - start: 695, end: 696
+✖ ')' is not allowed here. Did you mean ';'? - start: 695, end: 696
 ✖ Identifier expected - start: 717, end: 718
 ✖ Identifier expected - start: 734, end: 735
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 754, end: 756
@@ -8291,7 +8291,7 @@ for ({}.bar = x in obj);
 ✖ The parser expected to find a '}' to match the '{' token here - start: 1045, end: 1046
 ✖ Identifier expected - start: 1051, end: 1052
 ✖ Identifier expected - start: 1052, end: 1055
-✖ ')' expected - start: 1059, end: 1060
+✖ ')' is not allowed here. Did you mean ';'? - start: 1059, end: 1060
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 1085, end: 1092
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 1095, end: 1097
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 1139, end: 1142

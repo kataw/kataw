@@ -178,7 +178,7 @@ type a = (?!x) => T;
 
 ```javascript
 ✖ Type expected - start: 11, end: 12
-✖ ')' expected - start: 13, end: 14
+✖ ')' is not allowed here. Did you mean ';'? - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 17
 
 ```

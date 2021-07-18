@@ -289,7 +289,7 @@ let x = (y: any): ([a,[b]]) => {} => { };
 
 ```javascript
 ✖ Lexical declaration expected - start: 33, end: 36
-✖ '=>' expected - start: 33, end: 36
+✖ '=>' is not allowed here. Did you mean ';'? - start: 33, end: 36
 
 ```
 

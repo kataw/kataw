@@ -181,7 +181,7 @@ function f() {
 ✖ Identifier expected - start: 34, end: 39
 ✖ Identifier expected - start: 39, end: 41
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 39, end: 41
-✖ ')' expected - start: 43, end: 44
+✖ ')' is not allowed here. Did you mean ';'? - start: 43, end: 44
 ✖ Declaration or statement expected - start: 45, end: 47
 
 ```

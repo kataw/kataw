@@ -96,7 +96,7 @@ let foo,,
 
 ```javascript
 ✖ Trailing comma not allowed. - start: 8, end: 9
-✖ ',' expected - start: 8, end: 9
+✖ ',' is not allowed here. Did you mean ';'? - start: 8, end: 9
 
 ```
 

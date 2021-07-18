@@ -126,7 +126,7 @@ x => ok x => ok
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 7, end: 9
+✖ '; ' is not allowed here. Did you mean ';'? - start: 7, end: 9
 
 ```
 

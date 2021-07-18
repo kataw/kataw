@@ -65,7 +65,7 @@ debugger /foo/
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 8, end: 14
+✖ '; ' is not allowed here. Did you mean ';'? - start: 8, end: 14
 
 ```
 

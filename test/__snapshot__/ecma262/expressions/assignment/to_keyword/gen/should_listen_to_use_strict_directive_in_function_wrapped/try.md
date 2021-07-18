@@ -203,7 +203,7 @@ function f() {
 ```javascript
 ✖ Identifier expected - start: 34, end: 37
 ✖ 'catch' expected - start: 37, end: 39
-✖ ')' expected - start: 41, end: 42
+✖ ')' is not allowed here. Did you mean ';'? - start: 41, end: 42
 ✖ Declaration or statement expected - start: 43, end: 45
 
 ```

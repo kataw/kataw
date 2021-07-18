@@ -131,7 +131,7 @@ if (a) let {x} = y
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 10, end: 12
+✖ '{' is not allowed here. Did you mean ';'? - start: 10, end: 12
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 16, end: 18
 
 ```

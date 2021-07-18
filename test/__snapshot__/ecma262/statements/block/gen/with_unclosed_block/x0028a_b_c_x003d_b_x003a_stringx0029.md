@@ -254,10 +254,10 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ Expected a ')' to match the '(' token here - start: 21, end: 22
-✖ ':' expected - start: 29, end: 31
-✖ ')' expected - start: 38, end: 39
+✖ ':' is not allowed here. Did you mean ';'? - start: 29, end: 31
+✖ ')' is not allowed here. Did you mean ';'? - start: 38, end: 39
 
 ```
 

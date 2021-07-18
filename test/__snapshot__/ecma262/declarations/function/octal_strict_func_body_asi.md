@@ -118,7 +118,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 29, end: 36
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 36
 
 ```
 

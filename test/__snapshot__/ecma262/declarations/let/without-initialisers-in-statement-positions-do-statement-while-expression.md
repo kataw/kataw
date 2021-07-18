@@ -112,7 +112,7 @@ do let x; while (false)
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 6, end: 8
+✖ '; ' is not allowed here. Did you mean ';'? - start: 6, end: 8
 ✖ Declaration or statement expected - start: 8, end: 9
 ✖ Identifier expected - start: 23, end: 23
 

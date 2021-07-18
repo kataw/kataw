@@ -271,7 +271,7 @@ const protected = x, function arguments(){}
 ```javascript
 ✖ Duplicate identifier - start: 76, end: 86
 ✖ Trailing comma not allowed. - start: 91, end: 100
-✖ 'function' expected - start: 91, end: 100
+✖ 'function' is not allowed here. Did you mean ';'? - start: 91, end: 100
 
 ```
 

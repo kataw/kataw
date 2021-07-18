@@ -197,7 +197,7 @@ async (x = (if) = f) => {}
 ✖ Missing an opening parentheses - '( - start: 14, end: 15
 ✖ Identifier expected - start: 15, end: 17
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 17
-✖ ')' expected - start: 19, end: 20
+✖ ')' is not allowed here. Did you mean ';'? - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 23
 
 ```

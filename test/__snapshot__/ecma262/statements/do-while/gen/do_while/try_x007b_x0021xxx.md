@@ -182,7 +182,7 @@ do try { !xxx while
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 13, end: 19
+✖ 'while' is not allowed here. Did you mean ';'? - start: 13, end: 19
 
 ```
 

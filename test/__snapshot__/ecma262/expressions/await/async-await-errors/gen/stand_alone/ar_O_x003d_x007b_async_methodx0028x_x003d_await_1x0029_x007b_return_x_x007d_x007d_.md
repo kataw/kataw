@@ -232,7 +232,7 @@ ar O = { async method(x = await 1) { return x; } };
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 2, end: 4
+✖ '; ' is not allowed here. Did you mean ';'? - start: 2, end: 4
 ✖ `await` expression cannot be used in function parameters - start: 25, end: 31
 
 ```

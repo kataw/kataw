@@ -147,7 +147,7 @@
 ✖ Identifier expected - start: 15, end: 22
 ✖ 'try' expected - start: 15, end: 22
 ✖ Declaration or statement expected - start: 22, end: 24
-✖ ')' expected - start: 26, end: 27
+✖ ')' is not allowed here. Did you mean ';'? - start: 26, end: 27
 
 ```
 

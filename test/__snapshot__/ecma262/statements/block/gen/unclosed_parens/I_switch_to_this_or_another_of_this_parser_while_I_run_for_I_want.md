@@ -302,15 +302,15 @@
 ✖ Expected a ')' to match the '(' token here - start: 5, end: 11
 ✖ Missing an opening parentheses - '( - start: 12, end: 14
 ✖ Declaration or statement expected - start: 15, end: 19
-✖ '; ' expected - start: 19, end: 22
-✖ '; ' expected - start: 22, end: 30
-✖ 'of' expected - start: 30, end: 33
-✖ 'this' expected - start: 33, end: 38
-✖ '; ' expected - start: 38, end: 45
-✖ 'while' expected - start: 45, end: 51
+✖ '; ' is not allowed here. Did you mean ';'? - start: 19, end: 22
+✖ '; ' is not allowed here. Did you mean ';'? - start: 22, end: 30
+✖ 'of' is not allowed here. Did you mean ';'? - start: 30, end: 33
+✖ 'this' is not allowed here. Did you mean ';'? - start: 33, end: 38
+✖ '; ' is not allowed here. Did you mean ';'? - start: 38, end: 45
+✖ 'while' is not allowed here. Did you mean ';'? - start: 45, end: 51
 ✖ Missing an opening parentheses - '( - start: 52, end: 53
 ✖ Declaration or statement expected - start: 54, end: 57
-✖ 'for' expected - start: 57, end: 61
+✖ 'for' is not allowed here. Did you mean ';'? - start: 57, end: 61
 ✖ Missing an opening parentheses - '( - start: 62, end: 63
 ✖ Identifier expected - start: 68, end: 68
 

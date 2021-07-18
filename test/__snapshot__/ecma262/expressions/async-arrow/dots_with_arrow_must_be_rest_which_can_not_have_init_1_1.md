@@ -155,8 +155,8 @@ async (a, ...b+b=c) => a;
 ### Diagnostics
 
 ```javascript
-✖ '=' expected - start: 16, end: 17
-✖ ')' expected - start: 18, end: 19
+✖ '=' is not allowed here. Did you mean ';'? - start: 16, end: 17
+✖ ')' is not allowed here. Did you mean ';'? - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 22
 
 ```

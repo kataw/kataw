@@ -119,7 +119,7 @@ throw /**/\n x;
 ✖ Identifier expected - start: 5, end: 20
 ✖ Invalid hexadecimal escape sequence - start: 20, end: 25
 ✖ Identifier expected - start: 20, end: 26
-✖ '; ' expected - start: 27, end: 29
+✖ '; ' is not allowed here. Did you mean ';'? - start: 27, end: 29
 
 ```
 

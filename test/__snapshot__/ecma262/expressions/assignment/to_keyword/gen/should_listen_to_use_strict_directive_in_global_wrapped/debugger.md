@@ -113,8 +113,8 @@
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 23
-✖ '=' expected - start: 23, end: 25
-✖ ')' expected - start: 27, end: 28
+✖ '=' is not allowed here. Did you mean ';'? - start: 23, end: 25
+✖ ')' is not allowed here. Did you mean ';'? - start: 27, end: 28
 
 ```
 

@@ -953,15 +953,15 @@ var o3: O3 = (0: mixed); // ok
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 35, end: 36
 ✖ Variable declaration not allowed at this location - start: 35, end: 36
-✖ ')' expected - start: 42, end: 43
+✖ ')' is not allowed here. Did you mean ';'? - start: 42, end: 43
 ✖ Expected '=>' - start: 62, end: 63
 ✖ Expected a ')' to match the '(' token here - start: 109, end: 110
 ✖ Variable declaration not allowed at this location - start: 109, end: 110
-✖ ')' expected - start: 116, end: 117
+✖ ')' is not allowed here. Did you mean ';'? - start: 116, end: 117
 ✖ Expected '=>' - start: 136, end: 137
 ✖ Expected a ')' to match the '(' token here - start: 245, end: 246
 ✖ Variable declaration not allowed at this location - start: 245, end: 246
-✖ ')' expected - start: 252, end: 253
+✖ ')' is not allowed here. Did you mean ';'? - start: 252, end: 253
 ✖ Expected '=>' - start: 272, end: 278
 
 ```

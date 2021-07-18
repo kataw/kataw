@@ -270,7 +270,7 @@ declare var x2: X;
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 34, end: 35
-✖ '?' expected - start: 34, end: 35
+✖ '?' is not allowed here. Did you mean ';'? - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 36
 
 ```

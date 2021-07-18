@@ -157,9 +157,9 @@ import * as a from "y"
 
 ```javascript
 ✖ Identifier expected - start: 6, end: 8
-✖ '; ' expected - start: 11, end: 13
-✖ 'from' expected - start: 13, end: 18
-✖ '; ' expected - start: 18, end: 22
+✖ '; ' is not allowed here. Did you mean ';'? - start: 11, end: 13
+✖ 'from' is not allowed here. Did you mean ';'? - start: 13, end: 18
+✖ '; ' is not allowed here. Did you mean ';'? - start: 18, end: 22
 
 ```
 

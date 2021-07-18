@@ -102,9 +102,9 @@ var v\u0061r = true
 ### Diagnostics
 
 ```javascript
-✖ 'var' expected - start: 3, end: 12
+✖ 'var' is not allowed here. Did you mean ';'? - start: 3, end: 12
 ✖ Keywords cannot contain escape characters - start: 3, end: 12
-✖ '=' expected - start: 12, end: 14
+✖ '=' is not allowed here. Did you mean ';'? - start: 12, end: 14
 
 ```
 

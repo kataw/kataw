@@ -254,12 +254,12 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 2, end: 3
-✖ ':' expected - start: 14, end: 15
+✖ ':' is not allowed here. Did you mean ';'? - start: 14, end: 15
 ✖ Identifier expected - start: 23, end: 27
 ✖ ',' expected - start: 29, end: 30
-✖ ']' expected - start: 37, end: 38
+✖ ']' is not allowed here. Did you mean ';'? - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 39
-✖ ')' expected - start: 46, end: 47
+✖ ')' is not allowed here. Did you mean ';'? - start: 46, end: 47
 ✖ Declaration or statement expected - start: 47, end: 48
 
 ```

@@ -172,7 +172,7 @@ async (x = (return) = f) => {}
 ✖ A return statement can only be used within a function_body - start: 12, end: 18
 ✖ Identifier expected - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 21
-✖ ')' expected - start: 23, end: 24
+✖ ')' is not allowed here. Did you mean ';'? - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 27
 
 ```

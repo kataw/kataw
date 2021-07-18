@@ -303,7 +303,13 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
   }
   if (parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
-    report(parser, parser.curPos, DiagnosticCode._0_expected, tokenToString(parser.token) as any);
+    report(
+      parser,
+      parser.curPos,
+      DiagnosticCode._0_is_not_allowed_here_Did_you_mean_1,
+      tokenToString(parser.token),
+      ';'
+    );
   }
   return false;
 }

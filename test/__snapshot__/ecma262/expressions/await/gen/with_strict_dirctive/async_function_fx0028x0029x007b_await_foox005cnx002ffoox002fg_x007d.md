@@ -206,7 +206,7 @@
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 39, end: 43
 ✖ Invalid hexadecimal escape sequence - start: 43, end: 43
-✖ '; ' expected - start: 43, end: 44
+✖ '; ' is not allowed here. Did you mean ';'? - start: 43, end: 44
 ✖ Declaration or statement expected - start: 51, end: 53
 
 ```

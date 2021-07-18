@@ -173,9 +173,9 @@ import 'x' assert {x: 'y', x: 'y'}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 10, end: 17
-✖ '{' expected - start: 17, end: 19
-✖ ':' expected - start: 28, end: 29
+✖ '; ' is not allowed here. Did you mean ';'? - start: 10, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 17, end: 19
+✖ ':' is not allowed here. Did you mean ';'? - start: 28, end: 29
 ✖ Declaration or statement expected - start: 33, end: 34
 
 ```

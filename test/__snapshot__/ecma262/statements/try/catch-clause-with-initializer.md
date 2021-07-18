@@ -169,10 +169,10 @@ throw {x} catch (x = y) {}
 ### Diagnostics
 
 ```javascript
-✖ 'catch' expected - start: 9, end: 15
+✖ 'catch' is not allowed here. Did you mean ';'? - start: 9, end: 15
 ✖ 'try' expected - start: 9, end: 15
 ✖ Catch clause variable cannot have an initializer - start: 19, end: 20
-✖ ')' expected - start: 22, end: 23
+✖ ')' is not allowed here. Did you mean ';'? - start: 22, end: 23
 
 ```
 

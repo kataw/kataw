@@ -6684,16 +6684,16 @@ try {} catch(e) { for(var e of 0); };
 ✖ Declaration or statement expected - start: 2865, end: 2938
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
 ✖ Declaration or statement expected - start: 2938, end: 2939
-✖ '{' expected - start: 2940, end: 2941
+✖ '{' is not allowed here. Did you mean ';'? - start: 2940, end: 2941
 ✖ Invalid hexadecimal escape sequence - start: 2949, end: 2950
 ✖ Declaration or statement expected - start: 2949, end: 2951
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
 ✖ Declaration or statement expected - start: 2951, end: 2952
-✖ '{' expected - start: 2953, end: 2954
+✖ '{' is not allowed here. Did you mean ';'? - start: 2953, end: 2954
 ✖ Invalid hexadecimal escape sequence - start: 3058, end: 3058
-✖ '; ' expected - start: 3058, end: 3059
+✖ '; ' is not allowed here. Did you mean ';'? - start: 3058, end: 3059
 ✖ Invalid hexadecimal escape sequence - start: 3070, end: 3070
-✖ '; ' expected - start: 3070, end: 3071
+✖ '; ' is not allowed here. Did you mean ';'? - start: 3070, end: 3071
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3170, end: 3177
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3205, end: 3212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3280, end: 3287
@@ -6711,20 +6711,20 @@ try {} catch(e) { for(var e of 0); };
 ✖ Declaration or statement expected - start: 3738, end: 3743
 ✖ Invalid hexadecimal escape sequence - start: 3744, end: 3991
 ✖ Invalid hexadecimal escape sequence - start: 3991, end: 3991
-✖ '; ' expected - start: 3991, end: 3992
+✖ '; ' is not allowed here. Did you mean ';'? - start: 3991, end: 3992
 ✖ Declaration or statement expected - start: 3992, end: 3998
 ✖ Invalid hexadecimal escape sequence - start: 3999, end: 4001
 ✖ Invalid hexadecimal escape sequence - start: 4001, end: 4001
-✖ '; ' expected - start: 4001, end: 4002
+✖ '; ' is not allowed here. Did you mean ';'? - start: 4001, end: 4002
 ✖ Declaration or statement expected - start: 4002, end: 4007
 ✖ Function declarations cannot be used in a single-statement context - start: 4485, end: 4494
 ✖ Function declarations cannot be used in a single-statement context - start: 4522, end: 4531
 ✖ Function declarations cannot be used in a single-statement context - start: 4550, end: 4559
 ✖ Function declarations cannot be used in a single-statement context - start: 4592, end: 4601
 ✖ Invalid hexadecimal escape sequence - start: 5061, end: 5061
-✖ '; ' expected - start: 5061, end: 5062
+✖ '; ' is not allowed here. Did you mean ';'? - start: 5061, end: 5062
 ✖ Invalid hexadecimal escape sequence - start: 5073, end: 5073
-✖ '; ' expected - start: 5073, end: 5074
+✖ '; ' is not allowed here. Did you mean ';'? - start: 5073, end: 5074
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 5259, end: 5261
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 5292, end: 5294
 

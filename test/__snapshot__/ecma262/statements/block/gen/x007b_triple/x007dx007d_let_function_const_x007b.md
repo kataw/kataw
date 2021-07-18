@@ -198,7 +198,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'function' expected - start: 12, end: 21
+✖ 'function' is not allowed here. Did you mean ';'? - start: 12, end: 21
 ✖ Binding identifier expected - start: 21, end: 27
 ✖ Missing an opening parentheses - '( - start: 22, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29

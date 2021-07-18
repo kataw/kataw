@@ -167,10 +167,10 @@
 ✖ Invalid hexadecimal escape sequence - start: 17, end: 22
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 22
 ✖ Variable declaration not allowed at this location - start: 22, end: 23
-✖ '; ' expected - start: 22, end: 23
+✖ '; ' is not allowed here. Did you mean ';'? - start: 22, end: 23
 ✖ Invalid hexadecimal escape sequence - start: 23, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
-✖ '{' expected - start: 25, end: 26
+✖ '{' is not allowed here. Did you mean ';'? - start: 25, end: 26
 
 ```
 

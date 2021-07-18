@@ -116,7 +116,7 @@ async (x = (yield x))
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 18, end: 19
-✖ ')' expected - start: 20, end: 21
+✖ ')' is not allowed here. Did you mean ';'? - start: 20, end: 21
 
 ```
 

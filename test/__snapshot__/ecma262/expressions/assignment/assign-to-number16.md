@@ -102,7 +102,7 @@ x = 0b89897kklb101b
 ✖ Binary integer literal like sequence containing an invalid digit - start: 9, end: 10
 ✖ Binary integer literal like sequence containing an invalid digit - start: 10, end: 11
 ✖ An identifier or keyword cannot immediately follow a numeric literal - start: 3, end: 11
-✖ '; ' expected - start: 12, end: 19
+✖ '; ' is not allowed here. Did you mean ';'? - start: 12, end: 19
 
 ```
 

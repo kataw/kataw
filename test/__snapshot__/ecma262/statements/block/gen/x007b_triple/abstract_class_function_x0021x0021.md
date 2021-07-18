@@ -237,7 +237,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'class' expected - start: 14, end: 20
+✖ 'class' is not allowed here. Did you mean ';'? - start: 14, end: 20
 ✖ Binding identifier expected - start: 20, end: 29
 ✖ Binding identifier expected - start: 29, end: 31
 ✖ Missing an opening parentheses - '( - start: 30, end: 31

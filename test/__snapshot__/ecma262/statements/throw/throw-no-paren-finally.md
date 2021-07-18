@@ -121,7 +121,7 @@ throw {x} finally
 ### Diagnostics
 
 ```javascript
-✖ 'finally' expected - start: 9, end: 17
+✖ 'finally' is not allowed here. Did you mean ';'? - start: 9, end: 17
 ✖ 'try' expected - start: 9, end: 17
 
 ```

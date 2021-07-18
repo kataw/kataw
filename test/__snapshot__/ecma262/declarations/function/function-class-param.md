@@ -244,7 +244,7 @@ function* foo(a = class {*bar() { yield b }}) {}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 39, end: 41
+✖ '; ' is not allowed here. Did you mean ';'? - start: 39, end: 41
 
 ```
 

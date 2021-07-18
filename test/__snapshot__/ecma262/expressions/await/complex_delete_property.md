@@ -257,7 +257,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 61, end: 64
+✖ '=>' is not allowed here. Did you mean ';'? - start: 61, end: 64
 ✖ Declaration or statement expected - start: 68, end: 74
 
 ```

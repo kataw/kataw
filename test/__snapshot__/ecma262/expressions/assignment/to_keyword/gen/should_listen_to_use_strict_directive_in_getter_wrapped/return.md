@@ -244,7 +244,7 @@ foo = {
 ✖ Identifier expected - start: 42, end: 48
 ✖ Identifier expected - start: 48, end: 50
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 48, end: 50
-✖ ')' expected - start: 52, end: 53
+✖ ')' is not allowed here. Did you mean ';'? - start: 52, end: 53
 ✖ Declaration or statement expected - start: 54, end: 58
 ✖ Declaration or statement expected - start: 58, end: 60
 

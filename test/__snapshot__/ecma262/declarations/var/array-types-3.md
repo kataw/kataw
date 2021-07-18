@@ -134,7 +134,7 @@ var a?: number[][]
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
-✖ '?' expected - start: 5, end: 6
+✖ '?' is not allowed here. Did you mean ';'? - start: 5, end: 6
 ✖ Declaration or statement expected - start: 6, end: 7
 ✖ An member access expression should take an argument. - start: 7, end: 16
 ✖ Identifier expected - start: 15, end: 16

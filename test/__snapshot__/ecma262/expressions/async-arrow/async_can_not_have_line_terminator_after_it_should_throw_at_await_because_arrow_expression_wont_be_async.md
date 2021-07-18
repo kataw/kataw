@@ -143,7 +143,7 @@ g => await g
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 24, end: 26
+✖ '; ' is not allowed here. Did you mean ';'? - start: 24, end: 26
 
 ```
 

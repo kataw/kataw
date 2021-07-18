@@ -127,7 +127,7 @@ var a: -z
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
-✖ ':' expected - start: 5, end: 6
+✖ ':' is not allowed here. Did you mean ';'? - start: 5, end: 6
 
 ```
 

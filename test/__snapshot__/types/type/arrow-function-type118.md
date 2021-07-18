@@ -242,7 +242,7 @@ type a = (&1,|2&3, ['string']) => T;
 
 ```javascript
 ✖ Expected '=>' - start: 18, end: 20
-✖ ')' expected - start: 29, end: 30
+✖ ')' is not allowed here. Did you mean ';'? - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 33
 
 ```

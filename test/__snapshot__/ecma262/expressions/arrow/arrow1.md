@@ -355,16 +355,16 @@
 ✖ Invalid character - start: 24, end: 25
 ✖ Private identifiers are not allowed outside class bodies - start: 23, end: 25
 ✖ Invalid character - start: 25, end: 26
-✖ '; ' expected - start: 25, end: 26
-✖ '; ' expected - start: 26, end: 34
+✖ '; ' is not allowed here. Did you mean ';'? - start: 25, end: 26
+✖ '; ' is not allowed here. Did you mean ';'? - start: 26, end: 34
 ✖ Invalid character - start: 36, end: 37
 ✖ Private identifiers are not allowed outside class bodies - start: 34, end: 37
 ✖ Invalid character - start: 37, end: 38
-✖ '; ' expected - start: 37, end: 38
+✖ '; ' is not allowed here. Did you mean ';'? - start: 37, end: 38
 ✖ Invalid character - start: 38, end: 39
-✖ '; ' expected - start: 38, end: 39
-✖ '; ' expected - start: 39, end: 46
-✖ '; ' expected - start: 46, end: 54
+✖ '; ' is not allowed here. Did you mean ';'? - start: 38, end: 39
+✖ '; ' is not allowed here. Did you mean ';'? - start: 39, end: 46
+✖ '; ' is not allowed here. Did you mean ';'? - start: 46, end: 54
 ✖ Unterminated template literal - start: 60, end: 85
 
 ```

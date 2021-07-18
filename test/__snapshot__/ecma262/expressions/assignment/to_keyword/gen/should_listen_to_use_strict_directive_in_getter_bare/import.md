@@ -209,7 +209,7 @@ foo = {
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 36, end: 49
 ✖ Declaration or statement expected - start: 47, end: 49
-✖ '=' expected - start: 47, end: 49
+✖ '=' is not allowed here. Did you mean ';'? - start: 47, end: 49
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 49
 ✖ Declaration or statement expected - start: 51, end: 55
 ✖ Declaration or statement expected - start: 55, end: 57

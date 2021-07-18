@@ -127,7 +127,7 @@ async async => {}++
 ### Diagnostics
 
 ```javascript
-✖ '++' expected - start: 17, end: 19
+✖ '++' is not allowed here. Did you mean ';'? - start: 17, end: 19
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 19, end: 19
 
 ```

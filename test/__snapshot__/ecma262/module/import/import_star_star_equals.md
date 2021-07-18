@@ -93,8 +93,8 @@ import **= from 'f';
 
 ```javascript
 ✖ Declaration or statement expected - start: 6, end: 10
-✖ '**=' expected - start: 6, end: 10
-✖ '; ' expected - start: 15, end: 19
+✖ '**=' is not allowed here. Did you mean ';'? - start: 6, end: 10
+✖ '; ' is not allowed here. Did you mean ';'? - start: 15, end: 19
 
 ```
 

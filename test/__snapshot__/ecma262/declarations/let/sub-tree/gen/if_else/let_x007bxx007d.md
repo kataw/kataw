@@ -144,7 +144,7 @@ else let {x};
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 18, end: 20
+✖ '{' is not allowed here. Did you mean ';'? - start: 18, end: 20
 
 ```
 

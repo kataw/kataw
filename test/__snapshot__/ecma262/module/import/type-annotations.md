@@ -709,9 +709,9 @@ import { type Foo12 } from "bar";
 
 ```javascript
 ✖ Identifier expected - start: 183, end: 185
-✖ '; ' expected - start: 188, end: 198
-✖ 'from' expected - start: 198, end: 203
-✖ '; ' expected - start: 203, end: 209
+✖ '; ' is not allowed here. Did you mean ';'? - start: 188, end: 198
+✖ 'from' is not allowed here. Did you mean ';'? - start: 198, end: 203
+✖ '; ' is not allowed here. Did you mean ';'? - start: 203, end: 209
 
 ```
 

@@ -249,7 +249,7 @@ function *f(x = delete ((for) = f)) {}
 ✖ Missing an opening parentheses - '( - start: 28, end: 29
 ✖ Identifier expected - start: 29, end: 31
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 29, end: 31
-✖ ')' expected - start: 33, end: 34
+✖ ')' is not allowed here. Did you mean ';'? - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 
 ```

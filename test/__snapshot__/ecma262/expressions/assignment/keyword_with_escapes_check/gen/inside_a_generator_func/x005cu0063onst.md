@@ -143,7 +143,7 @@ function *f(){
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 14, end: 27
-✖ '=' expected - start: 27, end: 29
+✖ '=' is not allowed here. Did you mean ';'? - start: 27, end: 29
 ✖ Declaration or statement expected - start: 31, end: 33
 
 ```

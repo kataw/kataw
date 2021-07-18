@@ -113,8 +113,8 @@ yield 3 + yield 4;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 5, end: 7
-✖ '; ' expected - start: 15, end: 17
+✖ '; ' is not allowed here. Did you mean ';'? - start: 5, end: 7
+✖ '; ' is not allowed here. Did you mean ';'? - start: 15, end: 17
 
 ```
 

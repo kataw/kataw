@@ -3960,7 +3960,7 @@ try {} catch({ x: "str" }) {}
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 22, end: 24
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 57, end: 59
 ✖ 'catch' expected - start: 106, end: 111
-✖ ')' expected - start: 147, end: 148
+✖ ')' is not allowed here. Did you mean ';'? - start: 147, end: 148
 ✖ Cannot redeclare block-scoped variable - start: 171, end: 175
 ✖ Duplicate identifier - start: 199, end: 203
 ✖ A rest element cannot have an initializer - start: 242, end: 244
@@ -4010,7 +4010,7 @@ try {} catch({ x: "str" }) {}
 ✖ ',' expected - start: 801, end: 803
 ✖ ',' expected - start: 803, end: 806
 ✖ Did you forgot a ']' to match the `[` token? - start: 804, end: 806
-✖ ']' expected - start: 808, end: 809
+✖ ']' is not allowed here. Did you mean ';'? - start: 808, end: 809
 ✖ Declaration or statement expected - start: 809, end: 810
 ✖ Object property expected - start: 832, end: 834
 ✖ ',' expected - start: 832, end: 834

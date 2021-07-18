@@ -179,9 +179,9 @@ unction* gf() { var a = yield 'foo'; }
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 13, end: 15
+✖ '{' is not allowed here. Did you mean ';'? - start: 13, end: 15
 ✖ Variable declaration not allowed at this location - start: 29, end: 35
-✖ '; ' expected - start: 29, end: 35
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 35
 
 ```
 

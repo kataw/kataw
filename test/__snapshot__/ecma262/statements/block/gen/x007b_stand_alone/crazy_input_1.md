@@ -106,8 +106,8 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 7, end: 13
-✖ '; ' expected - start: 13, end: 15
+✖ '; ' is not allowed here. Did you mean ';'? - start: 7, end: 13
+✖ '; ' is not allowed here. Did you mean ';'? - start: 13, end: 15
 
 ```
 

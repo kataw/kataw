@@ -213,8 +213,8 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Missing an opening parentheses - '( - start: 9, end: 12
 ✖ 'catch' expected - start: 12, end: 17
-✖ '; ' expected - start: 17, end: 21
-✖ '!' expected - start: 21, end: 23
+✖ '; ' is not allowed here. Did you mean ';'? - start: 17, end: 21
+✖ '!' is not allowed here. Did you mean ';'? - start: 21, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 26
 
 ```

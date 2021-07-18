@@ -153,7 +153,7 @@ let f = () => (y=await foo) => y;
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 26
 ✖ Lexical declaration expected - start: 22, end: 26
 ✖ Lexical declaration expected - start: 26, end: 27
-✖ ')' expected - start: 26, end: 27
+✖ ')' is not allowed here. Did you mean ';'? - start: 26, end: 27
 ✖ Declaration or statement expected - start: 27, end: 30
 
 ```

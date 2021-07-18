@@ -131,7 +131,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 10, end: 12
+✖ '=>' is not allowed here. Did you mean ';'? - start: 10, end: 12
 
 ```
 

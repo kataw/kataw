@@ -101,8 +101,8 @@
 
 ```javascript
 ✖ An identifier or keyword cannot immediately follow a numeric literal - start: 13, end: 19
-✖ '; ' expected - start: 20, end: 29
-✖ '; ' expected - start: 29, end: 31
+✖ '; ' is not allowed here. Did you mean ';'? - start: 20, end: 29
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 31
 
 ```
 

@@ -130,7 +130,7 @@ async x => var = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 14
-✖ '=' expected - start: 14, end: 16
+✖ '=' is not allowed here. Did you mean ';'? - start: 14, end: 16
 
 ```
 

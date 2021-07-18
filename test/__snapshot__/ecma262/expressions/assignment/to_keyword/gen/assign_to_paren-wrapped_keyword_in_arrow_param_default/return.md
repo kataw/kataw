@@ -122,7 +122,7 @@
 ✖ A return statement can only be used within a function_body - start: 6, end: 12
 ✖ Identifier expected - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 15
-✖ ')' expected - start: 17, end: 18
+✖ ')' is not allowed here. Did you mean ';'? - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 21
 
 ```

@@ -306,8 +306,8 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
-✖ 'class' expected - start: 26, end: 32
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
+✖ 'class' is not allowed here. Did you mean ';'? - start: 26, end: 32
 ✖ Binding identifier expected - start: 32, end: 41
 ✖ Binding identifier expected - start: 41, end: 43
 ✖ Missing an opening parentheses - '( - start: 42, end: 43

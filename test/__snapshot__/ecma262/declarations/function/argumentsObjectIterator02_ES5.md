@@ -700,10 +700,10 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ```javascript
 ✖ ',' expected - start: 33, end: 34
 ✖ Missing an opening brace - '{ - start: 41, end: 42
-✖ ':' expected - start: 55, end: 56
-✖ ')' expected - start: 63, end: 64
+✖ ':' is not allowed here. Did you mean ';'? - start: 55, end: 56
+✖ ')' is not allowed here. Did you mean ';'? - start: 63, end: 64
 ✖ Declaration or statement expected - start: 64, end: 65
-✖ '{' expected - start: 90, end: 92
+✖ '{' is not allowed here. Did you mean ';'? - start: 90, end: 92
 ✖ A return statement can only be used within a function_body - start: 225, end: 236
 ✖ Identifier expected - start: 236, end: 238
 

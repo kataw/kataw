@@ -181,11 +181,11 @@ export {bar}, * as foo from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 12, end: 13
+✖ ',' is not allowed here. Did you mean ';'? - start: 12, end: 13
 ✖ Identifier expected - start: 13, end: 15
-✖ '; ' expected - start: 18, end: 22
-✖ 'from' expected - start: 22, end: 27
-✖ '; ' expected - start: 27, end: 33
+✖ '; ' is not allowed here. Did you mean ';'? - start: 18, end: 22
+✖ 'from' is not allowed here. Did you mean ';'? - start: 22, end: 27
+✖ '; ' is not allowed here. Did you mean ';'? - start: 27, end: 33
 
 ```
 

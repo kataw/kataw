@@ -109,7 +109,7 @@ async("foo".bar) => x
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 16, end: 19
+✖ '=>' is not allowed here. Did you mean ';'? - start: 16, end: 19
 
 ```
 

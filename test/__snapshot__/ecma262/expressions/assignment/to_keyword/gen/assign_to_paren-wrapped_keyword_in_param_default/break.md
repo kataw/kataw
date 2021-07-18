@@ -172,7 +172,7 @@ async (x = (break) = f) => {}
 ✖ Identifier expected - start: 17, end: 18
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
-✖ ')' expected - start: 22, end: 23
+✖ ')' is not allowed here. Did you mean ';'? - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 26
 
 ```

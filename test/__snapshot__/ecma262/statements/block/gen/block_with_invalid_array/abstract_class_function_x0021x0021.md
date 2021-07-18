@@ -286,7 +286,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ 'class' expected - start: 18, end: 24
+✖ 'class' is not allowed here. Did you mean ';'? - start: 18, end: 24
 ✖ Binding identifier expected - start: 24, end: 33
 ✖ Binding identifier expected - start: 33, end: 35
 ✖ Missing an opening parentheses - '( - start: 34, end: 35

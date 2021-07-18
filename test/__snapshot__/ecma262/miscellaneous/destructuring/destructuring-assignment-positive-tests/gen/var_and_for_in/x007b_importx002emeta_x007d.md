@@ -265,7 +265,7 @@ var x, y, z; for (x in { import.meta } = z = {});
 ✖ ',' expected - start: 31, end: 32
 ✖ Expected a ')' to match the '(' token here - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 40
-✖ ')' expected - start: 47, end: 48
+✖ ')' is not allowed here. Did you mean ';'? - start: 47, end: 48
 
 ```
 

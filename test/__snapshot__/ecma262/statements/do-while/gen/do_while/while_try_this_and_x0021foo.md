@@ -221,8 +221,8 @@ do while try this and !foo while
 ✖ Missing an opening parentheses - '( - start: 9, end: 12
 ✖ 'catch' expected - start: 12, end: 17
 ✖ Declaration or statement expected - start: 18, end: 21
-✖ '!' expected - start: 21, end: 23
-✖ 'while' expected - start: 26, end: 32
+✖ '!' is not allowed here. Did you mean ';'? - start: 21, end: 23
+✖ 'while' is not allowed here. Did you mean ';'? - start: 26, end: 32
 
 ```
 

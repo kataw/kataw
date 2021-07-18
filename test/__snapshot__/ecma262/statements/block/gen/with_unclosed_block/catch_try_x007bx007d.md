@@ -260,7 +260,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ 'try' expected - start: 17, end: 23
 ✖ 'catch' expected - start: 30, end: 30
 

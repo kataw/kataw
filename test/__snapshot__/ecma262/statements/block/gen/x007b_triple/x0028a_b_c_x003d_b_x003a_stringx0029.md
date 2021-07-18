@@ -186,8 +186,8 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 9, end: 10
-✖ ':' expected - start: 17, end: 19
-✖ ')' expected - start: 26, end: 27
+✖ ':' is not allowed here. Did you mean ';'? - start: 17, end: 19
+✖ ')' is not allowed here. Did you mean ';'? - start: 26, end: 27
 
 ```
 

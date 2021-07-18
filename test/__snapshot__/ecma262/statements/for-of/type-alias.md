@@ -109,7 +109,7 @@ type x = y;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 4, end: 6
+✖ '; ' is not allowed here. Did you mean ';'? - start: 4, end: 6
 
 ```
 

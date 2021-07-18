@@ -190,9 +190,9 @@ async (x = delete ((var) = f)) => {}
 
 ```javascript
 ✖ Identifier expected - start: 20, end: 23
-✖ ')' expected - start: 23, end: 24
+✖ ')' is not allowed here. Did you mean ';'? - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
-✖ ')' expected - start: 28, end: 29
+✖ ')' is not allowed here. Did you mean ';'? - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 33
 

@@ -132,7 +132,7 @@ class super {}
 ✖ Binding identifier expected - start: 5, end: 11
 ✖ 'super' must be followed by an argument list or member access. - start: 5, end: 13
 ✖ Dot property must be an identifier - start: 11, end: 13
-✖ '{' expected - start: 11, end: 13
+✖ '{' is not allowed here. Did you mean ';'? - start: 11, end: 13
 
 ```
 

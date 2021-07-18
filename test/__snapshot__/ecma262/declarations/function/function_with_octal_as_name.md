@@ -162,7 +162,7 @@ function 00004() { "use strict"; 00004; }
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 14
 ✖ Missing an opening parentheses - '( - start: 9, end: 14
-✖ '{' expected - start: 16, end: 18
+✖ '{' is not allowed here. Did you mean ';'? - start: 16, end: 18
 
 ```
 

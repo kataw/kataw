@@ -169,7 +169,7 @@ async (x = delete ((default) = f)) => {}
 ✖ Identifier expected - start: 20, end: 27
 ✖ Declaration or statement expected - start: 27, end: 28
 ✖ Declaration or statement expected - start: 28, end: 30
-✖ ')' expected - start: 32, end: 33
+✖ ')' is not allowed here. Did you mean ';'? - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 37
 

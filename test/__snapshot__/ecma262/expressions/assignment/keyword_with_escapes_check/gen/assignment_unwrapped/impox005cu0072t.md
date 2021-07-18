@@ -80,7 +80,7 @@ impo\u0072t = x;
 ✖ Keywords cannot contain escape characters - start: 0, end: 11
 ✖ The `import` keyword can only be used with the module goal - start: 0, end: 13
 ✖ Declaration or statement expected - start: 11, end: 13
-✖ '=' expected - start: 11, end: 13
+✖ '=' is not allowed here. Did you mean ';'? - start: 11, end: 13
 
 ```
 

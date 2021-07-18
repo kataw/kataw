@@ -175,7 +175,7 @@ declare class A { "static" foo(): number }
 ### Diagnostics
 
 ```javascript
-✖ '(' expected - start: 30, end: 31
+✖ '(' is not allowed here. Did you mean ';'? - start: 30, end: 31
 
 ```
 

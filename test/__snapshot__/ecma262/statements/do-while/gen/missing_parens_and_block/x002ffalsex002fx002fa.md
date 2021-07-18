@@ -111,7 +111,7 @@ do /false//a while
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 12, end: 18
+✖ 'while' is not allowed here. Did you mean ';'? - start: 12, end: 18
 
 ```
 

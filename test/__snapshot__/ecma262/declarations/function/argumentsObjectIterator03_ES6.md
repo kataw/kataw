@@ -412,10 +412,10 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 ```javascript
 ✖ ',' expected - start: 26, end: 27
 ✖ Missing an opening brace - '{ - start: 34, end: 35
-✖ ':' expected - start: 48, end: 49
-✖ ')' expected - start: 57, end: 58
+✖ ':' is not allowed here. Did you mean ';'? - start: 48, end: 49
+✖ ')' is not allowed here. Did you mean ';'? - start: 57, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59
-✖ '{' expected - start: 85, end: 87
+✖ '{' is not allowed here. Did you mean ';'? - start: 85, end: 87
 ✖ A return statement can only be used within a function_body - start: 118, end: 130
 
 ```

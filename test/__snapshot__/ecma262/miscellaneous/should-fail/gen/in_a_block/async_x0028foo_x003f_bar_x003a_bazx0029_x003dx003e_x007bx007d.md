@@ -154,7 +154,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 25, end: 28
+✖ '=>' is not allowed here. Did you mean ';'? - start: 25, end: 28
 ✖ Declaration or statement expected - start: 31, end: 33
 
 ```

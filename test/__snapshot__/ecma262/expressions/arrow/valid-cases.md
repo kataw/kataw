@@ -5209,7 +5209,7 @@ foo ? bar : baz => {};
 ### Diagnostics
 
 ```javascript
-✖ ':' expected - start: 451, end: 452
+✖ ':' is not allowed here. Did you mean ';'? - start: 451, end: 452
 
 ```
 

@@ -187,7 +187,7 @@ function f() {
 ```javascript
 ✖ Identifier expected - start: 34, end: 44
 ✖ Identifier expected - start: 44, end: 46
-✖ ')' expected - start: 48, end: 49
+✖ ')' is not allowed here. Did you mean ';'? - start: 48, end: 49
 ✖ Declaration or statement expected - start: 50, end: 52
 
 ```

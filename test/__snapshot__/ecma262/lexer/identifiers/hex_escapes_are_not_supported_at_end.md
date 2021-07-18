@@ -75,7 +75,7 @@ xxx\x61
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 0, end: 3
 ✖ Invalid hexadecimal escape sequence - start: 3, end: 3
-✖ '; ' expected - start: 3, end: 4
+✖ '; ' is not allowed here. Did you mean ';'? - start: 3, end: 4
 
 ```
 

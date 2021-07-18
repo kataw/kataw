@@ -227,8 +227,8 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 45, end: 47
-✖ '; ' expected - start: 55, end: 57
+✖ '; ' is not allowed here. Did you mean ';'? - start: 45, end: 47
+✖ '; ' is not allowed here. Did you mean ';'? - start: 55, end: 57
 
 ```
 

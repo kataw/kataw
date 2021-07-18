@@ -106,7 +106,7 @@ await.b[c] => async
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 10, end: 13
+✖ '=>' is not allowed here. Did you mean ';'? - start: 10, end: 13
 
 ```
 

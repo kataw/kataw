@@ -118,7 +118,7 @@
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 9, end: 12
-✖ '=>' expected - start: 9, end: 12
+✖ '=>' is not allowed here. Did you mean ';'? - start: 9, end: 12
 
 ```
 

@@ -394,19 +394,19 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
-✖ 'switch' expected - start: 19, end: 26
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
+✖ 'switch' is not allowed here. Did you mean ';'? - start: 19, end: 26
 ✖ Missing an opening parentheses - '( - start: 27, end: 29
 ✖ Declaration or statement expected - start: 30, end: 34
-✖ '; ' expected - start: 34, end: 37
-✖ '; ' expected - start: 37, end: 45
-✖ 'of' expected - start: 45, end: 48
-✖ 'this' expected - start: 48, end: 53
-✖ '; ' expected - start: 53, end: 60
-✖ 'while' expected - start: 60, end: 66
+✖ '; ' is not allowed here. Did you mean ';'? - start: 34, end: 37
+✖ '; ' is not allowed here. Did you mean ';'? - start: 37, end: 45
+✖ 'of' is not allowed here. Did you mean ';'? - start: 45, end: 48
+✖ 'this' is not allowed here. Did you mean ';'? - start: 48, end: 53
+✖ '; ' is not allowed here. Did you mean ';'? - start: 53, end: 60
+✖ 'while' is not allowed here. Did you mean ';'? - start: 60, end: 66
 ✖ Missing an opening parentheses - '( - start: 67, end: 68
 ✖ Declaration or statement expected - start: 69, end: 72
-✖ 'for' expected - start: 72, end: 76
+✖ 'for' is not allowed here. Did you mean ';'? - start: 72, end: 76
 ✖ Missing an opening parentheses - '( - start: 77, end: 78
 ✖ Identifier expected - start: 83, end: 83
 

@@ -114,7 +114,7 @@ class debugger {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
-✖ '{' expected - start: 14, end: 16
+✖ '{' is not allowed here. Did you mean ';'? - start: 14, end: 16
 
 ```
 

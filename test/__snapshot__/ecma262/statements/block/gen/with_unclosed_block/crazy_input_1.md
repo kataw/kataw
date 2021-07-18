@@ -207,9 +207,9 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
-✖ '; ' expected - start: 23, end: 29
-✖ '; ' expected - start: 29, end: 31
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
+✖ '; ' is not allowed here. Did you mean ';'? - start: 23, end: 29
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 31
 
 ```
 

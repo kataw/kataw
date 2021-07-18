@@ -374,18 +374,18 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ 'switch' expected - start: 11, end: 18
+✖ 'switch' is not allowed here. Did you mean ';'? - start: 11, end: 18
 ✖ Missing an opening parentheses - '( - start: 19, end: 21
 ✖ Declaration or statement expected - start: 22, end: 26
-✖ '; ' expected - start: 26, end: 29
-✖ '; ' expected - start: 29, end: 37
-✖ 'of' expected - start: 37, end: 40
-✖ 'this' expected - start: 40, end: 45
-✖ '; ' expected - start: 45, end: 52
-✖ 'while' expected - start: 52, end: 58
+✖ '; ' is not allowed here. Did you mean ';'? - start: 26, end: 29
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 37
+✖ 'of' is not allowed here. Did you mean ';'? - start: 37, end: 40
+✖ 'this' is not allowed here. Did you mean ';'? - start: 40, end: 45
+✖ '; ' is not allowed here. Did you mean ';'? - start: 45, end: 52
+✖ 'while' is not allowed here. Did you mean ';'? - start: 52, end: 58
 ✖ Missing an opening parentheses - '( - start: 59, end: 60
 ✖ Declaration or statement expected - start: 61, end: 64
-✖ 'for' expected - start: 64, end: 68
+✖ 'for' is not allowed here. Did you mean ';'? - start: 64, end: 68
 ✖ Missing an opening parentheses - '( - start: 69, end: 70
 ✖ Identifier expected - start: 75, end: 75
 

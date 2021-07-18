@@ -226,7 +226,7 @@ async (x = delete ((for) = f)) => {}
 ✖ Missing an opening parentheses - '( - start: 23, end: 24
 ✖ Identifier expected - start: 24, end: 26
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 24, end: 26
-✖ ')' expected - start: 28, end: 29
+✖ ')' is not allowed here. Did you mean ';'? - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 33
 

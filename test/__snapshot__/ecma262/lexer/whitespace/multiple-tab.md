@@ -167,25 +167,25 @@
 ✖ Declaration or statement expected - start: 0, end: 1
 ✖ Invalid hexadecimal escape sequence - start: 1, end: 2
 ✖ Invalid hexadecimal escape sequence - start: 2, end: 2
-✖ '; ' expected - start: 2, end: 3
+✖ '; ' is not allowed here. Did you mean ';'? - start: 2, end: 3
 ✖ Invalid hexadecimal escape sequence - start: 3, end: 4
 ✖ Invalid hexadecimal escape sequence - start: 4, end: 4
-✖ '; ' expected - start: 4, end: 5
+✖ '; ' is not allowed here. Did you mean ';'? - start: 4, end: 5
 ✖ Invalid hexadecimal escape sequence - start: 5, end: 6
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 6
-✖ '; ' expected - start: 6, end: 7
+✖ '; ' is not allowed here. Did you mean ';'? - start: 6, end: 7
 ✖ Invalid hexadecimal escape sequence - start: 7, end: 8
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 8
-✖ '; ' expected - start: 8, end: 9
+✖ '; ' is not allowed here. Did you mean ';'? - start: 8, end: 9
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 10
 ✖ Invalid hexadecimal escape sequence - start: 10, end: 10
-✖ '; ' expected - start: 10, end: 11
+✖ '; ' is not allowed here. Did you mean ';'? - start: 10, end: 11
 ✖ Invalid hexadecimal escape sequence - start: 11, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
-✖ '; ' expected - start: 12, end: 13
+✖ '; ' is not allowed here. Did you mean ';'? - start: 12, end: 13
 ✖ Invalid hexadecimal escape sequence - start: 13, end: 14
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 14
-✖ '; ' expected - start: 14, end: 15
+✖ '; ' is not allowed here. Did you mean ';'? - start: 14, end: 15
 
 ```
 

@@ -246,7 +246,7 @@
   "Variable declaration not allowed at this location": 255,
   "'finally' expected": 256,
   "'catch' expected": 257,
-  "'{0}' expected": 258,
+  "'{0}' is not allowed here. Did you mean '{1}'?": 258,
   "HTML comments can only be used in script mode": 259,
   "HTML comments can only be used with web compatibility enabled": 260
 

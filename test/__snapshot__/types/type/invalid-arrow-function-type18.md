@@ -167,10 +167,10 @@ type x = (([1]: y) => T);
 ### Diagnostics
 
 ```javascript
-✖ ':' expected - start: 14, end: 15
-✖ ')' expected - start: 17, end: 18
+✖ ':' is not allowed here. Did you mean ';'? - start: 14, end: 15
+✖ ')' is not allowed here. Did you mean ';'? - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 21
-✖ ')' expected - start: 23, end: 24
+✖ ')' is not allowed here. Did you mean ';'? - start: 23, end: 24
 
 ```
 

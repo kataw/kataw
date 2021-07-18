@@ -147,7 +147,7 @@ async (foo ? bar : baz, a) => {
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 26, end: 29
+✖ '=>' is not allowed here. Did you mean ';'? - start: 26, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 31
 
 ```

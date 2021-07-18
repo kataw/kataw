@@ -12492,11 +12492,11 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 41, end: 48
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Identifier expected - start: 59, end: 62
-✖ ':' expected - start: 81, end: 82
+✖ ':' is not allowed here. Did you mean ';'? - start: 81, end: 82
 ✖ Declaration or statement expected - start: 85, end: 86
 ✖ Unterminated regular expression - start: 95, end: 98
-✖ '; ' expected - start: 95, end: 98
-✖ '=>' expected - start: 101, end: 103
+✖ '; ' is not allowed here. Did you mean ';'? - start: 95, end: 98
+✖ '=>' is not allowed here. Did you mean ';'? - start: 101, end: 103
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 107, end: 109
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 117, end: 119
 ✖ An arrow function can not be part of an operator to the right - start: 129, end: 131
@@ -12545,13 +12545,13 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1778, end: 1856
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1859, end: 1868
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1871, end: 1883
-✖ '=>' expected - start: 1895, end: 1898
+✖ '=>' is not allowed here. Did you mean ';'? - start: 1895, end: 1898
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1901, end: 1916
-✖ '=>' expected - start: 1931, end: 1934
+✖ '=>' is not allowed here. Did you mean ';'? - start: 1931, end: 1934
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1937, end: 1952
-✖ '=>' expected - start: 2858, end: 2861
+✖ '=>' is not allowed here. Did you mean ';'? - start: 2858, end: 2861
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2865, end: 2873
-✖ '=>' expected - start: 2885, end: 2888
+✖ '=>' is not allowed here. Did you mean ';'? - start: 2885, end: 2888
 ✖ Missing an opening parentheses - '( - start: 2896, end: 2898
 ✖ Identifier expected - start: 2904, end: 2906
 ✖ Missing an opening parentheses - '( - start: 2906, end: 2907
@@ -12560,35 +12560,35 @@ a++ => {};
 ✖ Missing an opening parentheses - '( - start: 2921, end: 2922
 ✖ Identifier expected - start: 2922, end: 2925
 ✖ Expected a `;` - start: 2933, end: 2938
-✖ '=>' expected - start: 2950, end: 2953
+✖ '=>' is not allowed here. Did you mean ';'? - start: 2950, end: 2953
 ✖ The left hand side of the arrow is not destructible  - start: 2968, end: 2971
-✖ '=>' expected - start: 2986, end: 2989
-✖ '=>' expected - start: 2997, end: 3000
+✖ '=>' is not allowed here. Did you mean ';'? - start: 2986, end: 2989
+✖ '=>' is not allowed here. Did you mean ';'? - start: 2997, end: 3000
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3004, end: 3013
 ✖ Unterminated string literal - start: 3019, end: 3032
 ✖ Expected a ')' to match the '(' token here - start: 3042, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3017, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3058, end: 3066
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3070, end: 3081
-✖ '=>' expected - start: 3093, end: 3096
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3093, end: 3096
 ✖ Declaration or statement expected - start: 3103, end: 3106
-✖ '=>' expected - start: 3114, end: 3117
-✖ '=>' expected - start: 3127, end: 3130
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3114, end: 3117
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3127, end: 3130
 ✖ The left hand side of the arrow is not destructible  - start: 3143, end: 3146
-✖ '=>' expected - start: 3159, end: 3162
-✖ '=>' expected - start: 3169, end: 3172
-✖ '=>' expected - start: 3194, end: 3197
-✖ '=>' expected - start: 3222, end: 3225
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3159, end: 3162
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3169, end: 3172
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3194, end: 3197
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3222, end: 3225
 ✖ The left hand side of the arrow is not destructible  - start: 3250, end: 3253
 ✖ The left hand side of the arrow is not destructible  - start: 3266, end: 3269
-✖ '=>' expected - start: 3282, end: 3285
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3282, end: 3285
 ✖ The left hand side of the arrow is not destructible  - start: 3301, end: 3304
-✖ '=>' expected - start: 3320, end: 3323
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3320, end: 3323
 ✖ A rest element cannot have an initializer - start: 3335, end: 3337
 ✖ Expected a ')' to match the '(' token here - start: 3355, end: 3356
-✖ ')' expected - start: 3358, end: 3359
+✖ ')' is not allowed here. Did you mean ';'? - start: 3358, end: 3359
 ✖ Declaration or statement expected - start: 3359, end: 3362
-✖ '=>' expected - start: 3380, end: 3383
+✖ '=>' is not allowed here. Did you mean ';'? - start: 3380, end: 3383
 
 ```
 

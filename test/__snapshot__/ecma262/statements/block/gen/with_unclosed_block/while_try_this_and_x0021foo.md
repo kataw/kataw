@@ -288,11 +288,11 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ Missing an opening parentheses - '( - start: 24, end: 27
 ✖ 'catch' expected - start: 27, end: 32
-✖ '; ' expected - start: 32, end: 36
-✖ '!' expected - start: 36, end: 38
+✖ '; ' is not allowed here. Did you mean ';'? - start: 32, end: 36
+✖ '!' is not allowed here. Did you mean ';'? - start: 36, end: 38
 ✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 41
 
 ```

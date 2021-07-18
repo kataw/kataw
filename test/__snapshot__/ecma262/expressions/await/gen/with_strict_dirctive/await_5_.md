@@ -84,7 +84,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 19, end: 21
+✖ '; ' is not allowed here. Did you mean ';'? - start: 19, end: 21
 
 ```
 

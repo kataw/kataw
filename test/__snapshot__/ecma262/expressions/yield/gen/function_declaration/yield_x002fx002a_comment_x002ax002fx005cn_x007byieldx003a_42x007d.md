@@ -184,8 +184,8 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 26, end: 40
-✖ '; ' expected - start: 26, end: 41
-✖ '{' expected - start: 42, end: 44
+✖ '; ' is not allowed here. Did you mean ';'? - start: 26, end: 41
+✖ '{' is not allowed here. Did you mean ';'? - start: 42, end: 44
 ✖ Declaration or statement expected - start: 54, end: 56
 ✖ Declaration or statement expected - start: 56, end: 57
 

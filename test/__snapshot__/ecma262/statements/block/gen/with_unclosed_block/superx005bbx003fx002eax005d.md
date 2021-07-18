@@ -227,7 +227,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 17, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 

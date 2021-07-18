@@ -200,7 +200,7 @@ async (x = delete ((switch) = f)) => {}
 ✖ Identifier expected - start: 20, end: 26
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
-✖ ')' expected - start: 31, end: 32
+✖ ')' is not allowed here. Did you mean ';'? - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 36
 

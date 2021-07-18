@@ -243,7 +243,7 @@ foo = {
 ```javascript
 ✖ Identifier expected - start: 42, end: 52
 ✖ Identifier expected - start: 52, end: 54
-✖ ')' expected - start: 56, end: 57
+✖ ')' is not allowed here. Did you mean ';'? - start: 56, end: 57
 ✖ Declaration or statement expected - start: 58, end: 62
 ✖ Declaration or statement expected - start: 62, end: 64
 

@@ -969,7 +969,7 @@
 ✖ Invalid hexadecimal escape sequence - start: 127, end: 129
 ✖ Invalid hexadecimal escape sequence - start: 129, end: 129
 ✖ Method definition expected - start: 129, end: 130
-✖ '{' expected - start: 147, end: 149
+✖ '{' is not allowed here. Did you mean ';'? - start: 147, end: 149
 ✖ Declaration or statement expected - start: 150, end: 152
 ✖ Declaration or statement expected - start: 152, end: 153
 ✖ A 'get' accessor cannot have parameters. - start: 236, end: 237

@@ -87,7 +87,7 @@ export default yield x
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 20, end: 22
+✖ '; ' is not allowed here. Did you mean ';'? - start: 20, end: 22
 
 ```
 

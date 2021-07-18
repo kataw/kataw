@@ -138,7 +138,7 @@ const [..x] = obj;
 ✖ Missing initializer in const declaration - start: 7, end: 8
 ✖ Lexical declaration expected - start: 7, end: 8
 ✖ Declaration or statement expected - start: 8, end: 9
-✖ ']' expected - start: 10, end: 11
+✖ ']' is not allowed here. Did you mean ';'? - start: 10, end: 11
 ✖ Declaration or statement expected - start: 11, end: 13
 
 ```

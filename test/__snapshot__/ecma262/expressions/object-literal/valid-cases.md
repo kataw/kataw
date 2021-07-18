@@ -3675,7 +3675,7 @@ x = {y: {z: 1}}?.y?.z;
 ### Diagnostics
 
 ```javascript
-✖ ':' expected - start: 255, end: 256
+✖ ':' is not allowed here. Did you mean ';'? - start: 255, end: 256
 
 ```
 

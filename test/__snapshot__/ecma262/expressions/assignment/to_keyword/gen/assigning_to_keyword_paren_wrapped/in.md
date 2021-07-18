@@ -113,7 +113,7 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 3
 ✖ Identifier expected - start: 3, end: 5
-✖ ')' expected - start: 7, end: 8
+✖ ')' is not allowed here. Did you mean ';'? - start: 7, end: 8
 
 ```
 

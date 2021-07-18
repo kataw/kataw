@@ -130,7 +130,7 @@
 ✖ Identifier expected - start: 1, end: 8
 ✖ 'try' expected - start: 1, end: 8
 ✖ Declaration or statement expected - start: 8, end: 10
-✖ ')' expected - start: 12, end: 13
+✖ ')' is not allowed here. Did you mean ';'? - start: 12, end: 13
 
 ```
 

@@ -156,7 +156,7 @@ import {a, b} fromx "c"
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 19, end: 23
+✖ '; ' is not allowed here. Did you mean ';'? - start: 19, end: 23
 
 ```
 

@@ -241,7 +241,7 @@ unction* g() { var f = async({x = yield}) => 1; }
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 12, end: 14
+✖ '{' is not allowed here. Did you mean ';'? - start: 12, end: 14
 
 ```
 

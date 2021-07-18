@@ -147,7 +147,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ '=' expected - start: 38, end: 40
+✖ '=' is not allowed here. Did you mean ';'? - start: 38, end: 40
 ✖ Declaration or statement expected - start: 42, end: 44
 
 ```

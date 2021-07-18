@@ -273,7 +273,7 @@ do while [catch] async try while { catch }
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
-✖ 'try' expected - start: 22, end: 26
+✖ 'try' is not allowed here. Did you mean ';'? - start: 22, end: 26
 ✖ 'catch' expected - start: 26, end: 32
 ✖ Missing an opening parentheses - '( - start: 33, end: 34
 ✖ Property definition expected. Did you mean to use a ':'? - start: 40, end: 42

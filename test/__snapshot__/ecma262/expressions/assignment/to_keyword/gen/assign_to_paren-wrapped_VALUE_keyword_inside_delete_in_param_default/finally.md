@@ -239,7 +239,7 @@ function *f(x = delete ((finally) = f)) {}
 ✖ 'try' expected - start: 25, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 35
-✖ ')' expected - start: 37, end: 38
+✖ ')' is not allowed here. Did you mean ';'? - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 39
 
 ```

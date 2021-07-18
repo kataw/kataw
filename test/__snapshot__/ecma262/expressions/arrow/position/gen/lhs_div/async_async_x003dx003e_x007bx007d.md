@@ -114,7 +114,7 @@ async async => {} / x
 
 ```javascript
 ✖ Unterminated regular expression - start: 17, end: 21
-✖ '; ' expected - start: 17, end: 21
+✖ '; ' is not allowed here. Did you mean ';'? - start: 17, end: 21
 
 ```
 

@@ -204,9 +204,9 @@ function *f(x = delete ((debugger) = f)) {}
 
 ```javascript
 ✖ Identifier expected - start: 25, end: 33
-✖ ')' expected - start: 33, end: 34
+✖ ')' is not allowed here. Did you mean ';'? - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 36
-✖ ')' expected - start: 38, end: 39
+✖ ')' is not allowed here. Did you mean ';'? - start: 38, end: 39
 ✖ Declaration or statement expected - start: 39, end: 40
 
 ```

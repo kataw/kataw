@@ -166,8 +166,8 @@ function foo(p\141ckage) { "use strict"; }
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 14
 ✖ ',' expected - start: 14, end: 15
 ✖ Unexpected token. - start: 15, end: 18
-✖ '; ' expected - start: 18, end: 23
-✖ ')' expected - start: 23, end: 24
+✖ '; ' is not allowed here. Did you mean ';'? - start: 18, end: 23
+✖ ')' is not allowed here. Did you mean ';'? - start: 23, end: 24
 
 ```
 

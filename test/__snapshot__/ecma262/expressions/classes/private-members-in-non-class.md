@@ -1015,9 +1015,9 @@ class C { test() {get #a() { }}}
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Private identifiers are not allowed outside class bodies - start: 51, end: 54
 ✖ Private identifiers are not allowed outside class bodies - start: 64, end: 67
-✖ '{' expected - start: 69, end: 71
-✖ '; ' expected - start: 97, end: 100
-✖ '{' expected - start: 102, end: 104
+✖ '{' is not allowed here. Did you mean ';'? - start: 69, end: 71
+✖ '; ' is not allowed here. Did you mean ';'? - start: 97, end: 100
+✖ '{' is not allowed here. Did you mean ';'? - start: 102, end: 104
 ✖ Private identifiers are not allowed outside class bodies - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class bodies - start: 183, end: 186
 ✖ The left-hand side must be a variable or a property access. - start: 177, end: 195

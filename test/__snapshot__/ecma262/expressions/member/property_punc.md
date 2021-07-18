@@ -74,7 +74,7 @@ y.)
 
 ```javascript
 ✖ Dot property must be an identifier - start: 2, end: 3
-✖ ')' expected - start: 2, end: 3
+✖ ')' is not allowed here. Did you mean ';'? - start: 2, end: 3
 
 ```
 

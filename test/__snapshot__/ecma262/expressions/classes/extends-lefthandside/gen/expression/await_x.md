@@ -152,7 +152,7 @@
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 23, end: 24
-✖ '{' expected - start: 24, end: 26
+✖ '{' is not allowed here. Did you mean ';'? - start: 24, end: 26
 ✖ Declaration or statement expected - start: 27, end: 28
 
 ```

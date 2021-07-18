@@ -129,7 +129,7 @@
 ✖ Identifier expected - start: 14, end: 20
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 23
-✖ ')' expected - start: 25, end: 26
+✖ ')' is not allowed here. Did you mean ';'? - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 27
 ✖ Declaration or statement expected - start: 27, end: 30
 

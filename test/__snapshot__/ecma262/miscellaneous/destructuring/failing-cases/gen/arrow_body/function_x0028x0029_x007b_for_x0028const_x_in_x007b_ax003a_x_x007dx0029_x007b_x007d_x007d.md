@@ -405,7 +405,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 50, end: 53
+✖ '=>' is not allowed here. Did you mean ';'? - start: 50, end: 53
 ✖ Binding identifier expected - start: 62, end: 64
 
 ```

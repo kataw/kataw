@@ -231,7 +231,7 @@ foo = {
 ✖ Property definition expected. Did you mean to use a ':'? - start: 46, end: 48
 ✖ ',' expected - start: 47, end: 48
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 48
-✖ ')' expected - start: 50, end: 51
+✖ ')' is not allowed here. Did you mean ';'? - start: 50, end: 51
 ✖ Declaration or statement expected - start: 52, end: 56
 ✖ Declaration or statement expected - start: 56, end: 58
 

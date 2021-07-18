@@ -137,7 +137,7 @@ class x extends debugger {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 24
-✖ '{' expected - start: 24, end: 26
+✖ '{' is not allowed here. Did you mean ';'? - start: 24, end: 26
 
 ```
 

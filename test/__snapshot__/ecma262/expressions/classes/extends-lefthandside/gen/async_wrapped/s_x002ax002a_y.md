@@ -224,7 +224,7 @@ async function p(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 40, end: 42
-✖ '{' expected - start: 44, end: 46
+✖ '{' is not allowed here. Did you mean ';'? - start: 44, end: 46
 
 ```
 

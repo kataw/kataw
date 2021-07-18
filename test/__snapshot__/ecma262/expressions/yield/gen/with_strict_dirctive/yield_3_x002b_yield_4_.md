@@ -123,8 +123,8 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 19, end: 21
-✖ '; ' expected - start: 29, end: 31
+✖ '; ' is not allowed here. Did you mean ';'? - start: 19, end: 21
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 31
 
 ```
 

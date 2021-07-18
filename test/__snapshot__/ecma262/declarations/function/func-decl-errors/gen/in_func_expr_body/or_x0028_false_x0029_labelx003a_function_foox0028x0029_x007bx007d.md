@@ -241,7 +241,7 @@
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
 ✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 25
-✖ '; ' expected - start: 25, end: 31
+✖ '; ' is not allowed here. Did you mean ';'? - start: 25, end: 31
 ✖ Declaration or statement expected - start: 50, end: 51
 ✖ Declaration or statement expected - start: 51, end: 52
 ✖ Expression expected - start: 54, end: 54

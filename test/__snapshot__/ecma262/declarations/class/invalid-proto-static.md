@@ -164,7 +164,7 @@ declare class C {
 ### Diagnostics
 
 ```javascript
-✖ ':' expected - start: 34, end: 35
+✖ ':' is not allowed here. Did you mean ';'? - start: 34, end: 35
 ✖ Declaration or statement expected - start: 38, end: 40
 
 ```

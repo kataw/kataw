@@ -1208,22 +1208,22 @@ x = (a,b)+c=>{};
 
 ```javascript
 ✖ Expected '=>' - start: 6, end: 22
-✖ '=>' expected - start: 25, end: 27
+✖ '=>' is not allowed here. Did you mean ';'? - start: 25, end: 27
 ✖ Expected '=>' - start: 36, end: 37
-✖ '=>' expected - start: 44, end: 46
+✖ '=>' is not allowed here. Did you mean ';'? - start: 44, end: 46
 ✖ Expected '=>' - start: 60, end: 61
-✖ '=>' expected - start: 63, end: 65
-✖ '=>' expected - start: 96, end: 98
-✖ '=>' expected - start: 128, end: 130
-✖ '=>' expected - start: 165, end: 167
+✖ '=>' is not allowed here. Did you mean ';'? - start: 63, end: 65
+✖ '=>' is not allowed here. Did you mean ';'? - start: 96, end: 98
+✖ '=>' is not allowed here. Did you mean ';'? - start: 128, end: 130
+✖ '=>' is not allowed here. Did you mean ';'? - start: 165, end: 167
 ✖ Expression expected - start: 172, end: 188
-✖ '=>' expected - start: 204, end: 206
+✖ '=>' is not allowed here. Did you mean ';'? - start: 204, end: 206
 ✖ Expression expected - start: 211, end: 212
-✖ '=>' expected - start: 219, end: 221
+✖ '=>' is not allowed here. Did you mean ';'? - start: 219, end: 221
 ✖ Expression expected - start: 231, end: 232
-✖ '=>' expected - start: 234, end: 236
+✖ '=>' is not allowed here. Did you mean ';'? - start: 234, end: 236
 ✖ Expression expected - start: 245, end: 246
-✖ '=>' expected - start: 248, end: 250
+✖ '=>' is not allowed here. Did you mean ';'? - start: 248, end: 250
 ✖ Expected a `;` - start: 264, end: 267
 
 ```

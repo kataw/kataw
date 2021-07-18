@@ -195,7 +195,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 12, end: 14
+✖ '; ' is not allowed here. Did you mean ';'? - start: 12, end: 14
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 23
 
 ```

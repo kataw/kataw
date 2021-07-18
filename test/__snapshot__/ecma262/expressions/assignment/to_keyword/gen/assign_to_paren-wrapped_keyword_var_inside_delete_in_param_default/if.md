@@ -147,7 +147,7 @@
 ✖ Missing an opening parentheses - '( - start: 16, end: 17
 ✖ Identifier expected - start: 17, end: 19
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 17, end: 19
-✖ ')' expected - start: 21, end: 22
+✖ ')' is not allowed here. Did you mean ';'? - start: 21, end: 22
 ✖ Declaration or statement expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 26
 

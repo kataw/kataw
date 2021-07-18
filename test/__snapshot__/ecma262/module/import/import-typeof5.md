@@ -139,7 +139,7 @@ import typeof a * from "b";
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 17
-✖ '; ' expected - start: 22, end: 26
+✖ '; ' is not allowed here. Did you mean ';'? - start: 22, end: 26
 
 ```
 

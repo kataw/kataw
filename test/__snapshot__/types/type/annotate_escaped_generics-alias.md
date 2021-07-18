@@ -254,7 +254,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
 ### Diagnostics
 
 ```javascript
-✖ ')' expected - start: 35, end: 36
+✖ ')' is not allowed here. Did you mean ';'? - start: 35, end: 36
 ✖ Declaration or statement expected - start: 36, end: 39
 
 ```

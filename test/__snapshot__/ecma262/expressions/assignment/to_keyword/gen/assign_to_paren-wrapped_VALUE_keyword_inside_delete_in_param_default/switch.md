@@ -223,7 +223,7 @@ function *f(x = delete ((switch) = f)) {}
 ✖ Identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 31, end: 32
 ✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 34
-✖ ')' expected - start: 36, end: 37
+✖ ')' is not allowed here. Did you mean ';'? - start: 36, end: 37
 ✖ Declaration or statement expected - start: 37, end: 38
 
 ```

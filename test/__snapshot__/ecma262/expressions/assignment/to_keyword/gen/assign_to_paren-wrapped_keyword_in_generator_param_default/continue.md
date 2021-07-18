@@ -196,7 +196,7 @@ function *f(x = (continue) = f) {}
 ✖ Identifier expected - start: 25, end: 26
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 17, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ ')' expected - start: 30, end: 31
+✖ ')' is not allowed here. Did you mean ';'? - start: 30, end: 31
 
 ```
 

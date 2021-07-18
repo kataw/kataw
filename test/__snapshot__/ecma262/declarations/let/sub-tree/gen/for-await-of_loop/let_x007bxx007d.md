@@ -137,7 +137,7 @@ for await (a of b) let {x}
 
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 9, end: 11
-✖ '{' expected - start: 22, end: 24
+✖ '{' is not allowed here. Did you mean ';'? - start: 22, end: 24
 
 ```
 

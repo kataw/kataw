@@ -114,7 +114,7 @@ class false {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ '{' expected - start: 11, end: 13
+✖ '{' is not allowed here. Did you mean ';'? - start: 11, end: 13
 
 ```
 

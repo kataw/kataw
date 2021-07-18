@@ -168,7 +168,7 @@ var f = (x): (number) => 123 => 123;
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 28, end: 31
-✖ '=>' expected - start: 28, end: 31
+✖ '=>' is not allowed here. Did you mean ';'? - start: 28, end: 31
 
 ```
 

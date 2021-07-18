@@ -267,8 +267,8 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
-✖ 'function' expected - start: 24, end: 33
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
+✖ 'function' is not allowed here. Did you mean ';'? - start: 24, end: 33
 ✖ Binding identifier expected - start: 33, end: 39
 ✖ Missing an opening parentheses - '( - start: 34, end: 39
 ✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 41

@@ -104,7 +104,7 @@ foo--.toString();
 ### Diagnostics
 
 ```javascript
-✖ '.' expected - start: 5, end: 6
+✖ '.' is not allowed here. Did you mean ';'? - start: 5, end: 6
 
 ```
 

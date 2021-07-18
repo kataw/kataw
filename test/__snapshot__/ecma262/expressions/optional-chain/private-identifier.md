@@ -3786,7 +3786,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
 ✖ Private identifiers are not allowed outside class bodies - start: 412, end: 418
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 429, end: 433
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 432, end: 433
-✖ ']' expected - start: 434, end: 435
+✖ ']' is not allowed here. Did you mean ';'? - start: 434, end: 435
 ✖ Declaration or statement expected - start: 435, end: 437
 ✖ Private identifiers are not allowed outside class bodies - start: 443, end: 447
 

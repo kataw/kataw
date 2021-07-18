@@ -252,7 +252,7 @@
 
 ```javascript
 ✖ Identifier expected. A decorator name can only be an identifier - start: 1, end: 2
-✖ 'class' expected - start: 2, end: 8
+✖ 'class' is not allowed here. Did you mean ';'? - start: 2, end: 8
 ✖ Identifier expected. A decorator name can only be an identifier - start: 16, end: 17
 ✖ An member access expression should take an argument. - start: 16, end: 18
 ✖ Identifier expected - start: 17, end: 18

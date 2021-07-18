@@ -226,7 +226,7 @@ new foo ++;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 8, end: 12
+✖ '; ' is not allowed here. Did you mean ';'? - start: 8, end: 12
 ✖ Identifier expected - start: 18, end: 20
 ✖ Expression expected - start: 36, end: 37
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 46, end: 49

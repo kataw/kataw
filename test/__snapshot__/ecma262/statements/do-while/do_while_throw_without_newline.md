@@ -161,7 +161,7 @@ do throw function (v, h) {
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 43, end: 49
+✖ 'while' is not allowed here. Did you mean ';'? - start: 43, end: 49
 
 ```
 

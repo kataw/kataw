@@ -189,9 +189,9 @@ async (x = delete ((const) = f)) => {}
 
 ```javascript
 ✖ Identifier expected - start: 20, end: 25
-✖ ')' expected - start: 25, end: 26
+✖ ')' is not allowed here. Did you mean ';'? - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ ')' expected - start: 30, end: 31
+✖ ')' is not allowed here. Did you mean ';'? - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 35
 

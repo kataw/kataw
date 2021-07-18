@@ -213,7 +213,7 @@ function *f(x = delete ((export) = f)) {}
 ✖ Declaration or statement expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 34
-✖ ')' expected - start: 36, end: 37
+✖ ')' is not allowed here. Did you mean ';'? - start: 36, end: 37
 ✖ Declaration or statement expected - start: 37, end: 38
 
 ```

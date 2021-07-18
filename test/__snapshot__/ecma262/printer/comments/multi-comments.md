@@ -257,7 +257,7 @@ y;
 
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 0, end: 18
-✖ '; ' expected - start: 106, end: 109
+✖ '; ' is not allowed here. Did you mean ';'? - start: 106, end: 109
 ✖ Unterminated regular expression - start: 111, end: 112
 
 ```

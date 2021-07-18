@@ -1925,20 +1925,20 @@ import { let as l } from 'm.js';
 
 ```javascript
 ✖ Identifier expected - start: 148, end: 150
-✖ '; ' expected - start: 153, end: 157
-✖ 'from' expected - start: 157, end: 162
-✖ '; ' expected - start: 162, end: 171
+✖ '; ' is not allowed here. Did you mean ';'? - start: 153, end: 157
+✖ 'from' is not allowed here. Did you mean ';'? - start: 157, end: 162
+✖ '; ' is not allowed here. Did you mean ';'? - start: 162, end: 171
 ✖ Duplicate identifier - start: 264, end: 266
 ✖ Duplicate identifier - start: 290, end: 291
 ✖ Duplicate identifier - start: 296, end: 298
 ✖ Identifier expected - start: 324, end: 326
-✖ '; ' expected - start: 329, end: 335
-✖ 'from' expected - start: 335, end: 340
-✖ '; ' expected - start: 340, end: 347
+✖ '; ' is not allowed here. Did you mean ';'? - start: 329, end: 335
+✖ 'from' is not allowed here. Did you mean ';'? - start: 335, end: 340
+✖ '; ' is not allowed here. Did you mean ';'? - start: 340, end: 347
 ✖ Identifier expected - start: 388, end: 390
-✖ '; ' expected - start: 393, end: 398
-✖ 'from' expected - start: 398, end: 403
-✖ '; ' expected - start: 403, end: 410
+✖ '; ' is not allowed here. Did you mean ';'? - start: 393, end: 398
+✖ 'from' is not allowed here. Did you mean ';'? - start: 398, end: 403
+✖ '; ' is not allowed here. Did you mean ';'? - start: 403, end: 410
 ✖ Duplicate identifier - start: 429, end: 430
 ✖ Duplicate identifier - start: 435, end: 437
 ✖ Duplicate identifier - start: 472, end: 474

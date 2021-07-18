@@ -143,7 +143,7 @@ class C { await\n a }
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 15
 ✖ Invalid hexadecimal escape sequence - start: 15, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 16
-✖ '; ' expected - start: 17, end: 19
+✖ '; ' is not allowed here. Did you mean ';'? - start: 17, end: 19
 ✖ Declaration or statement expected - start: 19, end: 21
 
 ```

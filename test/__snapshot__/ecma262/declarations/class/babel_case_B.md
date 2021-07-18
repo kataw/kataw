@@ -134,7 +134,7 @@ x = class{} / x
 
 ```javascript
 ✖ Unterminated regular expression - start: 11, end: 15
-✖ '; ' expected - start: 11, end: 15
+✖ '; ' is not allowed here. Did you mean ';'? - start: 11, end: 15
 
 ```
 

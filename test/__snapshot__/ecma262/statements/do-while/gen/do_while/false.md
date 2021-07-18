@@ -86,7 +86,7 @@ do false while
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 8, end: 14
+✖ 'while' is not allowed here. Did you mean ';'? - start: 8, end: 14
 
 ```
 

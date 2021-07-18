@@ -84,7 +84,7 @@ var ];
 ### Diagnostics
 
 ```javascript
-✖ ']' expected - start: 3, end: 5
+✖ ']' is not allowed here. Did you mean ';'? - start: 3, end: 5
 
 ```
 

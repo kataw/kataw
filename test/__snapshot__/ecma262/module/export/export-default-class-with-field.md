@@ -244,7 +244,7 @@ export default class {
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
-✖ '{' expected - start: 47, end: 49
+✖ '{' is not allowed here. Did you mean ';'? - start: 47, end: 49
 ✖ Declaration or statement expected - start: 69, end: 71
 
 ```

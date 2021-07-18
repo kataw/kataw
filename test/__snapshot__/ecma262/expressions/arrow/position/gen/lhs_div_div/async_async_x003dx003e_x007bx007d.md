@@ -130,7 +130,7 @@ async async => {}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 23, end: 25
+✖ '; ' is not allowed here. Did you mean ';'? - start: 23, end: 25
 
 ```
 

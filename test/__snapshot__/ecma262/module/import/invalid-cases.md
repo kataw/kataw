@@ -862,28 +862,28 @@ import * as x, {y} from 'm.js';
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 13
-✖ 'from' expected - start: 17, end: 22
-✖ '; ' expected - start: 22, end: 29
+✖ 'from' is not allowed here. Did you mean ';'? - start: 17, end: 22
+✖ '; ' is not allowed here. Did you mean ';'? - start: 22, end: 29
 ✖ Import declaration expected - start: 43, end: 48
-✖ 'from' expected - start: 48, end: 53
-✖ '; ' expected - start: 53, end: 60
+✖ 'from' is not allowed here. Did you mean ';'? - start: 48, end: 53
+✖ '; ' is not allowed here. Did you mean ';'? - start: 53, end: 60
 ✖ Identifier expected - start: 69, end: 71
-✖ '; ' expected - start: 74, end: 76
-✖ 'from' expected - start: 81, end: 86
-✖ '; ' expected - start: 86, end: 93
+✖ '; ' is not allowed here. Did you mean ';'? - start: 74, end: 76
+✖ 'from' is not allowed here. Did you mean ';'? - start: 81, end: 86
+✖ '; ' is not allowed here. Did you mean ';'? - start: 86, end: 93
 ✖ Identifier expected - start: 102, end: 104
-✖ '; ' expected - start: 107, end: 109
+✖ '; ' is not allowed here. Did you mean ';'? - start: 107, end: 109
 ✖ Identifier expected - start: 110, end: 112
-✖ '; ' expected - start: 115, end: 117
-✖ 'from' expected - start: 117, end: 122
-✖ '; ' expected - start: 122, end: 129
+✖ '; ' is not allowed here. Did you mean ';'? - start: 115, end: 117
+✖ 'from' is not allowed here. Did you mean ';'? - start: 117, end: 122
+✖ '; ' is not allowed here. Did you mean ';'? - start: 122, end: 129
 ✖ Duplicate identifier - start: 141, end: 142
 ✖ Identifier expected - start: 142, end: 143
-✖ '; ' expected - start: 152, end: 159
+✖ '; ' is not allowed here. Did you mean ';'? - start: 152, end: 159
 ✖ Identifier expected - start: 168, end: 170
-✖ '; ' expected - start: 173, end: 175
-✖ 'from' expected - start: 180, end: 185
-✖ '; ' expected - start: 185, end: 192
+✖ '; ' is not allowed here. Did you mean ';'? - start: 173, end: 175
+✖ 'from' is not allowed here. Did you mean ';'? - start: 180, end: 185
+✖ '; ' is not allowed here. Did you mean ';'? - start: 185, end: 192
 
 ```
 

@@ -158,7 +158,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '{' expected - start: 15, end: 17
+✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 24
 
 ```

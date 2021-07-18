@@ -148,7 +148,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'class' expected - start: 11, end: 17
+✖ 'class' is not allowed here. Did you mean ';'? - start: 11, end: 17
 
 ```
 

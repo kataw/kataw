@@ -72,7 +72,7 @@ true: x
 ### Diagnostics
 
 ```javascript
-✖ ':' expected - start: 4, end: 5
+✖ ':' is not allowed here. Did you mean ';'? - start: 4, end: 5
 
 ```
 

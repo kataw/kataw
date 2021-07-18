@@ -123,7 +123,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 19, end: 35
+✖ '{' is not allowed here. Did you mean ';'? - start: 19, end: 35
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 35, end: 42
 
 ```

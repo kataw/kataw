@@ -130,7 +130,7 @@ function a() {
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 29, end: 31
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 31
 
 ```
 

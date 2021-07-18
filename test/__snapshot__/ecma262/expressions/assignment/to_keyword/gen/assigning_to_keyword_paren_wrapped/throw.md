@@ -114,7 +114,7 @@
 ✖ Identifier expected - start: 1, end: 6
 ✖ Identifier expected - start: 6, end: 8
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 6, end: 8
-✖ ')' expected - start: 10, end: 11
+✖ ')' is not allowed here. Did you mean ';'? - start: 10, end: 11
 
 ```
 

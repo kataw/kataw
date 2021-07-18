@@ -349,10 +349,10 @@ const f = async <T, R, S>(
 ✖ Missing initializer in const declaration - start: 21, end: 22
 ✖ Missing initializer in const declaration - start: 24, end: 25
 ✖ Lexical declaration expected - start: 24, end: 25
-✖ '>' expected - start: 24, end: 25
+✖ '>' is not allowed here. Did you mean ';'? - start: 24, end: 25
 ✖ Expected a ')' to match the '(' token here - start: 30, end: 31
-✖ ':' expected - start: 38, end: 39
-✖ ':' expected - start: 46, end: 47
+✖ ':' is not allowed here. Did you mean ';'? - start: 38, end: 39
+✖ ':' is not allowed here. Did you mean ';'? - start: 46, end: 47
 ✖ Identifier expected - start: 50, end: 52
 ✖ Declaration or statement expected - start: 52, end: 55
 ✖ A return statement can only be used within a function_body - start: 57, end: 66

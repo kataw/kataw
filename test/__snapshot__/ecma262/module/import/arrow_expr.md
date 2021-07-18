@@ -163,7 +163,7 @@ let x = () => import {x} from "y"
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 24
-✖ '; ' expected - start: 29, end: 33
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 33
 
 ```
 

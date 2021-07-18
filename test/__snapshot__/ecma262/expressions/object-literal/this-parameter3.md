@@ -642,21 +642,21 @@ let one = {
 ✖ ',' expected - start: 21, end: 22
 ✖ Expected a ')' to match the '(' token here - start: 21, end: 22
 ✖ Lexical declaration expected - start: 21, end: 22
-✖ ')' expected - start: 29, end: 30
+✖ ')' is not allowed here. Did you mean ';'? - start: 29, end: 30
 ✖ Declaration or statement expected - start: 33, end: 34
 ✖ ',' expected - start: 45, end: 46
-✖ ')' expected - start: 56, end: 57
+✖ ')' is not allowed here. Did you mean ';'? - start: 56, end: 57
 ✖ Declaration or statement expected - start: 60, end: 61
 ✖ ',' expected - start: 72, end: 73
 ✖ Identifier expected - start: 81, end: 85
-✖ ')' expected - start: 86, end: 87
+✖ ')' is not allowed here. Did you mean ';'? - start: 86, end: 87
 ✖ Declaration or statement expected - start: 90, end: 91
 ✖ ',' expected - start: 102, end: 103
 ✖ Identifier expected - start: 117, end: 121
-✖ ')' expected - start: 122, end: 123
+✖ ')' is not allowed here. Did you mean ';'? - start: 122, end: 123
 ✖ Declaration or statement expected - start: 126, end: 127
 ✖ Expected a ')' to match the '(' token here - start: 141, end: 142
-✖ ')' expected - start: 144, end: 145
+✖ ')' is not allowed here. Did you mean ';'? - start: 144, end: 145
 ✖ Declaration or statement expected - start: 148, end: 151
 
 ```

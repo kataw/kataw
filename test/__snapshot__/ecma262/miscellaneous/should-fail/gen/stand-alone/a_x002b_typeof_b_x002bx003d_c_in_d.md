@@ -134,7 +134,7 @@ a + typeof b += c in d
 ### Diagnostics
 
 ```javascript
-✖ '+=' expected - start: 12, end: 15
+✖ '+=' is not allowed here. Did you mean ';'? - start: 12, end: 15
 
 ```
 

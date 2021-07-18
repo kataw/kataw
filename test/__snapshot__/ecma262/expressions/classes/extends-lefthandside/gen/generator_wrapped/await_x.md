@@ -201,7 +201,7 @@ function *P(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 39, end: 40
-✖ '{' expected - start: 40, end: 42
+✖ '{' is not allowed here. Did you mean ';'? - start: 40, end: 42
 
 ```
 

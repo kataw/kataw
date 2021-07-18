@@ -80,7 +80,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 9
-✖ ')' expected - start: 9, end: 10
+✖ ')' is not allowed here. Did you mean ';'? - start: 9, end: 10
 
 ```
 

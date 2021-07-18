@@ -270,8 +270,8 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Missing an opening parentheses - '( - start: 16, end: 19
 ✖ 'catch' expected - start: 19, end: 24
-✖ '; ' expected - start: 24, end: 28
-✖ '!' expected - start: 28, end: 30
+✖ '; ' is not allowed here. Did you mean ';'? - start: 24, end: 28
+✖ '!' is not allowed here. Did you mean ';'? - start: 28, end: 30
 
 ```
 

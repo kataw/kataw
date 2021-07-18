@@ -75,7 +75,7 @@
 ```javascript
 ✖ Identifier expected - start: 3, end: 4
 ✖ Expected a ')' to match the '(' token here - start: 5, end: 6
-✖ ')' expected - start: 7, end: 8
+✖ ')' is not allowed here. Did you mean ';'? - start: 7, end: 8
 
 ```
 

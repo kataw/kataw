@@ -2579,27 +2579,27 @@ y = (x => {}(0));
 ✖ The left hand side of the arrow is not destructible  - start: 184, end: 187
 ✖ Expected a ')' to match the '(' token here - start: 200, end: 202
 ✖ The left hand side of the arrow is not destructible  - start: 199, end: 202
-✖ ')' expected - start: 205, end: 206
+✖ ')' is not allowed here. Did you mean ';'? - start: 205, end: 206
 ✖ Expected a ')' to match the '(' token here - start: 222, end: 224
 ✖ The left hand side of the arrow is not destructible  - start: 221, end: 224
-✖ ')' expected - start: 227, end: 228
+✖ ')' is not allowed here. Did you mean ';'? - start: 227, end: 228
 ✖ Identifier expected - start: 232, end: 234
 ✖ Missing an opening parentheses - '( - start: 234, end: 235
 ✖ Identifier expected - start: 235, end: 238
 ✖ Expected a ')' to match the '(' token here - start: 248, end: 250
 ✖ Missing an opening parentheses - '( - start: 250, end: 251
 ✖ Identifier expected - start: 251, end: 254
-✖ '=>' expected - start: 270, end: 273
+✖ '=>' is not allowed here. Did you mean ';'? - start: 270, end: 273
 ✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
 ✖ Expected a ')' to match the '(' token here - start: 307, end: 309
-✖ ')' expected - start: 312, end: 313
+✖ ')' is not allowed here. Did you mean ';'? - start: 312, end: 313
 ✖ An arrow function can not be part of an operator to the right - start: 324, end: 325
 ✖ An arrow function can not be part of an operator to the right - start: 337, end: 338
 ✖ An arrow function can not be part of an operator to the right - start: 356, end: 357
 ✖ An arrow function can not be part of an operator to the right - start: 374, end: 375
 ✖ An arrow function can not be part of an operator to the right - start: 395, end: 396
 ✖ An arrow function can not be part of an operator to the right - start: 411, end: 412
-✖ ')' expected - start: 414, end: 415
+✖ ')' is not allowed here. Did you mean ';'? - start: 414, end: 415
 ✖ An arrow function can not be part of an operator to the right - start: 430, end: 431
 ✖ An arrow function can not be part of an operator to the right - start: 452, end: 453
 ✖ An arrow function can not be part of an operator to the right - start: 474, end: 475

@@ -211,11 +211,11 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 5, end: 7
+✖ '; ' is not allowed here. Did you mean ';'? - start: 5, end: 7
 ✖ Unterminated string literal - start: 7, end: 9
-✖ '; ' expected - start: 7, end: 9
-✖ '; ' expected - start: 17, end: 19
-✖ '; ' expected - start: 19, end: 25
+✖ '; ' is not allowed here. Did you mean ';'? - start: 7, end: 9
+✖ '; ' is not allowed here. Did you mean ';'? - start: 17, end: 19
+✖ '; ' is not allowed here. Did you mean ';'? - start: 19, end: 25
 
 ```
 

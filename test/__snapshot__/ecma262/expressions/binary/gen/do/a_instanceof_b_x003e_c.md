@@ -134,7 +134,7 @@ do a instanceof b > c while (x);
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 21, end: 27
+✖ 'while' is not allowed here. Did you mean ';'? - start: 21, end: 27
 
 ```
 

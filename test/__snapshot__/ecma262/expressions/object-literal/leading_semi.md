@@ -131,7 +131,7 @@
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 2, end: 3
-✖ ':' expected - start: 8, end: 9
+✖ ':' is not allowed here. Did you mean ';'? - start: 8, end: 9
 ✖ Declaration or statement expected - start: 10, end: 11
 ✖ Declaration or statement expected - start: 11, end: 12
 

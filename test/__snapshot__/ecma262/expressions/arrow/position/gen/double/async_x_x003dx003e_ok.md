@@ -138,7 +138,7 @@ async x => ok async x => ok
 ### Diagnostics
 
 ```javascript
-✖ 'async' expected - start: 13, end: 19
+✖ 'async' is not allowed here. Did you mean ';'? - start: 13, end: 19
 
 ```
 

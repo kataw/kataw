@@ -138,7 +138,7 @@
 ✖ Identifier expected - start: 6, end: 8
 ✖ Identifier expected - start: 8, end: 9
 ✖ Declaration or statement expected - start: 9, end: 11
-✖ ')' expected - start: 13, end: 14
+✖ ')' is not allowed here. Did you mean ';'? - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 17
 
 ```

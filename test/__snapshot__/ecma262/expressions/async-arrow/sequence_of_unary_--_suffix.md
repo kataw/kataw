@@ -116,7 +116,7 @@ async (x--, y) => x;
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 14, end: 17
+✖ '=>' is not allowed here. Did you mean ';'? - start: 14, end: 17
 
 ```
 

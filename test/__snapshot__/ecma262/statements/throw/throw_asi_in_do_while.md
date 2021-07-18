@@ -144,7 +144,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 30, end: 36
+✖ 'while' is not allowed here. Did you mean ';'? - start: 30, end: 36
 
 ```
 

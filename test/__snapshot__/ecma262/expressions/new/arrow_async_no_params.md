@@ -90,7 +90,7 @@ new asc() => x
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 9, end: 12
+✖ '=>' is not allowed here. Did you mean ';'? - start: 9, end: 12
 
 ```
 

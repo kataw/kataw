@@ -218,7 +218,7 @@ async (x = delete ((if) = f)) => {}
 ✖ Missing an opening parentheses - '( - start: 22, end: 23
 ✖ Identifier expected - start: 23, end: 25
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 23, end: 25
-✖ ')' expected - start: 27, end: 28
+✖ ')' is not allowed here. Did you mean ';'? - start: 27, end: 28
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 32
 

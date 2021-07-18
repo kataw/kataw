@@ -136,7 +136,7 @@ async () => {  impo\u0072t = x  }
 ✖ Keywords cannot contain escape characters - start: 13, end: 26
 ✖ The `import` keyword can only be used with the module goal - start: 13, end: 28
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ '=' expected - start: 26, end: 28
+✖ '=' is not allowed here. Did you mean ';'? - start: 26, end: 28
 ✖ Declaration or statement expected - start: 30, end: 33
 
 ```

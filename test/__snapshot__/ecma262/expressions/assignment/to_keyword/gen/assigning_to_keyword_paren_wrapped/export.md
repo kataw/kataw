@@ -104,7 +104,7 @@
 ✖ The `export` keyword can only be used with the module goal - start: 1, end: 7
 ✖ Declaration or statement expected - start: 7, end: 9
 ✖ Declaration or statement expected - start: 7, end: 9
-✖ ')' expected - start: 11, end: 12
+✖ ')' is not allowed here. Did you mean ';'? - start: 11, end: 12
 
 ```
 

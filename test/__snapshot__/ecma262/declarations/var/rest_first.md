@@ -116,7 +116,7 @@ var ...a = 1;
 ### Diagnostics
 
 ```javascript
-✖ '...' expected - start: 3, end: 7
+✖ '...' is not allowed here. Did you mean ';'? - start: 3, end: 7
 
 ```
 

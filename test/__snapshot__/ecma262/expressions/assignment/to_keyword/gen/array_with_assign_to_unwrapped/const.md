@@ -129,7 +129,7 @@ async x => const = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 16
-✖ '=' expected - start: 16, end: 18
+✖ '=' is not allowed here. Did you mean ';'? - start: 16, end: 18
 
 ```
 

@@ -249,7 +249,7 @@ export const enum DiagnosticCode {
   Variable_declaration_not_allowed_at_this_location = 255,
   _finally_expected = 256,
   _catch_expected = 257,
-  _0_expected = 258,
+  _0_is_not_allowed_here_Did_you_mean_1 = 258,
   HTML_comments_can_only_be_used_in_script_mode = 259,
   HTML_comments_can_only_be_used_with_web_compatibility_enabled = 260
 }
@@ -505,7 +505,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [255]: 'Variable declaration not allowed at this location',
   [256]: "'finally' expected",
   [257]: "'catch' expected",
-  [258]: "'{0}' expected",
+  [258]: "'{0}' is not allowed here. Did you mean '{1}'?",
   [259]: 'HTML comments can only be used in script mode',
   [260]: 'HTML comments can only be used with web compatibility enabled'
 };

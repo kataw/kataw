@@ -80,7 +80,7 @@ import.notMeta;
 
 ```javascript
 ✖ 'import.meta' is the only valid meta property for import - start: 6, end: 14
-✖ '; ' expected - start: 7, end: 14
+✖ '; ' is not allowed here. Did you mean ';'? - start: 7, end: 14
 
 ```
 

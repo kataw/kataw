@@ -167,7 +167,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 26, end: 42
+✖ '{' is not allowed here. Did you mean ';'? - start: 26, end: 42
 ✖ Declaration or statement expected - start: 56, end: 57
 
 ```

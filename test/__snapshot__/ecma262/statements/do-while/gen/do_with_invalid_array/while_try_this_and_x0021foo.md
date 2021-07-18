@@ -286,8 +286,8 @@ do while [catch] while try this and !foo
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Missing an opening parentheses - '( - start: 23, end: 26
 ✖ 'catch' expected - start: 26, end: 31
-✖ '; ' expected - start: 31, end: 35
-✖ '!' expected - start: 35, end: 37
+✖ '; ' is not allowed here. Did you mean ';'? - start: 31, end: 35
+✖ '!' is not allowed here. Did you mean ';'? - start: 35, end: 37
 
 ```
 

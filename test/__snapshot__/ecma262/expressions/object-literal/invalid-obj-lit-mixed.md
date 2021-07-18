@@ -1945,7 +1945,7 @@
 ✖ Property definition expected. Did you mean to use a ':'? - start: 43, end: 44
 ✖ ',' expected - start: 43, end: 44
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ ')' expected - start: 46, end: 47
+✖ ')' is not allowed here. Did you mean ';'? - start: 46, end: 47
 ✖ Declaration or statement expected - start: 47, end: 48
 ✖ Declaration or statement expected - start: 48, end: 49
 ✖ Declaration or statement expected - start: 49, end: 50
@@ -1954,7 +1954,7 @@
 ✖ Property definition expected. Did you mean to use a ':'? - start: 98, end: 99
 ✖ ',' expected - start: 98, end: 99
 ✖ Expected a ')' to match the '(' token here - start: 99, end: 100
-✖ ')' expected - start: 101, end: 102
+✖ ')' is not allowed here. Did you mean ';'? - start: 101, end: 102
 ✖ Declaration or statement expected - start: 102, end: 103
 ✖ Declaration or statement expected - start: 103, end: 104
 ✖ Declaration or statement expected - start: 104, end: 105
@@ -1965,7 +1965,7 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 134, end: 162
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 133, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
-✖ ')' expected - start: 164, end: 165
+✖ ')' is not allowed here. Did you mean ';'? - start: 164, end: 165
 ✖ Declaration or statement expected - start: 165, end: 166
 ✖ Declaration or statement expected - start: 166, end: 167
 ✖ Declaration or statement expected - start: 167, end: 168
@@ -1983,7 +1983,7 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 262, end: 278
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 261, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
-✖ ')' expected - start: 290, end: 291
+✖ ')' is not allowed here. Did you mean ';'? - start: 290, end: 291
 ✖ Declaration or statement expected - start: 291, end: 292
 ✖ Declaration or statement expected - start: 292, end: 293
 ✖ Declaration or statement expected - start: 293, end: 294
@@ -1995,9 +1995,9 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 324, end: 339
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 323, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
-✖ ']' expected - start: 341, end: 342
+✖ ']' is not allowed here. Did you mean ';'? - start: 341, end: 342
 ✖ Declaration or statement expected - start: 342, end: 344
-✖ ')' expected - start: 356, end: 357
+✖ ')' is not allowed here. Did you mean ';'? - start: 356, end: 357
 ✖ Declaration or statement expected - start: 357, end: 358
 ✖ Declaration or statement expected - start: 358, end: 359
 ✖ Declaration or statement expected - start: 359, end: 360
@@ -2010,9 +2010,9 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 390, end: 407
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 389, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
-✖ ']' expected - start: 409, end: 410
+✖ ']' is not allowed here. Did you mean ';'? - start: 409, end: 410
 ✖ Declaration or statement expected - start: 410, end: 412
-✖ ')' expected - start: 424, end: 425
+✖ ')' is not allowed here. Did you mean ';'? - start: 424, end: 425
 ✖ Declaration or statement expected - start: 425, end: 426
 ✖ Declaration or statement expected - start: 426, end: 427
 ✖ Declaration or statement expected - start: 427, end: 428
@@ -2024,9 +2024,9 @@
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 458, end: 475
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 457, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
-✖ ']' expected - start: 477, end: 478
+✖ ']' is not allowed here. Did you mean ';'? - start: 477, end: 478
 ✖ Declaration or statement expected - start: 478, end: 480
-✖ ')' expected - start: 492, end: 493
+✖ ')' is not allowed here. Did you mean ';'? - start: 492, end: 493
 ✖ Declaration or statement expected - start: 493, end: 494
 ✖ Declaration or statement expected - start: 494, end: 495
 ✖ Declaration or statement expected - start: 495, end: 496

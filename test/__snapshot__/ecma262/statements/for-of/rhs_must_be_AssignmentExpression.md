@@ -177,7 +177,7 @@ for (let x of a,b) c
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 15, end: 16
-✖ ')' expected - start: 17, end: 18
+✖ ')' is not allowed here. Did you mean ';'? - start: 17, end: 18
 
 ```
 

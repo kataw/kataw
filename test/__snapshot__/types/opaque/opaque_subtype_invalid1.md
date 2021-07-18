@@ -132,7 +132,7 @@ opaque Ident: Type = SuperType;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 6, end: 12
+✖ '; ' is not allowed here. Did you mean ';'? - start: 6, end: 12
 
 ```
 

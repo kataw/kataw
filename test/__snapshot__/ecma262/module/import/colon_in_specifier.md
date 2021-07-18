@@ -170,7 +170,7 @@ import {a: b} from "bar";
 ```javascript
 ✖ ',' expected - start: 9, end: 10
 ✖ Declaration or statement expected - start: 12, end: 13
-✖ '; ' expected - start: 18, end: 24
+✖ '; ' is not allowed here. Did you mean ';'? - start: 18, end: 24
 
 ```
 

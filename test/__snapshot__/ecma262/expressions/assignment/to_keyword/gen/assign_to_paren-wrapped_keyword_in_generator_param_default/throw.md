@@ -194,7 +194,7 @@ function *f(x = (throw) = f) {}
 ✖ Identifier expected - start: 17, end: 22
 ✖ Identifier expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
-✖ ')' expected - start: 27, end: 28
+✖ ')' is not allowed here. Did you mean ';'? - start: 27, end: 28
 
 ```
 

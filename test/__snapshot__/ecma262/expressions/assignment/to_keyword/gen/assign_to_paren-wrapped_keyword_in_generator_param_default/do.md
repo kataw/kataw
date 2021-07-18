@@ -211,7 +211,7 @@ function *f(x = (do) = f) {}
 ✖ Identifier expected - start: 17, end: 19
 ✖ Identifier expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
-✖ ')' expected - start: 24, end: 25
+✖ ')' is not allowed here. Did you mean ';'? - start: 24, end: 25
 
 ```
 

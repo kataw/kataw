@@ -155,7 +155,7 @@ class A {async **=f(){}}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 18
-✖ '{' expected - start: 21, end: 22
+✖ '{' is not allowed here. Did you mean ';'? - start: 21, end: 22
 ✖ Declaration or statement expected - start: 23, end: 24
 
 ```

@@ -233,9 +233,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 34, end: 36
+✖ '{' is not allowed here. Did you mean ';'? - start: 34, end: 36
 ✖ Variable declaration not allowed at this location - start: 50, end: 56
-✖ '; ' expected - start: 50, end: 56
+✖ '; ' is not allowed here. Did you mean ';'? - start: 50, end: 56
 ✖ Declaration or statement expected - start: 61, end: 62
 
 ```

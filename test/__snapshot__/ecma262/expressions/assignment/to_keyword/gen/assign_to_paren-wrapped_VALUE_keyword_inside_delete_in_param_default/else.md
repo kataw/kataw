@@ -192,7 +192,7 @@ function *f(x = delete ((else) = f)) {}
 ✖ Identifier expected - start: 25, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 32
-✖ ')' expected - start: 34, end: 35
+✖ ')' is not allowed here. Did you mean ';'? - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 36
 
 ```

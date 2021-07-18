@@ -121,7 +121,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'function' expected - start: 7, end: 16
+✖ 'function' is not allowed here. Did you mean ';'? - start: 7, end: 16
 
 ```
 

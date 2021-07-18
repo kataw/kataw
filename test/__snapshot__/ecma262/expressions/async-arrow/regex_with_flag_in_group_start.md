@@ -93,7 +93,7 @@ async (/x/) => x
 ### Diagnostics
 
 ```javascript
-✖ '=>' expected - start: 11, end: 14
+✖ '=>' is not allowed here. Did you mean ';'? - start: 11, end: 14
 
 ```
 

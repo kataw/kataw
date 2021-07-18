@@ -160,7 +160,7 @@ try { } catch ([a] = []) { }
 
 ```javascript
 ✖ Catch clause variable cannot have an initializer - start: 19, end: 20
-✖ ')' expected - start: 23, end: 24
+✖ ')' is not allowed here. Did you mean ';'? - start: 23, end: 24
 
 ```
 

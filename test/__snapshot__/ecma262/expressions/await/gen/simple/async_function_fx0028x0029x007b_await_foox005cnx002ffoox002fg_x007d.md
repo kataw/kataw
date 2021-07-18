@@ -196,7 +196,7 @@ async function f(){ await foo\n/foo/g }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 25, end: 29
 ✖ Invalid hexadecimal escape sequence - start: 29, end: 29
-✖ '; ' expected - start: 29, end: 30
+✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 30
 ✖ Declaration or statement expected - start: 37, end: 39
 
 ```

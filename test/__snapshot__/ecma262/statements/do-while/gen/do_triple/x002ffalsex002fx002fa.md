@@ -171,7 +171,7 @@ do do do /false//a while while while
 ### Diagnostics
 
 ```javascript
-✖ 'while' expected - start: 18, end: 24
+✖ 'while' is not allowed here. Did you mean ';'? - start: 18, end: 24
 ✖ Missing an opening parentheses - '( - start: 25, end: 30
 ✖ Missing an opening parentheses - '( - start: 31, end: 36
 

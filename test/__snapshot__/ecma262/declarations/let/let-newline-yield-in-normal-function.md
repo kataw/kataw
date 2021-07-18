@@ -150,7 +150,7 @@ function f() {
 
 ```javascript
 ✖ Lexical declaration expected - start: 32, end: 34
-✖ '; ' expected - start: 32, end: 34
+✖ '; ' is not allowed here. Did you mean ';'? - start: 32, end: 34
 
 ```
 

@@ -157,7 +157,7 @@ export *, {bar} from 'bar';
 
 ```javascript
 ✖ Identifier expected - start: 8, end: 9
-✖ '; ' expected - start: 20, end: 26
+✖ '; ' is not allowed here. Did you mean ';'? - start: 20, end: 26
 
 ```
 

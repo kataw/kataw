@@ -233,7 +233,7 @@ type a = ({} | { ?[x]:string}) => T;
 
 ```javascript
 ✖ Identifier expected - start: 16, end: 18
-✖ ':' expected - start: 21, end: 22
+✖ ':' is not allowed here. Did you mean ';'? - start: 21, end: 22
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 33

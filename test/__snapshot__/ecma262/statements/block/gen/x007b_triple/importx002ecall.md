@@ -130,7 +130,7 @@
 ```javascript
 ✖ Cannot use 'import.meta' outside a module - start: 12, end: 17
 ✖ 'import.meta' is the only valid meta property for import - start: 12, end: 17
-✖ '; ' expected - start: 13, end: 17
+✖ '; ' is not allowed here. Did you mean ';'? - start: 13, end: 17
 
 ```
 

@@ -188,7 +188,7 @@ function f() {
 ✖ Identifier expected - start: 34, end: 40
 ✖ Identifier expected - start: 40, end: 42
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 40, end: 42
-✖ ')' expected - start: 44, end: 45
+✖ ')' is not allowed here. Did you mean ';'? - start: 44, end: 45
 ✖ Declaration or statement expected - start: 46, end: 48
 
 ```

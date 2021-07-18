@@ -187,7 +187,7 @@
 
 ```javascript
 ✖ ',' expected - start: 7, end: 8
-✖ ']' expected - start: 15, end: 16
+✖ ']' is not allowed here. Did you mean ';'? - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18
 ✖ Identifier expected - start: 33, end: 34

@@ -189,9 +189,9 @@
 ### Diagnostics
 
 ```javascript
-✖ '{' expected - start: 27, end: 29
+✖ '{' is not allowed here. Did you mean ';'? - start: 27, end: 29
 ✖ Variable declaration not allowed at this location - start: 43, end: 49
-✖ '; ' expected - start: 43, end: 49
+✖ '; ' is not allowed here. Did you mean ';'? - start: 43, end: 49
 
 ```
 

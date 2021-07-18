@@ -97,7 +97,7 @@ if (true) let x; else ;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 13, end: 15
+✖ '; ' is not allowed here. Did you mean ';'? - start: 13, end: 15
 ✖ Declaration or statement expected - start: 16, end: 21
 
 ```

@@ -74,7 +74,7 @@ await 5;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 5, end: 7
+✖ '; ' is not allowed here. Did you mean ';'? - start: 5, end: 7
 
 ```
 

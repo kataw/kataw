@@ -173,7 +173,7 @@ async (x = (continue) = f) => {}
 ✖ Identifier expected - start: 20, end: 21
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 12, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
-✖ ')' expected - start: 25, end: 26
+✖ ')' is not allowed here. Did you mean ';'? - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29
 
 ```

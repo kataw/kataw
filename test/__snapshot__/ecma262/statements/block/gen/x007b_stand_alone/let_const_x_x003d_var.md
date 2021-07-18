@@ -146,7 +146,7 @@
 ### Diagnostics
 
 ```javascript
-✖ 'const' expected - start: 5, end: 11
+✖ 'const' is not allowed here. Did you mean ';'? - start: 5, end: 11
 ✖ Identifier expected - start: 15, end: 19
 ✖ Lexical declaration expected - start: 15, end: 19
 

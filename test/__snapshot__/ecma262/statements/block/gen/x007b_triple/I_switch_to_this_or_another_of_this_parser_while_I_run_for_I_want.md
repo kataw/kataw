@@ -325,18 +325,18 @@
 ### Diagnostics
 
 ```javascript
-✖ 'switch' expected - start: 7, end: 14
+✖ 'switch' is not allowed here. Did you mean ';'? - start: 7, end: 14
 ✖ Missing an opening parentheses - '( - start: 15, end: 17
 ✖ Declaration or statement expected - start: 18, end: 22
-✖ '; ' expected - start: 22, end: 25
-✖ '; ' expected - start: 25, end: 33
-✖ 'of' expected - start: 33, end: 36
-✖ 'this' expected - start: 36, end: 41
-✖ '; ' expected - start: 41, end: 48
-✖ 'while' expected - start: 48, end: 54
+✖ '; ' is not allowed here. Did you mean ';'? - start: 22, end: 25
+✖ '; ' is not allowed here. Did you mean ';'? - start: 25, end: 33
+✖ 'of' is not allowed here. Did you mean ';'? - start: 33, end: 36
+✖ 'this' is not allowed here. Did you mean ';'? - start: 36, end: 41
+✖ '; ' is not allowed here. Did you mean ';'? - start: 41, end: 48
+✖ 'while' is not allowed here. Did you mean ';'? - start: 48, end: 54
 ✖ Missing an opening parentheses - '( - start: 55, end: 56
 ✖ Declaration or statement expected - start: 57, end: 60
-✖ 'for' expected - start: 60, end: 64
+✖ 'for' is not allowed here. Did you mean ';'? - start: 60, end: 64
 ✖ Missing an opening parentheses - '( - start: 65, end: 66
 ✖ Identifier expected - start: 71, end: 71
 
