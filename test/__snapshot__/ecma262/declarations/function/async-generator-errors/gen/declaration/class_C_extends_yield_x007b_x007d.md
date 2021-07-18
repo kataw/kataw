@@ -197,7 +197,7 @@ async function * gen() {class C extends yield { }}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 39, end: 47
+✖ ';' expected - start: 39, end: 47
 ✖ Missing an opening brace - '{ - start: 49, end: 50
 
 ```

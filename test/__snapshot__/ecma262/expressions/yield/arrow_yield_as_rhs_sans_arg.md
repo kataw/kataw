@@ -203,7 +203,7 @@ function *g() { async (x = x + yield) => x; }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 30, end: 37
+✖ ';' expected - start: 30, end: 37
 
 ```
 

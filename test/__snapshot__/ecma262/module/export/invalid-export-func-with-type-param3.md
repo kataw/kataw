@@ -191,7 +191,7 @@ export default function <,>() {}
 ✖ Expected to find a '>' to match the '<' token here. - start: 25, end: 26
 ✖ Identifier expected - start: 26, end: 27
 ✖ ',' expected - start: 29, end: 31
-✖ ',' expected - start: 29, end: 31
+✖ ';' expected - start: 29, end: 31
 
 ```
 

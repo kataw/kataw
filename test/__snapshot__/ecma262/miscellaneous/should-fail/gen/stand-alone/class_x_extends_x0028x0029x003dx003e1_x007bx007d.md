@@ -134,7 +134,7 @@ class x extends ()=>1 {}
 
 ```javascript
 ✖ ',' expected - start: 18, end: 20
-✖ ',' expected - start: 18, end: 20
+✖ ';' expected - start: 18, end: 20
 
 ```
 

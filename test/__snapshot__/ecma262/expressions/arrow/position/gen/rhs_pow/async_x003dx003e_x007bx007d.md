@@ -114,7 +114,7 @@ x ** async => {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 10, end: 13
+✖ ';' expected - start: 10, end: 13
 
 ```
 

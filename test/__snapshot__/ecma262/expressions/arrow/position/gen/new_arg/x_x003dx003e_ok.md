@@ -99,7 +99,7 @@ new x => ok
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 3, end: 8
+✖ ';' expected - start: 3, end: 8
 
 ```
 

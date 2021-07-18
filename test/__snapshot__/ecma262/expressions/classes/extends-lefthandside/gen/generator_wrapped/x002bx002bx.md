@@ -183,7 +183,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 36, end: 38
+✖ ';' expected - start: 36, end: 38
 
 ```
 

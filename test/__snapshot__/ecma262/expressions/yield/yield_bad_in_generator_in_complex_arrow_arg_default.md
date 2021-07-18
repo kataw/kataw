@@ -212,7 +212,7 @@ function *g() { (x = u + yield z) => {}; }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 24, end: 32
+✖ ';' expected - start: 24, end: 32
 
 ```
 

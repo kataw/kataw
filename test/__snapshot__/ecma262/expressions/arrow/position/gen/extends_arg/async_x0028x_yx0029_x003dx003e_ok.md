@@ -158,7 +158,7 @@ class A extends async (x, y) => ok {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 15, end: 31
+✖ ';' expected - start: 15, end: 31
 
 ```
 

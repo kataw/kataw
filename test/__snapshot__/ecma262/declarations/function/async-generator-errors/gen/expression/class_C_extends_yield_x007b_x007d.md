@@ -228,7 +228,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 34, end: 42
+✖ ';' expected - start: 34, end: 42
 ✖ Missing an opening brace - '{ - start: 44, end: 45
 
 ```

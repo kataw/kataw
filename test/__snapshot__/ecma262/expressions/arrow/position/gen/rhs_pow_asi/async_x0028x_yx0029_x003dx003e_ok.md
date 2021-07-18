@@ -133,7 +133,7 @@ x
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 4, end: 20
+✖ ';' expected - start: 4, end: 20
 
 ```
 

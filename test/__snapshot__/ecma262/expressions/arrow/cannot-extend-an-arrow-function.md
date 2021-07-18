@@ -915,16 +915,16 @@ class Foo extends async x => {} {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 17, end: 22
+✖ ';' expected - start: 17, end: 22
 ✖ Duplicate bindingidentifier 'Foo' - start: 35, end: 39
 ✖ ',' expected - start: 50, end: 53
-✖ ',' expected - start: 50, end: 53
+✖ ';' expected - start: 50, end: 53
 ✖ Duplicate bindingidentifier 'Foo' - start: 66, end: 70
-✖ ',' expected - start: 84, end: 86
-✖ ',' expected - start: 111, end: 116
-✖ ',' expected - start: 143, end: 146
-✖ ',' expected - start: 175, end: 177
-✖ ',' expected - start: 238, end: 251
+✖ ';' expected - start: 84, end: 86
+✖ ';' expected - start: 111, end: 116
+✖ ';' expected - start: 143, end: 146
+✖ ';' expected - start: 175, end: 177
+✖ ';' expected - start: 238, end: 251
 
 ```
 

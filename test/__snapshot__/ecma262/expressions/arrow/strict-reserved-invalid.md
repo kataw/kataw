@@ -429,9 +429,9 @@ new package => x
 ✖ '!' is not allowed here. Did you mean ';'? - start: 25, end: 26
 ✖ Identifier expected - start: 26, end: 29
 ✖ Identifier expected - start: 34, end: 35
-✖ ',' expected - start: 35, end: 45
-✖ ',' expected - start: 52, end: 63
-✖ ',' expected - start: 68, end: 78
+✖ ';' expected - start: 35, end: 45
+✖ ';' expected - start: 52, end: 63
+✖ ';' expected - start: 68, end: 78
 
 ```
 

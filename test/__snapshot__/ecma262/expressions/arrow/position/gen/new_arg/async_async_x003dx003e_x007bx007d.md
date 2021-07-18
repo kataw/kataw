@@ -112,7 +112,7 @@ new async async => {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 15
+✖ ';' expected - start: 9, end: 15
 
 ```
 
