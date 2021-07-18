@@ -603,12 +603,12 @@ import {eval as o} from 'foo';
 ### Diagnostics
 
 ```javascript
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 8, end: 13
-✖ 'eval' and 'arguments' cannot contain escape characters - start: 35, end: 45
+✖ 'eval' cannot be used as an identifier here - start: 8, end: 13
+✖ 'eval' cannot contain escape characters - start: 35, end: 45
 ✖ Duplicate identifier - start: 44, end: 45
 ✖ Duplicate identifier - start: 71, end: 76
 ✖ Duplicate identifier - start: 104, end: 114
-✖ 'eval' and 'arguments' cannot contain escape characters - start: 137, end: 152
+✖ '; ' cannot contain escape characters - start: 137, end: 152
 
 ```
 

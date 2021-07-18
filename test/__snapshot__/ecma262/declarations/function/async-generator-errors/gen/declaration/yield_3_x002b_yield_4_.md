@@ -180,7 +180,7 @@ async function * gen() {yield 3 + yield 4;}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 33, end: 41
+✖ ',' expected - start: 33, end: 41
 
 ```
 

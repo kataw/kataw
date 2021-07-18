@@ -133,7 +133,7 @@ class A extends async => ok {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 21, end: 24
+✖ ',' expected - start: 21, end: 24
 
 ```
 

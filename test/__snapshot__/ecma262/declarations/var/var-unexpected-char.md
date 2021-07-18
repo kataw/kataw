@@ -190,7 +190,6 @@ var 𫠞_ = 12;
 
 ```javascript
 ✖ Invalid astral character - start: 3, end: 5
-✖ Invalid lower surrogate - start: 33, end: 34
 ✖ Invalid astral character - start: 33, end: 34
 
 ```

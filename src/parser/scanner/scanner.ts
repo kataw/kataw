@@ -516,33 +516,22 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         return SyntaxKind.UnknownToken;
 
       default:
-        if ((cp & ~1) === Char.LineSeparator) {
-          parser.nodeFlags |= NodeFlags.NewLine;
-          parser.pos++;
-          continue;
-        }
-        if (isWhiteSpaceSlow(cp)) {
-          parser.pos++;
-          continue;
-        }
         if (isIdentifierStart(cp) || (cp & 0xfc00) === 0xd800) {
-          // lead surrogate (U+d800..U+dbff)
-          const lead = source.charCodeAt(parser.pos + 1);
-
-          cp = 0x10000 + ((cp & 0x3ff) << 10) + (lead & 0x3ff);
-          if ((lead & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
-            parser.onError(
-              DiagnosticSource.Parser,
-              DiagnosticKind.Error,
-              diagnosticMap[DiagnosticCode.Invalid_lower_surrogate],
-              parser.curPos,
-              parser.pos
-            );
-          }
-
           parser.tokenValue = scanIdentifierParts(parser, source);
           parser.tokenRaw = source.slice(parser.curPos, parser.pos);
           return SyntaxKind.Identifier;
+        }
+        parser.pos++;
+
+        // '\u2028', '\u2029'
+        if ((cp & ~1) === Char.LineSeparator) {
+          parser.nodeFlags |= NodeFlags.NewLine;
+          continue;
+        }
+
+        // Check for unusual whitespace characters
+        if (isWhiteSpaceSlow(cp)) {
+          continue;
         }
 
         parser.onError(
@@ -552,9 +541,6 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           parser.curPos,
           parser.pos
         );
-
-        // Increment the index so we can stay on track and avoid infinity loops
-        parser.pos++;
 
         return SyntaxKind.UnknownToken;
     }

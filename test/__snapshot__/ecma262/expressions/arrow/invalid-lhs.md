@@ -1224,7 +1224,7 @@ x = (a,b)+c=>{};
 ✖ '=>' is not allowed here. Did you mean ';'? - start: 234, end: 236
 ✖ Expression expected - start: 245, end: 246
 ✖ '=>' is not allowed here. Did you mean ';'? - start: 248, end: 250
-✖ Expected a `;` - start: 264, end: 267
+✖ ',' expected - start: 264, end: 267
 
 ```
 

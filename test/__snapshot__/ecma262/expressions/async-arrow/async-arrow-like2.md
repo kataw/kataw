@@ -223,7 +223,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 21, end: 22
+✖ ',' expected - start: 21, end: 22
 
 ```
 

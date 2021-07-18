@@ -5,8 +5,6 @@ import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 // ES#sec-white-space White Space
 // gC=Zs, U+0009, U+000B, U+000C, U+FEFF
 export function isWhiteSpaceSlow(codePoint: number): boolean {
-  // Note: nextLine is in the Zs space, and should be considered to be a whitespace.
-  // It is explicitly not a line-break as it isn't in the exact set specified by EcmaScript.
   return (
     codePoint == Char.NextLine ||
     codePoint == Char.ByteOrderMark ||
@@ -14,6 +12,7 @@ export function isWhiteSpaceSlow(codePoint: number): boolean {
     codePoint == Char.Ogham ||
     (codePoint >= Char.EnQuad && codePoint <= Char.ZeroWidthSpace) ||
     codePoint == Char.NarrowNoBreakSpace ||
+    codePoint == Char.ZeroWidthNoBreakSpace ||
     codePoint == Char.MathematicalSpace ||
     codePoint == Char.IdeographicSpace
   );

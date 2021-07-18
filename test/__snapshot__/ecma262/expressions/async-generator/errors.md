@@ -8642,7 +8642,7 @@ async function * gen() {class C extends await { }}
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 1160, end: 1161
 ✖ Identifier expected - start: 1194, end: 1195
 ✖ Identifier expected - start: 1228, end: 1229
-✖ Expected a `;` - start: 1362, end: 1370
+✖ ',' expected - start: 1362, end: 1370
 ✖ Identifier expected. 'yield' is a reserved word in strict mode and cannot be used as an label - start: 1397, end: 1403
 ✖ Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context - start: 1432, end: 1439
 ✖ Unterminated regular expression - start: 1519, end: 1528
@@ -8715,7 +8715,7 @@ async function * gen() {class C extends await { }}
 ✖ '{' is not allowed here. Did you mean ';'? - start: 3281, end: 3283
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
-✖ Expected a `;` - start: 3327, end: 3335
+✖ ',' expected - start: 3327, end: 3335
 ✖ Missing an opening brace - '{ - start: 3337, end: 3338
 ✖ Expression expected - start: 3378, end: 3384
 ✖ Missing an opening brace - '{ - start: 3388, end: 3389

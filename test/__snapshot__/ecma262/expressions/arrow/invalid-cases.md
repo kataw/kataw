@@ -12559,7 +12559,7 @@ a++ => {};
 ✖ Expected a ')' to match the '(' token here - start: 2919, end: 2921
 ✖ Missing an opening parentheses - '( - start: 2921, end: 2922
 ✖ Identifier expected - start: 2922, end: 2925
-✖ Expected a `;` - start: 2933, end: 2938
+✖ ',' expected - start: 2933, end: 2938
 ✖ '=>' is not allowed here. Did you mean ';'? - start: 2950, end: 2953
 ✖ The left hand side of the arrow is not destructible  - start: 2968, end: 2971
 ✖ '=>' is not allowed here. Did you mean ';'? - start: 2986, end: 2989

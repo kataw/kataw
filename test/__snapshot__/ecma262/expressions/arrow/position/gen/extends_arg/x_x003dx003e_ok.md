@@ -133,7 +133,7 @@ class A extends x => ok {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 15, end: 20
+✖ ',' expected - start: 15, end: 20
 
 ```
 

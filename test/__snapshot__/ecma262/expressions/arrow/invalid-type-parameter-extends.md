@@ -167,7 +167,7 @@
 ✖ Expected to find a '>' to match the '<' token here. - start: 3, end: 10
 ✖ Identifier expected - start: 0, end: 1
 ✖ 'extends' is not allowed here. Did you mean ';'? - start: 2, end: 10
-✖ Expected a `;` - start: 16, end: 19
+✖ ',' expected - start: 16, end: 19
 
 ```
 

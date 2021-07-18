@@ -435,12 +435,12 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 3, end: 8
+✖ ',' expected - start: 3, end: 8
 ✖ ',' expected - start: 19, end: 22
-✖ Expected a `;` - start: 19, end: 22
-✖ Expected a `;` - start: 34, end: 37
-✖ Expected a `;` - start: 51, end: 53
-✖ Expected a `;` - start: 64, end: 77
+✖ ',' expected - start: 19, end: 22
+✖ ',' expected - start: 34, end: 37
+✖ ',' expected - start: 51, end: 53
+✖ ',' expected - start: 64, end: 77
 
 ```
 

@@ -315,7 +315,6 @@ export function scanTemplateEscape(parser: ParserState, source: string, ch: numb
           // Check this early to avoid `code` wrapping to a negative on overflow (which is
           // reserved for abnormal conditions).
           if (code > Char.LastUnicodeChar) {
-            console.log('aaaa')
             return TemplateEscape.OutOfRange;
           }
           ch = source.charCodeAt(++parser.pos);

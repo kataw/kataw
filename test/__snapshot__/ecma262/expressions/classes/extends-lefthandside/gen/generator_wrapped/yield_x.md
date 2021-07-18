@@ -187,7 +187,7 @@ x {}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 32, end: 40
+✖ ',' expected - start: 32, end: 40
 
 ```
 

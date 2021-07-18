@@ -99,7 +99,7 @@ import arguments from 'm.js';
 ### Diagnostics
 
 ```javascript
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 16, end: 21
+✖ '; ' cannot be used as an identifier here - start: 16, end: 21
 
 ```
 
