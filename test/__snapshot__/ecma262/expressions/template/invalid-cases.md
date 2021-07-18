@@ -1198,15 +1198,15 @@ a?.b
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 59, end: 62
 ✖ Tagged template expressions are not permitted in an optional chain. - start: 103, end: 106
 ✖ Octal escape sequences are not allowed in template literal - start: 110, end: 112
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 116, end: 118
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 122, end: 124
+✖ Octal escape sequences are not allowed in template literal - start: 116, end: 118
+✖ Octal escape sequences are not allowed in template literal - start: 122, end: 124
 ✖ Octal escape sequences are not allowed in template literal - start: 128, end: 130
 ✖ Octal escape sequences are not allowed in template literal - start: 135, end: 137
 ✖ Octal escape sequences are not allowed in template literal - start: 150, end: 152
 ✖ Octal escape sequences are not allowed in template literal - start: 161, end: 163
-✖ Invalid hexadecimal escape sequence - start: 172, end: 174
-✖ Invalid hexadecimal escape sequence - start: 184, end: 186
-✖ Invalid hexadecimal escape sequence - start: 204, end: 206
+✖ Octal escape sequences are not allowed in template literal - start: 172, end: 174
+✖ Octal escape sequences are not allowed in template literal - start: 184, end: 186
+✖ Octal escape sequences are not allowed in template literal - start: 204, end: 206
 
 ```
 

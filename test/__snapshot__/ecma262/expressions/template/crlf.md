@@ -32,7 +32,7 @@ b
                 },
                 "template": {
                     "kind": 458761,
-                    "text": "foo\r\nbar",
+                    "text": "foornbar",
                     "rawText": "foo\\r\\nbar",
                     "flags": 134217824,
                     "transformFlags": 0,

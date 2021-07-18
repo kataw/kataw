@@ -51,7 +51,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal escape sequences are not allowed in template literal - start: 3, end: 5
+✖ Octal escape sequences are not allowed in template literal - start: 1, end: 5
 
 ```
 

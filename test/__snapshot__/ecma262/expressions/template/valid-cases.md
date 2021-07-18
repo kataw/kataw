@@ -41,7 +41,7 @@ tag`${a}\\rb`;
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "a\nb",
+                "text": "anb",
                 "rawText": "a\\nb",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -57,7 +57,7 @@ tag`${a}\\rb`;
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "a\rb",
+                "text": "arb",
                 "rawText": "a\\rb",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -73,7 +73,7 @@ tag`${a}\\rb`;
             "kind": 120,
             "expression": {
                 "kind": 458761,
-                "text": "a\r\nb",
+                "text": "arnb",
                 "rawText": "a\\r\\nb",
                 "flags": 134217824,
                 "transformFlags": 0,
@@ -659,7 +659,7 @@ tag`${a}\\rb`;
                     ],
                     "tail": {
                         "kind": 458761,
-                        "text": "\nb",
+                        "text": "nb",
                         "rawText": "\\nb",
                         "flags": 96,
                         "transformFlags": 0,
@@ -718,7 +718,7 @@ tag`${a}\\rb`;
                     ],
                     "tail": {
                         "kind": 458761,
-                        "text": "\rb",
+                        "text": "rb",
                         "rawText": "\\rb",
                         "flags": 96,
                         "transformFlags": 0,
@@ -777,7 +777,7 @@ tag`${a}\\rb`;
                     ],
                     "tail": {
                         "kind": 458761,
-                        "text": "\r\nb",
+                        "text": "rnb",
                         "rawText": "\\r\\nb",
                         "flags": 96,
                         "transformFlags": 0,

@@ -3,7 +3,7 @@ import { Char } from './char';
 import { SyntaxKind, NodeFlags } from '../../ast/syntax-node';
 import { scanNumber, parseFloatingPointLiteral } from './number';
 import { scanString } from './string';
-import { scanTemplate } from './template';
+import { scanTemplateSpan } from './template';
 import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
 import { skipMultilineComment, skipSingleLineComment } from './comments';
@@ -254,7 +254,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // ``string``
       case SyntaxKind.TemplateTail:
-        return scanTemplate(parser, context, source);
+        return scanTemplateSpan(parser, context, source);
 
       // `?`, `?.`, `??`, `??=`,
       case SyntaxKind.QuestionMark:
