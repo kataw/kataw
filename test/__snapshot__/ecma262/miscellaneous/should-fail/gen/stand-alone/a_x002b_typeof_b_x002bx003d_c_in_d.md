@@ -134,7 +134,7 @@ a + typeof b += c in d
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 12, end: 15
+✖ '+=' expected - start: 12, end: 15
 
 ```
 

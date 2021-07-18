@@ -320,7 +320,7 @@ for (let {...a.b} in c);
 ✖ Lexical declaration expected - start: 36, end: 37
 ✖ Identifier expected - start: 38, end: 39
 ✖ Identifier expected - start: 39, end: 42
-✖ '; ' expected - start: 44, end: 45
+✖ ')' expected - start: 44, end: 45
 
 ```
 

@@ -405,7 +405,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 50, end: 53
+✖ '=>' expected - start: 50, end: 53
 ✖ Binding identifier expected - start: 62, end: 64
 
 ```

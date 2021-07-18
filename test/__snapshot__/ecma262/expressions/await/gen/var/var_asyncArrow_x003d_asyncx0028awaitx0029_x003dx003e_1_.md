@@ -165,7 +165,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 ```javascript
 ✖ Identifier expected - start: 67, end: 68
 ✖ Variable declaration not allowed at this location - start: 68, end: 71
-✖ '; ' expected - start: 68, end: 71
+✖ '=>' expected - start: 68, end: 71
 ✖ Variable declaration not allowed at this location - start: 68, end: 71
 ✖ Declaration or statement expected - start: 74, end: 76
 ✖ Declaration or statement expected - start: 76, end: 77

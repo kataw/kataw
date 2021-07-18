@@ -167,7 +167,7 @@ function foo(p\141ckage) { "use strict"; }
 ✖ ',' expected - start: 14, end: 15
 ✖ Unexpected token. - start: 15, end: 18
 ✖ '; ' expected - start: 18, end: 23
-✖ '; ' expected - start: 23, end: 24
+✖ ')' expected - start: 23, end: 24
 
 ```
 

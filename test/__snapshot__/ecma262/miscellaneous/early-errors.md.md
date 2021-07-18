@@ -6684,12 +6684,12 @@ try {} catch(e) { for(var e of 0); };
 ✖ Declaration or statement expected - start: 2865, end: 2938
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938
 ✖ Declaration or statement expected - start: 2938, end: 2939
-✖ '; ' expected - start: 2940, end: 2941
+✖ '{' expected - start: 2940, end: 2941
 ✖ Invalid hexadecimal escape sequence - start: 2949, end: 2950
 ✖ Declaration or statement expected - start: 2949, end: 2951
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2951, end: 2951
 ✖ Declaration or statement expected - start: 2951, end: 2952
-✖ '; ' expected - start: 2953, end: 2954
+✖ '{' expected - start: 2953, end: 2954
 ✖ Invalid hexadecimal escape sequence - start: 3058, end: 3058
 ✖ '; ' expected - start: 3058, end: 3059
 ✖ Invalid hexadecimal escape sequence - start: 3070, end: 3070

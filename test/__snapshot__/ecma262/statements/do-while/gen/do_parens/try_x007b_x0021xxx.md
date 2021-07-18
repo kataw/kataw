@@ -206,7 +206,7 @@ do( try { !xxx while
 
 ```javascript
 ✖ Identifier expected - start: 3, end: 7
-✖ '; ' expected - start: 14, end: 20
+✖ 'while' expected - start: 14, end: 20
 
 ```
 

@@ -121,7 +121,7 @@
 ✖ The `export` keyword can only be used with the module goal - start: 15, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
 ✖ Declaration or statement expected - start: 21, end: 23
-✖ '; ' expected - start: 25, end: 26
+✖ ')' expected - start: 25, end: 26
 
 ```
 

@@ -113,7 +113,7 @@ yield /* comment */ { yield: 12 }
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 5, end: 21
+✖ '{' expected - start: 5, end: 21
 
 ```
 

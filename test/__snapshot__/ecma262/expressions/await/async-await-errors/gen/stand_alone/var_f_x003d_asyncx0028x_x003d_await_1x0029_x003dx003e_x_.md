@@ -167,7 +167,7 @@ var f = async(x = await 1) => x;
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 26, end: 29
-✖ '; ' expected - start: 26, end: 29
+✖ '=>' expected - start: 26, end: 29
 
 ```
 

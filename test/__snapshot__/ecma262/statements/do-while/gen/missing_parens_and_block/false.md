@@ -86,7 +86,7 @@ do false while
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 8, end: 14
+✖ 'while' expected - start: 8, end: 14
 
 ```
 

@@ -118,7 +118,7 @@ let x: [,] = y;
 
 ```javascript
 ✖ Trailing comma not allowed. - start: 9, end: 10
-✖ '; ' expected - start: 9, end: 10
+✖ ']' expected - start: 9, end: 10
 ✖ Declaration or statement expected - start: 10, end: 12
 
 ```

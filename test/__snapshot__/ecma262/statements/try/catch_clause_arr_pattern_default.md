@@ -154,7 +154,7 @@ catch ([v] = b) {}
 
 ```javascript
 ✖ Catch clause variable cannot have an initializer - start: 18, end: 19
-✖ '; ' expected - start: 21, end: 22
+✖ ')' expected - start: 21, end: 22
 
 ```
 

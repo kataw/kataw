@@ -289,9 +289,9 @@ export type * from "foo";
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 11, end: 13
+✖ '{' expected - start: 11, end: 13
 ✖ Declaration or statement expected - start: 11, end: 13
-✖ '; ' expected - start: 33, end: 35
+✖ '{' expected - start: 33, end: 35
 ✖ Declaration or statement expected - start: 33, end: 35
 ✖ '; ' expected - start: 46, end: 52
 ✖ '; ' expected - start: 72, end: 78

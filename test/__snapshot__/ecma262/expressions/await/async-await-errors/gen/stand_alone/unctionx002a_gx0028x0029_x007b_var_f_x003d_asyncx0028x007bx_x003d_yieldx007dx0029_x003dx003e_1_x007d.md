@@ -241,7 +241,7 @@ unction* g() { var f = async({x = yield}) => 1; }
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 12, end: 14
+✖ '{' expected - start: 12, end: 14
 
 ```
 

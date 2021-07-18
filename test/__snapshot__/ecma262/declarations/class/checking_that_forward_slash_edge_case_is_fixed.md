@@ -191,7 +191,7 @@ class x { static / foo(){} }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
-✖ '; ' expected - start: 24, end: 25
+✖ '{' expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 26, end: 28
 
 ```

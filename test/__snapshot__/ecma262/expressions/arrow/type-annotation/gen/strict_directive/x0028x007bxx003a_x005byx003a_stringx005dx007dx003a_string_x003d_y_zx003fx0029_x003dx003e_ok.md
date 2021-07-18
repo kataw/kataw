@@ -197,7 +197,7 @@
 
 ```javascript
 ✖ ',' expected - start: 21, end: 22
-✖ '; ' expected - start: 29, end: 30
+✖ ']' expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32
 ✖ Identifier expected - start: 47, end: 48

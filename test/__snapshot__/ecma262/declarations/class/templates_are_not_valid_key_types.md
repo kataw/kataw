@@ -144,7 +144,7 @@ class x { `constructor`(){} }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 23
-✖ '; ' expected - start: 25, end: 26
+✖ '{' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 27, end: 29
 
 ```

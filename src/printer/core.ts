@@ -1,4 +1,3 @@
-import { softline } from './../formatter/index';
 import { SyntaxKind, TransformFlags, tokenToString } from '../ast/syntax-node';
 import { concat, group, hardline, indent, line } from '../formatter/index';
 import { skipWhitespace } from '../parser/scanner/common';
@@ -91,7 +90,7 @@ export function printAssignmentRight(
 
 export function printKeywordNoSpace(printer: any, keyword: any): any {
 	if (keyword) {
-		return tokenToString(keyword);
+		return tokenToString(keyword.kind);
 	}
 }
 
@@ -107,8 +106,8 @@ export function printKeyword(
           parts.push(emitLeadingComments(printer, keyword.start));
         }
     parts.push(addSpace
-      ? concat([tokenToString(keyword), ' '])
-      : tokenToString(keyword));
+      ? concat([tokenToString(keyword.kind), ' '])
+      : tokenToString(keyword.kind));
         if (parent.end !== keyword.end) {
           parts.push(printTrailingCommentsOfPosition(printer, keyword.end));
         }

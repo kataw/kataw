@@ -160,9 +160,9 @@ async (x = (debugger) = f) => {}
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 20
-✖ '; ' expected - start: 20, end: 21
+✖ ')' expected - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
-✖ '; ' expected - start: 25, end: 26
+✖ ')' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 29
 
 ```

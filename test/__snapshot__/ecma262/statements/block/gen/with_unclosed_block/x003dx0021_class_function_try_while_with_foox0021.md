@@ -379,7 +379,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '; ' expected - start: 15, end: 17
+✖ '{' expected - start: 15, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 19, end: 20
 ✖ Missing an opening brace - '{ - start: 27, end: 35

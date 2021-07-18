@@ -192,7 +192,7 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 4
 ✖ Declaration or statement expected - start: 4, end: 5
-✖ '; ' expected - start: 9, end: 18
+✖ 'function' expected - start: 9, end: 18
 ✖ Binding identifier expected - start: 18, end: 24
 ✖ Missing an opening parentheses - '( - start: 19, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 26

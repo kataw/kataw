@@ -160,7 +160,7 @@ for (const ...x in y){}
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 14
-✖ '; ' expected - start: 20, end: 21
+✖ ')' expected - start: 20, end: 21
 
 ```
 

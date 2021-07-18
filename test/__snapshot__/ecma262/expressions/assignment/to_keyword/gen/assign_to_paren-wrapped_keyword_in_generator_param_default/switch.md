@@ -202,7 +202,7 @@ function *f(x = (switch) = f) {}
 ✖ Identifier expected - start: 17, end: 23
 ✖ Missing an opening parentheses - '( - start: 23, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 26
-✖ '; ' expected - start: 28, end: 29
+✖ ')' expected - start: 28, end: 29
 
 ```
 

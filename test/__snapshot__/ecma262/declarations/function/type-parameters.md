@@ -1187,7 +1187,7 @@ type T = <
 ✖ Expression expected - start: 98, end: 99
 ✖ Identifier expected - start: 114, end: 128
 ✖ '; ' expected - start: 144, end: 148
-✖ '; ' expected - start: 148, end: 150
+✖ '{' expected - start: 148, end: 150
 ✖ Identifier expected - start: 154, end: 168
 ✖ Identifier expected - start: 154, end: 168
 ✖ Identifier expected - start: 178, end: 179
@@ -1200,7 +1200,7 @@ type T = <
 ✖ Expression expected - start: 329, end: 330
 ✖ Identifier expected - start: 345, end: 362
 ✖ '; ' expected - start: 378, end: 382
-✖ '; ' expected - start: 382, end: 384
+✖ '{' expected - start: 382, end: 384
 ✖ Identifier expected - start: 417, end: 418
 ✖ Identifier expected - start: 433, end: 450
 

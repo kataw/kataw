@@ -293,18 +293,18 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 3, end: 10
+✖ 'switch' expected - start: 3, end: 10
 ✖ Missing an opening parentheses - '( - start: 11, end: 13
 ✖ Declaration or statement expected - start: 14, end: 18
 ✖ '; ' expected - start: 18, end: 21
 ✖ '; ' expected - start: 21, end: 29
-✖ '; ' expected - start: 29, end: 32
-✖ '; ' expected - start: 32, end: 37
+✖ 'of' expected - start: 29, end: 32
+✖ 'this' expected - start: 32, end: 37
 ✖ '; ' expected - start: 37, end: 44
-✖ '; ' expected - start: 44, end: 50
+✖ 'while' expected - start: 44, end: 50
 ✖ Missing an opening parentheses - '( - start: 51, end: 52
 ✖ Declaration or statement expected - start: 53, end: 56
-✖ '; ' expected - start: 56, end: 60
+✖ 'for' expected - start: 56, end: 60
 ✖ Missing an opening parentheses - '( - start: 61, end: 62
 ✖ Identifier expected - start: 67, end: 67
 

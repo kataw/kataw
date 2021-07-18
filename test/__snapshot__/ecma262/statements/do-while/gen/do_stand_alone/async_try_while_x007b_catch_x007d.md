@@ -185,7 +185,7 @@ do async try while { catch }
 
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 2, end: 8
-✖ '; ' expected - start: 8, end: 12
+✖ 'try' expected - start: 8, end: 12
 ✖ 'catch' expected - start: 12, end: 18
 ✖ Missing an opening parentheses - '( - start: 19, end: 20
 ✖ Property definition expected. Did you mean to use a ':'? - start: 26, end: 28

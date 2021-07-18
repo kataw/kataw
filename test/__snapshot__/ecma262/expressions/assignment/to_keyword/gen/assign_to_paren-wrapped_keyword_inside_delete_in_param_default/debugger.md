@@ -181,9 +181,9 @@ async (x = delete ((debugger) = f)) => {}
 
 ```javascript
 ✖ Identifier expected - start: 20, end: 28
-✖ '; ' expected - start: 28, end: 29
+✖ ')' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
-✖ '; ' expected - start: 33, end: 34
+✖ ')' expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 38
 

@@ -774,12 +774,12 @@ class C {
 ✖ ',' expected - start: 58, end: 59
 ✖ Missing an opening brace - '{ - start: 61, end: 62
 ✖ Variable declaration not allowed at this location - start: 73, end: 74
-✖ '; ' expected - start: 73, end: 74
+✖ ':' expected - start: 73, end: 74
 ✖ Declaration or statement expected - start: 101, end: 103
 ✖ Variable declaration not allowed at this location - start: 145, end: 146
-✖ '; ' expected - start: 145, end: 146
+✖ ':' expected - start: 145, end: 146
 ✖ Variable declaration not allowed at this location - start: 163, end: 164
-✖ '; ' expected - start: 163, end: 164
+✖ ':' expected - start: 163, end: 164
 ✖ Declaration or statement expected - start: 176, end: 179
 ✖ Declaration or statement expected - start: 179, end: 181
 

@@ -220,7 +220,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 50, end: 53
+✖ '=>' expected - start: 50, end: 53
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Declaration or statement expected - start: 61, end: 62
 

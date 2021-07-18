@@ -195,7 +195,7 @@ async ({ident: [foo, bar].join("")}) => x
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 36, end: 39
+✖ '=>' expected - start: 36, end: 39
 
 ```
 

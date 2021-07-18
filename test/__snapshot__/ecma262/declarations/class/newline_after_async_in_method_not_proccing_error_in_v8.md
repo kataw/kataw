@@ -227,8 +227,8 @@ class K extends {} {;async\n async *1(){}}
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 26
 ✖ Invalid hexadecimal escape sequence - start: 26, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
-✖ '; ' expected - start: 28, end: 34
-✖ '; ' expected - start: 39, end: 40
+✖ 'async' expected - start: 28, end: 34
+✖ '{' expected - start: 39, end: 40
 ✖ Declaration or statement expected - start: 41, end: 42
 
 ```

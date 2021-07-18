@@ -155,8 +155,8 @@ async (a, ...b+b=c) => a;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 16, end: 17
-✖ '; ' expected - start: 18, end: 19
+✖ '=' expected - start: 16, end: 17
+✖ ')' expected - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 22
 
 ```

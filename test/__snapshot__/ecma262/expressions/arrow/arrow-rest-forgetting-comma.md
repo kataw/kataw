@@ -90,7 +90,7 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 3, end: 6
-✖ '; ' expected - start: 7, end: 8
+✖ ')' expected - start: 7, end: 8
 ✖ Declaration or statement expected - start: 8, end: 11
 
 ```

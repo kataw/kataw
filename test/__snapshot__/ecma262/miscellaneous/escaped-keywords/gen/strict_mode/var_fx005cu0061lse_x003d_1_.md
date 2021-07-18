@@ -102,7 +102,7 @@ var f\u0061lse = 1;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 3, end: 14
+✖ 'false' expected - start: 3, end: 14
 ✖ Keywords cannot contain escape characters - start: 3, end: 14
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 14, end: 16
 

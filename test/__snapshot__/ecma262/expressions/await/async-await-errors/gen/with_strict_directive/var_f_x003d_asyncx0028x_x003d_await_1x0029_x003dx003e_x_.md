@@ -177,7 +177,7 @@
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 40, end: 43
-✖ '; ' expected - start: 40, end: 43
+✖ '=>' expected - start: 40, end: 43
 
 ```
 

@@ -224,7 +224,7 @@ async function p(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 40, end: 42
-✖ '; ' expected - start: 44, end: 46
+✖ '{' expected - start: 44, end: 46
 
 ```
 

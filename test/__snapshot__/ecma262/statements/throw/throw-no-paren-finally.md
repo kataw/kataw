@@ -121,7 +121,7 @@ throw {x} finally
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 9, end: 17
+✖ 'finally' expected - start: 9, end: 17
 ✖ 'try' expected - start: 9, end: 17
 
 ```

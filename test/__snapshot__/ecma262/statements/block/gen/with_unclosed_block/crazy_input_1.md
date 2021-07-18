@@ -207,7 +207,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '; ' expected - start: 15, end: 17
+✖ '{' expected - start: 15, end: 17
 ✖ '; ' expected - start: 23, end: 29
 ✖ '; ' expected - start: 29, end: 31
 

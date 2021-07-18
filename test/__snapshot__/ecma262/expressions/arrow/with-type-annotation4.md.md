@@ -181,7 +181,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 13, end: 15
+✖ '=>' expected - start: 13, end: 15
 
 ```
 

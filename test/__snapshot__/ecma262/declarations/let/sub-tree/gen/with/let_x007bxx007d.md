@@ -113,7 +113,7 @@ with (a) let {x}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 12, end: 14
+✖ '{' expected - start: 12, end: 14
 
 ```
 

@@ -298,7 +298,7 @@
 ✖ ',' expected - start: 49, end: 50
 ✖ Expected a ')' to match the '(' token here - start: 55, end: 56
 ✖ Declaration or statement expected - start: 56, end: 58
-✖ '; ' expected - start: 65, end: 66
+✖ ')' expected - start: 65, end: 66
 
 ```
 

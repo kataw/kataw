@@ -1088,12 +1088,12 @@ async function f(){}
 ✖ Duplicate identifier - start: 87, end: 89
 ✖ Binding identifier expected - start: 104, end: 106
 ✖ Missing an opening parentheses - '( - start: 105, end: 106
-✖ '; ' expected - start: 109, end: 110
+✖ '{' expected - start: 109, end: 110
 ✖ Duplicate identifier - start: 123, end: 125
 ✖ Expected a ')' to match the '(' token here - start: 126, end: 127
 ✖ Duplicate identifier - start: 139, end: 141
 ✖ Expected a ')' to match the '(' token here - start: 142, end: 143
-✖ '; ' expected - start: 144, end: 151
+✖ 'switch' expected - start: 144, end: 151
 ✖ Missing an opening parentheses - '( - start: 152, end: 155
 ✖ Declaration or statement expected - start: 156, end: 159
 ✖ Missing an opening parentheses - '( - start: 172, end: 173

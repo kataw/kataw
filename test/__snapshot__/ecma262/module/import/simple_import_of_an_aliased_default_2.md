@@ -166,7 +166,7 @@ import x, * as a from "y"
 ```javascript
 ✖ Identifier expected - start: 9, end: 11
 ✖ '; ' expected - start: 14, end: 16
-✖ '; ' expected - start: 16, end: 21
+✖ 'from' expected - start: 16, end: 21
 ✖ '; ' expected - start: 21, end: 25
 
 ```

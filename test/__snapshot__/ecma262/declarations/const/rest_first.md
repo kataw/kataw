@@ -115,7 +115,7 @@ const ...a = 1;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 5, end: 9
+✖ '...' expected - start: 5, end: 9
 
 ```
 

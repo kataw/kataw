@@ -85,26 +85,7 @@ export const descKeywordTable: { [key: string]: SyntaxKind | null } = {
 };
 
 // Scan identifer and keyword and do a lookup for keywords
-export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source: string): SyntaxKind {
-  while (AsciiCharTypes[cp] & AsciiCharFlags.IdentifierPart) {
-    cp = source.charCodeAt(++parser.pos);
-  }
-
-  parser.tokenValue = source.substring(parser.tokenPos, parser.pos);
-
-  if (cp === Char.Backslash || cp > 128) {
-    parser.tokenValue += scanIdentifierParts(parser, source);
-  }
-
-  parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
-
-  const keyword = descKeywordTable[parser.tokenValue];
-  if (keyword != undefined) return keyword;
-  return SyntaxKind.Identifier;
-}
-
-// Scan identifier - no keyword lookup
-export function scanIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
+export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source: string, isPossibleKeyword: boolean): SyntaxKind {
   while (AsciiCharTypes[cp] & AsciiCharFlags.IdentifierPart) {
     cp = source.charCodeAt(++parser.pos);
   }
@@ -115,8 +96,16 @@ export function scanIdentifier(parser: ParserState, cp: number, source: string):
     parser.tokenValue += scanIdentifierParts(parser, source);
   }
   parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
+  if (isPossibleKeyword) {
+
+
+    const keyword = descKeywordTable[parser.tokenValue];
+    if (keyword != undefined) return keyword;
+  }
+
   return SyntaxKind.Identifier;
 }
+
 
 export function scanIdentifierParts(parser: ParserState, source: string): string {
   let result = '';

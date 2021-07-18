@@ -158,7 +158,7 @@ import * as a from "y"
 ```javascript
 ✖ Identifier expected - start: 6, end: 8
 ✖ '; ' expected - start: 11, end: 13
-✖ '; ' expected - start: 13, end: 18
+✖ 'from' expected - start: 13, end: 18
 ✖ '; ' expected - start: 18, end: 22
 
 ```

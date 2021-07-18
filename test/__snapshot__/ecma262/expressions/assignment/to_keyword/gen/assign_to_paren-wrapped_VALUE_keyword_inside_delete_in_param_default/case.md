@@ -192,7 +192,7 @@ function *f(x = delete ((case) = f)) {}
 ✖ Identifier expected - start: 25, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 30, end: 32
-✖ '; ' expected - start: 34, end: 35
+✖ ')' expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 36
 
 ```

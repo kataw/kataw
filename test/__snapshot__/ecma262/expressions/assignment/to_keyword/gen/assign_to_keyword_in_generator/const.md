@@ -142,7 +142,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 22, end: 24
+✖ '=' expected - start: 22, end: 24
 ✖ Declaration or statement expected - start: 27, end: 29
 
 ```

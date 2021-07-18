@@ -8653,11 +8653,11 @@ async function * gen() {class C extends await { }}
 ✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 ✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
 ✖ '; ' expected - start: 1854, end: 1855
-✖ '; ' expected - start: 1856, end: 1857
+✖ '{' expected - start: 1856, end: 1857
 ✖ Declaration or statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
 ✖ '; ' expected - start: 1898, end: 1913
-✖ '; ' expected - start: 1914, end: 1916
+✖ '{' expected - start: 1914, end: 1916
 ✖ Declaration or statement expected - start: 1926, end: 1927
 ✖ 'yield' cannot be used as an identifier here - start: 2076, end: 2081
 ✖ 'await' cannot be used as an identifier here - start: 2121, end: 2126
@@ -8674,7 +8674,7 @@ async function * gen() {class C extends await { }}
 ✖ Did you forgot a ']' to match the `[` token? - start: 2515, end: 2517
 ✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
 ✖ Variable declaration not allowed at this location - start: 2514, end: 2517
-✖ '; ' expected - start: 2517, end: 2518
+✖ ']' expected - start: 2517, end: 2518
 ✖ Declaration or statement expected - start: 2518, end: 2520
 ✖ Declaration or statement expected - start: 2526, end: 2527
 ✖ 'await' cannot be used as an identifier here - start: 2557, end: 2562
@@ -8682,7 +8682,7 @@ async function * gen() {class C extends await { }}
 ✖ Did you forgot a ']' to match the `[` token? - start: 2563, end: 2565
 ✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
 ✖ Variable declaration not allowed at this location - start: 2562, end: 2565
-✖ '; ' expected - start: 2565, end: 2566
+✖ ']' expected - start: 2565, end: 2566
 ✖ Declaration or statement expected - start: 2566, end: 2568
 ✖ Declaration or statement expected - start: 2574, end: 2575
 ✖ 'yield' cannot be used as an identifier here - start: 2609, end: 2615
@@ -8707,12 +8707,12 @@ async function * gen() {class C extends await { }}
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 3209, end: 3218
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3221, end: 3223
 ✖ Expected a ')' to match the '(' token here - start: 3225, end: 3227
-✖ '; ' expected - start: 3227, end: 3229
+✖ '{' expected - start: 3227, end: 3229
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3230, end: 3231
 ✖ Declaration or statement expected - start: 3232, end: 3233
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3275, end: 3277
 ✖ Expected a ')' to match the '(' token here - start: 3279, end: 3281
-✖ '; ' expected - start: 3281, end: 3283
+✖ '{' expected - start: 3281, end: 3283
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3327, end: 3335

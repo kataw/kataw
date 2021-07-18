@@ -276,7 +276,7 @@ do do do try { !xxx while while while
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 19, end: 25
+✖ 'while' expected - start: 19, end: 25
 ✖ Missing an opening parentheses - '( - start: 26, end: 31
 ✖ Missing an opening parentheses - '( - start: 32, end: 37
 

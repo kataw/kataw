@@ -215,7 +215,7 @@ function *P(){
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 35, end: 36
-✖ '; ' expected - start: 38, end: 40
+✖ '{' expected - start: 38, end: 40
 
 ```
 

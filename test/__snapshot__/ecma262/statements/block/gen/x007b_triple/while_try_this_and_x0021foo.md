@@ -222,7 +222,7 @@
 ✖ Missing an opening parentheses - '( - start: 12, end: 15
 ✖ 'catch' expected - start: 15, end: 20
 ✖ '; ' expected - start: 20, end: 24
-✖ '; ' expected - start: 24, end: 26
+✖ '!' expected - start: 24, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 29
 
 ```

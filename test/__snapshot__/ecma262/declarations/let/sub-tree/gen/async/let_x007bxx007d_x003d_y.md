@@ -125,7 +125,7 @@ async let {x} = y
 
 ```javascript
 ✖ 'async' modifier cannot be used here - start: 9, end: 11
-✖ '; ' expected - start: 13, end: 15
+✖ '=' expected - start: 13, end: 15
 
 ```
 

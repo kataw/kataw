@@ -144,7 +144,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 30, end: 36
+✖ 'while' expected - start: 30, end: 36
 
 ```
 

@@ -159,7 +159,7 @@ try {} catch([x]: string){}
 
 ```javascript
 ✖ Catch clause variable cannot have an type annotation - start: 16, end: 17
-✖ '; ' expected - start: 24, end: 25
+✖ ')' expected - start: 24, end: 25
 
 ```
 

@@ -170,7 +170,7 @@
 ✖ '; ' expected - start: 22, end: 23
 ✖ Invalid hexadecimal escape sequence - start: 23, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
-✖ '; ' expected - start: 25, end: 26
+✖ '{' expected - start: 25, end: 26
 
 ```
 

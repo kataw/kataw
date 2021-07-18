@@ -243,7 +243,7 @@ foo = {
 ```javascript
 ✖ Identifier expected - start: 42, end: 44
 ✖ Identifier expected - start: 44, end: 46
-✖ '; ' expected - start: 48, end: 49
+✖ ')' expected - start: 48, end: 49
 ✖ Declaration or statement expected - start: 50, end: 54
 ✖ Declaration or statement expected - start: 54, end: 56
 

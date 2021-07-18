@@ -220,7 +220,7 @@ function *f(x = (if) = f) {}
 ✖ Missing an opening parentheses - '( - start: 19, end: 20
 ✖ Identifier expected - start: 20, end: 22
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 20, end: 22
-✖ '; ' expected - start: 24, end: 25
+✖ ')' expected - start: 24, end: 25
 
 ```
 

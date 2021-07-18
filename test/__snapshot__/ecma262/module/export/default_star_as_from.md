@@ -168,7 +168,7 @@ export bar, * as foo from 'bar';
 ✖ Declaration or statement expected - start: 6, end: 10
 ✖ Identifier expected - start: 11, end: 13
 ✖ '; ' expected - start: 16, end: 20
-✖ '; ' expected - start: 20, end: 25
+✖ 'from' expected - start: 20, end: 25
 ✖ '; ' expected - start: 25, end: 31
 
 ```

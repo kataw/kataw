@@ -10,7 +10,6 @@ import { skipMultilineComment, skipSingleLineComment } from './comments';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import {
-  scanIdentifier,
   descKeywordTable,
   scanIdentifierEscape,
   scanIdentifierOrKeyword,
@@ -180,11 +179,11 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // Look for an keyword (a-z)
       case SyntaxKind.IsKeyword:
-        return scanIdentifierOrKeyword(parser, cp, source);
+        return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ true);
 
       // Look for an identifier -(A-Z, $, _).
       case SyntaxKind.Identifier:
-        return scanIdentifier(parser, cp, source);
+        return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ false);
 
       case SyntaxKind.NumericLiteral:
         return scanNumber(parser, context, cp, source);

@@ -166,7 +166,7 @@ function *f(){
 
 ```javascript
 ✖ Identifier expected - start: 18, end: 23
-✖ '; ' expected - start: 23, end: 24
+✖ ')' expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 26
 ✖ Declaration or statement expected - start: 29, end: 31
 

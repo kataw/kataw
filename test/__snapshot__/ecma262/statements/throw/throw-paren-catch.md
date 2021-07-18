@@ -138,7 +138,7 @@ throw {x} catch
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 9, end: 15
+✖ 'catch' expected - start: 9, end: 15
 ✖ 'try' expected - start: 9, end: 15
 
 ```

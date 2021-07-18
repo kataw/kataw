@@ -171,7 +171,7 @@ export function scanTemplateSpan(parser: ParserState, context: Context, source: 
       let code;
       parser.pos++;
       if (parser.pos >= parser.end) {
-        code = Escape.Empty;
+        code = TemplateEscape.Empty;
       } else {
         let ch = source.charCodeAt(parser.pos);
         parser.pos++;
@@ -197,20 +197,20 @@ export function scanTemplateSpan(parser: ParserState, context: Context, source: 
 
             if (code >= 0) {
               ret += fromCodePoint(code);
-            } else if (code !== Escape.Empty && context & Context.TaggedTemplate) {
+            } else if (code !== TemplateEscape.Empty && context & Context.TaggedTemplate) {
               ret = '';
               cp = scanBadTemplate(parser, cp);
             } else {
-              if (code !== Escape.Empty) {
+              if (code !== TemplateEscape.Empty) {
                 parser.onError(
                   DiagnosticSource.Lexer,
                   DiagnosticKind.Error,
                   diagnosticMap[
-                    Escape.StrictOctal
+                    TemplateEscape.StrictOctal
                       ? DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_template_literal
-                      : Escape.EightOrNine
+                      : TemplateEscape.EightOrNine
                       ? DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes
-                      : Escape.InvalidHex
+                      : TemplateEscape.InvalidHex
                       ? DiagnosticCode.Invalid_hexadecimal_escape_sequence
                       : DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF
                   ],
@@ -256,7 +256,7 @@ export function scanTemplateTail(parser: ParserState, context: Context): SyntaxK
   return parser.token;
 }
 
-const enum Escape {
+const enum TemplateEscape {
   Empty = -1,
   StrictOctal = -2,
   EightOrNine = -3,
@@ -279,11 +279,11 @@ export function scanTemplateEscape(parser: ParserState, source: string, ch: numb
     case Char.Five:
     case Char.Six:
     case Char.Seven:
-      return Escape.StrictOctal;
+      return TemplateEscape.StrictOctal;
     // `8`, `9` (invalid escapes)
     case Char.Eight:
     case Char.Nine:
-      return Escape.EightOrNine;
+      return TemplateEscape.EightOrNine;
     case Char.LowerU:
       // '\u{DDDDDDDD}'
 
@@ -298,7 +298,7 @@ export function scanTemplateEscape(parser: ParserState, source: string, ch: numb
         let code = toHex(source.charCodeAt(parser.pos));
 
         if (code < 0) {
-          return Escape.InvalidHex;
+          return TemplateEscape.InvalidHex;
         }
 
         ch = source.charCodeAt(++parser.pos);
@@ -308,20 +308,21 @@ export function scanTemplateEscape(parser: ParserState, source: string, ch: numb
           const digit = toHex(ch);
 
           if (digit < 0) {
-            return Escape.EightOrNine;
+            return TemplateEscape.EightOrNine;
           }
           code = (code << 4) | digit;
 
           // Check this early to avoid `code` wrapping to a negative on overflow (which is
           // reserved for abnormal conditions).
           if (code > Char.LastUnicodeChar) {
-            return Escape.OutOfRange;
+            console.log('aaaa')
+            return TemplateEscape.OutOfRange;
           }
           ch = source.charCodeAt(++parser.pos);
           digits++;
         }
 
-        if (digits === 0) return Escape.InvalidHex;
+        if (digits === 0) return TemplateEscape.InvalidHex;
 
         parser.pos++;
         return code;
@@ -332,13 +333,13 @@ export function scanTemplateEscape(parser: ParserState, source: string, ch: numb
       // \uNNNN
 
       let code = toHex(source.charCodeAt(parser.pos));
-      if (code < 0) return Escape.InvalidHex;
+      if (code < 0) return TemplateEscape.InvalidHex;
       let pos = parser.pos;
       for (let i = 0; i < 3; i++) {
         ch = source.charCodeAt(++pos);
         const digit = toHex(ch);
         if (digit < 0) {
-          return Escape.EightOrNine;
+          return TemplateEscape.EightOrNine;
         }
         code = (code << 4) | digit;
       }
@@ -350,24 +351,12 @@ export function scanTemplateEscape(parser: ParserState, source: string, ch: numb
     case Char.LowerX:
       // '\xDD'
       const hi = toHex(source.charCodeAt(parser.pos));
-      if (hi < 0) return Escape.InvalidHex;
+      if (hi < 0) return TemplateEscape.InvalidHex;
       parser.pos++;
       const lo = toHex(source.charCodeAt(parser.pos));
-      if (lo < 0) return Escape.InvalidHex;
+      if (lo < 0) return TemplateEscape.InvalidHex;
       parser.pos++;
       return (hi << 4) | lo;
-
-    // when encountering a LineContinuation (i.e. a backslash and a line terminator sequence),
-    // the line terminator is interpreted to be "the empty code unit sequence".
-    case Char.CarriageReturn:
-      if (parser.pos < parser.end && source.charCodeAt(parser.pos) === Char.LineFeed) {
-        parser.pos++;
-      }
-    //  falls through
-    case Char.LineFeed:
-    case Char.LineSeparator:
-    case Char.ParagraphSeparator:
-      return Escape.Empty;
     default:
       return ch;
   }

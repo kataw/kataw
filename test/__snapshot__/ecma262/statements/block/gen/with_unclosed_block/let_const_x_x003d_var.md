@@ -247,8 +247,8 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '; ' expected - start: 15, end: 17
-✖ '; ' expected - start: 21, end: 27
+✖ '{' expected - start: 15, end: 17
+✖ 'const' expected - start: 21, end: 27
 ✖ Identifier expected - start: 31, end: 35
 ✖ Lexical declaration expected - start: 31, end: 35
 

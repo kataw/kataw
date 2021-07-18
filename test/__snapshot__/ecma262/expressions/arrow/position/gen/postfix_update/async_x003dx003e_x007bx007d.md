@@ -121,7 +121,7 @@ async => {}++
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 11, end: 13
+✖ '++' expected - start: 11, end: 13
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 13, end: 13
 
 ```

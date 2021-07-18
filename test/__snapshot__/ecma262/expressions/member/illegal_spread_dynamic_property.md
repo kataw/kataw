@@ -97,7 +97,7 @@ foo[...x];
 
 ```javascript
 ✖ Identifier expected - start: 4, end: 7
-✖ '; ' expected - start: 8, end: 9
+✖ ']' expected - start: 8, end: 9
 
 ```
 

@@ -710,7 +710,7 @@ import { type Foo12 } from "bar";
 ```javascript
 ✖ Identifier expected - start: 183, end: 185
 ✖ '; ' expected - start: 188, end: 198
-✖ '; ' expected - start: 198, end: 203
+✖ 'from' expected - start: 198, end: 203
 ✖ '; ' expected - start: 203, end: 209
 
 ```

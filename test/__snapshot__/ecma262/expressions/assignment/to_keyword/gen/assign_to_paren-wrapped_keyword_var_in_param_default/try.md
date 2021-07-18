@@ -144,7 +144,7 @@
 ✖ Identifier expected - start: 6, end: 9
 ✖ 'catch' expected - start: 9, end: 10
 ✖ Declaration or statement expected - start: 10, end: 12
-✖ '; ' expected - start: 14, end: 15
+✖ ')' expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 18
 
 ```

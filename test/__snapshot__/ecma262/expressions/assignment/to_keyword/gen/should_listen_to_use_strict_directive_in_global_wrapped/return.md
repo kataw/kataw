@@ -132,7 +132,7 @@
 ✖ A return statement can only be used within a function_body - start: 15, end: 21
 ✖ Identifier expected - start: 21, end: 23
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
-✖ '; ' expected - start: 25, end: 26
+✖ ')' expected - start: 25, end: 26
 
 ```
 

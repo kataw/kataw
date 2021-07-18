@@ -109,7 +109,7 @@ async (a.b) => x;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 11, end: 14
+✖ '=>' expected - start: 11, end: 14
 
 ```
 

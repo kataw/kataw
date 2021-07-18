@@ -132,7 +132,7 @@ const [(x)] = v
 ✖ Did you forgot a ']' to match the `[` token? - start: 7, end: 8
 ✖ Missing initializer in const declaration - start: 7, end: 8
 ✖ Lexical declaration expected - start: 7, end: 8
-✖ '; ' expected - start: 10, end: 11
+✖ ']' expected - start: 10, end: 11
 ✖ Declaration or statement expected - start: 11, end: 13
 
 ```

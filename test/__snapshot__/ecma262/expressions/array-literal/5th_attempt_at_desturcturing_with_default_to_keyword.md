@@ -161,7 +161,7 @@
 ✖ ',' expected - start: 9, end: 10
 ✖ ',' expected - start: 11, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14
-✖ '; ' expected - start: 16, end: 17
+✖ ']' expected - start: 16, end: 17
 
 ```
 

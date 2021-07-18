@@ -108,7 +108,7 @@
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 1, end: 9
 ✖ Identifier expected - start: 9, end: 11
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 1, end: 11
-✖ '; ' expected - start: 13, end: 14
+✖ ')' expected - start: 13, end: 14
 
 ```
 

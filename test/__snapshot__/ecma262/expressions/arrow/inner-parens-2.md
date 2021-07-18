@@ -99,7 +99,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 8, end: 11
+✖ '=>' expected - start: 8, end: 11
 
 ```
 

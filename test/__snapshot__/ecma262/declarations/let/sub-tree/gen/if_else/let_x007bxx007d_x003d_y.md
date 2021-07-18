@@ -153,7 +153,7 @@ else let {x} = y;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 18, end: 20
+✖ '{' expected - start: 18, end: 20
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 24, end: 26
 
 ```

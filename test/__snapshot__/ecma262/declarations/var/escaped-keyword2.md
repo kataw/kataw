@@ -101,7 +101,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 4, end: 35
+✖ 'break' expected - start: 4, end: 35
 ✖ Keywords cannot contain escape characters - start: 4, end: 35
 ✖ Identifier expected - start: 35, end: 37
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 35, end: 37

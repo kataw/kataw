@@ -112,7 +112,7 @@
 ✖ Keywords cannot contain escape characters - start: 1, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14
 ✖ Declaration or statement expected - start: 12, end: 14
-✖ '; ' expected - start: 16, end: 17
+✖ ')' expected - start: 16, end: 17
 
 ```
 

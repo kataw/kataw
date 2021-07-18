@@ -116,7 +116,7 @@
 ✖ Keywords cannot contain escape characters - start: 1, end: 14
 ✖ Identifier expected - start: 14, end: 16
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 1, end: 16
-✖ '; ' expected - start: 18, end: 19
+✖ ')' expected - start: 18, end: 19
 
 ```
 

@@ -267,7 +267,7 @@ foo = {
 ✖ Identifier expected - start: 42, end: 45
 ✖ 'catch' expected - start: 45, end: 47
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 47
-✖ '; ' expected - start: 49, end: 50
+✖ ')' expected - start: 49, end: 50
 ✖ Declaration or statement expected - start: 51, end: 55
 ✖ Declaration or statement expected - start: 55, end: 57
 

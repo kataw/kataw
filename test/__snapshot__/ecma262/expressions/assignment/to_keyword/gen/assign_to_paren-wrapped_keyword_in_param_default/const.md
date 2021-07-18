@@ -168,9 +168,9 @@ async (x = (const) = f) => {}
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 17
-✖ '; ' expected - start: 17, end: 18
+✖ ')' expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
-✖ '; ' expected - start: 22, end: 23
+✖ ')' expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 26
 
 ```

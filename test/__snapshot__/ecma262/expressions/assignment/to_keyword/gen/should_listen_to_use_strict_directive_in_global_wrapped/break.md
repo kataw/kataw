@@ -124,7 +124,7 @@
 ✖ Identifier expected - start: 15, end: 20
 ✖ Identifier expected - start: 20, end: 22
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 20, end: 22
-✖ '; ' expected - start: 24, end: 25
+✖ ')' expected - start: 24, end: 25
 
 ```
 

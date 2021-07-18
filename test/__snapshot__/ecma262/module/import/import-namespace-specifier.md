@@ -158,7 +158,7 @@ import * as foo from "foo";
 ```javascript
 ✖ Identifier expected - start: 6, end: 8
 ✖ '; ' expected - start: 11, end: 15
-✖ '; ' expected - start: 15, end: 20
+✖ 'from' expected - start: 15, end: 20
 ✖ '; ' expected - start: 20, end: 26
 
 ```

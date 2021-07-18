@@ -135,7 +135,7 @@ let p/
 
 ```javascript
 ✖ Lexical declaration expected - start: 5, end: 6
-✖ '; ' expected - start: 5, end: 6
+✖ '/' expected - start: 5, end: 6
 
 ```
 

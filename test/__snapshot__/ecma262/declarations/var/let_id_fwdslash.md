@@ -136,7 +136,7 @@ var p/
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 5, end: 6
-✖ '; ' expected - start: 5, end: 6
+✖ '/' expected - start: 5, end: 6
 
 ```
 

@@ -178,7 +178,7 @@ function f() {
 ✖ The `export` keyword can only be used with the module goal - start: 34, end: 40
 ✖ Declaration or statement expected - start: 40, end: 42
 ✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 42
-✖ '; ' expected - start: 44, end: 45
+✖ ')' expected - start: 44, end: 45
 ✖ Declaration or statement expected - start: 46, end: 48
 
 ```

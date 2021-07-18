@@ -209,7 +209,7 @@ async (x = delete ((do) = f)) => {}
 ✖ Identifier expected - start: 20, end: 22
 ✖ Identifier expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
-✖ '; ' expected - start: 27, end: 28
+✖ ')' expected - start: 27, end: 28
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 32
 

@@ -167,7 +167,7 @@ x => y {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 22, end: 23
-✖ '; ' expected - start: 28, end: 30
+✖ '{' expected - start: 28, end: 30
 
 ```
 

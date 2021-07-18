@@ -6506,9 +6506,9 @@ for ({a: b.c}-- of d) e;
 ✖ Function declarations cannot be used in a single-statement context - start: 294, end: 303
 ✖ '; ' expected - start: 335, end: 337
 ✖ Expected a ')' to match the '(' token here - start: 357, end: 358
-✖ '; ' expected - start: 361, end: 362
+✖ ')' expected - start: 361, end: 362
 ✖ Expected a ')' to match the '(' token here - start: 387, end: 388
-✖ '; ' expected - start: 391, end: 392
+✖ ')' expected - start: 391, end: 392
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 408, end: 421
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 462, end: 469
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 535, end: 537
@@ -6518,7 +6518,7 @@ for ({a: b.c}-- of d) e;
 ✖ Identifier expected - start: 614, end: 617
 ✖ Identifier expected - start: 619, end: 620
 ✖ Expected a ')' to match the '(' token here - start: 634, end: 635
-✖ '; ' expected - start: 636, end: 637
+✖ ')' expected - start: 636, end: 637
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 675, end: 677
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 696, end: 698
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 710, end: 712
@@ -6527,13 +6527,13 @@ for ({a: b.c}-- of d) e;
 ✖ Trailing comma not allowed. - start: 729, end: 730
 ✖ Identifier expected - start: 729, end: 730
 ✖ '; ' expected - start: 733, end: 737
-✖ '; ' expected - start: 737, end: 738
+✖ ')' expected - start: 737, end: 738
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 749, end: 763
 ✖ Object property expected - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
 ✖ Variable declaration not allowed at this location - start: 793, end: 795
 ✖ Identifier expected - start: 805, end: 807
-✖ '; ' expected - start: 815, end: 816
+✖ ')' expected - start: 815, end: 816
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 840, end: 842
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 892, end: 894
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 946, end: 949

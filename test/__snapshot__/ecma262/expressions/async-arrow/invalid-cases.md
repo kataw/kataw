@@ -2651,54 +2651,54 @@ async ([a]:string)=>c;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 14, end: 15
-✖ '; ' expected - start: 17, end: 19
+✖ '[' expected - start: 14, end: 15
+✖ '=>' expected - start: 17, end: 19
 ✖ '; ' expected - start: 29, end: 32
-✖ '; ' expected - start: 32, end: 35
+✖ '=>' expected - start: 32, end: 35
 ✖ Identifier expected - start: 53, end: 58
 ✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59
 ✖ Declaration or statement expected - start: 59, end: 61
-✖ '; ' expected - start: 71, end: 74
+✖ 'if' expected - start: 71, end: 74
 ✖ Missing an opening parentheses - '( - start: 75, end: 77
-✖ '; ' expected - start: 106, end: 109
-✖ '; ' expected - start: 138, end: 140
+✖ '=>' expected - start: 106, end: 109
+✖ ')' expected - start: 138, end: 140
 ✖ Declaration or statement expected - start: 140, end: 143
 ✖ Identifier expected - start: 177, end: 179
 ✖ Expected a ')' to match the '(' token here - start: 206, end: 208
-✖ '; ' expected - start: 210, end: 211
-✖ '; ' expected - start: 250, end: 251
+✖ ')' expected - start: 210, end: 211
+✖ '.' expected - start: 250, end: 251
 ✖ Expected a ')' to match the '(' token here - start: 294, end: 296
-✖ '; ' expected - start: 298, end: 299
+✖ ')' expected - start: 298, end: 299
 ✖ Expected a ')' to match the '(' token here - start: 322, end: 327
-✖ '; ' expected - start: 332, end: 333
+✖ ')' expected - start: 332, end: 333
 ✖ Expected a ')' to match the '(' token here - start: 358, end: 360
-✖ '; ' expected - start: 362, end: 363
+✖ ')' expected - start: 362, end: 363
 ✖ Expected a ')' to match the '(' token here - start: 381, end: 386
-✖ '; ' expected - start: 391, end: 392
+✖ ')' expected - start: 391, end: 392
 ✖ Expected a ')' to match the '(' token here - start: 412, end: 414
-✖ '; ' expected - start: 416, end: 417
+✖ ')' expected - start: 416, end: 417
 ✖ Duplicate identifier - start: 422, end: 424
 ✖ Invalid hexadecimal escape sequence - start: 426, end: 432
 ✖ Invalid hexadecimal escape sequence - start: 432, end: 432
 ✖ Lexical declaration expected - start: 432, end: 433
 ✖ '; ' expected - start: 432, end: 433
-✖ '; ' expected - start: 437, end: 440
+✖ '=>' expected - start: 437, end: 440
 ✖ Duplicate identifier - start: 447, end: 449
 ✖ Invalid hexadecimal escape sequence - start: 451, end: 457
 ✖ Invalid hexadecimal escape sequence - start: 457, end: 457
 ✖ Lexical declaration expected - start: 457, end: 458
 ✖ '; ' expected - start: 457, end: 458
-✖ '; ' expected - start: 462, end: 465
+✖ '=>' expected - start: 462, end: 465
 ✖ Invalid hexadecimal escape sequence - start: 478, end: 484
 ✖ Invalid hexadecimal escape sequence - start: 484, end: 484
 ✖ Variable declaration not allowed at this location - start: 484, end: 485
 ✖ '; ' expected - start: 484, end: 485
-✖ '; ' expected - start: 492, end: 495
-✖ '; ' expected - start: 524, end: 527
+✖ '=>' expected - start: 492, end: 495
+✖ '=>' expected - start: 524, end: 527
 ✖ Identifier expected - start: 551, end: 554
 ✖ Declaration or statement expected - start: 559, end: 561
-✖ '; ' expected - start: 585, end: 588
+✖ '=>' expected - start: 585, end: 588
 ✖ Binding identifier expected - start: 601, end: 603
 ✖ Parameter 'await' for async arrow not allowed here - start: 638, end: 644
 ✖ An arrow function can not be part of an operator to the right - start: 694, end: 696

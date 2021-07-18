@@ -191,7 +191,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
-✖ '; ' expected - start: 15, end: 17
+✖ '{' expected - start: 15, end: 17
 ✖ Duplicate regular expression flag - start: 24, end: 25
 ✖ The parser expected to find a '}' to match the '{' token here - start: 20, end: 26
 

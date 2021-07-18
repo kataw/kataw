@@ -238,7 +238,7 @@ function *f(x = delete ((try) = f)) {}
 ✖ Identifier expected - start: 25, end: 28
 ✖ 'catch' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
-✖ '; ' expected - start: 33, end: 34
+✖ ')' expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 
 ```

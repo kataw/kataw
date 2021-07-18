@@ -116,7 +116,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 7, end: 13
+✖ 'class' expected - start: 7, end: 13
 
 ```
 

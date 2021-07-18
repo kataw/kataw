@@ -130,7 +130,7 @@
 ```javascript
 ✖ Identifier expected - start: 15, end: 17
 ✖ Identifier expected - start: 17, end: 19
-✖ '; ' expected - start: 21, end: 22
+✖ ')' expected - start: 21, end: 22
 
 ```
 

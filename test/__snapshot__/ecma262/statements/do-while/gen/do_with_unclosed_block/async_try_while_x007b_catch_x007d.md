@@ -221,7 +221,7 @@ do {} while (x) { async try while { catch }
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 23, end: 27
+✖ 'try' expected - start: 23, end: 27
 ✖ 'catch' expected - start: 27, end: 33
 ✖ Missing an opening parentheses - '( - start: 34, end: 35
 ✖ Property definition expected. Did you mean to use a ':'? - start: 41, end: 43

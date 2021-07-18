@@ -138,7 +138,7 @@ async (a, ...true=b) => a;
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 17, end: 18
-✖ '; ' expected - start: 20, end: 23
+✖ '=>' expected - start: 20, end: 23
 
 ```
 

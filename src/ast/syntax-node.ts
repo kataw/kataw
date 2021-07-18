@@ -423,8 +423,7 @@ export enum SyntaxKind {
 }
 
 export function tokenToString(node: any): string {
-  if (!node) return '';
-  switch (node.kind) {
+  switch (node) {
     case SyntaxKind.ObjectKeyword:
       return 'object';
     case SyntaxKind.ProtoKeyword:

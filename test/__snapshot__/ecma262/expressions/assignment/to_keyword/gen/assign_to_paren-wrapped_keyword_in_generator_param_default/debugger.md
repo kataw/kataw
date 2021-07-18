@@ -183,9 +183,9 @@ function *f(x = (debugger) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 17, end: 25
-✖ '; ' expected - start: 25, end: 26
+✖ ')' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ '; ' expected - start: 30, end: 31
+✖ ')' expected - start: 30, end: 31
 
 ```
 

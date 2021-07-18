@@ -134,7 +134,7 @@ x, ...z + arr, y]
 
 ```javascript
 ✖ Identifier expected - start: 2, end: 6
-✖ '; ' expected - start: 16, end: 17
+✖ ']' expected - start: 16, end: 17
 
 ```
 

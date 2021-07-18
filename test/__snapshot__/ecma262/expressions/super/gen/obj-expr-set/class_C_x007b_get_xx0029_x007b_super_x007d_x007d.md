@@ -297,7 +297,7 @@
 
 ```javascript
 ✖ Method definition expected - start: 29, end: 30
-✖ '; ' expected - start: 30, end: 32
+✖ '{' expected - start: 30, end: 32
 ✖ 'super' must be followed by an argument list or member access. - start: 32, end: 39
 ✖ Dot property must be an identifier - start: 38, end: 39
 ✖ Declaration or statement expected - start: 41, end: 43

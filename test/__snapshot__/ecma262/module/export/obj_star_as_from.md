@@ -181,10 +181,10 @@ export {bar}, * as foo from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 12, end: 13
+✖ ',' expected - start: 12, end: 13
 ✖ Identifier expected - start: 13, end: 15
 ✖ '; ' expected - start: 18, end: 22
-✖ '; ' expected - start: 22, end: 27
+✖ 'from' expected - start: 22, end: 27
 ✖ '; ' expected - start: 27, end: 33
 
 ```

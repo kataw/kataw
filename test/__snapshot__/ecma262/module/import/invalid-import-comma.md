@@ -93,7 +93,7 @@ import , from 'm.js';
 
 ```javascript
 ✖ Declaration or statement expected - start: 6, end: 8
-✖ '; ' expected - start: 6, end: 8
+✖ ',' expected - start: 6, end: 8
 ✖ '; ' expected - start: 13, end: 20
 
 ```

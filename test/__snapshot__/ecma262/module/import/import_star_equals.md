@@ -93,7 +93,7 @@ import *= from 'f';
 
 ```javascript
 ✖ Declaration or statement expected - start: 6, end: 9
-✖ '; ' expected - start: 6, end: 9
+✖ '*=' expected - start: 6, end: 9
 ✖ '; ' expected - start: 14, end: 18
 
 ```

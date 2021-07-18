@@ -2394,7 +2394,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ An async function declaration is not allowed as `if-else` child - start: 139, end: 145
 ✖ Generators can only be declared at the top level or inside a block - start: 180, end: 181
 ✖ A return statement can only be used within a function_body - start: 197, end: 204
-✖ '; ' expected - start: 206, end: 211
+✖ 'else' expected - start: 206, end: 211
 ✖ Class declarations cannot be used in a single-statement context - start: 226, end: 232
 ✖ Identifier expected - start: 249, end: 255
 ✖ An async function declaration is not allowed as `if-else` child - start: 277, end: 283

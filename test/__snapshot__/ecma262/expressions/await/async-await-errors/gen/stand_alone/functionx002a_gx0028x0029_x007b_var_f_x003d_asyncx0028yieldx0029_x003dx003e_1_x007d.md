@@ -203,7 +203,7 @@ function* g() { var f = async(yield) => 1; }
 
 ```javascript
 ✖ Variable declaration not allowed at this location - start: 36, end: 39
-✖ '; ' expected - start: 36, end: 39
+✖ '=>' expected - start: 36, end: 39
 ✖ Declaration or statement expected - start: 42, end: 44
 
 ```

@@ -242,7 +242,7 @@ async({a=1}. {b=2}, {c=3} = {}))
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 12
 ✖ Dot property must be an identifier - start: 12, end: 14
-✖ '; ' expected - start: 31, end: 32
+✖ ')' expected - start: 31, end: 32
 
 ```
 

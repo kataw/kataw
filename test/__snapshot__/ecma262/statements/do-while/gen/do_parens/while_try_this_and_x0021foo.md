@@ -244,8 +244,8 @@ do( while try this and !foo while
 ✖ Missing an opening parentheses - '( - start: 10, end: 13
 ✖ 'catch' expected - start: 13, end: 18
 ✖ '; ' expected - start: 18, end: 22
-✖ '; ' expected - start: 22, end: 24
-✖ '; ' expected - start: 27, end: 33
+✖ '!' expected - start: 22, end: 24
+✖ 'while' expected - start: 27, end: 33
 
 ```
 

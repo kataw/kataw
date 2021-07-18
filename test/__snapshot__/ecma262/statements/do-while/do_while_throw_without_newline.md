@@ -161,7 +161,7 @@ do throw function (v, h) {
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 43, end: 49
+✖ 'while' expected - start: 43, end: 49
 
 ```
 

@@ -231,7 +231,7 @@ type a = (1,2&3, ['string']) => T;
 
 ```javascript
 ✖ Expected '=>' - start: 16, end: 18
-✖ '; ' expected - start: 27, end: 28
+✖ ')' expected - start: 27, end: 28
 ✖ Declaration or statement expected - start: 28, end: 31
 
 ```

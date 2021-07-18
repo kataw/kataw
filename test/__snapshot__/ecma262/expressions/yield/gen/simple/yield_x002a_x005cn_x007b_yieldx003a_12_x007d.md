@@ -154,7 +154,7 @@ yield * \n { yield: 12 }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 7, end: 8
 ✖ Identifier expected - start: 7, end: 9
-✖ '; ' expected - start: 10, end: 12
+✖ '{' expected - start: 10, end: 12
 
 ```
 

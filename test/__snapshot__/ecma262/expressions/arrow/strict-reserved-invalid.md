@@ -424,9 +424,9 @@ new package => x
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 7, end: 8
+✖ '!' expected - start: 7, end: 8
 ✖ Identifier expected - start: 8, end: 11
-✖ '; ' expected - start: 25, end: 26
+✖ '!' expected - start: 25, end: 26
 ✖ Identifier expected - start: 26, end: 29
 ✖ Identifier expected - start: 34, end: 35
 ✖ Expected a `;` - start: 35, end: 45

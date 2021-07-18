@@ -1926,18 +1926,18 @@ import { let as l } from 'm.js';
 ```javascript
 ✖ Identifier expected - start: 148, end: 150
 ✖ '; ' expected - start: 153, end: 157
-✖ '; ' expected - start: 157, end: 162
+✖ 'from' expected - start: 157, end: 162
 ✖ '; ' expected - start: 162, end: 171
 ✖ Duplicate identifier - start: 264, end: 266
 ✖ Duplicate identifier - start: 290, end: 291
 ✖ Duplicate identifier - start: 296, end: 298
 ✖ Identifier expected - start: 324, end: 326
 ✖ '; ' expected - start: 329, end: 335
-✖ '; ' expected - start: 335, end: 340
+✖ 'from' expected - start: 335, end: 340
 ✖ '; ' expected - start: 340, end: 347
 ✖ Identifier expected - start: 388, end: 390
 ✖ '; ' expected - start: 393, end: 398
-✖ '; ' expected - start: 398, end: 403
+✖ 'from' expected - start: 398, end: 403
 ✖ '; ' expected - start: 403, end: 410
 ✖ Duplicate identifier - start: 429, end: 430
 ✖ Duplicate identifier - start: 435, end: 437

@@ -80,7 +80,7 @@ const = x
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 5, end: 7
+✖ '=' expected - start: 5, end: 7
 
 ```
 

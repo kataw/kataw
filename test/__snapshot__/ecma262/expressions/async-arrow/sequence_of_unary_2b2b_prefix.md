@@ -116,7 +116,7 @@ async (++x, y) => x;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 14, end: 17
+✖ '=>' expected - start: 14, end: 17
 
 ```
 

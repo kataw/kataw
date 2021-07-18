@@ -100,7 +100,7 @@
 ```javascript
 ✖ Identifier expected - start: 15, end: 19
 ✖ Declaration or statement expected - start: 19, end: 21
-✖ '; ' expected - start: 23, end: 24
+✖ ')' expected - start: 23, end: 24
 
 ```
 

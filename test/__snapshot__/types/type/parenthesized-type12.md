@@ -186,7 +186,7 @@ type X = (1<z>[]);
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 11, end: 12
-✖ '; ' expected - start: 16, end: 17
+✖ ')' expected - start: 16, end: 17
 
 ```
 

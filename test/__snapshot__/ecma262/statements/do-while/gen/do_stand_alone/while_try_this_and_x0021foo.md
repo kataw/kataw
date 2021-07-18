@@ -182,7 +182,7 @@ do while try this and !foo
 ✖ Missing an opening parentheses - '( - start: 9, end: 12
 ✖ 'catch' expected - start: 12, end: 17
 ✖ Declaration or statement expected - start: 18, end: 21
-✖ '; ' expected - start: 21, end: 23
+✖ '!' expected - start: 21, end: 23
 
 ```
 

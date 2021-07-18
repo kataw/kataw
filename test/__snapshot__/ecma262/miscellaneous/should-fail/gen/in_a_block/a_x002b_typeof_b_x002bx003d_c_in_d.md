@@ -150,7 +150,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 14, end: 17
+✖ '+=' expected - start: 14, end: 17
 ✖ Declaration or statement expected - start: 24, end: 26
 
 ```

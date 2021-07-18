@@ -304,13 +304,13 @@
 ✖ Declaration or statement expected - start: 15, end: 19
 ✖ '; ' expected - start: 19, end: 22
 ✖ '; ' expected - start: 22, end: 30
-✖ '; ' expected - start: 30, end: 33
-✖ '; ' expected - start: 33, end: 38
+✖ 'of' expected - start: 30, end: 33
+✖ 'this' expected - start: 33, end: 38
 ✖ '; ' expected - start: 38, end: 45
-✖ '; ' expected - start: 45, end: 51
+✖ 'while' expected - start: 45, end: 51
 ✖ Missing an opening parentheses - '( - start: 52, end: 53
 ✖ Declaration or statement expected - start: 54, end: 57
-✖ '; ' expected - start: 57, end: 61
+✖ 'for' expected - start: 57, end: 61
 ✖ Missing an opening parentheses - '( - start: 62, end: 63
 ✖ Identifier expected - start: 68, end: 68
 

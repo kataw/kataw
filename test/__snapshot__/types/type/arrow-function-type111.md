@@ -331,7 +331,7 @@ type a = ((bj[c])[d]);
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 46, end: 47
+✖ ')' expected - start: 46, end: 47
 
 ```
 

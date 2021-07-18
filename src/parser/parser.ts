@@ -1,4 +1,4 @@
-import { SyntaxKind, NodeFlags, Constants, ExportKind } from '../ast/syntax-node';
+import { SyntaxKind, NodeFlags, Constants, ExportKind, tokenToString } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken, scan } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';

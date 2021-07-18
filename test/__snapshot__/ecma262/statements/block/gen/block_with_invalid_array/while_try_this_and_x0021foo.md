@@ -271,7 +271,7 @@
 ✖ Missing an opening parentheses - '( - start: 16, end: 19
 ✖ 'catch' expected - start: 19, end: 24
 ✖ '; ' expected - start: 24, end: 28
-✖ '; ' expected - start: 28, end: 30
+✖ '!' expected - start: 28, end: 30
 
 ```
 

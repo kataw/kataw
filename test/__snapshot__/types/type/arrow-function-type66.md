@@ -348,13 +348,13 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
 ✖ Expected a ')' to match the '(' token here - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 36
-✖ '; ' expected - start: 38, end: 39
+✖ ')' expected - start: 38, end: 39
 ✖ Declaration or statement expected - start: 39, end: 42
-✖ '; ' expected - start: 44, end: 45
+✖ ')' expected - start: 44, end: 45
 ✖ Declaration or statement expected - start: 45, end: 48
-✖ '; ' expected - start: 50, end: 51
+✖ ')' expected - start: 50, end: 51
 ✖ Declaration or statement expected - start: 51, end: 54
-✖ '; ' expected - start: 56, end: 57
+✖ ')' expected - start: 56, end: 57
 ✖ Declaration or statement expected - start: 57, end: 60
 
 ```

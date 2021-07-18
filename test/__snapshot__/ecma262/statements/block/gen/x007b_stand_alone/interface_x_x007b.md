@@ -106,7 +106,7 @@
 
 ```javascript
 ✖ '; ' expected - start: 11, end: 13
-✖ '; ' expected - start: 13, end: 15
+✖ '{' expected - start: 13, end: 15
 
 ```
 

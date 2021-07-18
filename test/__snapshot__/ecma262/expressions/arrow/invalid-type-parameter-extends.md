@@ -166,7 +166,7 @@
 ```javascript
 ✖ Expected to find a '>' to match the '<' token here. - start: 3, end: 10
 ✖ Identifier expected - start: 0, end: 1
-✖ '; ' expected - start: 2, end: 10
+✖ 'extends' expected - start: 2, end: 10
 ✖ Expected a `;` - start: 16, end: 19
 
 ```

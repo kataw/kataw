@@ -178,7 +178,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 9, end: 15
+✖ 'const' expected - start: 9, end: 15
 ✖ Identifier expected - start: 19, end: 23
 ✖ Lexical declaration expected - start: 19, end: 23
 

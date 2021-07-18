@@ -174,8 +174,8 @@ import 'x' assert {x: 'y', x: 'y'}
 
 ```javascript
 ✖ '; ' expected - start: 10, end: 17
-✖ '; ' expected - start: 17, end: 19
-✖ '; ' expected - start: 28, end: 29
+✖ '{' expected - start: 17, end: 19
+✖ ':' expected - start: 28, end: 29
 ✖ Declaration or statement expected - start: 33, end: 34
 
 ```

@@ -190,7 +190,7 @@
 ✖ Missing an opening parentheses - '( - start: 8, end: 11
 ✖ 'catch' expected - start: 11, end: 16
 ✖ '; ' expected - start: 16, end: 20
-✖ '; ' expected - start: 20, end: 22
+✖ '!' expected - start: 20, end: 22
 ✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 25
 
 ```

@@ -193,7 +193,7 @@ async (x = delete ((break) = f)) => {}
 ✖ Identifier expected - start: 25, end: 26
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 28
-✖ '; ' expected - start: 30, end: 31
+✖ ')' expected - start: 30, end: 31
 ✖ Declaration or statement expected - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 35
 

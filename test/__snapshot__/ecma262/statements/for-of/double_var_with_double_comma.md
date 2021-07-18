@@ -202,7 +202,7 @@ for (let {x,, y} of obj);
 ✖ Missing initializer in destructuring declaration - start: 12, end: 13
 ✖ Identifier expected - start: 15, end: 16
 ✖ '; ' expected - start: 19, end: 23
-✖ '; ' expected - start: 23, end: 24
+✖ ')' expected - start: 23, end: 24
 
 ```
 

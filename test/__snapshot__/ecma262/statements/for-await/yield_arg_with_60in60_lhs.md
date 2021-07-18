@@ -258,7 +258,7 @@ async function f(){
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 62, end: 64
 ✖ Expected a ')' to match the '(' token here - start: 65, end: 67
 ✖ '; ' expected - start: 67, end: 69
-✖ '; ' expected - start: 69, end: 70
+✖ ')' expected - start: 69, end: 70
 ✖ Declaration or statement expected - start: 71, end: 75
 ✖ Declaration or statement expected - start: 75, end: 77
 

@@ -117,7 +117,7 @@ import 'x' assert {x}
 
 ```javascript
 ✖ '; ' expected - start: 10, end: 17
-✖ '; ' expected - start: 17, end: 19
+✖ '{' expected - start: 17, end: 19
 
 ```
 

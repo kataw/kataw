@@ -109,7 +109,7 @@ let ...a = 1;
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 3, end: 7
+✖ '...' expected - start: 3, end: 7
 
 ```
 

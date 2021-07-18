@@ -126,7 +126,7 @@ async => ok async => ok
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 11, end: 17
+✖ 'async' expected - start: 11, end: 17
 
 ```
 

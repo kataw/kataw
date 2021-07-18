@@ -188,9 +188,9 @@
 ✖ Expected a ')' to match the '(' token here - start: 2, end: 3
 ✖ Identifier expected - start: 11, end: 15
 ✖ ',' expected - start: 17, end: 18
-✖ '; ' expected - start: 25, end: 26
+✖ ']' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 27
-✖ '; ' expected - start: 34, end: 35
+✖ ')' expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 38
 
 ```

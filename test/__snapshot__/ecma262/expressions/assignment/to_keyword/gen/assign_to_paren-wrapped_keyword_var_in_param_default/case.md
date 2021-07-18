@@ -98,7 +98,7 @@
 ✖ Identifier expected - start: 6, end: 10
 ✖ Declaration or statement expected - start: 10, end: 11
 ✖ Declaration or statement expected - start: 11, end: 13
-✖ '; ' expected - start: 15, end: 16
+✖ ')' expected - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 19
 
 ```

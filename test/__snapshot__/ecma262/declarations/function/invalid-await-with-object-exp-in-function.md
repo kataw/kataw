@@ -146,7 +146,7 @@ function foo() {
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 24, end: 26
+✖ '{' expected - start: 24, end: 26
 
 ```
 

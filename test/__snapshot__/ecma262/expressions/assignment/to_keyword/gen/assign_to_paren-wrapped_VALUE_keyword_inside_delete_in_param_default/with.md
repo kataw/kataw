@@ -239,7 +239,7 @@ function *f(x = delete ((with) = f)) {}
 ✖ Missing an opening parentheses - '( - start: 29, end: 30
 ✖ Identifier expected - start: 30, end: 32
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 30, end: 32
-✖ '; ' expected - start: 34, end: 35
+✖ ')' expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 36
 
 ```

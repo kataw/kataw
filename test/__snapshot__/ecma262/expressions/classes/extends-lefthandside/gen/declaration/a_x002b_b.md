@@ -153,7 +153,7 @@ class A extends a + b {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 18, end: 19
-✖ '; ' expected - start: 21, end: 23
+✖ '{' expected - start: 21, end: 23
 
 ```
 

@@ -81,7 +81,7 @@ var = x
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 3, end: 5
+✖ '=' expected - start: 3, end: 5
 
 ```
 

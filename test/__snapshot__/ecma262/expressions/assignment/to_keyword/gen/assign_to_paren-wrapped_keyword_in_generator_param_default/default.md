@@ -171,7 +171,7 @@ function *f(x = (default) = f) {}
 ✖ Identifier expected - start: 17, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
 ✖ Declaration or statement expected - start: 25, end: 27
-✖ '; ' expected - start: 29, end: 30
+✖ ')' expected - start: 29, end: 30
 
 ```
 

@@ -145,7 +145,7 @@
 ✖ 'try' expected - start: 6, end: 13
 ✖ Declaration or statement expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 16
-✖ '; ' expected - start: 18, end: 19
+✖ ')' expected - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 22
 
 ```

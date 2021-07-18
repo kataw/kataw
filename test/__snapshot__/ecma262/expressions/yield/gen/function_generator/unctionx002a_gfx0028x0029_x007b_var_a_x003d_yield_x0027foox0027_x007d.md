@@ -293,7 +293,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 53, end: 55
+✖ '{' expected - start: 53, end: 55
 ✖ Variable declaration not allowed at this location - start: 69, end: 75
 ✖ '; ' expected - start: 69, end: 75
 

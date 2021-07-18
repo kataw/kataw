@@ -136,7 +136,7 @@ async x => (const) = 1
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 17
-✖ '; ' expected - start: 17, end: 18
+✖ ')' expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 
 ```

@@ -264,12 +264,12 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 16, end: 17
-✖ '; ' expected - start: 28, end: 29
+✖ ':' expected - start: 28, end: 29
 ✖ Identifier expected - start: 37, end: 41
 ✖ ',' expected - start: 43, end: 44
-✖ '; ' expected - start: 51, end: 52
+✖ ']' expected - start: 51, end: 52
 ✖ Declaration or statement expected - start: 52, end: 53
-✖ '; ' expected - start: 60, end: 61
+✖ ')' expected - start: 60, end: 61
 ✖ Declaration or statement expected - start: 61, end: 62
 
 ```

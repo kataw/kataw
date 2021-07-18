@@ -130,7 +130,7 @@ async x => var = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 14
-✖ '; ' expected - start: 14, end: 16
+✖ '=' expected - start: 14, end: 16
 
 ```
 

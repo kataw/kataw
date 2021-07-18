@@ -134,7 +134,7 @@ do a + b / c while (x);
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 12, end: 18
+✖ 'while' expected - start: 12, end: 18
 
 ```
 

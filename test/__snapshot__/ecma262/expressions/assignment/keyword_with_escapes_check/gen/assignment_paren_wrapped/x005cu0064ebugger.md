@@ -104,8 +104,8 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 14
 ✖ Keywords cannot contain escape characters - start: 1, end: 14
-✖ '; ' expected - start: 14, end: 16
-✖ '; ' expected - start: 18, end: 19
+✖ '=' expected - start: 14, end: 16
+✖ ')' expected - start: 18, end: 19
 
 ```
 

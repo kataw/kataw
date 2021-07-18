@@ -261,7 +261,7 @@
 ✖ Property definition expected. Did you mean to use a ':'? - start: 40, end: 41
 ✖ ',' expected - start: 40, end: 41
 ✖ Identifier expected - start: 45, end: 47
-✖ '; ' expected - start: 50, end: 52
+✖ '{' expected - start: 50, end: 52
 ✖ Declaration or statement expected - start: 53, end: 54
 
 ```

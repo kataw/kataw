@@ -104,8 +104,8 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 6
-✖ '; ' expected - start: 6, end: 8
-✖ '; ' expected - start: 10, end: 11
+✖ '=' expected - start: 6, end: 8
+✖ ')' expected - start: 10, end: 11
 
 ```
 

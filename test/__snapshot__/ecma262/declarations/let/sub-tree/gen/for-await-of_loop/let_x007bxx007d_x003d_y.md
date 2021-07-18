@@ -153,7 +153,7 @@ for await (a of b) let {x} = y
 
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 9, end: 11
-✖ '; ' expected - start: 22, end: 24
+✖ '{' expected - start: 22, end: 24
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 28, end: 30
 
 ```

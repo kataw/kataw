@@ -224,7 +224,7 @@ let function () { for (const x in { a: x }) { } }
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 3, end: 12
+✖ 'function' expected - start: 3, end: 12
 ✖ Binding identifier expected - start: 12, end: 14
 
 ```

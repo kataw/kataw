@@ -147,7 +147,7 @@ async (a, foo ? bar : baz) => {}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 26, end: 29
+✖ '=>' expected - start: 26, end: 29
 
 ```
 

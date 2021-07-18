@@ -203,7 +203,7 @@ x {}
 
 ```javascript
 ✖ Missing an opening brace - '{ - start: 44, end: 45
-✖ '; ' expected - start: 45, end: 47
+✖ '{' expected - start: 45, end: 47
 
 ```
 

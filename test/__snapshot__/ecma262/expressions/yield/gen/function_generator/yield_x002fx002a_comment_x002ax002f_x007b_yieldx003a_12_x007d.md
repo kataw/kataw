@@ -227,7 +227,7 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 45, end: 61
+✖ '{' expected - start: 45, end: 61
 
 ```
 

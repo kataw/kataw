@@ -129,7 +129,7 @@ for (a in b) let {x}
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 16, end: 18
+✖ '{' expected - start: 16, end: 18
 
 ```
 

@@ -73,7 +73,7 @@ debugge\u0072 = x;
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 0, end: 13
-✖ '; ' expected - start: 13, end: 15
+✖ '=' expected - start: 13, end: 15
 
 ```
 

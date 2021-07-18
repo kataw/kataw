@@ -195,7 +195,7 @@ function *f(x = (break) = f) {}
 ✖ Identifier expected - start: 22, end: 23
 ✖ A 'break' statement can only jump to a label of an enclosing statement - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 25
-✖ '; ' expected - start: 27, end: 28
+✖ ')' expected - start: 27, end: 28
 
 ```
 

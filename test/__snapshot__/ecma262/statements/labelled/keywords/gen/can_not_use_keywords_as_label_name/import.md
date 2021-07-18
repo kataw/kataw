@@ -79,7 +79,7 @@ import: x
 ```javascript
 ✖ The `import` keyword can only be used with the module goal - start: 0, end: 7
 ✖ Declaration or statement expected - start: 6, end: 7
-✖ '; ' expected - start: 6, end: 7
+✖ ':' expected - start: 6, end: 7
 
 ```
 

@@ -163,12 +163,12 @@
 ✖ Invalid hexadecimal escape sequence - start: 1, end: 2
 ✖ Invalid hexadecimal escape sequence - start: 2, end: 2
 ✖ Expected a ')' to match the '(' token here - start: 2, end: 3
-✖ '; ' expected - start: 11, end: 12
+✖ ')' expected - start: 11, end: 12
 ✖ Declaration or statement expected - start: 12, end: 15
 ✖ Invalid hexadecimal escape sequence - start: 36, end: 37
 ✖ Invalid hexadecimal escape sequence - start: 37, end: 37
 ✖ Expected a ')' to match the '(' token here - start: 37, end: 38
-✖ '; ' expected - start: 46, end: 47
+✖ ')' expected - start: 46, end: 47
 ✖ Declaration or statement expected - start: 47, end: 50
 
 ```

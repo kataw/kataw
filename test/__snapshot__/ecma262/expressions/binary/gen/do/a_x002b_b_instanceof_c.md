@@ -134,7 +134,7 @@ do a + b instanceof c while (x);
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 21, end: 27
+✖ 'while' expected - start: 21, end: 27
 
 ```
 

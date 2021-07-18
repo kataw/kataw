@@ -315,7 +315,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
 ```javascript
 ✖ ',' expected - start: 70, end: 73
 ✖ Lexical declaration expected - start: 77, end: 78
-✖ '; ' expected - start: 77, end: 78
+✖ ')' expected - start: 77, end: 78
 
 ```
 

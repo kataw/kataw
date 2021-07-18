@@ -152,7 +152,7 @@ let[x] in x;
 
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 6, end: 9
-✖ '; ' expected - start: 6, end: 9
+✖ 'in' expected - start: 6, end: 9
 
 ```
 

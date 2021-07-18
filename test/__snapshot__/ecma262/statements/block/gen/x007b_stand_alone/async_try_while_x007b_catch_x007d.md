@@ -176,7 +176,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 7, end: 11
+✖ 'try' expected - start: 7, end: 11
 ✖ 'catch' expected - start: 11, end: 17
 ✖ Missing an opening parentheses - '( - start: 18, end: 19
 ✖ Property definition expected. Did you mean to use a ':'? - start: 25, end: 27

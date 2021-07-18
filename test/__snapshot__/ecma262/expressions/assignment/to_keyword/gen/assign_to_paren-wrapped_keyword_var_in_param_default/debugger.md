@@ -110,9 +110,9 @@
 
 ```javascript
 ✖ Identifier expected - start: 6, end: 14
-✖ '; ' expected - start: 14, end: 15
+✖ ')' expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 17
-✖ '; ' expected - start: 19, end: 20
+✖ ')' expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 23
 
 ```

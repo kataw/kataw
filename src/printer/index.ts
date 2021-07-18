@@ -2133,12 +2133,12 @@ function printLexicalDeclaration(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
+  parentNode: any,
   inForStatement: boolean
 ): any {
   const printed = printBindingList(printer, node.binding, lineMap, node);
   return group(
-    concat([tokenToString(node.lexicalKeyword), ' ', indent(printed), inForStatement ? '' : toggleSemicolon(printer)]),
+    concat([tokenToString(node.lexicalKeyword.kind), ' ', indent(printed), inForStatement ? '' : toggleSemicolon(printer)]),
     { shouldBreak: false }
   );
 }
@@ -2147,7 +2147,6 @@ function printVariableDeclarationOrLexicalBinding(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode
 ): any {
   if (node.initializer) {
     const { initializer } = node;

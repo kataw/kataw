@@ -194,7 +194,7 @@ async (x = delete ((continue) = f)) => {}
 ✖ Identifier expected - start: 28, end: 29
 ✖ A 'continue' statement can only jump to a label of an enclosing iteration statement. - start: 20, end: 29
 ✖ Declaration or statement expected - start: 29, end: 31
-✖ '; ' expected - start: 33, end: 34
+✖ ')' expected - start: 33, end: 34
 ✖ Declaration or statement expected - start: 34, end: 35
 ✖ Declaration or statement expected - start: 35, end: 38
 

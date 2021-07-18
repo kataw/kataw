@@ -213,9 +213,9 @@ x = { method(test: string): number { } };
 ```javascript
 ✖ ',' expected - start: 17, end: 18
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
-✖ '; ' expected - start: 25, end: 26
+✖ ')' expected - start: 25, end: 26
 ✖ Declaration or statement expected - start: 26, end: 27
-✖ '; ' expected - start: 34, end: 36
+✖ '{' expected - start: 34, end: 36
 ✖ Declaration or statement expected - start: 38, end: 40
 
 ```

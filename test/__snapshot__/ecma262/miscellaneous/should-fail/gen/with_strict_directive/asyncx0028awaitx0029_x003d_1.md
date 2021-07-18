@@ -110,7 +110,7 @@
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 26, end: 28
+✖ '=' expected - start: 26, end: 28
 
 ```
 

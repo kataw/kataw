@@ -109,7 +109,7 @@ async("foo".bar) => x
 ### Diagnostics
 
 ```javascript
-✖ '; ' expected - start: 16, end: 19
+✖ '=>' expected - start: 16, end: 19
 
 ```
 

@@ -128,7 +128,7 @@ export default async\n() => {}
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 20
 ✖ Invalid hexadecimal escape sequence - start: 20, end: 20
 ✖ '; ' expected - start: 20, end: 21
-✖ '; ' expected - start: 24, end: 27
+✖ '=>' expected - start: 24, end: 27
 
 ```
 
