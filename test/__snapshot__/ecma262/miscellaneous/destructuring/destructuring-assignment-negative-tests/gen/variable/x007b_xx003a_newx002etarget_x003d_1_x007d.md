@@ -138,7 +138,7 @@ var x, y, z; ({ x: new.target = 1 } = {});
                                                 "kind": 16594,
                                                 "flags": 96,
                                                 "transformFlags": 0,
-                                                "start": 23,
+                                                "start": 18,
                                                 "end": 29
                                             },
                                             "flags": 96,

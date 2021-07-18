@@ -180,7 +180,7 @@ function f(){ const x = y; var x; }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 30, end: 32
+✖ Cannot redeclare block-scoped variable 'x' - start: 30, end: 32
 
 ```
 

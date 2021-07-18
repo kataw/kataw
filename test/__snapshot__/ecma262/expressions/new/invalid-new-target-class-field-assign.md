@@ -72,7 +72,7 @@ class C { aaa = new.target }
                                     "kind": 16594,
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 20,
+                                    "start": 15,
                                     "end": 26
                                 },
                                 "flags": 96,

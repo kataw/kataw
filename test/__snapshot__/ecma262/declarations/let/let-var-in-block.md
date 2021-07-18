@@ -150,7 +150,7 @@ let foo = 1; { var foo = 1; }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 18, end: 22
+✖ Cannot redeclare block-scoped variable 'foo' - start: 18, end: 22
 
 ```
 

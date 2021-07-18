@@ -205,7 +205,7 @@ switch (0) { case 1: let f; default: var f }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 40, end: 42
+✖ Cannot redeclare block-scoped variable 'f' - start: 40, end: 42
 
 ```
 

@@ -57,7 +57,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Invalid hexadecimal escape sequence - start: 0, end: 4
+✖ Invalid hexadecimal escape sequence - start: 1, end: 4
 
 ```
 

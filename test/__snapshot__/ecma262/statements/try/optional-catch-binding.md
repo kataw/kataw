@@ -1473,8 +1473,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 107, end: 109
-✖ Duplicate identifier - start: 245, end: 247
+✖ Duplicate bindingidentifier 'e' - start: 107, end: 109
+✖ Duplicate bindingidentifier 'e' - start: 245, end: 247
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 299, end: 301
 
 ```

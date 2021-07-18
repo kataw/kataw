@@ -117,7 +117,7 @@ let a; let a;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 10, end: 12
+✖ Duplicate bindingidentifier 'a' - start: 10, end: 12
 
 ```
 

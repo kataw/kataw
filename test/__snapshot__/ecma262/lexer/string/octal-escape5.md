@@ -63,7 +63,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Octal escape sequences are not allowed in strict mode - start: 0, end: 3
+✖ Octal escape sequences are not allowed in strict mode - start: 1, end: 3
 ✖ Unterminated string literal - start: 0, end: 5
 
 ```

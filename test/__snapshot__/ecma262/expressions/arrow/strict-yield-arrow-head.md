@@ -137,7 +137,7 @@
 
 ```javascript
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 28, end: 34
-✖ Cannot redeclare block-scoped variable - start: 28, end: 34
+✖ Cannot redeclare block-scoped variable 'yield' - start: 28, end: 34
 
 ```
 

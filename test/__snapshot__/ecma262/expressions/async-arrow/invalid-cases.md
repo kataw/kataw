@@ -2678,13 +2678,13 @@ async ([a]:string)=>c;
 ✖ ')' is not allowed here. Did you mean ';'? - start: 391, end: 392
 ✖ Expected a ')' to match the '(' token here - start: 412, end: 414
 ✖ ')' is not allowed here. Did you mean ';'? - start: 416, end: 417
-✖ Duplicate identifier - start: 422, end: 424
+✖ Duplicate bindingidentifier 'f' - start: 422, end: 424
 ✖ Invalid hexadecimal escape sequence - start: 426, end: 432
 ✖ Invalid hexadecimal escape sequence - start: 432, end: 432
 ✖ Lexical declaration expected - start: 432, end: 433
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 432, end: 433
 ✖ '=>' is not allowed here. Did you mean ';'? - start: 437, end: 440
-✖ Duplicate identifier - start: 447, end: 449
+✖ Duplicate bindingidentifier 'f' - start: 447, end: 449
 ✖ Invalid hexadecimal escape sequence - start: 451, end: 457
 ✖ Invalid hexadecimal escape sequence - start: 457, end: 457
 ✖ Lexical declaration expected - start: 457, end: 458

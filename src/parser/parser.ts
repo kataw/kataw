@@ -1597,24 +1597,32 @@ function parseBindingIdentifier(
 
   if (token & Constants.Identifier) {
     if (context & (Context.Strict | Context.YieldContext) && token === SyntaxKind.YieldKeyword) {
-      report(parser, curPos, context & Context.Parameters
-        ? DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters
-        : context & Context.Strict
-        ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
-        : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
-        'yield');
+      report(
+        parser,
+        curPos,
+        context & Context.Parameters
+          ? DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters
+          : context & Context.Strict
+          ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+          : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
+        'yield'
+      );
     } else if (
       context & (Context.Module | Context.ClassStaticBlockContext | Context.AwaitContext) &&
       token === SyntaxKind.AwaitKeyword
     ) {
-      report(parser, curPos, context & Context.ClassStaticBlockContext
-            ? DiagnosticCode.Await_expression_cannot_be_used_inside_class_static_block
-            : context & Context.Parameters
-            ? DiagnosticCode._await_expression_cannot_be_used_in_function_parameters
-            : context & Context.Module
-            ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal
-        : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
-        'await');
+      report(
+        parser,
+        curPos,
+        context & Context.ClassStaticBlockContext
+          ? DiagnosticCode.Await_expression_cannot_be_used_inside_class_static_block
+          : context & Context.Parameters
+          ? DiagnosticCode._await_expression_cannot_be_used_in_function_parameters
+          : context & Context.Module
+          ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal
+          : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
+        'await'
+      );
     } else if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
       report(parser, curPos, DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode);
     } else if (token === SyntaxKind.PrivateIdentifier) {
@@ -1661,11 +1669,16 @@ function parseIdentifierReference(
   if (parser.token & Constants.Identifier) {
     parser.assignable = true;
     if (context & (Context.Strict | Context.YieldContext) && parser.token === SyntaxKind.YieldKeyword) {
-      report(parser, curPos, context & Context.Parameters
-        ? DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters
-        : context & Context.Strict
-        ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
-        : DiagnosticCode._0_cannot_be_used_as_an_identifier_here, 'yield');
+      report(
+        parser,
+        curPos,
+        context & Context.Parameters
+          ? DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters
+          : context & Context.Strict
+          ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+          : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
+        'yield'
+      );
     }
     if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved && parser.previousErrorPos !== pos) {
       parser.onError(
@@ -2423,26 +2436,18 @@ function parsePrimaryExpression(
   leftHandSideContext: LeftHandSide
 ): ExpressionNode {
   if (parser.token & SyntaxKind.IsIdentifier) {
-    // - `async`
-    if (parser.token === SyntaxKind.AsyncKeyword) {
-      return parseFunctionExpression(parser, context, leftHandSideContext);
+    switch (parser.token) {
+      case SyntaxKind.AsyncKeyword:
+        return parseFunctionExpression(parser, context, leftHandSideContext);
+      case SyntaxKind.PrivateIdentifier:
+        return parsePrivateIdentifier(parser, context);
+      case SyntaxKind.ThisKeyword:
+        return consumeAndCheckForEscapeSequence(parser, context, NodeFlags.ExpressionNode, parser.curPos);
+      case SyntaxKind.AwaitKeyword:
+        if (context & (Context.AwaitContext | Context.Module)) {
+          return parseAwaitExpression(parser, context, leftHandSideContext);
+        }
     }
-
-    // - `#private`
-    if (parser.token === SyntaxKind.PrivateIdentifier) {
-      return parsePrivateIdentifier(parser, context);
-    }
-
-    // - `this`
-    if (parser.token === SyntaxKind.ThisKeyword) {
-      return consumeAndCheckForEscapeSequence(parser, context, NodeFlags.ExpressionNode, parser.curPos);
-    }
-
-    // - `await`
-    if (context & (Context.AwaitContext | Context.Module) && parser.token === SyntaxKind.AwaitKeyword) {
-      return parseAwaitExpression(parser, context, leftHandSideContext);
-    }
-
     const token = parser.token;
 
     const expression = parseIdentifierReference(
@@ -2454,9 +2459,14 @@ function parsePrimaryExpression(
     // - `x => y`
     if (parser.token === SyntaxKind.Arrow) {
       if (leftHandSideContext) {
-        report(parser, expression.start, leftHandSideContext & LeftHandSide.ForStatement
-          ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
-          : DiagnosticCode._0_expected, ',');
+        report(
+          parser,
+          expression.start,
+          leftHandSideContext & LeftHandSide.ForStatement
+            ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
+            : DiagnosticCode._0_expected,
+          ';'
+        );
       }
 
       const scope = {
@@ -2559,11 +2569,11 @@ function parsePrimaryExpression(
   if (token & SyntaxKind.IsFutureReserved) {
     if (parser.token === SyntaxKind.Arrow) {
       if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
-        report(parser, curPos, DiagnosticCode._0_expected, ',');
+        report(parser, curPos, DiagnosticCode._0_expected, ';');
       }
 
       if (leftHandSideContext & LeftHandSide.NewExpression) {
-        report(parser, curPos, DiagnosticCode._0_expected, ',');
+        report(parser, curPos, DiagnosticCode._0_expected, ';');
       }
 
       const scope = {
@@ -3060,9 +3070,14 @@ function parsMethodParameters(
         );
       }
     } else if (nodeFlags & NodeFlags.Getter) {
-      report(parser, parser.curPos, parser.token === SyntaxKind.ThisKeyword
-        ? DiagnosticCode.A_0_accessor_cannot_have_a_this_parameter
-        : DiagnosticCode.A_get_accessor_cannot_have_parameters, 'get');
+      report(
+        parser,
+        parser.curPos,
+        parser.token === SyntaxKind.ThisKeyword
+          ? DiagnosticCode.A_0_accessor_cannot_have_a_this_parameter
+          : DiagnosticCode.A_get_accessor_cannot_have_parameters,
+        'get'
+      );
     }
 
     const curpPos = parser.curPos;
@@ -3370,19 +3385,15 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
       context,
       SyntaxKind.Target,
       NodeFlags.ExpressionNode,
-      parser.curPos
+      pos
     );
     if ((context & Context.NewTarget) < 1 || !targetKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[
-          targetKeyword
-            ? DiagnosticCode._new_target_only_allowed_within_functions
-            : DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target
-        ],
+      report(
+        parser,
         pos,
-        parser.pos
+        targetKeyword
+          ? DiagnosticCode._new_target_only_allowed_within_functions
+          : DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target
       );
     }
 
@@ -3398,13 +3409,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
 
   // - `new x?.y`
   if (parser.token === SyntaxKind.QuestionMarkPeriod) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Invalid_optional_chain_from_new_expression],
-      parser.curPos,
-      parser.pos
-    );
+    report(parser, parser.curPos, DiagnosticCode.Invalid_optional_chain_from_new_expression);
   }
 
   expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsMember, pos);
@@ -3462,7 +3467,7 @@ function parsePrefixUpdateExpression(
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
   const operand = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
   if (leftHandSideContext & LeftHandSide.DisallowClassExtends) {
-    report(parser, parser.curPos, DiagnosticCode._0_expected, ',');
+    report(parser, parser.curPos, DiagnosticCode._0_expected, ';');
   }
   if (!parser.assignable) {
     report(
@@ -4194,7 +4199,8 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.curPos,
             leftHandSideContext & LeftHandSide.ForStatement
               ? DiagnosticCode.The_left_hand_side_of_a_for_in_or_of_statement_must_not_be_an_arrow_function
-              : DiagnosticCode._0_expected, ','
+              : DiagnosticCode._0_expected,
+            ';'
           );
         }
 
@@ -4547,7 +4553,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           report(parser, parser.curPos, DiagnosticCode.The_left_hand_side_of_the_arrow_is_not_destructible);
         }
         if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
-          report(parser, parser.curPos, DiagnosticCode._0_expected, ',');
+          report(parser, parser.curPos, DiagnosticCode._0_expected, ';');
         }
 
         expression = convertArrowParameter(parser, expression);
@@ -4898,7 +4904,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         );
       }
       if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
-        report(parser, parser.curPos, DiagnosticCode._0_expected, ',');
+        report(parser, parser.curPos, DiagnosticCode._0_expected, ';');
       }
 
       const arrowParams = [];
@@ -5252,7 +5258,7 @@ function parseFunctionExpression(
             leftHandSideContext &
             (LeftHandSide.NotAssignable | LeftHandSide.NewExpression | LeftHandSide.DisallowClassExtends)
           ) {
-            report(parser, parser.curPos, DiagnosticCode._0_expected, ',');
+            report(parser, parser.curPos, DiagnosticCode._0_expected, ';');
           }
           if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
             parser.onError(
@@ -5576,7 +5582,7 @@ function parseFunctionExpression(
       // - `(async => {})`
       if (parser.token === SyntaxKind.Arrow) {
         if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
-          report(parser, parser.curPos, DiagnosticCode._0_expected, ',');
+          report(parser, parser.curPos, DiagnosticCode._0_expected, ';');
         }
         const scope = {
           kind: ScopeKind.ArrowParams,
@@ -5803,7 +5809,7 @@ function parseFunctionDeclaration(
           report(parser, pos, DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported);
         }
 
-        let expression = parseCoverCallExpressionAndAsyncArrowHead(
+        const expression = parseCoverCallExpressionAndAsyncArrowHead(
           parser,
           context,
           createIdentifier(
@@ -6332,7 +6338,7 @@ function parseFunctionStatementList(
             flags & Constants.IsEscaped
               ? DiagnosticCode._0_cannot_contain_escape_characters
               : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
-              tokenToString(firstRestricted)
+            tokenToString(firstRestricted)
           );
         }
       }
@@ -6728,7 +6734,7 @@ function parseImportDeclaration(
             token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier
               ? DiagnosticCode._0_cannot_be_used_as_an_identifier_here
               : DiagnosticCode.Import_declaration_expected,
-              tokenToString(token)
+            tokenToString(token)
           );
         }
       }
@@ -6868,7 +6874,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
       identifier.flags & Constants.IsEscaped
         ? DiagnosticCode._0_cannot_contain_escape_characters
         : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
-        tokenToString(token)
+      tokenToString(token)
     );
   }
   addVarOrBlock(parser, context, scope, identifier.text, BindingType.Let);
@@ -7419,7 +7425,8 @@ function parseFunctionTypeParameters(
       parser.curPos,
       parser.token === SyntaxKind.ThisKeyword
         ? DiagnosticCode.A_0_accessor_cannot_have_a_this_parameter
-        : DiagnosticCode.A_get_accessor_cannot_have_parameters, 'get'
+        : DiagnosticCode.A_get_accessor_cannot_have_parameters,
+      'get'
     );
   }
 
@@ -8829,7 +8836,8 @@ function parseYieldIdentifierOrExpression(
           ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_a_for_in_statement_in_a_generator_context
           : parser.token === SyntaxKind.QuestionMark
           ? DiagnosticCode.Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context
-          : DiagnosticCode._0_expected, ','
+          : DiagnosticCode._0_expected,
+        ';'
       );
     }
 
@@ -8897,9 +8905,14 @@ export function parseAwaitExpression(
     (context & Context.Module && (context & (Context.AwaitContext | Context.TopLevel)) == 0) ||
     parser.nodeFlags & Constants.IsEscaped
   ) {
-    report(parser, pos, parser.nodeFlags & Constants.IsEscaped
-      ? DiagnosticCode._0_keyword_must_not_contain_escaped_characters
-      : DiagnosticCode._await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules, 'await');
+    report(
+      parser,
+      pos,
+      parser.nodeFlags & Constants.IsEscaped
+        ? DiagnosticCode._0_keyword_must_not_contain_escaped_characters
+        : DiagnosticCode._await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules,
+      'await'
+    );
   }
 
   if (leftHandSideContext & LeftHandSide.DisallowClassExtends) {
@@ -9180,7 +9193,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
           : context & Context.Module
           ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal
           : DiagnosticCode._0_cannot_be_used_as_an_identifier_here,
-          'await'
+        'await'
       );
     }
 
@@ -10426,7 +10439,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
       if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
-        report(parser, start, DiagnosticCode._0_expected, ',');
+        report(parser, start, DiagnosticCode._0_expected, ';');
       }
       if (destructible & (DestructibleKind.Assignable | DestructibleKind.NotDestructible)) {
         parser.onError(

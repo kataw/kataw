@@ -1928,9 +1928,9 @@ import { let as l } from 'm.js';
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 153, end: 157
 ✖ 'from' is not allowed here. Did you mean ';'? - start: 157, end: 162
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 162, end: 171
-✖ Duplicate identifier - start: 264, end: 266
-✖ Duplicate identifier - start: 290, end: 291
-✖ Duplicate identifier - start: 296, end: 298
+✖ Duplicate bindingidentifier 'a' - start: 264, end: 266
+✖ Duplicate bindingidentifier 'a' - start: 290, end: 291
+✖ Duplicate bindingidentifier 'd' - start: 296, end: 298
 ✖ Identifier expected - start: 324, end: 326
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 329, end: 335
 ✖ 'from' is not allowed here. Did you mean ';'? - start: 335, end: 340
@@ -1939,9 +1939,9 @@ import { let as l } from 'm.js';
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 393, end: 398
 ✖ 'from' is not allowed here. Did you mean ';'? - start: 398, end: 403
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 403, end: 410
-✖ Duplicate identifier - start: 429, end: 430
-✖ Duplicate identifier - start: 435, end: 437
-✖ Duplicate identifier - start: 472, end: 474
+✖ Duplicate bindingidentifier 'a' - start: 429, end: 430
+✖ Duplicate bindingidentifier 'c' - start: 435, end: 437
+✖ Duplicate bindingidentifier 'a' - start: 472, end: 474
 
 ```
 

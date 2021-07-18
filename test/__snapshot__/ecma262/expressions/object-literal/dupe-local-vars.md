@@ -1419,12 +1419,12 @@ o = {f(){ function x(){} var x = y; }};
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 20, end: 22
-✖ Duplicate identifier - start: 49, end: 51
-✖ Duplicate identifier - start: 80, end: 82
-✖ Cannot redeclare block-scoped variable - start: 118, end: 120
-✖ Cannot redeclare block-scoped variable - start: 161, end: 163
-✖ Duplicate identifier - start: 203, end: 205
+✖ Cannot redeclare block-scoped variable 'x' - start: 20, end: 22
+✖ Duplicate bindingidentifier 'x' - start: 49, end: 51
+✖ Duplicate bindingidentifier 'x' - start: 80, end: 82
+✖ Cannot redeclare block-scoped variable 'x' - start: 118, end: 120
+✖ Cannot redeclare block-scoped variable 'x' - start: 161, end: 163
+✖ Duplicate bindingidentifier 'x' - start: 203, end: 205
 
 ```
 

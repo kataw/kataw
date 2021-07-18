@@ -112,7 +112,7 @@ async function p(){
                                             "kind": 16594,
                                             "flags": 96,
                                             "transformFlags": 0,
-                                            "start": 42,
+                                            "start": 37,
                                             "end": 48
                                         },
                                         "flags": 96,

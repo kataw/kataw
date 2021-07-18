@@ -44,7 +44,7 @@ for (new.target in x) ;
                     "kind": 16594,
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 9,
+                    "start": 5,
                     "end": 15
                 },
                 "flags": 96,

@@ -245,8 +245,8 @@ class Foo { prototype = 1 }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 30, end: 34
-✖ Duplicate identifier - start: 57, end: 61
+✖ Duplicate bindingidentifier 'Foo' - start: 30, end: 34
+✖ Duplicate bindingidentifier 'Foo' - start: 57, end: 61
 
 ```
 

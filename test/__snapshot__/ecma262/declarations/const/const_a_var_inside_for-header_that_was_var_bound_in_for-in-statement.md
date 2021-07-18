@@ -191,7 +191,7 @@ for (const x in obj) { var x = 13 }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 26, end: 28
+✖ Cannot redeclare block-scoped variable 'x' - start: 26, end: 28
 
 ```
 

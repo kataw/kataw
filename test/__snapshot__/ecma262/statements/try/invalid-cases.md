@@ -3961,8 +3961,8 @@ try {} catch({ x: "str" }) {}
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 57, end: 59
 ✖ 'catch' expected - start: 106, end: 111
 ✖ ')' is not allowed here. Did you mean ';'? - start: 147, end: 148
-✖ Cannot redeclare block-scoped variable - start: 171, end: 175
-✖ Duplicate identifier - start: 199, end: 203
+✖ Cannot redeclare block-scoped variable 'foo' - start: 171, end: 175
+✖ Duplicate bindingidentifier 'foo' - start: 199, end: 203
 ✖ A rest element cannot have an initializer - start: 242, end: 244
 ✖ ',' expected - start: 275, end: 276
 ✖ The parser expected to find a '}' to match the '{' token here - start: 275, end: 276
@@ -3991,14 +3991,14 @@ try {} catch({ x: "str" }) {}
 ✖ Declaration or statement expected - start: 419, end: 420
 ✖ Binding identifier expected - start: 438, end: 440
 ✖ Declaration or statement expected - start: 440, end: 441
-✖ Duplicate identifier - start: 463, end: 465
+✖ Duplicate bindingidentifier 'x' - start: 463, end: 465
 ✖ Binding identifier expected - start: 486, end: 487
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 535, end: 537
 ✖ A block-scoped variable cannot shadow a catch clause binding - start: 568, end: 570
-✖ Duplicate identifier - start: 608, end: 612
-✖ Cannot redeclare block-scoped variable - start: 624, end: 628
-✖ Cannot redeclare block-scoped variable - start: 624, end: 628
-✖ Duplicate identifier - start: 652, end: 656
+✖ Duplicate bindingidentifier 'foo' - start: 608, end: 612
+✖ Cannot redeclare block-scoped variable 'foo' - start: 624, end: 628
+✖ Cannot redeclare block-scoped variable 'foo' - start: 624, end: 628
+✖ Duplicate bindingidentifier 'foo' - start: 652, end: 656
 ✖ A rest element cannot have an initializer - start: 695, end: 697
 ✖ ',' expected - start: 731, end: 732
 ✖ The parser expected to find a '}' to match the '{' token here - start: 731, end: 732

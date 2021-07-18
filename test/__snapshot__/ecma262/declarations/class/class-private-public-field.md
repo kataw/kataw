@@ -884,11 +884,11 @@ class C { f(){ this.#a } #a; }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 35, end: 37
-✖ Duplicate identifier - start: 65, end: 67
-✖ Duplicate identifier - start: 93, end: 95
-✖ Duplicate identifier - start: 121, end: 123
-✖ Duplicate identifier - start: 153, end: 155
+✖ Duplicate bindingidentifier 'C' - start: 35, end: 37
+✖ Duplicate bindingidentifier 'C' - start: 65, end: 67
+✖ Duplicate bindingidentifier 'C' - start: 93, end: 95
+✖ Duplicate bindingidentifier 'C' - start: 121, end: 123
+✖ Duplicate bindingidentifier 'C' - start: 153, end: 155
 
 ```
 

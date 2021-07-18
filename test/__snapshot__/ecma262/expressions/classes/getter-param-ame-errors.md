@@ -1104,19 +1104,19 @@ class C { get name(private) {} }
 
 ```javascript
 ✖ A 'get' accessor cannot have parameters. - start: 20, end: 29
-✖ Duplicate identifier - start: 42, end: 44
+✖ Duplicate bindingidentifier 'C' - start: 42, end: 44
 ✖ A 'get' accessor cannot have parameters. - start: 56, end: 62
 ✖ Identifier expected. Reserved word in strict mode - start: 56, end: 62
-✖ Duplicate identifier - start: 75, end: 77
+✖ Duplicate bindingidentifier 'C' - start: 75, end: 77
 ✖ A 'get' accessor cannot have parameters. - start: 89, end: 96
 ✖ Identifier expected. Reserved word in strict mode - start: 89, end: 96
-✖ Duplicate identifier - start: 123, end: 125
+✖ Duplicate bindingidentifier 'C' - start: 123, end: 125
 ✖ A 'get' accessor cannot have parameters. - start: 137, end: 147
 ✖ Identifier expected. Reserved word in strict mode - start: 137, end: 147
-✖ Duplicate identifier - start: 174, end: 176
+✖ Duplicate bindingidentifier 'C' - start: 174, end: 176
 ✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
 ✖ `yield` expression cannot be used in function parameters - start: 188, end: 193
-✖ Duplicate identifier - start: 220, end: 222
+✖ Duplicate bindingidentifier 'C' - start: 220, end: 222
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
 ✖ Expected a ')' to match the '(' token here - start: 234, end: 237
 ✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238

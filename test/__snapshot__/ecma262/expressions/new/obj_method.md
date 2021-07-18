@@ -85,7 +85,7 @@ foo({bar(){ new.target }})
                                                                     "kind": 16594,
                                                                     "flags": 96,
                                                                     "transformFlags": 0,
-                                                                    "start": 16,
+                                                                    "start": 11,
                                                                     "end": 22
                                                                 },
                                                                 "flags": 96,

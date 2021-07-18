@@ -159,7 +159,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
                                             "kind": 16594,
                                             "flags": 96,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 27,
                                             "end": 38
                                         },
                                         "flags": 96,

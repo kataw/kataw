@@ -213,7 +213,7 @@ switch (0) { case 1: var f; default: const f = 0 }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 42, end: 44
+✖ Duplicate bindingidentifier 'f' - start: 42, end: 44
 
 ```
 

@@ -213,7 +213,7 @@ var x, y, z; m(['b']) ? lhs : { x: new.target = 1 } = {}
                                                 "kind": 16594,
                                                 "flags": 96,
                                                 "transformFlags": 0,
-                                                "start": 39,
+                                                "start": 34,
                                                 "end": 45
                                             },
                                             "flags": 96,

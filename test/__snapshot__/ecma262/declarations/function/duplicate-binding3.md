@@ -222,7 +222,7 @@ function f() { { async function x() {} { var x } }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 44, end: 46
+✖ Cannot redeclare block-scoped variable 'x' - start: 44, end: 46
 ✖ The parser expected to find a '}' to match the '{' token here - start: 49, end: 50
 
 ```

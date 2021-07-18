@@ -158,7 +158,7 @@ for (const x = y;;) { var x; }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 25, end: 27
+✖ Cannot redeclare block-scoped variable 'x' - start: 25, end: 27
 
 ```
 

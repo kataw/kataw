@@ -2936,39 +2936,39 @@ let x = { foo(){ super(); } };
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
-✖ Duplicate identifier - start: 36, end: 38
+✖ Duplicate bindingidentifier 'x' - start: 36, end: 38
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 46, end: 53
 ✖ Missing an opening brace - '{ - start: 57, end: 58
 ✖ '{' is not allowed here. Did you mean ';'? - start: 58, end: 60
-✖ Duplicate identifier - start: 69, end: 71
+✖ Duplicate bindingidentifier 'x' - start: 69, end: 71
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 84, end: 90
-✖ Duplicate identifier - start: 105, end: 107
+✖ Duplicate bindingidentifier 'x' - start: 105, end: 107
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 120, end: 126
 ✖ ',' expected - start: 130, end: 131
-✖ Duplicate identifier - start: 143, end: 145
+✖ Duplicate bindingidentifier 'x' - start: 143, end: 145
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
 ✖ The parser expected to find a '}' to match the '{' token here - start: 157, end: 158
 ✖ ')' is not allowed here. Did you mean ';'? - start: 161, end: 162
 ✖ Declaration or statement expected - start: 164, end: 166
-✖ Duplicate identifier - start: 173, end: 175
+✖ Duplicate bindingidentifier 'x' - start: 173, end: 175
 ✖ The parser expected to find a '}' to match the '{' token here - start: 183, end: 184
 ✖ '{' is not allowed here. Did you mean ';'? - start: 189, end: 190
 ✖ Declaration or statement expected - start: 191, end: 193
-✖ Duplicate identifier - start: 200, end: 202
+✖ Duplicate bindingidentifier 'x' - start: 200, end: 202
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 206, end: 212
-✖ Duplicate identifier - start: 229, end: 231
+✖ Duplicate bindingidentifier 'x' - start: 229, end: 231
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 235, end: 241
 ✖ Expected a computed property - start: 245, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Declaration or statement expected - start: 251, end: 253
 ✖ Binding identifier expected - start: 285, end: 291
 ✖ '{' is not allowed here. Did you mean ';'? - start: 295, end: 297
-✖ Duplicate identifier - start: 310, end: 312
+✖ Duplicate bindingidentifier 'f' - start: 310, end: 312
 ✖ Missing an opening brace - '{ - start: 356, end: 357
 ✖ '{' is not allowed here. Did you mean ';'? - start: 357, end: 359
-✖ Duplicate identifier - start: 372, end: 374
+✖ Duplicate bindingidentifier 'f' - start: 372, end: 374
 ✖ ',' expected - start: 422, end: 423
-✖ Duplicate identifier - start: 439, end: 441
+✖ Duplicate bindingidentifier 'f' - start: 439, end: 441
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
 ✖ ')' is not allowed here. Did you mean ';'? - start: 482, end: 483
@@ -2980,12 +2980,12 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 578, end: 585
 ✖ ',' expected - start: 588, end: 589
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 608, end: 615
-✖ Cannot redeclare block-scoped variable - start: 630, end: 632
+✖ Cannot redeclare block-scoped variable 'f' - start: 630, end: 632
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 636, end: 643
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 663, end: 670
-✖ Duplicate identifier - start: 681, end: 683
+✖ Duplicate bindingidentifier 'x' - start: 681, end: 683
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 689, end: 696
-✖ Duplicate identifier - start: 703, end: 705
+✖ Duplicate bindingidentifier 'x' - start: 703, end: 705
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 716, end: 723
 
 ```

@@ -200,7 +200,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 34, end: 38
+✖ Duplicate bindingidentifier 'foo' - start: 34, end: 38
 
 ```
 

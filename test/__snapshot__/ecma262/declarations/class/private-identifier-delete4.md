@@ -411,7 +411,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
 
 ```javascript
 ✖ Prohibit delete of private class elements - start: 43, end: 45
-✖ Duplicate identifier - start: 54, end: 58
+✖ Duplicate bindingidentifier 'Foo' - start: 54, end: 58
 
 ```
 

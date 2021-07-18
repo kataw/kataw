@@ -341,7 +341,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 53, end: 55
+✖ Cannot redeclare block-scoped variable 'x' - start: 53, end: 55
 
 ```
 

@@ -73,7 +73,7 @@ let y = () => new.target
                                     "kind": 16594,
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 18,
+                                    "start": 13,
                                     "end": 24
                                 },
                                 "flags": 96,

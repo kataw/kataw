@@ -57,7 +57,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Escapes \8 or \9 are not syntactically valid escapes - start: 0, end: 3
+✖ Escapes \8 or \9 are not syntactically valid escapes - start: 1, end: 3
 
 ```
 

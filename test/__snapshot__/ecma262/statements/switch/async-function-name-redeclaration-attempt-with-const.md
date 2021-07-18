@@ -230,7 +230,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 57, end: 59
+✖ Duplicate bindingidentifier 'f' - start: 57, end: 59
 
 ```
 

@@ -130,7 +130,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 7, end: 8
+✖ Duplicate bindingidentifier 'a' - start: 7, end: 8
 
 ```
 

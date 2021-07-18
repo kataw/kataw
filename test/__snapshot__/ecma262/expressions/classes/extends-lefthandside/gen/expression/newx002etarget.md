@@ -70,7 +70,7 @@
                                     "kind": 16594,
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 21,
+                                    "start": 16,
                                     "end": 27
                                 },
                                 "flags": 96,

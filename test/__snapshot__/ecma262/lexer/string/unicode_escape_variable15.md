@@ -63,7 +63,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Invalid hexadecimal escape sequence - start: 0, end: 5
+✖ Invalid hexadecimal escape sequence - start: 1, end: 5
 ✖ Unterminated string literal - start: 0, end: 5
 
 ```

@@ -178,7 +178,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                                                 "kind": 16594,
                                                 "flags": 96,
                                                 "transformFlags": 0,
-                                                "start": 36,
+                                                "start": 31,
                                                 "end": 42
                                             },
                                             "flags": 96,

@@ -877,7 +877,7 @@ import * as x, {y} from 'm.js';
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 115, end: 117
 ✖ 'from' is not allowed here. Did you mean ';'? - start: 117, end: 122
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 122, end: 129
-✖ Duplicate identifier - start: 141, end: 142
+✖ Duplicate bindingidentifier 'x' - start: 141, end: 142
 ✖ Identifier expected - start: 142, end: 143
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 152, end: 159
 ✖ Identifier expected - start: 168, end: 170

@@ -217,7 +217,7 @@ switch (0) { case 1: class f {} default: function f() {} }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 49, end: 51
+✖ Duplicate bindingidentifier 'f' - start: 49, end: 51
 
 ```
 

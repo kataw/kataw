@@ -168,7 +168,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 23, end: 25
+✖ Cannot redeclare block-scoped variable 'x' - start: 23, end: 25
 
 ```
 

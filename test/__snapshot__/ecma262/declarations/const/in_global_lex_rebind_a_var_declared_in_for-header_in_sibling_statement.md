@@ -168,7 +168,7 @@ const x = 1
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 20, end: 22
+✖ Duplicate bindingidentifier 'x' - start: 20, end: 22
 
 ```
 

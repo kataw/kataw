@@ -340,7 +340,7 @@ y /*3*/ = /*4*/b
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 124, end: 133
+✖ Duplicate bindingidentifier 'y' - start: 124, end: 133
 
 ```
 

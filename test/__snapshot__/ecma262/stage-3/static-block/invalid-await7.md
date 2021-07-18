@@ -800,7 +800,7 @@ class C {
 
 ```javascript
 ✖ Await expression cannot be used inside class static block. - start: 39, end: 45
-✖ Duplicate identifier - start: 113, end: 115
+✖ Duplicate bindingidentifier 'await' - start: 113, end: 115
 ✖ Identifier expected - start: 228, end: 229
 ✖ Identifier expected - start: 301, end: 302
 ✖ Await expression cannot be used inside class static block. - start: 500, end: 511

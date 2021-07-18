@@ -46,7 +46,7 @@ new new.target
                         "kind": 16594,
                         "flags": 96,
                         "transformFlags": 0,
-                        "start": 8,
+                        "start": 3,
                         "end": 14
                     },
                     "flags": 96,

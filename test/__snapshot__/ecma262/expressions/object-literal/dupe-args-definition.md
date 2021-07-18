@@ -1683,11 +1683,11 @@ o = {f([b, a], b=x) {}};
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 72, end: 78
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 100, end: 111
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 133, end: 140
-✖ Duplicate identifier - start: 166, end: 167
+✖ Duplicate bindingidentifier 'a' - start: 166, end: 167
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 162, end: 168
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 189, end: 192
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 213, end: 218
-✖ Duplicate identifier - start: 243, end: 244
+✖ Duplicate bindingidentifier 'b' - start: 243, end: 244
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 266, end: 271
 
 ```

@@ -2398,18 +2398,18 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 28, end: 30
-✖ Duplicate identifier - start: 57, end: 59
-✖ Duplicate identifier - start: 107, end: 109
-✖ Duplicate identifier - start: 147, end: 149
-✖ Duplicate identifier - start: 179, end: 181
-✖ Duplicate identifier - start: 239, end: 241
-✖ Duplicate identifier - start: 280, end: 282
-✖ Duplicate identifier - start: 313, end: 315
-✖ Duplicate identifier - start: 402, end: 404
-✖ Duplicate identifier - start: 466, end: 468
-✖ Duplicate identifier - start: 530, end: 532
-✖ Duplicate identifier - start: 574, end: 576
+✖ Duplicate bindingidentifier 'x' - start: 28, end: 30
+✖ Duplicate bindingidentifier 'x' - start: 57, end: 59
+✖ Duplicate bindingidentifier 'x' - start: 107, end: 109
+✖ Duplicate bindingidentifier 'x' - start: 147, end: 149
+✖ Duplicate bindingidentifier 'x' - start: 179, end: 181
+✖ Duplicate bindingidentifier 'x' - start: 239, end: 241
+✖ Duplicate bindingidentifier 'x' - start: 280, end: 282
+✖ Duplicate bindingidentifier 'x' - start: 313, end: 315
+✖ Duplicate bindingidentifier 'x' - start: 402, end: 404
+✖ Duplicate bindingidentifier 'x' - start: 466, end: 468
+✖ Duplicate bindingidentifier 'x' - start: 530, end: 532
+✖ Duplicate bindingidentifier 'x' - start: 574, end: 576
 
 ```
 

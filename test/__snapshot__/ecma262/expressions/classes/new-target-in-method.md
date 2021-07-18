@@ -100,7 +100,7 @@ class A {a(x=new.target){}}
                                                     "kind": 16594,
                                                     "flags": 96,
                                                     "transformFlags": 0,
-                                                    "start": 17,
+                                                    "start": 13,
                                                     "end": 23
                                                 },
                                                 "flags": 96,

@@ -183,7 +183,7 @@ function f(){ let x; function x(){} }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 29, end: 31
+✖ Cannot redeclare block-scoped variable 'x' - start: 29, end: 31
 
 ```
 

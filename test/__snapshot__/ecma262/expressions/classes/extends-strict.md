@@ -274,7 +274,7 @@ class C extends (function B() {
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 13, end: 15
+✖ Duplicate bindingidentifier 'C' - start: 13, end: 15
 ✖ 'with' statements are not allowed in strict mode. - start: 39, end: 46
 
 ```

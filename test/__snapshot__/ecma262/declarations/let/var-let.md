@@ -134,7 +134,7 @@ var foo = 1; let foo = 1;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 16, end: 20
+✖ Duplicate bindingidentifier 'foo' - start: 16, end: 20
 
 ```
 

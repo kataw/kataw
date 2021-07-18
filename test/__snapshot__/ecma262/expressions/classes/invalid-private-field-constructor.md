@@ -176,7 +176,7 @@ class C { static #constructor }
 
 ```javascript
 ✖ '#constructor' is a reserved word. - start: 11, end: 34
-✖ Duplicate identifier - start: 31, end: 33
+✖ Duplicate bindingidentifier 'C' - start: 31, end: 33
 ✖ '#constructor' is a reserved word. - start: 44, end: 67
 
 ```

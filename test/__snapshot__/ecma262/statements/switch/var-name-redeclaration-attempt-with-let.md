@@ -205,7 +205,7 @@ switch (0) { case 1: var f; default: let f }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 40, end: 42
+✖ Duplicate bindingidentifier 'f' - start: 40, end: 42
 
 ```
 

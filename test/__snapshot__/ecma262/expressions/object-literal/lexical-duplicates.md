@@ -2089,12 +2089,12 @@
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 98, end: 101
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 122, end: 124
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 142, end: 147
-✖ Duplicate identifier - start: 169, end: 170
-✖ Cannot redeclare block-scoped variable - start: 195, end: 197
-✖ Duplicate identifier - start: 221, end: 223
-✖ Cannot redeclare block-scoped variable - start: 253, end: 255
-✖ Duplicate identifier - start: 281, end: 283
-✖ Duplicate identifier - start: 306, end: 307
+✖ Duplicate bindingidentifier 'b' - start: 169, end: 170
+✖ Cannot redeclare block-scoped variable 'x' - start: 195, end: 197
+✖ Duplicate bindingidentifier 'x' - start: 221, end: 223
+✖ Cannot redeclare block-scoped variable 'x' - start: 253, end: 255
+✖ Duplicate bindingidentifier 'x' - start: 281, end: 283
+✖ Duplicate bindingidentifier 'b' - start: 306, end: 307
 
 ```
 

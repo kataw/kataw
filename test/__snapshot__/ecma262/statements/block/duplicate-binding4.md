@@ -174,7 +174,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 26, end: 27
+✖ Duplicate bindingidentifier 'x' - start: 26, end: 27
 
 ```
 

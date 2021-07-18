@@ -247,7 +247,7 @@ class Base {
                                                                                                                 "kind": 16594,
                                                                                                                 "flags": 96,
                                                                                                                 "transformFlags": 0,
-                                                                                                                "start": 104,
+                                                                                                                "start": 99,
                                                                                                                 "end": 110
                                                                                                             },
                                                                                                             "flags": 96,

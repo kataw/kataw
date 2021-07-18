@@ -1200,7 +1200,7 @@ f(/* ... */ a, b);
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 71, end: 73
+✖ Cannot redeclare block-scoped variable 'f' - start: 71, end: 73
 
 ```
 

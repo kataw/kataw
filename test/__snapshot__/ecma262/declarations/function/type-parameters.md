@@ -1194,7 +1194,7 @@ type T = <
 ✖ Identifier expected - start: 194, end: 208
 ✖ ',' expected - start: 259, end: 260
 ✖ Expression expected - start: 259, end: 260
-✖ Duplicate identifier - start: 267, end: 269
+✖ Duplicate bindingidentifier 'a' - start: 267, end: 269
 ✖ Identifier expected - start: 310, end: 327
 ✖ ',' expected - start: 329, end: 330
 ✖ Expression expected - start: 329, end: 330

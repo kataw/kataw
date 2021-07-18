@@ -51,7 +51,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Invalid hexadecimal escape sequence - start: 0, end: 8
+✖ Invalid hexadecimal escape sequence - start: 1, end: 8
 ✖ Unterminated string literal - start: 0, end: 8
 
 ```

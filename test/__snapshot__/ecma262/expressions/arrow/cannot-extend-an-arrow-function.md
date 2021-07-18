@@ -916,10 +916,10 @@ class Foo extends async x => {} {}
 
 ```javascript
 ✖ ',' expected - start: 17, end: 22
-✖ Duplicate identifier - start: 35, end: 39
+✖ Duplicate bindingidentifier 'Foo' - start: 35, end: 39
 ✖ ',' expected - start: 50, end: 53
 ✖ ',' expected - start: 50, end: 53
-✖ Duplicate identifier - start: 66, end: 70
+✖ Duplicate bindingidentifier 'Foo' - start: 66, end: 70
 ✖ ',' expected - start: 84, end: 86
 ✖ ',' expected - start: 111, end: 116
 ✖ ',' expected - start: 143, end: 146

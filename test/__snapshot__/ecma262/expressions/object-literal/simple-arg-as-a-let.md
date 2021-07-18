@@ -188,7 +188,7 @@ o = {f(x) { let x }}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 15, end: 17
+✖ Cannot redeclare block-scoped variable 'x' - start: 15, end: 17
 
 ```
 

@@ -427,18 +427,18 @@ let {x}: string = y;
 ```javascript
 ✖ Lexical declaration expected - start: 5, end: 6
 ✖ ':' is not allowed here. Did you mean ';'? - start: 5, end: 6
-✖ Duplicate identifier - start: 21, end: 22
+✖ Duplicate bindingidentifier 'x' - start: 21, end: 22
 ✖ Missing initializer in destructuring declaration - start: 23, end: 24
 ✖ Lexical declaration expected - start: 23, end: 24
 ✖ ':' is not allowed here. Did you mean ';'? - start: 23, end: 24
-✖ Duplicate identifier - start: 43, end: 44
+✖ Duplicate bindingidentifier 'x' - start: 43, end: 44
 ✖ ',' expected - start: 44, end: 45
 ✖ Did you forgot a ']' to match the `[` token? - start: 44, end: 45
 ✖ Missing initializer in destructuring declaration - start: 44, end: 45
 ✖ Lexical declaration expected - start: 44, end: 45
 ✖ ']' is not allowed here. Did you mean ';'? - start: 51, end: 52
 ✖ Declaration or statement expected - start: 52, end: 53
-✖ Duplicate identifier - start: 73, end: 74
+✖ Duplicate bindingidentifier 'x' - start: 73, end: 74
 ✖ Missing initializer in destructuring declaration - start: 74, end: 75
 ✖ Lexical declaration expected - start: 74, end: 75
 ✖ ':' is not allowed here. Did you mean ';'? - start: 74, end: 75

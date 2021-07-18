@@ -217,7 +217,7 @@ function f() { { { var x } function x() {} }}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 35, end: 37
+✖ Duplicate bindingidentifier 'x' - start: 35, end: 37
 
 ```
 

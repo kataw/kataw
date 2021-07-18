@@ -180,7 +180,7 @@ function f(){ var x; const x = y; }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 26, end: 28
+✖ Duplicate bindingidentifier 'x' - start: 26, end: 28
 
 ```
 

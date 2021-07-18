@@ -1428,31 +1428,31 @@ let x = a; let x = b;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 15, end: 17
-✖ Duplicate identifier - start: 36, end: 38
-✖ Duplicate identifier - start: 44, end: 46
-✖ Duplicate identifier - start: 63, end: 65
-✖ Duplicate identifier - start: 69, end: 71
-✖ Duplicate identifier - start: 88, end: 90
-✖ Duplicate identifier - start: 94, end: 96
-✖ Duplicate identifier - start: 112, end: 113
-✖ Duplicate identifier - start: 115, end: 116
-✖ Duplicate identifier - start: 132, end: 134
-✖ Duplicate identifier - start: 142, end: 144
-✖ Duplicate identifier - start: 158, end: 160
-✖ Duplicate identifier - start: 169, end: 171
-✖ Duplicate identifier - start: 185, end: 187
-✖ Duplicate identifier - start: 195, end: 196
-✖ Duplicate identifier - start: 213, end: 215
+✖ Duplicate bindingidentifier 'x' - start: 15, end: 17
+✖ Duplicate bindingidentifier 'x' - start: 36, end: 38
+✖ Duplicate bindingidentifier 'x' - start: 44, end: 46
+✖ Duplicate bindingidentifier 'x' - start: 63, end: 65
+✖ Duplicate bindingidentifier 'x' - start: 69, end: 71
+✖ Duplicate bindingidentifier 'x' - start: 88, end: 90
+✖ Duplicate bindingidentifier 'x' - start: 94, end: 96
+✖ Duplicate bindingidentifier 'x' - start: 112, end: 113
+✖ Duplicate bindingidentifier 'x' - start: 115, end: 116
+✖ Duplicate bindingidentifier 'x' - start: 132, end: 134
+✖ Duplicate bindingidentifier 'x' - start: 142, end: 144
+✖ Duplicate bindingidentifier 'x' - start: 158, end: 160
+✖ Duplicate bindingidentifier 'x' - start: 169, end: 171
+✖ Duplicate bindingidentifier 'x' - start: 185, end: 187
+✖ Duplicate bindingidentifier 'x' - start: 195, end: 196
+✖ Duplicate bindingidentifier 'x' - start: 213, end: 215
 ✖ Identifier expected - start: 220, end: 221
 ✖ ',' expected - start: 220, end: 221
-✖ Duplicate identifier - start: 222, end: 223
-✖ Duplicate identifier - start: 240, end: 242
-✖ Duplicate identifier - start: 248, end: 249
-✖ Duplicate identifier - start: 261, end: 263
-✖ Duplicate identifier - start: 267, end: 268
-✖ Duplicate identifier - start: 280, end: 282
-✖ Duplicate identifier - start: 291, end: 293
+✖ Duplicate bindingidentifier 'x' - start: 222, end: 223
+✖ Duplicate bindingidentifier 'x' - start: 240, end: 242
+✖ Duplicate bindingidentifier 'x' - start: 248, end: 249
+✖ Duplicate bindingidentifier 'x' - start: 261, end: 263
+✖ Duplicate bindingidentifier 'x' - start: 267, end: 268
+✖ Duplicate bindingidentifier 'x' - start: 280, end: 282
+✖ Duplicate bindingidentifier 'x' - start: 291, end: 293
 
 ```
 

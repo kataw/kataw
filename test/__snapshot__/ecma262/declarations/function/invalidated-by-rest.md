@@ -142,7 +142,7 @@ function f(b, a, b, ...a) {}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 23, end: 24
+✖ Duplicate bindingidentifier 'a' - start: 23, end: 24
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 19, end: 25
 
 ```

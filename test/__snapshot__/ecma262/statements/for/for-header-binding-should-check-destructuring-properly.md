@@ -154,7 +154,7 @@ for (const [x, x] in {}) {}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 14, end: 16
+✖ Duplicate bindingidentifier 'x' - start: 14, end: 16
 
 ```
 

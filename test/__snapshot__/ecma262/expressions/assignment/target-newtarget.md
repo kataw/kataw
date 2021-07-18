@@ -83,7 +83,7 @@ function f() {
                                         "kind": 16594,
                                         "flags": 96,
                                         "transformFlags": 0,
-                                        "start": 21,
+                                        "start": 14,
                                         "end": 27
                                     },
                                     "flags": 96,

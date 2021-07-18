@@ -169,7 +169,7 @@
                                             "kind": 16594,
                                             "flags": 96,
                                             "transformFlags": 0,
-                                            "start": 46,
+                                            "start": 41,
                                             "end": 52
                                         },
                                         "flags": 96,

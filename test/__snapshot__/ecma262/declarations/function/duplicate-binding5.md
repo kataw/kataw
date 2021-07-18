@@ -222,7 +222,7 @@ function f() { { { var x } async function x() {} }}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 41, end: 43
+✖ Duplicate bindingidentifier 'x' - start: 41, end: 43
 
 ```
 

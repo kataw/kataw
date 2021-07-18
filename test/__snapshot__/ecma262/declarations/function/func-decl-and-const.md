@@ -191,7 +191,7 @@ function f(){ function x(){} const x = y; }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 34, end: 36
+✖ Duplicate bindingidentifier 'x' - start: 34, end: 36
 
 ```
 

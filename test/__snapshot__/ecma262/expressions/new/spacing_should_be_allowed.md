@@ -67,7 +67,7 @@ function f(){ new . target }
                                     "kind": 16594,
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 19,
+                                    "start": 13,
                                     "end": 26
                                 },
                                 "flags": 96,

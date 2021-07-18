@@ -57,7 +57,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Unicode codepoint must not be greater than 0x10FFFF - start: 0, end: 9
+✖ Unicode codepoint must not be greater than 0x10FFFF - start: 1, end: 9
 
 ```
 

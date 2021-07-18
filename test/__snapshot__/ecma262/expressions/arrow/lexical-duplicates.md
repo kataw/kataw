@@ -2366,28 +2366,28 @@ a = b => { let b; };
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 8, end: 9
-✖ Cannot redeclare block-scoped variable - start: 29, end: 31
-✖ Cannot redeclare block-scoped variable - start: 49, end: 51
+✖ Duplicate bindingidentifier 'a' - start: 8, end: 9
+✖ Cannot redeclare block-scoped variable 'x' - start: 29, end: 31
+✖ Cannot redeclare block-scoped variable 'x' - start: 49, end: 51
 ✖ Duplicate arrow formal parameter - start: 71, end: 73
 ✖ Identifier expected - start: 81, end: 87
 ✖ Missing initializer in const declaration - start: 91, end: 92
 ✖ 'yield' is not allowed here. Did you mean ';'? - start: 106, end: 112
-✖ Cannot redeclare block-scoped variable - start: 127, end: 129
+✖ Cannot redeclare block-scoped variable 'a' - start: 127, end: 129
 ✖ Missing initializer in const declaration - start: 129, end: 131
-✖ Cannot redeclare block-scoped variable - start: 151, end: 153
+✖ Cannot redeclare block-scoped variable 'a' - start: 151, end: 153
 ✖ Missing initializer in const declaration - start: 153, end: 155
-✖ Cannot redeclare block-scoped variable - start: 169, end: 170
-✖ Cannot redeclare block-scoped variable - start: 193, end: 194
-✖ Cannot redeclare block-scoped variable - start: 214, end: 215
+✖ Cannot redeclare block-scoped variable 'a' - start: 169, end: 170
+✖ Cannot redeclare block-scoped variable 'a' - start: 193, end: 194
+✖ Cannot redeclare block-scoped variable 'a' - start: 214, end: 215
 ✖ Duplicate arrow formal parameter - start: 236, end: 238
 ✖ Duplicate arrow formal parameter - start: 259, end: 261
 ✖ Duplicate arrow formal parameter - start: 276, end: 278
 ✖ Duplicate arrow formal parameter - start: 296, end: 298
 ✖ Duplicate arrow formal parameter - start: 316, end: 318
 ✖ Duplicate arrow formal parameter - start: 339, end: 341
-✖ Cannot redeclare block-scoped variable - start: 384, end: 386
-✖ Cannot redeclare block-scoped variable - start: 410, end: 412
+✖ Cannot redeclare block-scoped variable 'c' - start: 384, end: 386
+✖ Cannot redeclare block-scoped variable 'b' - start: 410, end: 412
 
 ```
 

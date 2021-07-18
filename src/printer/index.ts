@@ -352,7 +352,7 @@ export const nodeLookupMap: any = {
 export function printSource(root: RootNode, options?: PrinterOptions) {
   let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon;
   let printWidth = 80;
-  let useTabs: boolean = false;
+  let useTabs = false;
   let tabWidth = 2;
   let space = ' ';
   let lineEnd = '\n';
@@ -515,7 +515,7 @@ function printBinaryExpressionRest(
   isInsideParenthesis: boolean
 ) {
   if (node.kind === SyntaxKind.BinaryExpression) {
-    let parts: any = shouldFlatten(node)
+    const parts: any = shouldFlatten(node)
       ? printBinaryExpressionRest(printer, node.left, lineMap, node, isInsideParenthesis)
       : [printStatement(printer, node.left, lineMap, node)];
 
@@ -706,7 +706,7 @@ export function printElementList(printer: Printer, node: any, lineMap: number[],
 
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
-  let lineBreaksBetweenArray = printer.flags & PrinterFlags.EnforceLineBreaksBetweenArray ? hardline : softline;
+  const lineBreaksBetweenArray = printer.flags & PrinterFlags.EnforceLineBreaksBetweenArray ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
     child = children[i];
@@ -2107,7 +2107,7 @@ function printVariableDeclarationList(printer: Printer, node: any, lineMap: numb
 }
 
 function printVariableStatement(printer: Printer, node: any, lineMap: number[]): any {
-  let printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
+  const printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
 
   const hasValue = node.declarationList.declarations.some((decl: any) => decl.init);
   let firstVariable;
@@ -2138,16 +2138,17 @@ function printLexicalDeclaration(
 ): any {
   const printed = printBindingList(printer, node.binding, lineMap, node);
   return group(
-    concat([tokenToString(node.lexicalKeyword.kind), ' ', indent(printed), inForStatement ? '' : toggleSemicolon(printer)]),
+    concat([
+      tokenToString(node.lexicalKeyword.kind),
+      ' ',
+      indent(printed),
+      inForStatement ? '' : toggleSemicolon(printer)
+    ]),
     { shouldBreak: false }
   );
 }
 
-function printVariableDeclarationOrLexicalBinding(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-): any {
+function printVariableDeclarationOrLexicalBinding(printer: Printer, node: any, lineMap: number[]): any {
   if (node.initializer) {
     const { initializer } = node;
 
@@ -2764,7 +2765,7 @@ function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any
 function printForBinding(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node) {
     if (node.kind === SyntaxKind.ForBinding) {
-      let printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
+      const printed = printVariableDeclarationList(printer, node.declarationList, lineMap, node);
 
       let firstVariable;
       if (printed.length === 1) {

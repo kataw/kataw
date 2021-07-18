@@ -209,9 +209,9 @@ const a = 1; const a = 2;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 12, end: 14
-✖ Duplicate identifier - start: 26, end: 28
-✖ Duplicate identifier - start: 39, end: 41
+✖ Duplicate bindingidentifier 'a' - start: 12, end: 14
+✖ Duplicate bindingidentifier 'a' - start: 26, end: 28
+✖ Duplicate bindingidentifier 'a' - start: 39, end: 41
 
 ```
 

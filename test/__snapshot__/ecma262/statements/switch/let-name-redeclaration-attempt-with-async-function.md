@@ -222,7 +222,7 @@ switch (0) { case 1: let f; default: async function f() {} }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 51, end: 53
+✖ Duplicate bindingidentifier 'f' - start: 51, end: 53
 
 ```
 

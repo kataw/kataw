@@ -6697,11 +6697,11 @@ try {} catch(e) { for(var e of 0); };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3170, end: 3177
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3205, end: 3212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3280, end: 3287
-✖ Duplicate identifier - start: 3303, end: 3305
+✖ Duplicate bindingidentifier 'A' - start: 3303, end: 3305
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3352, end: 3359
-✖ Duplicate identifier - start: 3375, end: 3377
+✖ Duplicate bindingidentifier 'A' - start: 3375, end: 3377
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3427, end: 3434
-✖ Duplicate identifier - start: 3450, end: 3452
+✖ Duplicate bindingidentifier 'A' - start: 3450, end: 3452
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3503, end: 3510
 ✖ Invalid hexadecimal escape sequence - start: 3520, end: 3728
 ✖ Declaration or statement expected - start: 3520, end: 3729

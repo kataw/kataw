@@ -2468,7 +2468,7 @@ new import(x);
 ✖ '[' is not allowed here. Did you mean ';'? - start: 272, end: 273
 ✖ The parser expected to find a '}' to match the '{' token here - start: 285, end: 286
 ✖ ',' expected - start: 296, end: 297
-✖ Duplicate identifier - start: 307, end: 308
+✖ Duplicate bindingidentifier 'x' - start: 307, end: 308
 ✖ Identifier expected - start: 308, end: 309
 ✖ Dynamic import must have one specifier as an argument. - start: 319, end: 320
 ✖ Expected a ')' to match the '(' token here - start: 319, end: 320

@@ -8267,9 +8267,9 @@ for ({}.bar = x in obj);
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 505, end: 509
 ✖ A lexical declaration can't define a 'let' binding - start: 525, end: 529
 ✖ 'let' is not allowed to be used as a name in 'let' or 'const' declarations. - start: 525, end: 529
-✖ Cannot redeclare block-scoped variable - start: 559, end: 561
-✖ Cannot redeclare block-scoped variable - start: 589, end: 591
-✖ Duplicate identifier - start: 611, end: 612
+✖ Cannot redeclare block-scoped variable 'a' - start: 559, end: 561
+✖ Cannot redeclare block-scoped variable 'a' - start: 589, end: 591
+✖ Duplicate bindingidentifier 'a' - start: 611, end: 612
 ✖ Identifier expected - start: 661, end: 664
 ✖ ')' is not allowed here. Did you mean ';'? - start: 670, end: 671
 ✖ Identifier expected - start: 685, end: 689

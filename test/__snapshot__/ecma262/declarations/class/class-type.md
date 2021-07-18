@@ -903,7 +903,7 @@ type T = { [string]: Class<null> }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 18, end: 20
+✖ Duplicate bindingidentifier 'A' - start: 18, end: 20
 
 ```
 

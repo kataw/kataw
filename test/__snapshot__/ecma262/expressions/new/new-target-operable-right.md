@@ -85,7 +85,7 @@ function f(){ foo + new.target }
                                         "kind": 16594,
                                         "flags": 96,
                                         "transformFlags": 0,
-                                        "start": 24,
+                                        "start": 19,
                                         "end": 30
                                     },
                                     "flags": 96,

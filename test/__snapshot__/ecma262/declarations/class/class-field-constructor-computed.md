@@ -361,9 +361,9 @@ class Foo { static ['constructor'] = 1 }
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 36, end: 40
-✖ Duplicate identifier - start: 71, end: 75
-✖ Duplicate identifier - start: 109, end: 113
+✖ Duplicate bindingidentifier 'Foo' - start: 36, end: 40
+✖ Duplicate bindingidentifier 'Foo' - start: 71, end: 75
+✖ Duplicate bindingidentifier 'Foo' - start: 109, end: 113
 
 ```
 

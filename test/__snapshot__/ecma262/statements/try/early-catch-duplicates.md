@@ -130,7 +130,7 @@ try { } catch ([x, x]) {}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 18, end: 20
+✖ Duplicate bindingidentifier 'x' - start: 18, end: 20
 
 ```
 

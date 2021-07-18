@@ -140,7 +140,7 @@ const singleEscape = [
 export function scanTemplateSpan(parser: ParserState, context: Context, source: string): SyntaxKind {
   parser.pos++;
 
-  let start = parser.pos;
+  const start = parser.pos;
   let ret = '';
   let cp = parser.source.charCodeAt(parser.pos);
 
@@ -166,14 +166,14 @@ export function scanTemplateSpan(parser: ParserState, context: Context, source: 
 
     // Escape character
     if (cp === Char.Backslash) {
-      let diagnosticStart = parser.pos;
+      const diagnosticStart = parser.pos;
 
       let code;
       parser.pos++;
       if (parser.pos >= parser.end) {
         code = TemplateEscape.Empty;
       } else {
-        let ch = source.charCodeAt(parser.pos);
+        const ch = source.charCodeAt(parser.pos);
         parser.pos++;
         if (singleEscape[ch]) {
           ret += fromCodePoint(ch);

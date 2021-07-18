@@ -298,7 +298,7 @@ for (var x;;) { { let x; } }
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 21, end: 23
+✖ Cannot redeclare block-scoped variable 'x' - start: 21, end: 23
 
 ```
 

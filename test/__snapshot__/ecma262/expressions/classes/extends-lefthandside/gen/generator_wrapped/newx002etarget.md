@@ -112,7 +112,7 @@ function *P(){
                                             "kind": 16594,
                                             "flags": 96,
                                             "transformFlags": 0,
-                                            "start": 37,
+                                            "start": 32,
                                             "end": 43
                                         },
                                         "flags": 96,

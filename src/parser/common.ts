@@ -269,27 +269,14 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
   if (parser.token === token) {
     const { token, nodeFlags } = parser;
     if (nodeFlags & 0b00000000000000000110000000000000) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-        pos,
-        parser.pos
-      );
+      report(parser, parser.curPos, DiagnosticCode.Keywords_cannot_contain_escape_characters);
     }
     parser.assignable = false;
     nextToken(parser, context);
     return createToken(token, flag | NodeFlags.NoChildren | nodeFlags, pos, parser.curPos);
   }
   if (diagnosticMessage && parser.previousErrorPos !== parser.pos) {
-    parser.previousErrorPos = parser.pos;
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[diagnosticMessage],
-      parser.curPos,
-      parser.pos
-    );
+    report(parser, parser.curPos, diagnosticMessage);
   }
   return null;
 }
@@ -517,25 +504,13 @@ export function addVarName(
 
     while (currentScope && (currentScope.kind & ScopeKind.FunctionRoot) === 0) {
       if (currentScope['#' + name] & (BindingType.Let | BindingType.Const | BindingType.FunctionLexical)) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Cannot_redeclare_block_scoped_variable],
-          parser.curPos,
-          parser.pos
-        );
+        report(parser, parser.curPos, DiagnosticCode.Cannot_redeclare_block_scoped_variable_0, name);
       } else if (currentScope['#' + name] & (BindingType.CatchIdentifier | BindingType.CatchPattern)) {
         if (
           context & (Context.Strict | Context.OptionsDisableWebCompat) ||
           (currentScope['#' + name] & BindingType.CatchIdentifier) === 0
         ) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Cannot_bound_an_already_bound_catch_clause_binding],
-            parser.curPos,
-            parser.pos
-          );
+          report(parser, parser.curPos, DiagnosticCode.Cannot_bound_an_already_bound_catch_clause_binding);
         }
       }
 
@@ -559,25 +534,13 @@ export function addBlockName(parser: ParserState, context: Context, scope: any, 
           (value & BindingType.FunctionLexical) === 0 ||
           (context & Context.InBlock) === 0
         ) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Duplicate_identifier],
-            parser.curPos,
-            parser.pos
-          );
+          report(parser, parser.curPos, DiagnosticCode.Duplicate_bindingidentifier_0, name);
         }
       }
     } else {
       const parent = scope.scope;
       if (scope.kind & ScopeKind.FunctionBody && parent['#' + name] && (parent['#' + name] & BindingType.Empty) === 0) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Cannot_redeclare_block_scoped_variable],
-          parser.curPos,
-          parser.pos
-        );
+        report(parser, parser.curPos, DiagnosticCode.Cannot_redeclare_block_scoped_variable_0, name);
       }
 
       if (
@@ -639,7 +602,6 @@ export function report(parser: ParserState, pos: number, diagnostic: DiagnosticC
   let message = diagnosticMap[diagnostic];
   if (arguments.length > 3) {
     message = message.replace(/{(\d+)}/g, (__match: string, i: number) => args[i]);
-    ///    console.log(message);
   }
   parser.onError(DiagnosticSource.Parser, DiagnosticKind.Error | DiagnosticKind.EarlyError, message, pos, parser.pos);
 }

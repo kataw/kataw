@@ -853,14 +853,14 @@ class o {f([b, a], ...b) {}}
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 21, end: 23
+✖ Cannot redeclare block-scoped variable 'x' - start: 21, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 40
 ✖ '{' is not allowed here. Did you mean ';'? - start: 44, end: 46
-✖ Duplicate identifier - start: 72, end: 74
-✖ Duplicate identifier - start: 99, end: 101
+✖ Duplicate bindingidentifier 'o' - start: 72, end: 74
+✖ Duplicate bindingidentifier 'o' - start: 99, end: 101
 ✖ A formal parameter cannot be bound multiple times in the same parameter list - start: 115, end: 117
-✖ Duplicate identifier - start: 128, end: 130
-✖ Duplicate identifier - start: 145, end: 146
+✖ Duplicate bindingidentifier 'o' - start: 128, end: 130
+✖ Duplicate bindingidentifier 'b' - start: 145, end: 146
 
 ```
 

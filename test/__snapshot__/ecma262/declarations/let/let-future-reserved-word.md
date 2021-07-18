@@ -176,7 +176,7 @@ let protecte\u0064;
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 44, end: 59
+✖ Duplicate bindingidentifier 'protected' - start: 44, end: 59
 
 ```
 

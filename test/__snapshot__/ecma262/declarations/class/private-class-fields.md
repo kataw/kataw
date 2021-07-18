@@ -223,7 +223,7 @@ class C { #aaa
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 29, end: 31
+✖ Duplicate bindingidentifier 'C' - start: 29, end: 31
 
 ```
 

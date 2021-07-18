@@ -205,7 +205,7 @@ class A {
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 39, end: 41
+✖ Duplicate bindingidentifier 'A' - start: 39, end: 41
 
 ```
 

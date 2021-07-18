@@ -689,7 +689,7 @@ class C { foo() { this.#a = 1; }}
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 139, end: 141
+✖ Duplicate bindingidentifier 'C' - start: 139, end: 141
 
 ```
 
