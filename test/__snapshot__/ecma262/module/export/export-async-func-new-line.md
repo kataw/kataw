@@ -176,7 +176,7 @@ export async x => x;
 
 ```javascript
 ✖ An async arrow without the 'default' modifier can not be exported - start: 6, end: 14
-✖ An async arrow without the 'default' modifier can not be exported - start: 35, end: 37
+✖ An async arrow without the 'default' modifier can not be exported - start: 29, end: 37
 
 ```
 

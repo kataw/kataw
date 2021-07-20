@@ -1,6 +1,6 @@
 import { ParserState, Context } from '../common';
 import { Char } from './char';
-import { SyntaxKind, NodeFlags } from '../../ast/syntax-node';
+import { SyntaxKind, NodeFlags, descKeywordTable } from '../../ast/syntax-node';
 import { scanNumber, parseFloatingPointLiteral } from './number';
 import { scanString } from './string';
 import { scanTemplateSpan } from './template';
@@ -10,7 +10,6 @@ import { skipMultilineComment, skipSingleLineComment } from './comments';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import {
-  descKeywordTable,
   scanIdentifierEscape,
   scanIdentifierOrKeyword,
   scanIdentifierParts,

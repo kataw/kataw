@@ -5745,7 +5745,7 @@ function parseFunctionDeclaration(
           if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
             report(
               parser,
-              parser.curPos,
+              pos,
               DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported
             );
           }
@@ -6093,9 +6093,13 @@ function parseFunctionDeclaration(
         );
       }
 
+      if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
+        report(parser, pos, DiagnosticCode.Did_you_mean_async_function_foo_An_async_modifier_can_only_follow_a_function_declaration_in_this_context);
+      }
+
       // "async => {}"
       if (parser.token === SyntaxKind.Arrow) {
-        expression = parseArrowFunction(
+        return parseExpressionStatement(parser, context, parseCommaOperator(parser, context, parseArrowFunction(
           parser,
           context,
           scope,
@@ -6103,17 +6107,11 @@ function parseFunctionDeclaration(
           /* returnType */ null,
           /* params */ expression,
           /* asyncToken */ null,
-          /* nodeFlags */ NodeFlags.Async,
+          /* nodeFlags */ NodeFlags.ExpressionNode | NodeFlags.Async,
           /* pos */ pos
-        ) as any;
-        expression = parseCommaOperator(parser, context, expression, pos);
-        return parseExpressionStatement(parser, context, expression, pos);
+        ), pos), pos);
       }
 
-      if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
-        report(parser, pos, DiagnosticCode.Declaration_or_statement_expected);
-        return parseExpressionStatement(parser, context, expression, pos);
-      }
       // "async"
       // "async + 1"
       parser.assignable = true;

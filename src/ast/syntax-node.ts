@@ -510,6 +510,8 @@ export function tokenToString(node: any): string {
       return 'enum';
     case SyntaxKind.EvalIdentifier:
       return 'eval';
+    case SyntaxKind.ArgumentsIdentifier:
+      return 'arguments';
     case SyntaxKind.Exponentiate:
       return '**';
     case SyntaxKind.ExponentiateAssign:
@@ -692,3 +694,77 @@ export function tokenToString(node: any): string {
       return '; ';
   }
 }
+
+
+// Normal object is much faster than Object.create(null), even with typeof check to avoid Object.prototype interference
+export const descKeywordTable: { [key: string]: SyntaxKind | null } = {
+  __proto__: null,
+  this: SyntaxKind.ThisKeyword,
+  function: SyntaxKind.FunctionKeyword,
+  if: SyntaxKind.IfKeyword,
+  return: SyntaxKind.ReturnKeyword,
+  var: SyntaxKind.VarKeyword,
+  else: SyntaxKind.ElseKeyword,
+  for: SyntaxKind.ForKeyword,
+  new: SyntaxKind.NewKeyword,
+  in: SyntaxKind.InKeyword,
+  typeof: SyntaxKind.TypeofKeyword,
+  while: SyntaxKind.WhileKeyword,
+  case: SyntaxKind.CaseKeyword,
+  break: SyntaxKind.BreakKeyword,
+  try: SyntaxKind.TryKeyword,
+  catch: SyntaxKind.CatchKeyword,
+  delete: SyntaxKind.DeleteKeyword,
+  throw: SyntaxKind.ThrowKeyword,
+  switch: SyntaxKind.SwitchKeyword,
+  continue: SyntaxKind.ContinueKeyword,
+  default: SyntaxKind.DefaultKeyword,
+  instanceof: SyntaxKind.InstanceofKeyword,
+  do: SyntaxKind.DoKeyword,
+  void: SyntaxKind.VoidKeyword,
+  finally: SyntaxKind.FinallyKeyword,
+  async: SyntaxKind.AsyncKeyword,
+  await: SyntaxKind.AwaitKeyword,
+  class: SyntaxKind.ClassKeyword,
+  const: SyntaxKind.ConstKeyword,
+  constructor: SyntaxKind.ConstructorKeyword,
+  debugger: SyntaxKind.DebuggerKeyword,
+  export: SyntaxKind.ExportKeyword,
+  extends: SyntaxKind.ExtendsKeyword,
+  false: SyntaxKind.FalseKeyword,
+  from: SyntaxKind.FromKeyword,
+  get: SyntaxKind.GetKeyword,
+  implements: SyntaxKind.ImplementsKeyword,
+  import: SyntaxKind.ImportKeyword,
+  let: SyntaxKind.LetKeyword,
+  null: SyntaxKind.NullKeyword,
+  of: SyntaxKind.OfKeyword,
+  package: SyntaxKind.PackageKeyword,
+  private: SyntaxKind.PrivateKeyword,
+  protected: SyntaxKind.ProtectedKeyword,
+  public: SyntaxKind.PublicKeyword,
+  set: SyntaxKind.SetKeyword,
+  static: SyntaxKind.StaticKeyword,
+  super: SyntaxKind.SuperKeyword,
+  true: SyntaxKind.TrueKeyword,
+  with: SyntaxKind.WithKeyword,
+  yield: SyntaxKind.YieldKeyword,
+  target: SyntaxKind.Target,
+  meta: SyntaxKind.Meta,
+  string: SyntaxKind.StringKeyword,
+  number: SyntaxKind.NumberKeyword,
+  boolean: SyntaxKind.BooleanKeyword,
+  symbol: SyntaxKind.SymbolKeyword,
+  any: SyntaxKind.AnyKeyword,
+  declare: SyntaxKind.DeclareKeyword,
+  type: SyntaxKind.TypeKeyword,
+  never: SyntaxKind.NeverKeyword,
+  unknown: SyntaxKind.UnknownKeyword,
+  object: SyntaxKind.ObjectKeyword,
+  undefined: SyntaxKind.UndefinedKeyword,
+  opaque: SyntaxKind.OpaqueKeyword,
+  eval: SyntaxKind.EvalIdentifier,
+  arguments: SyntaxKind.ArgumentsIdentifier,
+  as: SyntaxKind.AsKeyword,
+  proto: SyntaxKind.ProtoKeyword
+};

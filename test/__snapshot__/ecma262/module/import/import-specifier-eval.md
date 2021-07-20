@@ -608,7 +608,7 @@ import {eval as o} from 'foo';
 ✖ Duplicate bindingidentifier 'eval' - start: 44, end: 45
 ✖ Duplicate bindingidentifier 'eval' - start: 71, end: 76
 ✖ Duplicate bindingidentifier 'eval' - start: 104, end: 114
-✖ '; ' cannot contain escape characters - start: 137, end: 152
+✖ 'arguments' cannot contain escape characters - start: 137, end: 152
 
 ```
 

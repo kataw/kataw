@@ -241,6 +241,6 @@
   "'catch' expected": 257,
   "'{0}' is not allowed here. Did you mean '{1}'?": 258,
   "HTML comments can only be used in script mode": 259,
-  "HTML comments can only be used with web compatibility enabled": 260
-
+  "HTML comments can only be used with web compatibility enabled": 260,
+  "Did you mean 'async function foo() {}'? An 'async' modifier can only follow a function declaration in this context": 261
 }

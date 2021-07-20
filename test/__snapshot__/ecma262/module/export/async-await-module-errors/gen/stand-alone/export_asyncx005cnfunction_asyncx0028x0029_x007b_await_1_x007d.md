@@ -175,7 +175,7 @@ export async\nfunction async() { await 1; }
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
-✖ Declaration or statement expected - start: 6, end: 13
+✖ Did you mean 'async function foo() {}'? An 'async' modifier can only follow a function declaration in this context - start: 6, end: 13
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 12, end: 13
 ✖ 'async' is not allowed here. Did you mean ';'? - start: 22, end: 28
 ✖ '{' is not allowed here. Did you mean ';'? - start: 30, end: 32

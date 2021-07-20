@@ -77,7 +77,7 @@ export async
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
-✖ Declaration or statement expected - start: 6, end: 12
+✖ Did you mean 'async function foo() {}'? An 'async' modifier can only follow a function declaration in this context - start: 6, end: 12
 
 ```
 

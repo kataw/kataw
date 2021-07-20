@@ -164,7 +164,7 @@ function arguments() { "use strict"; }
 
 ```javascript
 ✖ 'eval' cannot be used as an identifier here - start: 30, end: 31
-✖ '; ' cannot be used as an identifier here - start: 70, end: 71
+✖ 'arguments' cannot be used as an identifier here - start: 70, end: 71
 
 ```
 

@@ -126,7 +126,7 @@ import { arguments } from 'm.js';
 ### Diagnostics
 
 ```javascript
-✖ '; ' cannot be used as an identifier here - start: 8, end: 20
+✖ 'arguments' cannot be used as an identifier here - start: 8, end: 20
 
 ```
 
