@@ -1,8 +1,8 @@
 import { ParserState } from '../common';
 import { NodeFlags, SyntaxKind, descKeywordTable } from '../../ast/syntax-node';
-import { Char } from './char';
+import { Char, isIdentifierStart, isIdentifierPart } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
-import { isIdentifierStart, isIdentifierPart, toHex, fromCodePoint } from './common';
+import { toHex, fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
@@ -12,7 +12,12 @@ const enum Escape {
 }
 
 // Scan identifer and keyword and do a lookup for keywords
-export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source: string, isPossibleKeyword: boolean): SyntaxKind {
+export function scanIdentifierOrKeyword(
+  parser: ParserState,
+  cp: number,
+  source: string,
+  isPossibleKeyword: boolean
+): SyntaxKind {
   while (AsciiCharTypes[cp] & AsciiCharFlags.IdentifierPart) {
     cp = source.charCodeAt(++parser.pos);
   }
@@ -37,7 +42,7 @@ export function scanIdentifierParts(parser: ParserState, source: string): string
   let code!: number | null;
   let cp = source.charCodeAt(parser.pos);
   do {
-     if (cp === Char.Backslash) {
+    if (cp === Char.Backslash) {
       result += source.slice(start, parser.pos);
       code = scanIdentifierEscape(parser);
       // We intentionally check for '-1' so we can break out of the loop
@@ -45,8 +50,8 @@ export function scanIdentifierParts(parser: ParserState, source: string): string
       if (code < 0) break;
       result += fromCodePoint(code);
       start = parser.pos;
-     } else if (isIdentifierPart(cp)) {
-        parser.pos++;
+    } else if (isIdentifierPart(cp)) {
+      parser.pos++;
     } else {
       // Check for lead surrogate (U+d800..U+dbff)
       if ((cp & 0xfc00) !== 0xd800) break;
@@ -167,6 +172,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
 }
 
 export function scanPrivateIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
+  let pos = parser.pos;
   parser.pos++;
 
   // '!'
@@ -175,7 +181,7 @@ export function scanPrivateIdentifier(parser: ParserState, cp: number, source: s
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode._can_only_be_used_at_the_start_of_a_file],
-      parser.tokenPos,
+      pos,
       parser.pos
     );
     return SyntaxKind.UnknownToken;
@@ -190,7 +196,7 @@ export function scanPrivateIdentifier(parser: ParserState, cp: number, source: s
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode._constructor_is_a_reserved_word],
-        parser.pos,
+        pos,
         pos + tokenValue.length
       );
     }
@@ -200,7 +206,7 @@ export function scanPrivateIdentifier(parser: ParserState, cp: number, source: s
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Private_identifier_cannot_contain_escape_characters],
-        parser.tokenPos,
+        pos,
         pos
       );
       tokenValue += scanIdentifierParts(parser, source);
@@ -216,7 +222,7 @@ export function scanPrivateIdentifier(parser: ParserState, cp: number, source: s
     DiagnosticSource.Parser,
     DiagnosticKind.Error,
     diagnosticMap[DiagnosticCode.Invalid_character],
-    parser.tokenPos,
+    pos,
     parser.pos
   );
 

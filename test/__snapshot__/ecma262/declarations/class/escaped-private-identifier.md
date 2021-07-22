@@ -367,9 +367,9 @@ class z { #\u0020oo }
 ### Diagnostics
 
 ```javascript
-✖ Private identifier cannot contain escape characters - start: 10, end: 13
-✖ Private identifier cannot contain escape characters - start: 50, end: 53
-✖ Private identifier cannot contain escape characters - start: 73, end: 74
+✖ Private identifier cannot contain escape characters - start: 13, end: 13
+✖ Private identifier cannot contain escape characters - start: 53, end: 53
+✖ Private identifier cannot contain escape characters - start: 74, end: 74
 
 ```
 

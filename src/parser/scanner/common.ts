@@ -1,6 +1,4 @@
 import { Char } from './char';
-import { isUnicodeIdentifierStart, isUnicodeIdentifierPart } from './unicode';
-import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 
 // ES#sec-white-space White Space
 // gC=Zs, U+0009, U+000B, U+000C, U+FEFF
@@ -15,22 +13,6 @@ export function isWhiteSpaceSlow(cp: number): boolean {
     cp == Char.ZeroWidthNoBreakSpace ||
     cp == Char.MathematicalSpace ||
     cp == Char.IdeographicSpace
-  );
-}
-
-export function isIdentifierStart(ch: number): boolean {
-  // Most code is written in pure ASCII, so create a fast path here.
-  return (AsciiCharTypes[ch] & AsciiCharFlags.IdentifierStart) !== 0 || isUnicodeIdentifierStart(ch);
-}
-
-export function isIdentifierPart(ch: number): boolean {
-  return (
-    (AsciiCharTypes[ch] & AsciiCharFlags.IdentifierPart) !== 0 ||
-    // Handle non-ASCII characters. This include all characters with
-    // the ID_Continue property, plus Zero Width Non-Joiner and Zero Width Joiner.
-    isUnicodeIdentifierPart(ch) ||
-    ch === Char.ZeroWidthJoiner ||
-    ch === Char.ZeroWidthNonJoiner
   );
 }
 

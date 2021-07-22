@@ -1,11 +1,11 @@
 import { ParserState, Context } from '../common';
-import { Char } from './char';
+import { Char, isIdentifierStart, latinCharacters } from './char';
 import { SyntaxKind, NodeFlags, descKeywordTable } from '../../ast/syntax-node';
-import { scanNumber, parseFloatingPointLiteral } from './number';
+import { scanNumber } from './number';
 import { scanString } from './string';
 import { scanTemplateSpan } from './template';
 import { scanRegularExpression } from './regexp';
-import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
+import { isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
 import { skipMultilineComment, skipSingleLineComment } from './comments';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
@@ -15,136 +15,6 @@ import {
   scanIdentifierParts,
   scanPrivateIdentifier
 } from './identifiers';
-
-export const firstCharKinds = [
-  /*   0 - Null               */ SyntaxKind.UnknownToken,
-  /*   1 - Start of Heading   */ SyntaxKind.UnknownToken,
-  /*   2 - Start of Text      */ SyntaxKind.UnknownToken,
-  /*   3 - End of Text        */ SyntaxKind.UnknownToken,
-  /*   4 - End of Transm.     */ SyntaxKind.UnknownToken,
-  /*   5 - Enquiry            */ SyntaxKind.UnknownToken,
-  /*   6 - Acknowledgment     */ SyntaxKind.UnknownToken,
-  /*   7 - Bell               */ SyntaxKind.UnknownToken,
-  /*   8 - Backspace          */ SyntaxKind.UnknownToken,
-  /*   9 - Horizontal Tab     */ SyntaxKind.Whitespace,
-  /*  10 - Line Feed          */ SyntaxKind.LineFeed,
-  /*  11 - Vertical Tab       */ SyntaxKind.Whitespace,
-  /*  12 - Form Feed          */ SyntaxKind.Whitespace,
-  /*  13 - Carriage Return    */ SyntaxKind.CarriageReturn,
-  /*  14 - Shift Out          */ SyntaxKind.UnknownToken,
-  /*  15 - Shift In           */ SyntaxKind.UnknownToken,
-  /*  16 - Data Line Escape   */ SyntaxKind.UnknownToken,
-  /*  17 - Device Control 1   */ SyntaxKind.UnknownToken,
-  /*  18 - Device Control 2   */ SyntaxKind.UnknownToken,
-  /*  19 - Device Control 3   */ SyntaxKind.UnknownToken,
-  /*  20 - Device Control 4   */ SyntaxKind.UnknownToken,
-  /*  21 - Negative Ack.      */ SyntaxKind.UnknownToken,
-  /*  22 - Synchronous Idle   */ SyntaxKind.UnknownToken,
-  /*  23 - End of Transmit    */ SyntaxKind.UnknownToken,
-  /*  24 - Cancel             */ SyntaxKind.UnknownToken,
-  /*  25 - End of Medium      */ SyntaxKind.UnknownToken,
-  /*  26 - Substitute         */ SyntaxKind.UnknownToken,
-  /*  27 - Escape             */ SyntaxKind.UnknownToken,
-  /*  28 - File Separator     */ SyntaxKind.UnknownToken,
-  /*  29 - Group Separator    */ SyntaxKind.UnknownToken,
-  /*  30 - Record Separator   */ SyntaxKind.UnknownToken,
-  /*  31 - Unit Separator     */ SyntaxKind.UnknownToken,
-  /*  32 - Space              */ SyntaxKind.Whitespace,
-  /*  33 - !                  */ SyntaxKind.Negate,
-  /*  34 - "                  */ SyntaxKind.StringLiteral,
-  /*  35 - #                  */ SyntaxKind.PrivateIdentifier,
-  /*  36 - $                  */ SyntaxKind.Identifier,
-  /*  37 - %                  */ SyntaxKind.Modulo,
-  /*  38 - &                  */ SyntaxKind.BitwiseAnd,
-  /*  39 - '                  */ SyntaxKind.StringLiteral,
-  /*  40 - (                  */ SyntaxKind.LeftParen,
-  /*  41 - )                  */ SyntaxKind.RightParen,
-  /*  42 - *                  */ SyntaxKind.Multiply,
-  /*  43 - +                  */ SyntaxKind.Add,
-  /*  44 - ,                  */ SyntaxKind.Comma,
-  /*  45 - -                  */ SyntaxKind.Subtract,
-  /*  46 - .                  */ SyntaxKind.Period,
-  /*  47 - /                  */ SyntaxKind.Divide,
-  /*  48 - 0                  */ SyntaxKind.NumericLiteral,
-  /*  49 - 1                  */ SyntaxKind.NumericLiteral,
-  /*  50 - 2                  */ SyntaxKind.NumericLiteral,
-  /*  51 - 3                  */ SyntaxKind.NumericLiteral,
-  /*  52 - 4                  */ SyntaxKind.NumericLiteral,
-  /*  53 - 5                  */ SyntaxKind.NumericLiteral,
-  /*  54 - 6                  */ SyntaxKind.NumericLiteral,
-  /*  55 - 7                  */ SyntaxKind.NumericLiteral,
-  /*  56 - 8                  */ SyntaxKind.NumericLiteral,
-  /*  57 - 9                  */ SyntaxKind.NumericLiteral,
-  /*  58 - :                  */ SyntaxKind.Colon,
-  /*  59 - ;                  */ SyntaxKind.Semicolon,
-  /*  60 - <                  */ SyntaxKind.LessThan,
-  /*  61 - =                  */ SyntaxKind.Assign,
-  /*  62 - >                  */ SyntaxKind.GreaterThan,
-  /*  63 - ?                  */ SyntaxKind.QuestionMark,
-  /*  64 - @                  */ SyntaxKind.Decorator,
-  /*  65 - A                  */ SyntaxKind.Identifier,
-  /*  66 - B                  */ SyntaxKind.Identifier,
-  /*  67 - C                  */ SyntaxKind.Identifier,
-  /*  68 - D                  */ SyntaxKind.Identifier,
-  /*  69 - E                  */ SyntaxKind.Identifier,
-  /*  70 - F                  */ SyntaxKind.Identifier,
-  /*  71 - G                  */ SyntaxKind.Identifier,
-  /*  72 - H                  */ SyntaxKind.Identifier,
-  /*  73 - I                  */ SyntaxKind.Identifier,
-  /*  74 - J                  */ SyntaxKind.Identifier,
-  /*  75 - K                  */ SyntaxKind.Identifier,
-  /*  76 - L                  */ SyntaxKind.Identifier,
-  /*  77 - M                  */ SyntaxKind.Identifier,
-  /*  78 - N                  */ SyntaxKind.Identifier,
-  /*  79 - O                  */ SyntaxKind.Identifier,
-  /*  80 - P                  */ SyntaxKind.Identifier,
-  /*  81 - Q                  */ SyntaxKind.Identifier,
-  /*  82 - R                  */ SyntaxKind.Identifier,
-  /*  83 - S                  */ SyntaxKind.Identifier,
-  /*  84 - T                  */ SyntaxKind.Identifier,
-  /*  85 - U                  */ SyntaxKind.Identifier,
-  /*  86 - V                  */ SyntaxKind.Identifier,
-  /*  87 - W                  */ SyntaxKind.Identifier,
-  /*  88 - X                  */ SyntaxKind.Identifier,
-  /*  89 - Y                  */ SyntaxKind.Identifier,
-  /*  90 - Z                  */ SyntaxKind.Identifier,
-  /*  91 - [                  */ SyntaxKind.LeftBracket,
-  /*  92 - \                  */ SyntaxKind.EscapedKeyword,
-  /*  93 - ]                  */ SyntaxKind.RightBracket,
-  /*  94 - ^                  */ SyntaxKind.BitwiseXor,
-  /*  95 - _                  */ SyntaxKind.Identifier,
-  /*  96 - `                  */ SyntaxKind.TemplateTail,
-  /*  97 - a                  */ SyntaxKind.IsKeyword,
-  /*  98 - b                  */ SyntaxKind.IsKeyword,
-  /*  99 - c                  */ SyntaxKind.IsKeyword,
-  /* 100 - d                  */ SyntaxKind.IsKeyword,
-  /* 101 - e                  */ SyntaxKind.IsKeyword,
-  /* 102 - f                  */ SyntaxKind.IsKeyword,
-  /* 103 - g                  */ SyntaxKind.IsKeyword,
-  /* 104 - h                  */ SyntaxKind.IsKeyword,
-  /* 105 - i                  */ SyntaxKind.IsKeyword,
-  /* 106 - j                  */ SyntaxKind.IsKeyword,
-  /* 107 - k                  */ SyntaxKind.IsKeyword,
-  /* 108 - l                  */ SyntaxKind.IsKeyword,
-  /* 109 - m                  */ SyntaxKind.IsKeyword,
-  /* 110 - n                  */ SyntaxKind.IsKeyword,
-  /* 111 - o                  */ SyntaxKind.IsKeyword,
-  /* 112 - p                  */ SyntaxKind.IsKeyword,
-  /* 113 - q                  */ SyntaxKind.IsKeyword,
-  /* 114 - r                  */ SyntaxKind.IsKeyword,
-  /* 115 - s                  */ SyntaxKind.IsKeyword,
-  /* 116 - t                  */ SyntaxKind.IsKeyword,
-  /* 117 - u                  */ SyntaxKind.IsKeyword,
-  /* 118 - v                  */ SyntaxKind.IsKeyword,
-  /* 119 - w                  */ SyntaxKind.IsKeyword,
-  /* 120 - x                  */ SyntaxKind.IsKeyword,
-  /* 121 - y                  */ SyntaxKind.IsKeyword,
-  /* 122 - z                  */ SyntaxKind.IsKeyword,
-  /* 123 - {                  */ SyntaxKind.LeftBrace,
-  /* 124 - |                  */ SyntaxKind.BitwiseOr,
-  /* 125 - }                  */ SyntaxKind.RightBrace,
-  /* 126 - ~                  */ SyntaxKind.Complement
-];
 
 export function nextToken(parser: ParserState, context: Context): void {
   parser.nodeFlags = NodeFlags.None;
@@ -159,7 +29,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
   while (parser.pos < parser.end) {
     parser.tokenPos = parser.pos;
 
-    const token = firstCharKinds[cp];
+    const token = latinCharacters[cp];
 
     switch (token) {
       case SyntaxKind.RightBrace:
@@ -185,11 +55,8 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ false);
 
       case SyntaxKind.NumericLiteral:
-        return scanNumber(parser, context, cp, source);
+        return scanNumber(parser, context, cp, source, /* isDecimal */ true);
 
-      case SyntaxKind.CarriageReturn:
-      case SyntaxKind.LineFeed:
-        parser.nodeFlags |= NodeFlags.NewLine;
       case SyntaxKind.Whitespace:
         parser.pos++;
         break;
@@ -205,13 +72,13 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         cp = source.charCodeAt(index);
 
         if (cp >= Char.Zero && cp <= Char.Nine) {
-          return parseFloatingPointLiteral(parser, cp, source);
+          parser.nodeFlags |= NodeFlags.FloatingPointLiteral;
+          return scanNumber(parser, context, cp, source, /* isDecimal */ false);
         }
 
         if (cp === Char.Period) {
-          index++;
-          if (index < parser.end && source.charCodeAt(index) === Char.Period) {
-            parser.pos = index + 1;
+          if (index < parser.end && source.charCodeAt(index + 1) === Char.Period) {
+            parser.pos += 3;
             return SyntaxKind.Ellipsis;
           }
         }
@@ -253,6 +120,12 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       // ``string``
       case SyntaxKind.TemplateTail:
         return scanTemplateSpan(parser, context, source);
+
+      case SyntaxKind.CarriageReturn:
+      case SyntaxKind.LineFeed:
+        parser.nodeFlags |= NodeFlags.NewLine;
+        parser.pos++;
+        break;
 
       // `?`, `?.`, `??`, `??=`,
       case SyntaxKind.QuestionMark:

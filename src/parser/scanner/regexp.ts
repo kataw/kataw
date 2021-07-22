@@ -1,7 +1,6 @@
 import { ParserState } from '../common';
-import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
-import { Char } from './char';
-import { isIdentifierPart } from './common';
+import { SyntaxKind } from '../../ast/syntax-node';
+import { Char, isIdentifierPart } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
