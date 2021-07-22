@@ -224,9 +224,7 @@
 ### Printed
 
 ```javascript
-
 0 ? v => (sum = v) => 0 : v => 0;
-
 ```
 
 ### Diagnostics

@@ -222,9 +222,7 @@
 ### Printed
 
 ```javascript
-
 0 ? v => (...rest) => 0 : v => 0;
-
 ```
 
 ### Diagnostics
