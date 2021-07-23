@@ -33,7 +33,7 @@ export function fuzzScript() {
 export function fuzzModule() {
   return createRootNode(
     [],
-    repeat(/* recurmax */ 2, FuzzerContext.Module, /* times */ 1, pickRandomOne([fuzzStatement])),
+    repeat(/* recurmax */ 2, FuzzerContext.None, /* times */ 1, pickRandomOne([fuzzStatement])),
     /* isModule */ true,
     'fuzz',
     'fuzzing.js'
