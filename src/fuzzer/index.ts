@@ -5,6 +5,15 @@ import { createDebuggerStatement, DebuggerStatement } from '../ast/statements/de
 import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
 import { createIfStatement, IfStatement } from '../ast/statements/if-stmt';
 import { createThrowStatement, ThrowStatement } from '../ast/statements/throw-stmt';
+import { createWhileStatement, WhileStatement } from '../ast/statements/while-stmt';
+import { createBreakStatement, BreakStatement } from '../ast/statements/break-stmt';
+import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
+import { createDoWhileStatement, DoWhileStatement } from '../ast/statements/do-stmt';
+import { createSwitchStatement, SwitchStatement } from '../ast/statements/switch-stmt';
+import { createDefaultClause, DefaultClause } from '../ast/statements/default-clause';
+import { createCaseClause, CaseClause } from '../ast/statements/case-clause';
+import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
+import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
 import { createBlock, Block } from '../ast/statements/block';
 import { createCommaOperator, CommaOperator } from '../ast/expressions/comma-operator';
 import { createIdentifier, Identifier } from '../ast/expressions/identifier-expr';
@@ -15,6 +24,7 @@ import { createUnaryExpression, UnaryExpression } from '../ast/expressions/unary
 import { createElison, Elison } from '../ast/expressions/elison';
 import { createCallExpression, CallExpression } from '../ast/expressions/call-expr';
 import { createNewExpression, NewExpression } from '../ast/expressions/new-expr';
+import { createIndexExpression, IndexExpression } from '../ast/expressions/index-expr';
 import { createSpreadElement, SpreadElement } from '../ast/expressions/spread-element';
 import { createArrayLiteral, ArrayLiteral } from '../ast/expressions/array-literal';
 import { createArgumentList, ArgumentList } from '../ast/expressions/argument-list';
@@ -22,14 +32,16 @@ import { createElementList, ElementList } from '../ast/expressions/element-list'
 import { createStringLiteral, StringLiteral } from '../ast/expressions/string-literal';
 import { createNumericLiteral, NumericLiteral } from '../ast/expressions/numeric-literal';
 import { createExpressionStatement, ExpressionStatement } from '../ast/statements/expression-stmt';
-import { FuzzerContext, rng, repeat, pickRandomOne, createId, createString } from './common';
+import { FuzzerContext, rng, repeat, pickRandomOne, createId, createString, getTrueOrFalse } from './common';
 import { createToken } from '../ast/token';
 import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
 
 export function fuzzScript() {
+  const { directives, hasStrictDirective } = fuzzDirectives();
+  const context = hasStrictDirective ? FuzzerContext.Strict : FuzzerContext.None;
   return createRootNode(
-    [],
-    repeat(/* recurmax */ 3, FuzzerContext.None, /* times */ 5, pickRandomOne([fuzzStatement])),
+    directives,
+    repeat(/* recurmax */ 3, context, /* times */ 5, pickRandomOne([fuzzStatement])),
     /* isModule */ false,
     'fuzz',
     'fuzzing.js'
@@ -39,7 +51,12 @@ export function fuzzScript() {
 export function fuzzModule() {
   return createRootNode(
     [],
-    repeat(/* recurmax */ 3, FuzzerContext.None, /* times */ 5, pickRandomOne([fuzzStatement])),
+    repeat(
+      /* recurmax */ 3,
+      FuzzerContext.Strict | FuzzerContext.Module,
+      /* times */ 5,
+      pickRandomOne([fuzzStatement])
+    ),
     /* isModule */ true,
     'fuzz',
     'fuzzing.js'
@@ -54,6 +71,10 @@ function fuzzStatement(recurmax: number, context: FuzzerContext) {
     fuzzBlockStatement,
     fuzzExpressionStatement,
     fuzzIfStatement,
+    fuzzWhileStatement,
+    fuzzDoWhileStatement,
+    fuzzLabelledStatement,
+    fuzzSwitchStatement,
     fuzzThrowStatement
   ])(recurmax, context);
 }
@@ -66,6 +87,7 @@ function fuzzExpression(recurmax: number, context: FuzzerContext): ExpressionNod
     fuzzFalseKeyword,
     fuzzTrueKeyword,
     fuzzNullLiteral,
+    fuzzIndexExpression,
     fuzzThisKeyword,
     fuzzUnaryExpression,
     fuzzPostfixUpdateExpression,
@@ -284,12 +306,163 @@ function fuzzThrowStatement(recurmax: number, context: FuzzerContext): ThrowStat
 //  `if` `(` Expression `)` Statement
 function fuzzIfStatement(recurmax: number, context: FuzzerContext): IfStatement {
   recurmax--;
-  return createIfStatement(
-    createToken(SyntaxKind.IfKeyword, NodeFlags.None, -1, -1),
+  let count = rng(6);
+  return count > 3
+    ? createIfStatement(
+        createToken(SyntaxKind.IfKeyword, NodeFlags.None, -1, -1),
+        fuzzExpression(recurmax, context),
+        fuzzStatement(recurmax, context),
+        createToken(SyntaxKind.ElseKeyword, NodeFlags.None, -1, -1),
+        fuzzStatement(recurmax, context),
+        NodeFlags.None,
+        -1,
+        -1
+      )
+    : createIfStatement(
+        createToken(SyntaxKind.IfKeyword, NodeFlags.None, -1, -1),
+        fuzzExpression(recurmax, context),
+        fuzzStatement(recurmax, context),
+        null,
+        null,
+        NodeFlags.None,
+        -1,
+        -1
+      );
+}
+
+// WhileStatement :
+//   `while` `(` Expression `)` Statement
+function fuzzWhileStatement(recurmax: number, context: FuzzerContext): WhileStatement {
+  return createWhileStatement(
+    createToken(SyntaxKind.WhileKeyword, NodeFlags.None, -1, -1),
     fuzzExpression(recurmax, context),
+    pickRandomOne([fuzzStatement, fuzzBreakStatement, fuzzContinueStatement])(recurmax, context),
+    NodeFlags.None,
+    -1,
+    -1
+  );
+}
+function fuzzBreakStatement(): BreakStatement {
+  return createBreakStatement(createToken(SyntaxKind.BreakKeyword, NodeFlags.None, -1, -1), null, -1, -1);
+}
+
+// ContinueStatement :
+//   `continue` `;`
+//   `continue` [no LineTerminator here] LabelIdentifier `;
+function fuzzContinueStatement(): ContinueStatement {
+  return createContinueStatement(createToken(SyntaxKind.ContinueKeyword, NodeFlags.None, -1, -1), null, -1, -1);
+}
+
+function fuzzDoWhileStatement(recurmax: number, context: FuzzerContext): DoWhileStatement {
+  return createDoWhileStatement(
+    createToken(SyntaxKind.DoKeyword, NodeFlags.None, -1, -1),
+    fuzzExpression(recurmax, context),
+    createToken(SyntaxKind.WhileKeyword, NodeFlags.None, -1, -1),
+    pickRandomOne([fuzzStatement, fuzzBreakStatement, fuzzContinueStatement])(recurmax, context),
+    NodeFlags.None,
+    -1,
+    -1
+  );
+}
+
+function fuzzSwitchStatement(recurmax: number, context: FuzzerContext): SwitchStatement | EmptyStatement {
+  if (recurmax >= 3) return fuzzEmptyStatement();
+  return createSwitchStatement(
+    createToken(SyntaxKind.SwitchKeyword, NodeFlags.None, -1, -1),
+    fuzzExpression(recurmax, context),
+    fuzzCaseBlock(recurmax, context),
+    NodeFlags.None,
+    -1,
+    -1
+  );
+}
+
+function fuzzCaseBlock(recurmax: number, context: FuzzerContext): CaseBlock {
+  return createCaseBlock(fuzzSwitchClauses(recurmax, context), -1, -1);
+}
+
+function fuzzSwitchClauses(recurmax: number, context: FuzzerContext): (CaseClause | DefaultClause)[] {
+  const result = [];
+  let count = rng(6);
+  recurmax++;
+  let seenDefault = false;
+  // Prevents duplicate default clauses
+  while (count-- > 0) {
+    if (!seenDefault) {
+      seenDefault = true;
+      result.push(fuzzDefaultClause(recurmax, context));
+    }
+    result.push(fuzzCaseClause(recurmax, context));
+  }
+  if (result.length === 0) result.push(fuzzCaseClause(recurmax, context));
+  return result;
+}
+
+function fuzzCaseClause(recurmax: number, context: FuzzerContext): CaseClause {
+  return createCaseClause(
+    createToken(SyntaxKind.CaseKeyword, NodeFlags.None, -1, -1),
+    fuzzExpression(recurmax, context),
+    createToken(SyntaxKind.Colon, NodeFlags.None, -1, -1),
+    repeat(recurmax, context, 3, fuzzStatement),
+    -1,
+    -1
+  );
+}
+
+function fuzzDefaultClause(recurmax: number, context: FuzzerContext): DefaultClause {
+  return createDefaultClause(
+    createToken(SyntaxKind.DefaultKeyword, NodeFlags.None, -1, -1),
+    createToken(SyntaxKind.Colon, NodeFlags.None, -1, -1),
+    repeat(recurmax, context, 3, fuzzStatement),
+    -1,
+    0.1
+  );
+}
+
+function fuzzLabelledStatement(recurmax: number, context: FuzzerContext): LabelledStatement {
+  recurmax++;
+  return createLabelledStatement(
+    fuzzIdentifier(),
+    createToken(SyntaxKind.CaseKeyword, NodeFlags.None, -1, -1),
     fuzzStatement(recurmax, context),
-    createToken(SyntaxKind.ElseKeyword, NodeFlags.None, -1, -1),
-    fuzzStatement(recurmax, context),
+    NodeFlags.None,
+    -1,
+    -1
+  );
+}
+
+export function fuzzDirectives(): any {
+  const hasStrictDirective = getTrueOrFalse();
+  let count = rng(3);
+  const directives = [];
+  while (count-- > 0) {
+    directives.push(fuzzDirective(hasStrictDirective));
+  }
+  if (count === 0) directives.push(fuzzDirective(hasStrictDirective));
+  return { directives, hasStrictDirective };
+}
+
+export function fuzzDirective(allowUseStrict: boolean): any {
+  const useStrictDirective = getTrueOrFalse();
+  let value = allowUseStrict && useStrictDirective ? 'use strict' : createString();
+  if (allowUseStrict && !useStrictDirective) value = 'use strict';
+  return createStringLiteral(value, value, NodeFlags.None, -1, -1);
+}
+
+function fuzzIndexExpression(recurmax: number, context: FuzzerContext): IndexExpression {
+  return createIndexExpression(
+    pickRandomOne([
+      fuzzStringLiteral,
+      fuzzFalseKeyword,
+      fuzzTrueKeyword,
+      fuzzNullLiteral,
+      fuzzThisKeyword,
+      fuzzArrayLiteral,
+      fuzzCallExpression,
+      fuzzParenthesizedExpression,
+      fuzzIdentifier
+    ])(recurmax, context),
+    fuzzIdentifier(),
     NodeFlags.None,
     -1,
     -1

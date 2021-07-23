@@ -1,5 +1,7 @@
 export const enum FuzzerContext {
-  None = 0
+  None = 0,
+  Strict = 1 << 0,
+  Module = 1 << 1
 }
 
 export function pickRandomOne<T>(values: T[]): T {
