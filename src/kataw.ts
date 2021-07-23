@@ -2,7 +2,6 @@ import { parse, Options } from './parser/parser';
 import { PrinterOptions, printSource } from './printer';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/root-node';
-
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
 export { TokenSyntaxKind, createToken, SyntaxToken } from './ast/token';
@@ -148,6 +147,7 @@ export { getLeadingComments, getTrailingComments } from './parser/scanner/commen
 export { visitEachChild, visitNodes, visitNode } from './visitor';
 export { removeKatawTypes } from './transform/core';
 export { createUniqueIdentifier, UniqueIdentifierFlags } from './ast/internal/unique-identifier';
+export { fuzzModule, fuzzScript } from './fuzzer/';
 export {
   isStatementNode,
   isExpressionNode,
