@@ -437,39 +437,32 @@ declare function four<T>(this: T): void;
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 172,
-                                "end": 173
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 172,
                             "end": 173
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 172,
-                    "end": 173
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 172,
+                        "end": 173
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 171,
-                "end": 174
+                "start": 172,
+                "end": 173
             },
             "formalParameterList": {
                 "kind": 214,
@@ -574,7 +567,7 @@ declare function two(this: string, a: number): void;
 
 declare function three(this: string, ...a: any): void;
 
-declare function four<T>(this: T): void;
+declare function four(this: T): void;
 
 ```
 

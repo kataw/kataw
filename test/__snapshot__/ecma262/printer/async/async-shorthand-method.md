@@ -31,7 +31,7 @@
                                 "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 353,
+                                    "flags": 352,
                                     "transformFlags": 0,
                                     "start": 2,
                                     "end": 10
@@ -55,7 +55,7 @@
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 289,
+                                        "flags": 288,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 16
@@ -77,7 +77,7 @@
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "flags": 289,
+                                    "flags": 288,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
@@ -91,7 +91,7 @@
                                 "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 353,
+                                    "flags": 352,
                                     "transformFlags": 0,
                                     "start": 20,
                                     "end": 28
@@ -115,7 +115,7 @@
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 289,
+                                        "flags": 288,
                                         "transformFlags": 0,
                                         "start": 33,
                                         "end": 34
@@ -137,7 +137,7 @@
                                         "start": 34,
                                         "end": 37
                                     },
-                                    "flags": 289,
+                                    "flags": 288,
                                     "transformFlags": 0,
                                     "start": 32,
                                     "end": 37

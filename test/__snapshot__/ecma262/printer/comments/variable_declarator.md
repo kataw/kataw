@@ -130,7 +130,7 @@ const foo3 = 123
                                             "start": 30,
                                             "end": 36
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 23,
                                         "end": 36
@@ -213,7 +213,7 @@ const foo3 = 123
                                             "start": 70,
                                             "end": 76
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 63,
                                         "end": 76
@@ -296,7 +296,7 @@ const foo3 = 123
                                             "start": 110,
                                             "end": 116
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 92,
                                         "end": 116
@@ -379,7 +379,7 @@ const foo3 = 123
                                             "start": 152,
                                             "end": 158
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 132,
                                         "end": 158

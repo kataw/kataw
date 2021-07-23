@@ -52,18 +52,11 @@ export default function <,>() {}
                 "name": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 25,
-                        "end": 25
-                    },
+                    "declarations": [],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 23,
+                    "start": 25,
                     "end": 25
                 },
                 "formalParameterList": {

@@ -82,7 +82,7 @@ const x = {
                                             "start": 17,
                                             "end": 19
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 12,
                                         "end": 19
@@ -108,7 +108,7 @@ const x = {
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 20,
                                         "end": 27

@@ -52,7 +52,7 @@ export enum NodeFlags {
   UnicodeEscape = 1 << 14,
   FloatingPointLiteral = 1 << 15,
   ContainsSeparator = 1 << 16, // e.g. `0b1100_0101`
-  ImplicitOctal = 1 << 17,
+  LegacyOctal = 1 << 17,
   OctalIntegerLiteral = 1 << 18, // e.g. `0777`
   BinaryIntegerLiteral = 1 << 19, // e.g. `0b0110010000000000`
   HexIntegerLiteral = 1 << 20, // e.g. `0x00000000`
@@ -126,7 +126,6 @@ export enum SyntaxKind {
   RestType = 333,
   OptionalType = 334,
   OptionalIndexedAccess = 332,
-  TypeParameterList = 337,
   Block = 249,
   BlockStatement = 124,
   BooleanKeyword = 134234254,
@@ -694,7 +693,6 @@ export function tokenToString(node: any): string {
       return '; ';
   }
 }
-
 
 // Normal object is much faster than Object.create(null), even with typeof check to avoid Object.prototype interference
 export const descKeywordTable: { [key: string]: SyntaxKind | null } = {

@@ -253,7 +253,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 4, end: 12
 ✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ Expected a ')' to match the '(' token here - start: 21, end: 22
 ✖ ':' is not allowed here. Did you mean ';'? - start: 29, end: 31

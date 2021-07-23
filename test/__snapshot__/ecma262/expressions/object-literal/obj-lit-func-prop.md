@@ -58,39 +58,32 @@
                                     "name": null,
                                     "typeParameters": {
                                         "kind": 307,
-                                        "declarations": {
-                                            "kind": 337,
-                                            "parameters": [
-                                                {
-                                                    "kind": 146,
-                                                    "name": {
-                                                        "kind": 134299649,
-                                                        "text": "T",
-                                                        "rawText": "T",
-                                                        "flags": 96,
-                                                        "transformFlags": 0,
-                                                        "start": 15,
-                                                        "end": 16
-                                                    },
-                                                    "type": null,
-                                                    "assignToken": null,
-                                                    "defaultType": null,
-                                                    "flags": 2097152,
+                                        "declarations": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
                                                     "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 16
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 15,
-                                            "end": 16
-                                        },
+                                                },
+                                                "type": null,
+                                                "assignToken": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 15,
+                                                "end": 16
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 13,
-                                        "end": 17
+                                        "start": 15,
+                                        "end": 16
                                     },
                                     "formalParameterList": {
                                         "kind": 214,
@@ -164,7 +157,7 @@
 ### Printed
 
 ```javascript
-({ f: function <T>() {} });
+({ f: function () {} });
 ```
 
 ### Diagnostics

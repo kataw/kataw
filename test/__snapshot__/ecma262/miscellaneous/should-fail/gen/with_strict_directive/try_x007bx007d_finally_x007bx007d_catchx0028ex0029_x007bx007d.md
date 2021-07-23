@@ -162,12 +162,15 @@
 
 ```javascript
 
+"\"use strict\"";
+try {} finally {}
+{} catch (e) {}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 31, end: 37
-
+✔ No errors
 ```
 

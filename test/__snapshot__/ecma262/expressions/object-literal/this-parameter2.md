@@ -121,7 +121,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 38
@@ -143,7 +143,7 @@ let one = {
                                                 "start": 38,
                                                 "end": 41
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 17,
                                             "end": 41

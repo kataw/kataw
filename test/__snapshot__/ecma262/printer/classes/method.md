@@ -164,7 +164,7 @@ class C {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 0,
                                         "start": 63,
                                         "end": 64
@@ -186,7 +186,7 @@ class C {
                                         "start": 64,
                                         "end": 70
                                     },
-                                    "flags": 33,
+                                    "flags": 32,
                                     "transformFlags": 0,
                                     "start": 51,
                                     "end": 70

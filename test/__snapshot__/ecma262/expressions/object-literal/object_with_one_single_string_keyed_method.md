@@ -58,7 +58,7 @@ wrap({'foo'(){}});
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 4194336,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
@@ -80,7 +80,7 @@ wrap({'foo'(){}});
                                                 "start": 13,
                                                 "end": 15
                                             },
-                                            "flags": 4194336,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 11,
                                             "end": 15

@@ -62,7 +62,7 @@ x = {0xabc(){}}
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 1048608,
+                                        "flags": 32,
                                         "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
@@ -84,7 +84,7 @@ x = {0xabc(){}}
                                         "start": 12,
                                         "end": 14
                                     },
-                                    "flags": 1048608,
+                                    "flags": 32,
                                     "transformFlags": 0,
                                     "start": 10,
                                     "end": 14

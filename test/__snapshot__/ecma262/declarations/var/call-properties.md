@@ -160,39 +160,32 @@ var a: { <T>(x: T): number; };
                                         "staticKeyword": null,
                                         "typeParameter": {
                                             "kind": 307,
-                                            "declarations": {
-                                                "kind": 337,
-                                                "parameters": [
-                                                    {
-                                                        "kind": 146,
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 35,
-                                                            "end": 36
-                                                        },
-                                                        "type": null,
-                                                        "assignToken": null,
-                                                        "defaultType": null,
-                                                        "flags": 2097152,
+                                            "declarations": [
+                                                {
+                                                    "kind": 146,
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 35,
                                                         "end": 36
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 2097152,
-                                                "transformFlags": 0,
-                                                "start": 35,
-                                                "end": 36
-                                            },
+                                                    },
+                                                    "type": null,
+                                                    "assignToken": null,
+                                                    "defaultType": null,
+                                                    "flags": 2097152,
+                                                    "transformFlags": 0,
+                                                    "start": 35,
+                                                    "end": 36
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
                                             "transformFlags": 512,
-                                            "start": 33,
-                                            "end": 37
+                                            "start": 35,
+                                            "end": 36
                                         },
                                         "value": {
                                             "kind": 282,
@@ -727,39 +720,32 @@ var a: { <T>(x: T): number; };
                                         "staticKeyword": null,
                                         "typeParameter": {
                                             "kind": 307,
-                                            "declarations": {
-                                                "kind": 337,
-                                                "parameters": [
-                                                    {
-                                                        "kind": 146,
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 167,
-                                                            "end": 168
-                                                        },
-                                                        "type": null,
-                                                        "assignToken": null,
-                                                        "defaultType": null,
-                                                        "flags": 2097152,
+                                            "declarations": [
+                                                {
+                                                    "kind": 146,
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 167,
                                                         "end": 168
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 2097152,
-                                                "transformFlags": 0,
-                                                "start": 167,
-                                                "end": 168
-                                            },
+                                                    },
+                                                    "type": null,
+                                                    "assignToken": null,
+                                                    "defaultType": null,
+                                                    "flags": 2097152,
+                                                    "transformFlags": 0,
+                                                    "start": 167,
+                                                    "end": 168
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
                                             "transformFlags": 512,
-                                            "start": 165,
-                                            "end": 169
+                                            "start": 167,
+                                            "end": 168
                                         },
                                         "value": {
                                             "kind": 282,
@@ -880,7 +866,7 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 var a: { (): number };
-var a: { <T>(x: T): number };
+var a: { (x: T): number };
 
 var a: { (): number };
 
@@ -888,7 +874,7 @@ var a: { (): number };
 
 var a: { (): number, y: string, (x: string): string };
 
-var a: { <T>(x: T): number };
+var a: { (x: T): number };
 
 ```
 

@@ -72,7 +72,7 @@ const b = {
                                             "start": 32,
                                             "end": 69
                                         },
-                                        "flags": 4210721,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 20,
                                         "end": 69
@@ -155,7 +155,7 @@ const b = {
                                             "start": 116,
                                             "end": 143
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 86,
                                         "end": 143

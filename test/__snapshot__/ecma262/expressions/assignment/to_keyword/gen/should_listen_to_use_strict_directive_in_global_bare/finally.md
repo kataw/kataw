@@ -114,7 +114,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 13, end: 21
 ✖ Declaration or statement expected - start: 21, end: 23
 
 ```

@@ -30,39 +30,32 @@
                 "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 2
-                    },
+                            },
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 1,
+                            "end": 2
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 0,
-                    "end": 3
+                    "start": 1,
+                    "end": 2
                 },
                 "arrowPatameterList": {
                     "kind": 342,
@@ -136,7 +129,7 @@
 ### Printed
 
 ```javascript
-<x>() => {};
+() => {};
 ```
 
 ### Diagnostics

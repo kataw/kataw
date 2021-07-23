@@ -1039,7 +1039,7 @@ function StatelessFunctionalComponent3(
                                             "start": 687,
                                             "end": 692
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 673,
                                         "end": 692

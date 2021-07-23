@@ -150,7 +150,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 28,
                                             "end": 34
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 21,
                                         "end": 34
@@ -176,7 +176,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 42,
                                             "end": 48
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 35,
                                         "end": 48
@@ -202,7 +202,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 56,
                                             "end": 64
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 49,
                                         "end": 64
@@ -292,7 +292,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 85,
                                             "end": 94
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 77,
                                         "end": 94
@@ -325,7 +325,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 102,
                                             "end": 110
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 95,
                                         "end": 110
@@ -408,7 +408,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 128,
                                             "end": 130
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 123,
                                         "end": 130
@@ -434,7 +434,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 136,
                                             "end": 138
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 131,
                                         "end": 138
@@ -460,7 +460,7 @@ a?.['b']?.[0]?.(1);
                                             "start": 144,
                                             "end": 146
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 139,
                                         "end": 146
@@ -674,7 +674,7 @@ a?.['b']?.[0]?.(1);
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 193,
                                                 "end": 194
@@ -696,7 +696,7 @@ a?.['b']?.[0]?.(1);
                                                 "start": 194,
                                                 "end": 197
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 192,
                                             "end": 197
@@ -745,7 +745,7 @@ a?.['b']?.[0]?.(1);
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 207,
                                                 "end": 209
@@ -767,7 +767,7 @@ a?.['b']?.[0]?.(1);
                                                 "start": 209,
                                                 "end": 212
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 206,
                                             "end": 212
@@ -809,7 +809,7 @@ a?.['b']?.[0]?.(1);
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 218,
                                                 "end": 220
@@ -855,7 +855,7 @@ a?.['b']?.[0]?.(1);
                                                 "start": 220,
                                                 "end": 240
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 217,
                                             "end": 240

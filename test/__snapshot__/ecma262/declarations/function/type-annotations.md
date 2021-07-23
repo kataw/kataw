@@ -1385,36 +1385,29 @@ function foo28(numVal?: number = 2) {}
                                                     },
                                                     "typeParameters": {
                                                         "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 134234345,
-                                                                        "flags": 2097216,
-                                                                        "transformFlags": 0,
-                                                                        "start": 481,
-                                                                        "end": 487
-                                                                    },
-                                                                    "flags": 2097152,
+                                                        "types": [
+                                                            {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 134234345,
+                                                                    "flags": 2097216,
                                                                     "transformFlags": 0,
                                                                     "start": 481,
                                                                     "end": 487
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "transformFlags": 0,
-                                                            "start": 481,
-                                                            "end": 487
-                                                        },
+                                                                },
+                                                                "flags": 2097152,
+                                                                "transformFlags": 0,
+                                                                "start": 481,
+                                                                "end": 487
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
                                                         "flags": 2097152,
                                                         "transformFlags": 512,
-                                                        "start": 480,
-                                                        "end": 488
+                                                        "start": 481,
+                                                        "end": 487
                                                     },
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
@@ -2066,39 +2059,32 @@ function foo28(numVal?: number = 2) {}
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 678,
-                                "end": 679
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 678,
                             "end": 679
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 678,
-                    "end": 679
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 678,
+                        "end": 679
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 677,
-                "end": 680
+                "start": 678,
+                "end": 679
             },
             "formalParameterList": {
                 "kind": 214,
@@ -2349,36 +2335,29 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 134234347,
-                                                    "flags": 2097216,
-                                                    "transformFlags": 0,
-                                                    "start": 751,
-                                                    "end": 757
-                                                },
-                                                "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
                                                 "transformFlags": 0,
                                                 "start": 751,
                                                 "end": 757
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 751,
-                                        "end": 757
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 751,
+                                            "end": 757
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 750,
-                                    "end": 758
+                                    "start": 751,
+                                    "end": 757
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -2486,36 +2465,29 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 134234345,
-                                                    "flags": 2097216,
-                                                    "transformFlags": 0,
-                                                    "start": 793,
-                                                    "end": 799
-                                                },
-                                                "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
                                                 "transformFlags": 0,
                                                 "start": 793,
                                                 "end": 799
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 793,
-                                        "end": 799
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 793,
+                                            "end": 799
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 792,
-                                    "end": 800
+                                    "start": 793,
+                                    "end": 799
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -2807,7 +2779,7 @@ function foo15(): (_?: bool) => number {}
 
 function foo16(): {} {}
 
-function foo17<T>() {}
+function foo17() {}
 
 function foo21({ x }: { x: string }) {}
 

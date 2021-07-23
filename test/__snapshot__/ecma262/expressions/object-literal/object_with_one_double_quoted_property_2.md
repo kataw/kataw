@@ -58,7 +58,7 @@ wrap({'a':b});
                                             "start": 10,
                                             "end": 11
                                         },
-                                        "flags": 4194336,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 6,
                                         "end": 11

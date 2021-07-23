@@ -60,7 +60,7 @@ foo = {
                                     "asteriskToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
-                                        "flags": 97,
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 7,
                                         "end": 13
@@ -82,7 +82,7 @@ foo = {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
-                                            "flags": 1057,
+                                            "flags": 1056,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
@@ -184,7 +184,7 @@ foo = {
                                             "start": 17,
                                             "end": 49
                                         },
-                                        "flags": 1057,
+                                        "flags": 1056,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 49
@@ -265,7 +265,6 @@ foo = {
 
 ```javascript
 ✖ Identifier expected - start: 42, end: 49
-✖ 'try' expected - start: 42, end: 49
 ✖ The parser expected to find a '}' to match the '{' token here - start: 50, end: 51
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 51
 ✖ ')' is not allowed here. Did you mean ';'? - start: 53, end: 54

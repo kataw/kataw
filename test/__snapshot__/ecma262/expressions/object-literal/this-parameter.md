@@ -121,7 +121,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 30
@@ -143,7 +143,7 @@ let one = {
                                                 "start": 30,
                                                 "end": 33
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 33
@@ -220,7 +220,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 57
@@ -242,7 +242,7 @@ let one = {
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 40,
                                             "end": 60
@@ -336,7 +336,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 35,
+                                                "flags": 34,
                                                 "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 87
@@ -358,7 +358,7 @@ let one = {
                                                 "start": 87,
                                                 "end": 90
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 67,
                                             "end": 90
@@ -470,7 +470,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 99,
+                                                "flags": 98,
                                                 "transformFlags": 0,
                                                 "start": 98,
                                                 "end": 123
@@ -492,7 +492,7 @@ let one = {
                                                 "start": 123,
                                                 "end": 126
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 97,
                                             "end": 126
@@ -521,39 +521,32 @@ let one = {
                                             },
                                             "typeParameters": {
                                                 "kind": 307,
-                                                "declarations": {
-                                                    "kind": 337,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 146,
-                                                            "name": {
-                                                                "kind": 134299649,
-                                                                "text": "T",
-                                                                "rawText": "T",
-                                                                "flags": 96,
-                                                                "transformFlags": 0,
-                                                                "start": 134,
-                                                                "end": 135
-                                                            },
-                                                            "type": null,
-                                                            "assignToken": null,
-                                                            "defaultType": null,
-                                                            "flags": 2097152,
+                                                "declarations": [
+                                                    {
+                                                        "kind": 146,
+                                                        "name": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
                                                             "transformFlags": 0,
                                                             "start": 134,
                                                             "end": 135
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 134,
-                                                    "end": 135
-                                                },
+                                                        },
+                                                        "type": null,
+                                                        "assignToken": null,
+                                                        "defaultType": null,
+                                                        "flags": 2097152,
+                                                        "transformFlags": 0,
+                                                        "start": 134,
+                                                        "end": 135
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 2097152,
                                                 "transformFlags": 512,
-                                                "start": 133,
-                                                "end": 136
+                                                "start": 134,
+                                                "end": 135
                                             },
                                             "formalParameterList": {
                                                 "kind": 214,
@@ -605,7 +598,7 @@ let one = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 137,
                                                 "end": 145
@@ -627,7 +620,7 @@ let one = {
                                                 "start": 145,
                                                 "end": 148
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 133,
                                             "end": 148
@@ -684,7 +677,7 @@ let one = {
     m2(this: number, a) {},
     m3(this: number, ...a) {},
     m4(this: number, a, b, ...c) {},
-    m5<T>(this: T) {}
+    m5(this: T) {}
   };
 ```
 

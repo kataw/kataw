@@ -7683,36 +7683,29 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234252,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 5430,
-                                        "end": 5433
-                                    },
-                                    "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234252,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 5430,
                                     "end": 5433
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 5430,
-                            "end": 5433
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 5430,
+                                "end": 5433
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 5429,
-                        "end": 5434
+                        "start": 5430,
+                        "end": 5433
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -7932,36 +7925,29 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234252,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 5574,
-                                        "end": 5577
-                                    },
-                                    "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234252,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 5574,
                                     "end": 5577
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 5574,
-                            "end": 5577
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 5574,
+                                "end": 5577
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 5573,
-                        "end": 5578
+                        "start": 5574,
+                        "end": 5577
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -10031,76 +10017,69 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234353,
-                                        "properties": [
-                                            {
-                                                "kind": 193,
-                                                "protoKeyword": null,
-                                                "staticKeyword": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 6371,
-                                                    "end": 6372
-                                                },
-                                                "optionalToken": null,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234353,
+                                    "properties": [
+                                        {
+                                            "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 6371,
+                                                "end": 6372
+                                            },
+                                            "optionalToken": null,
+                                            "type": {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
-                                                        "transformFlags": 0,
-                                                        "start": 6373,
-                                                        "end": 6380
-                                                    },
-                                                    "flags": 2097152,
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
                                                     "transformFlags": 0,
                                                     "start": 6373,
                                                     "end": 6380
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
-                                                "start": 6371,
+                                                "start": 6373,
                                                 "end": 6380
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 6370,
-                                        "end": 6381
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 6371,
+                                            "end": 6380
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 6370,
                                     "end": 6381
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 6370,
-                            "end": 6381
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 6370,
+                                "end": 6381
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 6369,
-                        "end": 6382
+                        "start": 6370,
+                        "end": 6381
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -10767,76 +10746,69 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234353,
-                                        "properties": [
-                                            {
-                                                "kind": 193,
-                                                "protoKeyword": null,
-                                                "staticKeyword": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 6690,
-                                                    "end": 6691
-                                                },
-                                                "optionalToken": null,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234353,
+                                    "properties": [
+                                        {
+                                            "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticKeyword": null,
+                                            "getKeyword": null,
+                                            "setKeyword": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "transformFlags": 0,
+                                                "start": 6690,
+                                                "end": 6691
+                                            },
+                                            "optionalToken": null,
+                                            "type": {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
-                                                        "transformFlags": 0,
-                                                        "start": 6692,
-                                                        "end": 6699
-                                                    },
-                                                    "flags": 2097152,
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
                                                     "transformFlags": 0,
                                                     "start": 6692,
                                                     "end": 6699
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
-                                                "start": 6690,
+                                                "start": 6692,
                                                 "end": 6699
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 6689,
-                                        "end": 6700
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 6690,
+                                            "end": 6699
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 6689,
                                     "end": 6700
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 6689,
-                            "end": 6700
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 6689,
+                                "end": 6700
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 6688,
-                        "end": 6701
+                        "start": 6689,
+                        "end": 6700
                     },
                     "flags": 2097152,
                     "transformFlags": 0,

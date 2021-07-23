@@ -59,7 +59,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "start": 6,
                                             "end": 7
                                         },
-                                        "flags": 32800,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 3,
                                         "end": 7
@@ -85,7 +85,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "flags": 1048608,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 8,
                                         "end": 15
@@ -111,7 +111,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "start": 21,
                                             "end": 22
                                         },
-                                        "flags": 524320,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 16,
                                         "end": 22
@@ -137,7 +137,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "start": 29,
                                             "end": 30
                                         },
-                                        "flags": 262176,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 23,
                                         "end": 30
@@ -240,7 +240,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32800,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 51
@@ -262,7 +262,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "start": 51,
                                                 "end": 53
                                             },
-                                            "flags": 32800,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 49,
                                             "end": 53
@@ -294,7 +294,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 1048608,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 61
@@ -316,7 +316,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "start": 61,
                                                 "end": 63
                                             },
-                                            "flags": 1048608,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 59,
                                             "end": 63
@@ -348,7 +348,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 524320,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 69,
                                                 "end": 70
@@ -370,7 +370,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "start": 70,
                                                 "end": 72
                                             },
-                                            "flags": 524320,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 68,
                                             "end": 72
@@ -402,7 +402,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 262176,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 80
@@ -424,7 +424,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "start": 80,
                                                 "end": 82
                                             },
-                                            "flags": 262176,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 78,
                                             "end": 82

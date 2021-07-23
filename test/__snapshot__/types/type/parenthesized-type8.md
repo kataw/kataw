@@ -85,19 +85,12 @@ type X = (x.y<>);
                         },
                         "typeParameters": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 14
-                            },
+                            "types": [],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 13,
-                            "end": 15
+                            "start": 14,
+                            "end": 14
                         },
                         "flags": 2097152,
                         "transformFlags": 0,

@@ -68,39 +68,32 @@ class Array { concat(items:number | string) {}; }
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 12
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 12
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 12
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 11,
+                        "end": 12
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 10,
-                "end": 13
+                "start": 11,
+                "end": 12
             },
             "tail": {
                 "kind": 277,
@@ -145,39 +138,32 @@ class Array { concat(items:number | string) {}; }
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 28,
-                                "end": 29
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 28,
                             "end": 29
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 28,
-                    "end": 29
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 28,
+                        "end": 29
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 27,
-                "end": 30
+                "start": 28,
+                "end": 29
             },
             "tail": {
                 "kind": 277,
@@ -201,46 +187,39 @@ class Array { concat(items:number | string) {}; }
                     },
                     "typeParameter": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 43,
-                                            "end": 44
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 43,
                                         "end": 44
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 43,
                                     "end": 44
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 43,
-                            "end": 44
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 43,
+                                "end": 44
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 42,
-                        "end": 45
+                        "start": 43,
+                        "end": 44
                     },
                     "flags": 16,
                     "transformFlags": 0,
@@ -287,39 +266,32 @@ class Array { concat(items:number | string) {}; }
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 60,
-                                "end": 61
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 61
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 60,
-                    "end": 61
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 60,
+                        "end": 61
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 59,
-                "end": 62
+                "start": 60,
+                "end": 61
             },
             "tail": {
                 "kind": 277,
@@ -860,39 +832,32 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 248,
-                                                    "end": 249
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 248,
                                                 "end": 249
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 248,
-                                        "end": 249
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 248,
+                                            "end": 249
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 247,
-                                    "end": 250
+                                    "start": 248,
+                                    "end": 249
                                 },
                                 "formalParameterList": {
                                     "kind": 214,
@@ -1391,10 +1356,10 @@ class Array { concat(items:number | string) {}; }
 ### Printed
 
 ```javascript
-class Foo4 <T>{}
-class Foo5 <T> extends Bar<T> {}
+class Foo4 {}
+class Foo5  extends Bar<T> {}
 
-class Foo6 <T> extends mixin(Bar) {}
+class Foo6  extends mixin(Bar) {}
 
 class Foo1 {
   set fooProp(value: number) {}
@@ -1409,7 +1374,7 @@ class Foo3 {
 }
 
 class Foo8 {
-  "\"bar\""<T>() {}
+  "\"bar\""() {}
 }
 
 class Foo10 {

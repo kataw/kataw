@@ -103,36 +103,29 @@ type x = {get x (/*1*/): string }
                                     },
                                     "typeParameters": {
                                         "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [
-                                                {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
-                                                        "transformFlags": 0,
-                                                        "start": 27,
-                                                        "end": 33
-                                                    },
-                                                    "flags": 2097152,
+                                        "types": [
+                                            {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
                                                     "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 33
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 27,
-                                            "end": 33
-                                        },
+                                                },
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 27,
+                                                "end": 33
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 26,
-                                        "end": 34
+                                        "start": 27,
+                                        "end": 33
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,
@@ -250,36 +243,29 @@ type x = {get x (/*1*/): string }
                                                 },
                                                 "typeParameters": {
                                                     "kind": 310,
-                                                    "typeInstantiations": {
-                                                        "kind": 309,
-                                                        "types": [
-                                                            {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 134234347,
-                                                                    "flags": 2097216,
-                                                                    "transformFlags": 0,
-                                                                    "start": 63,
-                                                                    "end": 69
-                                                                },
-                                                                "flags": 2097152,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 2097216,
                                                                 "transformFlags": 0,
                                                                 "start": 63,
                                                                 "end": 69
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "transformFlags": 0,
-                                                        "start": 63,
-                                                        "end": 69
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 63,
+                                                            "end": 69
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
                                                     "transformFlags": 512,
-                                                    "start": 62,
-                                                    "end": 70
+                                                    "start": 63,
+                                                    "end": 69
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
@@ -317,36 +303,29 @@ type x = {get x (/*1*/): string }
                                                 },
                                                 "typeParameters": {
                                                     "kind": 310,
-                                                    "typeInstantiations": {
-                                                        "kind": 309,
-                                                        "types": [
-                                                            {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 134234347,
-                                                                    "flags": 2097216,
-                                                                    "transformFlags": 0,
-                                                                    "start": 86,
-                                                                    "end": 92
-                                                                },
-                                                                "flags": 2097152,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 2097216,
                                                                 "transformFlags": 0,
                                                                 "start": 86,
                                                                 "end": 92
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "transformFlags": 0,
-                                                        "start": 86,
-                                                        "end": 92
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 86,
+                                                            "end": 92
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
                                                     "transformFlags": 512,
-                                                    "start": 85,
-                                                    "end": 93
+                                                    "start": 86,
+                                                    "end": 92
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
@@ -476,36 +455,29 @@ type x = {get x (/*1*/): string }
                                                 },
                                                 "typeParameters": {
                                                     "kind": 310,
-                                                    "typeInstantiations": {
-                                                        "kind": 309,
-                                                        "types": [
-                                                            {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 134234347,
-                                                                    "flags": 2097216,
-                                                                    "transformFlags": 0,
-                                                                    "start": 121,
-                                                                    "end": 132
-                                                                },
-                                                                "flags": 2097152,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 2097216,
                                                                 "transformFlags": 0,
                                                                 "start": 121,
                                                                 "end": 132
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "transformFlags": 0,
-                                                        "start": 121,
-                                                        "end": 132
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 121,
+                                                            "end": 132
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
                                                     "transformFlags": 512,
-                                                    "start": 120,
-                                                    "end": 138
+                                                    "start": 121,
+                                                    "end": 132
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
@@ -543,36 +515,29 @@ type x = {get x (/*1*/): string }
                                                 },
                                                 "typeParameters": {
                                                     "kind": 310,
-                                                    "typeInstantiations": {
-                                                        "kind": 309,
-                                                        "types": [
-                                                            {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 134234347,
-                                                                    "flags": 2097216,
-                                                                    "transformFlags": 0,
-                                                                    "start": 154,
-                                                                    "end": 160
-                                                                },
-                                                                "flags": 2097152,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 2097216,
                                                                 "transformFlags": 0,
                                                                 "start": 154,
                                                                 "end": 160
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "transformFlags": 0,
-                                                        "start": 154,
-                                                        "end": 160
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 154,
+                                                            "end": 160
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
                                                     "transformFlags": 512,
-                                                    "start": 153,
-                                                    "end": 161
+                                                    "start": 154,
+                                                    "end": 160
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
@@ -678,39 +643,32 @@ type x = {get x (/*1*/): string }
                     "kind": 288,
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 202,
-                                        "end": 209
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 202,
                                     "end": 209
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 202,
-                            "end": 209
-                        },
+                                },
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 202,
+                                "end": 209
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 193,
-                        "end": 216
+                        "start": 202,
+                        "end": 209
                     },
                     "arrowTypeParameterList": {
                         "kind": 292,
@@ -1430,39 +1388,32 @@ type x = {get x (/*1*/): string }
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "number",
-                                "rawText": "number",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 492,
-                                "end": 498
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "number",
+                            "rawText": "number",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 492,
                             "end": 498
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 492,
-                    "end": 498
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 492,
+                        "end": 498
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 491,
-                "end": 499
+                "start": 492,
+                "end": 498
             },
             "assignToken": {
                 "kind": 4125,
@@ -1624,7 +1575,7 @@ type A = (Array<string>, .../*1*/ Array<string>) => void
 
 type A = (Array</*1*/ string> /*2*/, .../*3*/ Array<string> /*4*/) => void
 
-type Fn1 /*1*/ =/*2*/  </*3*/ T> /*4*/(/*5*/ T /*6*/)/*7*/  =>/*8*/  T
+type Fn1 /*1*/ =/*2*/   /*4*/(/*5*/ T /*6*/)/*7*/  =>/*8*/  T
 
 type E = Obj /*1*/["'bar'"][]
 
@@ -1638,7 +1589,7 @@ type /*1*/ a /*2*/ =/*3*/  { /*4*/ "\"string\"" /*5*/:/*6*/  y./*7*/ z }
 
 type C = { .../*1*/ A & B /*1*/ }
 
-type foo<number> /*1*/ =/*2*/  string
+type foo =/*2*/  string
 
 type x = { x(): string }
 

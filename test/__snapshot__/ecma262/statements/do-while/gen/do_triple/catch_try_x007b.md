@@ -301,7 +301,6 @@ do do do catch try { while while while
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 8, end: 14
 ✖ Missing an opening parentheses - '( - start: 15, end: 18
 ✖ Missing an opening parentheses - '( - start: 27, end: 32
 ✖ Missing an opening parentheses - '( - start: 33, end: 38

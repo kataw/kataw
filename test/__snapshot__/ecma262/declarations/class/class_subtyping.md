@@ -50,39 +50,32 @@ class D extends C<O> {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "X",
-                                "rawText": "X",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 9,
-                                "end": 10
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "X",
+                            "rawText": "X",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 10
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 10
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 10
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 8,
-                "end": 11
+                "start": 9,
+                "end": 10
             },
             "tail": {
                 "kind": 277,
@@ -204,46 +197,39 @@ class D extends C<O> {
                     },
                     "typeParameter": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "O",
-                                            "rawText": "O",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 41,
-                                            "end": 42
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "O",
+                                        "rawText": "O",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 41,
                                         "end": 42
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 41,
                                     "end": 42
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 41,
-                            "end": 42
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 41,
+                                "end": 42
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 40,
-                        "end": 43
+                        "start": 41,
+                        "end": 42
                     },
                     "flags": 16,
                     "transformFlags": 0,
@@ -371,7 +357,7 @@ class D extends C<O> {
 ### Printed
 
 ```javascript
-class C <X>{
+class C {
   x: X;;
 }
 class D extends C<O> {

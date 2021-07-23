@@ -30,58 +30,51 @@
                 "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 3,
-                                    "end": 5
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 1,
+                            "end": 2
+                        },
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 3,
                                 "end": 5
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 5
-                    },
+                            },
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 3,
+                            "end": 5
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 0,
-                    "end": 6
+                    "start": 1,
+                    "end": 5
                 },
                 "arrowPatameterList": {
                     "kind": 342,
@@ -150,7 +143,7 @@
 ### Printed
 
 ```javascript
-<A, B>(x) => {};
+(x) => {};
 ```
 
 ### Diagnostics

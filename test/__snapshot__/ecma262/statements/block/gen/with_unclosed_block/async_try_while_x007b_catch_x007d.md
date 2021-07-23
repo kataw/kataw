@@ -276,7 +276,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 4, end: 12
 ✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ 'try' is not allowed here. Did you mean ';'? - start: 23, end: 27
 ✖ 'catch' expected - start: 27, end: 33

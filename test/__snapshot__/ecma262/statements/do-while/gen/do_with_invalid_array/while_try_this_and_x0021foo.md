@@ -282,7 +282,6 @@ do while [catch] while try this and !foo
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
-✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Missing an opening parentheses - '( - start: 23, end: 26
 ✖ 'catch' expected - start: 26, end: 31

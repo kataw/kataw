@@ -68,7 +68,7 @@ var y = { \u0064ebugger: x } = { debugger: 42 };
                                                 "start": 24,
                                                 "end": 26
                                             },
-                                            "flags": 16416,
+                                            "flags": 32,
                                             "transformFlags": 128,
                                             "start": 9,
                                             "end": 26

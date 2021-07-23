@@ -191,7 +191,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 5, end: 11
 ✖ 'catch' expected - start: 18, end: 18
 
 ```

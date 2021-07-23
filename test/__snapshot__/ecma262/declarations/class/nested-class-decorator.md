@@ -138,7 +138,7 @@ class Bar {
                                                         "start": 12,
                                                         "end": 32
                                                     },
-                                                    "flags": 33,
+                                                    "flags": 32,
                                                     "transformFlags": 128,
                                                     "start": 3,
                                                     "end": 32

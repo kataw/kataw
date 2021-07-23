@@ -84,36 +84,29 @@ type A = (...Array<string>) => void
                                     },
                                     "typeParameters": {
                                         "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [
-                                                {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
-                                                        "transformFlags": 0,
-                                                        "start": 19,
-                                                        "end": 25
-                                                    },
-                                                    "flags": 2097152,
+                                        "types": [
+                                            {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
                                                     "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 25
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 19,
-                                            "end": 25
-                                        },
+                                                },
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 19,
+                                                "end": 25
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 18,
-                                        "end": 26
+                                        "start": 19,
+                                        "end": 25
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,

@@ -66,46 +66,39 @@ opaque type Counter: Box<T> = Container<T>;
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 25,
-                                            "end": 26
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 25,
                                         "end": 26
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 25,
-                            "end": 26
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 26
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 24,
-                        "end": 27
+                        "start": 25,
+                        "end": 26
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -134,46 +127,39 @@ opaque type Counter: Box<T> = Container<T>;
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 40,
-                                            "end": 41
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 40,
                                         "end": 41
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 40,
                                     "end": 41
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 40,
-                            "end": 41
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 40,
+                                "end": 41
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 39,
-                        "end": 42
+                        "start": 40,
+                        "end": 41
                     },
                     "flags": 2097152,
                     "transformFlags": 0,

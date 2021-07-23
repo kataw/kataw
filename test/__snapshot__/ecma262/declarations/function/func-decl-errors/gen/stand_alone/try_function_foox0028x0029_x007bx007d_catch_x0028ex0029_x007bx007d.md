@@ -205,7 +205,6 @@ try function foo() {} catch (e) {}
 
 ```javascript
 ✖ 'catch' expected - start: 3, end: 12
-✖ 'try' expected - start: 21, end: 27
 
 ```
 

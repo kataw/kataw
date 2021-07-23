@@ -97,11 +97,9 @@ import { createObjectTypeInternalSlot, ObjectTypeInternalSlot } from './ast/type
 import { createObjectTypeProperty, ObjectTypeProperty } from './ast/types/object-type-property';
 import { createOpaqueType, OpaqueType } from './ast/types/opaque-type';
 import { createQualifiedType, QualifiedType } from './ast/types/qualified-type';
-import { createTypeInstantiations, TypeInstantiations } from './ast/types/type-instantiations';
 import { createTypeAnnotation, TypeAnnotation } from './ast/types/type-annotation';
 import { createTypeParameterDeclaration, TypeParameterDeclaration } from './ast/types/type-parameter-declaration';
 import { createTypeParameterInstantiation, TypeParameterInstantiation } from './ast/types/type-parameter-instantiation';
-import { createTypeParameterList, TypeParameterList } from './ast/types/type-parameter-list';
 import { createTypeofType, TypeofType } from './ast/types/typeof-type';
 import { createTypeReference, TypeReference } from './ast/types/type-reference';
 import { createFunctionType, FunctionType } from './ast/types/function-type';
@@ -1690,15 +1688,6 @@ export function visitEachChild(
               (<QualifiedType>node).end
             )
           : node;
-      case SyntaxKind.TypeInstantiations:
-        return (<TypeInstantiations>node).types !== visitNodes((<TypeInstantiations>node).types, visitor)
-          ? createTypeInstantiations(
-              (<TypeInstantiations>node).types,
-              (<TypeInstantiations>node).trailingComma,
-              (<TypeInstantiations>node).start,
-              (<TypeInstantiations>node).end
-            )
-          : node;
       case SyntaxKind.TypeAnnotation:
         return (<TypeAnnotation>node).bitwiseOrToken !== visitNode((<TypeAnnotation>node).bitwiseOrToken, visitor) ||
           (<TypeAnnotation>node).bitwiseAndToken !== visitNode((<TypeAnnotation>node).bitwiseAndToken, visitor) ||
@@ -1713,9 +1702,10 @@ export function visitEachChild(
           : node;
       case SyntaxKind.TypeParameterDeclaration:
         return (<TypeParameterDeclaration>node).declarations !==
-          visitNode((<TypeParameterDeclaration>node).declarations, visitor)
+          visitNodes((<TypeParameterDeclaration>node).declarations, visitor)
           ? createTypeParameterDeclaration(
               (<TypeParameterDeclaration>node).declarations,
+              (<TypeParameterDeclaration>node).trailingComma,
               (<TypeParameterDeclaration>node).flags,
               (<TypeParameterDeclaration>node).start,
               (<TypeParameterDeclaration>node).end
@@ -1723,23 +1713,14 @@ export function visitEachChild(
           : node;
 
       case SyntaxKind.TypeParameterInstantiation:
-        return (<TypeParameterInstantiation>node).typeInstantiations !==
-          visitNode((<TypeParameterInstantiation>node).typeInstantiations, visitor)
+        return (<TypeParameterInstantiation>node).types !==
+          visitNodes((<TypeParameterInstantiation>node).types, visitor)
           ? createTypeParameterInstantiation(
-              (<TypeParameterInstantiation>node).typeInstantiations,
+              (<TypeParameterInstantiation>node).types,
+              (<TypeParameterInstantiation>node).trailingComma,
               (<TypeParameterInstantiation>node).flags,
               (<TypeParameterInstantiation>node).start,
               (<TypeParameterInstantiation>node).end
-            )
-          : node;
-
-      case SyntaxKind.TypeParameterList:
-        return (<TypeParameterList>node).parameters !== visitNodes((<TypeParameterList>node).parameters, visitor)
-          ? createTypeParameterList(
-              (<TypeParameterList>node).parameters,
-              (<TypeParameterList>node).trailingComma,
-              (<TypeParameterList>node).start,
-              (<TypeParameterList>node).end
             )
           : node;
 

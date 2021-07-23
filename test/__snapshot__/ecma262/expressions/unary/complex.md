@@ -659,36 +659,29 @@ function x8(a: false & false): false {
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 205586437,
-                                                    "flags": 2097216,
-                                                    "transformFlags": 0,
-                                                    "start": 348,
-                                                    "end": 353
-                                                },
-                                                "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 205586437,
+                                                "flags": 2097216,
                                                 "transformFlags": 0,
                                                 "start": 348,
                                                 "end": 353
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 348,
-                                        "end": 353
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 348,
+                                            "end": 353
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 347,
-                                    "end": 354
+                                    "start": 348,
+                                    "end": 353
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -850,36 +843,29 @@ function x8(a: false & false): false {
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 205586437,
-                                                    "flags": 2097216,
-                                                    "transformFlags": 0,
-                                                    "start": 404,
-                                                    "end": 409
-                                                },
-                                                "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 205586437,
+                                                "flags": 2097216,
                                                 "transformFlags": 0,
                                                 "start": 404,
                                                 "end": 409
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 404,
-                                        "end": 409
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 404,
+                                            "end": 409
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 403,
-                                    "end": 410
+                                    "start": 404,
+                                    "end": 409
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,

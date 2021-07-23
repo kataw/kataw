@@ -52,39 +52,32 @@ class C<T> {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 8,
-                                "end": 9
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 9
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 9
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 8,
+                        "end": 9
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 7,
-                "end": 10
+                "start": 8,
+                "end": 9
             },
             "tail": {
                 "kind": 277,
@@ -125,53 +118,46 @@ class C<T> {
                                     },
                                     "typeParameters": {
                                         "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [
-                                                {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234353,
-                                                        "properties": [
-                                                            {
-                                                                "kind": 193,
-                                                                "protoKeyword": null,
-                                                                "staticKeyword": null,
-                                                                "getKeyword": null,
-                                                                "setKeyword": null,
-                                                                "key": {
-                                                                    "kind": 134299649,
-                                                                    "text": "value",
-                                                                    "rawText": "value",
-                                                                    "flags": 96,
-                                                                    "transformFlags": 0,
-                                                                    "start": 27,
-                                                                    "end": 32
-                                                                },
-                                                                "optionalToken": null,
+                                        "types": [
+                                            {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticKeyword": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "value",
+                                                                "rawText": "value",
+                                                                "flags": 96,
+                                                                "transformFlags": 0,
+                                                                "start": 27,
+                                                                "end": 32
+                                                            },
+                                                            "optionalToken": null,
+                                                            "type": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "T",
-                                                                            "rawText": "T",
-                                                                            "flags": 96,
-                                                                            "transformFlags": 0,
-                                                                            "start": 33,
-                                                                            "end": 35
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                                    "kind": 144,
+                                                                    "typeName": {
+                                                                        "kind": 134299649,
+                                                                        "text": "T",
+                                                                        "rawText": "T",
+                                                                        "flags": 96,
                                                                         "transformFlags": 0,
                                                                         "start": 33,
                                                                         "end": 35
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "transformFlags": 0,
                                                                     "start": 33,
@@ -179,32 +165,32 @@ class C<T> {
                                                                 },
                                                                 "flags": 2097152,
                                                                 "transformFlags": 0,
-                                                                "start": 27,
+                                                                "start": 33,
                                                                 "end": 35
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "transformFlags": 0,
-                                                        "start": 26,
-                                                        "end": 36
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 27,
+                                                            "end": 35
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 36
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 26,
-                                            "end": 36
-                                        },
+                                                },
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 26,
+                                                "end": 36
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 25,
-                                        "end": 37
+                                        "start": 26,
+                                        "end": 36
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,
@@ -567,7 +553,7 @@ class C<T> {
 ### Printed
 
 ```javascript
-class C <T>{
+class C {
   arr: Array<{ value: T }>;;
   foo(value: T) {
     var entry: { value: T } = { value };

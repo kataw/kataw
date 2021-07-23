@@ -401,7 +401,7 @@ export function isNoneSimpleParamList(node: SyntaxNode): boolean {
 }
 
 export function isImplicitOctal(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.ImplicitOctal) === NodeFlags.ImplicitOctal;
+  return (node.flags & NodeFlags.LegacyOctal) === NodeFlags.LegacyOctal;
 }
 export function isOctalIntegerLiteral(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.OctalIntegerLiteral) === NodeFlags.OctalIntegerLiteral;

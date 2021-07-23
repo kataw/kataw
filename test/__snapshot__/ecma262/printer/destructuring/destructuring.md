@@ -1673,7 +1673,7 @@ class A {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 678,
                                                 "end": 702
@@ -1742,7 +1742,7 @@ class A {
                                                 "start": 702,
                                                 "end": 731
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 677,
                                             "end": 731

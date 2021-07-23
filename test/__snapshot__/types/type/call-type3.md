@@ -58,39 +58,32 @@ type Fn1 = <T>(T) => T;
                     "kind": 288,
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 12,
-                                        "end": 13
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 12,
-                            "end": 13
-                        },
+                                },
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 12,
+                                "end": 13
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 10,
-                        "end": 14
+                        "start": 12,
+                        "end": 13
                     },
                     "arrowTypeParameterList": {
                         "kind": 292,
@@ -191,7 +184,7 @@ type Fn1 = <T>(T) => T;
 ### Printed
 
 ```javascript
-type Fn1 = <T>(T) => T
+type Fn1 = (T) => T
 ```
 
 ### Diagnostics

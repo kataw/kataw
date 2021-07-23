@@ -83,19 +83,12 @@ class X {
                                     },
                                     "typeParameters": {
                                         "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 16,
-                                            "end": 16
-                                        },
+                                        "types": [],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 15,
-                                        "end": 17
+                                        "start": 16,
+                                        "end": 16
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,

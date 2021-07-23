@@ -239,9 +239,7 @@
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
-✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ 'try' expected - start: 9, end: 15
 ✖ 'catch' expected - start: 21, end: 21
 
 ```

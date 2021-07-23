@@ -1431,7 +1431,7 @@ foo ? bar : baz => {};
                                         "start": 306,
                                         "end": 309
                                     },
-                                    "flags": 4194336,
+                                    "flags": 32,
                                     "transformFlags": 128,
                                     "start": 298,
                                     "end": 309

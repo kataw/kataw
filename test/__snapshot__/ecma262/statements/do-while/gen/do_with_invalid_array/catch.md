@@ -208,9 +208,7 @@ do while [catch] catch
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
-✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
-✖ 'try' expected - start: 16, end: 22
 
 ```
 

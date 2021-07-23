@@ -42,115 +42,108 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "S",
-                                "rawText": "S",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 8
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "S",
+                            "rawText": "S",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 9,
-                                "end": 11
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 7,
+                        "end": 8
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "A",
+                            "rawText": "A",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "C",
-                                "rawText": "C",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 14
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 11
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "C",
+                            "rawText": "C",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "I",
-                                "rawText": "I",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 15,
-                                "end": 17
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 12,
+                        "end": 14
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "I",
+                            "rawText": "I",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "R",
-                                "rawText": "R",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 18,
-                                "end": 20
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 15,
+                        "end": 17
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "R",
+                            "rawText": "R",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 20
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 7,
-                    "end": 20
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 18,
+                        "end": 20
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 6,
-                "end": 21
+                "start": 7,
+                "end": 20
             },
             "assignToken": {
                 "kind": 4125,
@@ -328,46 +321,39 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                             },
                             "typeParameters": {
                                 "kind": 310,
-                                "typeInstantiations": {
-                                    "kind": 309,
-                                    "types": [
-                                        {
-                                            "kind": 139,
-                                            "bitwiseOrToken": null,
-                                            "bitwiseAndToken": null,
-                                            "type": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "R",
-                                                    "rawText": "R",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 48,
-                                                    "end": 49
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
+                                "types": [
+                                    {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "R",
+                                                "rawText": "R",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 49
                                             },
+                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "transformFlags": 0,
                                             "start": 48,
                                             "end": 49
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "transformFlags": 0,
-                                    "start": 48,
-                                    "end": 49
-                                },
+                                        },
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 48,
+                                        "end": 49
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 2097152,
                                 "transformFlags": 512,
-                                "start": 47,
-                                "end": 50
+                                "start": 48,
+                                "end": 49
                             },
                             "flags": 2097152,
                             "transformFlags": 0,
@@ -408,7 +394,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
 ### Printed
 
 ```javascript
-type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
+type X = (S, A, C, I) => Promise<R>
 ```
 
 ### Diagnostics

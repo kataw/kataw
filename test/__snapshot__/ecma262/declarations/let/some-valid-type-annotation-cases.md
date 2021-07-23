@@ -675,39 +675,32 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 "kind": 288,
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 169,
-                                                    "end": 170
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 169,
                                                 "end": 170
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 169,
-                                        "end": 170
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 169,
+                                            "end": 170
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 167,
-                                    "end": 171
+                                    "start": 169,
+                                    "end": 170
                                 },
                                 "arrowTypeParameterList": {
                                     "kind": 292,
@@ -742,46 +735,39 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         },
                                         "typeParameters": {
                                             "kind": 310,
-                                            "typeInstantiations": {
-                                                "kind": 309,
-                                                "types": [
-                                                    {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 144,
-                                                            "typeName": {
-                                                                "kind": 134299649,
-                                                                "text": "T",
-                                                                "rawText": "T",
-                                                                "flags": 96,
-                                                                "transformFlags": 0,
-                                                                "start": 181,
-                                                                "end": 182
-                                                            },
-                                                            "typeParameters": null,
-                                                            "flags": 2097152,
+                                            "types": [
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "typeName": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
                                                             "transformFlags": 0,
                                                             "start": 181,
                                                             "end": 182
                                                         },
+                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "transformFlags": 0,
                                                         "start": 181,
                                                         "end": 182
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 2097152,
-                                                "transformFlags": 0,
-                                                "start": 181,
-                                                "end": 182
-                                            },
+                                                    },
+                                                    "flags": 2097152,
+                                                    "transformFlags": 0,
+                                                    "start": 181,
+                                                    "end": 182
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
                                             "transformFlags": 512,
-                                            "start": 180,
-                                            "end": 183
+                                            "start": 181,
+                                            "end": 182
                                         },
                                         "flags": 2097152,
                                         "transformFlags": 0,
@@ -876,62 +862,55 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 145,
-                                                        "qualification": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 201,
-                                                            "end": 202
-                                                        },
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 203,
-                                                            "end": 204
-                                                        },
-                                                        "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 145,
+                                                    "qualification": {
+                                                        "kind": 134299649,
+                                                        "text": "X",
+                                                        "rawText": "X",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 201,
+                                                        "end": 202
+                                                    },
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 203,
                                                         "end": 204
                                                     },
-                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 201,
                                                     "end": 204
                                                 },
+                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 201,
                                                 "end": 204
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 201,
-                                        "end": 204
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 201,
+                                            "end": 204
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 200,
-                                    "end": 205
+                                    "start": 201,
+                                    "end": 204
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1016,62 +995,55 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 145,
-                                                        "qualification": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 222,
-                                                            "end": 223
-                                                        },
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 224,
-                                                            "end": 225
-                                                        },
-                                                        "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 145,
+                                                    "qualification": {
+                                                        "kind": 134299649,
+                                                        "text": "X",
+                                                        "rawText": "X",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 222,
+                                                        "end": 223
+                                                    },
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 224,
                                                         "end": 225
                                                     },
-                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 222,
                                                     "end": 225
                                                 },
+                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 222,
                                                 "end": 225
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 222,
-                                        "end": 225
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 222,
+                                            "end": 225
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 221,
-                                    "end": 226
+                                    "start": 222,
+                                    "end": 225
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1164,104 +1136,90 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 145,
-                                                        "qualification": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 244,
-                                                            "end": 245
-                                                        },
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 246,
-                                                            "end": 247
-                                                        },
-                                                        "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 145,
+                                                    "qualification": {
+                                                        "kind": 134299649,
+                                                        "text": "X",
+                                                        "rawText": "X",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 244,
-                                                        "end": 247
+                                                        "end": 245
                                                     },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "Z",
-                                                                            "rawText": "Z",
-                                                                            "flags": 96,
-                                                                            "transformFlags": 0,
-                                                                            "start": 248,
-                                                                            "end": 249
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
-                                                                        "transformFlags": 0,
-                                                                        "start": 248,
-                                                                        "end": 249
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "transformFlags": 0,
-                                                                    "start": 248,
-                                                                    "end": 249
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "transformFlags": 0,
-                                                            "start": 248,
-                                                            "end": 249
-                                                        },
-                                                        "flags": 2097152,
-                                                        "transformFlags": 512,
-                                                        "start": 247,
-                                                        "end": 250
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 246,
+                                                        "end": 247
                                                     },
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 244,
-                                                    "end": 250
+                                                    "end": 247
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 310,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "Z",
+                                                                    "rawText": "Z",
+                                                                    "flags": 96,
+                                                                    "transformFlags": 0,
+                                                                    "start": 248,
+                                                                    "end": 249
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
+                                                                "transformFlags": 0,
+                                                                "start": 248,
+                                                                "end": 249
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 248,
+                                                            "end": 249
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "transformFlags": 512,
+                                                    "start": 248,
+                                                    "end": 249
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 244,
                                                 "end": 250
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 244,
-                                        "end": 250
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 244,
+                                            "end": 250
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 243,
-                                    "end": 251
+                                    "start": 244,
+                                    "end": 250
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1346,104 +1304,90 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 145,
-                                                        "qualification": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 270,
-                                                            "end": 271
-                                                        },
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 272,
-                                                            "end": 273
-                                                        },
-                                                        "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 145,
+                                                    "qualification": {
+                                                        "kind": 134299649,
+                                                        "text": "X",
+                                                        "rawText": "X",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 270,
-                                                        "end": 273
+                                                        "end": 271
                                                     },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "Z",
-                                                                            "rawText": "Z",
-                                                                            "flags": 96,
-                                                                            "transformFlags": 0,
-                                                                            "start": 274,
-                                                                            "end": 275
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
-                                                                        "transformFlags": 0,
-                                                                        "start": 274,
-                                                                        "end": 275
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "transformFlags": 0,
-                                                                    "start": 274,
-                                                                    "end": 275
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "transformFlags": 0,
-                                                            "start": 274,
-                                                            "end": 275
-                                                        },
-                                                        "flags": 2097152,
-                                                        "transformFlags": 512,
-                                                        "start": 273,
-                                                        "end": 276
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 272,
+                                                        "end": 273
                                                     },
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 270,
-                                                    "end": 276
+                                                    "end": 273
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 310,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "Z",
+                                                                    "rawText": "Z",
+                                                                    "flags": 96,
+                                                                    "transformFlags": 0,
+                                                                    "start": 274,
+                                                                    "end": 275
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
+                                                                "transformFlags": 0,
+                                                                "start": 274,
+                                                                "end": 275
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 274,
+                                                            "end": 275
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "transformFlags": 512,
+                                                    "start": 274,
+                                                    "end": 275
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 270,
                                                 "end": 276
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 270,
-                                        "end": 276
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 270,
+                                            "end": 276
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 269,
-                                    "end": 277
+                                    "start": 270,
+                                    "end": 276
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1536,146 +1480,125 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 145,
-                                                        "qualification": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 300,
-                                                            "end": 301
-                                                        },
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 302,
-                                                            "end": 303
-                                                        },
-                                                        "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 145,
+                                                    "qualification": {
+                                                        "kind": 134299649,
+                                                        "text": "X",
+                                                        "rawText": "X",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 300,
+                                                        "end": 301
+                                                    },
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 302,
                                                         "end": 303
                                                     },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "Z",
-                                                                            "rawText": "Z",
-                                                                            "flags": 96,
-                                                                            "transformFlags": 0,
-                                                                            "start": 304,
-                                                                            "end": 305
-                                                                        },
-                                                                        "typeParameters": {
-                                                                            "kind": 310,
-                                                                            "typeInstantiations": {
-                                                                                "kind": 309,
-                                                                                "types": [
-                                                                                    {
-                                                                                        "kind": 139,
-                                                                                        "bitwiseOrToken": null,
-                                                                                        "bitwiseAndToken": null,
-                                                                                        "type": {
-                                                                                            "kind": 144,
-                                                                                            "typeName": {
-                                                                                                "kind": 134299649,
-                                                                                                "text": "T",
-                                                                                                "rawText": "T",
-                                                                                                "flags": 96,
-                                                                                                "transformFlags": 0,
-                                                                                                "start": 306,
-                                                                                                "end": 307
-                                                                                            },
-                                                                                            "typeParameters": null,
-                                                                                            "flags": 2097152,
-                                                                                            "transformFlags": 0,
-                                                                                            "start": 306,
-                                                                                            "end": 307
-                                                                                        },
-                                                                                        "flags": 2097152,
-                                                                                        "transformFlags": 0,
-                                                                                        "start": 306,
-                                                                                        "end": 307
-                                                                                    }
-                                                                                ],
-                                                                                "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "transformFlags": 0,
+                                                    "start": 300,
+                                                    "end": 303
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 310,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "Z",
+                                                                    "rawText": "Z",
+                                                                    "flags": 96,
+                                                                    "transformFlags": 0,
+                                                                    "start": 304,
+                                                                    "end": 305
+                                                                },
+                                                                "typeParameters": {
+                                                                    "kind": 310,
+                                                                    "types": [
+                                                                        {
+                                                                            "kind": 139,
+                                                                            "bitwiseOrToken": null,
+                                                                            "bitwiseAndToken": null,
+                                                                            "type": {
+                                                                                "kind": 144,
+                                                                                "typeName": {
+                                                                                    "kind": 134299649,
+                                                                                    "text": "T",
+                                                                                    "rawText": "T",
+                                                                                    "flags": 96,
+                                                                                    "transformFlags": 0,
+                                                                                    "start": 306,
+                                                                                    "end": 307
+                                                                                },
+                                                                                "typeParameters": null,
                                                                                 "flags": 2097152,
                                                                                 "transformFlags": 0,
                                                                                 "start": 306,
                                                                                 "end": 307
                                                                             },
                                                                             "flags": 2097152,
-                                                                            "transformFlags": 512,
-                                                                            "start": 305,
-                                                                            "end": 308
-                                                                        },
-                                                                        "flags": 2097152,
-                                                                        "transformFlags": 0,
-                                                                        "start": 304,
-                                                                        "end": 308
-                                                                    },
+                                                                            "transformFlags": 0,
+                                                                            "start": 306,
+                                                                            "end": 307
+                                                                        }
+                                                                    ],
+                                                                    "trailingComma": false,
                                                                     "flags": 2097152,
-                                                                    "transformFlags": 0,
-                                                                    "start": 304,
-                                                                    "end": 308
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
+                                                                    "transformFlags": 512,
+                                                                    "start": 306,
+                                                                    "end": 307
+                                                                },
+                                                                "flags": 2097152,
+                                                                "transformFlags": 0,
+                                                                "start": 304,
+                                                                "end": 308
+                                                            },
                                                             "flags": 2097152,
                                                             "transformFlags": 0,
                                                             "start": 304,
                                                             "end": 308
-                                                        },
-                                                        "flags": 2097152,
-                                                        "transformFlags": 512,
-                                                        "start": 303,
-                                                        "end": 309
-                                                    },
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 300,
-                                                    "end": 309
+                                                    "transformFlags": 512,
+                                                    "start": 304,
+                                                    "end": 308
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 300,
                                                 "end": 309
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 300,
-                                        "end": 309
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 300,
+                                            "end": 309
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 299,
-                                    "end": 310
+                                    "start": 300,
+                                    "end": 309
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1760,146 +1683,125 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 145,
-                                                        "qualification": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 331,
-                                                            "end": 332
-                                                        },
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 333,
-                                                            "end": 334
-                                                        },
-                                                        "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 145,
+                                                    "qualification": {
+                                                        "kind": 134299649,
+                                                        "text": "X",
+                                                        "rawText": "X",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 331,
+                                                        "end": 332
+                                                    },
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 333,
                                                         "end": 334
                                                     },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "Z",
-                                                                            "rawText": "Z",
-                                                                            "flags": 96,
-                                                                            "transformFlags": 0,
-                                                                            "start": 335,
-                                                                            "end": 336
-                                                                        },
-                                                                        "typeParameters": {
-                                                                            "kind": 310,
-                                                                            "typeInstantiations": {
-                                                                                "kind": 309,
-                                                                                "types": [
-                                                                                    {
-                                                                                        "kind": 139,
-                                                                                        "bitwiseOrToken": null,
-                                                                                        "bitwiseAndToken": null,
-                                                                                        "type": {
-                                                                                            "kind": 144,
-                                                                                            "typeName": {
-                                                                                                "kind": 134299649,
-                                                                                                "text": "T",
-                                                                                                "rawText": "T",
-                                                                                                "flags": 96,
-                                                                                                "transformFlags": 0,
-                                                                                                "start": 337,
-                                                                                                "end": 338
-                                                                                            },
-                                                                                            "typeParameters": null,
-                                                                                            "flags": 2097152,
-                                                                                            "transformFlags": 0,
-                                                                                            "start": 337,
-                                                                                            "end": 338
-                                                                                        },
-                                                                                        "flags": 2097152,
-                                                                                        "transformFlags": 0,
-                                                                                        "start": 337,
-                                                                                        "end": 338
-                                                                                    }
-                                                                                ],
-                                                                                "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "transformFlags": 0,
+                                                    "start": 331,
+                                                    "end": 334
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 310,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "Z",
+                                                                    "rawText": "Z",
+                                                                    "flags": 96,
+                                                                    "transformFlags": 0,
+                                                                    "start": 335,
+                                                                    "end": 336
+                                                                },
+                                                                "typeParameters": {
+                                                                    "kind": 310,
+                                                                    "types": [
+                                                                        {
+                                                                            "kind": 139,
+                                                                            "bitwiseOrToken": null,
+                                                                            "bitwiseAndToken": null,
+                                                                            "type": {
+                                                                                "kind": 144,
+                                                                                "typeName": {
+                                                                                    "kind": 134299649,
+                                                                                    "text": "T",
+                                                                                    "rawText": "T",
+                                                                                    "flags": 96,
+                                                                                    "transformFlags": 0,
+                                                                                    "start": 337,
+                                                                                    "end": 338
+                                                                                },
+                                                                                "typeParameters": null,
                                                                                 "flags": 2097152,
                                                                                 "transformFlags": 0,
                                                                                 "start": 337,
                                                                                 "end": 338
                                                                             },
                                                                             "flags": 2097152,
-                                                                            "transformFlags": 512,
-                                                                            "start": 336,
-                                                                            "end": 339
-                                                                        },
-                                                                        "flags": 2097152,
-                                                                        "transformFlags": 0,
-                                                                        "start": 335,
-                                                                        "end": 339
-                                                                    },
+                                                                            "transformFlags": 0,
+                                                                            "start": 337,
+                                                                            "end": 338
+                                                                        }
+                                                                    ],
+                                                                    "trailingComma": false,
                                                                     "flags": 2097152,
-                                                                    "transformFlags": 0,
-                                                                    "start": 335,
-                                                                    "end": 339
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
+                                                                    "transformFlags": 512,
+                                                                    "start": 337,
+                                                                    "end": 338
+                                                                },
+                                                                "flags": 2097152,
+                                                                "transformFlags": 0,
+                                                                "start": 335,
+                                                                "end": 339
+                                                            },
                                                             "flags": 2097152,
                                                             "transformFlags": 0,
                                                             "start": 335,
                                                             "end": 339
-                                                        },
-                                                        "flags": 2097152,
-                                                        "transformFlags": 512,
-                                                        "start": 334,
-                                                        "end": 340
-                                                    },
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 331,
-                                                    "end": 340
+                                                    "transformFlags": 512,
+                                                    "start": 335,
+                                                    "end": 339
                                                 },
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 331,
                                                 "end": 340
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 331,
-                                        "end": 340
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 331,
+                                            "end": 340
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 330,
-                                    "end": 341
+                                    "start": 331,
+                                    "end": 340
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1968,46 +1870,39 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                         },
                         "typeParameters": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [
-                                    {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 352,
-                                                "end": 353
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                            "types": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 352,
                                             "end": 353
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "transformFlags": 0,
                                         "start": 352,
                                         "end": 353
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 352,
-                                "end": 353
-                            },
+                                    },
+                                    "flags": 2097152,
+                                    "transformFlags": 0,
+                                    "start": 352,
+                                    "end": 353
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 351,
-                            "end": 354
+                            "start": 352,
+                            "end": 353
                         },
                         "flags": 2097152,
                         "transformFlags": 0,
@@ -2077,88 +1972,74 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                         },
                         "typeParameters": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [
-                                    {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "B",
-                                                "rawText": "B",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 367,
-                                                "end": 368
-                                            },
-                                            "typeParameters": {
-                                                "kind": 310,
-                                                "typeInstantiations": {
-                                                    "kind": 309,
-                                                    "types": [
-                                                        {
-                                                            "kind": 139,
-                                                            "bitwiseOrToken": null,
-                                                            "bitwiseAndToken": null,
-                                                            "type": {
-                                                                "kind": 144,
-                                                                "typeName": {
-                                                                    "kind": 134299649,
-                                                                    "text": "T",
-                                                                    "rawText": "T",
-                                                                    "flags": 96,
-                                                                    "transformFlags": 0,
-                                                                    "start": 369,
-                                                                    "end": 370
-                                                                },
-                                                                "typeParameters": null,
-                                                                "flags": 2097152,
-                                                                "transformFlags": 0,
-                                                                "start": 369,
-                                                                "end": 370
-                                                            },
-                                                            "flags": 2097152,
+                            "types": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "B",
+                                            "rawText": "B",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 367,
+                                            "end": 368
+                                        },
+                                        "typeParameters": {
+                                            "kind": 310,
+                                            "types": [
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "typeName": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
                                                             "transformFlags": 0,
                                                             "start": 369,
                                                             "end": 370
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 2097152,
+                                                        "transformFlags": 0,
+                                                        "start": 369,
+                                                        "end": 370
+                                                    },
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 369,
                                                     "end": 370
-                                                },
-                                                "flags": 2097152,
-                                                "transformFlags": 512,
-                                                "start": 368,
-                                                "end": 371
-                                            },
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 367,
-                                            "end": 371
+                                            "transformFlags": 512,
+                                            "start": 369,
+                                            "end": 370
                                         },
                                         "flags": 2097152,
                                         "transformFlags": 0,
                                         "start": 367,
                                         "end": 371
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 367,
-                                "end": 371
-                            },
+                                    },
+                                    "flags": 2097152,
+                                    "transformFlags": 0,
+                                    "start": 367,
+                                    "end": 371
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 366,
-                            "end": 372
+                            "start": 367,
+                            "end": 371
                         },
                         "flags": 2097152,
                         "transformFlags": 0,
@@ -2228,130 +2109,109 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                         },
                         "typeParameters": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [
-                                    {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "B",
-                                                "rawText": "B",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 385,
-                                                "end": 386
-                                            },
-                                            "typeParameters": {
-                                                "kind": 310,
-                                                "typeInstantiations": {
-                                                    "kind": 309,
-                                                    "types": [
-                                                        {
-                                                            "kind": 139,
-                                                            "bitwiseOrToken": null,
-                                                            "bitwiseAndToken": null,
-                                                            "type": {
-                                                                "kind": 144,
-                                                                "typeName": {
-                                                                    "kind": 134299649,
-                                                                    "text": "C",
-                                                                    "rawText": "C",
-                                                                    "flags": 96,
-                                                                    "transformFlags": 0,
-                                                                    "start": 387,
-                                                                    "end": 388
-                                                                },
-                                                                "typeParameters": {
-                                                                    "kind": 310,
-                                                                    "typeInstantiations": {
-                                                                        "kind": 309,
-                                                                        "types": [
-                                                                            {
-                                                                                "kind": 139,
-                                                                                "bitwiseOrToken": null,
-                                                                                "bitwiseAndToken": null,
-                                                                                "type": {
-                                                                                    "kind": 144,
-                                                                                    "typeName": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "T",
-                                                                                        "rawText": "T",
-                                                                                        "flags": 96,
-                                                                                        "transformFlags": 0,
-                                                                                        "start": 389,
-                                                                                        "end": 390
-                                                                                    },
-                                                                                    "typeParameters": null,
-                                                                                    "flags": 2097152,
-                                                                                    "transformFlags": 0,
-                                                                                    "start": 389,
-                                                                                    "end": 390
-                                                                                },
-                                                                                "flags": 2097152,
-                                                                                "transformFlags": 0,
-                                                                                "start": 389,
-                                                                                "end": 390
-                                                                            }
-                                                                        ],
-                                                                        "trailingComma": false,
+                            "types": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "B",
+                                            "rawText": "B",
+                                            "flags": 96,
+                                            "transformFlags": 0,
+                                            "start": 385,
+                                            "end": 386
+                                        },
+                                        "typeParameters": {
+                                            "kind": 310,
+                                            "types": [
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "typeName": {
+                                                            "kind": 134299649,
+                                                            "text": "C",
+                                                            "rawText": "C",
+                                                            "flags": 96,
+                                                            "transformFlags": 0,
+                                                            "start": 387,
+                                                            "end": 388
+                                                        },
+                                                        "typeParameters": {
+                                                            "kind": 310,
+                                                            "types": [
+                                                                {
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 144,
+                                                                        "typeName": {
+                                                                            "kind": 134299649,
+                                                                            "text": "T",
+                                                                            "rawText": "T",
+                                                                            "flags": 96,
+                                                                            "transformFlags": 0,
+                                                                            "start": 389,
+                                                                            "end": 390
+                                                                        },
+                                                                        "typeParameters": null,
                                                                         "flags": 2097152,
                                                                         "transformFlags": 0,
                                                                         "start": 389,
                                                                         "end": 390
                                                                     },
                                                                     "flags": 2097152,
-                                                                    "transformFlags": 512,
-                                                                    "start": 388,
-                                                                    "end": 391
-                                                                },
-                                                                "flags": 2097152,
-                                                                "transformFlags": 0,
-                                                                "start": 387,
-                                                                "end": 391
-                                                            },
+                                                                    "transformFlags": 0,
+                                                                    "start": 389,
+                                                                    "end": 390
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
                                                             "flags": 2097152,
-                                                            "transformFlags": 0,
-                                                            "start": 387,
-                                                            "end": 391
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
+                                                            "transformFlags": 512,
+                                                            "start": 389,
+                                                            "end": 390
+                                                        },
+                                                        "flags": 2097152,
+                                                        "transformFlags": 0,
+                                                        "start": 387,
+                                                        "end": 391
+                                                    },
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 387,
                                                     "end": 391
-                                                },
-                                                "flags": 2097152,
-                                                "transformFlags": 512,
-                                                "start": 386,
-                                                "end": 392
-                                            },
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 385,
-                                            "end": 392
+                                            "transformFlags": 512,
+                                            "start": 387,
+                                            "end": 391
                                         },
                                         "flags": 2097152,
                                         "transformFlags": 0,
                                         "start": 385,
                                         "end": 392
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 385,
-                                "end": 392
-                            },
+                                    },
+                                    "flags": 2097152,
+                                    "transformFlags": 0,
+                                    "start": 385,
+                                    "end": 392
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 384,
-                            "end": 393
+                            "start": 385,
+                            "end": 392
                         },
                         "flags": 2097152,
                         "transformFlags": 0,
@@ -2412,7 +2272,7 @@ let five: { [string]: number };
 
 let six: () => void = Foo;
 
-let seven: <T>() => Foo<T>;
+let seven: () => Foo<T>;
 
 let eigth: A.B<X.Y>;
 

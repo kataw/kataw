@@ -306,7 +306,7 @@ function fuzzThrowStatement(recurmax: number, context: FuzzerContext): ThrowStat
 //  `if` `(` Expression `)` Statement
 function fuzzIfStatement(recurmax: number, context: FuzzerContext): IfStatement {
   recurmax--;
-  let count = rng(6);
+  const count = rng(6);
   return count > 3
     ? createIfStatement(
         createToken(SyntaxKind.IfKeyword, NodeFlags.None, -1, -1),

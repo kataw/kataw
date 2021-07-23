@@ -61,7 +61,7 @@ x = {0b001001: y}
                                     "start": 14,
                                     "end": 16
                                 },
-                                "flags": 524320,
+                                "flags": 32,
                                 "transformFlags": 128,
                                 "start": 5,
                                 "end": 16

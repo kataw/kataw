@@ -120,36 +120,29 @@ async function foo3(): Promise<string> {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 31,
-                                        "end": 37
-                                    },
-                                    "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 31,
                                     "end": 37
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 31,
-                            "end": 37
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 31,
+                                "end": 37
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 30,
-                        "end": 38
+                        "start": 31,
+                        "end": 37
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -260,36 +253,29 @@ async function foo3(): Promise<string> {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 85,
-                                        "end": 91
-                                    },
-                                    "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 85,
                                     "end": 91
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 85,
-                            "end": 91
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 85,
+                                "end": 91
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 84,
-                        "end": 92
+                        "start": 85,
+                        "end": 91
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -469,36 +455,29 @@ async function foo3(): Promise<string> {
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 149,
-                                        "end": 155
-                                    },
-                                    "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 149,
                                     "end": 155
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 149,
-                            "end": 155
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 149,
+                                "end": 155
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 148,
-                        "end": 156
+                        "start": 149,
+                        "end": 155
                     },
                     "flags": 2097152,
                     "transformFlags": 0,

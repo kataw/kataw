@@ -153,7 +153,6 @@ async x => finally = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 18
-✖ 'try' expected - start: 10, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 
 ```

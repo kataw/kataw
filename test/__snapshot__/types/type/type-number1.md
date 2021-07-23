@@ -44,39 +44,32 @@ type foo<number> = string;
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "number",
-                                "rawText": "number",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 9,
-                                "end": 15
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "number",
+                            "rawText": "number",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 15
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 9,
-                    "end": 15
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 15
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 8,
-                "end": 16
+                "start": 9,
+                "end": 15
             },
             "assignToken": {
                 "kind": 4125,
@@ -120,7 +113,7 @@ type foo<number> = string;
 ### Printed
 
 ```javascript
-type foo<number> = string
+type foo = string
 ```
 
 ### Diagnostics

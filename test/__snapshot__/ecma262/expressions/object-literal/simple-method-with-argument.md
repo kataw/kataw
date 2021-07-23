@@ -76,7 +76,7 @@ x = {
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 97,
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 17,
                                         "end": 22
@@ -98,7 +98,7 @@ x = {
                                         "start": 22,
                                         "end": 31
                                     },
-                                    "flags": 33,
+                                    "flags": 32,
                                     "transformFlags": 0,
                                     "start": 16,
                                     "end": 31

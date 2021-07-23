@@ -370,39 +370,32 @@ var ident = <T>(x: T): T => x;
                             "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
-                                "declarations": {
-                                    "kind": 337,
-                                    "parameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 102,
-                                                "end": 103
-                                            },
-                                            "type": null,
-                                            "assignToken": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
+                                "declarations": [
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 102,
                                             "end": 103
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "transformFlags": 0,
-                                    "start": 102,
-                                    "end": 103
-                                },
+                                        },
+                                        "type": null,
+                                        "assignToken": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 102,
+                                        "end": 103
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 2097152,
                                 "transformFlags": 512,
-                                "start": 100,
-                                "end": 104
+                                "start": 102,
+                                "end": 103
                             },
                             "arrowPatameterList": {
                                 "kind": 342,
@@ -539,7 +532,7 @@ var ident = <T>(x: T): T => x;
 var add = (x: number, y: number) => x + y;
 var bad = (x: number) => x;
 
-var ident = <T>(x: T) => x;
+var ident = (x: T) => x;
 
 ```
 

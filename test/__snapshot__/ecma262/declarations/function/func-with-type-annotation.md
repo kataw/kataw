@@ -48,39 +48,32 @@ function a<string>(x: string): string {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "string",
-                                "rawText": "string",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 17
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 17
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 17
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 11,
+                        "end": 17
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 10,
-                "end": 18
+                "start": 11,
+                "end": 17
             },
             "formalParameterList": {
                 "kind": 214,
@@ -202,7 +195,7 @@ function a<string>(x: string): string {
 ### Printed
 
 ```javascript
-function a<string>(x: string): string {
+function a(x: string): string {
   return x;
 }
 ```

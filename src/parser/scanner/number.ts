@@ -269,7 +269,7 @@ export function scanNumber(
             pos + 1
           );
         }
-        nodeFlags = NodeFlags.ImplicitOctal;
+        nodeFlags = NodeFlags.LegacyOctal;
         do {
           val = val * 8 + (cp - Char.Zero);
           cp = source.charCodeAt(++pos);
@@ -293,8 +293,8 @@ export function scanNumber(
           );
         }
 
-        if (nodeFlags === NodeFlags.ImplicitOctal) {
-          parser.nodeFlags = NodeFlags.ImplicitOctal;
+        if (nodeFlags === NodeFlags.LegacyOctal) {
+          parser.nodeFlags = NodeFlags.LegacyOctal;
           parser.pos = pos;
           parser.tokenValue = val;
           parser.tokenRaw = source.slice(parser.tokenPos, pos);

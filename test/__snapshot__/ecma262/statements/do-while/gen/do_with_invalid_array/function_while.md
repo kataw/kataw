@@ -237,7 +237,6 @@ do while [catch] function while
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
-✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Binding identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 26, end: 31

@@ -52,39 +52,32 @@ const identity = <T>(t: T): T => t;
                             "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
-                                "declarations": {
-                                    "kind": 337,
-                                    "parameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 18,
-                                                "end": 19
-                                            },
-                                            "type": null,
-                                            "assignToken": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
+                                "declarations": [
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "transformFlags": 0,
-                                    "start": 18,
-                                    "end": 19
-                                },
+                                        },
+                                        "type": null,
+                                        "assignToken": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 18,
+                                        "end": 19
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 2097152,
                                 "transformFlags": 512,
-                                "start": 16,
-                                "end": 20
+                                "start": 18,
+                                "end": 19
                             },
                             "arrowPatameterList": {
                                 "kind": 342,
@@ -218,7 +211,7 @@ const identity = <T>(t: T): T => t;
 ### Printed
 
 ```javascript
-const identity = <T>(t: T) => t;
+const identity = (t: T) => t;
 ```
 
 ### Diagnostics

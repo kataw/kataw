@@ -139,7 +139,6 @@ throw {x} catch
 
 ```javascript
 ✖ 'catch' is not allowed here. Did you mean ';'? - start: 9, end: 15
-✖ 'try' expected - start: 9, end: 15
 
 ```
 

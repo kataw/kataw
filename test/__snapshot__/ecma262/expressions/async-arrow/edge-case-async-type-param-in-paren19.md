@@ -36,54 +36,47 @@ async <T, U,>(x) => y;
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 8
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
-                            "start": 0,
+                            "start": 7,
                             "end": 8
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "U",
-                                "rawText": "U",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 9,
-                                "end": 11
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 8
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "U",
+                            "rawText": "U",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 9,
                             "end": 11
-                        }
-                    ],
-                    "trailingComma": true,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 0,
-                    "end": 12
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 11
+                    }
+                ],
+                "trailingComma": true,
                 "flags": 2097152,
                 "transformFlags": 512,
                 "start": 0,
@@ -152,54 +145,47 @@ async <T, U,>(x) => y;
                     },
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 32,
-                                        "end": 33
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 25,
+                                    "start": 32,
                                     "end": 33
                                 },
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "U",
-                                        "rawText": "U",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 34,
-                                        "end": 36
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 33
+                            },
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "U",
+                                    "rawText": "U",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
-                                }
-                            ],
-                            "trailingComma": true,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 25,
-                            "end": 37
-                        },
+                                },
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 34,
+                                "end": 36
+                            }
+                        ],
+                        "trailingComma": true,
                         "flags": 2097152,
                         "transformFlags": 512,
                         "start": 25,
@@ -270,8 +256,8 @@ async <T, U,>(x) => y;
 ### Printed
 
 ```javascript
-async <T, U>(x) => y
-(async <T, U>(x) => y);
+async (x) => y
+(async (x) => y);
 
 ```
 

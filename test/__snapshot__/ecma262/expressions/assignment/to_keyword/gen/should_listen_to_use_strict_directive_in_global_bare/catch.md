@@ -123,7 +123,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 13, end: 19
 ✖ Declaration or statement expected - start: 19, end: 21
 
 ```

@@ -191,7 +191,6 @@ do[ catch try {}
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 4, end: 9
-✖ 'try' expected - start: 3, end: 9
 ✖ 'catch' expected - start: 16, end: 16
 
 ```

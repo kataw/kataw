@@ -60,7 +60,7 @@ foo = {
                                     "asteriskToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
-                                        "flags": 97,
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 7,
                                         "end": 13
@@ -82,7 +82,7 @@ foo = {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
-                                            "flags": 1057,
+                                            "flags": 1056,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
@@ -170,7 +170,7 @@ foo = {
                                             "start": 17,
                                             "end": 46
                                         },
-                                        "flags": 1057,
+                                        "flags": 1056,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 46
@@ -243,7 +243,6 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 36, end: 46
 ✖ The parser expected to find a '}' to match the '{' token here - start: 47, end: 48
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 48
 ✖ Declaration or statement expected - start: 50, end: 54

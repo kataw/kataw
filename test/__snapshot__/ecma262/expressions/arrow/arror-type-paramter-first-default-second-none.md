@@ -30,49 +30,42 @@
                 "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                "type": null,
-                                "assignToken": {
-                                    "kind": 4125,
-                                    "flags": 64,
-                                    "transformFlags": 0,
-                                    "start": 2,
-                                    "end": 3
-                                },
-                                "defaultType": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 3,
-                                            "end": 4
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "transformFlags": 0,
+                                "start": 2,
+                                "end": 3
+                            },
+                            "defaultType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 3,
                                         "end": 4
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 3,
@@ -80,39 +73,39 @@
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
-                                "start": 1,
+                                "start": 3,
                                 "end": 4
                             },
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 5,
-                                    "end": 7
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 1,
+                            "end": 4
+                        },
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 5,
                                 "end": 7
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 7
-                    },
+                            },
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 5,
+                            "end": 7
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 0,
-                    "end": 8
+                    "start": 1,
+                    "end": 7
                 },
                 "arrowPatameterList": {
                     "kind": 342,

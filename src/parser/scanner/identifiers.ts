@@ -172,7 +172,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
 }
 
 export function scanPrivateIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
-  let pos = parser.pos;
+  const pos = parser.pos;
   parser.pos++;
 
   // '!'

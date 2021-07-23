@@ -213,7 +213,7 @@ Object.defineProperty(this, "x", {
                                             "start": 85,
                                             "end": 90
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 69,
                                         "end": 90
@@ -239,7 +239,7 @@ Object.defineProperty(this, "x", {
                                             "start": 100,
                                             "end": 102
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 91,
                                         "end": 102

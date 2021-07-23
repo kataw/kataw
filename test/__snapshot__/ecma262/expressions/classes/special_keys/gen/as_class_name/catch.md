@@ -140,7 +140,6 @@ class catch {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ 'try' expected - start: 5, end: 11
 
 ```
 

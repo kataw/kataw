@@ -48,39 +48,32 @@ class Foo7<T> {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 12
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 12
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 12
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 11,
+                        "end": 12
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 10,
-                "end": 13
+                "start": 11,
+                "end": 12
             },
             "tail": {
                 "kind": 277,
@@ -110,39 +103,32 @@ class Foo7<T> {
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "U",
-                                                    "rawText": "U",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 22,
-                                                    "end": 23
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "U",
+                                                "rawText": "U",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 23
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 22,
+                                            "end": 23
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 21,
-                                    "end": 24
+                                    "start": 22,
+                                    "end": 23
                                 },
                                 "formalParameterList": {
                                     "kind": 214,
@@ -249,8 +235,8 @@ class Foo7<T> {
 ### Printed
 
 ```javascript
-class Foo7 <T>{
-  bar<U>(): number {
+class Foo7 {
+  bar(): number {
     return 42;
   }
 }

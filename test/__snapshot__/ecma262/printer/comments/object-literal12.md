@@ -36,7 +36,7 @@
                                 "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 353,
+                                    "flags": 352,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 26
@@ -66,7 +66,7 @@
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 417,
+                                        "flags": 416,
                                         "transformFlags": 0,
                                         "start": 51,
                                         "end": 57
@@ -88,7 +88,7 @@
                                         "start": 57,
                                         "end": 59
                                     },
-                                    "flags": 417,
+                                    "flags": 416,
                                     "transformFlags": 0,
                                     "start": 45,
                                     "end": 59

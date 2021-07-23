@@ -92,39 +92,32 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                     "asyncKeyword": null,
                                                     "typeParameters": {
                                                         "kind": 307,
-                                                        "declarations": {
-                                                            "kind": 337,
-                                                            "parameters": [
-                                                                {
-                                                                    "kind": 146,
-                                                                    "name": {
-                                                                        "kind": 134299649,
-                                                                        "text": "T",
-                                                                        "rawText": "T",
-                                                                        "flags": 96,
-                                                                        "transformFlags": 0,
-                                                                        "start": 56,
-                                                                        "end": 57
-                                                                    },
-                                                                    "type": null,
-                                                                    "assignToken": null,
-                                                                    "defaultType": null,
-                                                                    "flags": 2097152,
+                                                        "declarations": [
+                                                            {
+                                                                "kind": 146,
+                                                                "name": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
                                                                     "transformFlags": 0,
                                                                     "start": 56,
                                                                     "end": 57
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "transformFlags": 0,
-                                                            "start": 56,
-                                                            "end": 57
-                                                        },
+                                                                },
+                                                                "type": null,
+                                                                "assignToken": null,
+                                                                "defaultType": null,
+                                                                "flags": 2097152,
+                                                                "transformFlags": 0,
+                                                                "start": 56,
+                                                                "end": 57
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
                                                         "flags": 2097152,
                                                         "transformFlags": 512,
-                                                        "start": 54,
-                                                        "end": 58
+                                                        "start": 56,
+                                                        "end": 57
                                                     },
                                                     "arrowPatameterList": {
                                                         "kind": 342,
@@ -285,8 +278,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 ### Printed
 
 ```javascript
-const functionReturningIdentityAsAField = () =>
-    ({ id: <T>(value: T) => value });
+const functionReturningIdentityAsAField = () => ({ id: (value: T) => value });
 ```
 
 ### Diagnostics

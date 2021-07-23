@@ -771,7 +771,7 @@ var templateTagsMapping = {
                                             "start": 384,
                                             "end": 392
                                         },
-                                        "flags": 4194337,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 364,
                                         "end": 392
@@ -797,7 +797,7 @@ var templateTagsMapping = {
                                             "start": 428,
                                             "end": 436
                                         },
-                                        "flags": 4194337,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 393,
                                         "end": 436

@@ -540,36 +540,29 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                         },
                                         "typeParameters": {
                                             "kind": 310,
-                                            "typeInstantiations": {
-                                                "kind": 309,
-                                                "types": [
-                                                    {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 134234345,
-                                                            "flags": 2097216,
-                                                            "transformFlags": 0,
-                                                            "start": 141,
-                                                            "end": 147
-                                                        },
-                                                        "flags": 2097152,
+                                            "types": [
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 134234345,
+                                                        "flags": 2097216,
                                                         "transformFlags": 0,
                                                         "start": 141,
                                                         "end": 147
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 2097152,
-                                                "transformFlags": 0,
-                                                "start": 141,
-                                                "end": 147
-                                            },
+                                                    },
+                                                    "flags": 2097152,
+                                                    "transformFlags": 0,
+                                                    "start": 141,
+                                                    "end": 147
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
                                             "transformFlags": 512,
-                                            "start": 140,
-                                            "end": 148
+                                            "start": 141,
+                                            "end": 147
                                         },
                                         "flags": 2097152,
                                         "transformFlags": 0,

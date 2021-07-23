@@ -1298,7 +1298,7 @@ window.FooClient.something.setVars({
                                                     "start": 537,
                                                     "end": 570
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 537,
                                                 "end": 570
@@ -1340,7 +1340,7 @@ window.FooClient.something.setVars({
                                                     "start": 571,
                                                     "end": 604
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 571,
                                                 "end": 604
@@ -1549,7 +1549,7 @@ window.FooClient.something.setVars({
                                                     "start": 674,
                                                     "end": 707
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 674,
                                                 "end": 707
@@ -1591,7 +1591,7 @@ window.FooClient.something.setVars({
                                                     "start": 708,
                                                     "end": 741
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 708,
                                                 "end": 741
@@ -1800,7 +1800,7 @@ window.FooClient.something.setVars({
                                                     "start": 811,
                                                     "end": 844
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 811,
                                                 "end": 844
@@ -1842,7 +1842,7 @@ window.FooClient.something.setVars({
                                                     "start": 845,
                                                     "end": 878
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 845,
                                                 "end": 878

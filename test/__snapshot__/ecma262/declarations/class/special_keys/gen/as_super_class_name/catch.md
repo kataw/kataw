@@ -163,7 +163,6 @@ class x extends catch {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 21
-✖ 'try' expected - start: 15, end: 21
 
 ```
 

@@ -98,46 +98,39 @@ type X = (?x.y<z>);
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 134299649,
-                                                        "text": "z",
-                                                        "rawText": "z",
-                                                        "flags": 96,
-                                                        "transformFlags": 0,
-                                                        "start": 15,
-                                                        "end": 16
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "z",
+                                                    "rawText": "z",
+                                                    "flags": 96,
                                                     "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 16
                                                 },
+                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 16
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 15,
-                                        "end": 16
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 15,
+                                            "end": 16
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 14,
-                                    "end": 17
+                                    "start": 15,
+                                    "end": 16
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,

@@ -306,7 +306,7 @@ f(/* ... */ a, b);
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 107,
                                                 "end": 117
@@ -328,7 +328,7 @@ f(/* ... */ a, b);
                                                 "start": 117,
                                                 "end": 120
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 106,
                                             "end": 120
@@ -392,7 +392,7 @@ f(/* ... */ a, b);
                                             "start": 126,
                                             "end": 144
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 121,
                                         "end": 144
@@ -453,7 +453,7 @@ f(/* ... */ a, b);
                                             "start": 150,
                                             "end": 173
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 145,
                                         "end": 173
@@ -522,7 +522,7 @@ f(/* ... */ a, b);
                                             "start": 179,
                                             "end": 204
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 174,
                                         "end": 204

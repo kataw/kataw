@@ -38,60 +38,53 @@ async <T: U,>(x) => y;
                 },
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 7,
-                                    "end": 8
-                                },
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "U",
-                                            "rawText": "U",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 9,
-                                            "end": 11
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "U",
+                                        "rawText": "U",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 9,
                                     "end": 11
                                 },
-                                "assignToken": null,
-                                "defaultType": null,
                                 "flags": 2097152,
                                 "transformFlags": 0,
-                                "start": 0,
+                                "start": 9,
                                 "end": 11
-                            }
-                        ],
-                        "trailingComma": true,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 13
-                    },
+                            },
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 0,
+                            "end": 11
+                        }
+                    ],
+                    "trailingComma": true,
                     "flags": 2097152,
                     "transformFlags": 512,
                     "start": 0,
@@ -158,60 +151,53 @@ async <T: U,>(x) => y;
                     },
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 32,
-                                        "end": 33
-                                    },
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 32,
+                                    "end": 33
+                                },
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "U",
-                                                "rawText": "U",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 34,
-                                                "end": 36
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "U",
+                                            "rawText": "U",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 34,
                                             "end": 36
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "transformFlags": 0,
                                         "start": 34,
                                         "end": 36
                                     },
-                                    "assignToken": null,
-                                    "defaultType": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
-                                    "start": 25,
+                                    "start": 34,
                                     "end": 36
-                                }
-                            ],
-                            "trailingComma": true,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 25,
-                            "end": 38
-                        },
+                                },
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 36
+                            }
+                        ],
+                        "trailingComma": true,
                         "flags": 2097152,
                         "transformFlags": 512,
                         "start": 25,
@@ -282,8 +268,8 @@ async <T: U,>(x) => y;
 ### Printed
 
 ```javascript
-async <T: U>(x) => y;
-(async <T: U>(x) => y);
+async (x) => y;
+(async (x) => y);
 
 ```
 

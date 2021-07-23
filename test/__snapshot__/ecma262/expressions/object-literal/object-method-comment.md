@@ -131,7 +131,7 @@ function foo() {
                                                 "start": 27,
                                                 "end": 85
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 128,
                                             "start": 27,
                                             "end": 85

@@ -1,12 +1,14 @@
 import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
-import { TypeParameterList } from './type-parameter-list';
+import { TypeParameter } from './type-parameter';
 
 export interface TypeParameterDeclaration extends SyntaxNode {
-  readonly declarations: TypeParameterList;
+  readonly declarations: TypeParameter[];
+  readonly trailingComma: boolean;
 }
 
 export function createTypeParameterDeclaration(
-  declarations: TypeParameterList,
+  declarations: TypeParameter[],
+  trailingComma: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -14,6 +16,7 @@ export function createTypeParameterDeclaration(
   return {
     kind: SyntaxKind.TypeParameterDeclaration,
     declarations,
+    trailingComma,
     flags,
     transformFlags: TransformFlags.TypeParameter,
     start,

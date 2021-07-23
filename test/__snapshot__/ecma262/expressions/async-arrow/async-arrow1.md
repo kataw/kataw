@@ -37,35 +37,28 @@ async <T>(fn: () => T) => fn;
                 },
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 7,
-                                    "end": 8
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 7,
-                                "end": 9
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 9
-                    },
+                                "end": 8
+                            },
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 7,
+                            "end": 9
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
                     "start": 0,
@@ -200,7 +193,7 @@ async <T>(fn: () => T) => fn;
 ### Printed
 
 ```javascript
-async <T>(fn: () => T) => fn;
+async (fn: () => T) => fn;
 ```
 
 ### Diagnostics

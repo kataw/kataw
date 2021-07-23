@@ -38,60 +38,53 @@
                     },
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 9
-                                    },
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 8,
+                                    "end": 9
+                                },
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "U",
-                                                "rawText": "U",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 10,
-                                                "end": 12
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "U",
+                                            "rawText": "U",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
-                                    "assignToken": null,
-                                    "defaultType": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
-                                    "start": 1,
+                                    "start": 10,
                                     "end": 12
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 1,
-                            "end": 13
-                        },
+                                },
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 1,
+                                "end": 12
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
                         "start": 1,
@@ -162,7 +155,7 @@
 ### Printed
 
 ```javascript
-(async <T: U>(x) => y);
+(async (x) => y);
 ```
 
 ### Diagnostics

@@ -254,7 +254,6 @@ do while [catch] async funcion switch!!
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
-✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ 'async' modifier cannot be used here - start: 30, end: 37
 ✖ Identifier expected - start: 30, end: 37

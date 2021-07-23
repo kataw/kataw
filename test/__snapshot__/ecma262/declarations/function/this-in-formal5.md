@@ -489,39 +489,32 @@ function five<T>(this: T) {}
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 162,
-                                "end": 163
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 162,
                             "end": 163
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 162,
-                    "end": 163
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 162,
+                        "end": 163
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 161,
-                "end": 164
+                "start": 162,
+                "end": 163
             },
             "formalParameterList": {
                 "kind": 214,
@@ -621,7 +614,7 @@ function three(this: number, ...a) {}
 
 function four(this: number, a, b, ...c) {}
 
-function five<T>(this: T) {}
+function five(this: T) {}
 
 ```
 

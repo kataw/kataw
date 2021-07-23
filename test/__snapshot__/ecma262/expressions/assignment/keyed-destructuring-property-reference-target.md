@@ -226,7 +226,7 @@ function targetKey() {
                                             "asteriskToken": null,
                                             "getKeyword": {
                                                 "kind": 16498,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 72,
                                                 "end": 84
@@ -248,7 +248,7 @@ function targetKey() {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
-                                                    "flags": 1057,
+                                                    "flags": 1056,
                                                     "transformFlags": 0,
                                                     "start": 87,
                                                     "end": 88
@@ -329,7 +329,7 @@ function targetKey() {
                                                     "start": 88,
                                                     "end": 129
                                                 },
-                                                "flags": 1057,
+                                                "flags": 1056,
                                                 "transformFlags": 0,
                                                 "start": 86,
                                                 "end": 129
@@ -489,7 +489,7 @@ function targetKey() {
                                             "getKeyword": null,
                                             "setKeyword": {
                                                 "kind": 16499,
-                                                "flags": 97,
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 195,
                                                 "end": 207
@@ -520,7 +520,7 @@ function targetKey() {
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 609,
+                                                    "flags": 608,
                                                     "transformFlags": 0,
                                                     "start": 210,
                                                     "end": 212
@@ -601,7 +601,7 @@ function targetKey() {
                                                     "start": 212,
                                                     "end": 253
                                                 },
-                                                "flags": 545,
+                                                "flags": 544,
                                                 "transformFlags": 0,
                                                 "start": 209,
                                                 "end": 253
@@ -892,7 +892,7 @@ function targetKey() {
                                                 "start": 344,
                                                 "end": 436
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 128,
                                             "start": 326,
                                             "end": 436
@@ -1178,7 +1178,7 @@ function targetKey() {
                                                 "start": 527,
                                                 "end": 619
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 128,
                                             "start": 509,
                                             "end": 619

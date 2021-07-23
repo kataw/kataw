@@ -70,36 +70,29 @@ declare var C: Class<string>;
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 134234347,
-                                                    "flags": 2097216,
-                                                    "transformFlags": 0,
-                                                    "start": 21,
-                                                    "end": 27
-                                                },
-                                                "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
                                                 "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 27
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 21,
-                                        "end": 27
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 21,
+                                            "end": 27
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 20,
-                                    "end": 28
+                                    "start": 21,
+                                    "end": 27
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,

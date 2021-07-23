@@ -67,46 +67,39 @@ type D = $Call<Fn1>;
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "Fn1",
-                                            "rawText": "Fn1",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 15,
-                                            "end": 18
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "Fn1",
+                                        "rawText": "Fn1",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 18
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 15,
+                                "end": 18
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 14,
-                        "end": 19
+                        "start": 15,
+                        "end": 18
                     },
                     "flags": 2097152,
                     "transformFlags": 0,

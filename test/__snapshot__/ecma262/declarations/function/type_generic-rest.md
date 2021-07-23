@@ -50,58 +50,51 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 17
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "A",
+                            "rawText": "A",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 18,
-                                "end": 20
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 16,
+                        "end": 17
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 20
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 20
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 18,
+                        "end": 20
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 15,
-                "end": 21
+                "start": 16,
+                "end": 20
             },
             "formalParameterList": {
                 "kind": 214,
@@ -340,79 +333,72 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 },
                                 "typeParameters": {
                                     "kind": 310,
-                                    "typeInstantiations": {
-                                        "kind": 309,
-                                        "types": [
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 134299649,
-                                                        "text": "A",
-                                                        "rawText": "A",
-                                                        "flags": 96,
-                                                        "transformFlags": 0,
-                                                        "start": 36,
-                                                        "end": 37
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 2097152,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "A",
+                                                    "rawText": "A",
+                                                    "flags": 96,
                                                     "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 37
                                                 },
+                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 37
                                             },
-                                            {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 134234353,
-                                                    "properties": [
-                                                        {
-                                                            "kind": 193,
-                                                            "protoKeyword": null,
-                                                            "staticKeyword": null,
-                                                            "getKeyword": null,
-                                                            "setKeyword": null,
-                                                            "key": {
-                                                                "kind": 134299649,
-                                                                "text": "p",
-                                                                "rawText": "p",
-                                                                "flags": 96,
-                                                                "transformFlags": 0,
-                                                                "start": 40,
-                                                                "end": 41
-                                                            },
-                                                            "optionalToken": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 36,
+                                            "end": 37
+                                        },
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234353,
+                                                "properties": [
+                                                    {
+                                                        "kind": 193,
+                                                        "protoKeyword": null,
+                                                        "staticKeyword": null,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
+                                                        "key": {
+                                                            "kind": 134299649,
+                                                            "text": "p",
+                                                            "rawText": "p",
+                                                            "flags": 96,
+                                                            "transformFlags": 0,
+                                                            "start": 40,
+                                                            "end": 41
+                                                        },
+                                                        "optionalToken": null,
+                                                        "type": {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 144,
-                                                                    "typeName": {
-                                                                        "kind": 134299649,
-                                                                        "text": "B",
-                                                                        "rawText": "B",
-                                                                        "flags": 96,
-                                                                        "transformFlags": 0,
-                                                                        "start": 42,
-                                                                        "end": 44
-                                                                    },
-                                                                    "typeParameters": null,
-                                                                    "flags": 2097152,
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "B",
+                                                                    "rawText": "B",
+                                                                    "flags": 96,
                                                                     "transformFlags": 0,
                                                                     "start": 42,
                                                                     "end": 44
                                                                 },
+                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "transformFlags": 0,
                                                                 "start": 42,
@@ -420,32 +406,32 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                             },
                                                             "flags": 2097152,
                                                             "transformFlags": 0,
-                                                            "start": 40,
+                                                            "start": 42,
                                                             "end": 44
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 38,
-                                                    "end": 45
-                                                },
+                                                        },
+                                                        "flags": 2097152,
+                                                        "transformFlags": 0,
+                                                        "start": 40,
+                                                        "end": 44
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 45
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 36,
-                                        "end": 45
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 38,
+                                            "end": 45
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 35,
-                                    "end": 46
+                                    "start": 36,
+                                    "end": 45
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -514,7 +500,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
 ### Printed
 
 ```javascript
-function remove<A, B>(a: A): [$Rest<A, { p: B }>, B] {
+function remove(a: A): [$Rest<A, { p: B }>, B] {
   const { p, ...o } = a;
   return [o, p];
 }

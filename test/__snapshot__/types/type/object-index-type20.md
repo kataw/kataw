@@ -44,39 +44,32 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "Type",
-                                "rawText": "Type",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 20
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "Type",
+                            "rawText": "Type",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 20
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 16,
-                    "end": 20
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 16,
+                        "end": 20
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 15,
-                "end": 21
+                "start": 16,
+                "end": 20
             },
             "assignToken": {
                 "kind": 4125,
@@ -145,46 +138,39 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                             },
                                             "typeParameters": {
                                                 "kind": 310,
-                                                "typeInstantiations": {
-                                                    "kind": 309,
-                                                    "types": [
-                                                        {
-                                                            "kind": 139,
-                                                            "bitwiseOrToken": null,
-                                                            "bitwiseAndToken": null,
-                                                            "type": {
-                                                                "kind": 144,
-                                                                "typeName": {
-                                                                    "kind": 134299649,
-                                                                    "text": "Type",
-                                                                    "rawText": "Type",
-                                                                    "flags": 96,
-                                                                    "transformFlags": 0,
-                                                                    "start": 50,
-                                                                    "end": 54
-                                                                },
-                                                                "typeParameters": null,
-                                                                "flags": 2097152,
+                                                "types": [
+                                                    {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "typeName": {
+                                                                "kind": 134299649,
+                                                                "text": "Type",
+                                                                "rawText": "Type",
+                                                                "flags": 96,
                                                                 "transformFlags": 0,
                                                                 "start": 50,
                                                                 "end": 54
                                                             },
+                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 54
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 50,
-                                                    "end": 54
-                                                },
+                                                        },
+                                                        "flags": 2097152,
+                                                        "transformFlags": 0,
+                                                        "start": 50,
+                                                        "end": 54
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 2097152,
                                                 "transformFlags": 512,
-                                                "start": 49,
-                                                "end": 55
+                                                "start": 50,
+                                                "end": 54
                                             },
                                             "flags": 2097152,
                                             "transformFlags": 0,
@@ -238,7 +224,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
 ### Printed
 
 ```javascript
-type LinkedList<Type> = Type & { next: LinkedList<Type> }
+type LinkedList = Type & { next: LinkedList<Type> }
 ```
 
 ### Diagnostics

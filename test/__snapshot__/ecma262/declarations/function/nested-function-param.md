@@ -49,146 +49,139 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "X",
-                                "rawText": "X",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 12
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "X",
+                            "rawText": "X",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "Y",
-                                "rawText": "Y",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 13,
-                                "end": 15
-                            },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 11,
+                        "end": 12
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "Y",
+                            "rawText": "Y",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 13,
+                            "end": 15
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "X",
-                                        "rawText": "X",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 16,
-                                        "end": 18
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
+                                "kind": 144,
+                                "typeName": {
+                                    "kind": 134299649,
+                                    "text": "X",
+                                    "rawText": "X",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
+                                "typeParameters": null,
                                 "flags": 2097152,
                                 "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
-                            "assignToken": null,
-                            "defaultType": null,
                             "flags": 2097152,
                             "transformFlags": 0,
-                            "start": 13,
+                            "start": 16,
                             "end": 18
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "Z",
-                                "rawText": "Z",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 19,
-                                "end": 21
-                            },
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 18
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "Z",
+                            "rawText": "Z",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 19,
+                            "end": 21
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "Y",
-                                        "rawText": "Y",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
+                                "kind": 144,
+                                "typeName": {
+                                    "kind": 134299649,
+                                    "text": "Y",
+                                    "rawText": "Y",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
+                                "typeParameters": null,
                                 "flags": 2097152,
                                 "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
-                            "assignToken": null,
-                            "defaultType": null,
                             "flags": 2097152,
                             "transformFlags": 0,
-                            "start": 19,
+                            "start": 22,
                             "end": 24
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "W",
-                                "rawText": "W",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 25,
-                                "end": 27
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 24
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "W",
+                            "rawText": "W",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 25,
                             "end": 27
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 11,
-                    "end": 27
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 25,
+                        "end": 27
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 10,
-                "end": 28
+                "start": 11,
+                "end": 27
             },
             "formalParameterList": {
                 "kind": 214,
@@ -562,7 +555,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 ### Printed
 
 ```javascript
-function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
+function f(y: Y, z: X, w: W): X {
   if (n === 0) return y;
   if (n === 1) return z;
   return w;

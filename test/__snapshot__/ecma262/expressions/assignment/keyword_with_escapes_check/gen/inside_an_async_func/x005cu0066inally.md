@@ -160,7 +160,6 @@ async () => {  \u0066inally = x  }
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 13, end: 27
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 ✖ Declaration or statement expected - start: 31, end: 34
 

@@ -45,39 +45,32 @@ class Foo<T> extends mixin(Bar) { }
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 11
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 10,
-                    "end": 11
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 10,
+                        "end": 11
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 9,
-                "end": 12
+                "start": 10,
+                "end": 11
             },
             "tail": {
                 "kind": 277,
@@ -163,7 +156,7 @@ class Foo<T> extends mixin(Bar) { }
 ### Printed
 
 ```javascript
-class Foo <T> extends mixin(Bar) {}
+class Foo  extends mixin(Bar) {}
 ```
 
 ### Diagnostics

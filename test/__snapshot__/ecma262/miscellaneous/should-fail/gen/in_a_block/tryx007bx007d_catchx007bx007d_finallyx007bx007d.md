@@ -220,8 +220,6 @@
 
 ```javascript
 ✖ 'catch' expected - start: 7, end: 8
-✖ 'try' expected - start: 8, end: 13
-✖ 'try' expected - start: 16, end: 23
 
 ```
 

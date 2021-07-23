@@ -28,7 +28,7 @@
                                 "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
-                                    "flags": 16736,
+                                    "flags": 352,
                                     "transformFlags": 0,
                                     "start": 2,
                                     "end": 13
@@ -52,7 +52,7 @@
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 16672,
+                                        "flags": 288,
                                         "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
@@ -105,7 +105,7 @@
                                         "start": 17,
                                         "end": 29
                                     },
-                                    "flags": 16672,
+                                    "flags": 288,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 29
@@ -151,13 +151,14 @@
 ### Printed
 
 ```javascript
-
+({ async x() {
+      await x;
+    } });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 13, end: 15
-
+✔ No errors
 ```
 

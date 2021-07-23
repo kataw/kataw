@@ -42,39 +42,32 @@ type x<y> = z<<q>(r) => s>
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 8
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 7,
                             "end": 8
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 7,
-                    "end": 8
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 7,
+                        "end": 8
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 6,
-                "end": 9
+                "start": 7,
+                "end": 8
             },
             "assignToken": {
                 "kind": 4125,
@@ -100,116 +93,102 @@ type x<y> = z<<q>(r) => s>
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 288,
-                                        "typeParameters": {
-                                            "kind": 307,
-                                            "declarations": {
-                                                "kind": 337,
-                                                "parameters": [
-                                                    {
-                                                        "kind": 146,
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "q",
-                                                            "rawText": "q",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 15,
-                                                            "end": 16
-                                                        },
-                                                        "type": null,
-                                                        "assignToken": null,
-                                                        "defaultType": null,
-                                                        "flags": 2097152,
-                                                        "transformFlags": 0,
-                                                        "start": 15,
-                                                        "end": 16
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 288,
+                                    "typeParameters": {
+                                        "kind": 307,
+                                        "declarations": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "q",
+                                                    "rawText": "q",
+                                                    "flags": 96,
+                                                    "transformFlags": 0,
+                                                    "start": 15,
+                                                    "end": 16
+                                                },
+                                                "type": null,
+                                                "assignToken": null,
+                                                "defaultType": null,
                                                 "flags": 2097152,
                                                 "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 16
-                                            },
-                                            "flags": 2097152,
-                                            "transformFlags": 512,
-                                            "start": 14,
-                                            "end": 17
-                                        },
-                                        "arrowTypeParameterList": {
-                                            "kind": 292,
-                                            "parameters": [
-                                                {
-                                                    "kind": 284,
-                                                    "ellipsisToken": null,
-                                                    "name": null,
-                                                    "optionalToken": null,
-                                                    "types": {
-                                                        "kind": 144,
-                                                        "typeName": {
-                                                            "kind": 134299649,
-                                                            "text": "r",
-                                                            "rawText": "r",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 18,
-                                                            "end": 19
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 2097152,
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "transformFlags": 512,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [
+                                            {
+                                                "kind": 284,
+                                                "ellipsisToken": null,
+                                                "name": null,
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "r",
+                                                        "rawText": "r",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 19
                                                     },
+                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 19
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 18,
-                                            "end": 19
-                                        },
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "transformFlags": 0,
-                                            "start": 20,
-                                            "end": 23
-                                        },
-                                        "returnType": {
-                                            "kind": 139,
-                                            "bitwiseOrToken": null,
-                                            "bitwiseAndToken": null,
-                                            "type": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "s",
-                                                    "rawText": "s",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 23,
-                                                    "end": 25
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 18,
+                                                "end": 19
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "transformFlags": 0,
+                                        "start": 20,
+                                        "end": 23
+                                    },
+                                    "returnType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "s",
+                                                "rawText": "s",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
+                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "transformFlags": 0,
                                             "start": 23,
@@ -217,25 +196,25 @@ type x<y> = z<<q>(r) => s>
                                         },
                                         "flags": 2097152,
                                         "transformFlags": 0,
-                                        "start": 14,
+                                        "start": 23,
                                         "end": 25
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 25
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 14,
-                            "end": 25
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 14,
+                                "end": 25
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 13,
-                        "end": 26
+                        "start": 14,
+                        "end": 25
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
@@ -266,7 +245,7 @@ type x<y> = z<<q>(r) => s>
 ### Printed
 
 ```javascript
-type x<y> = z<<q>(r) => s>
+type x = z<(r) => s>
 ```
 
 ### Diagnostics

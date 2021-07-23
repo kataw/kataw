@@ -88,36 +88,29 @@ a?.a?.a?.a?.<number>(y);
                         "chain": null,
                         "typeArguments": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [
-                                    {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
-                                            "transformFlags": 0,
-                                            "start": 7,
-                                            "end": 13
-                                        },
-                                        "flags": 2097152,
+                            "types": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
                                         "transformFlags": 0,
                                         "start": 7,
                                         "end": 13
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 7,
-                                "end": 13
-                            },
+                                    },
+                                    "flags": 2097152,
+                                    "transformFlags": 0,
+                                    "start": 7,
+                                    "end": 13
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 6,
-                            "end": 14
+                            "start": 7,
+                            "end": 13
                         },
                         "argumentList": {
                             "kind": 256,
@@ -299,36 +292,29 @@ a?.a?.a?.a?.<number>(y);
                         "chain": null,
                         "typeArguments": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [
-                                    {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
-                                            "transformFlags": 0,
-                                            "start": 33,
-                                            "end": 39
-                                        },
-                                        "flags": 2097152,
+                            "types": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
                                         "transformFlags": 0,
                                         "start": 33,
                                         "end": 39
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 33,
-                                "end": 39
-                            },
+                                    },
+                                    "flags": 2097152,
+                                    "transformFlags": 0,
+                                    "start": 33,
+                                    "end": 39
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 32,
-                            "end": 40
+                            "start": 33,
+                            "end": 39
                         },
                         "argumentList": {
                             "kind": 256,

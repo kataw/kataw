@@ -205,7 +205,6 @@ do {} while (x) { catch { try
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 17, end: 23
 ✖ 'catch' expected - start: 29, end: 29
 
 ```

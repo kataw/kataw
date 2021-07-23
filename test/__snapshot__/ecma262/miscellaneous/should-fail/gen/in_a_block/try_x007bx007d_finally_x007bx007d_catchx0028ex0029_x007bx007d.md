@@ -167,13 +167,15 @@
 ### Printed
 
 ```javascript
-
+{
+  try {} finally {}
+  {} catch (e) {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 19, end: 25
-
+✔ No errors
 ```
 

@@ -214,8 +214,6 @@
 
 ```javascript
 ✖ 'catch' expected - start: 19, end: 20
-✖ 'try' expected - start: 20, end: 25
-✖ 'try' expected - start: 28, end: 35
 
 ```
 

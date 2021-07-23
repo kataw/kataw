@@ -169,7 +169,6 @@ async x => (catch) = 1
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 17
-✖ 'try' expected - start: 12, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 

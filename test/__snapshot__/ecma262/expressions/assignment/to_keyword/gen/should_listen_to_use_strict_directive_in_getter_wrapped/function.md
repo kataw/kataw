@@ -58,7 +58,7 @@ foo = {
                                 "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
-                                    "flags": 97,
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 7,
                                     "end": 13
@@ -80,7 +80,7 @@ foo = {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
-                                        "flags": 1057,
+                                        "flags": 1056,
                                         "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
@@ -194,7 +194,7 @@ foo = {
                                         "start": 17,
                                         "end": 60
                                     },
-                                    "flags": 1057,
+                                    "flags": 1056,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 60

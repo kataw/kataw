@@ -55,157 +55,143 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "TArguments",
-                                "rawText": "TArguments",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 21,
-                                "end": 31
-                            },
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "TArguments",
+                            "rawText": "TArguments",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 21,
+                            "end": 31
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "$ReadOnlyArray",
-                                        "rawText": "$ReadOnlyArray",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 32,
-                                        "end": 47
-                                    },
-                                    "typeParameters": {
-                                        "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [
-                                                {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234353,
-                                                        "properties": [
-                                                            {
-                                                                "kind": 193,
-                                                                "protoKeyword": null,
-                                                                "staticKeyword": null,
-                                                                "getKeyword": null,
-                                                                "setKeyword": null,
-                                                                "key": {
-                                                                    "kind": 134299649,
-                                                                    "text": "foo",
-                                                                    "rawText": "foo",
-                                                                    "flags": 96,
-                                                                    "transformFlags": 0,
-                                                                    "start": 49,
-                                                                    "end": 52
-                                                                },
-                                                                "optionalToken": null,
-                                                                "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 134217967,
-                                                                        "text": "a",
-                                                                        "rawText": "'a'",
-                                                                        "flags": 6291520,
-                                                                        "transformFlags": 1024,
-                                                                        "start": 53,
-                                                                        "end": 57
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "transformFlags": 0,
-                                                                    "start": 53,
-                                                                    "end": 57
-                                                                },
-                                                                "flags": 2097152,
-                                                                "transformFlags": 0,
-                                                                "start": 49,
+                                "kind": 144,
+                                "typeName": {
+                                    "kind": 134299649,
+                                    "text": "$ReadOnlyArray",
+                                    "rawText": "$ReadOnlyArray",
+                                    "flags": 96,
+                                    "transformFlags": 0,
+                                    "start": 32,
+                                    "end": 47
+                                },
+                                "typeParameters": {
+                                    "kind": 310,
+                                    "types": [
+                                        {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234353,
+                                                "properties": [
+                                                    {
+                                                        "kind": 193,
+                                                        "protoKeyword": null,
+                                                        "staticKeyword": null,
+                                                        "getKeyword": null,
+                                                        "setKeyword": null,
+                                                        "key": {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "transformFlags": 0,
+                                                            "start": 49,
+                                                            "end": 52
+                                                        },
+                                                        "optionalToken": null,
+                                                        "type": {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134217967,
+                                                                "text": "a",
+                                                                "rawText": "'a'",
+                                                                "flags": 6291520,
+                                                                "transformFlags": 1024,
+                                                                "start": 53,
                                                                 "end": 57
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
+                                                            },
+                                                            "flags": 2097152,
+                                                            "transformFlags": 0,
+                                                            "start": 53,
+                                                            "end": 57
+                                                        },
                                                         "flags": 2097152,
                                                         "transformFlags": 0,
-                                                        "start": 48,
-                                                        "end": 58
-                                                    },
-                                                    "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 48,
-                                                    "end": 58
-                                                }
-                                            ],
-                                            "trailingComma": false,
+                                                        "start": 49,
+                                                        "end": 57
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 48,
+                                                "end": 58
+                                            },
                                             "flags": 2097152,
                                             "transformFlags": 0,
                                             "start": 48,
                                             "end": 58
-                                        },
-                                        "flags": 2097152,
-                                        "transformFlags": 512,
-                                        "start": 47,
-                                        "end": 59
-                                    },
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
-                                    "transformFlags": 0,
-                                    "start": 32,
-                                    "end": 59
+                                    "transformFlags": 512,
+                                    "start": 48,
+                                    "end": 58
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
                                 "start": 32,
                                 "end": 59
                             },
-                            "assignToken": null,
-                            "defaultType": null,
                             "flags": 2097152,
                             "transformFlags": 0,
-                            "start": 21,
+                            "start": 32,
                             "end": 59
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "TReturn",
-                                "rawText": "TReturn",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 60,
-                                "end": 68
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 59
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "TReturn",
+                            "rawText": "TReturn",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 60,
                             "end": 68
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 68
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 60,
+                        "end": 68
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 20,
-                "end": 69
+                "start": 21,
+                "end": 68
             },
             "formalParameterList": {
                 "kind": 214,
@@ -482,10 +468,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
 ### Printed
 
 ```javascript
-declare function foo<
-  TArguments: $ReadOnlyArray<{ foo: "'a'" }>,
-  TReturn
->(implementation? : (...args: TArguments) => TReturn): (...args: TArguments) => TReturn;
+declare function foo(implementation? : (...args: TArguments) => TReturn): (...args: TArguments) => TReturn;
 ```
 
 ### Diagnostics

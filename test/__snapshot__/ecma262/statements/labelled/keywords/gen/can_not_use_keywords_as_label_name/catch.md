@@ -113,7 +113,6 @@ catch: x
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 0, end: 5
 ✖ Declaration or statement expected - start: 5, end: 6
 
 ```

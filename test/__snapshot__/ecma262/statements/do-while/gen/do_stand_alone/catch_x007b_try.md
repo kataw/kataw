@@ -168,7 +168,6 @@ do catch { try
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 2, end: 8
 ✖ 'catch' expected - start: 14, end: 14
 
 ```

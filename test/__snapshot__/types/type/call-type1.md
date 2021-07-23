@@ -58,58 +58,51 @@ type Fn2 = <A, B>(A, B) => A | B;
                     "kind": 288,
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "A",
-                                        "rawText": "A",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 12,
-                                        "end": 13
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "A",
+                                    "rawText": "A",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "B",
-                                        "rawText": "B",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 14,
-                                        "end": 16
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 12,
+                                "end": 13
+                            },
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "B",
+                                    "rawText": "B",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 12,
-                            "end": 16
-                        },
+                                },
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 14,
+                                "end": 16
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 10,
-                        "end": 17
+                        "start": 12,
+                        "end": 16
                     },
                     "arrowTypeParameterList": {
                         "kind": 292,
@@ -263,7 +256,7 @@ type Fn2 = <A, B>(A, B) => A | B;
 ### Printed
 
 ```javascript
-type Fn2 = <A, B>(A, B) => A | B
+type Fn2 = (A, B) => A | B
 ```
 
 ### Diagnostics

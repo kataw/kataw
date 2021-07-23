@@ -91,7 +91,7 @@ var foo = {
                                             "start": 22,
                                             "end": 25
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 11,
                                         "end": 25

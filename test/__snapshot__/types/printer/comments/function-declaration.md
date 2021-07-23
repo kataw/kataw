@@ -206,39 +206,32 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 134,
-                                "end": 135
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 134,
                             "end": 135
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 134,
-                    "end": 135
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 134,
+                        "end": 135
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 133,
-                "end": 136
+                "start": 134,
+                "end": 135
             },
             "formalParameterList": {
                 "kind": 214,
@@ -483,39 +476,32 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 221,
-                                                    "end": 227
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 221,
                                                 "end": 227
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 221,
-                                        "end": 227
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 221,
+                                            "end": 227
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 220,
-                                    "end": 233
+                                    "start": 221,
+                                    "end": 227
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -567,39 +553,32 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 269,
-                                "end": 270
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 269,
                             "end": 270
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 269,
-                    "end": 270
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 269,
+                        "end": 270
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 268,
-                "end": 271
+                "start": 269,
+                "end": 270
             },
             "formalParameterList": {
                 "kind": 214,
@@ -749,39 +728,32 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                 "kind": 288,
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 341,
-                                                    "end": 348
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 341,
                                                 "end": 348
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 341,
-                                        "end": 348
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 341,
+                                            "end": 348
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 339,
-                                    "end": 355
+                                    "start": 341,
+                                    "end": 348
                                 },
                                 "arrowTypeParameterList": {
                                     "kind": 292,
@@ -938,39 +910,32 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 438,
-                                "end": 439
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 438,
                             "end": 439
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 438,
-                    "end": 439
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 438,
+                        "end": 439
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 432,
-                "end": 440
+                "start": 438,
+                "end": 439
             },
             "formalParameterList": {
                 "kind": 214,
@@ -1236,20 +1201,18 @@ function /*2*/ identity /*3*/(value /*4*/: string /*5*/): string /*6*/ {
   /*9*/
 
 } /*7*/
-function identity<T>(value: T): T /*1*/ {
+function identity(value: T): T /*1*/ {
   /*1*/ return value;
 } /*2*/
 
-type IdentityWrapper =/*5*/  { func</*1*/ T> /*2*/ (/*3*/ T /*4*/): T }
+type IdentityWrapper =/*5*/  { func /*2*/ (/*3*/ T /*4*/): T }
 
-function method<T>(param:/*1*/  T): T {// ...
+function method(param:/*1*/  T): T {// ...
 }
 
-function /*1*/ method /*2*/(func: <
-  /*3*/ T
-> /*4*/(/*5*/ param /*6*/: T /*7*/)/*1*/  =>/*1*/  T) {}
+function /*1*/ method /*2*/(func:  /*4*/(/*5*/ param /*6*/: T /*7*/)/*1*/  =>/*1*/  T) {}
 
-function /*1*/ constant /*2*/<T>(value /*3*/: T /*4*/): () => T /*5*/ {
+function /*1*/ constant /*2*/(value /*3*/: T /*4*/): () => T /*5*/ {
   /*5*/ return /*6*/ function (/*7*/ ): T /*9*/ {
     return /*11*/ value;
   } /*12*/;

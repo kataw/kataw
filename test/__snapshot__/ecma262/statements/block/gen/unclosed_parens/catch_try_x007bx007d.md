@@ -183,7 +183,6 @@
 
 ```javascript
 ✖ Identifier expected - start: 2, end: 8
-✖ 'try' expected - start: 2, end: 8
 ✖ 'catch' expected - start: 15, end: 15
 
 ```

@@ -65,58 +65,51 @@ class D<T> {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "X",
-                                "rawText": "X",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 8,
-                                "end": 9
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "X",
+                            "rawText": "X",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "Y",
-                                "rawText": "Y",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 10,
-                                "end": 12
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 8,
+                        "end": 9
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "Y",
+                            "rawText": "Y",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 10,
                             "end": 12
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 12
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 10,
+                        "end": 12
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 7,
-                "end": 13
+                "start": 8,
+                "end": 12
             },
             "tail": {
                 "kind": 277,
@@ -614,39 +607,32 @@ class D<T> {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 153,
-                                "end": 154
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 153,
                             "end": 154
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 153,
-                    "end": 154
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 153,
+                        "end": 154
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 152,
-                "end": 155
+                "start": 153,
+                "end": 154
             },
             "tail": {
                 "kind": 277,
@@ -731,39 +717,32 @@ class D<T> {
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "S",
-                                                    "rawText": "S",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 170,
-                                                    "end": 171
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "S",
+                                                "rawText": "S",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 170,
                                                 "end": 171
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 170,
-                                        "end": 171
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 170,
+                                            "end": 171
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 169,
-                                    "end": 172
+                                    "start": 170,
+                                    "end": 171
                                 },
                                 "formalParameterList": {
                                     "kind": 214,
@@ -1024,7 +1003,7 @@ class D<T> {
 ### Printed
 
 ```javascript
-class C <X, Y>{
+class C {
   x: X;;
   constructor(x: X) {
     this.x = x;
@@ -1036,9 +1015,9 @@ class C <X, Y>{
     return this.x;
   }
 }
-class D <T>{
+class D {
   x: T;;
-  m<S>(z: S, u: T): S {
+  m(z: S, u: T): S {
     this.x = u;
     return z;
   }

@@ -104,7 +104,6 @@ fin\u0061lly = x;
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 0, end: 12
 ✖ Declaration or statement expected - start: 12, end: 14
 
 ```

@@ -88,7 +88,7 @@ function *a(){({yi\u0065ld: 0})}
                                                     "start": 27,
                                                     "end": 29
                                                 },
-                                                "flags": 16416,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 16,
                                                 "end": 29

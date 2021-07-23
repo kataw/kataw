@@ -205,7 +205,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 4, end: 12
 ✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ Missing an opening parentheses - '( - start: 19, end: 25
 

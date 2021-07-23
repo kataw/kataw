@@ -55,77 +55,70 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 21,
-                                "end": 22
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "A",
+                            "rawText": "A",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 22
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 23,
-                                "end": 25
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 22
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "C",
-                                "rawText": "C",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 26,
-                                "end": 28
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 23,
+                        "end": 25
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "C",
+                            "rawText": "C",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 26,
                             "end": 28
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 28
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 26,
+                        "end": 28
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 20,
-                "end": 29
+                "start": 21,
+                "end": 28
             },
             "superType": {
                 "kind": 139,
@@ -426,7 +419,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
 ### Printed
 
 ```javascript
-opaque type MyObject<A, B, C>: { foo: A, bar: B } = { foo: A, bar: B, baz: C };
+opaque type MyObject: { foo: A, bar: B } = { foo: A, bar: B, baz: C };
 ```
 
 ### Diagnostics

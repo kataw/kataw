@@ -154,39 +154,32 @@ var a: { id<T>(x: T): T; }
                                             },
                                             "typeParameters": {
                                                 "kind": 307,
-                                                "declarations": {
-                                                    "kind": 337,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 146,
-                                                            "name": {
-                                                                "kind": 134299649,
-                                                                "text": "T",
-                                                                "rawText": "T",
-                                                                "flags": 96,
-                                                                "transformFlags": 0,
-                                                                "start": 12,
-                                                                "end": 13
-                                                            },
-                                                            "type": null,
-                                                            "assignToken": null,
-                                                            "defaultType": null,
-                                                            "flags": 2097152,
+                                                "declarations": [
+                                                    {
+                                                        "kind": 146,
+                                                        "name": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
                                                             "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 13
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 2097152,
-                                                    "transformFlags": 0,
-                                                    "start": 12,
-                                                    "end": 13
-                                                },
+                                                        },
+                                                        "type": null,
+                                                        "assignToken": null,
+                                                        "defaultType": null,
+                                                        "flags": 2097152,
+                                                        "transformFlags": 0,
+                                                        "start": 12,
+                                                        "end": 13
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 2097152,
                                                 "transformFlags": 512,
-                                                "start": 11,
-                                                "end": 14
+                                                "start": 12,
+                                                "end": 13
                                             },
                                             "flags": 2097152,
                                             "transformFlags": 0,
@@ -241,7 +234,7 @@ var a: { id<T>(x: T): T; }
 ### Printed
 
 ```javascript
-var a: { id<T> (x: T): T };
+var a: { id (x: T): T };
 ```
 
 ### Diagnostics

@@ -67,78 +67,71 @@ type F = $Call<Fn1, number, string>;
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "Fn1",
-                                            "rawText": "Fn1",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 15,
-                                            "end": 18
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "Fn1",
+                                        "rawText": "Fn1",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 19,
-                                        "end": 26
-                                    },
-                                    "flags": 2097152,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 15,
+                                "end": 18
+                            },
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 19,
                                     "end": 26
                                 },
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 27,
-                                        "end": 34
-                                    },
-                                    "flags": 2097152,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 19,
+                                "end": 26
+                            },
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
                                     "transformFlags": 0,
                                     "start": 27,
                                     "end": 34
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 15,
-                            "end": 34
-                        },
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 27,
+                                "end": 34
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 14,
-                        "end": 35
+                        "start": 15,
+                        "end": 34
                     },
                     "flags": 2097152,
                     "transformFlags": 0,

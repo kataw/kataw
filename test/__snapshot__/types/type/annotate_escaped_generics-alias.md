@@ -58,39 +58,32 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                     "kind": 288,
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "Return",
-                                        "rawText": "Return",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 11,
-                                        "end": 17
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "Return",
+                                    "rawText": "Return",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 11,
                                     "end": 17
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 11,
-                            "end": 17
-                        },
+                                },
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 11,
+                                "end": 17
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 9,
-                        "end": 18
+                        "start": 11,
+                        "end": 17
                     },
                     "arrowTypeParameterList": {
                         "kind": 292,
@@ -142,46 +135,39 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                     },
                                     "typeParameters": {
                                         "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [
-                                                {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 144,
-                                                        "typeName": {
-                                                            "kind": 134299649,
-                                                            "text": "Return",
-                                                            "rawText": "Return",
-                                                            "flags": 96,
-                                                            "transformFlags": 0,
-                                                            "start": 28,
-                                                            "end": 34
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 2097152,
+                                        "types": [
+                                            {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "Return",
+                                                        "rawText": "Return",
+                                                        "flags": 96,
                                                         "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 34
                                                     },
+                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 34
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 28,
-                                            "end": 34
-                                        },
+                                                },
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 28,
+                                                "end": 34
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 27,
-                                        "end": 35
+                                        "start": 28,
+                                        "end": 34
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,

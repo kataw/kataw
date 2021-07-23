@@ -577,7 +577,7 @@ function f() {
                                                     "start": 288,
                                                     "end": 328
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 288,
                                                 "end": 328
@@ -668,7 +668,7 @@ function f() {
                                                     "start": 329,
                                                     "end": 371
                                                 },
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 128,
                                                 "start": 329,
                                                 "end": 371

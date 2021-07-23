@@ -206,7 +206,6 @@ do catch try {} while
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 2, end: 8
 ✖ Missing an opening parentheses - '( - start: 9, end: 12
 ✖ 'catch' expected - start: 15, end: 21
 

@@ -64,73 +64,66 @@ const f = async <T, R, S>(
                             },
                             "typeParameters": {
                                 "kind": 307,
-                                "declarations": {
-                                    "kind": 337,
-                                    "parameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 17,
-                                                "end": 18
-                                            },
-                                            "type": null,
-                                            "assignToken": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
+                                "declarations": [
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "transformFlags": 0,
-                                            "start": 9,
+                                            "start": 17,
                                             "end": 18
                                         },
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "R",
-                                                "rawText": "R",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 19,
-                                                "end": 21
-                                            },
-                                            "type": null,
-                                            "assignToken": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
+                                        "type": null,
+                                        "assignToken": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 9,
+                                        "end": 18
+                                    },
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "R",
+                                            "rawText": "R",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "S",
-                                                "rawText": "S",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 22,
-                                                "end": 24
-                                            },
-                                            "type": null,
-                                            "assignToken": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
+                                        "type": null,
+                                        "assignToken": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "S",
+                                            "rawText": "S",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "transformFlags": 0,
-                                    "start": 9,
-                                    "end": 24
-                                },
+                                        },
+                                        "type": null,
+                                        "assignToken": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 22,
+                                        "end": 24
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 2097152,
                                 "transformFlags": 512,
                                 "start": 9,
@@ -362,7 +355,7 @@ const f = async <T, R, S>(
 ### Printed
 
 ```javascript
-const f = async <T, R, S>(x: T, y: R, z: S) => {
+const f = async (x: T, y: R, z: S) => {
     return null;
   };
 ```

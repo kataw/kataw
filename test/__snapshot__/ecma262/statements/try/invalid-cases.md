@@ -3969,7 +3969,6 @@ try {} catch({ x: "str" }) {}
 ✖ Declaration or statement expected - start: 279, end: 281
 ✖ Declaration or statement expected - start: 281, end: 282
 ✖ 'catch' expected - start: 287, end: 289
-✖ 'try' expected - start: 289, end: 295
 ✖ ',' expected - start: 305, end: 307
 ✖ The parser expected to find a '}' to match the '{' token here - start: 306, end: 307
 ✖ Declaration or statement expected - start: 314, end: 315
@@ -3984,7 +3983,6 @@ try {} catch({ x: "str" }) {}
 ✖ ',' expected - start: 366, end: 368
 ✖ Declaration or statement expected - start: 383, end: 385
 ✖ Declaration or statement expected - start: 385, end: 386
-✖ 'try' expected - start: 389, end: 396
 ✖ Object property expected - start: 401, end: 403
 ✖ ',' expected - start: 401, end: 403
 ✖ Declaration or statement expected - start: 417, end: 419

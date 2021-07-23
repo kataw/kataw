@@ -489,39 +489,32 @@ type ten = {
                     "kind": 288,
                     "typeParameters": {
                         "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "transformFlags": 0,
-                                        "start": 144,
-                                        "end": 145
-                                    },
-                                    "type": null,
-                                    "assignToken": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "declarations": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
                                     "transformFlags": 0,
                                     "start": 144,
                                     "end": 145
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 144,
-                            "end": 145
-                        },
+                                },
+                                "type": null,
+                                "assignToken": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 144,
+                                "end": 145
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
-                        "start": 142,
-                        "end": 146
+                        "start": 144,
+                        "end": 145
                     },
                     "arrowTypeParameterList": {
                         "kind": 292,
@@ -1080,39 +1073,32 @@ type ten = {
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "declarations": {
-                                        "kind": 337,
-                                        "parameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 283,
-                                                    "end": 284
-                                                },
-                                                "type": null,
-                                                "assignToken": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
+                                    "declarations": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
                                                 "transformFlags": 0,
                                                 "start": 283,
                                                 "end": 284
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "transformFlags": 0,
-                                        "start": 283,
-                                        "end": 284
-                                    },
+                                            },
+                                            "type": null,
+                                            "assignToken": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
+                                            "transformFlags": 0,
+                                            "start": 283,
+                                            "end": 284
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "transformFlags": 512,
-                                    "start": 282,
-                                    "end": 285
+                                    "start": 283,
+                                    "end": 284
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
@@ -1160,7 +1146,7 @@ type seven = (this: number, a: number) => void
 
 type eight = (this: number, ...a: any) => void
 
-type nine = <T>(this: T) => void
+type nine = (this: T) => void
 
 type ten = {
   m1(this: string): void,
@@ -1168,7 +1154,7 @@ type ten = {
   a: number): void,
   m3(this: string,
   ...a: any): void,
-  m4<T> (this: T): void
+  m4 (this: T): void
 }
 
 ```

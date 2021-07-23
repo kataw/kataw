@@ -119,6 +119,7 @@ function f() {
 
 ```javascript
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 36
+✖ Octal literals are not allowed in strict mode - start: 29, end: 36
 
 ```
 

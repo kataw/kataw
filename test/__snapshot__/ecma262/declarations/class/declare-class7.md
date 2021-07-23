@@ -52,39 +52,32 @@ declare function foo<T>(): void;
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 21,
-                                "end": 22
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 21,
                             "end": 22
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 21,
-                    "end": 22
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 21,
+                        "end": 22
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 20,
-                "end": 23
+                "start": 21,
+                "end": 22
             },
             "formalParameterList": {
                 "kind": 214,
@@ -138,7 +131,7 @@ declare function foo<T>(): void;
 ### Printed
 
 ```javascript
-declare function foo<T>(): void;
+declare function foo(): void;
 ```
 
 ### Diagnostics

@@ -796,7 +796,7 @@ function foo4() {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 434,
                                                 "end": 435
@@ -818,7 +818,7 @@ function foo4() {
                                                 "start": 435,
                                                 "end": 438
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 425,
                                             "end": 438
@@ -850,7 +850,7 @@ function foo4() {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 446,
                                                 "end": 457
@@ -872,7 +872,7 @@ function foo4() {
                                                 "start": 457,
                                                 "end": 460
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 444,
                                             "end": 460
@@ -904,7 +904,7 @@ function foo4() {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 468,
                                                 "end": 469
@@ -926,7 +926,7 @@ function foo4() {
                                                 "start": 469,
                                                 "end": 486
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 466,
                                             "end": 486
@@ -958,7 +958,7 @@ function foo4() {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 501,
                                                 "end": 512
@@ -980,7 +980,7 @@ function foo4() {
                                                 "start": 512,
                                                 "end": 529
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 492,
                                             "end": 529

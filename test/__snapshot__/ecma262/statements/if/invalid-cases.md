@@ -2388,7 +2388,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ Generators can only be declared at the top level or inside a block - start: 48, end: 50
 ✖ Class declarations cannot be used in a single-statement context - start: 64, end: 70
 ✖ Missing an opening parentheses - '( - start: 81, end: 86
-✖ 'try' expected - start: 80, end: 86
 ✖ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 106, end: 107
 ✖ A return statement can only be used within a function_body - start: 116, end: 123
 ✖ An async function declaration is not allowed as `if-else` child - start: 139, end: 145

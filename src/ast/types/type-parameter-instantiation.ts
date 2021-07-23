@@ -1,19 +1,22 @@
 import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags } from '../syntax-node';
-import { TypeInstantiations } from './type-instantiations';
+import { TypeNode } from '.';
 
 export interface TypeParameterInstantiation extends SyntaxNode {
-  readonly typeInstantiations: TypeInstantiations;
+  readonly types: TypeNode[];
+  readonly trailingComma: boolean;
 }
 
 export function createTypeParameterInstantiation(
-  typeInstantiations: TypeInstantiations,
+  types: TypeNode[],
+  trailingComma: boolean,
   flags: NodeFlags,
   start: number,
   end: number
 ): TypeParameterInstantiation {
   return {
     kind: SyntaxKind.TypeParameterInstantiation,
-    typeInstantiations,
+    types,
+    trailingComma,
     flags,
     transformFlags: TransformFlags.TypeParameter,
     start,

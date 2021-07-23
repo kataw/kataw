@@ -161,7 +161,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 7, end: 12
 ✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 12
 
 ```

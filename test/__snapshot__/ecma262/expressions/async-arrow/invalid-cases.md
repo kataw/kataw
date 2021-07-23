@@ -2656,7 +2656,6 @@ async ([a]:string)=>c;
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 29, end: 32
 ✖ '=>' is not allowed here. Did you mean ';'? - start: 32, end: 35
 ✖ Identifier expected - start: 53, end: 58
-✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ 'if' is not allowed here. Did you mean ';'? - start: 71, end: 74

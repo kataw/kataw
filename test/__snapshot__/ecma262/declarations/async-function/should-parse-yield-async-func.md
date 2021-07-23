@@ -459,7 +459,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "start": 238,
                                                                                                         "end": 267
                                                                                                     },
-                                                                                                    "flags": 33,
+                                                                                                    "flags": 32,
                                                                                                     "transformFlags": 128,
                                                                                                     "start": 238,
                                                                                                     "end": 267
@@ -559,7 +559,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "start": 268,
                                                                                                         "end": 325
                                                                                                     },
-                                                                                                    "flags": 33,
+                                                                                                    "flags": 32,
                                                                                                     "transformFlags": 128,
                                                                                                     "start": 268,
                                                                                                     "end": 325
@@ -601,7 +601,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "start": 326,
                                                                                                         "end": 358
                                                                                                     },
-                                                                                                    "flags": 33,
+                                                                                                    "flags": 32,
                                                                                                     "transformFlags": 128,
                                                                                                     "start": 326,
                                                                                                     "end": 358

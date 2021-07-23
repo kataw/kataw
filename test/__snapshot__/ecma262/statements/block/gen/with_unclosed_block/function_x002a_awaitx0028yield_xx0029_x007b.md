@@ -258,7 +258,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 4, end: 12
 ✖ '{' is not allowed here. Did you mean ';'? - start: 15, end: 17
 ✖ `yield` expression cannot be used in function parameters - start: 35, end: 40
 ✖ ',' expected - start: 41, end: 42

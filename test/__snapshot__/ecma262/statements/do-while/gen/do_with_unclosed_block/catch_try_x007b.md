@@ -204,7 +204,6 @@ do {} while (x) { catch try {
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 17, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 
 ```

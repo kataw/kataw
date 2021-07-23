@@ -170,7 +170,6 @@ throw {x} catch (x = y) {}
 
 ```javascript
 ✖ 'catch' is not allowed here. Did you mean ';'? - start: 9, end: 15
-✖ 'try' expected - start: 9, end: 15
 ✖ Catch clause variable cannot have an initializer - start: 19, end: 20
 ✖ ')' is not allowed here. Did you mean ';'? - start: 22, end: 23
 

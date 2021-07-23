@@ -48,77 +48,70 @@ type MyObject<A, B, C> = {
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 14,
-                                "end": 15
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "A",
+                            "rawText": "A",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 16,
-                                "end": 18
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 14,
+                        "end": 15
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "B",
+                            "rawText": "B",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "C",
-                                "rawText": "C",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 19,
-                                "end": 21
-                            },
-                            "type": null,
-                            "assignToken": null,
-                            "defaultType": null,
-                            "flags": 2097152,
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 16,
+                        "end": 18
+                    },
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "C",
+                            "rawText": "C",
+                            "flags": 96,
                             "transformFlags": 0,
                             "start": 19,
                             "end": 21
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 14,
-                    "end": 21
-                },
+                        },
+                        "type": null,
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 21
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 13,
-                "end": 22
+                "start": 14,
+                "end": 21
             },
             "assignToken": {
                 "kind": 4125,
@@ -306,7 +299,7 @@ type MyObject<A, B, C> = {
 ### Printed
 
 ```javascript
-type MyObject<A, B, C> = { foo: A, bar: B, baz: C }
+type MyObject = { foo: A, bar: B, baz: C }
 ```
 
 ### Diagnostics

@@ -30,49 +30,42 @@
                 "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                "type": null,
-                                "assignToken": {
-                                    "kind": 4125,
-                                    "flags": 64,
-                                    "transformFlags": 0,
-                                    "start": 2,
-                                    "end": 4
-                                },
-                                "defaultType": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "B",
-                                            "rawText": "B",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 4,
-                                            "end": 6
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "transformFlags": 0,
+                                "start": 2,
+                                "end": 4
+                            },
+                            "defaultType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "B",
+                                        "rawText": "B",
+                                        "flags": 96,
                                         "transformFlags": 0,
                                         "start": 4,
                                         "end": 6
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "transformFlags": 0,
                                     "start": 4,
@@ -80,20 +73,20 @@
                                 },
                                 "flags": 2097152,
                                 "transformFlags": 0,
-                                "start": 1,
+                                "start": 4,
                                 "end": 6
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 6
-                    },
+                            },
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 1,
+                            "end": 6
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 0,
-                    "end": 7
+                    "start": 1,
+                    "end": 6
                 },
                 "arrowPatameterList": {
                     "kind": 342,
@@ -162,7 +155,7 @@
 ### Printed
 
 ```javascript
-<A= B>(x) => {};
+(x) => {};
 ```
 
 ### Diagnostics

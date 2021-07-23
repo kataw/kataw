@@ -52,39 +52,32 @@ export default function <T><T>() {}
                 "name": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 25,
-                                    "end": 26
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 25,
                                 "end": 26
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 25,
-                        "end": 26
-                    },
+                            },
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 25,
+                            "end": 26
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 23,
-                    "end": 27
+                    "start": 25,
+                    "end": 26
                 },
                 "formalParameterList": {
                     "kind": 214,
@@ -129,39 +122,32 @@ export default function <T><T>() {}
                 "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
-                                    "transformFlags": 0,
-                                    "start": 28,
-                                    "end": 29
-                                },
-                                "type": null,
-                                "assignToken": null,
-                                "defaultType": null,
-                                "flags": 2097152,
+                    "declarations": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
                                 "transformFlags": 0,
                                 "start": 28,
                                 "end": 29
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "transformFlags": 0,
-                        "start": 28,
-                        "end": 29
-                    },
+                            },
+                            "type": null,
+                            "assignToken": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "transformFlags": 0,
+                            "start": 28,
+                            "end": 29
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "transformFlags": 512,
-                    "start": 27,
-                    "end": 30
+                    "start": 28,
+                    "end": 29
                 },
                 "arrowPatameterList": {
                     "kind": 342,

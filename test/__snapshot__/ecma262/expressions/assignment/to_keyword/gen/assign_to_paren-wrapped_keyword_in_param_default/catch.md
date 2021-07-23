@@ -201,7 +201,6 @@ async (x = (catch) = f) => {}
 
 ```javascript
 ✖ Identifier expected - start: 12, end: 17
-✖ 'try' expected - start: 12, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 ✖ ')' is not allowed here. Did you mean ';'? - start: 22, end: 23

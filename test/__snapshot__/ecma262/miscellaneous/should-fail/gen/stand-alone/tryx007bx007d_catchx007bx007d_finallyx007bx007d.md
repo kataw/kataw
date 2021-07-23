@@ -204,8 +204,6 @@ try{};catch{};finally{}
 
 ```javascript
 ✖ 'catch' expected - start: 5, end: 6
-✖ 'try' expected - start: 6, end: 11
-✖ 'try' expected - start: 14, end: 21
 
 ```
 

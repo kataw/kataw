@@ -137,7 +137,6 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 6
-✖ 'try' expected - start: 1, end: 6
 ✖ Declaration or statement expected - start: 6, end: 8
 ✖ ')' is not allowed here. Did you mean ';'? - start: 10, end: 11
 

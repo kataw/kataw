@@ -64,7 +64,7 @@ var f = {
                                         "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 97,
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 9,
                                             "end": 15
@@ -93,7 +93,7 @@ var f = {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 1057,
+                                                "flags": 1056,
                                                 "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
@@ -139,7 +139,7 @@ var f = {
                                                 "start": 23,
                                                 "end": 41
                                             },
-                                            "flags": 1057,
+                                            "flags": 1056,
                                             "transformFlags": 0,
                                             "start": 21,
                                             "end": 41
@@ -156,7 +156,7 @@ var f = {
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 97,
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 42,
                                             "end": 48
@@ -220,7 +220,7 @@ var f = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 545,
+                                                "flags": 544,
                                                 "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 65
@@ -242,7 +242,7 @@ var f = {
                                                 "start": 65,
                                                 "end": 68
                                             },
-                                            "flags": 545,
+                                            "flags": 544,
                                             "transformFlags": 0,
                                             "start": 54,
                                             "end": 68
@@ -259,7 +259,7 @@ var f = {
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
-                                            "flags": 97,
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 69,
                                             "end": 75
@@ -316,7 +316,7 @@ var f = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 545,
+                                                "flags": 544,
                                                 "transformFlags": 0,
                                                 "start": 92,
                                                 "end": 102
@@ -338,7 +338,7 @@ var f = {
                                                 "start": 102,
                                                 "end": 106
                                             },
-                                            "flags": 545,
+                                            "flags": 544,
                                             "transformFlags": 0,
                                             "start": 91,
                                             "end": 106
@@ -354,7 +354,7 @@ var f = {
                                         "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 97,
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 107,
                                             "end": 113
@@ -376,7 +376,7 @@ var f = {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 1057,
+                                                "flags": 1056,
                                                 "transformFlags": 0,
                                                 "start": 130,
                                                 "end": 131
@@ -437,7 +437,7 @@ var f = {
                                                 "start": 139,
                                                 "end": 153
                                             },
-                                            "flags": 1057,
+                                            "flags": 1056,
                                             "transformFlags": 0,
                                             "start": 129,
                                             "end": 153

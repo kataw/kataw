@@ -46,43 +46,36 @@ function bar<T: ?number>() {}
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 13,
-                                "end": 14
-                            },
+                "declarations": [
+                    {
+                        "kind": 146,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 134217970,
-                                    "nullableToken": {
-                                        "kind": 134217750,
-                                        "flags": 64,
-                                        "transformFlags": 0,
-                                        "start": 15,
-                                        "end": 17
-                                    },
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
-                                        "transformFlags": 0,
-                                        "start": 17,
-                                        "end": 23
-                                    },
-                                    "flags": 2097152,
+                                "kind": 134217970,
+                                "nullableToken": {
+                                    "kind": 134217750,
+                                    "flags": 64,
                                     "transformFlags": 0,
                                     "start": 15,
+                                    "end": 17
+                                },
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "transformFlags": 0,
+                                    "start": 17,
                                     "end": 23
                                 },
                                 "flags": 2097152,
@@ -90,24 +83,24 @@ function bar<T: ?number>() {}
                                 "start": 15,
                                 "end": 23
                             },
-                            "assignToken": null,
-                            "defaultType": null,
                             "flags": 2097152,
                             "transformFlags": 0,
-                            "start": 13,
+                            "start": 15,
                             "end": 23
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 23
-                },
+                        },
+                        "assignToken": null,
+                        "defaultType": null,
+                        "flags": 2097152,
+                        "transformFlags": 0,
+                        "start": 13,
+                        "end": 23
+                    }
+                ],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 12,
-                "end": 24
+                "start": 13,
+                "end": 23
             },
             "formalParameterList": {
                 "kind": 214,
@@ -154,7 +147,7 @@ function bar<T: ?number>() {}
 ### Printed
 
 ```javascript
-function bar<T: ? number>() {}
+function bar() {}
 ```
 
 ### Diagnostics

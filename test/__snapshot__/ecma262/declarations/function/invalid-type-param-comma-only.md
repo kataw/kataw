@@ -38,18 +38,11 @@ function foo<,>() {}
             },
             "typeParameters": {
                 "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "transformFlags": 0,
-                    "start": 13,
-                    "end": 13
-                },
+                "declarations": [],
+                "trailingComma": false,
                 "flags": 2097152,
                 "transformFlags": 512,
-                "start": 12,
+                "start": 13,
                 "end": 13
             },
             "formalParameterList": {

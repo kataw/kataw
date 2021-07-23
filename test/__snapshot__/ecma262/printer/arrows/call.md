@@ -778,7 +778,7 @@ foo(
                                                                             "start": 190,
                                                                             "end": 227
                                                                         },
-                                                                        "flags": 33,
+                                                                        "flags": 32,
                                                                         "transformFlags": 128,
                                                                         "start": 190,
                                                                         "end": 227
@@ -2495,7 +2495,7 @@ foo(
                                                                         "start": 1068,
                                                                         "end": 1100
                                                                     },
-                                                                    "flags": 33,
+                                                                    "flags": 32,
                                                                     "transformFlags": 128,
                                                                     "start": 1059,
                                                                     "end": 1100
@@ -2691,7 +2691,7 @@ foo(
                                                                                         "start": 1162,
                                                                                         "end": 1200
                                                                                     },
-                                                                                    "flags": 33,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 128,
                                                                                     "start": 1151,
                                                                                     "end": 1200
@@ -2708,7 +2708,7 @@ foo(
                                                                         "start": 1149,
                                                                         "end": 1208
                                                                     },
-                                                                    "flags": 33,
+                                                                    "flags": 32,
                                                                     "transformFlags": 128,
                                                                     "start": 1140,
                                                                     "end": 1208
@@ -3025,7 +3025,7 @@ foo(
                                                                         "start": 1314,
                                                                         "end": 1346
                                                                     },
-                                                                    "flags": 33,
+                                                                    "flags": 32,
                                                                     "transformFlags": 128,
                                                                     "start": 1305,
                                                                     "end": 1346
@@ -3214,7 +3214,7 @@ foo(
                                                                                         "start": 1407,
                                                                                         "end": 1445
                                                                                     },
-                                                                                    "flags": 33,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 128,
                                                                                     "start": 1396,
                                                                                     "end": 1445
@@ -3231,7 +3231,7 @@ foo(
                                                                         "start": 1394,
                                                                         "end": 1453
                                                                     },
-                                                                    "flags": 33,
+                                                                    "flags": 32,
                                                                     "transformFlags": 128,
                                                                     "start": 1385,
                                                                     "end": 1453
@@ -3425,7 +3425,7 @@ foo(
                                                                                                     "start": 1526,
                                                                                                     "end": 1570
                                                                                                 },
-                                                                                                "flags": 33,
+                                                                                                "flags": 32,
                                                                                                 "transformFlags": 128,
                                                                                                 "start": 1513,
                                                                                                 "end": 1570
@@ -3442,7 +3442,7 @@ foo(
                                                                                     "start": 1511,
                                                                                     "end": 1580
                                                                                 },
-                                                                                "flags": 33,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 128,
                                                                                 "start": 1500,
                                                                                 "end": 1580
@@ -3665,7 +3665,7 @@ foo(
                                                                                                         "start": 1665,
                                                                                                         "end": 1709
                                                                                                     },
-                                                                                                    "flags": 33,
+                                                                                                    "flags": 32,
                                                                                                     "transformFlags": 128,
                                                                                                     "start": 1652,
                                                                                                     "end": 1709
@@ -3682,7 +3682,7 @@ foo(
                                                                                         "start": 1650,
                                                                                         "end": 1719
                                                                                     },
-                                                                                    "flags": 33,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 128,
                                                                                     "start": 1639,
                                                                                     "end": 1719
@@ -3699,7 +3699,7 @@ foo(
                                                                         "start": 1637,
                                                                         "end": 1727
                                                                     },
-                                                                    "flags": 33,
+                                                                    "flags": 32,
                                                                     "transformFlags": 128,
                                                                     "start": 1628,
                                                                     "end": 1727
@@ -3912,7 +3912,7 @@ foo(
                                                                                             "start": 1804,
                                                                                             "end": 1848
                                                                                         },
-                                                                                        "flags": 33,
+                                                                                        "flags": 32,
                                                                                         "transformFlags": 128,
                                                                                         "start": 1791,
                                                                                         "end": 1848
@@ -3929,7 +3929,7 @@ foo(
                                                                             "start": 1789,
                                                                             "end": 1858
                                                                         },
-                                                                        "flags": 33,
+                                                                        "flags": 32,
                                                                         "transformFlags": 128,
                                                                         "start": 1778,
                                                                         "end": 1858
@@ -3946,7 +3946,7 @@ foo(
                                                             "start": 1776,
                                                             "end": 1866
                                                         },
-                                                        "flags": 33,
+                                                        "flags": 32,
                                                         "transformFlags": 128,
                                                         "start": 1767,
                                                         "end": 1866
@@ -4597,7 +4597,7 @@ foo(
                                                                                                                         "start": 2227,
                                                                                                                         "end": 2283
                                                                                                                     },
-                                                                                                                    "flags": 33,
+                                                                                                                    "flags": 32,
                                                                                                                     "transformFlags": 128,
                                                                                                                     "start": 2210,
                                                                                                                     "end": 2283

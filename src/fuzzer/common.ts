@@ -23,7 +23,7 @@ export function oi(n: any, m = 1) {
 
 export function repeat(recurmax: number, context: FuzzerContext, times: any, func: any): any[] {
   const result = [];
-  let count = Math.floor(rng(times) * times + 1);
+  const count = Math.floor(rng(times) * times + 1);
   for (let i = 0; i < count; ++i) {
     result.push(func(recurmax, context));
   }

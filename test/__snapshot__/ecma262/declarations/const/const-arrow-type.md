@@ -125,36 +125,29 @@ const fn = async (a?: any): Promise<void> => {};
                                     },
                                     "typeParameters": {
                                         "kind": 310,
-                                        "typeInstantiations": {
-                                            "kind": 309,
-                                            "types": [
-                                                {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 138477615,
-                                                        "flags": 2097216,
-                                                        "transformFlags": 0,
-                                                        "start": 36,
-                                                        "end": 40
-                                                    },
-                                                    "flags": 2097152,
+                                        "types": [
+                                            {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 138477615,
+                                                    "flags": 2097216,
                                                     "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 40
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "transformFlags": 0,
-                                            "start": 36,
-                                            "end": 40
-                                        },
+                                                },
+                                                "flags": 2097152,
+                                                "transformFlags": 0,
+                                                "start": 36,
+                                                "end": 40
+                                            }
+                                        ],
+                                        "trailingComma": false,
                                         "flags": 2097152,
                                         "transformFlags": 512,
-                                        "start": 35,
-                                        "end": 41
+                                        "start": 36,
+                                        "end": 40
                                     },
                                     "flags": 2097152,
                                     "transformFlags": 0,

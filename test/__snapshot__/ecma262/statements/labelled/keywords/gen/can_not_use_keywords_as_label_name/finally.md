@@ -104,7 +104,6 @@ finally: x
 ### Diagnostics
 
 ```javascript
-✖ 'try' expected - start: 0, end: 7
 ✖ Declaration or statement expected - start: 7, end: 8
 
 ```

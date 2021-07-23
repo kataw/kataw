@@ -100,11 +100,9 @@ import { ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
 import { ObjectTypeProperty } from '../ast/types/object-type-property';
 import { OpaqueType } from '../ast/types/opaque-type';
 import { QualifiedType } from '../ast/types/qualified-type';
-import { TypeInstantiations } from '../ast/types/type-instantiations';
 import { TypeAnnotation } from '../ast/types/type-annotation';
 import { TypeParameterDeclaration } from '../ast/types/type-parameter-declaration';
 import { TypeParameterInstantiation } from '../ast/types/type-parameter-instantiation';
-import { TypeParameterList } from '../ast/types/type-parameter-list';
 import { TypeofType } from '../ast/types/typeof-type';
 import { TypeReference } from '../ast/types/type-reference';
 import { FunctionType } from '../ast/types/function-type';
@@ -212,7 +210,6 @@ export const nodeLookupMap: any = {
   [SyntaxKind.TypeReference]: printTypeReference,
   [SyntaxKind.TypeParameter]: printTypeParameter,
   [SyntaxKind.TypeParameterInstantiation]: printTypeParameterInstantiation,
-  [SyntaxKind.TypeInstantiations]: printTypeInstantiations,
   [SyntaxKind.SubtractionType]: printSubtractionType,
   [SyntaxKind.RestType]: printRestType,
   [SyntaxKind.QualifiedType]: printQualifiedType,
@@ -285,7 +282,6 @@ export const nodeLookupMap: any = {
   [SyntaxKind.SubtractionType]: printSubtractionType,
   [SyntaxKind.TupleType]: printTupleType,
   [SyntaxKind.TypeParameterDeclaration]: printTypeParameterDeclaration,
-  [SyntaxKind.TypeParameterList]: printTypeParameterList,
   [SyntaxKind.ExportDeclaration]: printExportDeclaration,
   [SyntaxKind.ExportFromClause]: printExportFromClause,
   [SyntaxKind.ExportDefault]: printExportDefault,
@@ -1172,7 +1168,11 @@ function printTupleType(printer: Printer, node: any, lineMap: number[], parentNo
   );
 }
 
-function printTypeInstantiations(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+function printTypeParameterDeclaration(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+  return printStatement(printer, node.declarations, lineMap, parentNode);
+}
+
+function printTypeParameterInstantiation(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   if (node.types.length === 0) {
     return concat([
       '<',
@@ -1204,14 +1204,6 @@ function printTypeInstantiations(printer: Printer, node: any, lineMap: number[],
     concat(['<', indent(concat([softline, concat(elements)])), ifBreak(node.trailingComma ? ',' : ''), softline, '>']),
     { shouldBreak: false }
   );
-}
-
-function printTypeParameterDeclaration(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return printStatement(printer, node.declarations, lineMap, parentNode);
-}
-
-function printTypeParameterInstantiation(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return printStatement(printer, node.typeInstantiations, lineMap, parentNode);
 }
 
 function printTypeParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
@@ -1254,7 +1246,7 @@ function printTypeParameter(printer: Printer, node: any, lineMap: number[]): any
   return node
     ? concat([
         printStatement(printer, node.name, lineMap, node),
-        node.type ? concat([':', printer.space, printStatement(printer, node.type, lineMap, node)]) : '',
+        node.type ? concat([':', printer.space, printTypeParameterList(printer, node.type, lineMap, node)]) : '',
         node.assignToken
           ? concat([
               printKeyword(printer, node.assignToken, node, /* addSpace */ true),

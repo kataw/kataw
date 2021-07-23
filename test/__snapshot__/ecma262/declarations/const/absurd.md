@@ -50,39 +50,32 @@ const absurd = <T>(x: empty): T => {};
                             "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
-                                "declarations": {
-                                    "kind": 337,
-                                    "parameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "transformFlags": 0,
-                                                "start": 16,
-                                                "end": 17
-                                            },
-                                            "type": null,
-                                            "assignToken": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
+                                "declarations": [
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "transformFlags": 0,
-                                    "start": 16,
-                                    "end": 17
-                                },
+                                        },
+                                        "type": null,
+                                        "assignToken": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
+                                        "transformFlags": 0,
+                                        "start": 16,
+                                        "end": 17
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 2097152,
                                 "transformFlags": 512,
-                                "start": 14,
-                                "end": 18
+                                "start": 16,
+                                "end": 17
                             },
                             "arrowPatameterList": {
                                 "kind": 342,
@@ -223,7 +216,7 @@ const absurd = <T>(x: empty): T => {};
 ### Printed
 
 ```javascript
-const absurd = <T>(x: empty) => {};
+const absurd = (x: empty) => {};
 ```
 
 ### Diagnostics

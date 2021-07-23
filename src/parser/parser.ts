@@ -129,8 +129,6 @@ import { createTypeAnnotation } from '../ast/types/type-annotation';
 import { createQualifiedType } from '../ast/types/qualified-type';
 import { createTypeReference, TypeReference } from '../ast/types/type-reference';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
-import { createTypeParameterList, TypeParameterList } from '../ast/types/type-parameter-list';
-import { createTypeInstantiations, TypeInstantiations } from '../ast/types/type-instantiations';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
 import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-function-type';
 import { createArrowTypeParameter, ArrowTypeParameter } from '../ast/types/arrow-type-parameter';
@@ -287,6 +285,8 @@ export function parse(
   const statements = [];
   const directives = [];
   let expr!: StringLiteral;
+
+  // Parse one or more directives at the beginning
   while (parser.token === SyntaxKind.StringLiteral) {
     expr = parseStringLiteral(parser, context);
     if (isValidDirective(parser) && expr.rawText.length === 12 && expr.text === 'use strict') {
@@ -300,7 +300,6 @@ export function parse(
     }
   }
 
-  // TODO: Should we allocate memory for this?
   const scope: ScopeState = {
     kind: ScopeKind.Block,
     scope: null,
@@ -367,14 +366,7 @@ function parseStatementListItem(
     case SyntaxKind.ClassKeyword:
       return parseClassDeclaration(parser, context, scope, /* isDefaultModifier */ false, labels);
     case SyntaxKind.ConstKeyword:
-      return parseLexicalDeclaration(
-        parser,
-        context,
-        SyntaxKind.ConstKeyword,
-        NodeFlags.Const,
-        scope,
-        BindingType.Const
-      );
+      return parseLexicalDeclaration(parser, context, SyntaxKind.ConstKeyword, NodeFlags.Const, scope);
     case SyntaxKind.LetKeyword:
       return parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope, labels, ownLabels);
     case SyntaxKind.TypeKeyword:
@@ -444,14 +436,7 @@ function parseStatement(
       return parseThrowStatement(parser, context);
     case SyntaxKind.FinallyKeyword:
     case SyntaxKind.CatchKeyword:
-      // Miscellaneous error cases arguably better caught here than elsewhere.
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._try_expected],
-        parser.curPos,
-        parser.pos
-      );
+    // Miscellaneous error cases arguably better caught here than elsewhere.
     case SyntaxKind.TryKeyword:
       return parseTryStatement(parser, context, scope, labels);
     case SyntaxKind.DebuggerKeyword:
@@ -2637,18 +2622,15 @@ function parseObjectLiteralOrAssignmentExpression(
   const propertyDefinitionList = parsePropertyDefinitionList(parser, context, scope, type);
   consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
 
+  // `{ x: y } = z`
   if (parser.token & SyntaxKind.IsAssignOp) {
     if (parser.token !== SyntaxKind.Assign || parser.destructible & DestructibleKind.NotDestructible) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[
-          parser.destructible & DestructibleKind.NotDestructible
-            ? DiagnosticCode.The_left_hand_side_must_be_a_variable_or_a_property_access
-            : DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal
-        ],
+      report(
+        parser,
         pos,
-        parser.pos
+        parser.destructible & DestructibleKind.NotDestructible
+          ? DiagnosticCode.The_left_hand_side_must_be_a_variable_or_a_property_access
+          : DiagnosticCode.Expression_exprected_A_compound_assignment_or_an_logical_assignment_cannot_follow_an_object_literal
       );
     }
     const node = createAssignmentExpression(
@@ -2746,14 +2728,12 @@ function parsePropertyDefinition(
     );
   }
 
-  let key!: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName | PrivateIdentifier;
-
-  let generatorToken: SyntaxToken<TokenSyntaxKind> | null = consumeOptToken(parser, context, SyntaxKind.Multiply);
-  let asyncKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
-  let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
-  let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
-
-  let nodeFlags = parser.nodeFlags | NodeFlags.ExpressionNode;
+  let generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+  let asyncKeyword = null;
+  let getKeyword = null;
+  let setKeyword = null;
+  let key!: ExpressionNode;
+  let nodeFlags = NodeFlags.ExpressionNode;
 
   let destructible = DestructibleKind.None;
 
@@ -3304,16 +3284,12 @@ function paresSpreadPropertyArgument(
     if (type & BindingType.ArgumentList) {
       destructible |= DestructibleKind.Assignable;
     }
+
     if (parser.token === SyntaxKind.Assign) {
       argument = parseAssignmentExpression(parser, context, nodeFlags, argument, pos);
-      destructible |= DestructibleKind.NotDestructible;
-    } else {
-      destructible |= DestructibleKind.NotDestructible;
     }
   }
 
-  //if (kind & BindingKind.ArgumentList)
-  //destructible |= isAsync ? DestructuringKind.CannotDestruct : DestructuringKind.Assignable;
   parser.destructible = destructible;
   return argument;
 }
@@ -3330,6 +3306,10 @@ function parseRegularExpression(parser: ParserState, context: Context): RegularE
 // NumericLiteral
 function parseNumericLiteral(parser: ParserState, context: Context): NumericLiteral {
   const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
+  // check for legacy octal literal
+  if (context & Context.Strict && nodeFlags & NodeFlags.LegacyOctal) {
+    report(parser, parser.curPos, DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode);
+  }
   nextToken(parser, context);
   parser.assignable = false;
   return createNumericLiteral(
@@ -5366,21 +5346,17 @@ function parseFunctionExpression(
               )
             ) {
               expression.typeParameters = createTypeParameterDeclaration(
-                createTypeParameterList(
-                  [
-                    createTypeParameter(
-                      name,
-                      /* type */ null,
-                      /* assignToken */ null,
-                      /* defaultType */ null,
-                      name.start,
-                      parser.curPos
-                    )
-                  ],
-                  /* trailingComma */ false,
-                  expression.start,
-                  parser.curPos
-                ),
+                [
+                  createTypeParameter(
+                    name,
+                    /* type */ null,
+                    /* assignToken */ null,
+                    /* defaultType */ null,
+                    name.start,
+                    parser.curPos
+                  )
+                ],
+                /* trailingComma */ false,
                 NodeFlags.IsTypeNode,
                 pos,
                 parser.curPos
@@ -5450,12 +5426,7 @@ function parseFunctionExpression(
                 parser,
                 context,
                 expression,
-                createTypeParameterDeclaration(
-                  createTypeParameterList(types, trailingComma, expression.start, parser.curPos),
-                  NodeFlags.IsTypeNode,
-                  pos,
-                  parser.curPos
-                ),
+                createTypeParameterDeclaration(types, trailingComma, NodeFlags.IsTypeNode, pos, parser.curPos),
                 LeftHandSide.None,
                 flags,
                 pos
@@ -5514,10 +5485,10 @@ function parseFunctionExpression(
                       }
                     }
                     if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) return false;
-                    const typeParameterList = createTypeParameterList(types, trailingComma, pos, parser.curPos);
                     nextToken(parser, context); // skips: '>'
                     const typeParameters = createTypeParameterDeclaration(
-                      typeParameterList,
+                      types,
+                      trailingComma,
                       NodeFlags.IsTypeNode,
                       pos,
                       parser.curPos
@@ -5743,11 +5714,7 @@ function parseFunctionDeclaration(
         // - `async x => {}`
         if (parser.token & Constants.Identifier) {
           if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
-            report(
-              parser,
-              pos,
-              DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported
-            );
+            report(parser, pos, DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported);
           }
 
           if (asyncToken.flags & Constants.IsEscaped) {
@@ -5858,21 +5825,17 @@ function parseFunctionDeclaration(
                     context,
                     expression,
                     createTypeParameterDeclaration(
-                      createTypeParameterList(
-                        [
-                          createTypeParameter(
-                            name,
-                            /* type */ null,
-                            /* assignToken */ null,
-                            /* defaultType */ null,
-                            name.start,
-                            parser.curPos
-                          )
-                        ],
-                        /* trailingComma */ false,
-                        expression.start,
-                        parser.curPos
-                      ),
+                      [
+                        createTypeParameter(
+                          name,
+                          /* type */ null,
+                          /* assignToken */ null,
+                          /* defaultType */ null,
+                          name.start,
+                          parser.curPos
+                        )
+                      ],
+                      /* trailingComma */ false,
                       NodeFlags.IsTypeNode,
                       pos,
                       parser.curPos
@@ -5949,12 +5912,7 @@ function parseFunctionDeclaration(
                 parser,
                 context,
                 expression,
-                createTypeParameterDeclaration(
-                  createTypeParameterList(types, trailingComma, expression.start, parser.curPos),
-                  NodeFlags.IsTypeNode,
-                  pos,
-                  parser.curPos
-                ),
+                createTypeParameterDeclaration(types, trailingComma, NodeFlags.IsTypeNode, pos, parser.curPos),
                 LeftHandSide.None,
                 flags,
                 pos
@@ -6009,10 +5967,10 @@ function parseFunctionDeclaration(
                       }
                     }
                     if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) return false;
-                    const typeParameterList = createTypeParameterList(types, trailingComma, pos, parser.curPos);
                     nextToken(parser, context); // skips: '>'
                     const typeParameters = createTypeParameterDeclaration(
-                      typeParameterList,
+                      types,
+                      trailingComma,
                       NodeFlags.IsTypeNode,
                       pos,
                       parser.curPos
@@ -6094,22 +6052,36 @@ function parseFunctionDeclaration(
       }
 
       if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
-        report(parser, pos, DiagnosticCode.Did_you_mean_async_function_foo_An_async_modifier_can_only_follow_a_function_declaration_in_this_context);
+        report(
+          parser,
+          pos,
+          DiagnosticCode.Did_you_mean_async_function_foo_An_async_modifier_can_only_follow_a_function_declaration_in_this_context
+        );
       }
 
       // "async => {}"
       if (parser.token === SyntaxKind.Arrow) {
-        return parseExpressionStatement(parser, context, parseCommaOperator(parser, context, parseArrowFunction(
+        return parseExpressionStatement(
           parser,
           context,
-          scope,
-          /* typeParameters */ null,
-          /* returnType */ null,
-          /* params */ expression,
-          /* asyncToken */ null,
-          /* nodeFlags */ NodeFlags.ExpressionNode | NodeFlags.Async,
-          /* pos */ pos
-        ), pos), pos);
+          parseCommaOperator(
+            parser,
+            context,
+            parseArrowFunction(
+              parser,
+              context,
+              scope,
+              /* typeParameters */ null,
+              /* returnType */ null,
+              /* params */ expression,
+              /* asyncToken */ null,
+              /* nodeFlags */ NodeFlags.ExpressionNode | NodeFlags.Async,
+              /* pos */ pos
+            ),
+            pos
+          ),
+          pos
+        );
       }
 
       // "async"
@@ -6127,6 +6099,7 @@ function parseFunctionDeclaration(
   }
 
   let name = null;
+
   // Create a new function scope
   let innerScope: any = {
     kind: ScopeKind.Block,
@@ -6968,14 +6941,7 @@ function parseExportDeclaration(
       );
       break;
     case SyntaxKind.ConstKeyword:
-      declaration = parseLexicalDeclaration(
-        parser,
-        context,
-        SyntaxKind.ConstKeyword,
-        NodeFlags.Const,
-        scope,
-        BindingType.Const
-      );
+      declaration = parseLexicalDeclaration(parser, context, SyntaxKind.ConstKeyword, NodeFlags.Const, scope);
       break;
     case SyntaxKind.LetKeyword:
       declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context, scope, null, null);
@@ -7957,65 +7923,62 @@ function parseEntityName(parser: ParserState, context: Context, entity: any, che
 }
 
 function parseTypeParameterDeclaration(parser: ParserState, context: Context): TypeParameterDeclaration | null {
-  const pos = parser.curPos;
-  const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
+    const pos = parser.curPos;
+    const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
     if (parser.token === SyntaxKind.GreaterThan) {
       report(parser, parser.curPos, DiagnosticCode.Identifier_expected);
     }
-    const declarations = parseTypeParameterList(parser, context | Context.InType);
-    consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
-    return createTypeParameterDeclaration(declarations, nodeFlags, pos, parser.curPos);
-  }
-  return null;
-}
 
-function parseTypeParameterList(parser: ParserState, context: Context): TypeParameterList {
-  const start = parser.curPos;
-  const types = [];
-  let requireDefault = false;
-  let trailingComma = false;
-  while (parser.token & Constants.IsTypeParameter) {
-    const type = parseTypeParameter(parser, context, requireDefault);
-    types.push(type);
-    if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
-    if (type.defaultType) requireDefault = true;
-    if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if (parser.token === SyntaxKind.GreaterThan) {
-        trailingComma = true;
-        break;
+    const types = [];
+    let requireDefault = false;
+    let trailingComma = false;
+    while (parser.token & Constants.IsTypeParameter) {
+      const type = parseTypeParameter(parser, context, requireDefault);
+      types.push(type);
+      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
+      if (type.defaultType) requireDefault = true;
+      if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+        if (parser.token === SyntaxKind.GreaterThan) {
+          trailingComma = true;
+          break;
+        }
       }
     }
+    const typeParameterDeclaration = createTypeParameterDeclaration(
+      types,
+      trailingComma,
+      nodeFlags,
+      pos,
+      parser.curPos
+    );
+    consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
+    return typeParameterDeclaration;
   }
-  return createTypeParameterList(types, trailingComma, start, parser.curPos);
+  return null;
 }
 
 function parseTypeParameterInstantiation(parser: ParserState, context: Context): TypeParameterInstantiation | null {
-  const pos = parser.curPos;
-  const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LessThan)) {
-    const typeInstantiations = parseTypeInstantiations(parser, context | Context.InType);
-    consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
-    return createTypeParameterInstantiation(typeInstantiations, nodeFlags, pos, parser.curPos);
-  }
-  return null;
-}
-
-function parseTypeInstantiations(parser: ParserState, context: Context): TypeInstantiations {
-  const start = parser.curPos;
-  const types = [];
-  let trailingComma = false;
-  while (parser.token & Constants.IsTypeParameter) {
-    types.push(parseTypeAnnotation(parser, context));
-    if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
-    if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if (parser.token === SyntaxKind.GreaterThan) {
-        trailingComma = true;
-        break;
+    const pos = parser.curPos;
+    const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
+    const types = [];
+    let trailingComma = false;
+    while (parser.token & Constants.IsTypeParameter) {
+      types.push(parseTypeAnnotation(parser, context | Context.InType));
+      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
+      if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+        if (parser.token === SyntaxKind.GreaterThan) {
+          trailingComma = true;
+          break;
+        }
       }
     }
+    const typeInstantiations = createTypeParameterInstantiation(types, trailingComma, nodeFlags, pos, parser.curPos);
+    consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
+    return typeInstantiations;
   }
-  return createTypeInstantiations(types, trailingComma, start, parser.curPos);
+  return null;
 }
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
@@ -8299,8 +8262,7 @@ function parseLexicalDeclaration(
   context: Context,
   token: TokenSyntaxKind,
   flags: NodeFlags,
-  scope: ScopeState,
-  type: BindingType
+  scope: ScopeState
 ): LexicalDeclaration {
   const pos = parser.curPos;
   const lexicalToken = consumeKeywordAndCheckForEscapeSequence(parser, context, token, NodeFlags.IsStatement, pos);
@@ -8310,7 +8272,7 @@ function parseLexicalDeclaration(
     flags,
     /* inForStatement */ false,
     scope,
-    type
+    token === SyntaxKind.ConstKeyword ? BindingType.Const : BindingType.None
   );
   parseSemicolon(parser, context);
   return createLexicalDeclaration(lexicalToken, declarationList, pos, parser.curPos);

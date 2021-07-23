@@ -292,7 +292,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
-                                                "flags": 33,
+                                                "flags": 32,
                                                 "transformFlags": 0,
                                                 "start": 109,
                                                 "end": 119
@@ -314,7 +314,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "start": 119,
                                                 "end": 122
                                             },
-                                            "flags": 33,
+                                            "flags": 32,
                                             "transformFlags": 0,
                                             "start": 108,
                                             "end": 122
@@ -378,7 +378,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "start": 128,
                                             "end": 146
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 123,
                                         "end": 146
@@ -439,7 +439,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "start": 152,
                                             "end": 175
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 147,
                                         "end": 175
@@ -508,7 +508,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "start": 181,
                                             "end": 206
                                         },
-                                        "flags": 33,
+                                        "flags": 32,
                                         "transformFlags": 128,
                                         "start": 176,
                                         "end": 206

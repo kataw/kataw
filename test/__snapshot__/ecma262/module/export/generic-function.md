@@ -94,36 +94,29 @@ export function d(): Promise<boolean> {}
                         },
                         "typeParameters": {
                             "kind": 310,
-                            "typeInstantiations": {
-                                "kind": 309,
-                                "types": [
-                                    {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 134234254,
-                                            "flags": 2097216,
-                                            "transformFlags": 0,
-                                            "start": 29,
-                                            "end": 36
-                                        },
-                                        "flags": 2097152,
+                            "types": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234254,
+                                        "flags": 2097216,
                                         "transformFlags": 0,
                                         "start": 29,
                                         "end": 36
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "transformFlags": 0,
-                                "start": 29,
-                                "end": 36
-                            },
+                                    },
+                                    "flags": 2097152,
+                                    "transformFlags": 0,
+                                    "start": 29,
+                                    "end": 36
+                                }
+                            ],
+                            "trailingComma": false,
                             "flags": 2097152,
                             "transformFlags": 512,
-                            "start": 28,
-                            "end": 37
+                            "start": 29,
+                            "end": 36
                         },
                         "flags": 2097152,
                         "transformFlags": 0,

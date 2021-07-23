@@ -455,7 +455,7 @@ runtimeAgent.getProperties(
                                                                             "start": 198,
                                                                             "end": 237
                                                                         },
-                                                                        "flags": 33,
+                                                                        "flags": 32,
                                                                         "transformFlags": 128,
                                                                         "start": 198,
                                                                         "end": 237
