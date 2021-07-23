@@ -2,6 +2,10 @@ import { ExpressionNode } from './../ast/expressions/index';
 import { createRootNode } from '../ast/root-node';
 import { createEmptyStatement, EmptyStatement } from '../ast/statements/empty-stmt';
 import { createDebuggerStatement, DebuggerStatement } from '../ast/statements/debugger-stmt';
+import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
+import { createIfStatement, IfStatement } from '../ast/statements/if-stmt';
+import { createThrowStatement, ThrowStatement } from '../ast/statements/throw-stmt';
+import { createBlock, Block } from '../ast/statements/block';
 import { createCommaOperator, CommaOperator } from '../ast/expressions/comma-operator';
 import { createIdentifier, Identifier } from '../ast/expressions/identifier-expr';
 import { createParenthesizedExpression, ParenthesizedExpression } from '../ast/expressions/parenthesized-expr';
@@ -15,15 +19,17 @@ import { createSpreadElement, SpreadElement } from '../ast/expressions/spread-el
 import { createArrayLiteral, ArrayLiteral } from '../ast/expressions/array-literal';
 import { createArgumentList, ArgumentList } from '../ast/expressions/argument-list';
 import { createElementList, ElementList } from '../ast/expressions/element-list';
+import { createStringLiteral, StringLiteral } from '../ast/expressions/string-literal';
+import { createNumericLiteral, NumericLiteral } from '../ast/expressions/numeric-literal';
 import { createExpressionStatement, ExpressionStatement } from '../ast/statements/expression-stmt';
-import { FuzzerContext, rng, repeat, pickRandomOne } from './common';
+import { FuzzerContext, rng, repeat, pickRandomOne, createId, createString } from './common';
 import { createToken } from '../ast/token';
 import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
 
 export function fuzzScript() {
   return createRootNode(
     [],
-    repeat(/* recurmax */ 2, FuzzerContext.None, /* times */ 1, pickRandomOne([fuzzStatement])),
+    repeat(/* recurmax */ 3, FuzzerContext.None, /* times */ 5, pickRandomOne([fuzzStatement])),
     /* isModule */ false,
     'fuzz',
     'fuzzing.js'
@@ -33,7 +39,7 @@ export function fuzzScript() {
 export function fuzzModule() {
   return createRootNode(
     [],
-    repeat(/* recurmax */ 2, FuzzerContext.None, /* times */ 1, pickRandomOne([fuzzStatement])),
+    repeat(/* recurmax */ 3, FuzzerContext.None, /* times */ 5, pickRandomOne([fuzzStatement])),
     /* isModule */ true,
     'fuzz',
     'fuzzing.js'
@@ -41,12 +47,19 @@ export function fuzzModule() {
 }
 
 function fuzzStatement(recurmax: number, context: FuzzerContext) {
-  if (recurmax >= 3) return fuzzEmptyStatement();
-  return pickRandomOne([fuzzDebuggerStatement, fuzzEmptyStatement, fuzzExpressionStatement])(recurmax, context);
+  if (recurmax >= 4) return fuzzEmptyStatement();
+  return pickRandomOne([
+    fuzzDebuggerStatement,
+    fuzzEmptyStatement,
+    fuzzBlockStatement,
+    fuzzExpressionStatement,
+    fuzzIfStatement,
+    fuzzThrowStatement
+  ])(recurmax, context);
 }
 
 function fuzzExpression(recurmax: number, context: FuzzerContext): ExpressionNode {
-  if (recurmax >= 3) return fuzzIdentifier();
+  if (recurmax >= 4) return fuzzIdentifier();
   recurmax++;
   return pickRandomOne([
     fuzzIdentifier,
@@ -81,7 +94,7 @@ function fuzzEmptyStatement(): EmptyStatement {
 }
 
 function fuzzIdentifier(): Identifier {
-  return createIdentifier('a', 'a', NodeFlags.None, -1, -1);
+  return createIdentifier(createId(), createId(), NodeFlags.None, -1, -1);
 }
 
 function fuzzDebuggerStatement(): DebuggerStatement {
@@ -122,18 +135,14 @@ function fuzzUnaryExpression(recurmax: number, context: FuzzerContext): UnaryExp
     ),
     pickRandomOne([
       fuzzIdentifier,
-      //fuzzMemberExpression,
       fuzzCallExpression,
       fuzzNewExpression,
       fuzzParenthesizedExpression,
       fuzzArrayLiteral,
       fuzzPostfixUpdateExpression,
       fuzzPrefixUpdateExpression,
-      //fuzzObjectLiteral,
-      //fuzzNumericLiteral,
-      //fuzzFloatingPointLiteral,
-      //fuzzStringLiteral,
-      //fuzzBigInt,
+      fuzzNumericLiteral,
+      fuzzStringLiteral,
       fuzzThisKeyword,
       fuzzNullLiteral
     ])(recurmax, context),
@@ -233,4 +242,56 @@ function fuzzElementList(recurmax: number, context: FuzzerContext): ElementList 
     );
   }
   return createElementList(result, false, NodeFlags.None, -1, -1);
+}
+
+// StringLiteral
+function fuzzStringLiteral(): StringLiteral {
+  const text = createString();
+  return createStringLiteral(text, text, NodeFlags.None, -1, -1);
+}
+
+// NumericLiteral
+function fuzzNumericLiteral(): NumericLiteral {
+  const text = rng(1e4);
+  return createNumericLiteral(text, '"' + text + '"', NodeFlags.None, -1, -1);
+}
+
+function fuzzBlockStatement(recurmax: number, context: FuzzerContext): BlockStatement {
+  recurmax++;
+  return createBlockStatement(fuzzBlock(recurmax, context), NodeFlags.None, -1, -1);
+}
+
+function fuzzBlock(recurmax: number, context: FuzzerContext): Block {
+  recurmax++;
+  return createBlock(repeat(recurmax, context, 3, pickRandomOne([fuzzStatement])), NodeFlags.None, -1, -1);
+}
+
+// ThrowStatement :
+//   `throw` [no LineTerminator here] Expression `;`
+function fuzzThrowStatement(recurmax: number, context: FuzzerContext): ThrowStatement {
+  recurmax--;
+  return createThrowStatement(
+    createToken(SyntaxKind.ThrowKeyword, NodeFlags.None, -1, -1),
+    fuzzExpression(recurmax, context),
+    NodeFlags.None,
+    -1,
+    -1
+  );
+}
+
+// IfStatement :
+//  `if` `(` Expression `)` Statement `else` Statement
+//  `if` `(` Expression `)` Statement
+function fuzzIfStatement(recurmax: number, context: FuzzerContext): IfStatement {
+  recurmax--;
+  return createIfStatement(
+    createToken(SyntaxKind.IfKeyword, NodeFlags.None, -1, -1),
+    fuzzExpression(recurmax, context),
+    fuzzStatement(recurmax, context),
+    createToken(SyntaxKind.ElseKeyword, NodeFlags.None, -1, -1),
+    fuzzStatement(recurmax, context),
+    NodeFlags.None,
+    -1,
+    -1
+  );
 }
