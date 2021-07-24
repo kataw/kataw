@@ -67,7 +67,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `.`, `...`, `.123` (numeric literal)
       case SyntaxKind.Period:
-        const index = parser.pos + 1;
+        let index = parser.pos + 1;
 
         cp = source.charCodeAt(index);
 

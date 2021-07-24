@@ -5,7 +5,7 @@
 `````js
 let f = (/* ... */) => {}
 (function (/* ... */) {})(/* ... */)
-function f(/* ... */) {}
+function fx(/* ... */) {}
 
 const obj = {
   f(/* ... */) {},
@@ -216,12 +216,12 @@ f(/* ... */ a, b);
             "asteriskToken": null,
             "name": {
                 "kind": 134299649,
-                "text": "f",
-                "rawText": "f",
+                "text": "fx",
+                "rawText": "fx",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 71,
-                "end": 73
+                "end": 74
             },
             "typeParameters": null,
             "formalParameterList": {
@@ -230,8 +230,8 @@ f(/* ... */ a, b);
                 "trailingComma": false,
                 "flags": 32,
                 "transformFlags": 0,
-                "start": 74,
-                "end": 74
+                "start": 75,
+                "end": 75
             },
             "contents": {
                 "kind": 216,
@@ -241,19 +241,19 @@ f(/* ... */ a, b);
                     "statements": [],
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 86,
-                    "end": 86
+                    "start": 87,
+                    "end": 87
                 },
                 "flags": 32,
                 "transformFlags": 0,
-                "start": 84,
-                "end": 87
+                "start": 85,
+                "end": 88
             },
             "returnType": null,
             "flags": 16,
             "transformFlags": 0,
             "start": 62,
-            "end": 87
+            "end": 88
         },
         {
             "kind": 162,
@@ -261,8 +261,8 @@ f(/* ... */ a, b);
                 "kind": 37757004,
                 "flags": 81,
                 "transformFlags": 0,
-                "start": 87,
-                "end": 94
+                "start": 88,
+                "end": 95
             },
             "binding": {
                 "kind": 151,
@@ -275,8 +275,8 @@ f(/* ... */ a, b);
                             "rawText": "obj",
                             "flags": 96,
                             "transformFlags": 0,
-                            "start": 94,
-                            "end": 98
+                            "start": 95,
+                            "end": 99
                         },
                         "type": null,
                         "initializer": {
@@ -298,8 +298,8 @@ f(/* ... */ a, b);
                                                 "rawText": "f",
                                                 "flags": 97,
                                                 "transformFlags": 0,
-                                                "start": 102,
-                                                "end": 106
+                                                "start": 103,
+                                                "end": 107
                                             },
                                             "typeParameters": null,
                                             "formalParameterList": {
@@ -308,8 +308,8 @@ f(/* ... */ a, b);
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 107,
-                                                "end": 117
+                                                "start": 108,
+                                                "end": 118
                                             },
                                             "returnType": null,
                                             "contents": {
@@ -320,23 +320,23 @@ f(/* ... */ a, b);
                                                     "statements": [],
                                                     "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 119,
-                                                    "end": 119
+                                                    "start": 120,
+                                                    "end": 120
                                                 },
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 117,
-                                                "end": 120
+                                                "start": 118,
+                                                "end": 121
                                             },
                                             "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 106,
-                                            "end": 120
+                                            "start": 107,
+                                            "end": 121
                                         },
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 102,
-                                        "end": 120
+                                        "start": 103,
+                                        "end": 121
                                     },
                                     {
                                         "kind": 219,
@@ -347,8 +347,8 @@ f(/* ... */ a, b);
                                             "rawText": "f",
                                             "flags": 97,
                                             "transformFlags": 0,
-                                            "start": 121,
-                                            "end": 125
+                                            "start": 122,
+                                            "end": 126
                                         },
                                         "right": {
                                             "kind": 271,
@@ -360,16 +360,16 @@ f(/* ... */ a, b);
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 128,
-                                                "end": 128
+                                                "start": 129,
+                                                "end": 129
                                             },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "transformFlags": 0,
-                                                "start": 138,
-                                                "end": 141
+                                                "start": 139,
+                                                "end": 142
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -379,23 +379,23 @@ f(/* ... */ a, b);
                                                     "statements": [],
                                                     "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 143,
-                                                    "end": 143
+                                                    "start": 144,
+                                                    "end": 144
                                                 },
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 141,
-                                                "end": 144
+                                                "start": 142,
+                                                "end": 145
                                             },
                                             "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 126,
-                                            "end": 144
+                                            "start": 127,
+                                            "end": 145
                                         },
                                         "flags": 32,
                                         "transformFlags": 128,
-                                        "start": 121,
-                                        "end": 144
+                                        "start": 122,
+                                        "end": 145
                                     },
                                     {
                                         "kind": 219,
@@ -406,8 +406,8 @@ f(/* ... */ a, b);
                                             "rawText": "f",
                                             "flags": 97,
                                             "transformFlags": 0,
-                                            "start": 145,
-                                            "end": 149
+                                            "start": 146,
+                                            "end": 150
                                         },
                                         "right": {
                                             "kind": 177,
@@ -416,8 +416,8 @@ f(/* ... */ a, b);
                                                 "kind": 37822554,
                                                 "flags": 64,
                                                 "transformFlags": 0,
-                                                "start": 150,
-                                                "end": 159
+                                                "start": 151,
+                                                "end": 160
                                             },
                                             "asteriskToken": null,
                                             "name": null,
@@ -428,8 +428,8 @@ f(/* ... */ a, b);
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 160,
-                                                "end": 160
+                                                "start": 161,
+                                                "end": 161
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -439,24 +439,24 @@ f(/* ... */ a, b);
                                                     "statements": [],
                                                     "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 172,
-                                                    "end": 172
+                                                    "start": 173,
+                                                    "end": 173
                                                 },
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 170,
-                                                "end": 173
+                                                "start": 171,
+                                                "end": 174
                                             },
                                             "returnType": null,
                                             "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 150,
-                                            "end": 173
+                                            "start": 151,
+                                            "end": 174
                                         },
                                         "flags": 32,
                                         "transformFlags": 128,
-                                        "start": 145,
-                                        "end": 173
+                                        "start": 146,
+                                        "end": 174
                                     },
                                     {
                                         "kind": 219,
@@ -467,8 +467,8 @@ f(/* ... */ a, b);
                                             "rawText": "f",
                                             "flags": 97,
                                             "transformFlags": 0,
-                                            "start": 174,
-                                            "end": 178
+                                            "start": 175,
+                                            "end": 179
                                         },
                                         "right": {
                                             "kind": 177,
@@ -477,8 +477,8 @@ f(/* ... */ a, b);
                                                 "kind": 37822554,
                                                 "flags": 64,
                                                 "transformFlags": 0,
-                                                "start": 179,
-                                                "end": 188
+                                                "start": 180,
+                                                "end": 189
                                             },
                                             "asteriskToken": null,
                                             "name": {
@@ -487,8 +487,8 @@ f(/* ... */ a, b);
                                                 "rawText": "f",
                                                 "flags": 96,
                                                 "transformFlags": 0,
-                                                "start": 188,
-                                                "end": 190
+                                                "start": 189,
+                                                "end": 191
                                             },
                                             "typeParameters": null,
                                             "formalParameterList": {
@@ -497,8 +497,8 @@ f(/* ... */ a, b);
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 191,
-                                                "end": 191
+                                                "start": 192,
+                                                "end": 192
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -508,52 +508,52 @@ f(/* ... */ a, b);
                                                     "statements": [],
                                                     "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 203,
-                                                    "end": 203
+                                                    "start": 204,
+                                                    "end": 204
                                                 },
                                                 "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 201,
-                                                "end": 204
+                                                "start": 202,
+                                                "end": 205
                                             },
                                             "returnType": null,
                                             "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 179,
-                                            "end": 204
+                                            "start": 180,
+                                            "end": 205
                                         },
                                         "flags": 32,
                                         "transformFlags": 128,
-                                        "start": 174,
-                                        "end": 204
+                                        "start": 175,
+                                        "end": 205
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
                                 "transformFlags": 0,
-                                "start": 102,
-                                "end": 204
+                                "start": 103,
+                                "end": 205
                             },
                             "flags": 49,
                             "transformFlags": 8,
-                            "start": 100,
-                            "end": 206
+                            "start": 101,
+                            "end": 207
                         },
                         "flags": 16,
                         "transformFlags": 4224,
-                        "start": 94,
-                        "end": 206
+                        "start": 95,
+                        "end": 207
                     }
                 ],
                 "flags": 16777232,
                 "transformFlags": 0,
-                "start": 94,
-                "end": 206
+                "start": 95,
+                "end": 207
             },
             "flags": 33554448,
             "transformFlags": 0,
-            "start": 87,
-            "end": 206
+            "start": 88,
+            "end": 207
         },
         {
             "kind": 178,
@@ -563,8 +563,8 @@ f(/* ... */ a, b);
                 "kind": 37822544,
                 "flags": 81,
                 "transformFlags": 0,
-                "start": 206,
-                "end": 213
+                "start": 207,
+                "end": 214
             },
             "name": {
                 "kind": 134299649,
@@ -572,8 +572,8 @@ f(/* ... */ a, b);
                 "rawText": "Foo",
                 "flags": 96,
                 "transformFlags": 0,
-                "start": 213,
-                "end": 217
+                "start": 214,
+                "end": 218
             },
             "typeParameters": null,
             "tail": {
@@ -599,8 +599,8 @@ f(/* ... */ a, b);
                                     "rawText": "f",
                                     "flags": 97,
                                     "transformFlags": 0,
-                                    "start": 219,
-                                    "end": 223
+                                    "start": 220,
+                                    "end": 224
                                 },
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -609,8 +609,8 @@ f(/* ... */ a, b);
                                     "trailingComma": false,
                                     "flags": 0,
                                     "transformFlags": 0,
-                                    "start": 224,
-                                    "end": 234
+                                    "start": 225,
+                                    "end": 235
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -621,23 +621,23 @@ f(/* ... */ a, b);
                                         "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 236,
-                                        "end": 236
+                                        "start": 237,
+                                        "end": 237
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 234,
-                                    "end": 237
+                                    "start": 235,
+                                    "end": 238
                                 },
                                 "flags": 0,
                                 "transformFlags": 0,
-                                "start": 223,
-                                "end": 237
+                                "start": 224,
+                                "end": 238
                             },
                             "flags": 0,
                             "transformFlags": 0,
-                            "start": 219,
-                            "end": 237
+                            "start": 220,
+                            "end": 238
                         },
                         {
                             "kind": 280,
@@ -651,8 +651,8 @@ f(/* ... */ a, b);
                                 "rawText": "f",
                                 "flags": 97,
                                 "transformFlags": 0,
-                                "start": 237,
-                                "end": 241
+                                "start": 238,
+                                "end": 242
                             },
                             "optionalToken": null,
                             "type": null,
@@ -666,16 +666,16 @@ f(/* ... */ a, b);
                                     "trailingComma": false,
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 245,
-                                    "end": 245
+                                    "start": 246,
+                                    "end": 246
                                 },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "transformFlags": 0,
-                                    "start": 255,
-                                    "end": 258
+                                    "start": 256,
+                                    "end": 259
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -685,23 +685,23 @@ f(/* ... */ a, b);
                                         "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 260,
-                                        "end": 260
+                                        "start": 261,
+                                        "end": 261
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 258,
-                                    "end": 261
+                                    "start": 259,
+                                    "end": 262
                                 },
                                 "flags": 32,
                                 "transformFlags": 0,
-                                "start": 243,
-                                "end": 261
+                                "start": 244,
+                                "end": 262
                             },
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 237,
-                            "end": 261
+                            "start": 238,
+                            "end": 262
                         },
                         {
                             "kind": 278,
@@ -711,8 +711,8 @@ f(/* ... */ a, b);
                                 "kind": 8388716,
                                 "flags": 64,
                                 "transformFlags": 0,
-                                "start": 261,
-                                "end": 270
+                                "start": 262,
+                                "end": 271
                             },
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -726,8 +726,8 @@ f(/* ... */ a, b);
                                     "rawText": "f",
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 270,
-                                    "end": 272
+                                    "start": 271,
+                                    "end": 273
                                 },
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -736,8 +736,8 @@ f(/* ... */ a, b);
                                     "trailingComma": false,
                                     "flags": 0,
                                     "transformFlags": 0,
-                                    "start": 273,
-                                    "end": 282
+                                    "start": 274,
+                                    "end": 283
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -748,23 +748,23 @@ f(/* ... */ a, b);
                                         "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 284,
-                                        "end": 284
+                                        "start": 285,
+                                        "end": 285
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 282,
-                                    "end": 285
+                                    "start": 283,
+                                    "end": 286
                                 },
                                 "flags": 0,
                                 "transformFlags": 0,
-                                "start": 272,
-                                "end": 285
+                                "start": 273,
+                                "end": 286
                             },
                             "flags": 0,
                             "transformFlags": 0,
-                            "start": 270,
-                            "end": 285
+                            "start": 271,
+                            "end": 286
                         },
                         {
                             "kind": 280,
@@ -774,8 +774,8 @@ f(/* ... */ a, b);
                                 "kind": 8388716,
                                 "flags": 64,
                                 "transformFlags": 0,
-                                "start": 285,
-                                "end": 294
+                                "start": 286,
+                                "end": 295
                             },
                             "asyncKeyword": null,
                             "key": {
@@ -784,8 +784,8 @@ f(/* ... */ a, b);
                                 "rawText": "f",
                                 "flags": 96,
                                 "transformFlags": 0,
-                                "start": 294,
-                                "end": 296
+                                "start": 295,
+                                "end": 297
                             },
                             "optionalToken": null,
                             "type": null,
@@ -799,16 +799,16 @@ f(/* ... */ a, b);
                                     "trailingComma": false,
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 300,
-                                    "end": 300
+                                    "start": 301,
+                                    "end": 301
                                 },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "transformFlags": 0,
-                                    "start": 310,
-                                    "end": 313
+                                    "start": 311,
+                                    "end": 314
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -818,23 +818,23 @@ f(/* ... */ a, b);
                                         "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 315,
-                                        "end": 315
+                                        "start": 316,
+                                        "end": 316
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 313,
-                                    "end": 316
+                                    "start": 314,
+                                    "end": 317
                                 },
                                 "flags": 32,
                                 "transformFlags": 0,
-                                "start": 298,
-                                "end": 316
+                                "start": 299,
+                                "end": 317
                             },
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 294,
-                            "end": 316
+                            "start": 295,
+                            "end": 317
                         },
                         {
                             "kind": 280,
@@ -844,8 +844,8 @@ f(/* ... */ a, b);
                                 "kind": 8388716,
                                 "flags": 64,
                                 "transformFlags": 0,
-                                "start": 316,
-                                "end": 325
+                                "start": 317,
+                                "end": 326
                             },
                             "asyncKeyword": null,
                             "key": {
@@ -854,8 +854,8 @@ f(/* ... */ a, b);
                                 "rawText": "f",
                                 "flags": 96,
                                 "transformFlags": 0,
-                                "start": 325,
-                                "end": 327
+                                "start": 326,
+                                "end": 328
                             },
                             "optionalToken": null,
                             "type": null,
@@ -866,8 +866,8 @@ f(/* ... */ a, b);
                                     "kind": 37822554,
                                     "flags": 64,
                                     "transformFlags": 0,
-                                    "start": 329,
-                                    "end": 338
+                                    "start": 330,
+                                    "end": 339
                                 },
                                 "asteriskToken": null,
                                 "name": null,
@@ -878,8 +878,8 @@ f(/* ... */ a, b);
                                     "trailingComma": false,
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 339,
-                                    "end": 339
+                                    "start": 340,
+                                    "end": 340
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -889,24 +889,24 @@ f(/* ... */ a, b);
                                         "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 351,
-                                        "end": 351
+                                        "start": 352,
+                                        "end": 352
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 349,
-                                    "end": 352
+                                    "start": 350,
+                                    "end": 353
                                 },
                                 "returnType": null,
                                 "flags": 32,
                                 "transformFlags": 0,
-                                "start": 329,
-                                "end": 352
+                                "start": 330,
+                                "end": 353
                             },
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 325,
-                            "end": 352
+                            "start": 326,
+                            "end": 353
                         },
                         {
                             "kind": 280,
@@ -916,8 +916,8 @@ f(/* ... */ a, b);
                                 "kind": 8388716,
                                 "flags": 64,
                                 "transformFlags": 0,
-                                "start": 352,
-                                "end": 361
+                                "start": 353,
+                                "end": 362
                             },
                             "asyncKeyword": null,
                             "key": {
@@ -926,8 +926,8 @@ f(/* ... */ a, b);
                                 "rawText": "f",
                                 "flags": 96,
                                 "transformFlags": 0,
-                                "start": 361,
-                                "end": 363
+                                "start": 362,
+                                "end": 364
                             },
                             "optionalToken": null,
                             "type": null,
@@ -938,8 +938,8 @@ f(/* ... */ a, b);
                                     "kind": 37822554,
                                     "flags": 64,
                                     "transformFlags": 0,
-                                    "start": 365,
-                                    "end": 374
+                                    "start": 366,
+                                    "end": 375
                                 },
                                 "asteriskToken": null,
                                 "name": {
@@ -948,8 +948,8 @@ f(/* ... */ a, b);
                                     "rawText": "f",
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 374,
-                                    "end": 376
+                                    "start": 375,
+                                    "end": 377
                                 },
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -958,8 +958,8 @@ f(/* ... */ a, b);
                                     "trailingComma": false,
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 377,
-                                    "end": 377
+                                    "start": 378,
+                                    "end": 378
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -969,40 +969,40 @@ f(/* ... */ a, b);
                                         "statements": [],
                                         "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 389,
-                                        "end": 389
+                                        "start": 390,
+                                        "end": 390
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 387,
-                                    "end": 390
+                                    "start": 388,
+                                    "end": 391
                                 },
                                 "returnType": null,
                                 "flags": 32,
                                 "transformFlags": 0,
-                                "start": 365,
-                                "end": 390
+                                "start": 366,
+                                "end": 391
                             },
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 361,
-                            "end": 390
+                            "start": 362,
+                            "end": 391
                         }
                     ],
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 219,
-                    "end": 390
+                    "start": 220,
+                    "end": 391
                 },
-                "flags": 217,
+                "flags": 218,
                 "transformFlags": 0,
                 "start": 32,
-                "end": 392
+                "end": 393
             },
             "flags": 17,
             "transformFlags": 0,
-            "start": 206,
-            "end": 392
+            "start": 207,
+            "end": 393
         },
         {
             "kind": 120,
@@ -1014,8 +1014,8 @@ f(/* ... */ a, b);
                     "rawText": "f",
                     "flags": 97,
                     "transformFlags": 0,
-                    "start": 392,
-                    "end": 395
+                    "start": 393,
+                    "end": 396
                 },
                 "argumentList": {
                     "kind": 256,
@@ -1023,18 +1023,18 @@ f(/* ... */ a, b);
                     "trailingComma": false,
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 396,
-                    "end": 396
+                    "start": 397,
+                    "end": 397
                 },
                 "flags": 32,
                 "transformFlags": 1,
-                "start": 392,
-                "end": 406
+                "start": 393,
+                "end": 407
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 392,
-            "end": 407
+            "start": 393,
+            "end": 408
         },
         {
             "kind": 120,
@@ -1046,8 +1046,8 @@ f(/* ... */ a, b);
                     "rawText": "f",
                     "flags": 97,
                     "transformFlags": 0,
-                    "start": 407,
-                    "end": 409
+                    "start": 408,
+                    "end": 410
                 },
                 "argumentList": {
                     "kind": 256,
@@ -1058,25 +1058,25 @@ f(/* ... */ a, b);
                             "rawText": "a",
                             "flags": 96,
                             "transformFlags": 0,
-                            "start": 410,
-                            "end": 411
+                            "start": 411,
+                            "end": 412
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 410,
-                    "end": 412
+                    "start": 411,
+                    "end": 413
                 },
                 "flags": 32,
                 "transformFlags": 1,
-                "start": 407,
-                "end": 423
+                "start": 408,
+                "end": 424
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 407,
-            "end": 424
+            "start": 408,
+            "end": 425
         },
         {
             "kind": 120,
@@ -1088,8 +1088,8 @@ f(/* ... */ a, b);
                     "rawText": "f",
                     "flags": 97,
                     "transformFlags": 0,
-                    "start": 424,
-                    "end": 426
+                    "start": 425,
+                    "end": 427
                 },
                 "argumentList": {
                     "kind": 256,
@@ -1100,8 +1100,8 @@ f(/* ... */ a, b);
                             "rawText": "a",
                             "flags": 96,
                             "transformFlags": 0,
-                            "start": 427,
-                            "end": 428
+                            "start": 428,
+                            "end": 429
                         },
                         {
                             "kind": 134299649,
@@ -1109,25 +1109,25 @@ f(/* ... */ a, b);
                             "rawText": "b",
                             "flags": 96,
                             "transformFlags": 0,
-                            "start": 429,
-                            "end": 441
+                            "start": 430,
+                            "end": 442
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 427,
-                    "end": 441
+                    "start": 428,
+                    "end": 442
                 },
                 "flags": 32,
                 "transformFlags": 1,
-                "start": 424,
-                "end": 442
+                "start": 425,
+                "end": 443
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 424,
-            "end": 443
+            "start": 425,
+            "end": 444
         },
         {
             "kind": 120,
@@ -1139,8 +1139,8 @@ f(/* ... */ a, b);
                     "rawText": "f",
                     "flags": 97,
                     "transformFlags": 0,
-                    "start": 443,
-                    "end": 445
+                    "start": 444,
+                    "end": 446
                 },
                 "argumentList": {
                     "kind": 256,
@@ -1151,8 +1151,8 @@ f(/* ... */ a, b);
                             "rawText": "a",
                             "flags": 96,
                             "transformFlags": 0,
-                            "start": 446,
-                            "end": 457
+                            "start": 447,
+                            "end": 458
                         },
                         {
                             "kind": 134299649,
@@ -1160,47 +1160,74 @@ f(/* ... */ a, b);
                             "rawText": "b",
                             "flags": 96,
                             "transformFlags": 0,
-                            "start": 458,
-                            "end": 460
+                            "start": 459,
+                            "end": 461
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 446,
-                    "end": 460
+                    "start": 447,
+                    "end": 461
                 },
                 "flags": 32,
                 "transformFlags": 1,
-                "start": 443,
-                "end": 461
+                "start": 444,
+                "end": 462
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 443,
-            "end": 462
+            "start": 444,
+            "end": 463
         }
     ],
     "isModule": false,
-    "source": "let f = (/* ... */) => {}\n(function (/* ... */) {})(/* ... */)\nfunction f(/* ... */) {}\n\nconst obj = {\n  f(/* ... */) {},\n  f: (/* ... */) => {},\n  f: function(/* ... */) {},\n  f: function f(/* ... */) {}\n}\n\nclass Foo {\n  f(/* ... */) {}\n  f = (/* ... */) => {}\n  static f(/* .. */) {}\n  static f = (/* ... */) => {}\n  static f = function(/* ... */) {}\n  static f = function f(/* ... */) {}\n}\n\nf(/* ... */);\nf(a, /* ... */);\nf(a, /* ... */ b);\nf(/* ... */ a, b);",
+    "source": "let f = (/* ... */) => {}\n(function (/* ... */) {})(/* ... */)\nfunction fx(/* ... */) {}\n\nconst obj = {\n  f(/* ... */) {},\n  f: (/* ... */) => {},\n  f: function(/* ... */) {},\n  f: function f(/* ... */) {}\n}\n\nclass Foo {\n  f(/* ... */) {}\n  f = (/* ... */) => {}\n  static f(/* .. */) {}\n  static f = (/* ... */) => {}\n  static f = function(/* ... */) {}\n  static f = function f(/* ... */) {}\n}\n\nf(/* ... */);\nf(a, /* ... */);\nf(a, /* ... */ b);\nf(/* ... */ a, b);",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 462
+    "end": 463
 }
 ```
 
 ### Printed
 
 ```javascript
+let f = (/* ... */ ) => {};
+(function (/* ... */ ) {})(/* ... */ );
+
+function fx(/* ... */ ) {}
+
+const obj = {
+    f(/* ... */ ) {},
+    f: (/* ... */ ) => {},
+    f: function (/* ... */ ) {},
+    f: function f(/* ... */ ) {}
+  };
+
+class Foo {
+  f(/* ... */ ) {}
+  f = (/* ... */ ) => {};
+  static f(/* .. */ ) {}
+  static f = (/* ... */ ) => {};
+  static f = function (/* ... */ ) {};
+  static f = function f(/* ... */ ) {};
+}
+
+f(/* ... */ );
+
+f(a);
+
+f(a, /* ... */ b);
+
+f(/* ... */ a, b);
 
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable 'f' - start: 71, end: 73
-
+✔ No errors
 ```
 

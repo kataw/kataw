@@ -6,6 +6,8 @@
 declare opaque type A;
 declare opaque type B;
 declare var a: A;
+
+declare opaque type FBID = number;
 `````
 
 ## Options
@@ -191,31 +193,84 @@ declare var a: A;
             "transformFlags": 0,
             "start": 53,
             "end": 63
+        },
+        {
+            "kind": 312,
+            "declareToken": {
+                "kind": 82165,
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 63,
+                "end": 72
+            },
+            "opaqueToken": {
+                "kind": 24822,
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 72,
+                "end": 79
+            },
+            "typeToken": {
+                "kind": 24775,
+                "flags": 64,
+                "transformFlags": 0,
+                "start": 79,
+                "end": 84
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "FBID",
+                "rawText": "FBID",
+                "flags": 96,
+                "transformFlags": 0,
+                "start": 84,
+                "end": 89
+            },
+            "typeParameters": null,
+            "superType": null,
+            "impltype": null,
+            "flags": 2097152,
+            "transformFlags": 0,
+            "start": 72,
+            "end": 89
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "number",
+                "rawText": "number",
+                "flags": 96,
+                "transformFlags": 0,
+                "start": 91,
+                "end": 98
+            },
+            "flags": 16,
+            "transformFlags": 4096,
+            "start": 91,
+            "end": 99
         }
     ],
     "isModule": false,
-    "source": "declare opaque type A;\ndeclare opaque type B;\ndeclare var a: A;",
+    "source": "declare opaque type A;\ndeclare opaque type B;\ndeclare var a: A;\n\ndeclare opaque type FBID = number;",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 63
+    "end": 99
 }
 ```
 
 ### Printed
 
 ```javascript
-declare opaque
-declare opaque
-
-declare var a: A;
 
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 89, end: 91
+
 ```
 

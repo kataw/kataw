@@ -2054,7 +2054,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
     chain = createCallChain(
       chain as any,
-      parseTypeParameterInstantiation(parser, context),
+      parseTypeParameterInstantiation(parser, context | Context.InType),
       parseArguments(parser, context),
       pos,
       parser.curPos
@@ -2104,7 +2104,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
     } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
       chain = createCallChain(
         chain as any,
-        parseTypeParameterInstantiation(parser, context),
+        parseTypeParameterInstantiation(parser, context | Context.InType),
         parseArguments(parser, context),
         pos,
         parser.curPos
@@ -7902,7 +7902,7 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     ),
     parseTypeParameterInstantiation(
       parser,
-      (context | (context & Context.ArrowOrigin)) ^ (context & Context.ArrowOrigin)
+      (context | (context & Context.ArrowOrigin | Context.InType)) ^ (context & Context.ArrowOrigin)
     ),
     pos,
     parser.curPos
@@ -7929,7 +7929,6 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
     if (parser.token === SyntaxKind.GreaterThan) {
       report(parser, parser.curPos, DiagnosticCode.Identifier_expected);
     }
-
     const types = [];
     let requireDefault = false;
     let trailingComma = false;
@@ -7965,7 +7964,7 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
     const types = [];
     let trailingComma = false;
     while (parser.token & Constants.IsTypeParameter) {
-      types.push(parseTypeAnnotation(parser, context | Context.InType));
+      types.push(parseTypeAnnotation(parser, context));
       if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
       if (consumeOpt(parser, context, SyntaxKind.Comma)) {
         if (parser.token === SyntaxKind.GreaterThan) {
@@ -8707,7 +8706,7 @@ function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKi
         parseEntityName(parser, context, key, Constants.IdentifierOrKeyword, pos),
         parseTypeParameterInstantiation(
           parser,
-          (context | (context & Context.ArrowOrigin)) ^ (context & Context.ArrowOrigin)
+          (context | (context & Context.ArrowOrigin | Context.InType)) ^ (context & Context.ArrowOrigin)
         ),
         pos,
         parser.curPos
@@ -8727,7 +8726,7 @@ function parseObjectTypeIndexer(
 
   if (parser.token & Constants.Identifier) {
     const token = parser.token;
-    key = parseIdentifier(parser, context, Constants.Identifier);
+    key = parseIdentifier(parser, context, Constants.IdentifierOrKeyword);
     if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
       let optionalToken = null;
       optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
@@ -9201,7 +9200,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     classHeritage = createClassHeritage(
       extendsToken,
       parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends),
-      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameterInstantiation(parser, context) : null,
+      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameterInstantiation(parser, context | Context.InType) : null,
       curPos,
       parser.curPos
     );
@@ -10469,7 +10468,7 @@ function parseOpaqueType(
       declareKeyword,
       opaqueToken,
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
-      parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
+      parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),
       consumeOpt(parser, context, SyntaxKind.Colon) ? parseTypeAnnotation(parser, context) : null,
       !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null,

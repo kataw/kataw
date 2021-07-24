@@ -10,6 +10,7 @@ type y = { [[foo]](): X }
 type z = { [[foo]]?: X }
 
 type q = { [[foo]]: X }
+
 `````
 
 ## Options
@@ -436,12 +437,12 @@ type q = { [[foo]]: X }
         }
     ],
     "isModule": false,
-    "source": "type x = { [[foo]]: X }\n\ntype y = { [[foo]](): X }\n\ntype z = { [[foo]]?: X }\n\ntype q = { [[foo]]: X }",
+    "source": "type x = { [[foo]]: X }\n\ntype y = { [[foo]](): X }\n\ntype z = { [[foo]]?: X }\n\ntype q = { [[foo]]: X }\n",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 101
+    "end": 102
 }
 ```
 

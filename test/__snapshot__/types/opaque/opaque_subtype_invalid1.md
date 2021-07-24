@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-opaque Ident: Type = SuperType;
+export opaque potato: FBID = number;
 `````
 
 ## Options
@@ -11,18 +11,7 @@ opaque Ident: Type = SuperType;
 ### Parser Options
 
 `````js
-{ allowTypes : true }
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
+{ allowTypes : true, module: true }
 `````
 
 ## Output
@@ -35,38 +24,41 @@ opaque Ident: Type = SuperType;
     "directives": [],
     "statements": [
         {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "opaque",
-                "rawText": "opaque",
-                "flags": 96,
+            "kind": 257,
+            "exportKeyword": {
+                "kind": 4202582,
+                "flags": 80,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
-            "flags": 16,
-            "transformFlags": 4096,
+            "declaration": null,
+            "namedExports": null,
+            "exportFromClause": null,
+            "fromClause": null,
+            "exportKind": 0,
+            "flags": 80,
+            "transformFlags": 0,
             "start": 0,
-            "end": 6
+            "end": 13
         },
         {
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "text": "Ident",
-                "rawText": "Ident",
+                "text": "potato",
+                "rawText": "potato",
                 "flags": 96,
                 "transformFlags": 0,
-                "start": 6,
-                "end": 12
+                "start": 13,
+                "end": 20
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
                 "transformFlags": 0,
-                "start": 12,
-                "end": 13
+                "start": 20,
+                "end": 21
             },
             "statement": {
                 "kind": 120,
@@ -74,52 +66,52 @@ opaque Ident: Type = SuperType;
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
-                        "text": "Type",
-                        "rawText": "Type",
+                        "text": "FBID",
+                        "rawText": "FBID",
                         "flags": 96,
                         "transformFlags": 0,
-                        "start": 13,
-                        "end": 18
+                        "start": 21,
+                        "end": 26
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
                         "transformFlags": 0,
-                        "start": 18,
-                        "end": 20
+                        "start": 26,
+                        "end": 28
                     },
                     "right": {
                         "kind": 134299649,
-                        "text": "SuperType",
-                        "rawText": "SuperType",
+                        "text": "number",
+                        "rawText": "number",
                         "flags": 96,
                         "transformFlags": 0,
-                        "start": 20,
-                        "end": 30
+                        "start": 28,
+                        "end": 35
                     },
                     "flags": 0,
                     "transformFlags": 128,
-                    "start": 13,
-                    "end": 30
+                    "start": 21,
+                    "end": 35
                 },
                 "flags": 16,
                 "transformFlags": 4096,
-                "start": 13,
-                "end": 31
+                "start": 21,
+                "end": 36
             },
             "flags": 16,
             "transformFlags": 0,
-            "start": 6,
-            "end": 31
+            "start": 13,
+            "end": 36
         }
     ],
-    "isModule": false,
-    "source": "opaque Ident: Type = SuperType;",
+    "isModule": true,
+    "source": "export opaque potato: FBID = number;",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 31
+    "end": 36
 }
 ```
 
@@ -132,7 +124,8 @@ opaque Ident: Type = SuperType;
 ### Diagnostics
 
 ```javascript
-✖ '; ' is not allowed here. Did you mean ';'? - start: 6, end: 12
+✖ '; ' is not allowed here. Did you mean ';'? - start: 13, end: 20
+✖ Declaration or statement expected - start: 13, end: 20
 
 ```
 
