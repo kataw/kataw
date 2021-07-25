@@ -74,9 +74,9 @@ while(y)
                         "start": 6,
                         "end": 18
                     },
-                    "flags": 2,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 2,
                     "end": 19
                 },
                 "flags": 16,

@@ -28,9 +28,9 @@
                     "start": 5,
                     "end": 11
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 17
             },
             "flags": 16,
@@ -52,7 +52,7 @@
 ### Printed
 
 ```javascript
-(x /*2*/);
+(/*1*/ x /*2*/);
 ```
 
 ### Diagnostics

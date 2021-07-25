@@ -56,14 +56,14 @@ a = ((b)) = c;
                                 "start": 6,
                                 "end": 7
                             },
-                            "flags": 5,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 5,
                             "end": 8
                         },
-                        "flags": 3,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 3,
                         "end": 9
                     },
                     "operatorToken": {

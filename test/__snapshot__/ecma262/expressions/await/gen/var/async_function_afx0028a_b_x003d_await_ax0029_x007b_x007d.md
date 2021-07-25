@@ -253,9 +253,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                 "start": 20,
                                 "end": 78
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 79
                         },
                         "flags": 16,

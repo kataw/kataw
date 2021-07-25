@@ -104,9 +104,9 @@ a = () => ({} = this);
                             "start": 11,
                             "end": 20
                         },
-                        "flags": 9,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 9,
                         "end": 21
                     },
                     "flags": 32,

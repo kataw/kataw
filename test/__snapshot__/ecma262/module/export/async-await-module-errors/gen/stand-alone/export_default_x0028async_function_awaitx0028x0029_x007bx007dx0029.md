@@ -98,9 +98,9 @@ export default (async function await() {})
                     "start": 16,
                     "end": 41
                 },
-                "flags": 14,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 14,
                 "end": 42
             },
             "flags": 16,

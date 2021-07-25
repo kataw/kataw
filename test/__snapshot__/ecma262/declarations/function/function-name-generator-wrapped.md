@@ -141,9 +141,9 @@ function* wrap() {
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 18,
+                                "flags": 35,
                                 "transformFlags": 0,
-                                "start": 35,
+                                "start": 18,
                                 "end": 38
                             },
                             "flags": 16,

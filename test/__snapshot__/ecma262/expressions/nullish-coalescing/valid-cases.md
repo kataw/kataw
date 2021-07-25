@@ -269,9 +269,9 @@ a ?? b ?? c ? d : e;
                         "start": 41,
                         "end": 50
                     },
-                    "flags": 41,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 41,
                     "end": 51
                 },
                 "operatorToken": {
@@ -290,7 +290,7 @@ a ?? b ?? c ? d : e;
                     "start": 54,
                     "end": 56
                 },
-                "flags": 41,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 41,
                 "end": 56

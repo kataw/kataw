@@ -70,9 +70,9 @@ async < T > (x);
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 11,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 11,
                         "end": 15
                     },
                     "flags": 96,

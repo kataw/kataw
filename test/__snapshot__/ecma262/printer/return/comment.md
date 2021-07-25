@@ -530,9 +530,9 @@ fn(function f() {
                                     "start": 247,
                                     "end": 287
                                 },
-                                "flags": 247,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 247,
                                 "end": 291
                             },
                             "flags": 81,
@@ -661,9 +661,9 @@ fn(function f() {
                                                     "start": 322,
                                                     "end": 362
                                                 },
-                                                "flags": 322,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 322,
                                                 "end": 366
                                             },
                                             "flags": 81,

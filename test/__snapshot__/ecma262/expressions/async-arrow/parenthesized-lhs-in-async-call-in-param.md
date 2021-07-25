@@ -76,9 +76,9 @@ async (x = async([(f) = []])) => {};
                                                                 "start": 19,
                                                                 "end": 20
                                                             },
-                                                            "flags": 18,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 18,
                                                             "end": 21
                                                         },
                                                         "operatorToken": {

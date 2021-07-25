@@ -54,9 +54,9 @@ a ? (b) : c => (d) : e => f;
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 7
                 },
                 "colonToken": {

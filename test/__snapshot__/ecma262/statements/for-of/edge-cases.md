@@ -176,9 +176,9 @@ for ((async) of x);
                     "start": 53,
                     "end": 58
                 },
-                "flags": 52,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 52,
                 "end": 59
             },
             "ofKeyword": {

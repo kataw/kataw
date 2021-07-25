@@ -73,9 +73,9 @@ delete ((x) => x)
                         "start": 8,
                         "end": 16
                     },
-                    "flags": 6,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 6,
                     "end": 17
                 },
                 "flags": 32,

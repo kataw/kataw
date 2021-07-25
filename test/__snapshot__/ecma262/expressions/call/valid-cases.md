@@ -164,9 +164,9 @@ x(class {} ?? 1);
                                     "start": 17,
                                     "end": 25
                                 },
-                                "flags": 16,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 16,
                                 "end": 26
                             },
                             "operatorToken": {
@@ -185,7 +185,7 @@ x(class {} ?? 1);
                                 "start": 29,
                                 "end": 31
                             },
-                            "flags": 48,
+                            "flags": 32,
                             "transformFlags": 5120,
                             "start": 16,
                             "end": 31
@@ -649,9 +649,9 @@ x(class {} ?? 1);
                                     "start": 113,
                                     "end": 123
                                 },
-                                "flags": 113,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 113,
                                 "end": 124
                             },
                             "operatorToken": {
@@ -670,7 +670,7 @@ x(class {} ?? 1);
                                 "start": 127,
                                 "end": 129
                             },
-                            "flags": 113,
+                            "flags": 32,
                             "transformFlags": 5120,
                             "start": 113,
                             "end": 129
@@ -744,9 +744,9 @@ x(class {} ?? 1);
                                     "start": 135,
                                     "end": 141
                                 },
-                                "flags": 135,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 135,
                                 "end": 142
                             },
                             "operatorToken": {
@@ -765,7 +765,7 @@ x(class {} ?? 1);
                                 "start": 145,
                                 "end": 147
                             },
-                            "flags": 167,
+                            "flags": 32,
                             "transformFlags": 5120,
                             "start": 135,
                             "end": 147
@@ -839,9 +839,9 @@ x(class {} ?? 1);
                                     "start": 153,
                                     "end": 159
                                 },
-                                "flags": 153,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 153,
                                 "end": 160
                             },
                             "operatorToken": {
@@ -860,7 +860,7 @@ x(class {} ?? 1);
                                 "start": 163,
                                 "end": 165
                             },
-                            "flags": 185,
+                            "flags": 32,
                             "transformFlags": 5120,
                             "start": 153,
                             "end": 165
@@ -934,9 +934,9 @@ x(class {} ?? 1);
                                     "start": 171,
                                     "end": 178
                                 },
-                                "flags": 171,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 171,
                                 "end": 179
                             },
                             "operatorToken": {
@@ -955,7 +955,7 @@ x(class {} ?? 1);
                                 "start": 182,
                                 "end": 184
                             },
-                            "flags": 171,
+                            "flags": 32,
                             "transformFlags": 5120,
                             "start": 171,
                             "end": 184

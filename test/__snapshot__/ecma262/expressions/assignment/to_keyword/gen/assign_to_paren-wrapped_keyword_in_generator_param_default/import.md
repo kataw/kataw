@@ -115,9 +115,9 @@ function *f(x = (import) = f) {}
                                 "start": 23,
                                 "end": 29
                             },
-                            "flags": 15,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 15,
                             "end": 29
                         },
                         "flags": 34,

@@ -80,9 +80,9 @@
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 12
                 },
                 "colonToken": {
@@ -129,9 +129,9 @@
                         "start": 16,
                         "end": 22
                     },
-                    "flags": 14,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 14,
                     "end": 23
                 },
                 "flags": 96,

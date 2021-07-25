@@ -370,9 +370,9 @@ var {get} = obj;
                                                 "start": 63,
                                                 "end": 70
                                             },
-                                            "flags": 63,
+                                            "flags": 34,
                                             "transformFlags": 0,
-                                            "start": 34,
+                                            "start": 63,
                                             "end": 71
                                         },
                                         "flags": 32,
@@ -510,9 +510,9 @@ var {get} = obj;
                                                 "start": 92,
                                                 "end": 99
                                             },
-                                            "flags": 92,
+                                            "flags": 34,
                                             "transformFlags": 0,
-                                            "start": 34,
+                                            "start": 92,
                                             "end": 100
                                         },
                                         "flags": 32,
@@ -996,9 +996,9 @@ var {get} = obj;
                                                                 "start": 208,
                                                                 "end": 214
                                                             },
-                                                            "flags": 208,
+                                                            "flags": 34,
                                                             "transformFlags": 0,
-                                                            "start": 34,
+                                                            "start": 208,
                                                             "end": 215
                                                         },
                                                         "flags": 0,
@@ -1176,9 +1176,9 @@ var {get} = obj;
                                                                 "start": 242,
                                                                 "end": 251
                                                             },
-                                                            "flags": 242,
+                                                            "flags": 34,
                                                             "transformFlags": 0,
-                                                            "start": 34,
+                                                            "start": 242,
                                                             "end": 252
                                                         },
                                                         "flags": 0,

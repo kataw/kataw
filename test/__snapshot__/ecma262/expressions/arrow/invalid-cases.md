@@ -293,9 +293,9 @@ a++ => {};
                     "start": 41,
                     "end": 44
                 },
-                "flags": 41,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 41,
                 "end": 45
             },
             "flags": 16,
@@ -1361,9 +1361,9 @@ a++ => {};
                                                                         "start": 253,
                                                                         "end": 257
                                                                     },
-                                                                    "flags": 253,
+                                                                    "flags": 32,
                                                                     "transformFlags": 0,
-                                                                    "start": 32,
+                                                                    "start": 253,
                                                                     "end": 258
                                                                 },
                                                                 "flags": 32,
@@ -1415,9 +1415,9 @@ a++ => {};
                                                                                         "start": 268,
                                                                                         "end": 271
                                                                                     },
-                                                                                    "flags": 267,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 0,
-                                                                                    "start": 32,
+                                                                                    "start": 267,
                                                                                     "end": 272
                                                                                 },
                                                                                 "flags": 32,
@@ -1535,9 +1535,9 @@ a++ => {};
                                                     "start": 287,
                                                     "end": 294
                                                 },
-                                                "flags": 287,
+                                                "flags": 34,
                                                 "transformFlags": 0,
-                                                "start": 34,
+                                                "start": 287,
                                                 "end": 295
                                             },
                                             "flags": 32,
@@ -2057,9 +2057,9 @@ a++ => {};
                                     "start": 386,
                                     "end": 389
                                 },
-                                "flags": 384,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 384,
                                 "end": 390
                             },
                             "flags": 32,
@@ -2714,9 +2714,9 @@ a++ => {};
                                                         "start": 522,
                                                         "end": 526
                                                     },
-                                                    "flags": 522,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 522,
                                                     "end": 527
                                                 },
                                                 "flags": 34,
@@ -3335,9 +3335,9 @@ a++ => {};
                                         "start": 644,
                                         "end": 649
                                     },
-                                    "flags": 644,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 644,
                                     "end": 650
                                 },
                                 "questionToken": {
@@ -3383,14 +3383,14 @@ a++ => {};
                                             "start": 652,
                                             "end": 658
                                         },
-                                        "flags": 652,
+                                        "flags": 34,
                                         "transformFlags": 0,
-                                        "start": 34,
+                                        "start": 652,
                                         "end": 659
                                     },
-                                    "flags": 651,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 651,
                                     "end": 660
                                 },
                                 "colonToken": {
@@ -3440,9 +3440,9 @@ a++ => {};
                                                     "start": 662,
                                                     "end": 669
                                                 },
-                                                "flags": 662,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 662,
                                                 "end": 670
                                             },
                                             "operatorToken": {
@@ -3477,19 +3477,19 @@ a++ => {};
                                                     "start": 673,
                                                     "end": 675
                                                 },
-                                                "flags": 672,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 672,
                                                 "end": 676
                                             },
-                                            "flags": 694,
+                                            "flags": 32,
                                             "transformFlags": 5120,
                                             "start": 662,
                                             "end": 676
                                         },
-                                        "flags": 661,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 661,
                                         "end": 677
                                     },
                                     "operatorToken": {
@@ -3524,17 +3524,17 @@ a++ => {};
                                             "start": 678,
                                             "end": 682
                                         },
-                                        "flags": 678,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 678,
                                         "end": 683
                                     },
-                                    "flags": 693,
+                                    "flags": 32,
                                     "transformFlags": 5120,
                                     "start": 661,
                                     "end": 683
                                 },
-                                "flags": 676,
+                                "flags": 32,
                                 "transformFlags": 4096,
                                 "start": 644,
                                 "end": 683
@@ -3779,9 +3779,9 @@ a++ => {};
                                                         "start": 727,
                                                         "end": 731
                                                     },
-                                                    "flags": 727,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 727,
                                                     "end": 732
                                                 },
                                                 "questionToken": {
@@ -3818,14 +3818,14 @@ a++ => {};
                                                             "start": 734,
                                                             "end": 738
                                                         },
-                                                        "flags": 734,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 734,
                                                         "end": 739
                                                     },
-                                                    "flags": 733,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 733,
                                                     "end": 740
                                                 },
                                                 "colonToken": {
@@ -3864,9 +3864,9 @@ a++ => {};
                                                                 "start": 743,
                                                                 "end": 745
                                                             },
-                                                            "flags": 742,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 742,
                                                             "end": 746
                                                         },
                                                         "questionToken": {
@@ -3887,9 +3887,9 @@ a++ => {};
                                                                 "start": 748,
                                                                 "end": 750
                                                             },
-                                                            "flags": 747,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 747,
                                                             "end": 751
                                                         },
                                                         "colonToken": {
@@ -3935,27 +3935,27 @@ a++ => {};
                                                                     "start": 753,
                                                                     "end": 759
                                                                 },
-                                                                "flags": 753,
+                                                                "flags": 34,
                                                                 "transformFlags": 0,
-                                                                "start": 34,
+                                                                "start": 753,
                                                                 "end": 760
                                                             },
-                                                            "flags": 752,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 752,
                                                             "end": 761
                                                         },
-                                                        "flags": 742,
+                                                        "flags": 32,
                                                         "transformFlags": 4096,
                                                         "start": 742,
                                                         "end": 761
                                                     },
-                                                    "flags": 741,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 741,
                                                     "end": 762
                                                 },
-                                                "flags": 759,
+                                                "flags": 32,
                                                 "transformFlags": 4096,
                                                 "start": 727,
                                                 "end": 762
@@ -4660,9 +4660,9 @@ a++ => {};
                                                         "start": 897,
                                                         "end": 899
                                                     },
-                                                    "flags": 896,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 896,
                                                     "end": 900
                                                 },
                                                 "questionToken": {
@@ -4699,14 +4699,14 @@ a++ => {};
                                                             "start": 902,
                                                             "end": 906
                                                         },
-                                                        "flags": 902,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 902,
                                                         "end": 907
                                                     },
-                                                    "flags": 901,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 901,
                                                     "end": 908
                                                 },
                                                 "colonToken": {
@@ -4756,9 +4756,9 @@ a++ => {};
                                                                     "start": 910,
                                                                     "end": 916
                                                                 },
-                                                                "flags": 910,
+                                                                "flags": 34,
                                                                 "transformFlags": 0,
-                                                                "start": 34,
+                                                                "start": 910,
                                                                 "end": 917
                                                             },
                                                             "operatorToken": {
@@ -4793,19 +4793,19 @@ a++ => {};
                                                                     "start": 920,
                                                                     "end": 922
                                                                 },
-                                                                "flags": 919,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 919,
                                                                 "end": 923
                                                             },
-                                                            "flags": 942,
+                                                            "flags": 34,
                                                             "transformFlags": 5120,
                                                             "start": 910,
                                                             "end": 923
                                                         },
-                                                        "flags": 909,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 909,
                                                         "end": 924
                                                     },
                                                     "questionToken": {
@@ -4844,9 +4844,9 @@ a++ => {};
                                                                     "start": 926,
                                                                     "end": 930
                                                                 },
-                                                                "flags": 926,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 926,
                                                                 "end": 931
                                                             },
                                                             "questionToken": {
@@ -4930,14 +4930,14 @@ a++ => {};
                                                                         "start": 934,
                                                                         "end": 951
                                                                     },
-                                                                    "flags": 933,
+                                                                    "flags": 32,
                                                                     "transformFlags": 0,
-                                                                    "start": 32,
+                                                                    "start": 933,
                                                                     "end": 952
                                                                 },
-                                                                "flags": 932,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 932,
                                                                 "end": 953
                                                             },
                                                             "colonToken": {
@@ -4974,24 +4974,24 @@ a++ => {};
                                                                         "start": 956,
                                                                         "end": 959
                                                                     },
-                                                                    "flags": 955,
+                                                                    "flags": 32,
                                                                     "transformFlags": 0,
-                                                                    "start": 32,
+                                                                    "start": 955,
                                                                     "end": 960
                                                                 },
-                                                                "flags": 954,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 954,
                                                                 "end": 961
                                                             },
-                                                            "flags": 958,
+                                                            "flags": 32,
                                                             "transformFlags": 4096,
                                                             "start": 926,
                                                             "end": 961
                                                         },
-                                                        "flags": 925,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 925,
                                                         "end": 962
                                                     },
                                                     "colonToken": {
@@ -5012,17 +5012,17 @@ a++ => {};
                                                             "start": 964,
                                                             "end": 965
                                                         },
-                                                        "flags": 963,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 963,
                                                         "end": 966
                                                     },
-                                                    "flags": 941,
+                                                    "flags": 32,
                                                     "transformFlags": 4096,
                                                     "start": 909,
                                                     "end": 966
                                                 },
-                                                "flags": 928,
+                                                "flags": 32,
                                                 "transformFlags": 4096,
                                                 "start": 896,
                                                 "end": 966
@@ -5109,9 +5109,9 @@ a++ => {};
                                                         "start": 977,
                                                         "end": 981
                                                     },
-                                                    "flags": 977,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 977,
                                                     "end": 982
                                                 },
                                                 "questionToken": {
@@ -5172,9 +5172,9 @@ a++ => {};
                                                         "start": 984,
                                                         "end": 995
                                                     },
-                                                    "flags": 983,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 983,
                                                     "end": 996
                                                 },
                                                 "colonToken": {
@@ -5235,12 +5235,12 @@ a++ => {};
                                                         "start": 998,
                                                         "end": 1009
                                                     },
-                                                    "flags": 997,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 997,
                                                     "end": 1010
                                                 },
-                                                "flags": 1009,
+                                                "flags": 32,
                                                 "transformFlags": 4096,
                                                 "start": 977,
                                                 "end": 1010
@@ -5588,9 +5588,9 @@ a++ => {};
                                                         "start": 1075,
                                                         "end": 1078
                                                     },
-                                                    "flags": 1074,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 1074,
                                                     "end": 1079
                                                 },
                                                 "flags": 34,
@@ -5647,9 +5647,9 @@ a++ => {};
                                                                     "start": 1083,
                                                                     "end": 1089
                                                                 },
-                                                                "flags": 1083,
+                                                                "flags": 34,
                                                                 "transformFlags": 0,
-                                                                "start": 34,
+                                                                "start": 1083,
                                                                 "end": 1090
                                                             },
                                                             "flags": 32,
@@ -6392,9 +6392,9 @@ a++ => {};
                                                             "start": 1230,
                                                             "end": 1234
                                                         },
-                                                        "flags": 1230,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 1230,
                                                         "end": 1235
                                                     },
                                                     "operatorToken": {
@@ -6429,19 +6429,19 @@ a++ => {};
                                                             "start": 1238,
                                                             "end": 1240
                                                         },
-                                                        "flags": 1237,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 1237,
                                                         "end": 1241
                                                     },
-                                                    "flags": 1262,
+                                                    "flags": 32,
                                                     "transformFlags": 5120,
                                                     "start": 1230,
                                                     "end": 1241
                                                 },
-                                                "flags": 1229,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 1229,
                                                 "end": 1242
                                             },
                                             "flags": 32,
@@ -6608,9 +6608,9 @@ a++ => {};
                                                                 "start": 1265,
                                                                 "end": 1271
                                                             },
-                                                            "flags": 1265,
+                                                            "flags": 34,
                                                             "transformFlags": 0,
-                                                            "start": 34,
+                                                            "start": 1265,
                                                             "end": 1272
                                                         },
                                                         "operatorToken": {
@@ -6656,17 +6656,17 @@ a++ => {};
                                                                     "start": 1274,
                                                                     "end": 1280
                                                                 },
-                                                                "flags": 1274,
+                                                                "flags": 34,
                                                                 "transformFlags": 0,
-                                                                "start": 34,
+                                                                "start": 1274,
                                                                 "end": 1281
                                                             },
-                                                            "flags": 1273,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 1273,
                                                             "end": 1282
                                                         },
-                                                        "flags": 1265,
+                                                        "flags": 34,
                                                         "transformFlags": 5120,
                                                         "start": 1265,
                                                         "end": 1282
@@ -6710,7 +6710,7 @@ a++ => {};
                                                         "start": 1285,
                                                         "end": 1288
                                                     },
-                                                    "flags": 1265,
+                                                    "flags": 34,
                                                     "transformFlags": 5120,
                                                     "start": 1265,
                                                     "end": 1288
@@ -6773,9 +6773,9 @@ a++ => {};
                                                         "start": 1290,
                                                         "end": 1301
                                                     },
-                                                    "flags": 1289,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 1289,
                                                     "end": 1302
                                                 },
                                                 "colonToken": {
@@ -6821,9 +6821,9 @@ a++ => {};
                                                             "start": 1304,
                                                             "end": 1307
                                                         },
-                                                        "flags": 1303,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 1303,
                                                         "end": 1308
                                                     },
                                                     "questionToken": {
@@ -6912,14 +6912,14 @@ a++ => {};
                                                                         "start": 1316,
                                                                         "end": 1322
                                                                     },
-                                                                    "flags": 1316,
+                                                                    "flags": 34,
                                                                     "transformFlags": 0,
-                                                                    "start": 34,
+                                                                    "start": 1316,
                                                                     "end": 1323
                                                                 },
-                                                                "flags": 1315,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 1315,
                                                                 "end": 1324
                                                             },
                                                             "colonToken": {
@@ -6956,14 +6956,14 @@ a++ => {};
                                                                         "start": 1326,
                                                                         "end": 1330
                                                                     },
-                                                                    "flags": 1326,
+                                                                    "flags": 32,
                                                                     "transformFlags": 0,
-                                                                    "start": 32,
+                                                                    "start": 1326,
                                                                     "end": 1331
                                                                 },
-                                                                "flags": 1325,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 1325,
                                                                 "end": 1332
                                                             },
                                                             "flags": 96,
@@ -6971,9 +6971,9 @@ a++ => {};
                                                             "start": 1310,
                                                             "end": 1332
                                                         },
-                                                        "flags": 1309,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 1309,
                                                         "end": 1333
                                                     },
                                                     "colonToken": {
@@ -6998,9 +6998,9 @@ a++ => {};
                                                                     "start": 1335,
                                                                     "end": 1337
                                                                 },
-                                                                "flags": 1334,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 1334,
                                                                 "end": 1338
                                                             },
                                                             "operatorToken": {
@@ -7040,7 +7040,7 @@ a++ => {};
                                                                 "start": 1343,
                                                                 "end": 1348
                                                             },
-                                                            "flags": 1334,
+                                                            "flags": 32,
                                                             "transformFlags": 5120,
                                                             "start": 1334,
                                                             "end": 1348
@@ -7061,9 +7061,9 @@ a++ => {};
                                                                 "start": 1350,
                                                                 "end": 1355
                                                             },
-                                                            "flags": 1349,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 1349,
                                                             "end": 1356
                                                         },
                                                         "colonToken": {
@@ -7124,22 +7124,22 @@ a++ => {};
                                                                 "start": 1358,
                                                                 "end": 1369
                                                             },
-                                                            "flags": 1357,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 1357,
                                                             "end": 1370
                                                         },
-                                                        "flags": 1334,
+                                                        "flags": 32,
                                                         "transformFlags": 4096,
                                                         "start": 1334,
                                                         "end": 1370
                                                     },
-                                                    "flags": 1335,
+                                                    "flags": 32,
                                                     "transformFlags": 4096,
                                                     "start": 1303,
                                                     "end": 1370
                                                 },
-                                                "flags": 1265,
+                                                "flags": 34,
                                                 "transformFlags": 4096,
                                                 "start": 1265,
                                                 "end": 1370
@@ -7349,9 +7349,9 @@ a++ => {};
                                                                                                 "start": 1412,
                                                                                                 "end": 1413
                                                                                             },
-                                                                                            "flags": 1411,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 0,
-                                                                                            "start": 32,
+                                                                                            "start": 1411,
                                                                                             "end": 1414
                                                                                         },
                                                                                         "colonToken": {
@@ -7372,9 +7372,9 @@ a++ => {};
                                                                                                 "start": 1416,
                                                                                                 "end": 1417
                                                                                             },
-                                                                                            "flags": 1415,
+                                                                                            "flags": 32,
                                                                                             "transformFlags": 0,
-                                                                                            "start": 32,
+                                                                                            "start": 1415,
                                                                                             "end": 1418
                                                                                         },
                                                                                         "flags": 96,
@@ -7382,9 +7382,9 @@ a++ => {};
                                                                                         "start": 1409,
                                                                                         "end": 1418
                                                                                     },
-                                                                                    "flags": 1408,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 0,
-                                                                                    "start": 32,
+                                                                                    "start": 1408,
                                                                                     "end": 1419
                                                                                 },
                                                                                 "colonToken": {
@@ -7421,14 +7421,14 @@ a++ => {};
                                                                                             "start": 1421,
                                                                                             "end": 1425
                                                                                         },
-                                                                                        "flags": 1421,
+                                                                                        "flags": 32,
                                                                                         "transformFlags": 0,
-                                                                                        "start": 32,
+                                                                                        "start": 1421,
                                                                                         "end": 1426
                                                                                     },
-                                                                                    "flags": 1420,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 0,
-                                                                                    "start": 32,
+                                                                                    "start": 1420,
                                                                                     "end": 1427
                                                                                 },
                                                                                 "flags": 96,
@@ -7511,9 +7511,9 @@ a++ => {};
                                                                     "start": 1440,
                                                                     "end": 1442
                                                                 },
-                                                                "flags": 1439,
+                                                                "flags": 32,
                                                                 "transformFlags": 0,
-                                                                "start": 32,
+                                                                "start": 1439,
                                                                 "end": 1443
                                                             },
                                                             "flags": 32,
@@ -7885,9 +7885,9 @@ a++ => {};
                                                     "start": 1517,
                                                     "end": 1522
                                                 },
-                                                "flags": 1517,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 1517,
                                                 "end": 1523
                                             },
                                             "flags": 32,
@@ -8016,9 +8016,9 @@ a++ => {};
                                                                                     "start": 1546,
                                                                                     "end": 1549
                                                                                 },
-                                                                                "flags": 1545,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 0,
-                                                                                "start": 32,
+                                                                                "start": 1545,
                                                                                 "end": 1550
                                                                             },
                                                                             "flags": 32,
@@ -8547,9 +8547,9 @@ a++ => {};
                     "start": 1850,
                     "end": 1850
                 },
-                "flags": 1778,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1778,
                 "end": 1853
             },
             "flags": 16,
@@ -8588,14 +8588,14 @@ a++ => {};
                         "start": 1862,
                         "end": 1863
                     },
-                    "flags": 1861,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1861,
                     "end": 1864
                 },
-                "flags": 1859,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1859,
                 "end": 1865
             },
             "flags": 16,
@@ -8652,14 +8652,14 @@ a++ => {};
                         "start": 1873,
                         "end": 1879
                     },
-                    "flags": 1873,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1873,
                     "end": 1879
                 },
-                "flags": 1871,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1871,
                 "end": 1880
             },
             "flags": 16,
@@ -8710,9 +8710,9 @@ a++ => {};
                                 "start": 1892,
                                 "end": 1893
                             },
-                            "flags": 1890,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 1890,
                             "end": 1894
                         }
                     ],
@@ -8721,9 +8721,9 @@ a++ => {};
                     "start": 1886,
                     "end": 1894
                 },
-                "flags": 1886,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1886,
                 "end": 1895
             },
             "flags": 16,
@@ -8789,14 +8789,14 @@ a++ => {};
                         "start": 1903,
                         "end": 1912
                     },
-                    "flags": 1903,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1903,
                     "end": 1912
                 },
-                "flags": 1901,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1901,
                 "end": 1913
             },
             "flags": 16,
@@ -8865,9 +8865,9 @@ a++ => {};
                                 "start": 1923,
                                 "end": 1930
                             },
-                            "flags": 1923,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 1923,
                             "end": 1930
                         }
                     ],
@@ -8876,9 +8876,9 @@ a++ => {};
                     "start": 1919,
                     "end": 1930
                 },
-                "flags": 1919,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1919,
                 "end": 1931
             },
             "flags": 16,
@@ -8938,9 +8938,9 @@ a++ => {};
                                 "start": 1939,
                                 "end": 1945
                             },
-                            "flags": 1939,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 1939,
                             "end": 1945
                         },
                         {
@@ -8958,9 +8958,9 @@ a++ => {};
                     "start": 1937,
                     "end": 1948
                 },
-                "flags": 1937,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 1937,
                 "end": 1949
             },
             "flags": 16,
@@ -10158,9 +10158,9 @@ a++ => {};
                     "start": 2867,
                     "end": 2869
                 },
-                "flags": 2865,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 2865,
                 "end": 2870
             },
             "flags": 16,
@@ -10221,9 +10221,9 @@ a++ => {};
                     "start": 2877,
                     "end": 2884
                 },
-                "flags": 2877,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 2877,
                 "end": 2885
             },
             "flags": 16,
@@ -10329,9 +10329,9 @@ a++ => {};
                     "start": 2904,
                     "end": 2904
                 },
-                "flags": 2902,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 2902,
                 "end": 2904
             },
             "flags": 16,
@@ -10424,9 +10424,9 @@ a++ => {};
                     "start": 2914,
                     "end": 2918
                 },
-                "flags": 2914,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 2914,
                 "end": 2918
             },
             "flags": 16,
@@ -10605,9 +10605,9 @@ a++ => {};
                     "start": 2942,
                     "end": 2949
                 },
-                "flags": 2942,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 2942,
                 "end": 2950
             },
             "flags": 16,
@@ -10782,9 +10782,9 @@ a++ => {};
                     "start": 2975,
                     "end": 2986
                 },
-                "flags": 2975,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 2975,
                 "end": 2986
             },
             "flags": 16,
@@ -10865,9 +10865,9 @@ a++ => {};
                     "start": 3006,
                     "end": 3009
                 },
-                "flags": 3004,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3004,
                 "end": 3010
             },
             "flags": 16,
@@ -10945,9 +10945,9 @@ a++ => {};
                     "start": 3019,
                     "end": 3041
                 },
-                "flags": 3017,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3017,
                 "end": 3041
             },
             "flags": 16,
@@ -11067,9 +11067,9 @@ a++ => {};
                     "start": 3060,
                     "end": 3062
                 },
-                "flags": 3058,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3058,
                 "end": 3063
             },
             "flags": 16,
@@ -11144,9 +11144,9 @@ a++ => {};
                     "start": 3070,
                     "end": 3077
                 },
-                "flags": 3070,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3070,
                 "end": 3078
             },
             "flags": 16,
@@ -11221,9 +11221,9 @@ a++ => {};
                     "start": 3085,
                     "end": 3092
                 },
-                "flags": 3085,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3085,
                 "end": 3093
             },
             "flags": 16,
@@ -11369,9 +11369,9 @@ a++ => {};
                     "start": 3121,
                     "end": 3126
                 },
-                "flags": 3121,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3121,
                 "end": 3127
             },
             "flags": 16,
@@ -11528,9 +11528,9 @@ a++ => {};
                     "start": 3150,
                     "end": 3159
                 },
-                "flags": 3150,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3150,
                 "end": 3159
             },
             "flags": 16,
@@ -11657,9 +11657,9 @@ a++ => {};
                     "start": 3176,
                     "end": 3193
                 },
-                "flags": 3176,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3176,
                 "end": 3194
             },
             "flags": 16,
@@ -11759,9 +11759,9 @@ a++ => {};
                     "start": 3201,
                     "end": 3222
                 },
-                "flags": 3201,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3201,
                 "end": 3222
             },
             "flags": 16,
@@ -12029,9 +12029,9 @@ a++ => {};
                     "start": 3273,
                     "end": 3282
                 },
-                "flags": 3273,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3273,
                 "end": 3282
             },
             "flags": 16,
@@ -12192,9 +12192,9 @@ a++ => {};
                     "start": 3308,
                     "end": 3320
                 },
-                "flags": 3308,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3308,
                 "end": 3320
             },
             "flags": 16,
@@ -12315,9 +12315,9 @@ a++ => {};
                         "start": 3344,
                         "end": 3354
                     },
-                    "flags": 3344,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 3344,
                     "end": 3354
                 },
                 "operatorToken": {
@@ -12336,7 +12336,7 @@ a++ => {};
                     "start": 3356,
                     "end": 3358
                 },
-                "flags": 3376,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 3344,
                 "end": 3358
@@ -12433,9 +12433,9 @@ a++ => {};
                     "start": 3365,
                     "end": 3379
                 },
-                "flags": 3365,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 3365,
                 "end": 3380
             },
             "flags": 16,

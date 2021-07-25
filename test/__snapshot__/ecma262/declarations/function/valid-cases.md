@@ -2370,9 +2370,9 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 562,
                                             "end": 578
                                         },
-                                        "flags": 562,
+                                        "flags": 34,
                                         "transformFlags": 0,
-                                        "start": 34,
+                                        "start": 562,
                                         "end": 578
                                     },
                                     "flags": 0,
@@ -4390,9 +4390,9 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1073,
                                             "end": 1079
                                         },
-                                        "flags": 1073,
+                                        "flags": 34,
                                         "transformFlags": 0,
-                                        "start": 34,
+                                        "start": 1073,
                                         "end": 1080
                                     },
                                     "flags": 32,
@@ -4525,9 +4525,9 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1106,
                                             "end": 1115
                                         },
-                                        "flags": 1106,
+                                        "flags": 34,
                                         "transformFlags": 0,
-                                        "start": 34,
+                                        "start": 1106,
                                         "end": 1116
                                     },
                                     "flags": 32,

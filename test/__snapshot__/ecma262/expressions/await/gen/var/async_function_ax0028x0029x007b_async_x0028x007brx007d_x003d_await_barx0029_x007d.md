@@ -298,9 +298,9 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                 "start": 20,
                                 "end": 95
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 96
                         },
                         "flags": 16,

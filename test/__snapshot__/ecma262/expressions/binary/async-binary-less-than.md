@@ -71,9 +71,9 @@ async <a > (x);
                         "start": 12,
                         "end": 13
                     },
-                    "flags": 10,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 10,
                     "end": 14
                 },
                 "flags": 96,
@@ -142,9 +142,9 @@ async <a > (x);
                             "start": 30,
                             "end": 31
                         },
-                        "flags": 28,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 28,
                         "end": 32
                     },
                     "flags": 96,
@@ -152,9 +152,9 @@ async <a > (x);
                     "start": 15,
                     "end": 32
                 },
-                "flags": 15,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 15,
                 "end": 33
             },
             "flags": 16,

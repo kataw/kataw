@@ -133,9 +133,9 @@ const [selected] = ([true]: [boolean]);
                                 "start": 18,
                                 "end": 37
                             },
-                            "flags": 18,
+                            "flags": 34,
                             "transformFlags": 0,
-                            "start": 34,
+                            "start": 18,
                             "end": 38
                         },
                         "flags": 16,

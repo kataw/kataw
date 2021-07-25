@@ -1635,9 +1635,9 @@ try {} catch({ x: "str" }) {}
                     "start": 368,
                     "end": 382
                 },
-                "flags": 366,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 366,
                 "end": 383
             },
             "flags": 16,
@@ -1805,9 +1805,9 @@ try {} catch({ x: "str" }) {}
                     "start": 403,
                     "end": 416
                 },
-                "flags": 401,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 401,
                 "end": 417
             },
             "flags": 16,
@@ -3450,9 +3450,9 @@ try {} catch({ x: "str" }) {}
                     "start": 834,
                     "end": 848
                 },
-                "flags": 832,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 832,
                 "end": 849
             },
             "flags": 16,
@@ -3626,9 +3626,9 @@ try {} catch({ x: "str" }) {}
                     "start": 876,
                     "end": 889
                 },
-                "flags": 874,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 874,
                 "end": 890
             },
             "flags": 16,
@@ -3783,9 +3783,9 @@ try {} catch({ x: "str" }) {}
                     "start": 915,
                     "end": 922
                 },
-                "flags": 915,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 915,
                 "end": 923
             },
             "flags": 16,

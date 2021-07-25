@@ -110,9 +110,9 @@ for(x in(t&{}=y))x
                     "start": 8,
                     "end": 15
                 },
-                "flags": 8,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 8,
                 "end": 16
             },
             "statement": {

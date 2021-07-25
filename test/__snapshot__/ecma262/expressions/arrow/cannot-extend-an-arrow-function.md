@@ -431,9 +431,9 @@ class Foo extends async x => {} {}
                                     "start": 98,
                                     "end": 122
                                 },
-                                "flags": 95,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 95,
                                 "end": 123
                             },
                             "argumentList": {

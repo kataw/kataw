@@ -86,9 +86,9 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                             "start": 8,
                             "end": 22
                         },
-                        "flags": 6,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 6,
                         "end": 23
                     },
                     "argumentList": {

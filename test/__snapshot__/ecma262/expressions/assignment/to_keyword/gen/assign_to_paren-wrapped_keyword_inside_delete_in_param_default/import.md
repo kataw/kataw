@@ -110,14 +110,14 @@ async (x = delete ((import) = f)) => {}
                                             "start": 26,
                                             "end": 32
                                         },
-                                        "flags": 19,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 19,
                                         "end": 33
                                     },
-                                    "flags": 17,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 17,
                                     "end": 33
                                 },
                                 "flags": 32,

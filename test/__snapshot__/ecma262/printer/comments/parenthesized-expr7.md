@@ -32,19 +32,19 @@
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 7,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 7,
                         "end": 15
                     },
-                    "flags": 1,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1,
                     "end": 21
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 27
             },
             "flags": 16,
@@ -66,7 +66,7 @@
 ### Printed
 
 ```javascript
-(((x) /*3*/) /*4*/);
+(/*1*/ (/*2*/ (x) /*3*/) /*4*/);
 ```
 
 ### Diagnostics

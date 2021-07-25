@@ -99,9 +99,9 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                 "start": 18,
                                 "end": 44
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 44
                         },
                         "flags": 16,
@@ -230,9 +230,9 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "start": 69,
                             "end": 87
                         },
-                        "flags": 67,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 67,
                         "end": 88
                     },
                     "flags": 96,

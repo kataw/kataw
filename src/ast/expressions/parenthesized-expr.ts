@@ -7,8 +7,8 @@ export interface ParenthesizedExpression extends SyntaxNode {
 
 export function createParenthesizedExpression(
   expression: ExpressionNode,
-  start: number,
   flags: NodeFlags,
+  start: number,
   end: number
 ): ParenthesizedExpression {
   return {

@@ -117,9 +117,9 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                                                         "start": 41,
                                                         "end": 46
                                                     },
-                                                    "flags": 39,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 39,
                                                     "end": 47
                                                 },
                                                 "questionToken": {
@@ -154,7 +154,7 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                                                     "start": 57,
                                                     "end": 63
                                                 },
-                                                "flags": 39,
+                                                "flags": 32,
                                                 "transformFlags": 4096,
                                                 "start": 39,
                                                 "end": 63

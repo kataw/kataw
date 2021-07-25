@@ -55,9 +55,9 @@
                     "start": 0,
                     "end": 37
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 37
             },
             "flags": 16,
@@ -79,7 +79,7 @@
 ### Printed
 
 ```javascript
-(/*1*/ a /*2*/, /*3*/ b /*4*/, /*5*/ c /*6*/);
+(/*1*/ /*1*/ a /*2*/, /*3*/ b /*4*/, /*5*/ c /*6*/);
 ```
 
 ### Diagnostics

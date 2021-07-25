@@ -99,9 +99,9 @@ class C {
                                                     "start": 95,
                                                     "end": 104
                                                 },
-                                                "flags": 89,
+                                                "flags": 35,
                                                 "transformFlags": 0,
-                                                "start": 35,
+                                                "start": 89,
                                                 "end": 105
                                             },
                                             "flags": 16,

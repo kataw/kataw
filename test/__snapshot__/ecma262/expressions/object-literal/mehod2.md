@@ -622,9 +622,9 @@ x = { method(test) { } }
                         "start": 111,
                         "end": 125
                     },
-                    "flags": 109,
+                    "flags": 34,
                     "transformFlags": 0,
-                    "start": 34,
+                    "start": 109,
                     "end": 126
                 },
                 "flags": 0,

@@ -356,9 +356,9 @@ async <A = B, C = D>(x) => y;
                     "start": 32,
                     "end": 60
                 },
-                "flags": 29,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 29,
                 "end": 61
             },
             "flags": 16,

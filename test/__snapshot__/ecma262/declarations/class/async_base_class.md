@@ -456,9 +456,9 @@ async function foo() {
                                             "start": 144,
                                             "end": 151
                                         },
-                                        "flags": 142,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 142,
                                         "end": 152
                                     },
                                     "typeParameter": null,

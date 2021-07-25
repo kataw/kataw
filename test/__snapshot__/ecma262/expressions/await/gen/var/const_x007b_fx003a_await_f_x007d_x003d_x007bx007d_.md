@@ -241,9 +241,9 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                 "start": 20,
                                 "end": 67
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 68
                         },
                         "flags": 16,

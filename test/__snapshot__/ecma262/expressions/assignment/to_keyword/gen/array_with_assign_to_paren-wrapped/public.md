@@ -64,9 +64,9 @@ async x => (public) = 1
                             "start": 12,
                             "end": 18
                         },
-                        "flags": 10,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 10,
                         "end": 19
                     },
                     "operatorToken": {

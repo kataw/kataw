@@ -48,9 +48,9 @@ for(delete((1)?y:x in y) in z)x
                                 "start": 12,
                                 "end": 13
                             },
-                            "flags": 11,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 11,
                             "end": 14
                         },
                         "questionToken": {
@@ -108,14 +108,14 @@ for(delete((1)?y:x in y) in z)x
                             "start": 17,
                             "end": 23
                         },
-                        "flags": 43,
+                        "flags": 32,
                         "transformFlags": 4096,
                         "start": 11,
                         "end": 23
                     },
-                    "flags": 10,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 10,
                     "end": 24
                 },
                 "flags": 32,

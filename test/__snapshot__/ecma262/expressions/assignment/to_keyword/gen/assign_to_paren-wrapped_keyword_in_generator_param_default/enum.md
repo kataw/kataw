@@ -80,9 +80,9 @@ function *f(x = (enum) = f) {}
                                     "start": 17,
                                     "end": 21
                                 },
-                                "flags": 15,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 15,
                                 "end": 22
                             },
                             "operatorToken": {

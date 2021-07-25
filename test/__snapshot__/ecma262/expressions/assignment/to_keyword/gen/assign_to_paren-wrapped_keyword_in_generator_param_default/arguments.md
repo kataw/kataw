@@ -80,9 +80,9 @@ function *f(x = (arguments) = f) {}
                                     "start": 17,
                                     "end": 26
                                 },
-                                "flags": 15,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 15,
                                 "end": 27
                             },
                             "operatorToken": {

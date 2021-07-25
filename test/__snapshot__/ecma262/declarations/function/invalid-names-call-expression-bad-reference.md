@@ -102,9 +102,9 @@ function fn() { (() => {})().#x }
                                             "start": 17,
                                             "end": 25
                                         },
-                                        "flags": 15,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 15,
                                         "end": 26
                                     },
                                     "argumentList": {

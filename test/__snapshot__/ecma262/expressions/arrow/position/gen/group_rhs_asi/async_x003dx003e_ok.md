@@ -80,9 +80,9 @@ x *
                         "start": 5,
                         "end": 16
                     },
-                    "flags": 3,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 3,
                     "end": 17
                 },
                 "flags": 96,

@@ -534,9 +534,9 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 212,
                                     "end": 232
                                 },
-                                "flags": 210,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 210,
                                 "end": 233
                             },
                             "flags": 16,
@@ -1080,9 +1080,9 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 459,
                                     "end": 481
                                 },
-                                "flags": 457,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 457,
                                 "end": 482
                             },
                             "flags": 16,

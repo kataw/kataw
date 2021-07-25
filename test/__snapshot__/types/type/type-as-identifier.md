@@ -95,9 +95,9 @@ type = x;
                     "start": 19,
                     "end": 23
                 },
-                "flags": 16,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 16,
                 "end": 24
             },
             "flags": 16,

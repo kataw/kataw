@@ -79,9 +79,9 @@ var foo = async ([...(foo)]);
                                                             "start": 22,
                                                             "end": 25
                                                         },
-                                                        "flags": 21,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 21,
                                                         "end": 26
                                                     },
                                                     "flags": 1073741856,

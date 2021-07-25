@@ -127,9 +127,9 @@ function *g(){ (x = [yield y]) }
                                     "start": 14,
                                     "end": 29
                                 },
-                                "flags": 14,
+                                "flags": 34,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 14,
                                 "end": 30
                             },
                             "flags": 16,

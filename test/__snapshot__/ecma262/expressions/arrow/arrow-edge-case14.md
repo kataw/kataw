@@ -98,9 +98,9 @@ a ? b ? (c => d) : e => (f => g) : h => i;
                             "start": 9,
                             "end": 15
                         },
-                        "flags": 7,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 7,
                         "end": 16
                     },
                     "colonToken": {

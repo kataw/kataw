@@ -936,9 +936,9 @@ class C { get name(private) {} }
                     "start": 260,
                     "end": 290
                 },
-                "flags": 258,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 258,
                 "end": 291
             },
             "flags": 16,
@@ -1073,9 +1073,9 @@ class C { get name(private) {} }
                     "start": 308,
                     "end": 337
                 },
-                "flags": 306,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 306,
                 "end": 338
             },
             "flags": 16,

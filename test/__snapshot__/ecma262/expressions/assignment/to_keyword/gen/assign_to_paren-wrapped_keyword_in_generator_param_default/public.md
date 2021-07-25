@@ -80,9 +80,9 @@ function *f(x = (public) = f) {}
                                     "start": 17,
                                     "end": 23
                                 },
-                                "flags": 15,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 15,
                                 "end": 24
                             },
                             "operatorToken": {

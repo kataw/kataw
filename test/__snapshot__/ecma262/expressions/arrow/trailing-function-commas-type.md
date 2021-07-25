@@ -128,9 +128,9 @@
                         "start": 38,
                         "end": 40
                     },
-                    "flags": 36,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 36,
                     "end": 42
                 },
                 "flags": 32,

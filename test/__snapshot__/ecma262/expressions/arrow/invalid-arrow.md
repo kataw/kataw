@@ -48,9 +48,9 @@ x = (a)?c:d=>{}=>{}
                             "start": 5,
                             "end": 6
                         },
-                        "flags": 3,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 3,
                         "end": 7
                     },
                     "questionToken": {
@@ -118,7 +118,7 @@ x = (a)?c:d=>{}=>{}
                         "start": 10,
                         "end": 15
                     },
-                    "flags": 35,
+                    "flags": 32,
                     "transformFlags": 4096,
                     "start": 3,
                     "end": 15

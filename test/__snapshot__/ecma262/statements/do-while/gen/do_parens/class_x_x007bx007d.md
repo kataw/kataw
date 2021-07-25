@@ -76,9 +76,9 @@ do( class x {} while
                         "start": 3,
                         "end": 14
                     },
-                    "flags": 2,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 2,
                     "end": 14
                 },
                 "flags": 16,

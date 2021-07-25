@@ -272,9 +272,9 @@ var o3: O3 = (0: mixed); // ok
                     "start": 44,
                     "end": 61
                 },
-                "flags": 44,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 44,
                 "end": 62
             },
             "flags": 16,
@@ -436,9 +436,9 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 108,
                                 "end": 109
                             },
-                            "flags": 106,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 106,
                             "end": 109
                         },
                         "flags": 16,
@@ -529,9 +529,9 @@ var o3: O3 = (0: mixed); // ok
                     "start": 118,
                     "end": 135
                 },
-                "flags": 118,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 118,
                 "end": 136
             },
             "flags": 16,
@@ -828,9 +828,9 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 244,
                                 "end": 245
                             },
-                            "flags": 242,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 242,
                             "end": 245
                         },
                         "flags": 16,
@@ -921,9 +921,9 @@ var o3: O3 = (0: mixed); // ok
                     "start": 254,
                     "end": 271
                 },
-                "flags": 254,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 254,
                 "end": 272
             },
             "flags": 16,

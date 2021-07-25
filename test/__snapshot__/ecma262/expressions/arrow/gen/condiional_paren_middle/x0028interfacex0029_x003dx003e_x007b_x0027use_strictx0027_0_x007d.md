@@ -123,9 +123,9 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "start": 7,
                         "end": 41
                     },
-                    "flags": 5,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 5,
                     "end": 42
                 },
                 "colonToken": {

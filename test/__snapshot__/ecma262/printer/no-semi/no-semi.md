@@ -556,9 +556,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                             "start": 112,
                             "end": 121
                         },
-                        "flags": 110,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 110,
                         "end": 122
                     },
                     "expression": {
@@ -570,7 +570,7 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 123,
                         "end": 129
                     },
-                    "flags": 110,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 110,
                     "end": 129
@@ -651,9 +651,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                     "start": 136,
                     "end": 142
                 },
-                "flags": 136,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 136,
                 "end": 143
             },
             "flags": 16,
@@ -725,9 +725,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 148,
                         "end": 156
                     },
-                    "flags": 146,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 146,
                     "end": 157
                 },
                 "argumentList": {
@@ -816,9 +816,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                             "start": 164,
                             "end": 172
                         },
-                        "flags": 162,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 162,
                         "end": 173
                     },
                     "expression": {
@@ -830,7 +830,7 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 174,
                         "end": 181
                     },
-                    "flags": 162,
+                    "flags": 34,
                     "transformFlags": 2,
                     "start": 162,
                     "end": 181
@@ -921,9 +921,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                             "start": 188,
                             "end": 196
                         },
-                        "flags": 186,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 186,
                         "end": 197
                     },
                     "expression": {
@@ -935,7 +935,7 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 198,
                         "end": 205
                     },
-                    "flags": 186,
+                    "flags": 34,
                     "transformFlags": 2,
                     "start": 186,
                     "end": 205
@@ -1352,9 +1352,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                             "start": 392,
                             "end": 400
                         },
-                        "flags": 390,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 390,
                         "end": 401
                     },
                     "argumentList": {
@@ -1468,9 +1468,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                                         "start": 446,
                                         "end": 454
                                     },
-                                    "flags": 444,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 444,
                                     "end": 455
                                 },
                                 "argumentList": {
@@ -2177,9 +2177,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                             "start": 721,
                             "end": 729
                         },
-                        "flags": 721,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 721,
                         "end": 730
                     },
                     "expression": {
@@ -2191,7 +2191,7 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 731,
                         "end": 732
                     },
-                    "flags": 753,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 721,
                     "end": 732
@@ -2269,9 +2269,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                             "start": 741,
                             "end": 748
                         },
-                        "flags": 741,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 741,
                         "end": 749
                     },
                     "expression": {
@@ -2283,7 +2283,7 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 750,
                         "end": 751
                     },
-                    "flags": 741,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 741,
                     "end": 751
@@ -2378,9 +2378,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 770,
                         "end": 784
                     },
-                    "flags": 766,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 766,
                     "end": 785
                 },
                 "flags": 16,
@@ -2447,9 +2447,9 @@ aReallyLongLine012345678901234567890123456789012345678901234567890123456789 *
                         "start": 864,
                         "end": 873
                     },
-                    "flags": 864,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 864,
                     "end": 874
                 },
                 "flags": 97,

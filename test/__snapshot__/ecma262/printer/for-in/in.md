@@ -70,9 +70,9 @@ for ((x in a);;) {}
                     "start": 5,
                     "end": 12
                 },
-                "flags": 5,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 5,
                 "end": 13
             },
             "condition": null,

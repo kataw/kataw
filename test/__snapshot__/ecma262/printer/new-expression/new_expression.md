@@ -85,9 +85,9 @@ new (a``());
                         "start": 3,
                         "end": 30
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 31
                 },
                 "argumentList": null,
@@ -211,9 +211,9 @@ new (a``());
                         "start": 37,
                         "end": 78
                     },
-                    "flags": 35,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 35,
                     "end": 79
                 },
                 "argumentList": null,
@@ -269,9 +269,9 @@ new (a``());
                                 "start": 83,
                                 "end": 96
                             },
-                            "flags": 83,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 83,
                             "end": 97
                         },
                         "argumentList": null,
@@ -409,9 +409,9 @@ new (a``());
                         "start": 112,
                         "end": 121
                     },
-                    "flags": 112,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 112,
                     "end": 122
                 },
                 "argumentList": {
@@ -693,9 +693,9 @@ new (a``());
                         "start": 163,
                         "end": 170
                     },
-                    "flags": 163,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 163,
                     "end": 171
                 },
                 "argumentList": {
@@ -803,9 +803,9 @@ new (a``());
                         "start": 178,
                         "end": 189
                     },
-                    "flags": 178,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 178,
                     "end": 190
                 },
                 "argumentList": {
@@ -881,9 +881,9 @@ new (a``());
                         "start": 197,
                         "end": 204
                     },
-                    "flags": 197,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 197,
                     "end": 205
                 },
                 "argumentList": null,

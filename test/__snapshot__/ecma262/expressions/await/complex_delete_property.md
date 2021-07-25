@@ -161,14 +161,14 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                             "start": 45,
                                                             "end": 58
                                                         },
-                                                        "flags": 45,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 45,
                                                         "end": 59
                                                     },
-                                                    "flags": 43,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 43,
                                                     "end": 60
                                                 },
                                                 "flags": 32,

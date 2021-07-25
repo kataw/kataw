@@ -174,9 +174,9 @@ class x extends y {
                                                         "start": 43,
                                                         "end": 62
                                                     },
-                                                    "flags": 37,
+                                                    "flags": 35,
                                                     "transformFlags": 0,
-                                                    "start": 35,
+                                                    "start": 37,
                                                     "end": 63
                                                 },
                                                 "flags": 16,

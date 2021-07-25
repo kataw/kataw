@@ -406,9 +406,9 @@ var gen = async function *g() {
                                                                         "start": 94,
                                                                         "end": 181
                                                                     },
-                                                                    "flags": 93,
+                                                                    "flags": 32,
                                                                     "transformFlags": 0,
-                                                                    "start": 32,
+                                                                    "start": 93,
                                                                     "end": 182
                                                                 },
                                                                 "flags": 1073741856,

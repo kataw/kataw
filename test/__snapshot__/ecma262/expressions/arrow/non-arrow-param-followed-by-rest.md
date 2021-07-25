@@ -33,9 +33,9 @@
                                 "start": 2,
                                 "end": 3
                             },
-                            "flags": 1,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 1,
                             "end": 4
                         },
                         {
@@ -53,9 +53,9 @@
                     "start": 0,
                     "end": 5
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 5
             },
             "flags": 16,

@@ -28,9 +28,9 @@
                     "start": 1,
                     "end": 6
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 7
             },
             "flags": 16,
@@ -65,9 +65,9 @@
                     "start": 8,
                     "end": 22
                 },
-                "flags": 8,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 8,
                 "end": 23
             },
             "flags": 16,

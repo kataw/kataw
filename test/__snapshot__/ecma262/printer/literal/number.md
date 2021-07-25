@@ -164,9 +164,9 @@ function test5(): string {
                                             "start": 95,
                                             "end": 98
                                         },
-                                        "flags": 93,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 93,
                                         "end": 99
                                     },
                                     "expression": {
@@ -178,7 +178,7 @@ function test5(): string {
                                         "start": 100,
                                         "end": 108
                                     },
-                                    "flags": 125,
+                                    "flags": 32,
                                     "transformFlags": 2,
                                     "start": 93,
                                     "end": 108

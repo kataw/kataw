@@ -281,9 +281,9 @@ async ([a]:string)=>c;
                         "start": 53,
                         "end": 53
                     },
-                    "flags": 51,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 51,
                     "end": 53
                 },
                 "flags": 288,
@@ -760,9 +760,9 @@ async ([a]:string)=>c;
                     "start": 179,
                     "end": 205
                 },
-                "flags": 179,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 179,
                 "end": 205
             },
             "flags": 16,
@@ -1006,9 +1006,9 @@ async ([a]:string)=>c;
                     "start": 262,
                     "end": 293
                 },
-                "flags": 262,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 262,
                 "end": 293
             },
             "flags": 16,
@@ -1051,9 +1051,9 @@ async ([a]:string)=>c;
                     "start": 300,
                     "end": 321
                 },
-                "flags": 300,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 300,
                 "end": 321
             },
             "flags": 16,
@@ -1122,9 +1122,9 @@ async ([a]:string)=>c;
                     "start": 334,
                     "end": 357
                 },
-                "flags": 334,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 334,
                 "end": 357
             },
             "flags": 16,
@@ -1167,9 +1167,9 @@ async ([a]:string)=>c;
                     "start": 364,
                     "end": 380
                 },
-                "flags": 364,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 364,
                 "end": 380
             },
             "flags": 16,
@@ -1238,9 +1238,9 @@ async ([a]:string)=>c;
                     "start": 393,
                     "end": 411
                 },
-                "flags": 393,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 393,
                 "end": 411
             },
             "flags": 16,

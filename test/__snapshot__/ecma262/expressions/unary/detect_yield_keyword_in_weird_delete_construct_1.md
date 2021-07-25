@@ -101,9 +101,9 @@ function *f(){ delete ("x"[(yield)]) }
                                                 "start": 28,
                                                 "end": 33
                                             },
-                                            "flags": 27,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 27,
                                             "end": 34
                                         },
                                         "flags": 32,
@@ -111,9 +111,9 @@ function *f(){ delete ("x"[(yield)]) }
                                         "start": 23,
                                         "end": 35
                                     },
-                                    "flags": 21,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 21,
                                     "end": 36
                                 },
                                 "flags": 32,

@@ -232,9 +232,9 @@ var await; var f = (async function() { async function f() { await 3; } });
                                 "start": 20,
                                 "end": 72
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 73
                         },
                         "flags": 16,

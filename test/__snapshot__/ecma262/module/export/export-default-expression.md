@@ -71,9 +71,9 @@ export default (1 + 2);
                     "start": 16,
                     "end": 21
                 },
-                "flags": 14,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 14,
                 "end": 22
             },
             "flags": 16,

@@ -165,9 +165,9 @@
                                             "start": 23,
                                             "end": 31
                                         },
-                                        "flags": 23,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 23,
                                         "end": 32
                                     },
                                     "operatorToken": {
@@ -186,7 +186,7 @@
                                         "start": 35,
                                         "end": 37
                                     },
-                                    "flags": 55,
+                                    "flags": 32,
                                     "transformFlags": 5120,
                                     "start": 19,
                                     "end": 37
@@ -1532,9 +1532,9 @@
                     "start": 1,
                     "end": 384
                 },
-                "flags": 0,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 0,
                 "end": 385
             },
             "flags": 16,

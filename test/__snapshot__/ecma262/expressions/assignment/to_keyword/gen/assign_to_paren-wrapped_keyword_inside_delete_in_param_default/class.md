@@ -99,9 +99,9 @@ async (x = delete ((class) = f)) => {}
                                                 "start": 20,
                                                 "end": 25
                                             },
-                                            "flags": 19,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 19,
                                             "end": 26
                                         },
                                         "operatorToken": {
@@ -125,9 +125,9 @@ async (x = delete ((class) = f)) => {}
                                         "start": 19,
                                         "end": 30
                                     },
-                                    "flags": 17,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 17,
                                     "end": 31
                                 },
                                 "flags": 32,

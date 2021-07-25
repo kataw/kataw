@@ -949,9 +949,9 @@ class Array { concat(items:number | string) {}; }
                                     "start": 245,
                                     "end": 248
                                 },
-                                "flags": 243,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 243,
                                 "end": 249
                             },
                             "colonToken": {
@@ -1078,9 +1078,9 @@ class Array { concat(items:number | string) {}; }
                                 "start": 272,
                                 "end": 292
                             },
-                            "flags": 270,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 270,
                             "end": 293
                         },
                         "flags": 16,
@@ -1176,9 +1176,9 @@ class Array { concat(items:number | string) {}; }
                                 "start": 307,
                                 "end": 324
                             },
-                            "flags": 305,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 305,
                             "end": 325
                         },
                         "flags": 16,

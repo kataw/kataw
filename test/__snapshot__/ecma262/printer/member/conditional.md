@@ -185,9 +185,9 @@
                         "start": 0,
                         "end": 90
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 91
                 },
                 "expression": {

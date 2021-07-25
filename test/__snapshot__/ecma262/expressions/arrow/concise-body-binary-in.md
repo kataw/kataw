@@ -166,9 +166,9 @@ const t = () => ({
                                     "start": 17,
                                     "end": 39
                                 },
-                                "flags": 15,
+                                "flags": 34,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 15,
                                 "end": 40
                             },
                             "flags": 32,

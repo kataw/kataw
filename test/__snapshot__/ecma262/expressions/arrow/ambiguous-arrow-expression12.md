@@ -77,9 +77,9 @@ var a = b ? (c) : d => e;
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 11,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 11,
                                 "end": 15
                             },
                             "colonToken": {

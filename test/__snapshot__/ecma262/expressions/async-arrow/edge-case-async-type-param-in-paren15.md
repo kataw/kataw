@@ -256,9 +256,9 @@ async <T = U>(x) => y;
                     "start": 25,
                     "end": 46
                 },
-                "flags": 22,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 22,
                 "end": 47
             },
             "flags": 16,

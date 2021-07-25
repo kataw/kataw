@@ -5434,9 +5434,9 @@ foo(
                                                     "start": 2636,
                                                     "end": 2669
                                                 },
-                                                "flags": 2634,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 2634,
                                                 "end": 2670
                                             },
                                             "argumentList": {

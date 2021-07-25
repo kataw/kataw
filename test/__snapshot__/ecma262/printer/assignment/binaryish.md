@@ -168,9 +168,9 @@ computedDescriptionLines = (focused &&
                                         "start": 81,
                                         "end": 131
                                     },
-                                    "flags": 81,
+                                    "flags": 33,
                                     "transformFlags": 0,
-                                    "start": 33,
+                                    "start": 81,
                                     "end": 132
                                 },
                                 "flags": 32,
@@ -308,9 +308,9 @@ computedDescriptionLines = (focused &&
                             "start": 183,
                             "end": 235
                         },
-                        "flags": 183,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 183,
                         "end": 236
                     },
                     "operatorToken": {
@@ -329,7 +329,7 @@ computedDescriptionLines = (focused &&
                         "start": 239,
                         "end": 258
                     },
-                    "flags": 183,
+                    "flags": 32,
                     "transformFlags": 5120,
                     "start": 183,
                     "end": 258

@@ -91,9 +91,9 @@ function *f(x = delete ((private) = f)) {}
                                             "start": 25,
                                             "end": 32
                                         },
-                                        "flags": 24,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 24,
                                         "end": 33
                                     },
                                     "operatorToken": {
@@ -117,9 +117,9 @@ function *f(x = delete ((private) = f)) {}
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 22,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 22,
                                 "end": 38
                             },
                             "flags": 32,

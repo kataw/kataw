@@ -7269,6 +7269,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseParenthesizedType(parser, context);
     case SyntaxKind.TypeofKeyword:
       return parseTypeofType(parser, context);
+    case SyntaxKind.Add:
     case SyntaxKind.Subtract:
       return parseSubtractionType(parser, context);
     default:
@@ -7902,7 +7903,7 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     ),
     parseTypeParameterInstantiation(
       parser,
-      (context | (context & Context.ArrowOrigin | Context.InType)) ^ (context & Context.ArrowOrigin)
+      (context | ((context & Context.ArrowOrigin) | Context.InType)) ^ (context & Context.ArrowOrigin)
     ),
     pos,
     parser.curPos
@@ -7935,7 +7936,6 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
     while (parser.token & Constants.IsTypeParameter) {
       const type = parseTypeParameter(parser, context, requireDefault);
       types.push(type);
-      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
       if (type.defaultType) requireDefault = true;
       if (consumeOpt(parser, context, SyntaxKind.Comma)) {
         if (parser.token === SyntaxKind.GreaterThan) {
@@ -7944,28 +7944,21 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
         }
       }
     }
-    const typeParameterDeclaration = createTypeParameterDeclaration(
-      types,
-      trailingComma,
-      nodeFlags,
-      pos,
-      parser.curPos
-    );
+    const node = createTypeParameterDeclaration(types, trailingComma, nodeFlags, pos, parser.curPos);
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
-    return typeParameterDeclaration;
+    return node;
   }
   return null;
 }
 
 function parseTypeParameterInstantiation(parser: ParserState, context: Context): TypeParameterInstantiation | null {
   if ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LessThan)) {
+    const nodeFlags = parser.nodeFlags;
     const pos = parser.curPos;
-    const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
     const types = [];
     let trailingComma = false;
     while (parser.token & Constants.IsTypeParameter) {
       types.push(parseTypeAnnotation(parser, context));
-      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
       if (consumeOpt(parser, context, SyntaxKind.Comma)) {
         if (parser.token === SyntaxKind.GreaterThan) {
           trailingComma = true;
@@ -7973,9 +7966,15 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
         }
       }
     }
-    const typeInstantiations = createTypeParameterInstantiation(types, trailingComma, nodeFlags, pos, parser.curPos);
+    const node = createTypeParameterInstantiation(
+      types,
+      trailingComma,
+      nodeFlags | NodeFlags.IsTypeNode,
+      pos,
+      parser.curPos
+    );
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
-    return typeInstantiations;
+    return node;
   }
   return null;
 }
@@ -8706,7 +8705,7 @@ function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKi
         parseEntityName(parser, context, key, Constants.IdentifierOrKeyword, pos),
         parseTypeParameterInstantiation(
           parser,
-          (context | (context & Context.ArrowOrigin | Context.InType)) ^ (context & Context.ArrowOrigin)
+          (context | ((context & Context.ArrowOrigin) | Context.InType)) ^ (context & Context.ArrowOrigin)
         ),
         pos,
         parser.curPos
@@ -9200,7 +9199,9 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     classHeritage = createClassHeritage(
       extendsToken,
       parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends),
-      (parser.token as SyntaxKind) === SyntaxKind.LessThan ? parseTypeParameterInstantiation(parser, context | Context.InType) : null,
+      (parser.token as SyntaxKind) === SyntaxKind.LessThan
+        ? parseTypeParameterInstantiation(parser, context | Context.InType)
+        : null,
       curPos,
       parser.curPos
     );

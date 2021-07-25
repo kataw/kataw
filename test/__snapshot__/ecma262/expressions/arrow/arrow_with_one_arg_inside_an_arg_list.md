@@ -103,9 +103,9 @@ f(((a) => a + b)(1, 4), 5);
                                     "start": 3,
                                     "end": 15
                                 },
-                                "flags": 2,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 2,
                                 "end": 16
                             },
                             "argumentList": {

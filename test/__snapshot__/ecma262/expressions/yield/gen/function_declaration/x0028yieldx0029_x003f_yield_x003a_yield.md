@@ -74,9 +74,9 @@ function not_gen() { (yield) ? yield : yield }}
                                         "start": 22,
                                         "end": 27
                                     },
-                                    "flags": 20,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 20,
                                     "end": 28
                                 },
                                 "questionToken": {
@@ -111,7 +111,7 @@ function not_gen() { (yield) ? yield : yield }}
                                     "start": 38,
                                     "end": 44
                                 },
-                                "flags": 52,
+                                "flags": 32,
                                 "transformFlags": 4096,
                                 "start": 20,
                                 "end": 44

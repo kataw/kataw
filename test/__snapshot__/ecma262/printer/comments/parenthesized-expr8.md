@@ -56,19 +56,19 @@
                             "start": 7,
                             "end": 26
                         },
-                        "flags": 7,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 7,
                         "end": 27
                     },
-                    "flags": 1,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1,
                     "end": 33
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 39
             },
             "flags": 16,
@@ -90,7 +90,7 @@
 ### Printed
 
 ```javascript
-(/*4*/ ((x /*1*/ =/*2*/  y) /*3*/) /*4*/);
+(/*1*/ (/*2*/ (x /*1*/ =/*2*/  y) /*3*/) /*4*/);
 ```
 
 ### Diagnostics

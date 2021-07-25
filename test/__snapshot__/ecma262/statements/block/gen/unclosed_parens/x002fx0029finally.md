@@ -40,9 +40,9 @@
                                 "start": 2,
                                 "end": 12
                             },
-                            "flags": 1,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 1,
                             "end": 12
                         },
                         "flags": 16,

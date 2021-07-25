@@ -75,9 +75,9 @@ a ? (1 + 2) : (3 + 4)
                         "start": 5,
                         "end": 10
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 11
                 },
                 "colonToken": {
@@ -121,9 +121,9 @@ a ? (1 + 2) : (3 + 4)
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 13,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 13,
                     "end": 21
                 },
                 "flags": 96,

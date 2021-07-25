@@ -131,14 +131,14 @@ async (x = delete ((function) = f)) => {}
                                             "start": 20,
                                             "end": 33
                                         },
-                                        "flags": 19,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 19,
                                         "end": 34
                                     },
-                                    "flags": 17,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 17,
                                     "end": 35
                                 },
                                 "flags": 32,

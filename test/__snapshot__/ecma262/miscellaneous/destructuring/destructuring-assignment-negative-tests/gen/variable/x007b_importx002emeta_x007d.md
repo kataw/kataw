@@ -112,9 +112,9 @@ var x, y, z; ({ import.meta } = {});
                     "start": 12,
                     "end": 27
                 },
-                "flags": 12,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 12,
                 "end": 27
             },
             "flags": 16,

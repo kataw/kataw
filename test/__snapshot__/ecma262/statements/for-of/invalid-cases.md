@@ -164,9 +164,9 @@ for ({a: b.c}-- of d) e;
                     "start": 6,
                     "end": 9
                 },
-                "flags": 5,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 5,
                 "end": 10
             },
             "ofKeyword": {
@@ -381,9 +381,9 @@ for ({a: b.c}-- of d) e;
                     "start": 38,
                     "end": 41
                 },
-                "flags": 36,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 36,
                 "end": 42
             },
             "statement": {
@@ -2928,9 +2928,9 @@ for ({a: b.c}-- of d) e;
                     "start": 668,
                     "end": 671
                 },
-                "flags": 667,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 667,
                 "end": 672
             },
             "ofKeyword": {
@@ -3016,9 +3016,9 @@ for ({a: b.c}-- of d) e;
                     "start": 686,
                     "end": 692
                 },
-                "flags": 685,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 685,
                 "end": 693
             },
             "ofKeyword": {
@@ -3498,9 +3498,9 @@ for ({a: b.c}-- of d) e;
                         "start": 795,
                         "end": 796
                     },
-                    "flags": 793,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 793,
                     "end": 797
                 },
                 "operatorToken": {

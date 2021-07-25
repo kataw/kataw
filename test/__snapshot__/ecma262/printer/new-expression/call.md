@@ -57,9 +57,9 @@ new (factory())(factory())
                         "start": 3,
                         "end": 14
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 15
                 },
                 "argumentList": {
@@ -174,9 +174,9 @@ new (factory())(factory())
                         "start": 38,
                         "end": 49
                     },
-                    "flags": 38,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 38,
                     "end": 50
                 },
                 "argumentList": {

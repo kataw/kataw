@@ -227,9 +227,9 @@ var await; var f = (async function() { y = async x => await x });
                                 "start": 20,
                                 "end": 63
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 64
                         },
                         "flags": 16,

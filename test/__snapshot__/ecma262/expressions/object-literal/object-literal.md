@@ -939,9 +939,9 @@ a?.['b']?.[0]?.(1);
                                         "start": 253,
                                         "end": 255
                                     },
-                                    "flags": 251,
+                                    "flags": 34,
                                     "transformFlags": 0,
-                                    "start": 34,
+                                    "start": 251,
                                     "end": 256
                                 },
                                 "expression": {
@@ -953,7 +953,7 @@ a?.['b']?.[0]?.(1);
                                     "start": 257,
                                     "end": 265
                                 },
-                                "flags": 251,
+                                "flags": 34,
                                 "transformFlags": 2,
                                 "start": 251,
                                 "end": 265

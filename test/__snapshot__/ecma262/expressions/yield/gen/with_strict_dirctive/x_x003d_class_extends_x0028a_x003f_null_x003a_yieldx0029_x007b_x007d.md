@@ -123,9 +123,9 @@
                                     "start": 31,
                                     "end": 49
                                 },
-                                "flags": 31,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 31,
                                 "end": 50
                             },
                             "typeParameter": null,

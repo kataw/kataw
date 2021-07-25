@@ -95,9 +95,9 @@ class n extends ([] = x) {}
                             "start": 17,
                             "end": 23
                         },
-                        "flags": 15,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 15,
                         "end": 24
                     },
                     "typeParameter": null,

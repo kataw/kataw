@@ -43,9 +43,9 @@ for (({}) of y) ;
                     "start": 6,
                     "end": 8
                 },
-                "flags": 5,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 5,
                 "end": 9
             },
             "ofKeyword": {

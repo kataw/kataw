@@ -1386,9 +1386,9 @@ oobj["obj"][incr()] ??= incr();
                             "start": 375,
                             "end": 392
                         },
-                        "flags": 375,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 375,
                         "end": 393
                     },
                     "expression": {
@@ -1400,7 +1400,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 394,
                         "end": 398
                     },
-                    "flags": 375,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 375,
                     "end": 398
@@ -1481,9 +1481,9 @@ oobj["obj"][incr()] ??= incr();
                             "start": 404,
                             "end": 420
                         },
-                        "flags": 404,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 404,
                         "end": 421
                     },
                     "expression": {
@@ -1495,7 +1495,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 422,
                         "end": 426
                     },
-                    "flags": 436,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 404,
                     "end": 426
@@ -1576,9 +1576,9 @@ oobj["obj"][incr()] ??= incr();
                             "start": 432,
                             "end": 448
                         },
-                        "flags": 432,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 432,
                         "end": 449
                     },
                     "expression": {
@@ -1590,7 +1590,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 450,
                         "end": 454
                     },
-                    "flags": 432,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 432,
                     "end": 454
@@ -1683,9 +1683,9 @@ oobj["obj"][incr()] ??= incr();
                     "start": 466,
                     "end": 491
                 },
-                "flags": 466,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 466,
                 "end": 492
             },
             "consequent": {
@@ -1753,9 +1753,9 @@ oobj["obj"][incr()] ??= incr();
                     "start": 502,
                     "end": 525
                 },
-                "flags": 502,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 502,
                 "end": 526
             },
             "consequent": {
@@ -1823,9 +1823,9 @@ oobj["obj"][incr()] ??= incr();
                     "start": 536,
                     "end": 559
                 },
-                "flags": 536,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 536,
                 "end": 560
             },
             "consequent": {
@@ -1893,9 +1893,9 @@ oobj["obj"][incr()] ??= incr();
                     "start": 570,
                     "end": 593
                 },
-                "flags": 570,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 570,
                 "end": 594
             },
             "consequent": {
@@ -2262,9 +2262,9 @@ oobj["obj"][incr()] ??= incr();
                         "start": 655,
                         "end": 679
                     },
-                    "flags": 655,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 655,
                     "end": 680
                 },
                 "flags": 0,
@@ -2394,9 +2394,9 @@ oobj["obj"][incr()] ??= incr();
                         "start": 687,
                         "end": 711
                     },
-                    "flags": 687,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 687,
                     "end": 712
                 },
                 "flags": 0,
@@ -2526,9 +2526,9 @@ oobj["obj"][incr()] ??= incr();
                         "start": 719,
                         "end": 743
                     },
-                    "flags": 719,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 719,
                     "end": 744
                 },
                 "flags": 0,
@@ -2611,9 +2611,9 @@ oobj["obj"][incr()] ??= incr();
                             "start": 745,
                             "end": 775
                         },
-                        "flags": 745,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 745,
                         "end": 776
                     },
                     "expression": {
@@ -2625,7 +2625,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 777,
                         "end": 781
                     },
-                    "flags": 745,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 745,
                     "end": 781
@@ -2729,9 +2729,9 @@ oobj["obj"][incr()] ??= incr();
                             "start": 787,
                             "end": 816
                         },
-                        "flags": 787,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 787,
                         "end": 817
                     },
                     "expression": {
@@ -2743,7 +2743,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 818,
                         "end": 822
                     },
-                    "flags": 819,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 787,
                     "end": 822
@@ -2847,9 +2847,9 @@ oobj["obj"][incr()] ??= incr();
                             "start": 828,
                             "end": 857
                         },
-                        "flags": 828,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 828,
                         "end": 858
                     },
                     "expression": {
@@ -2861,7 +2861,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 859,
                         "end": 863
                     },
-                    "flags": 828,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 828,
                     "end": 863

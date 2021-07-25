@@ -159,9 +159,9 @@ var asserted1 = <any>((n) => { return n; });
                                     "start": 22,
                                     "end": 42
                                 },
-                                "flags": 21,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 21,
                                 "end": 43
                             },
                             "flags": 96,

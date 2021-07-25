@@ -164,9 +164,9 @@ let f4 = () => doThing(a, /* ... */ b);
                         "start": 28,
                         "end": 51
                     },
-                    "flags": 26,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 26,
                     "end": 52
                 },
                 "argumentList": {

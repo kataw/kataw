@@ -128,9 +128,9 @@ let d = (1, 2, 3);
                                                 "start": 13,
                                                 "end": 24
                                             },
-                                            "flags": 13,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 13,
                                             "end": 24
                                         },
                                         "flags": 32,
@@ -153,9 +153,9 @@ let d = (1, 2, 3);
                                 "start": 7,
                                 "end": 27
                             },
-                            "flags": 7,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 7,
                             "end": 28
                         },
                         "flags": 16,
@@ -295,9 +295,9 @@ let d = (1, 2, 3);
                                                 "start": 48,
                                                 "end": 59
                                             },
-                                            "flags": 48,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 48,
                                             "end": 59
                                         },
                                         "flags": 32,
@@ -320,9 +320,9 @@ let d = (1, 2, 3);
                                 "start": 37,
                                 "end": 62
                             },
-                            "flags": 37,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 37,
                             "end": 63
                         },
                         "flags": 16,
@@ -427,9 +427,9 @@ let d = (1, 2, 3);
                                     "start": 74,
                                     "end": 84
                                 },
-                                "flags": 72,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 72,
                                 "end": 85
                             },
                             "argumentList": {
@@ -534,9 +534,9 @@ let d = (1, 2, 3);
                                 "start": 97,
                                 "end": 106
                             },
-                            "flags": 97,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 97,
                             "end": 107
                         },
                         "flags": 16,

@@ -97,9 +97,9 @@ for (((x)=>{}) in y);
                     "start": 6,
                     "end": 13
                 },
-                "flags": 5,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 5,
                 "end": 14
             },
             "inKeyword": {

@@ -56,9 +56,9 @@ for ((let).foo;;);
                         "start": 6,
                         "end": 9
                     },
-                    "flags": 5,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 5,
                     "end": 10
                 },
                 "expression": {
@@ -70,7 +70,7 @@ for ((let).foo;;);
                     "start": 11,
                     "end": 14
                 },
-                "flags": 37,
+                "flags": 32,
                 "transformFlags": 2,
                 "start": 5,
                 "end": 14

@@ -253,9 +253,9 @@ class C {
                                                                     "start": 26,
                                                                     "end": 106
                                                                 },
-                                                                "flags": 20,
+                                                                "flags": 35,
                                                                 "transformFlags": 0,
-                                                                "start": 35,
+                                                                "start": 20,
                                                                 "end": 107
                                                             },
                                                             "expression": {
@@ -267,7 +267,7 @@ class C {
                                                                 "start": 108,
                                                                 "end": 114
                                                             },
-                                                            "flags": 52,
+                                                            "flags": 35,
                                                             "transformFlags": 2,
                                                             "start": 20,
                                                             "end": 114

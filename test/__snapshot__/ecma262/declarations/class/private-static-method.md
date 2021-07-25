@@ -290,9 +290,9 @@ class A {
                                                         "start": 67,
                                                         "end": 84
                                                     },
-                                                    "flags": 61,
+                                                    "flags": 35,
                                                     "transformFlags": 0,
-                                                    "start": 35,
+                                                    "start": 61,
                                                     "end": 85
                                                 },
                                                 "flags": 16,

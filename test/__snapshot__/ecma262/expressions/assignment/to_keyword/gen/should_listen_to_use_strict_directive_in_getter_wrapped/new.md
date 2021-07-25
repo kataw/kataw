@@ -153,9 +153,9 @@ foo = {
                                                             "start": 42,
                                                             "end": 49
                                                         },
-                                                        "flags": 36,
+                                                        "flags": 33,
                                                         "transformFlags": 0,
-                                                        "start": 33,
+                                                        "start": 36,
                                                         "end": 50
                                                     },
                                                     "flags": 16,

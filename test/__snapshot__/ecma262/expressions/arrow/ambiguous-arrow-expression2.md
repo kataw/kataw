@@ -100,9 +100,9 @@ var a = b ? (c + e) : d => c+e;
                                     "start": 11,
                                     "end": 18
                                 },
-                                "flags": 11,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 11,
                                 "end": 19
                             },
                             "colonToken": {

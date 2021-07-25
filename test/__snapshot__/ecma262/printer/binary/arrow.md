@@ -907,9 +907,9 @@ function f2() {
                         "start": 380,
                         "end": 388
                     },
-                    "flags": 377,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 377,
                     "end": 389
                 },
                 "operatorToken": {
@@ -928,7 +928,7 @@ function f2() {
                     "start": 391,
                     "end": 394
                 },
-                "flags": 377,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 377,
                 "end": 394
@@ -1005,9 +1005,9 @@ function f2() {
                         "start": 402,
                         "end": 410
                     },
-                    "flags": 400,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 400,
                     "end": 411
                 },
                 "flags": 4194401,

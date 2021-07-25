@@ -136,9 +136,9 @@ function *f(x = (function) = f) {}
                                 "start": 17,
                                 "end": 30
                             },
-                            "flags": 15,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 15,
                             "end": 31
                         },
                         "flags": 34,

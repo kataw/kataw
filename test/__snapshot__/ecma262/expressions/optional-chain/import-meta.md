@@ -87,9 +87,9 @@ function f() {
                                                 "start": 35,
                                                 "end": 40
                                             },
-                                            "flags": 34,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 34,
                                             "end": 41
                                         },
                                         "expression": {
@@ -101,7 +101,7 @@ function f() {
                                             "start": 42,
                                             "end": 46
                                         },
-                                        "flags": 34,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 34,
                                         "end": 46

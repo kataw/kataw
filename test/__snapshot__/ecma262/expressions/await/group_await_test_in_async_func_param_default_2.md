@@ -130,9 +130,9 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                     "start": 43,
                                                     "end": 50
                                                 },
-                                                "flags": 42,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 42,
                                                 "end": 51
                                             },
                                             "operatorToken": {

@@ -208,9 +208,9 @@ x ? ( (a, {}) => {} ) : baz;
                         "start": 5,
                         "end": 35
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 37
                 },
                 "colonToken": {
@@ -378,9 +378,9 @@ x ? ( (a, {}) => {} ) : baz;
                         "start": 48,
                         "end": 75
                     },
-                    "flags": 48,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 48,
                     "end": 77
                 },
                 "colonToken": {
@@ -519,9 +519,9 @@ x ? ( (a, {}) => {} ) : baz;
                                         "start": 94,
                                         "end": 110
                                     },
-                                    "flags": 94,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 94,
                                     "end": 111
                                 }
                             ],
@@ -530,14 +530,14 @@ x ? ( (a, {}) => {} ) : baz;
                             "start": 90,
                             "end": 111
                         },
-                        "flags": 90,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 90,
                         "end": 112
                     },
-                    "flags": 88,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 88,
                     "end": 114
                 },
                 "colonToken": {
@@ -656,9 +656,9 @@ x ? ( (a, {}) => {} ) : baz;
                         "start": 127,
                         "end": 141
                     },
-                    "flags": 125,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 125,
                     "end": 143
                 },
                 "colonToken": {

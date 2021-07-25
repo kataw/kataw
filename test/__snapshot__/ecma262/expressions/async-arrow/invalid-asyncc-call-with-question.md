@@ -140,9 +140,9 @@ async(x?);
                     "start": 13,
                     "end": 22
                 },
-                "flags": 10,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 10,
                 "end": 23
             },
             "flags": 16,

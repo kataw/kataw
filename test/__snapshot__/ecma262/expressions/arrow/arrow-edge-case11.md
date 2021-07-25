@@ -80,9 +80,9 @@ a ? (b => c) : d => e;
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 12
                 },
                 "colonToken": {

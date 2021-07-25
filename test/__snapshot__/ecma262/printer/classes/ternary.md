@@ -73,9 +73,9 @@ if (1) (class {}) ? 1 : 2;
                             "start": 8,
                             "end": 16
                         },
-                        "flags": 6,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 6,
                         "end": 17
                     },
                     "questionToken": {
@@ -110,7 +110,7 @@ if (1) (class {}) ? 1 : 2;
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 38,
+                    "flags": 32,
                     "transformFlags": 4096,
                     "start": 6,
                     "end": 25

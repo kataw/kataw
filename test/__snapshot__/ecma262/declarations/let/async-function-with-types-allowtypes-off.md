@@ -165,9 +165,9 @@ const f = async <T, R, S>(
                         "start": 25,
                         "end": 30
                     },
-                    "flags": 25,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 25,
                     "end": 30
                 },
                 "flags": 96,

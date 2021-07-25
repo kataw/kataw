@@ -74,9 +74,9 @@ new function() {};
                         "start": 1,
                         "end": 14
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 15
                 },
                 "expression": {
@@ -155,9 +155,9 @@ new function() {};
                         "start": 31,
                         "end": 44
                     },
-                    "flags": 29,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 29,
                     "end": 45
                 },
                 "flags": 32,
@@ -222,9 +222,9 @@ new function() {};
                             "start": 48,
                             "end": 61
                         },
-                        "flags": 46,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 46,
                         "end": 62
                     },
                     "argumentList": {
@@ -310,9 +310,9 @@ new function() {};
                         "start": 69,
                         "end": 82
                     },
-                    "flags": 67,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 67,
                     "end": 83
                 },
                 "template": {
@@ -391,9 +391,9 @@ new function() {};
                         "start": 92,
                         "end": 105
                     },
-                    "flags": 90,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 90,
                     "end": 106
                 },
                 "argumentList": null,
@@ -455,9 +455,9 @@ new function() {};
                     "start": 109,
                     "end": 122
                 },
-                "flags": 107,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 107,
                 "end": 123
             },
             "flags": 16,
@@ -641,9 +641,9 @@ new function() {};
                     "start": 152,
                     "end": 170
                 },
-                "flags": 150,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 150,
                 "end": 171
             },
             "flags": 16,

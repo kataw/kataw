@@ -114,9 +114,9 @@ function *f(x = delete ((in) = f)) {}
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "flags": 24,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 24,
                                         "end": 28
                                     },
                                     "operatorToken": {
@@ -140,9 +140,9 @@ function *f(x = delete ((in) = f)) {}
                                     "start": 24,
                                     "end": 32
                                 },
-                                "flags": 22,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 22,
                                 "end": 33
                             },
                             "flags": 32,

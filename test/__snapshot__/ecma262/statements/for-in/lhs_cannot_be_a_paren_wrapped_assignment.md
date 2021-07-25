@@ -66,9 +66,9 @@ for ((x = y) in z) ;
                     "start": 5,
                     "end": 11
                 },
-                "flags": 5,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 5,
                 "end": 12
             },
             "inKeyword": {

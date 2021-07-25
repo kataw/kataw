@@ -84,9 +84,9 @@ await (async () => {})()
                             "start": 7,
                             "end": 21
                         },
-                        "flags": 5,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 5,
                         "end": 22
                     },
                     "argumentList": {

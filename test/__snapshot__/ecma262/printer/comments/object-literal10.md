@@ -46,9 +46,9 @@
                             "start": 1,
                             "end": 8
                         },
-                        "flags": 0,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 0,
                         "end": 9
                     },
                     "argumentList": {
@@ -277,9 +277,9 @@
                     "start": 73,
                     "end": 100
                 },
-                "flags": 70,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 70,
                 "end": 101
             },
             "flags": 16,

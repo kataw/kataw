@@ -99,9 +99,9 @@ for (((x)=>{}).x in y);
                         "start": 6,
                         "end": 13
                     },
-                    "flags": 5,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 5,
                     "end": 14
                 },
                 "expression": {
@@ -113,7 +113,7 @@ for (((x)=>{}).x in y);
                     "start": 15,
                     "end": 16
                 },
-                "flags": 37,
+                "flags": 32,
                 "transformFlags": 2,
                 "start": 5,
                 "end": 16

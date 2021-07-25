@@ -65,14 +65,14 @@ delete ((this.#field))
                             "start": 23,
                             "end": 35
                         },
-                        "flags": 23,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 23,
                         "end": 36
                     },
-                    "flags": 21,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 21,
                     "end": 37
                 },
                 "flags": 32,

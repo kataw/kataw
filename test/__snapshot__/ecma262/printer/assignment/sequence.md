@@ -68,9 +68,9 @@ for (i = 0, len = arr.length; i < len; i++) {
                             "start": 5,
                             "end": 11
                         },
-                        "flags": 5,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 5,
                         "end": 12
                     },
                     {
@@ -123,9 +123,9 @@ for (i = 0, len = arr.length; i < len; i++) {
                             "start": 13,
                             "end": 31
                         },
-                        "flags": 13,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 13,
                         "end": 32
                     }
                 ],

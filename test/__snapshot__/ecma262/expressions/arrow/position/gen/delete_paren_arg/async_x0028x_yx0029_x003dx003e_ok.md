@@ -95,9 +95,9 @@ delete (async (x, y) => ok)
                         "start": 8,
                         "end": 26
                     },
-                    "flags": 6,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 6,
                     "end": 27
                 },
                 "flags": 32,

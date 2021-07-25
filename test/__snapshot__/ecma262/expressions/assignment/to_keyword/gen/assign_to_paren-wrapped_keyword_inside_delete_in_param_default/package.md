@@ -75,9 +75,9 @@ async (x = delete ((package) = f)) => {}
                                                 "start": 20,
                                                 "end": 27
                                             },
-                                            "flags": 19,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 19,
                                             "end": 28
                                         },
                                         "operatorToken": {
@@ -101,9 +101,9 @@ async (x = delete ((package) = f)) => {}
                                         "start": 19,
                                         "end": 32
                                     },
-                                    "flags": 17,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 17,
                                     "end": 33
                                 },
                                 "flags": 32,

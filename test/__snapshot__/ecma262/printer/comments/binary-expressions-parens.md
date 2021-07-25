@@ -176,9 +176,9 @@ Math.min(
                                             "start": 207,
                                             "end": 248
                                         },
-                                        "flags": 207,
+                                        "flags": 33,
                                         "transformFlags": 0,
-                                        "start": 33,
+                                        "start": 207,
                                         "end": 249
                                     },
                                     "flags": 97,
@@ -186,9 +186,9 @@ Math.min(
                                     "start": 9,
                                     "end": 249
                                 },
-                                "flags": 9,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 9,
                                 "end": 253
                             },
                             "operatorToken": {
@@ -207,7 +207,7 @@ Math.min(
                                 "start": 255,
                                 "end": 277
                             },
-                            "flags": 41,
+                            "flags": 33,
                             "transformFlags": 5120,
                             "start": 9,
                             "end": 277

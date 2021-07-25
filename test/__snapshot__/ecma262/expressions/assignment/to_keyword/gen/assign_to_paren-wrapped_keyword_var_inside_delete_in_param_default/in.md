@@ -92,9 +92,9 @@
                                                 "start": 14,
                                                 "end": 16
                                             },
-                                            "flags": 13,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 13,
                                             "end": 17
                                         },
                                         "operatorToken": {
@@ -118,9 +118,9 @@
                                         "start": 13,
                                         "end": 21
                                     },
-                                    "flags": 11,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 11,
                                     "end": 22
                                 },
                                 "flags": 32,

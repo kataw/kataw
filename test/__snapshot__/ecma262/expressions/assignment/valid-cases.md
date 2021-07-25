@@ -107,9 +107,9 @@ a = !!b;
                                 "start": 6,
                                 "end": 12
                             },
-                            "flags": 6,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 6,
                             "end": 13
                         },
                         "flags": 32,
@@ -204,9 +204,9 @@ a = !!b;
                                 "start": 21,
                                 "end": 28
                             },
-                            "flags": 21,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 21,
                             "end": 29
                         },
                         "flags": 32,
@@ -301,9 +301,9 @@ a = !!b;
                                 "start": 37,
                                 "end": 44
                             },
-                            "flags": 37,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 37,
                             "end": 45
                         },
                         "flags": 32,
@@ -398,9 +398,9 @@ a = !!b;
                                 "start": 53,
                                 "end": 61
                             },
-                            "flags": 53,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 53,
                             "end": 62
                         },
                         "flags": 32,
@@ -495,9 +495,9 @@ a = !!b;
                                 "start": 70,
                                 "end": 78
                             },
-                            "flags": 70,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 70,
                             "end": 79
                         },
                         "flags": 32,
@@ -592,9 +592,9 @@ a = !!b;
                                 "start": 87,
                                 "end": 93
                             },
-                            "flags": 87,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 87,
                             "end": 94
                         },
                         "flags": 32,
@@ -689,9 +689,9 @@ a = !!b;
                                 "start": 102,
                                 "end": 108
                             },
-                            "flags": 102,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 102,
                             "end": 109
                         },
                         "flags": 32,
@@ -786,9 +786,9 @@ a = !!b;
                                 "start": 117,
                                 "end": 124
                             },
-                            "flags": 117,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 117,
                             "end": 125
                         },
                         "flags": 32,
@@ -883,9 +883,9 @@ a = !!b;
                                 "start": 133,
                                 "end": 140
                             },
-                            "flags": 133,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 133,
                             "end": 141
                         },
                         "flags": 32,
@@ -980,9 +980,9 @@ a = !!b;
                                 "start": 149,
                                 "end": 156
                             },
-                            "flags": 149,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 149,
                             "end": 157
                         },
                         "flags": 32,
@@ -1091,9 +1091,9 @@ a = !!b;
                                 "start": 165,
                                 "end": 173
                             },
-                            "flags": 165,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 165,
                             "end": 174
                         },
                         "flags": 32,
@@ -1183,9 +1183,9 @@ a = !!b;
                                 "start": 182,
                                 "end": 188
                             },
-                            "flags": 182,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 182,
                             "end": 188
                         },
                         "flags": 32,

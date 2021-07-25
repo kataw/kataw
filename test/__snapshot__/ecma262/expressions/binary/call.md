@@ -186,9 +186,9 @@
                         "start": 0,
                         "end": 153
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 155
                 },
                 "argumentList": {
@@ -317,9 +317,9 @@
                         "start": 158,
                         "end": 198
                     },
-                    "flags": 158,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 158,
                     "end": 200
                 },
                 "argumentList": {
@@ -448,9 +448,9 @@
                         "start": 203,
                         "end": 354
                     },
-                    "flags": 203,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 203,
                     "end": 356
                 },
                 "argumentList": {
@@ -579,9 +579,9 @@
                         "start": 359,
                         "end": 395
                     },
-                    "flags": 359,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 359,
                     "end": 397
                 },
                 "argumentList": {
@@ -714,9 +714,9 @@
                                 "start": 400,
                                 "end": 555
                             },
-                            "flags": 400,
+                            "flags": 33,
                             "transformFlags": 0,
-                            "start": 33,
+                            "start": 400,
                             "end": 557
                         },
                         "argumentList": {
@@ -877,9 +877,9 @@
                                 "start": 564,
                                 "end": 719
                             },
-                            "flags": 564,
+                            "flags": 33,
                             "transformFlags": 0,
-                            "start": 33,
+                            "start": 564,
                             "end": 721
                         },
                         "argumentList": {

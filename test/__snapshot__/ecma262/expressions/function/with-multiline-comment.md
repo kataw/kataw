@@ -90,9 +90,9 @@ x; })
                     "start": 1,
                     "end": 47
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 48
             },
             "flags": 16,
@@ -180,9 +180,9 @@ x; })
                     "start": 52,
                     "end": 86
                 },
-                "flags": 49,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 49,
                 "end": 87
             },
             "flags": 16,

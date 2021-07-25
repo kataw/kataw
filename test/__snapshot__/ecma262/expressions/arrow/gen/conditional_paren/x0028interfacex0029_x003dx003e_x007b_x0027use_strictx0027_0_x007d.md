@@ -139,9 +139,9 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "start": 13,
                         "end": 48
                     },
-                    "flags": 11,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 11,
                     "end": 50
                 },
                 "flags": 96,

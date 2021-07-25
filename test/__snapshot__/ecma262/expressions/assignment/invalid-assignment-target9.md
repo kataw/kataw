@@ -393,9 +393,9 @@ x?.[y] = 0;
                     "start": 48,
                     "end": 58
                 },
-                "flags": 46,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 46,
                 "end": 59
             },
             "flags": 16,
@@ -501,9 +501,9 @@ x?.[y] = 0;
                     "start": 62,
                     "end": 74
                 },
-                "flags": 60,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 60,
                 "end": 75
             },
             "flags": 16,
@@ -604,9 +604,9 @@ x?.[y] = 0;
                     "start": 78,
                     "end": 92
                 },
-                "flags": 76,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 76,
                 "end": 93
             },
             "flags": 16,

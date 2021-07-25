@@ -237,9 +237,9 @@ class C {
                                                         "start": 26,
                                                         "end": 97
                                                     },
-                                                    "flags": 20,
+                                                    "flags": 33,
                                                     "transformFlags": 0,
-                                                    "start": 33,
+                                                    "start": 20,
                                                     "end": 98
                                                 },
                                                 "argumentList": {
@@ -440,9 +440,9 @@ class C {
                                                                 "start": 118,
                                                                 "end": 194
                                                             },
-                                                            "flags": 111,
+                                                            "flags": 33,
                                                             "transformFlags": 0,
-                                                            "start": 33,
+                                                            "start": 111,
                                                             "end": 195
                                                         },
                                                         "argumentList": {
@@ -667,9 +667,9 @@ class C {
                                                         "start": 232,
                                                         "end": 320
                                                     },
-                                                    "flags": 225,
+                                                    "flags": 33,
                                                     "transformFlags": 0,
-                                                    "start": 33,
+                                                    "start": 225,
                                                     "end": 321
                                                 },
                                                 "argumentList": {

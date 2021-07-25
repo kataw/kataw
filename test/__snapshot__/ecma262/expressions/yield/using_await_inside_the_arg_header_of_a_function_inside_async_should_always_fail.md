@@ -70,9 +70,9 @@ let f = () => (y=await foo) => y;
                                     "start": 13,
                                     "end": 22
                                 },
-                                "flags": 13,
+                                "flags": 34,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 13,
                                 "end": 22
                             },
                             "flags": 32,

@@ -238,9 +238,9 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                     "start": 49,
                                     "end": 82
                                 },
-                                "flags": 47,
+                                "flags": 34,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 47,
                                 "end": 83
                             },
                             "flags": 32,

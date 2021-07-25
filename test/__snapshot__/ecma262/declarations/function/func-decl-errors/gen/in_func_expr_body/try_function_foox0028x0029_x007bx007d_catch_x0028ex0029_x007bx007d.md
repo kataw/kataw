@@ -235,9 +235,9 @@
                         "start": 1,
                         "end": 48
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 49
                 },
                 "argumentList": {

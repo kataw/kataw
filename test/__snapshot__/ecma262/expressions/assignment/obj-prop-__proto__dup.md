@@ -253,9 +253,9 @@ result = ({ __proto__: x, __proto__: y } = value);
                         "start": 60,
                         "end": 98
                     },
-                    "flags": 58,
+                    "flags": 34,
                     "transformFlags": 0,
-                    "start": 34,
+                    "start": 58,
                     "end": 99
                 },
                 "flags": 0,

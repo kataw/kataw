@@ -97,9 +97,9 @@
                                                                 "start": 7,
                                                                 "end": 14
                                                             },
-                                                            "flags": 6,
+                                                            "flags": 34,
                                                             "transformFlags": 0,
-                                                            "start": 34,
+                                                            "start": 6,
                                                             "end": 15
                                                         }
                                                     ],

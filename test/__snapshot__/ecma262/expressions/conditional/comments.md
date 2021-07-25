@@ -410,9 +410,9 @@ c */? foo : bar : bar;
                                     "start": 66,
                                     "end": 147
                                 },
-                                "flags": 43,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 43,
                                 "end": 148
                             },
                             "colonToken": {
@@ -596,9 +596,9 @@ c */? foo : bar : bar;
                                     "start": 174,
                                     "end": 251
                                 },
-                                "flags": 152,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 152,
                                 "end": 252
                             },
                             "flags": 96,
@@ -906,9 +906,9 @@ c */? foo : bar : bar;
                                     "start": 321,
                                     "end": 402
                                 },
-                                "flags": 298,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 298,
                                 "end": 403
                             },
                             "colonToken": {
@@ -1092,9 +1092,9 @@ c */? foo : bar : bar;
                                     "start": 429,
                                     "end": 506
                                 },
-                                "flags": 407,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 407,
                                 "end": 507
                             },
                             "flags": 96,

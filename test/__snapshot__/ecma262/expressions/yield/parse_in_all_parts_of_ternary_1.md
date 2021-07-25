@@ -89,9 +89,9 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "start": 17,
                                         "end": 24
                                     },
-                                    "flags": 15,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 15,
                                     "end": 25
                                 },
                                 "questionToken": {
@@ -158,7 +158,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "start": 37,
                                     "end": 45
                                 },
-                                "flags": 47,
+                                "flags": 32,
                                 "transformFlags": 4096,
                                 "start": 15,
                                 "end": 45

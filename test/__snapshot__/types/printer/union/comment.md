@@ -57,9 +57,9 @@ const myValue = (callcallcallcallcallcall(87689769876876897698768768976987687689
                                 "start": 15,
                                 "end": 87
                             },
-                            "flags": 15,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 15,
                             "end": 87
                         },
                         "flags": 16,

@@ -4356,9 +4356,9 @@ new Foo(
                             "start": 1774,
                             "end": 1904
                         },
-                        "flags": 1772,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 1772,
                         "end": 1905
                     },
                     "flags": 96,
@@ -5176,9 +5176,9 @@ new Foo(
                                         "start": 2250,
                                         "end": 2380
                                     },
-                                    "flags": 2248,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 2248,
                                     "end": 2381
                                 },
                                 "flags": 32,

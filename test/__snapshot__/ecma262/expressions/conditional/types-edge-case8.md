@@ -92,9 +92,9 @@ let x = a ? (b, c) : (d, e)
                                     "start": 11,
                                     "end": 18
                                 },
-                                "flags": 11,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 11,
                                 "end": 18
                             },
                             "colonToken": {
@@ -133,9 +133,9 @@ let x = a ? (b, c) : (d, e)
                                     "start": 20,
                                     "end": 27
                                 },
-                                "flags": 20,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 20,
                                 "end": 27
                             },
                             "flags": 96,

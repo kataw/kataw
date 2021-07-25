@@ -184,9 +184,9 @@ function foo(a, b, c) {
                                                 "start": 36,
                                                 "end": 62
                                             },
-                                            "flags": 36,
+                                            "flags": 33,
                                             "transformFlags": 0,
-                                            "start": 33,
+                                            "start": 36,
                                             "end": 63
                                         },
                                         "operatorToken": {
@@ -228,7 +228,7 @@ function foo(a, b, c) {
                                             "start": 111,
                                             "end": 118
                                         },
-                                        "flags": 37,
+                                        "flags": 33,
                                         "transformFlags": 5120,
                                         "start": 36,
                                         "end": 118
@@ -272,14 +272,14 @@ function foo(a, b, c) {
                                         "start": 123,
                                         "end": 131
                                     },
-                                    "flags": 37,
+                                    "flags": 33,
                                     "transformFlags": 5120,
                                     "start": 36,
                                     "end": 131
                                 },
-                                "flags": 34,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 34,
                                 "end": 137
                             },
                             "flags": 81,

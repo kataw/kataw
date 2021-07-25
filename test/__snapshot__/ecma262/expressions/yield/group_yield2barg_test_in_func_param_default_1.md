@@ -64,9 +64,9 @@ function f(x=(yield z)=y){}
                                 "start": 13,
                                 "end": 19
                             },
-                            "flags": 13,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 13,
                             "end": 19
                         },
                         "flags": 34,

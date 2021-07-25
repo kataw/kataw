@@ -61,34 +61,34 @@
                                                         "start": 6,
                                                         "end": 10
                                                     },
-                                                    "flags": 6,
+                                                    "flags": 32,
                                                     "transformFlags": 0,
-                                                    "start": 32,
+                                                    "start": 6,
                                                     "end": 11
                                                 },
-                                                "flags": 5,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 5,
                                                 "end": 12
                                             },
-                                            "flags": 4,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 4,
                                             "end": 13
                                         },
-                                        "flags": 3,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 3,
                                         "end": 14
                                     },
-                                    "flags": 2,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 2,
                                     "end": 15
                                 },
-                                "flags": 1,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 1,
                                 "end": 16
                             }
                         ],

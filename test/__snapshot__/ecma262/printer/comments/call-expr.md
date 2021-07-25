@@ -296,9 +296,9 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 89,
                     "end": 107
                 },
-                "flags": 89,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 89,
                 "end": 114
             },
             "flags": 16,
@@ -345,9 +345,9 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 115,
                     "end": 135
                 },
-                "flags": 115,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 115,
                 "end": 145
             },
             "flags": 16,

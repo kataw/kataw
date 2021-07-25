@@ -51,9 +51,9 @@
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "flags": 4,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 4,
                                             "end": 8
                                         },
                                         "expression": {
@@ -65,7 +65,7 @@
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 36,
+                                        "flags": 32,
                                         "transformFlags": 2,
                                         "start": 4,
                                         "end": 10
@@ -125,9 +125,9 @@
                     "start": 1,
                     "end": 17
                 },
-                "flags": 0,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 0,
                 "end": 18
             },
             "flags": 16,

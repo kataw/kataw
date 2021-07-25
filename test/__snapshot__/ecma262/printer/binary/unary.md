@@ -163,9 +163,9 @@ const anyTestFailures = !(
                                     "start": 25,
                                     "end": 122
                                 },
-                                "flags": 25,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 25,
                                 "end": 124
                             },
                             "flags": 32,

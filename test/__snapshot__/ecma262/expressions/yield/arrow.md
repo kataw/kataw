@@ -117,9 +117,9 @@ function *f() {
                                     "start": 19,
                                     "end": 31
                                 },
-                                "flags": 15,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 15,
                                 "end": 32
                             },
                             "flags": 16,
@@ -269,9 +269,9 @@ function *f() {
                                     "start": 61,
                                     "end": 81
                                 },
-                                "flags": 57,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 57,
                                 "end": 82
                             },
                             "flags": 16,

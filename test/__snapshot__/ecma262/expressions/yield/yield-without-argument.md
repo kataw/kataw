@@ -86,9 +86,9 @@ function* f() {
                                     "start": 19,
                                     "end": 24
                                 },
-                                "flags": 15,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 15,
                                 "end": 25
                             },
                             "flags": 16,

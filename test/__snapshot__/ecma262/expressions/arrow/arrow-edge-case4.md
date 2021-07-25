@@ -113,9 +113,9 @@ a ? (b = (c) => d) : e => f;
                         "start": 3,
                         "end": 17
                     },
-                    "flags": 3,
+                    "flags": 34,
                     "transformFlags": 0,
-                    "start": 34,
+                    "start": 3,
                     "end": 18
                 },
                 "colonToken": {

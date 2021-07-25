@@ -64,9 +64,9 @@
                     "start": 0,
                     "end": 54
                 },
-                "flags": 0,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 0,
                 "end": 54
             },
             "flags": 16,
@@ -88,7 +88,7 @@
 ### Printed
 
 ```javascript
-(/*4*/ /*1*/ a, /*3*/ b /*4*/, /*5*/ c /*6*/);
+(/*1*/ a, /*3*/ b /*4*/, /*5*/ c /*6*/);
 ```
 
 ### Diagnostics

@@ -124,9 +124,9 @@ a ** (b * c);
                         "start": 12,
                         "end": 20
                     },
-                    "flags": 12,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 12,
                     "end": 21
                 },
                 "operatorToken": {
@@ -145,7 +145,7 @@ a ** (b * c);
                     "start": 24,
                     "end": 26
                 },
-                "flags": 44,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 12,
                 "end": 26
@@ -239,9 +239,9 @@ a ** (b * c);
                         "start": 39,
                         "end": 41
                     },
-                    "flags": 37,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 37,
                     "end": 42
                 },
                 "operatorToken": {
@@ -260,7 +260,7 @@ a ** (b * c);
                     "start": 45,
                     "end": 47
                 },
-                "flags": 37,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 37,
                 "end": 47
@@ -368,9 +368,9 @@ a ** (b * c);
                         "start": 59,
                         "end": 64
                     },
-                    "flags": 59,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 59,
                     "end": 65
                 },
                 "flags": 32,
@@ -421,9 +421,9 @@ a ** (b * c);
                         "start": 66,
                         "end": 73
                     },
-                    "flags": 66,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 66,
                     "end": 74
                 },
                 "operatorToken": {
@@ -442,7 +442,7 @@ a ** (b * c);
                     "start": 77,
                     "end": 79
                 },
-                "flags": 98,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 66,
                 "end": 79
@@ -506,9 +506,9 @@ a ** (b * c);
                         "start": 85,
                         "end": 92
                     },
-                    "flags": 85,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 85,
                     "end": 93
                 },
                 "flags": 97,
@@ -559,9 +559,9 @@ a ** (b * c);
                         "start": 94,
                         "end": 101
                     },
-                    "flags": 94,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 94,
                     "end": 102
                 },
                 "operatorToken": {
@@ -580,7 +580,7 @@ a ** (b * c);
                     "start": 105,
                     "end": 107
                 },
-                "flags": 126,
+                "flags": 33,
                 "transformFlags": 5120,
                 "start": 94,
                 "end": 107

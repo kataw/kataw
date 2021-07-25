@@ -462,9 +462,9 @@ async function f2() {
                                                                 "start": 133,
                                                                 "end": 183
                                                             },
-                                                            "flags": 131,
+                                                            "flags": 32,
                                                             "transformFlags": 0,
-                                                            "start": 32,
+                                                            "start": 131,
                                                             "end": 184
                                                         },
                                                         "flags": 32,
@@ -506,9 +506,9 @@ async function f2() {
                         "start": 88,
                         "end": 191
                     },
-                    "flags": 85,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 85,
                     "end": 192
                 },
                 "argumentList": {
@@ -658,9 +658,9 @@ async function f2() {
                                         "start": 225,
                                         "end": 270
                                     },
-                                    "flags": 225,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 225,
                                     "end": 271
                                 },
                                 "flags": 32,

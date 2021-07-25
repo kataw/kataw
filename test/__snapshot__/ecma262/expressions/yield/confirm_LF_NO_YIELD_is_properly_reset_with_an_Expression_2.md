@@ -112,9 +112,9 @@ function *g(){ return x + (yield f); }
                                         "start": 27,
                                         "end": 34
                                     },
-                                    "flags": 25,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 25,
                                     "end": 35
                                 },
                                 "flags": 96,

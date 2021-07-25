@@ -1018,9 +1018,9 @@ switch (answer) { case 0: let a; };
                                                     "start": 289,
                                                     "end": 290
                                                 },
-                                                "flags": 287,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 287,
                                                 "end": 291
                                             }
                                         ],
@@ -1549,9 +1549,9 @@ switch (answer) { case 0: let a; };
                             "start": 426,
                             "end": 427
                         },
-                        "flags": 425,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 425,
                         "end": 428
                     },
                     "flags": 32,
@@ -1823,9 +1823,9 @@ switch (answer) { case 0: let a; };
                                         "start": 512,
                                         "end": 515
                                     },
-                                    "flags": 510,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 510,
                                     "end": 516
                                 },
                                 "flags": 16,
@@ -1935,9 +1935,9 @@ switch (answer) { case 0: let a; };
                                         "start": 539,
                                         "end": 550
                                     },
-                                    "flags": 539,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 539,
                                     "end": 550
                                 },
                                 "flags": 16,
@@ -2031,9 +2031,9 @@ switch (answer) { case 0: let a; };
                                             "start": 575,
                                             "end": 578
                                         },
-                                        "flags": 573,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 573,
                                         "end": 579
                                     },
                                     "operatorToken": {
@@ -2056,9 +2056,9 @@ switch (answer) { case 0: let a; };
                                                 "start": 583,
                                                 "end": 586
                                             },
-                                            "flags": 581,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 581,
                                             "end": 587
                                         },
                                         "operatorToken": {
@@ -2077,7 +2077,7 @@ switch (answer) { case 0: let a; };
                                             "start": 603,
                                             "end": 605
                                         },
-                                        "flags": 613,
+                                        "flags": 32,
                                         "transformFlags": 5120,
                                         "start": 581,
                                         "end": 605
@@ -2864,9 +2864,9 @@ switch (answer) { case 0: let a; };
                                             "start": 881,
                                             "end": 882
                                         },
-                                        "flags": 879,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 879,
                                         "end": 883
                                     },
                                     "flags": 96,

@@ -56,9 +56,9 @@
                                         "start": 6,
                                         "end": 10
                                     },
-                                    "flags": 4,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 4,
                                     "end": 11
                                 },
                                 "operatorToken": {

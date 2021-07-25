@@ -1241,9 +1241,9 @@ function foo4() {
                         "start": 618,
                         "end": 641
                     },
-                    "flags": 615,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 615,
                     "end": 642
                 },
                 "argumentList": {
@@ -1323,9 +1323,9 @@ function foo4() {
                         "start": 647,
                         "end": 673
                     },
-                    "flags": 645,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 645,
                     "end": 674
                 },
                 "argumentList": {
@@ -1405,9 +1405,9 @@ function foo4() {
                         "start": 679,
                         "end": 709
                     },
-                    "flags": 677,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 677,
                     "end": 710
                 },
                 "argumentList": {
@@ -1487,9 +1487,9 @@ function foo4() {
                         "start": 715,
                         "end": 762
                     },
-                    "flags": 713,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 713,
                     "end": 763
                 },
                 "argumentList": {
@@ -2270,13 +2270,13 @@ const obj = {
     f4 /* f */(/* args */ ) {},
   };
 
-(/*2*/ function f /* f */() {})();
+(function f /* f */() {})();
 
-(/*2*/ function f(/* args */ ) {})();
+(function f(/* args */ ) {})();
 
-(/*2*/ function f() {})();
+(function f() {})();
 
-(/*2*/ function f /* f */(/* args */ ) {})();
+(function f /* f */(/* args */ ) {})();
 
 class C1 {
   f /* f */() {}

@@ -71,14 +71,14 @@ a ? (({b})) : c
                             "start": 6,
                             "end": 9
                         },
-                        "flags": 5,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 5,
                         "end": 10
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 11
                 },
                 "colonToken": {

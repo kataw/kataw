@@ -581,9 +581,9 @@ const { accessibilityModule: FooAccessibilityModule, accessibilityModule: FooAcc
                     "start": 381,
                     "end": 433
                 },
-                "flags": 378,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 378,
                 "end": 434
             },
             "flags": 16,

@@ -150,9 +150,9 @@ async function * gen() {(async function * foo(yield) { })}
                                     "start": 25,
                                     "end": 56
                                 },
-                                "flags": 24,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 24,
                                 "end": 57
                             },
                             "flags": 16,

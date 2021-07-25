@@ -116,9 +116,9 @@ f((async (a, b) => a + b));
                                 "start": 3,
                                 "end": 24
                             },
-                            "flags": 2,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 2,
                             "end": 25
                         }
                     ],

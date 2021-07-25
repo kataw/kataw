@@ -89,9 +89,9 @@ export default (function() {});
                     "start": 16,
                     "end": 29
                 },
-                "flags": 14,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 14,
                 "end": 30
             },
             "flags": 16,

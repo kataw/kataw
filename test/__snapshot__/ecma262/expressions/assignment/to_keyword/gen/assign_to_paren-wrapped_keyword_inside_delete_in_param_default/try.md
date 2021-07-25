@@ -78,14 +78,14 @@ async (x = delete ((try) = f)) => {}
                                             "start": 20,
                                             "end": 20
                                         },
-                                        "flags": 19,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 19,
                                         "end": 20
                                     },
-                                    "flags": 17,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 17,
                                     "end": 20
                                 },
                                 "flags": 32,

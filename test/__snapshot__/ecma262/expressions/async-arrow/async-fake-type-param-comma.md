@@ -72,9 +72,9 @@ async <(T, U)>y
                             "start": 7,
                             "end": 13
                         },
-                        "flags": 7,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 7,
                         "end": 13
                     },
                     "operatorToken": {
@@ -93,7 +93,7 @@ async <(T, U)>y
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 39,
+                    "flags": 32,
                     "transformFlags": 5120,
                     "start": 13,
                     "end": 15

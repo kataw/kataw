@@ -47,9 +47,9 @@
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 13,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 13,
                     "end": 21
                 },
                 "questionToken": {
@@ -84,7 +84,7 @@
                     "start": 31,
                     "end": 37
                 },
-                "flags": 45,
+                "flags": 32,
                 "transformFlags": 4096,
                 "start": 13,
                 "end": 37

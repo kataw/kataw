@@ -1005,9 +1005,9 @@ for ({}.bar = x in obj);
                                             "start": 230,
                                             "end": 236
                                         },
-                                        "flags": 230,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 230,
                                         "end": 236
                                     }
                                 ],
@@ -3183,9 +3183,9 @@ for ({}.bar = x in obj);
                                 "start": 744,
                                 "end": 750
                             },
-                            "flags": 744,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 744,
                             "end": 750
                         }
                     ],
@@ -3599,9 +3599,9 @@ for ({}.bar = x in obj);
                     "start": 845,
                     "end": 851
                 },
-                "flags": 845,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 845,
                 "end": 852
             },
             "inKeyword": {
@@ -5325,9 +5325,9 @@ for ({}.bar = x in obj);
                         "start": 1223,
                         "end": 1230
                     },
-                    "flags": 1223,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1223,
                     "end": 1231
                 },
                 "flags": 32,
@@ -5412,14 +5412,14 @@ for ({}.bar = x in obj);
                         "start": 1246,
                         "end": 1251
                     },
-                    "flags": 1246,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1246,
                     "end": 1251
                 },
-                "flags": 1245,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 1245,
                 "end": 1252
             },
             "inKeyword": {
@@ -5488,9 +5488,9 @@ for ({}.bar = x in obj);
                     "start": 1266,
                     "end": 1271
                 },
-                "flags": 1266,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 1266,
                 "end": 1271
             },
             "inKeyword": {
@@ -6874,9 +6874,9 @@ for ({}.bar = x in obj);
                     "start": 1613,
                     "end": 1619
                 },
-                "flags": 1613,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 1613,
                 "end": 1620
             },
             "inKeyword": {
@@ -6949,9 +6949,9 @@ for ({}.bar = x in obj);
                                 "start": 1642,
                                 "end": 1643
                             },
-                            "flags": 1641,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 1641,
                             "end": 1644
                         },
                         "questionToken": {
@@ -7009,14 +7009,14 @@ for ({}.bar = x in obj);
                             "start": 1647,
                             "end": 1653
                         },
-                        "flags": 1641,
+                        "flags": 32,
                         "transformFlags": 4096,
                         "start": 1641,
                         "end": 1653
                     },
-                    "flags": 1640,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 1640,
                     "end": 1654
                 },
                 "flags": 32,

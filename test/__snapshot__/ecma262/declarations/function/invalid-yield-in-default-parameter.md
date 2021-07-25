@@ -140,9 +140,9 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "start": 39,
                                                     "end": 44
                                                 },
-                                                "flags": 37,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 37,
                                                 "end": 45
                                             },
                                             "flags": 96,

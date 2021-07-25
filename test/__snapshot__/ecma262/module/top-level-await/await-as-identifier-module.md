@@ -132,9 +132,9 @@ await(x);
                         "start": 51,
                         "end": 52
                     },
-                    "flags": 50,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 50,
                     "end": 53
                 },
                 "flags": 32,

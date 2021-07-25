@@ -219,9 +219,9 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                     "start": 29,
                     "end": 47
                 },
-                "flags": 27,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 27,
                 "end": 48
             },
             "flags": 16,

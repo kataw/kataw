@@ -100,9 +100,9 @@ function *f(){ return { ...(yield) } }
                                                     "start": 28,
                                                     "end": 33
                                                 },
-                                                "flags": 27,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 27,
                                                 "end": 34
                                             },
                                             "flags": 1073741856,

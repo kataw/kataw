@@ -191,9 +191,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "start": 46,
                                     "end": 131
                                 },
-                                "flags": 46,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 46,
                                 "end": 131
                             },
                             "flags": 32,
@@ -325,9 +325,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                     "start": 134,
                     "end": 239
                 },
-                "flags": 132,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 132,
                 "end": 240
             },
             "flags": 16,
@@ -487,9 +487,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                                     "start": 338,
                                     "end": 423
                                 },
-                                "flags": 338,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 338,
                                 "end": 423
                             },
                             "flags": 32,
@@ -835,9 +835,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                             "start": 547,
                             "end": 585
                         },
-                        "flags": 547,
+                        "flags": 35,
                         "transformFlags": 0,
-                        "start": 35,
+                        "start": 547,
                         "end": 586
                     },
                     {
@@ -972,9 +972,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                             "start": 587,
                             "end": 627
                         },
-                        "flags": 587,
+                        "flags": 35,
                         "transformFlags": 0,
-                        "start": 35,
+                        "start": 587,
                         "end": 628
                     },
                     {
@@ -1109,9 +1109,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                             "start": 629,
                             "end": 669
                         },
-                        "flags": 629,
+                        "flags": 35,
                         "transformFlags": 0,
-                        "start": 35,
+                        "start": 629,
                         "end": 670
                     },
                     {
@@ -1246,9 +1246,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                             "start": 671,
                             "end": 711
                         },
-                        "flags": 671,
+                        "flags": 35,
                         "transformFlags": 0,
-                        "start": 35,
+                        "start": 671,
                         "end": 712
                     },
                     {
@@ -1383,9 +1383,9 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
                             "start": 713,
                             "end": 753
                         },
-                        "flags": 713,
+                        "flags": 35,
                         "transformFlags": 0,
-                        "start": 35,
+                        "start": 713,
                         "end": 754
                     }
                 ],

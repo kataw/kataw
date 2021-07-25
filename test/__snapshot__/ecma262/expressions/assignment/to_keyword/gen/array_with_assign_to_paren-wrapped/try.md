@@ -62,9 +62,9 @@ async x => (try) = 1
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 10,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 10,
                     "end": 12
                 },
                 "flags": 288,

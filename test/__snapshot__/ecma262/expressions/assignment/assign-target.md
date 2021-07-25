@@ -505,9 +505,9 @@ x[y] = 0;
                     "start": 70,
                     "end": 80
                 },
-                "flags": 68,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 68,
                 "end": 81
             },
             "flags": 16,
@@ -584,9 +584,9 @@ x[y] = 0;
                     "start": 84,
                     "end": 95
                 },
-                "flags": 82,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 82,
                 "end": 96
             },
             "flags": 16,
@@ -687,9 +687,9 @@ x[y] = 0;
                     "start": 99,
                     "end": 113
                 },
-                "flags": 97,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 97,
                 "end": 114
             },
             "flags": 16,

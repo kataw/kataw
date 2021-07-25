@@ -217,9 +217,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 78,
                     "end": 87
                 },
-                "flags": 0,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 0,
                 "end": 88
             },
             "flags": 16,
@@ -257,9 +257,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 314,
                     "end": 318
                 },
-                "flags": 89,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 89,
                 "end": 319
             },
             "flags": 16,
@@ -315,9 +315,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 320,
                     "end": 330
                 },
-                "flags": 320,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 320,
                 "end": 330
             },
             "flags": 16,
@@ -359,19 +359,19 @@ try {} catch(e) { for(var e of 0); };
                             "start": 520,
                             "end": 524
                         },
-                        "flags": 519,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 519,
                         "end": 525
                     },
-                    "flags": 518,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 518,
                     "end": 526
                 },
-                "flags": 331,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 331,
                 "end": 527
             },
             "flags": 16,
@@ -431,19 +431,19 @@ try {} catch(e) { for(var e of 0); };
                             "start": 531,
                             "end": 540
                         },
-                        "flags": 531,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 531,
                         "end": 540
                     },
-                    "flags": 530,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 530,
                     "end": 541
                 },
-                "flags": 528,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 528,
                 "end": 542
             },
             "flags": 16,
@@ -641,9 +641,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1051,
                     "end": 1061
                 },
-                "flags": 784,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 784,
                 "end": 1062
             },
             "flags": 16,
@@ -755,9 +755,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1065,
                     "end": 1080
                 },
-                "flags": 1063,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 1063,
                 "end": 1081
             },
             "flags": 16,
@@ -879,9 +879,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1084,
                     "end": 1100
                 },
-                "flags": 1082,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 1082,
                 "end": 1101
             },
             "flags": 16,
@@ -997,9 +997,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1104,
                     "end": 1116
                 },
-                "flags": 1102,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 1102,
                 "end": 1117
             },
             "flags": 16,
@@ -1148,9 +1148,9 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1425,
                         "end": 1428
                     },
-                    "flags": 1319,
+                    "flags": 35,
                     "transformFlags": 0,
-                    "start": 35,
+                    "start": 1319,
                     "end": 1429
                 },
                 "operatorToken": {
@@ -1218,9 +1218,9 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1437,
                         "end": 1440
                     },
-                    "flags": 1435,
+                    "flags": 35,
                     "transformFlags": 0,
-                    "start": 35,
+                    "start": 1435,
                     "end": 1441
                 },
                 "operatorToken": {
@@ -1309,9 +1309,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1449,
                     "end": 1457
                 },
-                "flags": 1447,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 1447,
                 "end": 1458
             },
             "flags": 16,
@@ -2244,9 +2244,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2767,
                     "end": 2773
                 },
-                "flags": 2766,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 2766,
                 "end": 2774
             },
             "inKeyword": {
@@ -2314,9 +2314,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2787,
                     "end": 2790
                 },
-                "flags": 2786,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 2786,
                 "end": 2791
             },
             "inKeyword": {
@@ -2402,9 +2402,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2804,
                     "end": 2810
                 },
-                "flags": 2803,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 2803,
                 "end": 2811
             },
             "ofKeyword": {
@@ -2473,9 +2473,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2824,
                     "end": 2827
                 },
-                "flags": 2823,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 2823,
                 "end": 2828
             },
             "ofKeyword": {
@@ -2526,9 +2526,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2841,
                     "end": 2842
                 },
-                "flags": 2840,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 2840,
                 "end": 2843
             },
             "inKeyword": {
@@ -2580,9 +2580,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2856,
                     "end": 2857
                 },
-                "flags": 2855,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 2855,
                 "end": 2858
             },
             "ofKeyword": {
@@ -2893,9 +2893,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3164,
                     "end": 3183
                 },
-                "flags": 3078,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 3078,
                 "end": 3184
             },
             "flags": 16,
@@ -3003,14 +3003,14 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "start": 3205,
                                                                                             "end": 3213
                                                                                         },
-                                                                                        "flags": 3204,
+                                                                                        "flags": 32,
                                                                                         "transformFlags": 0,
-                                                                                        "start": 32,
+                                                                                        "start": 3204,
                                                                                         "end": 3215
                                                                                     },
-                                                                                    "flags": 3202,
+                                                                                    "flags": 32,
                                                                                     "transformFlags": 0,
-                                                                                    "start": 32,
+                                                                                    "start": 3202,
                                                                                     "end": 3216
                                                                                 },
                                                                                 "flags": 16,
@@ -3080,9 +3080,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3187,
                     "end": 3224
                 },
-                "flags": 3185,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 3185,
                 "end": 3225
             },
             "flags": 16,
@@ -4179,9 +4179,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4081,
                     "end": 4094
                 },
-                "flags": 4008,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 4008,
                 "end": 4095
             },
             "flags": 16,
@@ -4202,9 +4202,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4098,
                     "end": 4112
                 },
-                "flags": 4096,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 4096,
                 "end": 4113
             },
             "flags": 16,
@@ -4281,9 +4281,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4234,
                     "end": 4244
                 },
-                "flags": 4232,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 4232,
                 "end": 4245
             },
             "flags": 16,
@@ -4376,9 +4376,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4262,
                     "end": 4276
                 },
-                "flags": 4260,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 4260,
                 "end": 4277
             },
             "flags": 16,
@@ -4455,9 +4455,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4294,
                     "end": 4309
                 },
-                "flags": 4292,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 4292,
                 "end": 4310
             },
             "flags": 16,
@@ -4550,9 +4550,9 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4327,
                     "end": 4346
                 },
-                "flags": 4325,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 4325,
                 "end": 4347
             },
             "flags": 16,

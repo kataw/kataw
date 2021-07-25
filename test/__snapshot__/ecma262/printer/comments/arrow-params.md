@@ -4402,9 +4402,9 @@ foo(
                                                     "start": 2022,
                                                     "end": 2055
                                                 },
-                                                "flags": 2020,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 2020,
                                                 "end": 2056
                                             },
                                             "argumentList": {

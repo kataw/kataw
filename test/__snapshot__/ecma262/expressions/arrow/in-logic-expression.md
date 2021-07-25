@@ -64,9 +64,9 @@
                         "start": 1,
                         "end": 9
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
@@ -141,9 +141,9 @@
                         "start": 21,
                         "end": 29
                     },
-                    "flags": 19,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 19,
                     "end": 30
                 },
                 "questionToken": {
@@ -178,7 +178,7 @@
                     "start": 36,
                     "end": 38
                 },
-                "flags": 51,
+                "flags": 33,
                 "transformFlags": 4096,
                 "start": 19,
                 "end": 38

@@ -624,9 +624,9 @@ class C { test() {get #a() { }}}
                     "start": 125,
                     "end": 142
                 },
-                "flags": 123,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 123,
                 "end": 143
             },
             "flags": 16,
@@ -731,9 +731,9 @@ class C { test() {get #a() { }}}
                     "start": 161,
                     "end": 172
                 },
-                "flags": 159,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 159,
                 "end": 173
             },
             "flags": 16,
@@ -852,9 +852,9 @@ class C { test() {get #a() { }}}
                     "start": 177,
                     "end": 198
                 },
-                "flags": 174,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 174,
                 "end": 199
             },
             "flags": 16,
@@ -979,9 +979,9 @@ class C { test() {get #a() { }}}
                     "start": 203,
                     "end": 225
                 },
-                "flags": 200,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 200,
                 "end": 226
             },
             "flags": 16,

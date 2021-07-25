@@ -178,9 +178,9 @@ f(/* ... */ a, b);
                         "start": 27,
                         "end": 50
                     },
-                    "flags": 25,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 25,
                     "end": 51
                 },
                 "argumentList": {

@@ -75,9 +75,9 @@ const f = (x?)
                                 "start": 9,
                                 "end": 13
                             },
-                            "flags": 9,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 9,
                             "end": 14
                         },
                         "flags": 16,

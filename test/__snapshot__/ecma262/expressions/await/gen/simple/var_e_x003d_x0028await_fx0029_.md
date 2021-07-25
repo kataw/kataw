@@ -76,9 +76,9 @@ var e = (await, f);
                                 "start": 7,
                                 "end": 18
                             },
-                            "flags": 7,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 7,
                             "end": 18
                         },
                         "flags": 16,

@@ -67,9 +67,9 @@ for(delete(x in y);;)x
                         "start": 10,
                         "end": 17
                     },
-                    "flags": 10,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 10,
                     "end": 18
                 },
                 "flags": 32,

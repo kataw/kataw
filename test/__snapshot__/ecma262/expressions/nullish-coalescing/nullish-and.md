@@ -69,9 +69,9 @@ a ?? (b && c);
                         "start": 4,
                         "end": 12
                     },
-                    "flags": 4,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 4,
                     "end": 13
                 },
                 "flags": 96,

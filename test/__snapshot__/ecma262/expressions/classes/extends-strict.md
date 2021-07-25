@@ -225,9 +225,9 @@ class C extends (function B() {
                             "start": 25,
                             "end": 68
                         },
-                        "flags": 23,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 23,
                         "end": 69
                     },
                     "typeParameter": null,

@@ -40,9 +40,9 @@
                     "start": 15,
                     "end": 19
                 },
-                "flags": 13,
+                "flags": 32,
                 "transformFlags": 0,
-                "start": 32,
+                "start": 13,
                 "end": 20
             },
             "flags": 16,
@@ -102,9 +102,9 @@
                     "start": 36,
                     "end": 54
                 },
-                "flags": 36,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 36,
                 "end": 55
             },
             "flags": 16,

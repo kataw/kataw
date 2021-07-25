@@ -108,9 +108,9 @@ function f() {
                                     "start": 30,
                                     "end": 43
                                 },
-                                "flags": 30,
+                                "flags": 35,
                                 "transformFlags": 0,
-                                "start": 35,
+                                "start": 30,
                                 "end": 44
                             },
                             "flags": 16,

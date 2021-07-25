@@ -124,9 +124,9 @@
                     "start": 1,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 0,
                 "end": 19
             },
             "flags": 16,
@@ -204,9 +204,9 @@
                     "start": 23,
                     "end": 33
                 },
-                "flags": 20,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 20,
                 "end": 34
             },
             "flags": 16,
@@ -265,9 +265,9 @@
                             "start": 38,
                             "end": 43
                         },
-                        "flags": 37,
+                        "flags": 34,
                         "transformFlags": 0,
-                        "start": 34,
+                        "start": 37,
                         "end": 44
                     },
                     "operatorToken": {
@@ -291,9 +291,9 @@
                     "start": 37,
                     "end": 49
                 },
-                "flags": 35,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 35,
                 "end": 50
             },
             "flags": 16,
@@ -346,9 +346,9 @@
                         "start": 51,
                         "end": 58
                     },
-                    "flags": 51,
+                    "flags": 35,
                     "transformFlags": 0,
-                    "start": 35,
+                    "start": 51,
                     "end": 59
                 },
                 "flags": 32,
@@ -465,9 +465,9 @@
                     "start": 64,
                     "end": 81
                 },
-                "flags": 62,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 62,
                 "end": 82
             },
             "flags": 16,

@@ -558,9 +558,9 @@ function f(x, ...y) { 'use strict' }
                     "start": 175,
                     "end": 205
                 },
-                "flags": 172,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 172,
                 "end": 206
             },
             "flags": 16,
@@ -655,9 +655,9 @@ function f(x, ...y) { 'use strict' }
                     "start": 210,
                     "end": 242
                 },
-                "flags": 207,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 207,
                 "end": 243
             },
             "flags": 16,
@@ -759,9 +759,9 @@ function f(x, ...y) { 'use strict' }
                     "start": 247,
                     "end": 281
                 },
-                "flags": 244,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 244,
                 "end": 282
             },
             "flags": 16,

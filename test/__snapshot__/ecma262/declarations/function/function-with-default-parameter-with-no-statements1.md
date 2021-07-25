@@ -68,9 +68,9 @@ function bar(a = (v)) {
                                 "start": 18,
                                 "end": 19
                             },
-                            "flags": 16,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 16,
                             "end": 20
                         },
                         "flags": 34,
@@ -157,9 +157,9 @@ function bar(a = (v)) {
                                 "start": 45,
                                 "end": 46
                             },
-                            "flags": 43,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 43,
                             "end": 47
                         },
                         "flags": 34,

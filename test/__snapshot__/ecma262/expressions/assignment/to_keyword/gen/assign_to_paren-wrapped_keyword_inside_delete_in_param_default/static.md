@@ -75,9 +75,9 @@ async (x = delete ((static) = f)) => {}
                                                 "start": 20,
                                                 "end": 26
                                             },
-                                            "flags": 19,
+                                            "flags": 32,
                                             "transformFlags": 0,
-                                            "start": 32,
+                                            "start": 19,
                                             "end": 27
                                         },
                                         "operatorToken": {
@@ -101,9 +101,9 @@ async (x = delete ((static) = f)) => {}
                                         "start": 19,
                                         "end": 31
                                     },
-                                    "flags": 17,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 17,
                                     "end": 32
                                 },
                                 "flags": 32,

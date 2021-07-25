@@ -105,9 +105,9 @@ function *a(){({yi\u0065ld: 0})}
                                     "start": 15,
                                     "end": 30
                                 },
-                                "flags": 14,
+                                "flags": 34,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 14,
                                 "end": 31
                             },
                             "flags": 16,

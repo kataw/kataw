@@ -110,9 +110,9 @@ bar ? (x => { return x; }) : baz;
                         "start": 7,
                         "end": 25
                     },
-                    "flags": 5,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 5,
                     "end": 26
                 },
                 "colonToken": {

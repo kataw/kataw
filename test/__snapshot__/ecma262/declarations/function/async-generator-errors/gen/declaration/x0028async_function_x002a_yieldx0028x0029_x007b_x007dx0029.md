@@ -140,9 +140,9 @@ async function * gen() {(async function * yield() { })}
                                     "start": 25,
                                     "end": 53
                                 },
-                                "flags": 24,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 24,
                                 "end": 54
                             },
                             "flags": 16,

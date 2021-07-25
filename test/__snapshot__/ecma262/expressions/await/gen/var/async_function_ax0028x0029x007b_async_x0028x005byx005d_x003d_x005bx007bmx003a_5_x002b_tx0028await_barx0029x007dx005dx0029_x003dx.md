@@ -417,9 +417,9 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                 "start": 20,
                                 "end": 114
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 115
                         },
                         "flags": 16,

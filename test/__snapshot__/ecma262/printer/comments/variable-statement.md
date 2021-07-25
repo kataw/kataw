@@ -53,9 +53,9 @@ var foo = /* comment */ (
                                 "start": 25,
                                 "end": 32
                             },
-                            "flags": 9,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 9,
                             "end": 34
                         },
                         "flags": 16,

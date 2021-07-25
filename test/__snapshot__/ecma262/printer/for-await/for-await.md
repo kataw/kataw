@@ -649,9 +649,9 @@ async function foo() {
                         "start": 160,
                         "end": 293
                     },
-                    "flags": 157,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 157,
                     "end": 294
                 },
                 "argumentList": {

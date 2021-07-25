@@ -72,9 +72,9 @@ a ? b ? (c) : (d) : (e) => f : g;
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 7,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 7,
                         "end": 11
                     },
                     "colonToken": {

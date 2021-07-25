@@ -249,9 +249,9 @@ tag`${a}\\rb`;
                         "start": 49,
                         "end": 56
                     },
-                    "flags": 49,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 49,
                     "end": 57
                 },
                 "template": {
@@ -342,9 +342,9 @@ tag`${a}\\rb`;
                         "start": 60,
                         "end": 69
                     },
-                    "flags": 60,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 60,
                     "end": 70
                 },
                 "template": {

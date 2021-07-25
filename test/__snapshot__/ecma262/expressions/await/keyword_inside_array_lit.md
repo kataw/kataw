@@ -109,9 +109,9 @@ async g => (x = [await y])
                         "start": 10,
                         "end": 25
                     },
-                    "flags": 10,
+                    "flags": 34,
                     "transformFlags": 0,
-                    "start": 34,
+                    "start": 10,
                     "end": 26
                 },
                 "flags": 288,

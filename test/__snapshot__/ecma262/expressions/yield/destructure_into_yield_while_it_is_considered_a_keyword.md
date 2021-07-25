@@ -111,9 +111,9 @@ function *f(){  ({yield} = x)  }
                                     "start": 17,
                                     "end": 28
                                 },
-                                "flags": 14,
+                                "flags": 34,
                                 "transformFlags": 0,
-                                "start": 34,
+                                "start": 14,
                                 "end": 29
                             },
                             "flags": 16,

@@ -43,9 +43,9 @@ do( async funcion switch!! while
                         "start": 2,
                         "end": 17
                     },
-                    "flags": 2,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 2,
                     "end": 17
                 },
                 "flags": 16,

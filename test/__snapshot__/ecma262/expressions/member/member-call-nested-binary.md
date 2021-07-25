@@ -91,9 +91,9 @@ a.b<T>(e)
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 6,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 6,
                     "end": 9
                 },
                 "flags": 96,

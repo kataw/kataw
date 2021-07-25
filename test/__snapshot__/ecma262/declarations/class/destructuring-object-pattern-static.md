@@ -210,9 +210,9 @@ class Foo {
                                                         "start": 58,
                                                         "end": 89
                                                     },
-                                                    "flags": 52,
+                                                    "flags": 35,
                                                     "transformFlags": 0,
-                                                    "start": 35,
+                                                    "start": 52,
                                                     "end": 90
                                                 },
                                                 "flags": 16,

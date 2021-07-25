@@ -194,9 +194,9 @@ class C { foo() { this.#a = 1; }}
                         "start": 1,
                         "end": 40
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 41
                 },
                 "argumentList": {

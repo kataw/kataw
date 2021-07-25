@@ -53,9 +53,9 @@ bar ? (return => {}) : baz;
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 5,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 5,
                     "end": 7
                 },
                 "colonToken": null,

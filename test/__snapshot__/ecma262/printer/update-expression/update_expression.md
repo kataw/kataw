@@ -64,9 +64,9 @@ const uuid = String(this._uuidCounter++);
                             "start": 0,
                             "end": 9
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 0,
                         "end": 10
                     },
                     "expression": {
@@ -138,9 +138,9 @@ const uuid = String(this._uuidCounter++);
                         "start": 25,
                         "end": 30
                     },
-                    "flags": 25,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 25,
                     "end": 31
                 },
                 "argumentList": null,
@@ -183,9 +183,9 @@ const uuid = String(this._uuidCounter++);
                         "start": 32,
                         "end": 37
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 32,
                     "end": 38
                 },
                 "argumentList": {

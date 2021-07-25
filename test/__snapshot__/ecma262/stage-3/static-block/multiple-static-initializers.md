@@ -306,9 +306,9 @@ class Foo {
                                         "start": 47,
                                         "end": 110
                                     },
-                                    "flags": 45,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 45,
                                     "end": 111
                                 },
                                 "argumentList": {
@@ -518,9 +518,9 @@ class Foo {
                                         "start": 150,
                                         "end": 187
                                     },
-                                    "flags": 148,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 148,
                                     "end": 188
                                 },
                                 "argumentList": {

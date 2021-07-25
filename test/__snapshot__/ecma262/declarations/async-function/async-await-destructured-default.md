@@ -151,9 +151,9 @@ async function wrap() {
                                     "start": 29,
                                     "end": 48
                                 },
-                                "flags": 23,
+                                "flags": 35,
                                 "transformFlags": 0,
-                                "start": 35,
+                                "start": 23,
                                 "end": 49
                             },
                             "flags": 16,

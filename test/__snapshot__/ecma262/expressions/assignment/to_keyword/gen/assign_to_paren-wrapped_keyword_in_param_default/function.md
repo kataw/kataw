@@ -120,9 +120,9 @@ async (x = (function) = f) => {}
                                     "start": 12,
                                     "end": 25
                                 },
-                                "flags": 10,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 10,
                                 "end": 26
                             },
                             "flags": 32,

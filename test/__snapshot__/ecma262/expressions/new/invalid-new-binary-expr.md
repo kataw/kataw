@@ -43,9 +43,9 @@ new <number>(y)
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 15
                 },
                 "argumentList": null,

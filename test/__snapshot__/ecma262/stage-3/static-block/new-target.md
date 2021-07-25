@@ -281,9 +281,9 @@ class Base {
                                                                                     "start": 73,
                                                                                     "end": 119
                                                                                 },
-                                                                                "flags": 71,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 0,
-                                                                                "start": 32,
+                                                                                "start": 71,
                                                                                 "end": 120
                                                                             },
                                                                             "argumentList": {

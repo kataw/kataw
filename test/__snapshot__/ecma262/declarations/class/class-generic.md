@@ -279,9 +279,9 @@ class A<TYPE> {
                                                             "start": 75,
                                                             "end": 87
                                                         },
-                                                        "flags": 75,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 75,
                                                         "end": 88
                                                     },
                                                     "flags": 96,
@@ -511,9 +511,9 @@ class A<TYPE> {
                                                             "start": 148,
                                                             "end": 160
                                                         },
-                                                        "flags": 148,
+                                                        "flags": 32,
                                                         "transformFlags": 0,
-                                                        "start": 32,
+                                                        "start": 148,
                                                         "end": 161
                                                     },
                                                     "flags": 96,

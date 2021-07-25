@@ -333,9 +333,9 @@ L: let
                     "start": 71,
                     "end": 89
                 },
-                "flags": 68,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 68,
                 "end": 90
             },
             "flags": 16,
@@ -785,9 +785,9 @@ L: let
                     "start": 200,
                     "end": 224
                 },
-                "flags": 197,
+                "flags": 33,
                 "transformFlags": 0,
-                "start": 33,
+                "start": 197,
                 "end": 225
             },
             "flags": 16,
@@ -1022,9 +1022,9 @@ L: let
                         "start": 276,
                         "end": 286
                     },
-                    "flags": 273,
+                    "flags": 35,
                     "transformFlags": 0,
-                    "start": 35,
+                    "start": 273,
                     "end": 287
                 },
                 "argumentList": {

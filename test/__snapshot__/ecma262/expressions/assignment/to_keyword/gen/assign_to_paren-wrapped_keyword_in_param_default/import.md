@@ -99,9 +99,9 @@ async (x = (import) = f) => {}
                                     "start": 18,
                                     "end": 24
                                 },
-                                "flags": 10,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 10,
                                 "end": 24
                             },
                             "flags": 32,

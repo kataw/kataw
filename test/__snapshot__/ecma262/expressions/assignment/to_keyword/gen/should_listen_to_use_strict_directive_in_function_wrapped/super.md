@@ -122,9 +122,9 @@ function f() {
                                     "start": 34,
                                     "end": 43
                                 },
-                                "flags": 30,
+                                "flags": 33,
                                 "transformFlags": 0,
-                                "start": 33,
+                                "start": 30,
                                 "end": 44
                             },
                             "flags": 16,

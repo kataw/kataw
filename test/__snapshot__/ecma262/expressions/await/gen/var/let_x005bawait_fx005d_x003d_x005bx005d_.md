@@ -224,9 +224,9 @@ var await; var f = (async function() { let [await f] = []; });
                                 "start": 20,
                                 "end": 60
                             },
-                            "flags": 18,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 18,
                             "end": 61
                         },
                         "flags": 16,

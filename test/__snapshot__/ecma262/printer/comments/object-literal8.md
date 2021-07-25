@@ -109,9 +109,9 @@
                     "start": 1,
                     "end": 46
                 },
-                "flags": 0,
+                "flags": 34,
                 "transformFlags": 0,
-                "start": 34,
+                "start": 0,
                 "end": 52
             },
             "flags": 16,
@@ -166,9 +166,9 @@
                     "start": 56,
                     "end": 78
                 },
-                "flags": 53,
+                "flags": 35,
                 "transformFlags": 0,
-                "start": 35,
+                "start": 53,
                 "end": 79
             },
             "flags": 16,
@@ -190,7 +190,7 @@
 ### Printed
 
 ```javascript
-({ async /*2*/ */*3*/ /*4*/ x /*5*/(/*6*/ ) {} } /*7*/);
+(/*1*/ { async /*2*/ */*3*/ /*4*/ x /*5*/(/*6*/ ) {} } /*7*/);
 ({
     /*1*/
     x: 0

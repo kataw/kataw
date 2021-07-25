@@ -51,9 +51,9 @@ async ([(a) = [] ] = []);
                                                     "start": 9,
                                                     "end": 10
                                                 },
-                                                "flags": 8,
+                                                "flags": 32,
                                                 "transformFlags": 0,
-                                                "start": 32,
+                                                "start": 8,
                                                 "end": 11
                                             },
                                             "operatorToken": {

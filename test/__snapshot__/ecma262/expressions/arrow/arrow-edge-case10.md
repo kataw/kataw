@@ -54,9 +54,9 @@ a ? <T>(b) : c => (d) : e => f;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 10
                 },
                 "colonToken": {

@@ -179,6 +179,7 @@ declare class B {
 
 ```javascript
 ✖ Identifier expected - start: 26, end: 28
+✖ Expected a valid subtraction operand - start: 26, end: 28
 ✖ Identifier expected - start: 28, end: 30
 
 ```

@@ -217,9 +217,9 @@
                         "start": 25,
                         "end": 38
                     },
-                    "flags": 23,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 23,
                     "end": 39
                 },
                 "argumentList": {
@@ -458,9 +458,9 @@
                         "start": 70,
                         "end": 88
                     },
-                    "flags": 70,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 70,
                     "end": 89
                 },
                 "argumentList": {

@@ -379,9 +379,9 @@ new (A, B)();
                             "start": 50,
                             "end": 57
                         },
-                        "flags": 50,
+                        "flags": 33,
                         "transformFlags": 0,
-                        "start": 33,
+                        "start": 50,
                         "end": 58
                     },
                     "expression": {
@@ -393,7 +393,7 @@ new (A, B)();
                         "start": 59,
                         "end": 60
                     },
-                    "flags": 50,
+                    "flags": 33,
                     "transformFlags": 2,
                     "start": 50,
                     "end": 60
@@ -781,9 +781,9 @@ new (A, B)();
                         "start": 121,
                         "end": 128
                     },
-                    "flags": 121,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 121,
                     "end": 129
                 },
                 "argumentList": {
@@ -978,9 +978,9 @@ new (A, B)();
                         "start": 164,
                         "end": 171
                     },
-                    "flags": 164,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 164,
                     "end": 171
                 },
                 "argumentList": {

@@ -78,9 +78,9 @@ function *f(x = (return) = f) {}
                                 "start": 17,
                                 "end": 17
                             },
-                            "flags": 15,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 15,
                             "end": 17
                         },
                         "flags": 34,

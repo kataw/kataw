@@ -69,9 +69,9 @@ new (x().y)();
                         "start": 3,
                         "end": 10
                     },
-                    "flags": 3,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 3,
                     "end": 11
                 },
                 "argumentList": {

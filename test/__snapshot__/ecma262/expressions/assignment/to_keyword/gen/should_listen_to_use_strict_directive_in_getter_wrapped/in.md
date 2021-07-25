@@ -140,9 +140,9 @@ foo = {
                                                                 "start": 42,
                                                                 "end": 44
                                                             },
-                                                            "flags": 36,
+                                                            "flags": 33,
                                                             "transformFlags": 0,
-                                                            "start": 33,
+                                                            "start": 36,
                                                             "end": 44
                                                         },
                                                         "operatorToken": {

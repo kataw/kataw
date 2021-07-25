@@ -311,9 +311,9 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 46,
                         "end": 53
                     },
-                    "flags": 46,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 46,
                     "end": 53
                 },
                 "flags": 97,
@@ -375,9 +375,9 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 58,
                         "end": 65
                     },
-                    "flags": 58,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 58,
                     "end": 65
                 },
                 "colonToken": {
@@ -471,9 +471,9 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 78,
                         "end": 85
                     },
-                    "flags": 78,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 78,
                     "end": 85
                 },
                 "flags": 97,
@@ -535,9 +535,9 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 90,
                         "end": 97
                     },
-                    "flags": 90,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 90,
                     "end": 97
                 },
                 "colonToken": {

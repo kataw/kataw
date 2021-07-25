@@ -80,9 +80,9 @@ function *f(x = (package) = f) {}
                                     "start": 17,
                                     "end": 24
                                 },
-                                "flags": 15,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 15,
                                 "end": 25
                             },
                             "operatorToken": {

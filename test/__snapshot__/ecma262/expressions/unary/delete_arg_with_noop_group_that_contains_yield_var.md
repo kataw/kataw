@@ -73,29 +73,29 @@ delete (((((foo(yield)))))).bar
                                             "start": 11,
                                             "end": 22
                                         },
-                                        "flags": 11,
+                                        "flags": 32,
                                         "transformFlags": 0,
-                                        "start": 32,
+                                        "start": 11,
                                         "end": 23
                                     },
-                                    "flags": 10,
+                                    "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
+                                    "start": 10,
                                     "end": 24
                                 },
-                                "flags": 9,
+                                "flags": 32,
                                 "transformFlags": 0,
-                                "start": 32,
+                                "start": 9,
                                 "end": 25
                             },
-                            "flags": 8,
+                            "flags": 32,
                             "transformFlags": 0,
-                            "start": 32,
+                            "start": 8,
                             "end": 26
                         },
-                        "flags": 6,
+                        "flags": 32,
                         "transformFlags": 0,
-                        "start": 32,
+                        "start": 6,
                         "end": 27
                     },
                     "expression": {
@@ -107,7 +107,7 @@ delete (((((foo(yield)))))).bar
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 38,
+                    "flags": 32,
                     "transformFlags": 2,
                     "start": 6,
                     "end": 31

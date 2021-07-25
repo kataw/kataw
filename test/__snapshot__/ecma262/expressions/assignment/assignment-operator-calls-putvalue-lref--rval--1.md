@@ -494,9 +494,9 @@ Object.defineProperty(this, "x", {
                                                                                     "start": 198,
                                                                                     "end": 218
                                                                                 },
-                                                                                "flags": 198,
+                                                                                "flags": 32,
                                                                                 "transformFlags": 0,
-                                                                                "start": 32,
+                                                                                "start": 198,
                                                                                 "end": 219
                                                                             },
                                                                             "flags": 0,
@@ -619,9 +619,9 @@ Object.defineProperty(this, "x", {
                         "start": 109,
                         "end": 252
                     },
-                    "flags": 106,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 106,
                     "end": 253
                 },
                 "argumentList": {

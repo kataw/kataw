@@ -47,9 +47,9 @@
                         "start": 0,
                         "end": 8
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "transformFlags": 0,
-                    "start": 32,
+                    "start": 0,
                     "end": 9
                 },
                 "expression": {
@@ -102,9 +102,9 @@
                         "start": 14,
                         "end": 23
                     },
-                    "flags": 14,
+                    "flags": 33,
                     "transformFlags": 0,
-                    "start": 33,
+                    "start": 14,
                     "end": 24
                 },
                 "argumentList": {
