@@ -19,7 +19,7 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 * [CST keywords](#CSTkeywords)
 * [ESNext](#ESNext)
 * [Diagnostics](#Diagnostics)
- 	* [Dianostic arguments](#DiagnosticArgs)
+ 	* [Diagnostic arguments](#DiagnosticArgs)
 * [Types](#Types)
 * [Comments](#Comments)
 * [Transformation](#Transformation)
