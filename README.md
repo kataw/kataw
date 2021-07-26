@@ -18,6 +18,8 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 * [CST nodes](#CSTnodes)
 * [CST keywords](#CSTkeywords)
 * [ESNext](#ESNext)
+* [Diagnostics](#Diagnostics)
+ 	* [Dianostic arguments](#DiagnosticArgs)
 * [Types](#Types)
 * [Comments](#Comments)
 * [Transformation](#Transformation)
@@ -97,7 +99,7 @@ Here is a few examples:
 ```
 
 A third benefit with this CST parser is that it is running in `recovery mode` by `default` and can be used in any editor. A build-in diagnostic system reports diagnostics if an `error handler` have been used. The diagnostics are dynamic. It means all the diagnostics are informative, and they will change based on the context you
-are parsing in. The diagnostics have been designed like this so you can quickly understand what the problem is and correct it.
+are parsing in. 
 
 These features used together gives you more options to adjust, modify and customize the CST tree compared to a regular AST parser and you can also write fewer
 code lines and at the same time experience insane performance.
@@ -153,6 +155,35 @@ All keywords in Kataw is it's own CST node, and you create them in almost the sa
 ```ts
 kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.NoChildren, /* start */ 1,  /* end */ 5);
 ```
+
+## <a name='Diagnostics'></a>Diagnostics
+
+Diagnostics in Kataw can either be `error`, `warning` or `lint failure`.
+
+The diagnostics have been designed like this so you can quickly understand what the problem is and correct it.
+
+Adding a error handler as the 3rd argument will enable diagnostics. The diagnostics are flexible and let you
+use them together with Kataw's own reporters or you can create your own reporter or whatever is your use case.
+
+Here is how it works:
+
+```ts
+import { parseScript } from 'kataw';
+
+parseScript('[x', { next: true }, function(diagnosticSource, kind, message, start, end) {
+});
+```     
+
+### <a name='DiagnosticArgs'></a>Diagnostic arguments
+
+| Param        |   Description |
+| ----------- |------------------------------------------------- |
+| `diagnosticSource`  | Is either `Lexer` or `Printer`. |
+| `kind`    | Is either `lint`, `error`, `warning` |
+| `message`    | The diagnostic message |
+| `start`    | The start position of the diagnostics |
+| `end`    | The end position of the diagnostics |
+
 
 ## <a name='ESNext'></a>ESNext
 
