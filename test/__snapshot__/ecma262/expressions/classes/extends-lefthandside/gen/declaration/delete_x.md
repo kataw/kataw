@@ -121,7 +121,7 @@ class A extends delete x {}
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 24
+✖ Expression expected - start: 15, end: 22
 ✖ 'delete' cannot be called on an identifier in strict mode. - start: 24, end: 26
 
 ```

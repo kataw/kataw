@@ -106,7 +106,7 @@ var x = typ\u0065of 'blah'
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 7, end: 26
+✖ Keywords cannot contain escape characters - start: 7, end: 19
 
 ```
 

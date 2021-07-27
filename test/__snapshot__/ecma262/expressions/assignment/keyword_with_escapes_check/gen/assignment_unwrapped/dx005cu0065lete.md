@@ -95,7 +95,7 @@ d\u0065lete = x;
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 0, end: 13
+✖ Keywords cannot contain escape characters - start: 0, end: 11
 ✖ Identifier expected - start: 11, end: 13
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 13
 

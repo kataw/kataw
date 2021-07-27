@@ -95,7 +95,7 @@ v\u006fid = x;
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 0, end: 11
+✖ Keywords cannot contain escape characters - start: 0, end: 9
 ✖ Identifier expected - start: 9, end: 11
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 9, end: 11
 

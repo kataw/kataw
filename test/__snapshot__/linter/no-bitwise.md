@@ -82,7 +82,7 @@ a | b
 ### Diagnostics
 
 ```javascript
-✖ Unexpected use of '{0}' - start: 1, end: 3
+✖ Forbidden bitwise operation - start: 1, end: 3
 
 ```
 

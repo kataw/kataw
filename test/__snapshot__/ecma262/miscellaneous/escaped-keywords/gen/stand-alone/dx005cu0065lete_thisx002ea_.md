@@ -86,7 +86,7 @@ d\u0065lete this.a;
 ### Diagnostics
 
 ```javascript
-✖ Keywords cannot contain escape characters - start: 0, end: 16
+✖ Keywords cannot contain escape characters - start: 0, end: 11
 
 ```
 

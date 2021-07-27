@@ -246,7 +246,7 @@
   "'{0}' statements must be braced": 262,
   "Parentheses are prohibited around the parameter in this single parameter arrow function": 263,
   "Unexpected 'debugger' statement": 264,
-  "Unexpected use of '{0}'": 265,
+  "Forbidden bitwise operation": 265,
   "Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type": 266,
   "Use a for...of statement instead of for...in. If iterating over an object, use Object.keys() to access its enumerable keys.": 267,
   "Unexpected var, use let or const instead": 268,

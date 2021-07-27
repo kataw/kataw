@@ -222,21 +222,21 @@ export interface LinterOptions {
  * The linter rules.
  */
 export interface LinterRules {
-  noCatchAssign?: boolean;
+  noCatchAssign?: boolean; // TODO
   noCommaOperator?: boolean;
   noDebugger?: boolean;
   noDelete?: boolean;
   noEmptyBlocks?: boolean;
-  defaultClause?: boolean; // dili
+  defaultClause?: boolean;
   noBitwise?: boolean;
-  trailingComma?: boolean;
+  trailingComma?: boolean; // TODO
   noVar?: boolean;
-  noUnusedVariables?: boolean;
+  noUnusedVariables?: boolean; // TODO
   noSparseArray?: boolean;
   noNestedTernary?: boolean;
   switchDefault?: boolean;
   noUnsafeFinally?: boolean;
-  quotemark?: boolean;
+  quotemark?: boolean; // REMOVE
   noNullKeyword?: boolean;
   noForIn?: boolean;
   noEval?: boolean;
@@ -244,15 +244,15 @@ export interface LinterRules {
   noConsole?: boolean;
   noAny?: boolean;
   arrowParens?: boolean;
-  enforceCurly?: boolean;
-  linebreakStyle?: boolean;
+  enforceCurly?: boolean; // TODO
+  linebreakStyle?: boolean; // TODO
   noArg?: boolean;
-  noDefaultExport?: boolean;
-  noNullUndefinedUnion?: boolean;
-  noTrailingWhitespace?: boolean;
-  noUseBeforeDeclare?: boolean;
-  preferConst?: boolean;
-  noWhitespace?: boolean;
+  noDefaultExport?: boolean; // CHANGE
+  noNullUndefinedUnion?: boolean; // CHANGE
+  noTrailingWhitespace?: boolean; // TODO
+  noUseBeforeDeclare?: boolean; // TODO
+  preferConst?: boolean; // TODO
+  noWhitespace?: boolean; // TODO
 }
 
 /**
@@ -374,6 +374,7 @@ export function parse(
 
   const statements = [];
   const directives = [];
+
   let expr!: StringLiteral;
 
   // Parse one or more directives at the beginning
@@ -434,7 +435,7 @@ function parseModuleItem(
 
   if (next === SyntaxKind.ImportKeyword) {
     // dynamic import expression and import.meta expressions are parsed as part
-    // of the import declaration to avoid any lookaheads
+    // of the import declaration to avoid unnecessary lookaheads
     return parseImportDeclaration(parser, context, scope, /* isScript*/ false);
   }
   return parseStatementListItem(parser, context, scope, labels, ownLabels);
@@ -2121,7 +2122,7 @@ function parseBinaryExpression(
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Lint,
-            diagnosticMap[DiagnosticCode.Unexpected_use_of_0],
+            diagnosticMap[DiagnosticCode.Forbidden_bitwise_operation],
             parser.curPos,
             parser.pos
           );
@@ -2783,13 +2784,15 @@ function parsePrimaryExpression(
     case SyntaxKind.Increment:
       return parsePrefixUpdateExpression(parser, context, leftHandSideContext);
     case SyntaxKind.DeleteKeyword:
-    case SyntaxKind.Negate:
+      return parseUnaryExpression(parser, context, /* isDelete */ true, /* isComplement */ false);
     case SyntaxKind.Complement:
+      return parseUnaryExpression(parser, context, /* isDelete */ false, /* isComplement */ true);
+    case SyntaxKind.Negate:
     case SyntaxKind.Add:
     case SyntaxKind.Subtract:
     case SyntaxKind.TypeofKeyword:
     case SyntaxKind.VoidKeyword:
-      return parseUnaryExpression(parser, context, leftHandSideContext);
+      return parseUnaryExpression(parser, context, /* isDelete */ false, /* isComplement */ false);
     case SyntaxKind.FunctionKeyword:
       return parseFunctionExpression(parser, context, leftHandSideContext);
     case SyntaxKind.Decorator:
@@ -3777,32 +3780,29 @@ export function isPropertyWithPrivateFieldKey(node: any): boolean {
 function parseUnaryExpression(
   parser: ParserState,
   context: Context,
-  leftHandSideContext: LeftHandSide
+  isDelete: boolean,
+  isComplement: boolean
 ): UnaryExpression {
   const curPos = parser.curPos;
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoBitwise && parser.token === SyntaxKind.Complement) {
+
+  // `linter; NoBitwise`
+  if (isComplement && context & Context.Lint && parser.linterFlags & LinterFlags.NoBitwise) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
-      diagnosticMap[DiagnosticCode.Unexpected_use_of_0],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  const operandToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
-  if (operandToken.flags & Constants.IsEscaped || leftHandSideContext & LeftHandSide.DisallowClassExtends) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[
-        operandToken.flags & Constants.IsEscaped
-          ? DiagnosticCode.Keywords_cannot_contain_escape_characters
-          : DiagnosticCode.Expression_expected
-      ],
+      diagnosticMap[DiagnosticCode.Forbidden_bitwise_operation],
       curPos,
       parser.pos
     );
   }
+
+  const operandToken = consumeAndCheckForEscapeSequence(
+    parser,
+    context | Context.AllowRegExp,
+    NodeFlags.ExpressionNode,
+    curPos
+  );
+
   const expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
   if ((parser.token as SyntaxKind) === SyntaxKind.Exponentiate) {
@@ -3813,7 +3813,9 @@ function parseUnaryExpression(
     );
   }
 
-  if (operandToken.kind === SyntaxKind.DeleteKeyword) {
+  // For performance reasons it's more performant to use an boolean rarther
+  // than 'operandToken.kind === SyntaxKind.DeleteKeyword'
+  if (isDelete) {
     if (context & Context.Strict && expression.kind === SyntaxKind.Identifier) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
       // UnaryExpression is a direct reference to a variable, function argument, or function name
@@ -5662,7 +5664,9 @@ function parseFunctionExpression(
       // - `async<T>()`
       // - `async <T>() => {}`
       // - `(async<T>())`
-      if (parser.token === SyntaxKind.LessThan && context & Context.OptionsAllowTypes) {
+      if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
+        // Consumes the '<' and save it as an 'operatortoken' in case this isn't an 'TypeParameter' and
+        // it need to be parsed as an 'BinaryExpression' instead
         const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
         if (parser.token & Constants.Identifier) {
           const name: any = parseIdentifier(parser, context, Constants.Identifier);
@@ -5680,7 +5684,22 @@ function parseFunctionExpression(
                     parser,
                     context,
                     expression,
-                    /* typeParameters */ null,
+                    createTypeParameterDeclaration(
+                      [
+                        createTypeParameter(
+                          name,
+                          /* type */ null,
+                          /* assignToken */ null,
+                          /* defaultType */ null,
+                          name.start,
+                          parser.curPos
+                        )
+                      ],
+                      /* trailingComma */ false,
+                      NodeFlags.IsTypeNode,
+                      pos,
+                      parser.curPos
+                    ),
                     LeftHandSide.None,
                     flags,
                     pos
@@ -5690,22 +5709,6 @@ function parseFunctionExpression(
                 false
               )
             ) {
-              expression.typeParameters = createTypeParameterDeclaration(
-                [
-                  createTypeParameter(
-                    name,
-                    /* type */ null,
-                    /* assignToken */ null,
-                    /* defaultType */ null,
-                    name.start,
-                    parser.curPos
-                  )
-                ],
-                /* trailingComma */ false,
-                NodeFlags.IsTypeNode,
-                pos,
-                parser.curPos
-              );
               return expression;
             }
 
@@ -5842,14 +5845,13 @@ function parseFunctionExpression(
                       parser,
                       context,
                       expression,
-                      /* typeParameters */ null,
+                      typeParameters,
                       LeftHandSide.None,
                       flags,
                       pos
                     ) as any;
-                    if (expression.kind !== SyntaxKind.ArrowFunction) return false;
-                    expression.typeParameters = typeParameters;
-                    return true;
+
+                    return expression.kind === SyntaxKind.ArrowFunction;
                   },
                   false
                 )
@@ -5940,12 +5942,13 @@ function parseFunctionExpression(
   const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   let name = null;
+  let firstRestricted!: SyntaxKind;
+
   let scope: any = {
     kind: ScopeKind.Block,
     scope: null,
     flags: ScopeFlags.None
   };
-  let firstRestricted!: SyntaxKind;
 
   // The name is optional
   if (parser.token & Constants.Identifier) {
@@ -6420,8 +6423,8 @@ function parseFunctionDeclaration(
               /* returnType */ null,
               /* params */ expression,
               /* asyncToken */ null,
-              /* nodeFlags */ NodeFlags.ExpressionNode | NodeFlags.Async,
-              /* pos */ pos
+              /* nodeFlags */ NodeFlags.Async,
+              pos
             ),
             pos
           ),
@@ -9214,7 +9217,7 @@ function parseYieldIdentifierOrExpression(
       /* returnType */ null,
       /* params */ expression,
       /* asyncToken */ null,
-      /* nodeFlags */ NodeFlags.ExpressionNode,
+      /* nodeFlags */ NodeFlags.None,
       pos
     );
   }
@@ -9424,7 +9427,7 @@ function parseClassDeclaration(
           /* returnType */ null,
           /* params */ expr,
           /* asyncToken */ null,
-          /* nodeFlags */ NodeFlags.ExpressionNode,
+          /* nodeFlags */ NodeFlags.None,
           pos
         );
       }
@@ -9565,7 +9568,19 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
       NodeFlags.IsStatement,
       pos
     );
-
+    // Forbid cases like `class x extends delete {}` and `class x extends typeof {}`
+    if (
+      parser.token === SyntaxKind.TypeofKeyword ||
+      parser.token === SyntaxKind.VoidKeyword ||
+      parser.token === SyntaxKind.Negate ||
+      parser.token === SyntaxKind.Add ||
+      parser.token === SyntaxKind.Subtract ||
+      parser.token === SyntaxKind.VoidKeyword ||
+      parser.token === SyntaxKind.VoidKeyword ||
+      parser.token === SyntaxKind.DeleteKeyword
+    ) {
+      report(parser, parser.curPos, DiagnosticCode.Expression_expected);
+    }
     const curPos = parser.curPos;
     classHeritage = createClassHeritage(
       extendsToken,
@@ -10881,7 +10896,7 @@ function parseOpaqueType(
       /* returnType */ null,
       /* params */ expr,
       /* asyncToken */ null,
-      /* nodeFlags */ NodeFlags.ExpressionNode,
+      /* nodeFlags */ NodeFlags.None,
       pos
     ) as any;
   }
