@@ -266,7 +266,8 @@ export const enum DiagnosticCode {
   _0_statements_in_finally_blocks_are_forbidden = 279,
   Array_has_a_missing_element = 280,
   Object_literal_keys_that_are_strings_or_numbers_must_be_a_method_or_have_a_colon = 281,
-  Computed_property_must_be_followed_by_a_colon = 282
+  Computed_property_must_be_followed_by_a_colon = 282,
+  Use_while_loops_instead_of_for_loops = 283
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -539,5 +540,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [279]: "'{0}' statements in finally blocks are forbidden.",
   [280]: 'Array has a missing element',
   [281]: 'Object literal keys that are strings or numbers must be a method or have a colon',
-  [282]: 'Computed property must be followed by a colon'
+  [282]: 'Computed property must be followed by a colon',
+  [283]: "Use 'while' loops instead of 'for' loops."
 };

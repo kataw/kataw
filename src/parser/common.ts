@@ -68,7 +68,8 @@ export const enum Context {
   DecoratorContext = 1 << 27,
   InType = 1 << 28,
   TaggedTemplate = 1 << 23,
-  Lint = 1 << 29
+  Lint = 1 << 29,
+  Hint = 1 << 30
 }
 
 export const enum LinterFlags {

@@ -202,6 +202,7 @@ export interface Options {
   impliedStrict?: boolean;
   allowTypes?: boolean;
   lint?: any;
+  hint?: boolean;
 }
 
 /** The linter options. */
@@ -292,6 +293,7 @@ export function parse(
     if (options.impliedStrict) context |= Context.Strict;
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
+    if (options.hint) context |= Context.Hint;
     if (options.lint) {
       const rules = options.lint;
       context |= Context.Lint;
@@ -300,7 +302,7 @@ export function parse(
       if (rules.noDebugger) lintFlags |= LinterFlags.NoDebugger;
       if (rules.noDelete) lintFlags |= LinterFlags.NoDelete;
       if (rules.noEmptyBlocks) lintFlags |= LinterFlags.NoEmptyBlocks;
-      if (rules.DefaultClause) lintFlags |= LinterFlags.DefaultClause;
+      if (rules.defaultClause) lintFlags |= LinterFlags.DefaultClause;
       if (rules.noBitwise) lintFlags |= LinterFlags.NoBitwise;
       if (rules.trailingComma) lintFlags |= LinterFlags.TrailingComma;
       if (rules.noVar) lintFlags |= LinterFlags.NoVar;
@@ -1662,6 +1664,16 @@ function parseForStatement(
   consume(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
 
   if (parser.token !== SyntaxKind.RightParen) incrementor = parseExpressionCoverGrammar(parser, context);
+
+  if (context & Context.Hint && !initializer && !condition) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Hint,
+      diagnosticMap[DiagnosticCode.Use_while_loops_instead_of_for_loops],
+      pos,
+      parser.curPos
+    );
+  }
 
   consume(
     parser,

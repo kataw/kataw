@@ -263,5 +263,6 @@
   "'{0}' statements in finally blocks are forbidden.": 279,
   "Array has a missing element": 280,
   "Object literal keys that are strings or numbers must be a method or have a colon": 281,
-  "Computed property must be followed by a colon": 282
+  "Computed property must be followed by a colon": 282,
+  "Use 'while' loops instead of 'for' loops.": 283
   }

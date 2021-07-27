@@ -11,7 +11,7 @@ switch (x) { case y: z; }
 ### Parser Options
 
 `````js
-{ allowTypes: true, lint: { DefaultClause: true } }
+{ allowTypes: true, lint: { defaultClause: true } }
 `````
 
 ## Output

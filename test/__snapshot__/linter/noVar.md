@@ -3,7 +3,8 @@
 ## Input
 
 `````js
-let x: any;
+var foobar;
+		foobar;
 `````
 
 ## Options
@@ -11,7 +12,7 @@ let x: any;
 ### Parser Options
 
 `````js
-{ allowTypes: true, lint: { noAny: true } }
+{ lint: { noVar: true } }
 `````
 
 ## Output
@@ -24,44 +25,30 @@ let x: any;
     "directives": [],
     "statements": [
         {
-            "kind": 162,
-            "lexicalKeyword": {
-                "kind": 41951307,
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
                 "flags": 80,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
-            "binding": {
-                "kind": 151,
-                "bindingList": [
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
                     {
-                        "kind": 190,
+                        "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "foobar",
+                            "rawText": "foobar",
                             "flags": 96,
                             "transformFlags": 0,
                             "start": 3,
-                            "end": 5
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234252,
-                                "flags": 2097216,
-                                "transformFlags": 0,
-                                "start": 6,
-                                "end": 10
-                            },
-                            "flags": 2097152,
-                            "transformFlags": 0,
-                            "start": 6,
                             "end": 10
                         },
+                        "type": null,
                         "initializer": null,
                         "flags": 16,
                         "transformFlags": 4224,
@@ -74,19 +61,35 @@ let x: any;
                 "start": 3,
                 "end": 10
             },
-            "flags": 33554448,
+            "flags": 16,
             "transformFlags": 0,
             "start": 0,
             "end": 11
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "foobar",
+                "rawText": "foobar",
+                "flags": 97,
+                "transformFlags": 0,
+                "start": 11,
+                "end": 20
+            },
+            "flags": 16,
+            "transformFlags": 4096,
+            "start": 11,
+            "end": 21
         }
     ],
     "isModule": false,
-    "source": "let x: any;",
+    "source": "var foobar;\n\t\tfoobar;",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 11
+    "end": 21
 }
 ```
 
@@ -99,7 +102,7 @@ let x: any;
 ### Diagnostics
 
 ```javascript
-✖ Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type - start: 6, end: 10
+✖ Unexpected var, use let or const instead - start: 3, end: 10
 
 ```
 
