@@ -149,8 +149,10 @@ export { getLeadingComments, getTrailingComments } from './parser/scanner/commen
 export { visitEachChild, visitNodes, visitNode } from './visitor';
 export { createUniqueIdentifier } from './ast/internal/unique-identifier';
 export { fuzzModule, fuzzScript } from './fuzzer/';
-export { aladdin } from './reporter/aladdin';
-export { listing } from './reporter/listing';
+export { aladdin } from './diagnostic/reporters/aladdin'
+export { eslint } from './diagnostic/reporters/eslint';
+export { compact } from './diagnostic/reporters/compact';
+export { unix } from './diagnostic/reporters/unix';
 export {
   isStatementNode,
   isExpressionNode,
@@ -220,7 +222,11 @@ export function print(root: any, options?: PrinterOptions): string {
   return printSource(root, options);
 }
 
-export function lintScript(source: string, options: LinterOptions, lint: LinterRules): RootNode {
+export function lintScript(
+  source: string,
+  options: LinterOptions,
+  lint: LinterRules
+): RootNode {
   return parse(
     source,
     /* filename */ '__root__',
@@ -233,7 +239,11 @@ export function lintScript(source: string, options: LinterOptions, lint: LinterR
   );
 }
 
-export function lintModule(source: string, options: LinterOptions, lint: LinterRules): RootNode {
+export function lintModule(
+  source: string,
+  options: LinterOptions,
+  lint: LinterRules
+): RootNode {
   return parse(
     source,
     '__root__',

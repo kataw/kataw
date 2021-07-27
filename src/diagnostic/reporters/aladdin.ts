@@ -1,4 +1,4 @@
-import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../diagnostic';
 import { ColorCodes, diagnosticColor, getLineNumber, getLine, getLinePos } from './common';
 
 export function aladdin(

@@ -1,6 +1,7 @@
-import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../diagnostic';
 
 export const enum ColorCodes {
+  Underline = '\x1B[4m',
   Gray = '\x1b[37;1m',
   aWhite = '\u001b[32;1m',
   White = '\x1b[37m',
@@ -40,6 +41,16 @@ export function getLineNumber(src: string, pos: number) {
     }
     lineCount++;
     currentIdx = next;
+  }
+}
+
+export function getDiagnosticType(kind: DiagnosticKind) {
+  if (kind === DiagnosticKind.Error) {
+    return ColorCodes.Red + 'Error' + ColorCodes.Reset;
+  } else if (kind === DiagnosticKind.Lint) {
+    return ColorCodes.Green + 'Lint' + ColorCodes.Reset;
+  } else {
+    return ColorCodes.Yellow + 'Warning' + ColorCodes.Reset;
   }
 }
 
