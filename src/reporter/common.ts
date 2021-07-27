@@ -46,7 +46,11 @@ export function getLineNumber(src: string, pos: number) {
 export function diagnosticColor(kind: DiagnosticKind): any {
   switch (kind) {
     case DiagnosticKind.Hint:
+<<<<<<< HEAD
     case DiagnosticKind.Linter:
+=======
+    case DiagnosticKind.Lint:
+>>>>>>> 38ddf5c17d (chore: add linting as public APO)
       return ColorCodes.Green;
     case DiagnosticKind.Error:
       return ColorCodes.Red;

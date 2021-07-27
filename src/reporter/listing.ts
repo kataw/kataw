@@ -3,7 +3,11 @@ import { ColorCodes } from './common';
 
 export function diagnosticColor1(kind: DiagnosticKind): string {
   switch (kind) {
+<<<<<<< HEAD
     case DiagnosticKind.Linter:
+=======
+    case DiagnosticKind.Lint:
+>>>>>>> 38ddf5c17d (chore: add linting as public APO)
       return ColorCodes.Green + ' lint ' + ColorCodes.Reset;
     case DiagnosticKind.Error:
       return ColorCodes.Red + ' error ' + ColorCodes.Reset;
