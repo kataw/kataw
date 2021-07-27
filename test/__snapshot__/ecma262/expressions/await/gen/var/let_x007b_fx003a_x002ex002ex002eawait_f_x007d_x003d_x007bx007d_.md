@@ -308,7 +308,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 47, end: 51
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 47, end: 51
 ✖ ',' expected - start: 47, end: 51
 ✖ ',' expected - start: 56, end: 58
 

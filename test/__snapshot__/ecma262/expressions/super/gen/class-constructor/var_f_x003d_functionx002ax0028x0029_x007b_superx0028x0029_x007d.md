@@ -122,7 +122,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                     "end": 42
                                                                 },
                                                                 "asteriskToken": {
-                                                                    "kind": 67143222,
+                                                                    "kind": 201360950,
                                                                     "flags": 64,
                                                                     "transformFlags": 32,
                                                                     "start": 42,

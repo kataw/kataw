@@ -86,7 +86,7 @@ import { ArrayType } from '../ast/types/array-type';
 import { ObjectType } from '../ast/types/object-type';
 import { BigIntType } from '../ast/types/big-int-type';
 import { NumberType } from '../ast/types/number-type';
-import { ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
+import { TypeSpreadProperty } from '../ast/types/type-spread-property';
 import { TypeAlias } from '../ast/types/type-alias-declaration';
 import { ArrowFunctionType } from '../ast/types/arrow-function-type';
 import { ArrowTypeParameter } from '../ast/types/arrow-type-parameter';
@@ -94,10 +94,10 @@ import { ArrowTypeParameterList } from '../ast/types/arrow-type-parameter-list';
 import { FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
 import { FunctionTypeParameter } from '../ast/types/function-type-parameter';
 import { NullableType } from '../ast/types/nullable-type';
-import { ObjectTypeCallProperty } from '../ast/types/object-type-call-property';
-import { ObjectTypeIndexer } from '../ast/types/object-type-indexer';
-import { ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
-import { ObjectTypeProperty } from '../ast/types/object-type-property';
+import { CallSignature } from '../ast/types/call-signature';
+import { IndexSignatureDeclaration } from '../ast/types/index-signature-declaration';
+import { InternalSlot } from '../ast/types/internal-slot';
+import { TypeProperty } from '../ast/types/type-property';
 import { OpaqueType } from '../ast/types/opaque-type';
 import { QualifiedType } from '../ast/types/qualified-type';
 import { TypeAnnotation } from '../ast/types/type-annotation';
@@ -218,7 +218,7 @@ export const nodeLookupMap: any = {
   [SyntaxKind.OptionalType]: printOptionalType,
   [SyntaxKind.OptionalIndexedAccess]: printOptionalIndexedAccess,
   [SyntaxKind.OpaqueType]: printOpaqueType,
-  [SyntaxKind.ObjectTypeSpreadProperty]: printObjectTypeSpreadProperty,
+  [SyntaxKind.TypeSpreadProperty]: printTypeSpreadProperty,
   [SyntaxKind.ArrowFunctionType]: printArrowFunctionType,
   [SyntaxKind.ArrowTypeParameter]: printArrowTypeParameter,
   [SyntaxKind.BigIntType]: printBigIntType,
@@ -228,10 +228,10 @@ export const nodeLookupMap: any = {
   [SyntaxKind.IndexedAccessType]: printIndexedAccessType,
   [SyntaxKind.IntersectionType]: printIntersectionType,
   [SyntaxKind.NullableType]: printNullableType,
-  [SyntaxKind.ObjectTypeCallProperty]: printObjectTypeCallProperty,
-  [SyntaxKind.ObjectTypeIndexer]: printObjectTypeIndexer,
-  [SyntaxKind.ObjectTypeInternalSlot]: printObjectTypeInternalSlot,
-  [SyntaxKind.ObjectTypeProperty]: printObjectTypeProperty,
+  [SyntaxKind.CallSignature]: printCallSignature,
+  [SyntaxKind.IndexSignatureDeclaration]: printIndexSignatureDeclaration,
+  [SyntaxKind.InternalSlot]: printInternalSlot,
+  [SyntaxKind.TypeProperty]: printTypeProperty,
   [SyntaxKind.ArrayType]: printArrayType,
   [SyntaxKind.TypeAnnotation]: printTypeAnnotation,
   [SyntaxKind.Block]: printBlock,
@@ -837,7 +837,7 @@ function printArrayType(printer: Printer, node: any, lineMap: number[]): any {
   return concat([printStatement(printer, node.type, lineMap, node), '[', ']']);
 }
 
-function printObjectTypeProperty(printer: Printer, node: any, lineMap: number[]): any {
+function printTypeProperty(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.protoKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
@@ -859,7 +859,7 @@ function printObjectTypeProperty(printer: Printer, node: any, lineMap: number[])
   ]);
 }
 
-function printObjectTypeInternalSlot(printer: Printer, node: any, lineMap: number[]): any {
+function printInternalSlot(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.protoKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
@@ -879,13 +879,14 @@ function printObjectTypeInternalSlot(printer: Printer, node: any, lineMap: numbe
   ]);
 }
 
-function printObjectTypeIndexer(printer: Printer, node: any, lineMap: number[]): any {
+function printIndexSignatureDeclaration(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.protoKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
     '[',
-    printStatement(printer, node.key, lineMap, node),
-    printPunctuator(']', printer, node.key.end, node),
+    node.key ? printStatement(printer, node.key, lineMap, node) : '',
+    node.value ? printStatement(printer, node.value, lineMap, node) : '',
+    printPunctuator(']', printer, node.value ? node.value.end : node.end, node),
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
       : concat([
@@ -896,7 +897,7 @@ function printObjectTypeIndexer(printer: Printer, node: any, lineMap: number[]):
   ]);
 }
 
-function printObjectTypeCallProperty(printer: Printer, node: any, lineMap: number[]): any {
+function printCallSignature(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.protoKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.staticKeyword, node, /* addSpace */ true),
@@ -1050,7 +1051,7 @@ function printArrowFunctionType(printer: Printer, node: any, lineMap: number[], 
   ]);
 }
 
-function printObjectTypeSpreadProperty(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+function printTypeSpreadProperty(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
   return concat([
     printKeyword(printer, node.protoKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.static, node, /* addSpace */ true),

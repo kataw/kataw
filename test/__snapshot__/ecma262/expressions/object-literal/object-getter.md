@@ -51,7 +51,7 @@ x({get 0o4567(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 3,
@@ -111,7 +111,7 @@ x({get 0o4567(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 13,

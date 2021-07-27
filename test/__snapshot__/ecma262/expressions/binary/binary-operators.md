@@ -123,7 +123,7 @@ a, b;
                     "end": 15
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 96,
                     "transformFlags": 32,
                     "start": 15,

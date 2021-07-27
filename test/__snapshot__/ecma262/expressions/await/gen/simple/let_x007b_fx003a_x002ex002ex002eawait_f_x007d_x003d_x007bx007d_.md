@@ -167,7 +167,7 @@ let { f: ...await f } = {};
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 8, end: 12
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
 ✖ ',' expected - start: 17, end: 19
 

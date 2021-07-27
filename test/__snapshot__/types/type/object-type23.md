@@ -283,7 +283,7 @@ type a = {((((-1) => [c|d]))):string};
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 11, end: 12
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
+✖ ')' is not allowed here. Did you mean ';'? - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30
 ✖ Declaration or statement expected - start: 36, end: 37
 

@@ -76,7 +76,7 @@ class C { static
                             "setKeyword": null,
                             "getKeyword": null,
                             "asteriskToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 65,
                                 "transformFlags": 32,
                                 "start": 16,

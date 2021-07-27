@@ -134,7 +134,7 @@ let {a:=c} = z;
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 7, end: 8
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 7, end: 8
 
 ```
 

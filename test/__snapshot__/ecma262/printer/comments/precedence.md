@@ -331,7 +331,7 @@ g = b + -+-a++;
                             "end": 43
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 43,
@@ -451,7 +451,7 @@ g = b + -+-a++;
                         "end": 75
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 75,
@@ -566,7 +566,7 @@ g = b + -+-a++;
                         "end": 96
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 96,
@@ -2564,7 +2564,7 @@ g = b + -+-a++;
                         "end": 674
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 674,
@@ -4079,7 +4079,7 @@ g = b + -+-a++;
                         "end": 970
                     },
                     "asteriskToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 64,
                         "transformFlags": 32,
                         "start": 970,
@@ -4747,7 +4747,7 @@ g = b + -+-a++;
                         "end": 1198
                     },
                     "asteriskToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 64,
                         "transformFlags": 32,
                         "start": 1198,

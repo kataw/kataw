@@ -34,7 +34,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "end": 8
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 8,

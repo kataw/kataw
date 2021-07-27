@@ -180,7 +180,7 @@ type A5<S = number, T: ?string = string> = T;
                             "bitwiseOrToken": null,
                             "bitwiseAndToken": null,
                             "type": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 2097216,
                                 "transformFlags": 32,
                                 "start": 36,

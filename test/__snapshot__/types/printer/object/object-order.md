@@ -110,7 +110,7 @@ type Foo = {
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": {
+                            "key": {
                                 "kind": 134299649,
                                 "text": "key",
                                 "rawText": "key",
@@ -119,7 +119,7 @@ type Foo = {
                                 "start": 49,
                                 "end": 52
                             },
-                            "key": {
+                            "value": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -228,7 +228,7 @@ type Foo = {
 ```javascript
 type Foo = { // a
   alpha: "'hello'", // b
-  [string]: void, // c
+  [keystring]: void, // c
   beta: 10 }
 ```
 

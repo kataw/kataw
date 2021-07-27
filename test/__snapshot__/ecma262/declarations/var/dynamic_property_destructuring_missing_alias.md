@@ -145,7 +145,7 @@ var {[x]} = z;
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 8, end: 9
+✖ Computed property must be followed by a colon - start: 8, end: 9
 
 ```
 

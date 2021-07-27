@@ -109,7 +109,7 @@
                             "end": 32
                         },
                         "asteriskToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 64,
                             "transformFlags": 32,
                             "start": 32,
@@ -190,7 +190,7 @@
                             "end": 61
                         },
                         "asteriskToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 64,
                             "transformFlags": 32,
                             "start": 61,

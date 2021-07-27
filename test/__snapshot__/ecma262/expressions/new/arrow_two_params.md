@@ -105,12 +105,13 @@ new (a,b) => x
 ### Printed
 
 ```javascript
-new (a, b) => x;
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ';' expected - start: 9, end: 12
+
 ```
 

@@ -351,7 +351,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 299
                                         },
                                         "operatorToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 96,
                                             "transformFlags": 32,
                                             "start": 299,
@@ -515,7 +515,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 399
                                         },
                                         "operatorToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 96,
                                             "transformFlags": 32,
                                             "start": 399,
@@ -536,7 +536,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 414
                                     },
                                     "operatorToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 96,
                                         "transformFlags": 32,
                                         "start": 414,
@@ -1307,7 +1307,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 1009
                                     },
                                     "operatorToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 96,
                                         "transformFlags": 32,
                                         "start": 1009,
@@ -1549,7 +1549,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                         "end": 1145
                                     },
                                     "operatorToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 96,
                                         "transformFlags": 32,
                                         "start": 1145,
@@ -1645,7 +1645,7 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
                                             "end": 1179
                                         },
                                         "operatorToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 96,
                                             "transformFlags": 32,
                                             "start": 1179,

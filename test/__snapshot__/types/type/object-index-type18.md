@@ -100,7 +100,7 @@ var obj: {
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": {
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "id",
                                             "rawText": "id",
@@ -109,7 +109,7 @@ var obj: {
                                             "start": 30,
                                             "end": 32
                                         },
-                                        "key": {
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -231,7 +231,7 @@ var obj: {
 ### Printed
 
 ```javascript
-var obj: { size: number, [number]: string } = {
+var obj: { size: number, [idnumber]: string } = {
   size: 0
 };
 ```

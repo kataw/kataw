@@ -83,7 +83,6 @@ type a = ({} | {[x]:string}) => T;
                                                     "kind": 195,
                                                     "protoKeyword": null,
                                                     "staticKeyword": null,
-                                                    "name": null,
                                                     "key": {
                                                         "kind": 144,
                                                         "typeName": {
@@ -101,6 +100,7 @@ type a = ({} | {[x]:string}) => T;
                                                         "start": 16,
                                                         "end": 18
                                                     },
+                                                    "value": null,
                                                     "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,

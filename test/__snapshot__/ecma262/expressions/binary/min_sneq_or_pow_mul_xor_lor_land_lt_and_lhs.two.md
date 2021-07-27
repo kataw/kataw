@@ -120,7 +120,7 @@ x0 - x1 !== x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 < x9 & x10 << x
                                 "end": 25
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 25,

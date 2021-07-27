@@ -74,7 +74,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                         "end": 30
                                     },
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 30,

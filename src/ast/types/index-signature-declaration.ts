@@ -6,30 +6,30 @@ import { NumericLiteral } from '../expressions/numeric-literal';
 import { DummyIdentifier } from '../internal/dummy-identifier';
 import { TypeNode } from '.';
 
-export interface ObjectTypeIndexer extends SyntaxNode {
-  readonly kind: SyntaxKind.ObjectTypeIndexer;
+export interface IndexSignatureDeclaration extends SyntaxNode {
+  readonly kind: SyntaxKind.IndexSignatureDeclaration;
   readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  readonly name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
-  readonly key: TypeNode;
+  readonly key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
+  readonly value: TypeNode | null;
   readonly type: TypeNode;
   readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 
-export function createObjectTypeIndexer(
+export function createIndexSignatureDeclaration(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null,
-  key: TypeNode,
+  key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null,
+  value: TypeNode | null,
   type: TypeNode,
   start: number,
   end: number
-): ObjectTypeIndexer {
+): IndexSignatureDeclaration {
   return {
-    kind: SyntaxKind.ObjectTypeIndexer,
+    kind: SyntaxKind.IndexSignatureDeclaration,
     protoKeyword,
     staticKeyword,
-    name,
     key,
+    value,
     type,
     flags: NodeFlags.IsTypeNode,
     transformFlags: TransformFlags.None,

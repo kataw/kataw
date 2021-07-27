@@ -292,7 +292,7 @@ class C {
                                                                     "end": 126
                                                                 },
                                                                 "asteriskToken": {
-                                                                    "kind": 67143222,
+                                                                    "kind": 201360950,
                                                                     "flags": 64,
                                                                     "transformFlags": 32,
                                                                     "start": 126,

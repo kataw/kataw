@@ -1316,7 +1316,7 @@ a = { y: x = 1 } = b;
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 255,
@@ -2592,7 +2592,7 @@ a = { y: x = 1 } = b;
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 504,
@@ -3871,7 +3871,7 @@ a = { y: x = 1 } = b;
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 785,
@@ -3962,7 +3962,7 @@ a = { y: x = 1 } = b;
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 801,
@@ -4053,7 +4053,7 @@ a = { y: x = 1 } = b;
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 820,
@@ -4258,7 +4258,7 @@ a = { y: x = 1 } = b;
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 863,
@@ -4365,7 +4365,7 @@ a = { y: x = 1 } = b;
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 884,

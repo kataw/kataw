@@ -58,7 +58,7 @@ label: async function* f() { }
                     "end": 21
                 },
                 "asteriskToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 64,
                     "transformFlags": 32,
                     "start": 21,

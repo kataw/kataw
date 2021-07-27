@@ -161,7 +161,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                 "setKeyword": null,
                                                                 "getKeyword": null,
                                                                 "asteriskToken": {
-                                                                    "kind": 67143222,
+                                                                    "kind": 201360950,
                                                                     "flags": 64,
                                                                     "transformFlags": 32,
                                                                     "start": 48,

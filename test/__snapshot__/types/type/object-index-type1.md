@@ -61,7 +61,6 @@ type X = {[x | y]: string};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 137,
                                 "types": [
@@ -105,6 +104,7 @@ type X = {[x | y]: string};
                                 "start": 12,
                                 "end": 16
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

@@ -942,7 +942,7 @@ foo ? bar : baz => {};
                         "end": 202
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 202,
@@ -1069,7 +1069,7 @@ foo ? bar : baz => {};
                         "end": 226
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 226,
@@ -1650,7 +1650,7 @@ foo ? bar : baz => {};
                                 "end": 351
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 351,
@@ -1689,7 +1689,7 @@ foo ? bar : baz => {};
                                 "end": 357
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 357,
@@ -1804,7 +1804,7 @@ foo ? bar : baz => {};
                             "end": 377
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 377,
@@ -1944,7 +1944,7 @@ foo ? bar : baz => {};
                             "end": 405
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 405,

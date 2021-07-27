@@ -36,7 +36,7 @@ x * async async => ok
                     "end": 1
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 96,
                     "transformFlags": 32,
                     "start": 1,
@@ -113,7 +113,7 @@ x * async async => ok
 ### Diagnostics
 
 ```javascript
-✖ ';' expected - start: 9, end: 15
+✖ ',' expected - start: 9, end: 15
 
 ```
 

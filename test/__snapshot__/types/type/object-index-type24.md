@@ -83,7 +83,6 @@ type X = (x & {[x]:string});
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": null,
                                         "key": {
                                             "kind": 144,
                                             "typeName": {
@@ -101,6 +100,7 @@ type X = (x & {[x]:string});
                                             "start": 15,
                                             "end": 17
                                         },
+                                        "value": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

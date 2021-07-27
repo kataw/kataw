@@ -156,7 +156,7 @@ for (let {[x]} = z);
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 13, end: 14
+✖ Computed property must be followed by a colon - start: 13, end: 14
 ✖ Lexical declaration expected - start: 18, end: 19
 ✖ Identifier expected - start: 18, end: 19
 

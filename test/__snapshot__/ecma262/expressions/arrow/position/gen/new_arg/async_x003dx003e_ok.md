@@ -34,39 +34,49 @@ new async => ok
                     "end": 3
                 },
                 "expression": {
-                    "kind": 134299649,
-                    "text": "async",
-                    "rawText": "async",
-                    "flags": 96,
+                    "kind": 271,
+                    "asyncKeyword": null,
+                    "typeParameters": null,
+                    "arrowPatameterList": {
+                        "kind": 134299649,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 96,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 9
+                    },
+                    "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 12
+                    },
+                    "contents": {
+                        "kind": 134299649,
+                        "text": "ok",
+                        "rawText": "ok",
+                        "flags": 96,
+                        "transformFlags": 0,
+                        "start": 12,
+                        "end": 15
+                    },
+                    "flags": 32,
                     "transformFlags": 0,
                     "start": 3,
-                    "end": 9
+                    "end": 15
                 },
                 "argumentList": null,
                 "flags": 96,
                 "transformFlags": 2048,
                 "start": 0,
-                "end": 9
-            },
-            "flags": 16,
-            "transformFlags": 4096,
-            "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "ok",
-                "rawText": "ok",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 12,
                 "end": 15
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 12,
+            "start": 0,
             "end": 15
         }
     ],
@@ -83,13 +93,12 @@ new async => ok
 ### Printed
 
 ```javascript
-
+new async => ok;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ '=>' is not allowed here. Did you mean ';'? - start: 9, end: 12
-
+✔ No errors
 ```
 

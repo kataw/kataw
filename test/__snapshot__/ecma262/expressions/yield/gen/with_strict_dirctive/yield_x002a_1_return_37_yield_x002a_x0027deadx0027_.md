@@ -46,7 +46,7 @@
                     "end": 19
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 96,
                     "transformFlags": 32,
                     "start": 19,
@@ -108,7 +108,7 @@
                     "end": 41
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 96,
                     "transformFlags": 32,
                     "start": 41,

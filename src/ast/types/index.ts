@@ -11,10 +11,10 @@ import { StringType } from './string-type';
 import { ObjectType } from './object-type';
 import { TypeReference } from './type-reference';
 import { NullableType } from './nullable-type';
-import { ObjectTypeCallProperty } from './object-type-call-property';
-import { ObjectTypeIndexer } from './object-type-indexer';
-import { ObjectTypeInternalSlot } from './object-type-internal-slot';
-import { ObjectTypeSpreadProperty } from './object-type-spread-property';
+import { CallSignature } from './call-signature';
+import { IndexSignatureDeclaration } from './index-signature-declaration';
+import { InternalSlot } from './internal-slot';
+import { TypeSpreadProperty } from './type-spread-property';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { QualifiedType } from './qualified-type';
 import { TypeAlias } from './type-alias-declaration';
@@ -23,7 +23,6 @@ import { FunctionTypeParameterList } from './function-type-parameter-list';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeParameter } from './type-parameter';
 import { TypeParameterInstantiation } from './type-parameter-instantiation';
-import { TypeParameterList } from './type-parameter-list';
 import { IndexedAccessType } from './indexed-access-type';
 import { SubtractionType } from './subtraction-type';
 import { ArrowTypeParameterList } from './arrow-type-parameter-list';
@@ -40,7 +39,6 @@ export type TypeNode =
   | TypeofType
   | ArrowTypeParameterList
   | ArrowFunctionType
-  | TypeParameterList
   | TypeParameterInstantiation
   | OptionalIndexedAccess
   | RestType
@@ -52,10 +50,10 @@ export type TypeNode =
   | TypeParameterDeclaration
   | TypeParameter
   | SubtractionType
-  | ObjectTypeCallProperty
-  | ObjectTypeIndexer
-  | ObjectTypeInternalSlot
-  | ObjectTypeSpreadProperty
+  | CallSignature
+  | IndexSignatureDeclaration
+  | InternalSlot
+  | TypeSpreadProperty
   | QualifiedType
   | TypeAlias
   | IntersectionType

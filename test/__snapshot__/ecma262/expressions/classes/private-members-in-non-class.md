@@ -663,7 +663,7 @@ class C { test() {get #a() { }}}
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 162,
@@ -883,7 +883,7 @@ class C { test() {get #a() { }}}
                                         "end": 209
                                     },
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 209,

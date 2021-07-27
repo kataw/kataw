@@ -65,7 +65,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 32, end: 33
-✖ Object property expected - start: 39, end: 40
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 39, end: 40
 ✖ ',' expected - start: 39, end: 40
 ✖ Expected a ')' to match the '(' token here - start: 47, end: 48
 ✖ Declaration or statement expected - start: 48, end: 49

@@ -71,7 +71,6 @@ type D32 = {p?: number};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 134234347,
                                 "flags": 64,
@@ -79,6 +78,7 @@ type D32 = {p?: number};
                                 "start": 11,
                                 "end": 17
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -982,7 +982,6 @@ type D32 = {p?: number};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 134234347,
                                 "flags": 64,
@@ -990,6 +989,7 @@ type D32 = {p?: number};
                                 "start": 233,
                                 "end": 239
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -1125,7 +1125,6 @@ type D32 = {p?: number};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 134234347,
                                 "flags": 64,
@@ -1133,6 +1132,7 @@ type D32 = {p?: number};
                                 "start": 285,
                                 "end": 291
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

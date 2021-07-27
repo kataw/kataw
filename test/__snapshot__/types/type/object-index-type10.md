@@ -61,8 +61,8 @@ type X = {[(x) =>x]: string, ({[(x) =>x]: string, (): string}): string};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
-                            "key": {
+                            "key": null,
+                            "value": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -195,8 +195,8 @@ type X = {[(x) =>x]: string, ({[(x) =>x]: string, (): string}): string};
                                             "kind": 195,
                                             "protoKeyword": null,
                                             "staticKeyword": null,
-                                            "name": null,
-                                            "key": {
+                                            "key": null,
+                                            "value": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -417,7 +417,7 @@ type X = {[(x) =>x]: string, ({[(x) =>x]: string, (): string}): string};
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 30, end: 31
-✖ The parser expected to find a '}' to match the '{' token here - start: 61, end: 62
+✖ ')' is not allowed here. Did you mean ';'? - start: 61, end: 62
 ✖ Declaration or statement expected - start: 62, end: 63
 ✖ Declaration or statement expected - start: 70, end: 71
 

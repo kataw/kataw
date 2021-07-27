@@ -102,7 +102,7 @@ let d = (1, 2, 3);
                                                             "end": 19
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 67143222,
+                                                            "kind": 201360950,
                                                             "flags": 96,
                                                             "transformFlags": 32,
                                                             "start": 19,
@@ -269,7 +269,7 @@ let d = (1, 2, 3);
                                                             "end": 54
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 67143222,
+                                                            "kind": 201360950,
                                                             "flags": 96,
                                                             "transformFlags": 32,
                                                             "start": 54,
@@ -402,7 +402,7 @@ let d = (1, 2, 3);
                                             "end": 80
                                         },
                                         "operatorToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 96,
                                             "transformFlags": 32,
                                             "start": 80,

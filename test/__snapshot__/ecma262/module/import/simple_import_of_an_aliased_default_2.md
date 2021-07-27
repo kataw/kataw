@@ -47,7 +47,7 @@ import x, * as a from "y"
                         "end": 9
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 9,

@@ -61,8 +61,8 @@ type a = {[{x:y}]:string};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
-                            "key": {
+                            "key": null,
+                            "value": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

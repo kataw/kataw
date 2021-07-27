@@ -773,7 +773,7 @@ foo((x, y) => {});
                                 "end": 147
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 147,
@@ -812,7 +812,7 @@ foo((x, y) => {});
                                 "end": 153
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 153,

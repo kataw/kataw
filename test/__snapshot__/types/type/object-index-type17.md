@@ -58,7 +58,7 @@ var obj: { [user_id: number]: string } = {};
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": {
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "user_id",
                                             "rawText": "user_id",
@@ -67,7 +67,7 @@ var obj: { [user_id: number]: string } = {};
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "key": {
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -162,7 +162,7 @@ var obj: { [user_id: number]: string } = {};
 ### Printed
 
 ```javascript
-var obj: { [number]: string } = {};
+var obj: { [user_idnumber]: string } = {};
 ```
 
 ### Diagnostics

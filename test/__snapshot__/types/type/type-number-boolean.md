@@ -61,7 +61,6 @@ type A = { [string | boolean]: number };
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 137,
                                 "types": [
@@ -85,6 +84,7 @@ type A = { [string | boolean]: number };
                                 "start": 18,
                                 "end": 28
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

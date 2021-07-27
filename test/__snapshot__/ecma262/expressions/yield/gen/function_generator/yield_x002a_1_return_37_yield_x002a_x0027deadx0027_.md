@@ -34,7 +34,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                 "end": 8
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 8,
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                     "end": 45
                                                 },
                                                 "operatorToken": {
-                                                    "kind": 67143222,
+                                                    "kind": 201360950,
                                                     "flags": 96,
                                                     "transformFlags": 32,
                                                     "start": 45,
@@ -178,7 +178,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                     "end": 67
                                                 },
                                                 "operatorToken": {
-                                                    "kind": 67143222,
+                                                    "kind": 201360950,
                                                     "flags": 96,
                                                     "transformFlags": 32,
                                                     "start": 67,

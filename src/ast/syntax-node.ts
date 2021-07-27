@@ -28,6 +28,17 @@ export const enum Constants {
   IsTypeParameter = 0b00111000100000000100000000000000
 }
 
+export const enum UniqueIdentifierFlags {
+  None = 0,
+  Auto = 1,
+  Loop = 2,
+  Unique = 3,
+  Node = 4,
+  KindMask = 7,
+  ReservedInNestedScopes = 1 << 3,
+  Optimistic = 1 << 4
+}
+
 export const enum ExportKind {
   Type,
   Value
@@ -281,7 +292,7 @@ export enum SyntaxKind {
   Modulo = 35639,
   ModuloAssign = 4134,
   MultiLineComment = 320,
-  Multiply = 67143222,
+  Multiply = 201360950,
   MultiplyAssign = 4132,
   NameSpaceImport = 255,
   NamedExports = 266,
@@ -301,11 +312,11 @@ export enum SyntaxKind {
   ObjectBindingPattern = 212,
   ObjectLiteral = 220,
   ObjectType = 134234353,
-  ObjectTypeCallProperty = 196,
-  ObjectTypeIndexer = 195,
-  ObjectTypeInternalSlot = 248,
-  ObjectTypeProperty = 193,
-  ObjectTypeSpreadProperty = 247,
+  CallSignature = 196,
+  IndexSignatureDeclaration = 195,
+  InternalSlot = 248,
+  TypeProperty = 193,
+  TypeSpreadProperty = 247,
   OfKeyword = 16793717,
   Elison = 230,
   OpaqueKeyword = 24822,
@@ -407,7 +418,6 @@ export enum SyntaxKind {
   StaticBlock = 305,
   FunctionAnnotation = 306,
   TypeParameterDeclaration = 307,
-  TypeInstantiations = 309,
   TypeParameterInstantiation = 310,
   IndexedAccessType = 311,
   OpaqueType = 312,

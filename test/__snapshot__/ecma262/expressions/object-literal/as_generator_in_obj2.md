@@ -35,7 +35,7 @@
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 3,
@@ -126,7 +126,7 @@
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 20,
@@ -217,7 +217,7 @@
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 42,
@@ -308,7 +308,7 @@
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 57,

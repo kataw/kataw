@@ -587,7 +587,7 @@
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 95,
@@ -1199,7 +1199,7 @@
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 195,
@@ -1856,7 +1856,7 @@
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 322,
@@ -2503,7 +2503,7 @@
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 442,
@@ -3724,7 +3724,7 @@
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 65,
                                         "transformFlags": 32,
                                         "start": 680,
@@ -4652,7 +4652,7 @@
                                     "setKeyword": null,
                                     "getKeyword": null,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 65,
                                         "transformFlags": 32,
                                         "start": 875,

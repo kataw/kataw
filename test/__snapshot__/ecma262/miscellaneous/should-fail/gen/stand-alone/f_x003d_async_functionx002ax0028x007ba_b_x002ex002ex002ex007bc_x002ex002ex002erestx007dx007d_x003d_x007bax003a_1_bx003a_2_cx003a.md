@@ -59,7 +59,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                         "end": 18
                     },
                     "asteriskToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 64,
                         "transformFlags": 32,
                         "start": 18,

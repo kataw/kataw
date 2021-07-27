@@ -46,7 +46,7 @@ async function f3() {
                 "end": 8
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 8,
@@ -598,7 +598,7 @@ async function f3() {
                 "end": 153
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 153,
@@ -660,7 +660,7 @@ async function f3() {
                                     },
                                     "delegate": true,
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 173,
@@ -764,7 +764,7 @@ async function f3() {
                                             },
                                             "delegate": true,
                                             "asteriskToken": {
-                                                "kind": 67143222,
+                                                "kind": 201360950,
                                                 "flags": 64,
                                                 "transformFlags": 32,
                                                 "start": 198,
@@ -885,7 +885,7 @@ async function f3() {
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 227,
@@ -923,7 +923,7 @@ async function f3() {
                                         },
                                         "delegate": true,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 238,

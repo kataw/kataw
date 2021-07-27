@@ -61,7 +61,6 @@ type x = { [y]: z[q] | null };
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 144,
                                 "typeName": {
@@ -79,6 +78,7 @@ type x = { [y]: z[q] | null };
                                 "start": 10,
                                 "end": 13
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

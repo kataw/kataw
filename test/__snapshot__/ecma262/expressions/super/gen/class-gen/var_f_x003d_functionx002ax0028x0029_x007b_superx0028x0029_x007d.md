@@ -58,7 +58,7 @@ class C { *method() { var f = function*() { super(); } } }
                             "setKeyword": null,
                             "getKeyword": null,
                             "asteriskToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 64,
                                 "transformFlags": 32,
                                 "start": 9,
@@ -128,7 +128,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                     "end": 38
                                                                 },
                                                                 "asteriskToken": {
-                                                                    "kind": 67143222,
+                                                                    "kind": 201360950,
                                                                     "flags": 64,
                                                                     "transformFlags": 32,
                                                                     "start": 38,

@@ -4655,7 +4655,7 @@ new Foo(
                 "end": 2069
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 2069,
@@ -4938,7 +4938,7 @@ new Foo(
                 "end": 2233
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 2233,

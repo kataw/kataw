@@ -34,7 +34,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                 "end": 8
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 8,
@@ -116,7 +116,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                     "end": 47
                                                 },
                                                 "operatorToken": {
-                                                    "kind": 67143222,
+                                                    "kind": 201360950,
                                                     "flags": 96,
                                                     "transformFlags": 32,
                                                     "start": 47,

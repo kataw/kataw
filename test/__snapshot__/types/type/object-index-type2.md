@@ -61,7 +61,6 @@ type X = {[bj[c] & a | b]: string};
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 137,
                                 "types": [
@@ -164,6 +163,7 @@ type X = {[bj[c] & a | b]: string};
                                 "start": 20,
                                 "end": 24
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

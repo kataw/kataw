@@ -242,5 +242,26 @@
   "'{0}' is not allowed here. Did you mean '{1}'?": 258,
   "HTML comments can only be used in script mode": 259,
   "HTML comments can only be used with web compatibility enabled": 260,
-  "Did you mean 'async function foo() {}'? An 'async' modifier can only follow a function declaration in this context": 261
-}
+  "Did you mean 'async function foo() {}'? An 'async' modifier can only follow a function declaration in this context": 261,
+  "'{0}' statements must be braced": 262,
+  "Parentheses are prohibited around the parameter in this single parameter arrow function": 263,
+  "Unexpected 'debugger' statement": 264,
+  "Unexpected use of '{0}'": 265,
+  "Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type": 266,
+  "Use a for...of statement instead of for...in. If iterating over an object, use Object.keys() to access its enumerable keys.": 267,
+  "Unexpected var, use let or const instead": 268,
+  "Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs": 269,
+  "Empty logic blocks usually result from incomplete refactoring.": 270,
+  "Do not nest ternary expressions": 271,
+  "'{0}' is never used": 272,
+  "Unexpected comma in middle of array": 273,
+  "Expected a default case": 274,
+  "Unsafe usage of '{0}'": 275,
+  "'eval' can be harmful": 276,
+  "Unexpected console statement": 277,
+  "Access to arguments.callee is forbidden": 278,
+  "'{0}' statements in finally blocks are forbidden.": 279,
+  "Array has a missing element": 280,
+  "Object literal keys that are strings or numbers must be a method or have a colon": 281,
+  "Computed property must be followed by a colon": 282
+  }

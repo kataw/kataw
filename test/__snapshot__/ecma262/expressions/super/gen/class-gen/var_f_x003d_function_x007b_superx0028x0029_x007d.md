@@ -58,7 +58,7 @@ class C { *method() { var f = function { super(); } } }
                             "setKeyword": null,
                             "getKeyword": null,
                             "asteriskToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 64,
                                 "transformFlags": 32,
                                 "start": 9,
@@ -295,7 +295,7 @@ class C { *method() { var f = function { super(); } } }
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 39, end: 40
-✖ Object property expected - start: 46, end: 47
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 46, end: 47
 ✖ ',' expected - start: 46, end: 47
 ✖ Declaration or statement expected - start: 53, end: 55
 

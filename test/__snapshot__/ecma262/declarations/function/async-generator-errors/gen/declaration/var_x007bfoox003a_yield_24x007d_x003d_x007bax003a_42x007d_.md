@@ -41,7 +41,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                 "end": 14
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 14,
@@ -255,7 +255,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
 ```javascript
 ✖ 'yield' cannot be used as an identifier here - start: 33, end: 39
 ✖ ',' expected - start: 39, end: 42
-✖ Object property expected - start: 42, end: 43
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 42, end: 43
 
 ```
 

@@ -152,7 +152,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ';' expected - start: 22, end: 24
+✖ ',' expected - start: 22, end: 24
 
 ```
 

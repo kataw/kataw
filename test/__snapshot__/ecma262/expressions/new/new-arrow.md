@@ -103,12 +103,13 @@ new (x)=>{}
 ### Printed
 
 ```javascript
-new (x) => {};
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ';' expected - start: 7, end: 9
+
 ```
 

@@ -121,38 +121,38 @@ interface NullableType <: TypeNode {
 }
 ```
 
-### ObjectTypeCallProperty
+### CallSignature
 
 ```js
-interface ObjectTypeCallProperty <: TypeNode {
-  kind: NodeKind.ObjectTypeCallProperty;
+interface CallSignature <: TypeNode {
+  kind: NodeKind.CallSignature;
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   typeParameter: TypeParameterDeclaration | null;
-  kind: SyntaxKind.ObjectTypeCallProperty;
+  kind: SyntaxKind.CallSignature;
   value: TypeNode;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   returnType: TypeNode;
 }
 ```
 
-### ObjectTypeIndexer
+### IndexSignatureDeclaration
 
 ```js
-interface ObjectTypeIndexer <: TypeNode {
-  kind: NodeKind.ObjectTypeIndexer;
+interface IndexSignatureDeclaration <: TypeNode {
+  kind: NodeKind.IndexSignatureDeclaration;
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
-  key: TypeNode;
+  key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
+  value: TypeNode | null;
   type: TypeNode;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 ```
 
-### ObjectTypeInternalSlot
+### InternalSlot
 
 ```js
-interface ObjectTypeInternalSlot <: TypeNode {
-  kind: SyntaxKind.ObjectTypeInternalSlot;
+interface InternalSlot <: TypeNode {
+  kind: SyntaxKind.InternalSlot;
   /* error recovery */
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -163,11 +163,11 @@ interface ObjectTypeInternalSlot <: TypeNode {
 }
 ```
 
-### ObjectTypeProperty
+### TypeProperty
 
 ```js
-interface ObjectTypeProperty <: TypeNode {
-  kind: NodeKind.ObjectTypeProperty;
+interface TypeProperty <: TypeNode {
+  kind: NodeKind.TypeProperty;
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -178,14 +178,14 @@ interface ObjectTypeProperty <: TypeNode {
 }
 ```
 
-### ObjectTypeSpreadProperty
+### TypeSpreadProperty
 
 ```js
-interface ObjectTypeSpreadProperty <: TypeNode {
-  kind: NodeKind.ObjectTypeSpreadProperty;
+interface TypeSpreadProperty <: TypeNode {
+  kind: NodeKind.TypeSpreadProperty;
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   ellipsisToken: SyntaxToken<TokenSyntaxKind>;
-  kind: SyntaxKind.ObjectTypeSpreadProperty;
+  kind: SyntaxKind.TypeSpreadProperty;
   type: TypeNode;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }

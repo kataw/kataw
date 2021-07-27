@@ -196,9 +196,9 @@ function x({ x: import.meta }) {}
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 15, end: 22
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 15, end: 22
 ✖ ',' expected - start: 15, end: 22
-✖ Object property expected - start: 22, end: 23
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 22, end: 23
 ✖ ',' expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 29, end: 30

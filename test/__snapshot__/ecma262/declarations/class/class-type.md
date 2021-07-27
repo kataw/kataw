@@ -788,7 +788,6 @@ type T = { [string]: Class<null> }
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 134234347,
                                 "flags": 64,
@@ -796,6 +795,7 @@ type T = { [string]: Class<null> }
                                 "start": 208,
                                 "end": 214
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

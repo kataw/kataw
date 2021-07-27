@@ -61,7 +61,7 @@ type X = { [string: string]: string }
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": {
+                            "key": {
                                 "kind": 134299649,
                                 "text": "string",
                                 "rawText": "string",
@@ -70,7 +70,7 @@ type X = { [string: string]: string }
                                 "start": 12,
                                 "end": 18
                             },
-                            "key": {
+                            "value": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -138,7 +138,7 @@ type X = { [string: string]: string }
 ### Printed
 
 ```javascript
-type X = { [string]: string }
+type X = { [stringstring]: string }
 ```
 
 ### Diagnostics

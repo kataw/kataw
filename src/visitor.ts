@@ -91,10 +91,10 @@ import { createArrowTypeParameterList, ArrowTypeParameterList } from './ast/type
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from './ast/types/function-type-parameter-list';
 import { createFunctionTypeParameters, FunctionTypeParameter } from './ast/types/function-type-parameter';
 import { createNullableType, NullableType } from './ast/types/nullable-type';
-import { createObjectTypeCallProperty, ObjectTypeCallProperty } from './ast/types/object-type-call-property';
-import { createObjectTypeIndexer, ObjectTypeIndexer } from './ast/types/object-type-indexer';
-import { createObjectTypeInternalSlot, ObjectTypeInternalSlot } from './ast/types/object-type-internal-slot';
-import { createObjectTypeProperty, ObjectTypeProperty } from './ast/types/object-type-property';
+import { createCallSignature, CallSignature } from './ast/types/call-signature';
+import { createIndexSignatureDeclaration, IndexSignatureDeclaration } from './ast/types/index-signature-declaration';
+import { createInternalSlot, InternalSlot } from './ast/types/internal-slot';
+import { createTypeProperty, TypeProperty } from './ast/types/type-property';
 import { createOpaqueType, OpaqueType } from './ast/types/opaque-type';
 import { createQualifiedType, QualifiedType } from './ast/types/qualified-type';
 import { createTypeAnnotation, TypeAnnotation } from './ast/types/type-annotation';
@@ -1585,77 +1585,73 @@ export function visitEachChild(
               (<NullableType>node).end
             )
           : node;
-      case SyntaxKind.ObjectTypeCallProperty:
-        return (<ObjectTypeCallProperty>node).protoKeyword !==
-          visitNode((<ObjectTypeCallProperty>node).protoKeyword, visitor) ||
-          (<ObjectTypeCallProperty>node).typeParameter !==
-            visitNode((<ObjectTypeCallProperty>node).typeParameter, visitor) ||
-          (<ObjectTypeCallProperty>node).value !== visitNode((<ObjectTypeCallProperty>node).value, visitor) ||
-          (<ObjectTypeCallProperty>node).staticKeyword !==
-            visitNode((<ObjectTypeCallProperty>node).staticKeyword, visitor) ||
-          (<ObjectTypeCallProperty>node).returnType !== visitNode((<ObjectTypeCallProperty>node).returnType, visitor)
-          ? createObjectTypeCallProperty(
-              (<ObjectTypeCallProperty>node).protoKeyword,
-              (<ObjectTypeCallProperty>node).typeParameter,
-              (<ObjectTypeCallProperty>node).value,
-              (<ObjectTypeCallProperty>node).staticKeyword,
-              (<ObjectTypeCallProperty>node).returnType,
-              (<ObjectTypeCallProperty>node).start,
-              (<ObjectTypeCallProperty>node).end
+      case SyntaxKind.CallSignature:
+        return (<CallSignature>node).protoKeyword !== visitNode((<CallSignature>node).protoKeyword, visitor) ||
+          (<CallSignature>node).typeParameter !== visitNode((<CallSignature>node).typeParameter, visitor) ||
+          (<CallSignature>node).value !== visitNode((<CallSignature>node).value, visitor) ||
+          (<CallSignature>node).staticKeyword !== visitNode((<CallSignature>node).staticKeyword, visitor) ||
+          (<CallSignature>node).returnType !== visitNode((<CallSignature>node).returnType, visitor)
+          ? createCallSignature(
+              (<CallSignature>node).protoKeyword,
+              (<CallSignature>node).typeParameter,
+              (<CallSignature>node).value,
+              (<CallSignature>node).staticKeyword,
+              (<CallSignature>node).returnType,
+              (<CallSignature>node).start,
+              (<CallSignature>node).end
             )
           : node;
-      case SyntaxKind.ObjectTypeIndexer:
-        return (<ObjectTypeIndexer>node).protoKeyword !== visitNode((<ObjectTypeIndexer>node).protoKeyword, visitor) ||
-          (<ObjectTypeIndexer>node).name !== visitNode((<ObjectTypeIndexer>node).name, visitor) ||
-          (<ObjectTypeIndexer>node).key !== visitNode((<ObjectTypeIndexer>node).key, visitor) ||
-          (<ObjectTypeIndexer>node).staticKeyword !== visitNode((<ObjectTypeIndexer>node).staticKeyword, visitor) ||
-          (<ObjectTypeIndexer>node).type !== visitNode((<ObjectTypeIndexer>node).type, visitor)
-          ? createObjectTypeIndexer(
-              (<ObjectTypeIndexer>node).protoKeyword,
-              (<ObjectTypeIndexer>node).staticKeyword,
-              (<ObjectTypeIndexer>node).name,
-              (<ObjectTypeIndexer>node).key,
-              (<ObjectTypeIndexer>node).type,
-              (<ObjectTypeIndexer>node).start,
-              (<ObjectTypeIndexer>node).end
+      case SyntaxKind.IndexSignatureDeclaration:
+        return (<IndexSignatureDeclaration>node).protoKeyword !==
+          visitNode((<IndexSignatureDeclaration>node).protoKeyword, visitor) ||
+          (<IndexSignatureDeclaration>node).value !== visitNode((<IndexSignatureDeclaration>node).value, visitor) ||
+          (<IndexSignatureDeclaration>node).key !== visitNode((<IndexSignatureDeclaration>node).key, visitor) ||
+          (<IndexSignatureDeclaration>node).staticKeyword !==
+            visitNode((<IndexSignatureDeclaration>node).staticKeyword, visitor) ||
+          (<IndexSignatureDeclaration>node).type !== visitNode((<IndexSignatureDeclaration>node).type, visitor)
+          ? createIndexSignatureDeclaration(
+              (<IndexSignatureDeclaration>node).protoKeyword,
+              (<IndexSignatureDeclaration>node).staticKeyword,
+              (<IndexSignatureDeclaration>node).key,
+              (<IndexSignatureDeclaration>node).value,
+              (<IndexSignatureDeclaration>node).type,
+              (<IndexSignatureDeclaration>node).start,
+              (<IndexSignatureDeclaration>node).end
             )
           : node;
-      case SyntaxKind.ObjectTypeInternalSlot:
-        return (<ObjectTypeInternalSlot>node).protoKeyword !==
-          visitNode((<ObjectTypeInternalSlot>node).protoKeyword, visitor) ||
-          (<ObjectTypeInternalSlot>node).optionalToken !==
-            visitNode((<ObjectTypeInternalSlot>node).optionalToken, visitor) ||
-          (<ObjectTypeInternalSlot>node).staticKeyword !==
-            visitNode((<ObjectTypeInternalSlot>node).staticKeyword, visitor) ||
-          (<ObjectTypeInternalSlot>node).type !== visitNode((<ObjectTypeInternalSlot>node).type, visitor)
-          ? createObjectTypeInternalSlot(
-              (<ObjectTypeInternalSlot>node).protoKeyword,
-              (<ObjectTypeInternalSlot>node).name,
-              (<ObjectTypeInternalSlot>node).optionalToken,
-              (<ObjectTypeInternalSlot>node).staticKeyword,
-              (<ObjectTypeInternalSlot>node).type,
-              (<ObjectTypeInternalSlot>node).start,
-              (<ObjectTypeInternalSlot>node).end
+      case SyntaxKind.InternalSlot:
+        return (<InternalSlot>node).protoKeyword !== visitNode((<InternalSlot>node).protoKeyword, visitor) ||
+          (<InternalSlot>node).optionalToken !== visitNode((<InternalSlot>node).optionalToken, visitor) ||
+          (<InternalSlot>node).staticKeyword !== visitNode((<InternalSlot>node).staticKeyword, visitor) ||
+          (<InternalSlot>node).type !== visitNode((<InternalSlot>node).type, visitor)
+          ? createInternalSlot(
+              (<InternalSlot>node).protoKeyword,
+              (<InternalSlot>node).name,
+              (<InternalSlot>node).optionalToken,
+              (<InternalSlot>node).staticKeyword,
+              (<InternalSlot>node).type,
+              (<InternalSlot>node).start,
+              (<InternalSlot>node).end
             )
           : node;
-      case SyntaxKind.ObjectTypeProperty:
-        return (<ObjectTypeProperty>node).getKeyword !== visitNode((<ObjectTypeProperty>node).getKeyword, visitor) ||
-          (<ObjectTypeProperty>node).setKeyword !== visitNode((<ObjectTypeProperty>node).setKeyword, visitor) ||
-          (<ObjectTypeProperty>node).key !== visitNode((<ObjectTypeProperty>node).key, visitor) ||
-          (<ObjectTypeProperty>node).type !== visitNode((<ObjectTypeProperty>node).type, visitor) ||
-          (<ObjectTypeProperty>node).optionalToken !== visitNode((<ObjectTypeProperty>node).optionalToken, visitor) ||
-          (<ObjectTypeProperty>node).staticKeyword !== visitNode((<ObjectTypeProperty>node).staticKeyword, visitor) ||
-          (<ObjectTypeProperty>node).protoKeyword !== visitNode((<ObjectTypeProperty>node).protoKeyword, visitor)
-          ? createObjectTypeProperty(
-              (<ObjectTypeProperty>node).getKeyword,
-              (<ObjectTypeProperty>node).setKeyword,
-              (<ObjectTypeProperty>node).key,
-              (<ObjectTypeProperty>node).type,
-              (<ObjectTypeProperty>node).optionalToken,
-              (<ObjectTypeProperty>node).staticKeyword,
-              (<ObjectTypeProperty>node).protoKeyword,
-              (<ObjectTypeProperty>node).start,
-              (<ObjectTypeProperty>node).end
+      case SyntaxKind.TypeProperty:
+        return (<TypeProperty>node).getKeyword !== visitNode((<TypeProperty>node).getKeyword, visitor) ||
+          (<TypeProperty>node).setKeyword !== visitNode((<TypeProperty>node).setKeyword, visitor) ||
+          (<TypeProperty>node).key !== visitNode((<TypeProperty>node).key, visitor) ||
+          (<TypeProperty>node).type !== visitNode((<TypeProperty>node).type, visitor) ||
+          (<TypeProperty>node).optionalToken !== visitNode((<TypeProperty>node).optionalToken, visitor) ||
+          (<TypeProperty>node).staticKeyword !== visitNode((<TypeProperty>node).staticKeyword, visitor) ||
+          (<TypeProperty>node).protoKeyword !== visitNode((<TypeProperty>node).protoKeyword, visitor)
+          ? createTypeProperty(
+              (<TypeProperty>node).getKeyword,
+              (<TypeProperty>node).setKeyword,
+              (<TypeProperty>node).key,
+              (<TypeProperty>node).type,
+              (<TypeProperty>node).optionalToken,
+              (<TypeProperty>node).staticKeyword,
+              (<TypeProperty>node).protoKeyword,
+              (<TypeProperty>node).start,
+              (<TypeProperty>node).end
             )
           : node;
       case SyntaxKind.OpaqueType:

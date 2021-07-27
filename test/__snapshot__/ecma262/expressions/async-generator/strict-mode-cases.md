@@ -901,7 +901,7 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 406
                             },
                             "asteriskToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 64,
                                 "transformFlags": 32,
                                 "start": 406,
@@ -1033,7 +1033,7 @@ function * x() { "use strict";  yield: 34; }
                                         "end": 467
                                     },
                                     "asteriskToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 64,
                                         "transformFlags": 32,
                                         "start": 467,
@@ -1668,7 +1668,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 742
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 742,
@@ -1784,7 +1784,7 @@ function * x() { "use strict";  yield: 34; }
                 "end": 784
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 784,

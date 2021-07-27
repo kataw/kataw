@@ -83,7 +83,7 @@
                     "end": 19
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 97,
                     "transformFlags": 32,
                     "start": 19,

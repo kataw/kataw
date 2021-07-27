@@ -155,7 +155,7 @@ for (let {[x]} of obj);
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 13, end: 14
+✖ Computed property must be followed by a colon - start: 13, end: 14
 
 ```
 

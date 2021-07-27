@@ -56,7 +56,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 9,

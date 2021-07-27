@@ -369,8 +369,8 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": null,
-                                        "key": {
+                                        "key": null,
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -472,7 +472,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": {
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "key",
                                             "rawText": "key",
@@ -481,7 +481,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "start": 105,
                                             "end": 108
                                         },
-                                        "key": {
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -2268,7 +2268,7 @@ let two: { foo(): void };
 
 let three: { ["'x'"]: number };
 
-let five: { [string]: number };
+let five: { [keystring]: number };
 
 let six: () => void = Foo;
 

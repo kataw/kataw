@@ -105,7 +105,7 @@ new async async => ok
 ### Diagnostics
 
 ```javascript
-✖ ';' expected - start: 9, end: 15
+✖ ',' expected - start: 9, end: 15
 
 ```
 

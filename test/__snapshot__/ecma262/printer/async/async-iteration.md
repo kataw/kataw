@@ -43,7 +43,7 @@ class X {
                 "end": 15
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 15,
@@ -87,7 +87,7 @@ class X {
                                 },
                                 "delegate": true,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 33,
@@ -187,7 +187,7 @@ class X {
                             "setKeyword": null,
                             "getKeyword": null,
                             "asteriskToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 64,
                                 "transformFlags": 32,
                                 "start": 62,
@@ -234,7 +234,7 @@ class X {
                                                     },
                                                     "delegate": true,
                                                     "asteriskToken": {
-                                                        "kind": 67143222,
+                                                        "kind": 201360950,
                                                         "flags": 64,
                                                         "transformFlags": 32,
                                                         "start": 84,

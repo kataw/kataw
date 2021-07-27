@@ -132,7 +132,7 @@ const {[a]} = v
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 10, end: 11
+✖ Computed property must be followed by a colon - start: 10, end: 11
 
 ```
 

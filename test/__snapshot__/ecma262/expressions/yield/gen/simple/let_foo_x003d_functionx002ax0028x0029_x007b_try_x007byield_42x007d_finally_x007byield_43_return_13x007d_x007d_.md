@@ -57,7 +57,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                 "end": 18
                             },
                             "asteriskToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 64,
                                 "transformFlags": 32,
                                 "start": 18,

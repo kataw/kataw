@@ -80,7 +80,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                     "end": 35
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 35,

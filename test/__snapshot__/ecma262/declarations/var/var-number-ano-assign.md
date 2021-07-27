@@ -125,7 +125,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": {
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
@@ -134,7 +134,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 44,
                                             "end": 45
                                         },
-                                        "key": {
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -175,7 +175,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": {
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
@@ -184,7 +184,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 65,
                                             "end": 66
                                         },
-                                        "key": {
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -265,7 +265,7 @@ var a: { [a: number]: string; [b: number]: string; };
 
 ```javascript
 var numVal: number = otherNumVal;
-var a: { [number]: string, [number]: string };
+var a: { [anumber]: string, [bnumber]: string };
 
 ```
 

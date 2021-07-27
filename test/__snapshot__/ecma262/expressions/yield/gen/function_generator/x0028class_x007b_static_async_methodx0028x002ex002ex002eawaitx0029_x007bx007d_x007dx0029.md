@@ -34,7 +34,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                 "end": 8
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 8,

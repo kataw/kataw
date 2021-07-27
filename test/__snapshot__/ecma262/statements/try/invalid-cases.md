@@ -1596,7 +1596,7 @@ try {} catch({ x: "str" }) {}
                         "end": 376
                     },
                     "asteriskToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 64,
                         "transformFlags": 32,
                         "start": 376,
@@ -3411,7 +3411,7 @@ try {} catch({ x: "str" }) {}
                         "end": 842
                     },
                     "asteriskToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 64,
                         "transformFlags": 32,
                         "start": 842,
@@ -3979,11 +3979,11 @@ try {} catch({ x: "str" }) {}
 ✖ Declaration or statement expected - start: 345, end: 347
 ✖ Declaration or statement expected - start: 347, end: 348
 ✖ Declaration or statement expected - start: 348, end: 350
-✖ Object property expected - start: 366, end: 368
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 366, end: 368
 ✖ ',' expected - start: 366, end: 368
 ✖ Declaration or statement expected - start: 383, end: 385
 ✖ Declaration or statement expected - start: 385, end: 386
-✖ Object property expected - start: 401, end: 403
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 401, end: 403
 ✖ ',' expected - start: 401, end: 403
 ✖ Declaration or statement expected - start: 417, end: 419
 ✖ Declaration or statement expected - start: 419, end: 420
@@ -4010,21 +4010,21 @@ try {} catch({ x: "str" }) {}
 ✖ Did you forgot a ']' to match the `[` token? - start: 804, end: 806
 ✖ ']' is not allowed here. Did you mean ';'? - start: 808, end: 809
 ✖ Declaration or statement expected - start: 809, end: 810
-✖ Object property expected - start: 832, end: 834
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 832, end: 834
 ✖ ',' expected - start: 832, end: 834
 ✖ Declaration or statement expected - start: 849, end: 851
 ✖ Declaration or statement expected - start: 851, end: 852
-✖ Object property expected - start: 874, end: 876
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 874, end: 876
 ✖ ',' expected - start: 874, end: 876
 ✖ Declaration or statement expected - start: 890, end: 892
 ✖ Declaration or statement expected - start: 892, end: 893
-✖ Object property expected - start: 915, end: 917
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 915, end: 917
 ✖ ',' expected - start: 915, end: 917
 ✖ Declaration or statement expected - start: 923, end: 925
 ✖ Declaration or statement expected - start: 925, end: 926
-✖ Object property expected - start: 948, end: 954
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 948, end: 954
 ✖ ',' expected - start: 948, end: 954
-✖ Object property expected - start: 954, end: 956
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 954, end: 956
 
 ```
 

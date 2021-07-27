@@ -289,7 +289,7 @@ class C { constructor() { var f = function { super(); } } }
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 43, end: 44
-✖ Object property expected - start: 50, end: 51
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 50, end: 51
 ✖ ',' expected - start: 50, end: 51
 ✖ Declaration or statement expected - start: 57, end: 59
 

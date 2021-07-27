@@ -1060,7 +1060,6 @@ type T9 = { [param: string]: U };
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 134234347,
                                 "flags": 64,
@@ -1068,6 +1067,7 @@ type T9 = { [param: string]: U };
                                 "start": 229,
                                 "end": 235
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -1154,7 +1154,7 @@ type T9 = { [param: string]: U };
                             "kind": 195,
                             "protoKeyword": null,
                             "staticKeyword": null,
-                            "name": {
+                            "key": {
                                 "kind": 134299649,
                                 "text": "param",
                                 "rawText": "param",
@@ -1163,7 +1163,7 @@ type T9 = { [param: string]: U };
                                 "start": 256,
                                 "end": 261
                             },
-                            "key": {
+                            "value": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -1260,7 +1260,7 @@ type T7 = { foo: () => number }
 
 type T8 = { [string]: U }
 
-type T9 = { [string]: U }
+type T9 = { [paramstring]: U }
 
 ```
 

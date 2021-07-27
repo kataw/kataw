@@ -67,88 +67,43 @@ type Foo = Array<*/* comment */>
                     },
                     "typeParameters": {
                         "kind": 310,
-                        "types": [],
+                        "types": [
+                            {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 201360950,
+                                    "flags": 2097216,
+                                    "transformFlags": 32,
+                                    "start": 17,
+                                    "end": 18
+                                },
+                                "flags": 2097152,
+                                "transformFlags": 0,
+                                "start": 17,
+                                "end": 18
+                            }
+                        ],
                         "trailingComma": false,
                         "flags": 2097152,
                         "transformFlags": 512,
                         "start": 17,
-                        "end": 17
+                        "end": 18
                     },
                     "flags": 2097152,
                     "transformFlags": 0,
                     "start": 10,
-                    "end": 17
+                    "end": 32
                 },
                 "flags": 2097152,
                 "transformFlags": 0,
                 "start": 10,
-                "end": 17
+                "end": 32
             },
             "flags": 64,
             "transformFlags": 0,
             "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
-                    "transformFlags": 0,
-                    "start": 17,
-                    "end": 17
-                },
-                "operatorToken": {
-                    "kind": 67143222,
-                    "flags": 96,
-                    "transformFlags": 32,
-                    "start": 17,
-                    "end": 18
-                },
-                "right": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 16637,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 64,
-                        "transformFlags": 0,
-                        "start": 18,
-                        "end": 18
-                    },
-                    "operatorToken": {
-                        "kind": 34883,
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 18,
-                        "end": 32
-                    },
-                    "right": {
-                        "kind": 16637,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 64,
-                        "transformFlags": 0,
-                        "start": 32,
-                        "end": 32
-                    },
-                    "flags": 96,
-                    "transformFlags": 5120,
-                    "start": 18,
-                    "end": 32
-                },
-                "flags": 96,
-                "transformFlags": 5120,
-                "start": 17,
-                "end": 32
-            },
-            "flags": 16,
-            "transformFlags": 4096,
-            "start": 17,
             "end": 32
         }
     ],
@@ -165,14 +120,12 @@ type Foo = Array<*/* comment */>
 ### Printed
 
 ```javascript
-
+type Foo = Array<*> /* comment */
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 17, end: 18
-✖ Identifier expected - start: 18, end: 32
-
+✔ No errors
 ```
 

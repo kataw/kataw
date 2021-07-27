@@ -401,7 +401,7 @@ a ** (b * c);
                             "end": 69
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 69,
@@ -486,7 +486,7 @@ a ** (b * c);
                             "end": 88
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 88,

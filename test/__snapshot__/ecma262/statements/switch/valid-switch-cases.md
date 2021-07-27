@@ -1692,7 +1692,7 @@ switch (answer) { case 0: let a; };
                                     "end": 479
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 479,
@@ -4181,7 +4181,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1248
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 1248,
@@ -4246,7 +4246,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1270
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 1270,
@@ -4725,7 +4725,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1403
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 1403,
@@ -4855,7 +4855,7 @@ switch (answer) { case 0: let a; };
                                     "end": 1445
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 1445,

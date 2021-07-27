@@ -177,7 +177,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 22, end: 26
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 22, end: 26
 ✖ ',' expected - start: 22, end: 26
 ✖ ',' expected - start: 31, end: 33
 

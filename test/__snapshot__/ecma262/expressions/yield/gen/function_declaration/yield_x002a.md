@@ -73,7 +73,7 @@ function not_gen() { yield * }}
                                     "end": 26
                                 },
                                 "operatorToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 96,
                                     "transformFlags": 32,
                                     "start": 26,

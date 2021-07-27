@@ -1076,7 +1076,7 @@
                             "end": 224
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 224,
@@ -1225,7 +1225,7 @@
                             "end": 251
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 251,
@@ -2099,7 +2099,7 @@
                             "end": 408
                         },
                         "operatorToken": {
-                            "kind": 67143222,
+                            "kind": 201360950,
                             "flags": 96,
                             "transformFlags": 32,
                             "start": 408,
@@ -2687,7 +2687,7 @@
                                         "end": 521
                                     },
                                     "operatorToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 96,
                                         "transformFlags": 32,
                                         "start": 521,
@@ -3340,7 +3340,7 @@
                                                 "end": 642
                                             },
                                             "operatorToken": {
-                                                "kind": 67143222,
+                                                "kind": 201360950,
                                                 "flags": 96,
                                                 "transformFlags": 32,
                                                 "start": 642,
@@ -4098,7 +4098,7 @@
                                 "kind": 351,
                                 "asyncKeyword": null,
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 802,

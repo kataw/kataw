@@ -103,7 +103,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                                             "end": 19
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 67143222,
+                                                            "kind": 201360950,
                                                             "flags": 96,
                                                             "transformFlags": 32,
                                                             "start": 19,
@@ -270,7 +270,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                                             "end": 74
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 67143222,
+                                                            "kind": 201360950,
                                                             "flags": 96,
                                                             "transformFlags": 32,
                                                             "start": 74,
@@ -403,7 +403,7 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
                                             "end": 112
                                         },
                                         "operatorToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 96,
                                             "transformFlags": 32,
                                             "start": 112,

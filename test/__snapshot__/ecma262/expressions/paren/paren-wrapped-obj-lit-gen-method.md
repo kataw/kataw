@@ -56,7 +56,7 @@ x({*foo(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 3,
@@ -173,7 +173,7 @@ x({*foo(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 21,
@@ -283,7 +283,7 @@ x({*foo(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 37,
@@ -1002,7 +1002,7 @@ x({*foo(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 167,
@@ -1112,7 +1112,7 @@ x({*foo(){}});
                                         "kind": 351,
                                         "asyncKeyword": null,
                                         "asteriskToken": {
-                                            "kind": 67143222,
+                                            "kind": 201360950,
                                             "flags": 64,
                                             "transformFlags": 32,
                                             "start": 184,

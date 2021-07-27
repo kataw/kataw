@@ -66,7 +66,7 @@ declare class A { static [ indexer: number]: string }
                                 "start": 17,
                                 "end": 24
                             },
-                            "name": {
+                            "key": {
                                 "kind": 134299649,
                                 "text": "indexer",
                                 "rawText": "indexer",
@@ -75,7 +75,7 @@ declare class A { static [ indexer: number]: string }
                                 "start": 26,
                                 "end": 34
                             },
-                            "key": {
+                            "value": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -143,7 +143,7 @@ declare class A { static [ indexer: number]: string }
 ### Printed
 
 ```javascript
-declare class A { static [number]: string }
+declare class A { static [indexernumber]: string }
 ```
 
 ### Diagnostics

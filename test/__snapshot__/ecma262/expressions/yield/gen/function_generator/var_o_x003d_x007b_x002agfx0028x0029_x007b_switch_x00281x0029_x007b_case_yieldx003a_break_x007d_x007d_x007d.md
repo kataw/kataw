@@ -34,7 +34,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "end": 8
             },
             "asteriskToken": {
-                "kind": 67143222,
+                "kind": 201360950,
                 "flags": 64,
                 "transformFlags": 32,
                 "start": 8,
@@ -136,7 +136,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                         "kind": 351,
                                                                         "asyncKeyword": null,
                                                                         "asteriskToken": {
-                                                                            "kind": 67143222,
+                                                                            "kind": 201360950,
                                                                             "flags": 64,
                                                                             "transformFlags": 32,
                                                                             "start": 49,

@@ -149,7 +149,7 @@ for (let {a:=c} = z;;);
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 12, end: 13
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 12, end: 13
 
 ```
 

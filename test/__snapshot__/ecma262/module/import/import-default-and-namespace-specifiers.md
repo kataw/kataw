@@ -47,7 +47,7 @@ import foo, * as bar from "foo";
                         "end": 11
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 11,

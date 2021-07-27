@@ -952,7 +952,7 @@ a % 10 == 0;
                                 "end": 299
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 299,
@@ -1514,7 +1514,7 @@ a % 10 == 0;
                         "end": 432
                     },
                     "operatorToken": {
-                        "kind": 67143222,
+                        "kind": 201360950,
                         "flags": 96,
                         "transformFlags": 32,
                         "start": 432,
@@ -1669,7 +1669,7 @@ a % 10 == 0;
                                         "end": 485
                                     },
                                     "operatorToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 96,
                                         "transformFlags": 32,
                                         "start": 485,
@@ -1741,7 +1741,7 @@ a % 10 == 0;
                                 "end": 505
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 505,
@@ -1905,7 +1905,7 @@ a % 10 == 0;
                                         "end": 577
                                     },
                                     "operatorToken": {
-                                        "kind": 67143222,
+                                        "kind": 201360950,
                                         "flags": 96,
                                         "transformFlags": 32,
                                         "start": 577,
@@ -1977,7 +1977,7 @@ a % 10 == 0;
                                 "end": 597
                             },
                             "operatorToken": {
-                                "kind": 67143222,
+                                "kind": 201360950,
                                 "flags": 96,
                                 "transformFlags": 32,
                                 "start": 597,
@@ -2131,7 +2131,7 @@ a % 10 == 0;
                     "end": 646
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 96,
                     "transformFlags": 32,
                     "start": 646,

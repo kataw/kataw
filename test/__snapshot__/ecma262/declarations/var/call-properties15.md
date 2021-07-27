@@ -197,7 +197,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                     "end": 39
                                                 },
                                                 "operatorToken": {
-                                                    "kind": 67143222,
+                                                    "kind": 201360950,
                                                     "flags": 96,
                                                     "transformFlags": 32,
                                                     "start": 39,

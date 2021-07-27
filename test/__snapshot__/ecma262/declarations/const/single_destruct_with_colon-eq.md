@@ -134,7 +134,7 @@ const {a:=c} = z;
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 9, end: 10
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 9, end: 10
 
 ```
 

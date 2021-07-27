@@ -36,7 +36,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                     "end": 7
                 },
                 "operatorToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 96,
                     "transformFlags": 32,
                     "start": 7,

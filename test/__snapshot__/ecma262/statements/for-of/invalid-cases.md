@@ -1354,7 +1354,7 @@ for ({a: b.c}-- of d) e;
                     "end": 303
                 },
                 "asteriskToken": {
-                    "kind": 67143222,
+                    "kind": 201360950,
                     "flags": 64,
                     "transformFlags": 32,
                     "start": 303,
@@ -6529,7 +6529,7 @@ for ({a: b.c}-- of d) e;
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 733, end: 737
 ✖ ')' is not allowed here. Did you mean ';'? - start: 737, end: 738
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 749, end: 763
-✖ Object property expected - start: 793, end: 795
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 793, end: 795
 ✖ ',' expected - start: 793, end: 795
 ✖ Variable declaration not allowed at this location - start: 793, end: 795
 ✖ Identifier expected - start: 805, end: 807

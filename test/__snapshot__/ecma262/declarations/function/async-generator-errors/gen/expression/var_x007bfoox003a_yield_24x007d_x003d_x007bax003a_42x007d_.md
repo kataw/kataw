@@ -41,7 +41,7 @@
                                     "end": 8
                                 },
                                 "asteriskToken": {
-                                    "kind": 67143222,
+                                    "kind": 201360950,
                                     "flags": 64,
                                     "transformFlags": 32,
                                     "start": 8,
@@ -286,7 +286,7 @@
 ```javascript
 ✖ 'yield' cannot be used as an identifier here - start: 28, end: 34
 ✖ ',' expected - start: 34, end: 37
-✖ Object property expected - start: 37, end: 38
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 37, end: 38
 
 ```
 

@@ -108,7 +108,6 @@ type a = (((symbol[{[x]:string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =
                                                                                                     "kind": 195,
                                                                                                     "protoKeyword": null,
                                                                                                     "staticKeyword": null,
-                                                                                                    "name": null,
                                                                                                     "key": {
                                                                                                         "kind": 144,
                                                                                                         "typeName": {
@@ -126,6 +125,7 @@ type a = (((symbol[{[x]:string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =
                                                                                                         "start": 20,
                                                                                                         "end": 22
                                                                                                     },
+                                                                                                    "value": null,
                                                                                                     "type": {
                                                                                                         "kind": 139,
                                                                                                         "bitwiseOrToken": null,

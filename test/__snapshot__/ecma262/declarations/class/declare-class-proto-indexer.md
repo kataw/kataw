@@ -66,7 +66,6 @@ declare class C { proto [K]: V }
                                 "end": 23
                             },
                             "staticKeyword": null,
-                            "name": null,
                             "key": {
                                 "kind": 144,
                                 "typeName": {
@@ -84,6 +83,7 @@ declare class C { proto [K]: V }
                                 "start": 17,
                                 "end": 26
                             },
+                            "value": null,
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

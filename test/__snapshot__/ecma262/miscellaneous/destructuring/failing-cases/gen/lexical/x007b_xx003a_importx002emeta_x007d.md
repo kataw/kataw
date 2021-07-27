@@ -159,9 +159,9 @@ let { x: import.meta }
 ### Diagnostics
 
 ```javascript
-✖ Object property expected - start: 8, end: 15
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 8, end: 15
 ✖ ',' expected - start: 8, end: 15
-✖ Object property expected - start: 15, end: 16
+✖ Object literal keys that are strings or numbers must be a method or have a colon - start: 15, end: 16
 ✖ ',' expected - start: 15, end: 16
 ✖ Missing initializer in destructuring declaration - start: 15, end: 16
 ✖ Lexical declaration expected - start: 15, end: 16

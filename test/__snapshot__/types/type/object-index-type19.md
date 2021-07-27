@@ -72,7 +72,7 @@ function method(obj: { [key: string]: any }) {}
                                         "kind": 195,
                                         "protoKeyword": null,
                                         "staticKeyword": null,
-                                        "name": {
+                                        "key": {
                                             "kind": 134299649,
                                             "text": "key",
                                             "rawText": "key",
@@ -81,7 +81,7 @@ function method(obj: { [key: string]: any }) {}
                                             "start": 24,
                                             "end": 27
                                         },
-                                        "key": {
+                                        "value": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -179,7 +179,7 @@ function method(obj: { [key: string]: any }) {}
 ### Printed
 
 ```javascript
-function method(obj: { [string]: any }) {}
+function method(obj: { [keystring]: any }) {}
 ```
 
 ### Diagnostics

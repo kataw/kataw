@@ -22,7 +22,7 @@ export enum DiagnosticKind {
   Warning = 1 << 3,
   Error = 1 << 4,
   Hint = 1 << 5,
-  Linter = 1 << 6
+  Lint = 1 << 6
 }
 
 /**

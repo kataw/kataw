@@ -207,7 +207,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                 "end": 72
                                                                                             },
                                                                                             "asteriskToken": {
-                                                                                                "kind": 67143222,
+                                                                                                "kind": 201360950,
                                                                                                 "flags": 64,
                                                                                                 "transformFlags": 32,
                                                                                                 "start": 72,
