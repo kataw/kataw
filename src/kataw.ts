@@ -1,4 +1,4 @@
-import { parse, Options, LinterOptions } from './parser/parser';
+import { parse, Options, LinterRules, LinterOptions } from './parser/parser';
 import { DiagnosticSource, DiagnosticKind } from './diagnostic/diagnostic';
 import { PrinterOptions } from './printer';
 import { Context, OnError } from './parser/common';
@@ -220,51 +220,29 @@ export function print(root: any, options?: PrinterOptions): string {
   return printSource(root, options);
 }
 
-export function lintScript(
-  source: string,
-  reporter: (
-    diagnosticSource: DiagnosticSource,
-    kind: DiagnosticKind,
-    message: string,
-    start: number,
-    end: number,
-    source: string
-  ) => void,
-  options?: LinterOptions
-): RootNode {
+export function lintScript(source: string, options: LinterOptions, lint: LinterRules): RootNode {
   return parse(
     source,
     /* filename */ '__root__',
     Context.TopLevel,
     /* isModule */ false,
     function (diagnosticSource: DiagnosticSource, kind: DiagnosticKind, message: string, start: number, end: number) {
-      reporter(diagnosticSource, kind, message, start, end, source);
+      options.reporter(diagnosticSource, kind, message, start, end, source);
     },
-    { lint: options }
+    { lint }
   );
 }
 
-export function lintModule(
-  source: string,
-  reporter: (
-    diagnosticSource: DiagnosticSource,
-    kind: DiagnosticKind,
-    message: string,
-    start: number,
-    end: number,
-    source: string
-  ) => void,
-  options?: LinterOptions
-): RootNode {
+export function lintModule(source: string, options: LinterOptions, lint: LinterRules): RootNode {
   return parse(
     source,
     '__root__',
     Context.Module | Context.TopLevel | Context.Strict | Context.AllowImportMeta,
     /* isModule */ true,
     function (diagnosticSource: DiagnosticSource, kind: DiagnosticKind, message: string, start: number, end: number) {
-      reporter(diagnosticSource, kind, message, start, end, source);
+      options.reporter(diagnosticSource, kind, message, start, end, source);
     },
-    { lint: options }
+    { lint }
   );
 }
 
