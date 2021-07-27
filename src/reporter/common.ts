@@ -46,7 +46,7 @@ export function getLineNumber(src: string, pos: number) {
 export function diagnosticColor(kind: DiagnosticKind): any {
   switch (kind) {
     case DiagnosticKind.Hint:
-    case DiagnosticKind.Linter:
+    case DiagnosticKind.Lint:
       return ColorCodes.Green;
     case DiagnosticKind.Error:
       return ColorCodes.Red;

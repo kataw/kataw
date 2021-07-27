@@ -71,7 +71,7 @@ export const enum Context {
   Lint = 1 << 29
 }
 
-export const enum LinterRules {
+export const enum LinterFlags {
   None = 0,
   NoCatchAssign = 1 << 0, // Disallow assignment operators in catch statement
   NoCommaOperator = 1 << 1,
@@ -189,7 +189,7 @@ export const enum ScopeFlags {
 export interface ParserState {
   source: string;
   nodeFlags: NodeFlags;
-  linterRules: LinterRules;
+  linterFlags: LinterFlags;
   curPos: number;
   pos: number;
   token: any;

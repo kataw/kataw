@@ -1,7 +1,9 @@
-import { parse, Options } from './parser/parser';
-import { PrinterOptions, printSource } from './printer';
+import { parse, Options, LinterRules, LinterOptions } from './parser/parser';
+import { DiagnosticSource, DiagnosticKind } from './diagnostic/diagnostic';
+import { PrinterOptions } from './printer';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/root-node';
+import { printSource } from './printer';
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
 export { TokenSyntaxKind, createToken, SyntaxToken } from './ast/token';
@@ -108,12 +110,16 @@ export { createConditionalExpression } from './ast/expressions/conditional-expr'
 export { createBinaryExpression } from './ast/expressions/binary-expr';
 export { createSubtractionType } from './ast/types/subtraction-type';
 export { createIndexedAccessType } from './ast/types/indexed-access-type';
+export { createTypeSpreadProperty } from './ast/types/type-spread-property';
+export { createInternalSlot } from './ast/types/internal-slot';
 export { createArrayType } from './ast/types/array-type';
 export { createTypeofType } from './ast/types/typeof-type';
 export { createNullableType } from './ast/types/nullable-type';
 export { createObjectType } from './ast/types/object-type';
 export { createStringType } from './ast/types/string-type';
 export { createNumberType } from './ast/types/number-type';
+export { createCallSignature } from './ast/types/call-signature';
+export { createIndexSignatureDeclaration } from './ast/types/index-signature-declaration';
 export { createIntersectionType } from './ast/types/intersection-type';
 export { createUnionType } from './ast/types/union-type';
 export { createTypeAnnotation } from './ast/types/type-annotation';
@@ -141,9 +147,10 @@ export { createFunctionDeclaration } from './ast/statements/function-declaration
 export { createDummyIdentifier } from './ast/internal/dummy-identifier';
 export { getLeadingComments, getTrailingComments } from './parser/scanner/comments';
 export { visitEachChild, visitNodes, visitNode } from './visitor';
-export { removeKatawTypes } from './transform/core';
-export { createUniqueIdentifier, UniqueIdentifierFlags } from './ast/internal/unique-identifier';
+export { createUniqueIdentifier } from './ast/internal/unique-identifier';
 export { fuzzModule, fuzzScript } from './fuzzer/';
+export { aladdin } from './reporter/aladdin';
+export { listing } from './reporter/listing';
 export {
   isStatementNode,
   isExpressionNode,
@@ -211,6 +218,32 @@ export function parseModule(source: string, options?: Options, onError?: OnError
 
 export function print(root: any, options?: PrinterOptions): string {
   return printSource(root, options);
+}
+
+export function lintScript(source: string, options: LinterOptions, lint: LinterRules): RootNode {
+  return parse(
+    source,
+    /* filename */ '__root__',
+    Context.TopLevel,
+    /* isModule */ false,
+    function (diagnosticSource: DiagnosticSource, kind: DiagnosticKind, message: string, start: number, end: number) {
+      options.reporter(diagnosticSource, kind, message, start, end, source);
+    },
+    { lint }
+  );
+}
+
+export function lintModule(source: string, options: LinterOptions, lint: LinterRules): RootNode {
+  return parse(
+    source,
+    '__root__',
+    Context.Module | Context.TopLevel | Context.Strict | Context.AllowImportMeta,
+    /* isModule */ true,
+    function (diagnosticSource: DiagnosticSource, kind: DiagnosticKind, message: string, start: number, end: number) {
+      options.reporter(diagnosticSource, kind, message, start, end, source);
+    },
+    { lint }
+  );
 }
 
 export function printScript(source: string, options?: PrinterOptions): string {
