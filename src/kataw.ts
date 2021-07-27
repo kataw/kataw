@@ -1,6 +1,5 @@
 import { parse, Options, LinterOptions } from './parser/parser';
 import { DiagnosticSource, DiagnosticKind } from './diagnostic/diagnostic';
-import { aladdin } from './reporter/aladdin';
 import { PrinterOptions } from './printer';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/root-node';
