@@ -2275,7 +2275,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
     chain = createCallChain(
       chain as any,
-      parseTypeParameterInstantiation(parser, context | Context.InType),
+      parseTypeParameterInstantiation(parser, context | Context.InTypeParameterInstantiation),
       parseArguments(parser, context),
       pos,
       parser.curPos
@@ -2325,7 +2325,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
     } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
       chain = createCallChain(
         chain as any,
-        parseTypeParameterInstantiation(parser, context | Context.InType),
+        parseTypeParameterInstantiation(parser, context | Context.InTypeParameterInstantiation),
         parseArguments(parser, context),
         pos,
         parser.curPos
@@ -8256,13 +8256,19 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     parseEntityName(
       parser,
       context,
-      parseIdentifier(parser, context | Context.InType, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected),
+      parseIdentifier(
+        parser,
+        context | Context.InTypeParameterInstantiation,
+        Constants.IdentifierOrKeyword,
+        DiagnosticCode.Type_expected
+      ),
       Constants.IdentifierOrKeyword,
       pos
     ),
     parseTypeParameterInstantiation(
       parser,
-      (context | ((context & Context.ArrowOrigin) | Context.InType)) ^ (context & Context.ArrowOrigin)
+      (context | ((context & Context.ArrowOrigin) | Context.InTypeParameterInstantiation)) ^
+        (context & Context.ArrowOrigin)
     ),
     pos,
     parser.curPos
@@ -9080,7 +9086,8 @@ function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKi
         parseEntityName(parser, context, key, Constants.IdentifierOrKeyword, pos),
         parseTypeParameterInstantiation(
           parser,
-          (context | ((context & Context.ArrowOrigin) | Context.InType)) ^ (context & Context.ArrowOrigin)
+          (context | ((context & Context.ArrowOrigin) | Context.InTypeParameterInstantiation)) ^
+            (context & Context.ArrowOrigin)
         ),
         pos,
         parser.curPos
@@ -9586,7 +9593,7 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
       extendsToken,
       parseLeftHandSideExpression(parser, context, LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends),
       (parser.token as SyntaxKind) === SyntaxKind.LessThan
-        ? parseTypeParameterInstantiation(parser, context | Context.InType)
+        ? parseTypeParameterInstantiation(parser, context | Context.InTypeParameterInstantiation)
         : null,
       curPos,
       parser.curPos

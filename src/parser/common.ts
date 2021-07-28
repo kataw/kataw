@@ -66,7 +66,7 @@ export const enum Context {
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
   DecoratorContext = 1 << 27,
-  InType = 1 << 28,
+  InTypeParameterInstantiation = 1 << 28,
   TaggedTemplate = 1 << 23,
   Lint = 1 << 29
 }

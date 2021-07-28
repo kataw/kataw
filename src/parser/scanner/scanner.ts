@@ -245,7 +245,14 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       // `<`, `<=`, `<<`, `<<=`, `<!--`
       case SyntaxKind.LessThan:
         parser.pos++;
-        if (context & Context.InType) return SyntaxKind.LessThan;
+
+        // The 'InTypeParameterInstantiation' bit is only set when parsing out a 'TypeParameterInstantiation'.
+        // It solves edge cases like `type x = z<<q>(r) => s>` where the lexer normally
+        // returns a `<<` token.
+        // Checking for this bitwise mask returns `<` and prevents further scanning.
+        // This is faster than a re-scan.
+        if (context & Context.InTypeParameterInstantiation) return SyntaxKind.LessThan;
+
         switch (source.charCodeAt(parser.pos)) {
           case Char.EqualSign:
             parser.pos++;
@@ -299,7 +306,12 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       case SyntaxKind.GreaterThan:
         parser.pos++;
 
-        if (context & Context.InType) return SyntaxKind.GreaterThan;
+        // The 'InTypeParameterInstantiation' bit is only set when parsing out a 'TypeParameterInstantiation'.
+        // It solves edge cases like `let x: A.B<X.Y<Z<T>>>=2;` where the lexer normally
+        // returns a `>>` token.
+        // Checking for this bitwise mask returns `>` and prevents further scanning.
+        // This is faster than a re-scan.
+        if (context & Context.InTypeParameterInstantiation) return SyntaxKind.GreaterThan;
 
         cp = source.charCodeAt(parser.pos);
 
