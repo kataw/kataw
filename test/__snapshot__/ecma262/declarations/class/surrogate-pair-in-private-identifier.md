@@ -58,12 +58,12 @@ class C { #@{x29e3d}@ }
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "#",
-                                "rawText": "C",
+                                "text": "#@",
+                                "rawText": "#@",
                                 "flags": 96,
                                 "transformFlags": 0,
                                 "start": 9,
-                                "end": 11
+                                "end": 12
                             },
                             "optionalToken": null,
                             "type": null,
@@ -71,60 +71,6 @@ class C { #@{x29e3d}@ }
                             "flags": 32,
                             "transformFlags": 128,
                             "start": 9,
-                            "end": 11
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": {
-                                "kind": 207,
-                                "elements": [
-                                    {
-                                        "kind": 34611453,
-                                        "decoratorToken": {
-                                            "kind": 34611453,
-                                            "flags": 64,
-                                            "transformFlags": 0,
-                                            "start": 11,
-                                            "end": 12
-                                        },
-                                        "expression": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "rawText": "",
-                                            "flags": 64,
-                                            "transformFlags": 0,
-                                            "start": 12,
-                                            "end": 12
-                                        },
-                                        "flags": 0,
-                                        "transformFlags": 0,
-                                        "start": 12,
-                                        "end": 12
-                                    }
-                                ],
-                                "flags": 32,
-                                "transformFlags": 0,
-                                "start": 11,
-                                "end": 12
-                            },
-                            "declaredToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 64,
-                                "transformFlags": 0,
-                                "start": 12,
-                                "end": 12
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "transformFlags": 128,
-                            "start": 11,
                             "end": 12
                         }
                     ],
@@ -263,7 +209,7 @@ class C { #@{x29e3d}@ }
 
 ```javascript
 ✖ Invalid character - start: 10, end: 11
-✖ Identifier expected. A decorator name can only be an identifier - start: 12, end: 13
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 13
 ✖ Identifier expected. A decorator name can only be an identifier - start: 21, end: 23
 
 ```

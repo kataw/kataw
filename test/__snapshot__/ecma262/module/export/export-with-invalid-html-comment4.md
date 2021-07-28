@@ -67,40 +67,77 @@ export { x }
         {
             "kind": 120,
             "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 134318643,
-                    "flags": 97,
-                    "transformFlags": 0,
+                "kind": 198,
+                "left": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 134318643,
+                        "flags": 97,
+                        "transformFlags": 0,
+                        "start": 6,
+                        "end": 8
+                    },
+                    "operand": {
+                        "kind": 126,
+                        "operandToken": {
+                            "kind": 134318643,
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 8,
+                            "end": 9
+                        },
+                        "operand": {
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
+                            "transformFlags": 0,
+                            "start": 9,
+                            "end": 9
+                        },
+                        "flags": 32,
+                        "transformFlags": 16384,
+                        "start": 8,
+                        "end": 9
+                    },
+                    "flags": 32,
+                    "transformFlags": 16384,
                     "start": 6,
-                    "end": 15
+                    "end": 9
                 },
-                "operand": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 96,
                     "transformFlags": 0,
-                    "start": 15,
-                    "end": 15
+                    "start": 9,
+                    "end": 10
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 10,
+                    "end": 14
                 },
                 "flags": 32,
-                "transformFlags": 16384,
+                "transformFlags": 5120,
                 "start": 6,
-                "end": 15
+                "end": 14
             },
             "flags": 16,
             "transformFlags": 4096,
             "start": 6,
-            "end": 15
+            "end": 14
         },
         {
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 80,
+                "flags": 81,
                 "transformFlags": 0,
-                "start": 15,
+                "start": 14,
                 "end": 21
             },
             "declaration": null,
@@ -142,9 +179,9 @@ export { x }
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 80,
+            "flags": 81,
             "transformFlags": 0,
-            "start": 15,
+            "start": 14,
             "end": 27
         }
     ],
@@ -167,8 +204,7 @@ export { x }
 ### Diagnostics
 
 ```javascript
-✖ HTML comments can only be used in script mode - start: 8, end: 14
-✖ Identifier expected - start: 15, end: 21
+✖ Identifier expected - start: 9, end: 10
 
 ```
 

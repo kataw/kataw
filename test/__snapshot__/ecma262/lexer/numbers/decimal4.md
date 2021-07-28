@@ -69,7 +69,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": ".0",
-                "flags": 32864,
+                "flags": 96,
                 "transformFlags": 0,
                 "start": 0,
                 "end": 2
@@ -85,7 +85,7 @@
                 "kind": 201392130,
                 "text": 0.1,
                 "rawText": ".1",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 4,
                 "end": 7
@@ -101,7 +101,7 @@
                 "kind": 201392130,
                 "text": 0.2,
                 "rawText": ".2",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 9,
                 "end": 12
@@ -117,7 +117,7 @@
                 "kind": 201392130,
                 "text": 0.3,
                 "rawText": ".3",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 14,
                 "end": 17
@@ -133,7 +133,7 @@
                 "kind": 201392130,
                 "text": 0.4,
                 "rawText": ".4",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 19,
                 "end": 22
@@ -149,7 +149,7 @@
                 "kind": 201392130,
                 "text": 0.5,
                 "rawText": ".5",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 24,
                 "end": 27
@@ -165,7 +165,7 @@
                 "kind": 201392130,
                 "text": 0.6,
                 "rawText": ".6",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 29,
                 "end": 32
@@ -181,7 +181,7 @@
                 "kind": 201392130,
                 "text": 0.7,
                 "rawText": ".7",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 34,
                 "end": 37
@@ -197,7 +197,7 @@
                 "kind": 201392130,
                 "text": 0.8,
                 "rawText": ".8",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 39,
                 "end": 42
@@ -213,7 +213,7 @@
                 "kind": 201392130,
                 "text": 0.9,
                 "rawText": ".9",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 44,
                 "end": 47
@@ -229,7 +229,7 @@
                 "kind": 201392130,
                 "text": 0.1,
                 "rawText": ".10",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 49,
                 "end": 53
@@ -245,7 +245,7 @@
                 "kind": 201392130,
                 "text": 0.21,
                 "rawText": ".21",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 55,
                 "end": 59
@@ -261,7 +261,7 @@
                 "kind": 201392130,
                 "text": 0.32,
                 "rawText": ".32",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 61,
                 "end": 65
@@ -277,7 +277,7 @@
                 "kind": 201392130,
                 "text": 0.43,
                 "rawText": ".43",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 67,
                 "end": 71
@@ -293,7 +293,7 @@
                 "kind": 201392130,
                 "text": 0.54,
                 "rawText": ".54",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 73,
                 "end": 77
@@ -309,7 +309,7 @@
                 "kind": 201392130,
                 "text": 0.65,
                 "rawText": ".65",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 79,
                 "end": 83
@@ -325,7 +325,7 @@
                 "kind": 201392130,
                 "text": 0.76,
                 "rawText": ".76",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 85,
                 "end": 89
@@ -341,7 +341,7 @@
                 "kind": 201392130,
                 "text": 0.87,
                 "rawText": ".87",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 91,
                 "end": 95
@@ -357,7 +357,7 @@
                 "kind": 201392130,
                 "text": 0.98,
                 "rawText": ".98",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 97,
                 "end": 101
@@ -373,7 +373,7 @@
                 "kind": 201392130,
                 "text": 0.19,
                 "rawText": ".19",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 103,
                 "end": 107
@@ -389,7 +389,7 @@
                 "kind": 201392130,
                 "text": 0.123,
                 "rawText": ".123",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 109,
                 "end": 114
@@ -405,7 +405,7 @@
                 "kind": 201392130,
                 "text": 0.456,
                 "rawText": ".456",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 116,
                 "end": 121
@@ -421,7 +421,7 @@
                 "kind": 201392130,
                 "text": 0.789,
                 "rawText": ".7890",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 123,
                 "end": 129
@@ -437,7 +437,7 @@
                 "kind": 201392130,
                 "text": 0.123456789,
                 "rawText": ".1234567890",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 131,
                 "end": 143
@@ -453,7 +453,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": ".0000",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 145,
                 "end": 151

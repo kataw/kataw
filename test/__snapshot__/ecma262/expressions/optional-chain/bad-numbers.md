@@ -33,15 +33,15 @@ a?.200
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 1,
-                    "end": 3
+                    "end": 2
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 200,
-                    "rawText": "200",
+                    "text": 0.2,
+                    "rawText": ".200",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 3,
+                    "start": 2,
                     "end": 6
                 },
                 "colonToken": null,

@@ -725,7 +725,7 @@ Object.entries({
                                             "kind": 201392130,
                                             "text": 0.1,
                                             "rawText": ".1",
-                                            "flags": 32865,
+                                            "flags": 97,
                                             "transformFlags": 0,
                                             "start": 365,
                                             "end": 370
@@ -1575,7 +1575,7 @@ Object.entries({
                                             "kind": 201392130,
                                             "text": 0.1,
                                             "rawText": ".1",
-                                            "flags": 32865,
+                                            "flags": 97,
                                             "transformFlags": 0,
                                             "start": 1394,
                                             "end": 1478

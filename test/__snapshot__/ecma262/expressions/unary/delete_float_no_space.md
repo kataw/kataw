@@ -30,7 +30,7 @@ delete.500
                     "kind": 201392130,
                     "text": 0.5,
                     "rawText": ".500",
-                    "flags": 32864,
+                    "flags": 96,
                     "transformFlags": 0,
                     "start": 6,
                     "end": 10

@@ -33,15 +33,15 @@ obj?.0
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 3,
-                    "end": 5
+                    "end": 4
                 },
                 "consequent": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "rawText": ".0",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 5,
+                    "start": 4,
                     "end": 6
                 },
                 "colonToken": null,

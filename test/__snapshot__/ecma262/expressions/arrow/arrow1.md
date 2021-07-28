@@ -160,32 +160,16 @@
             "kind": 120,
             "expression": {
                 "kind": 67191035,
-                "text": "#",
-                "rawText": "",
+                "text": "##",
+                "rawText": "##",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 23,
-                "end": 25
-            },
-            "flags": 16,
-            "transformFlags": 4096,
-            "start": 23,
-            "end": 25
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 67191035,
-                "text": "#",
-                "rawText": "",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 25,
                 "end": 26
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 25,
+            "start": 23,
             "end": 26
         },
         {
@@ -208,64 +192,32 @@
             "kind": 120,
             "expression": {
                 "kind": 67191035,
-                "text": "#",
-                "rawText": "Options",
+                "text": "##",
+                "rawText": "##",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 34,
-                "end": 37
-            },
-            "flags": 16,
-            "transformFlags": 4096,
-            "start": 34,
-            "end": 37
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 67191035,
-                "text": "#",
-                "rawText": "Options",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 37,
                 "end": 38
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 37,
+            "start": 34,
             "end": 38
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 67191035,
-                "text": "#",
-                "rawText": "Options",
+                "text": "# Parser",
+                "rawText": "# Parser",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 38,
-                "end": 39
-            },
-            "flags": 16,
-            "transformFlags": 4096,
-            "start": 38,
-            "end": 39
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Parser",
-                "rawText": "Parser",
-                "flags": 96,
-                "transformFlags": 0,
-                "start": 39,
                 "end": 46
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 39,
+            "start": 38,
             "end": 46
         },
         {
@@ -353,17 +305,12 @@
 
 ```javascript
 ✖ Invalid character - start: 24, end: 25
-✖ Private identifiers are not allowed outside class bodies - start: 23, end: 25
-✖ Invalid character - start: 25, end: 26
-✖ '; ' is not allowed here. Did you mean ';'? - start: 25, end: 26
+✖ Private identifiers are not allowed outside class bodies - start: 23, end: 26
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 26, end: 34
 ✖ Invalid character - start: 36, end: 37
-✖ Private identifiers are not allowed outside class bodies - start: 34, end: 37
-✖ Invalid character - start: 37, end: 38
-✖ '; ' is not allowed here. Did you mean ';'? - start: 37, end: 38
+✖ Private identifiers are not allowed outside class bodies - start: 34, end: 38
 ✖ Invalid character - start: 38, end: 39
-✖ '; ' is not allowed here. Did you mean ';'? - start: 38, end: 39
-✖ '; ' is not allowed here. Did you mean ';'? - start: 39, end: 46
+✖ '; ' is not allowed here. Did you mean ';'? - start: 38, end: 46
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 46, end: 54
 ✖ Unterminated template literal - start: 60, end: 85
 

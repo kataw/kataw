@@ -243,7 +243,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": ".0e-100",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 119,
                 "end": 127
@@ -259,7 +259,7 @@
                 "kind": 201392130,
                 "text": 1e-101,
                 "rawText": ".1e-100",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 129,
                 "end": 137
@@ -275,7 +275,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": ".0E-100",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 139,
                 "end": 147
@@ -291,7 +291,7 @@
                 "kind": 201392130,
                 "text": 1e-101,
                 "rawText": ".1E-100",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 149,
                 "end": 157

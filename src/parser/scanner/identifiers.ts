@@ -172,8 +172,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
 }
 
 export function scanPrivateIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
-  let pos = parser.pos;
-  parser.pos++;
+  parser.pos++; // skip '#'
 
   // '!'
   if (source.charCodeAt(parser.pos) === Char.Exclamation) {
@@ -181,51 +180,35 @@ export function scanPrivateIdentifier(parser: ParserState, cp: number, source: s
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode._can_only_be_used_at_the_start_of_a_file],
-      pos,
+      parser.tokenPos,
       parser.pos
     );
     return SyntaxKind.UnknownToken;
   }
 
-  if (isIdentifierStart(source.charCodeAt(parser.pos))) {
-    let pos = parser.pos;
-    while (pos < parser.end && isIdentifierPart((cp = source.charCodeAt(pos)))) ++pos;
-    let tokenValue = source.slice(parser.tokenPos, pos);
-    if (tokenValue === '#constructor') {
+  if (source.charCodeAt(parser.pos) === Char.Backslash) {
+    parser.tokenValue += scanIdentifierParts(parser, source);
+  } else {
+    if (!isIdentifierPart(source.charCodeAt(parser.pos))) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._constructor_is_a_reserved_word],
-        pos,
-        pos + tokenValue.length
+        diagnosticMap[DiagnosticCode.Invalid_character],
+        parser.tokenPos,
+        parser.pos
       );
     }
+    parser.pos++;
+    while (parser.pos < parser.end && isIdentifierPart((cp = source.charCodeAt(parser.pos)))) ++parser.pos;
+
+    parser.tokenValue = source.slice(parser.tokenPos, parser.pos);
 
     if (cp === Char.Backslash) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Private_identifier_cannot_contain_escape_characters],
-        pos,
-        pos
-      );
-      tokenValue += scanIdentifierParts(parser, source);
+      parser.tokenValue += scanIdentifierParts(parser, source);
     }
-
-    parser.tokenRaw = source.substring(parser.tokenPos, pos);
-    parser.pos = pos;
-    parser.tokenValue = tokenValue;
-    return SyntaxKind.PrivateIdentifier;
   }
 
-  parser.onError(
-    DiagnosticSource.Parser,
-    DiagnosticKind.Error,
-    diagnosticMap[DiagnosticCode.Invalid_character],
-    pos,
-    parser.pos
-  );
+  parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
 
-  parser.tokenValue = '#';
   return SyntaxKind.PrivateIdentifier;
 }

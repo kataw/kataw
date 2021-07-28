@@ -60,78 +60,71 @@ x?.y = 0;
         {
             "kind": 120,
             "expression": {
-                "kind": 125,
-                "left": {
-                    "kind": 205,
-                    "chainToken": {
-                        "kind": 393240,
-                        "flags": 64,
-                        "transformFlags": 0,
-                        "start": 1,
-                        "end": 3
-                    },
-                    "member": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "transformFlags": 0,
-                        "start": 0,
-                        "end": 1
-                    },
+                "kind": 205,
+                "chainToken": {
+                    "kind": 393240,
+                    "flags": 64,
+                    "transformFlags": 0,
+                    "start": 1,
+                    "end": 3
+                },
+                "member": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 1
+                },
+                "chain": {
+                    "kind": 302,
                     "chain": {
-                        "kind": 302,
-                        "chain": {
-                            "kind": 202,
-                            "chain": null,
-                            "expression": {
-                                "kind": 67191035,
-                                "text": "#",
-                                "rawText": "x",
-                                "flags": 96,
-                                "transformFlags": 0,
-                                "start": 3,
-                                "end": 4
-                            },
-                            "flags": 32,
-                            "transformFlags": 2,
+                        "kind": 202,
+                        "chain": null,
+                        "expression": {
+                            "kind": 67191035,
+                            "text": "#[",
+                            "rawText": "#[",
+                            "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
-                            "end": 4
+                            "end": 5
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 2,
                         "start": 3,
-                        "end": 4
+                        "end": 5
                     },
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 0,
-                    "end": 6
+                    "start": 3,
+                    "end": 5
                 },
-                "operatorToken": {
-                    "kind": 4125,
-                    "flags": 96,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 8
-                },
-                "right": {
-                    "kind": 201392130,
-                    "text": 0,
-                    "rawText": "0",
-                    "flags": 96,
-                    "transformFlags": 0,
-                    "start": 8,
-                    "end": 10
-                },
-                "flags": 0,
-                "transformFlags": 128,
+                "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
-                "end": 10
+                "end": 5
             },
             "flags": 16,
             "transformFlags": 4096,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392130,
+                "text": 0,
+                "rawText": "0",
+                "flags": 96,
+                "transformFlags": 0,
+                "start": 8,
+                "end": 10
+            },
+            "flags": 16,
+            "transformFlags": 4096,
+            "start": 8,
             "end": 11
         },
         {
@@ -2861,10 +2854,9 @@ x?.y = 0;
 
 ```javascript
 ✖ Invalid character - start: 3, end: 4
-✖ Private identifiers are not allowed outside class bodies - start: 3, end: 4
-✖ An member access expression should take an argument. - start: 5, end: 6
-✖ The left-hand side of an assignment expression may not be an optional property access - start: 6, end: 8
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 6, end: 8
+✖ Private identifiers are not allowed outside class bodies - start: 3, end: 5
+✖ ']' is not allowed here. Did you mean ';'? - start: 5, end: 6
+✖ Declaration or statement expected - start: 6, end: 8
 ✖ An member access expression should take an argument. - start: 17, end: 18
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 16, end: 20
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20

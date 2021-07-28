@@ -10,6 +10,13 @@ export function lastOrUndefined<T>(array: readonly T[]): any {
   return array.length === 0 ? undefined : array[array.length - 1];
 }
 
+export function skipHTMLComment(parser: ParserState, cp: number, source: string): number {
+  while (parser.pos < parser.end && !isLineTerminator(cp)) {
+    cp = source.charCodeAt(++parser.pos);
+  }
+  return cp;
+}
+
 export function skipSingleLineComment(parser: ParserState, cp: number, source: string): any {
   let pos = parser.pos;
   while (pos < parser.end && !isLineTerminator(cp)) {
