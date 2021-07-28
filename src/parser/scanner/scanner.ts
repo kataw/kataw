@@ -6,7 +6,7 @@ import { scanString } from './string';
 import { scanTemplateSpan } from './template';
 import { scanRegularExpression } from './regexp';
 import { isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
-import { skipMultilineComment, skipSingleLineComment } from './comments';
+import { skipMultilineComment, skipSingleLineComment, skipHTMLComment } from './comments';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import {
@@ -32,6 +32,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
     const token = latinCharacters[cp];
 
     switch (token) {
+      // Look for an unambiguous single-char token
       case SyntaxKind.RightBrace:
       case SyntaxKind.LeftBrace:
       case SyntaxKind.Comma:
@@ -46,49 +47,61 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         parser.pos++;
         return token;
 
-      // Look for an keyword (a-z)
-      case SyntaxKind.IsKeyword:
-        return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ true);
-
-      // Look for an identifier -(A-Z, $, _).
-      case SyntaxKind.Identifier:
-        return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ false);
-
-      case SyntaxKind.NumericLiteral:
-        return scanNumber(parser, context, cp, source, /* isDecimal */ true);
-
+      //  general whitespace
       case SyntaxKind.Whitespace:
         parser.pos++;
         break;
+
+      // `a`...`z`
+      case SyntaxKind.IsKeyword:
+        return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ true);
+
+      // `A`...`Z`, `_var`, `$var`
+      case SyntaxKind.Identifier:
+        return scanIdentifierOrKeyword(parser, cp, source, /* isPossibleKeyword */ false);
+
+      // `1`...`9`
+      case SyntaxKind.NumericLiteral:
+        return scanNumber(parser, context, cp, source, /* isDecimal */ true);
 
       // `'string'`, `"string"`
       case SyntaxKind.StringLiteral:
         return scanString(parser, context, cp, source);
 
+      // ``string``
+      case SyntaxKind.TemplateTail:
+        return scanTemplateSpan(parser, context, source);
+
       // `.`, `...`, `.123` (numeric literal)
       case SyntaxKind.Period:
-        let index = parser.pos + 1;
+        cp = source.charCodeAt(parser.pos + 1);
 
-        cp = source.charCodeAt(index);
-
+        // Dot with a digit after it
         if (cp >= Char.Zero && cp <= Char.Nine) {
-          parser.nodeFlags |= NodeFlags.FloatingPointLiteral;
           return scanNumber(parser, context, cp, source, /* isDecimal */ false);
         }
 
-        if (cp === Char.Period) {
-          if (index < parser.end && source.charCodeAt(index + 1) === Char.Period) {
-            parser.pos += 3;
-            return SyntaxKind.Ellipsis;
-          }
+        // `...`
+        if (cp === Char.Period && parser.pos < parser.end && source.charCodeAt(parser.pos + 2) === Char.Period) {
+          parser.pos += 3;
+          return SyntaxKind.Ellipsis;
         }
+
+        // "."
         parser.pos++;
         return SyntaxKind.Period;
 
       // `=`, `==`, `===`, `=>`
       case SyntaxKind.Assign:
         parser.pos++;
+
         cp = source.charCodeAt(parser.pos);
+
+        if (cp === Char.GreaterThan) {
+          parser.pos++;
+          return SyntaxKind.Arrow;
+        }
+
         if (cp === Char.EqualSign) {
           parser.pos++;
           if (source.charCodeAt(parser.pos) === Char.EqualSign) {
@@ -97,10 +110,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           }
           return SyntaxKind.LooseEqual;
         }
-        if (cp === Char.GreaterThan) {
-          parser.pos++;
-          return SyntaxKind.Arrow;
-        }
+
         return SyntaxKind.Assign;
 
       // `+`, `++`, `+=`
@@ -117,9 +127,32 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         }
         return SyntaxKind.Add;
 
-      // ``string``
-      case SyntaxKind.TemplateTail:
-        return scanTemplateSpan(parser, context, source);
+      // `?`, `?.`, `??`, `??=`,
+      case SyntaxKind.QuestionMark:
+        parser.pos++;
+        cp = source.charCodeAt(parser.pos);
+
+        if (cp === Char.Period) {
+          // Do a lookahead to see if the code unit is followed by a number, for example
+          // it has the following form `?.a` or `?.5` then it should be treated as a
+          // ternary rather than as an optional chain
+          cp = source.charCodeAt(parser.pos + 1);
+          // `?.`
+          if (cp < Char.Zero || cp > Char.Nine) {
+            parser.pos++;
+            return SyntaxKind.QuestionMarkPeriod;
+          }
+        }
+
+        if (cp !== Char.QuestionMark) return SyntaxKind.QuestionMark;
+
+        parser.pos++;
+
+        if (source.charCodeAt(parser.pos) === Char.EqualSign) {
+          parser.pos++;
+          return SyntaxKind.CoalesceAssign;
+        }
+        return SyntaxKind.QuestionMarkQuestionMark;
 
       case SyntaxKind.CarriageReturn:
       case SyntaxKind.LineFeed:
@@ -127,37 +160,10 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         parser.pos++;
         break;
 
-      // `?`, `?.`, `??`, `??=`,
-      case SyntaxKind.QuestionMark:
-        cp = source.charCodeAt(++parser.pos);
-
-        if (cp === Char.Period) {
-          cp = source.charCodeAt(++parser.pos);
-          if (cp >= Char.Zero && cp <= Char.Nine) {
-            // if the code unit is followed by a number, for example it has the
-            // following form `?.a` or `?.5` then it should be treated as a
-            // ternary rather than as an optional chain
-            return SyntaxKind.QuestionMark;
-          }
-
-          return SyntaxKind.QuestionMarkPeriod;
-        }
-
-        if (cp === Char.QuestionMark) {
-          parser.pos++;
-          if (source.charCodeAt(parser.pos) === Char.EqualSign) {
-            parser.pos++;
-            return SyntaxKind.CoalesceAssign;
-          }
-          return SyntaxKind.QuestionMarkQuestionMark;
-        }
-
-        return SyntaxKind.QuestionMark;
-
       // `!`, `!=`, `!==`
       case SyntaxKind.Negate:
-        cp = source.charCodeAt(++parser.pos);
-        if (cp === Char.EqualSign) {
+        parser.pos++;
+        if (source.charCodeAt(parser.pos) === Char.EqualSign) {
           parser.pos++;
           if (source.charCodeAt(parser.pos) === Char.EqualSign) {
             parser.pos++;
@@ -169,7 +175,8 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `*`, `**`, `*=`, `**=`
       case SyntaxKind.Multiply:
-        cp = source.charCodeAt(++parser.pos);
+        parser.pos++;
+        cp = source.charCodeAt(parser.pos);
         if (cp === Char.EqualSign) {
           parser.pos++;
           return SyntaxKind.MultiplyAssign;
@@ -186,21 +193,23 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `/`, `/=`, `/>`, '/*..*/'
       case SyntaxKind.Divide:
-        cp = source.charCodeAt(++parser.pos);
-        // is it a // comment?
+        parser.pos++;
+
+        cp = source.charCodeAt(parser.pos);
+
         if (cp === Char.Slash) {
           skipSingleLineComment(parser, cp, source);
           break;
         }
 
-        // is it a /* or /** comment?
         if (cp === Char.Asterisk) {
           skipMultilineComment(parser, cp, source);
           break;
         }
-        if (context & Context.AllowRegExp) return scanRegularExpression(parser, source);
 
-        cp = source.charCodeAt(parser.pos);
+        if (context & Context.AllowRegExp) {
+          return scanRegularExpression(parser, source);
+        }
 
         if (cp === Char.EqualSign) {
           parser.pos++;
@@ -211,33 +220,19 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `-`, `--`, `-=`, `-->`
       case SyntaxKind.Subtract:
-        cp = source.charCodeAt(++parser.pos);
+        parser.pos++;
+
+        cp = source.charCodeAt(parser.pos);
 
         if (cp === Char.Hyphen) {
-          parser.pos++;
-          // treat HTML end-comment after possible whitespace
-          // after line start as comment-until-eol
-          if (source.charCodeAt(parser.pos) === Char.GreaterThan && parser.nodeFlags & NodeFlags.NewLine) {
-            const pos = parser.pos;
-            parser.pos++;
-            while (parser.pos < parser.end && !isLineTerminator(source.charCodeAt(parser.pos))) {
-              parser.pos++;
-            }
-            if (context & (Context.Module | Context.OptionsDisableWebCompat)) {
-              parser.onError(
-                DiagnosticSource.Parser,
-                DiagnosticKind.Error,
-                diagnosticMap[
-                  context & Context.OptionsDisableWebCompat
-                    ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
-                    : DiagnosticCode.HTML_comments_can_only_be_used_in_script_mode
-                ],
-                pos - 1,
-                parser.pos
-              );
-            }
+          if (parser.nodeFlags & NodeFlags.NewLine && source.charCodeAt(parser.pos + 1) === Char.GreaterThan) {
+            // Return '-' rather than throwing, so we can report it as an unexpected token
+            // instead.
+            if (context & 0b00000000000100000000000000000100) return SyntaxKind.Subtract;
+            cp = skipHTMLComment(parser, cp, source);
             continue;
           }
+          parser.pos++;
           return SyntaxKind.Decrement;
         }
 
@@ -249,50 +244,43 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `<`, `<=`, `<<`, `<<=`, `<!--`
       case SyntaxKind.LessThan:
-        cp = source.charCodeAt(++parser.pos);
+        parser.pos++;
         if (context & Context.InType) return SyntaxKind.LessThan;
-        if (cp === Char.EqualSign) {
-          parser.pos++;
-          return SyntaxKind.LessThanOrEqual;
-        }
-        if (cp === Char.LessThan) {
-          parser.pos++;
-          if (source.charCodeAt(parser.pos) === Char.EqualSign) {
+        switch (source.charCodeAt(parser.pos)) {
+          case Char.EqualSign:
             parser.pos++;
-            return SyntaxKind.ShiftLeftAssign;
-          }
-          return SyntaxKind.ShiftLeft;
-        }
+            return SyntaxKind.LessThanOrEqual;
 
-        // NB: Treat HTML open-comment as comment-till-eol
-        if (cp === Char.Exclamation) {
-          parser.pos++;
-          if (source.charCodeAt(parser.pos + 1) === Char.Hyphen && source.charCodeAt(parser.pos) == Char.Hyphen) {
-            const pos = parser.pos;
-            while (parser.pos < parser.end && !isLineTerminator(source.charCodeAt(parser.pos))) {
+          case Char.LessThan:
+            parser.pos++;
+            if (source.charCodeAt(parser.pos) === Char.EqualSign) {
               parser.pos++;
+              return SyntaxKind.ShiftLeftAssign;
             }
-            if (context & (Context.Module | Context.OptionsDisableWebCompat)) {
-              parser.onError(
-                DiagnosticSource.Parser,
-                DiagnosticKind.Error,
-                diagnosticMap[
-                  context & Context.OptionsDisableWebCompat
-                    ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
-                    : DiagnosticCode.HTML_comments_can_only_be_used_in_script_mode
-                ],
-                pos - 1,
-                parser.pos
-              );
+            return SyntaxKind.ShiftLeft;
+
+          case Char.Exclamation:
+            if (context & 0b00000000000100000000000000000100 || source.charCodeAt(parser.pos + 2) !== Char.Hyphen) {
+              // In module contexts, `a <!-- b` is functionally equivalent to `a < !(--b)`. This
+              // is because whitespace is terminated by non-whitespace, and `<!--` in module code
+              // is not considered a comment start (and thus not whitespace). Thus, we just return
+              // the '<' token.
+              //
+              // See: https://tc39.github.io/ecma262/#sec-html-like-comments
+              return SyntaxKind.LessThan;
             }
-            continue;
-          }
+            if (source.charCodeAt(parser.pos + 1) == Char.Hyphen) {
+              cp = skipHTMLComment(parser, cp, source);
+              continue;
+            }
+          default:
+            return SyntaxKind.LessThan;
         }
-        return SyntaxKind.LessThan;
 
       // `&`, `&&`, `&=`, `&&=`
       case SyntaxKind.BitwiseAnd:
-        cp = source.charCodeAt(++parser.pos);
+        parser.pos++;
+        cp = source.charCodeAt(parser.pos);
         if (cp === Char.Ampersand) {
           parser.pos++;
           if (source.charCodeAt(parser.pos) === Char.EqualSign) {
@@ -309,34 +297,42 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `>`, `>=`, `>>`, `>>>`, `>>=`, `>>>=`
       case SyntaxKind.GreaterThan:
-        cp = source.charCodeAt(++parser.pos);
+        parser.pos++;
+
         if (context & Context.InType) return SyntaxKind.GreaterThan;
+
+        cp = source.charCodeAt(parser.pos);
+
         if (cp === Char.EqualSign) {
           parser.pos++;
           return SyntaxKind.GreaterThanOrEqual;
         }
 
+        if (cp !== Char.GreaterThan) return SyntaxKind.GreaterThan;
+
+        parser.pos++;
+
+        cp = source.charCodeAt(parser.pos);
+
         if (cp === Char.GreaterThan) {
           parser.pos++;
-          if (source.charCodeAt(parser.pos) === Char.GreaterThan) {
-            parser.pos++;
-            if (source.charCodeAt(parser.pos) === Char.EqualSign) {
-              parser.pos++;
-              return SyntaxKind.LogicalShiftRightAssign;
-            }
-            return SyntaxKind.LogicalShiftRight;
-          }
           if (source.charCodeAt(parser.pos) === Char.EqualSign) {
             parser.pos++;
-            return SyntaxKind.ShiftRightAssign;
+            return SyntaxKind.LogicalShiftRightAssign;
           }
-          return SyntaxKind.ShiftRight;
+          return SyntaxKind.LogicalShiftRight;
         }
-        return SyntaxKind.GreaterThan;
+
+        if (cp === Char.EqualSign) {
+          parser.pos++;
+          return SyntaxKind.ShiftRightAssign;
+        }
+        return SyntaxKind.ShiftRight;
 
       // `|`, `||`, `|=`
       case SyntaxKind.BitwiseOr:
-        cp = source.charCodeAt(++parser.pos);
+        parser.pos++;
+        cp = source.charCodeAt(parser.pos);
         if (cp === Char.VerticalBar) {
           parser.pos++;
           if (source.charCodeAt(parser.pos) === Char.EqualSign) {
@@ -354,8 +350,8 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `%`, `%=`
       case SyntaxKind.Modulo:
-        cp = source.charCodeAt(++parser.pos);
-        if (cp === Char.EqualSign) {
+        parser.pos++;
+        if (source.charCodeAt(parser.pos) === Char.EqualSign) {
           parser.pos++;
           return SyntaxKind.ModuloAssign;
         }
@@ -363,8 +359,8 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
       // `^`, `^=`
       case SyntaxKind.BitwiseXor:
-        cp = source.charCodeAt(++parser.pos);
-        if (cp === Char.EqualSign) {
+        parser.pos++;
+        if (source.charCodeAt(parser.pos) === Char.EqualSign) {
           parser.pos++;
           return SyntaxKind.BitwiseXorAssign;
         }
@@ -374,16 +370,14 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         return scanPrivateIdentifier(parser, cp, source);
 
       case SyntaxKind.EscapedKeyword:
-        const cooked = scanIdentifierEscape(parser);
-        if (cooked > 0) {
-          parser.tokenValue = fromCodePoint(cooked) + scanIdentifierParts(parser, source);
+        const escaped = scanIdentifierEscape(parser);
+        if (escaped > 0) {
+          parser.tokenValue = fromCodePoint(escaped) + scanIdentifierParts(parser, source);
           parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
-          const keyword = descKeywordTable[parser.tokenValue];
-          if (keyword != undefined) return keyword;
-          return SyntaxKind.Identifier;
+          return descKeywordTable[parser.tokenValue] || SyntaxKind.Identifier;
         }
         if (source.charCodeAt(parser.pos) === Char.Backslash) parser.pos++;
-        parser.tokenValue = fromCodePoint(cooked);
+        parser.tokenValue = '';
         parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
         return SyntaxKind.UnknownToken;
 

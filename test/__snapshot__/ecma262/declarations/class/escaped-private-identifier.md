@@ -63,34 +63,11 @@ class z { #\u0020oo }
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "#fofoo",
-                                "rawText": "#fo",
+                                "text": "#foo",
+                                "rawText": "#fo\\u006f",
                                 "flags": 16480,
                                 "transformFlags": 0,
                                 "start": 9,
-                                "end": 13
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "transformFlags": 128,
-                            "start": 9,
-                            "end": 13
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "o",
-                                "rawText": "\\u006f",
-                                "flags": 16480,
-                                "transformFlags": 0,
-                                "start": 13,
                                 "end": 19
                             },
                             "optionalToken": null,
@@ -98,7 +75,7 @@ class z { #\u0020oo }
                             "initializer": null,
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 13,
+                            "start": 9,
                             "end": 19
                         },
                         {
@@ -204,34 +181,11 @@ class z { #\u0020oo }
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "#fofo ",
-                                "rawText": "#fo",
+                                "text": "#fo ",
+                                "rawText": "#fo\\u0020",
                                 "flags": 16480,
                                 "transformFlags": 0,
                                 "start": 49,
-                                "end": 53
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "transformFlags": 128,
-                            "start": 49,
-                            "end": 53
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": " ",
-                                "rawText": "\\u0020",
-                                "flags": 16480,
-                                "transformFlags": 0,
-                                "start": 53,
                                 "end": 59
                             },
                             "optionalToken": null,
@@ -239,7 +193,7 @@ class z { #\u0020oo }
                             "initializer": null,
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 53,
+                            "start": 49,
                             "end": 59
                         }
                     ],
@@ -293,34 +247,11 @@ class z { #\u0020oo }
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "# oo",
-                                "rawText": "#",
+                                "text": "z oo",
+                                "rawText": "#\\u0020oo",
                                 "flags": 16480,
                                 "transformFlags": 0,
                                 "start": 72,
-                                "end": 74
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "transformFlags": 128,
-                            "start": 72,
-                            "end": 74
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": " oo",
-                                "rawText": "\\u0020oo",
-                                "flags": 16480,
-                                "transformFlags": 0,
-                                "start": 74,
                                 "end": 82
                             },
                             "optionalToken": null,
@@ -328,7 +259,7 @@ class z { #\u0020oo }
                             "initializer": null,
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 74,
+                            "start": 72,
                             "end": 82
                         }
                     ],
@@ -361,15 +292,23 @@ class z { #\u0020oo }
 ### Printed
 
 ```javascript
+class x {
+  #fo\u006f;;
+  foo = this.#foo;
+}
+class y {
+  #fo\u0020;
+}
+
+class z {
+  #\u0020oo;
+}
 
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Private identifier cannot contain escape characters - start: 13, end: 13
-✖ Private identifier cannot contain escape characters - start: 53, end: 53
-✖ Private identifier cannot contain escape characters - start: 74, end: 74
-
+✔ No errors
 ```
 

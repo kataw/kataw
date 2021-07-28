@@ -51,15 +51,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 1,
-                    "end": 3
+                    "end": 2
                 },
                 "consequent": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "rawText": ".0",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 3,
+                    "start": 2,
                     "end": 4
                 },
                 "colonToken": {
@@ -106,15 +106,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 9,
-                    "end": 11
+                    "end": 10
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 1,
-                    "rawText": "1",
+                    "text": 0.1,
+                    "rawText": ".1",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 11,
+                    "start": 10,
                     "end": 12
                 },
                 "colonToken": {
@@ -161,15 +161,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 17,
-                    "end": 19
+                    "end": 18
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 2,
-                    "rawText": "2",
+                    "text": 0.2,
+                    "rawText": ".2",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 19,
+                    "start": 18,
                     "end": 20
                 },
                 "colonToken": {
@@ -216,15 +216,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 25,
-                    "end": 27
+                    "end": 26
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 3,
-                    "rawText": "3",
+                    "text": 0.3,
+                    "rawText": ".3",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 27,
+                    "start": 26,
                     "end": 28
                 },
                 "colonToken": {
@@ -271,15 +271,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 33,
-                    "end": 35
+                    "end": 34
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 4,
-                    "rawText": "4",
+                    "text": 0.4,
+                    "rawText": ".4",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 35,
+                    "start": 34,
                     "end": 36
                 },
                 "colonToken": {
@@ -326,15 +326,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 41,
-                    "end": 43
+                    "end": 42
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 5,
-                    "rawText": "5",
+                    "text": 0.5,
+                    "rawText": ".5",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 43,
+                    "start": 42,
                     "end": 44
                 },
                 "colonToken": {
@@ -381,15 +381,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 49,
-                    "end": 51
+                    "end": 50
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 6,
-                    "rawText": "6",
+                    "text": 0.6,
+                    "rawText": ".6",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 51,
+                    "start": 50,
                     "end": 52
                 },
                 "colonToken": {
@@ -436,15 +436,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 57,
-                    "end": 59
+                    "end": 58
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 7,
-                    "rawText": "7",
+                    "text": 0.7,
+                    "rawText": ".7",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 59,
+                    "start": 58,
                     "end": 60
                 },
                 "colonToken": {
@@ -491,15 +491,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 65,
-                    "end": 67
+                    "end": 66
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 8,
-                    "rawText": "8",
+                    "text": 0.8,
+                    "rawText": ".8",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 67,
+                    "start": 66,
                     "end": 68
                 },
                 "colonToken": {
@@ -546,15 +546,15 @@ a?.9:b
                     "flags": 64,
                     "transformFlags": 0,
                     "start": 73,
-                    "end": 75
+                    "end": 74
                 },
                 "consequent": {
                     "kind": 201392130,
-                    "text": 9,
-                    "rawText": "9",
+                    "text": 0.9,
+                    "rawText": ".9",
                     "flags": 96,
                     "transformFlags": 0,
-                    "start": 75,
+                    "start": 74,
                     "end": 76
                 },
                 "colonToken": {
@@ -597,24 +597,24 @@ a?.9:b
 ### Printed
 
 ```javascript
-a ? 0 : b;
-a ? 1 : b;
+a ? 0.0 : b;
+a ? 0.1 : b;
 
-a ? 2 : b;
+a ? 0.2 : b;
 
-a ? 3 : b;
+a ? 0.3 : b;
 
-a ? 4 : b;
+a ? 0.4 : b;
 
-a ? 5 : b;
+a ? 0.5 : b;
 
-a ? 6 : b;
+a ? 0.6 : b;
 
-a ? 7 : b;
+a ? 0.7 : b;
 
-a ? 8 : b;
+a ? 0.8 : b;
 
-a ? 9 : b;
+a ? 0.9 : b;
 
 ```
 

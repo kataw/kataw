@@ -66,40 +66,77 @@ export { x }
         {
             "kind": 120,
             "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 96,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 23
-                },
-                "operand": {
+                "kind": 198,
+                "left": {
                     "kind": 16637,
                     "text": "",
                     "rawText": "",
                     "flags": 64,
                     "transformFlags": 0,
-                    "start": 23,
-                    "end": 23
+                    "start": 6,
+                    "end": 6
                 },
-                "flags": 32,
-                "transformFlags": 16384,
+                "operatorToken": {
+                    "kind": 536971330,
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 6,
+                    "end": 8
+                },
+                "right": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 65584,
+                        "flags": 96,
+                        "transformFlags": 0,
+                        "start": 8,
+                        "end": 9
+                    },
+                    "operand": {
+                        "kind": 128,
+                        "operandToken": {
+                            "kind": 196636,
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 9,
+                            "end": 11
+                        },
+                        "operand": {
+                            "kind": 134299649,
+                            "text": "Disallowed",
+                            "rawText": "Disallowed",
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 11,
+                            "end": 22
+                        },
+                        "flags": 32,
+                        "transformFlags": 16384,
+                        "start": 9,
+                        "end": 22
+                    },
+                    "flags": 32,
+                    "transformFlags": 16384,
+                    "start": 8,
+                    "end": 22
+                },
+                "flags": 96,
+                "transformFlags": 5120,
                 "start": 6,
-                "end": 23
+                "end": 22
             },
             "flags": 16,
             "transformFlags": 4096,
             "start": 6,
-            "end": 23
+            "end": 22
         },
         {
             "kind": 257,
             "exportKeyword": {
                 "kind": 4202582,
-                "flags": 80,
+                "flags": 81,
                 "transformFlags": 0,
-                "start": 23,
+                "start": 22,
                 "end": 29
             },
             "declaration": null,
@@ -141,9 +178,9 @@ export { x }
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 80,
+            "flags": 81,
             "transformFlags": 0,
-            "start": 23,
+            "start": 22,
             "end": 35
         }
     ],
@@ -166,8 +203,7 @@ export { x }
 ### Diagnostics
 
 ```javascript
-✖ HTML comments can only be used with web compatibility enabled - start: 8, end: 22
-✖ Identifier expected - start: 23, end: 29
+✖ Identifier expected - start: 6, end: 8
 
 ```
 

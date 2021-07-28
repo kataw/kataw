@@ -300,7 +300,7 @@ export function parse(
       if (rules.noDebugger) lintFlags |= LinterFlags.NoDebugger;
       if (rules.noDelete) lintFlags |= LinterFlags.NoDelete;
       if (rules.noEmptyBlocks) lintFlags |= LinterFlags.NoEmptyBlocks;
-      if (rules.DefaultClause) lintFlags |= LinterFlags.DefaultClause;
+      if (rules.defaultClause) lintFlags |= LinterFlags.DefaultClause;
       if (rules.noBitwise) lintFlags |= LinterFlags.NoBitwise;
       if (rules.trailingComma) lintFlags |= LinterFlags.TrailingComma;
       if (rules.noVar) lintFlags |= LinterFlags.NoVar;
@@ -736,7 +736,7 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
     );
   }
   if (context & Context.Lint && parser.linterFlags & LinterFlags.NoUnsafeFinally && finallyBlock) {
-    for (const statement of finallyBlock?.block.statements) {
+    for (const statement of finallyBlock.block.statements) {
       if (
         statement.kind === SyntaxKind.ThrowStatement ||
         statement.kind === SyntaxKind.ContinueStatement ||

@@ -43,7 +43,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "kind": 201392130,
                                             "text": 0.9,
                                             "rawText": ".9",
-                                            "flags": 32864,
+                                            "flags": 96,
                                             "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
@@ -168,12 +168,12 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32784,
+                                "flags": 16,
                                 "transformFlags": 0,
                                 "start": 6,
                                 "end": 42
                             },
-                            "flags": 32816,
+                            "flags": 48,
                             "transformFlags": 8,
                             "start": 5,
                             "end": 43

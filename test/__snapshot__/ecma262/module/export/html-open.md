@@ -57,18 +57,69 @@ export {}\n<!--
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "n",
-                "rawText": "n",
+                "kind": 198,
+                "left": {
+                    "kind": 134299649,
+                    "text": "n",
+                    "rawText": "n",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 10,
+                    "end": 11
+                },
+                "operatorToken": {
+                    "kind": 536971330,
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 11,
+                    "end": 12
+                },
+                "right": {
+                    "kind": 126,
+                    "operandToken": {
+                        "kind": 65584,
+                        "flags": 96,
+                        "transformFlags": 0,
+                        "start": 12,
+                        "end": 13
+                    },
+                    "operand": {
+                        "kind": 128,
+                        "operandToken": {
+                            "kind": 196636,
+                            "flags": 96,
+                            "transformFlags": 0,
+                            "start": 13,
+                            "end": 15
+                        },
+                        "operand": {
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
+                            "transformFlags": 0,
+                            "start": 15,
+                            "end": 15
+                        },
+                        "flags": 32,
+                        "transformFlags": 16384,
+                        "start": 13,
+                        "end": 15
+                    },
+                    "flags": 32,
+                    "transformFlags": 16384,
+                    "start": 12,
+                    "end": 15
+                },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 5120,
                 "start": 10,
-                "end": 11
+                "end": 15
             },
             "flags": 16,
             "transformFlags": 4096,
             "start": 10,
-            "end": 11
+            "end": 15
         }
     ],
     "isModule": true,
@@ -92,7 +143,8 @@ export {}\n<!--
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 9
 ✖ '; ' is not allowed here. Did you mean ';'? - start: 9, end: 10
-✖ HTML comments can only be used with web compatibility enabled - start: 12, end: 15
+✖ Identifier expected - start: 15, end: 15
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 15, end: 15
 
 ```
 

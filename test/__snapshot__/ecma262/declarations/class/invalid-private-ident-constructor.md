@@ -416,34 +416,11 @@ class w { static #\u0063onstructor }
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "#constructor",
-                                "rawText": "#",
+                                "text": "staticconstructor",
+                                "rawText": "#\\u0063onstructor",
                                 "flags": 16480,
                                 "transformFlags": 0,
                                 "start": 144,
-                                "end": 146
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "transformFlags": 128,
-                            "start": 144,
-                            "end": 146
-                        },
-                        {
-                            "kind": 280,
-                            "decorators": null,
-                            "declaredToken": null,
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "constructor",
-                                "rawText": "\\u0063onstructor",
-                                "flags": 16480,
-                                "transformFlags": 0,
-                                "start": 146,
                                 "end": 162
                             },
                             "optionalToken": null,
@@ -451,7 +428,7 @@ class w { static #\u0063onstructor }
                             "initializer": null,
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 146,
+                            "start": 144,
                             "end": 162
                         }
                     ],
@@ -484,19 +461,30 @@ class w { static #\u0063onstructor }
 ### Printed
 
 ```javascript
+class x {
+  #constructor;
+}
+class y {
+  #constructor() {}
+}
+
+class z {
+  static #constructor;
+}
+
+class q {
+  static #constructor() {}
+}
+
+class w {
+  static #\u0063onstructor;
+}
 
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ '#constructor' is a reserved word. - start: 22, end: 34
-✖ '#constructor' is a reserved word. - start: 48, end: 60
-✖ '#constructor' is a reserved word. - start: 86, end: 98
-✖ '#constructor' is a reserved word. - start: 119, end: 131
-✖ Private identifier cannot contain escape characters - start: 146, end: 146
-✖ A class field cannot have a field named 'constructor' - start: 146, end: 162
-✖ A class field cannot have a field named 'constructor' - start: 162, end: 164
-
+✔ No errors
 ```
 

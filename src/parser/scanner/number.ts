@@ -158,7 +158,7 @@ export function scanNumber(
             case 1:
               if (nodeFlags & NodeFlags.HexIntegerLiteral) {
                 allowSeparator = true;
-                val = val * 0b00000000000000000000000000010000 + toHex(cp);
+                val = val * 16 + toHex(cp);
                 break;
               }
               parser.onError(

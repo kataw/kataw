@@ -117,13 +117,15 @@ switch (x) { case y: z; }
 ### Printed
 
 ```javascript
-
+switch (x) {
+  case y:
+    z;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a default case - start: 23, end: 25
-
+✔ No errors
 ```
 

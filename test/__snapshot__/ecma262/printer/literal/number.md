@@ -304,7 +304,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 0.1,
                 "rawText": ".1",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 127,
                 "end": 131
@@ -736,7 +736,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 1,
                 "rawText": ".1e1",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 343,
                 "end": 348
@@ -784,7 +784,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 1000000000,
                 "rawText": ".1e+0010",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 363,
                 "end": 372
@@ -800,7 +800,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 1e-11,
                 "rawText": ".1e-0010",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 372,
                 "end": 381
@@ -880,7 +880,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 1,
                 "rawText": ".1E1",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 401,
                 "end": 406
@@ -928,7 +928,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 1000000000,
                 "rawText": ".1E+0010",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 421,
                 "end": 430
@@ -944,7 +944,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 1e-11,
                 "rawText": ".1E-0010",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 430,
                 "end": 439
@@ -1200,7 +1200,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 0,
                 "rawText": ".0",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 528,
                 "end": 531
@@ -1312,7 +1312,7 @@ function test5(): string {
                 "kind": 201392130,
                 "text": 0,
                 "rawText": ".0e60",
-                "flags": 32865,
+                "flags": 97,
                 "transformFlags": 0,
                 "start": 597,
                 "end": 603
