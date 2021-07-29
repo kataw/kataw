@@ -80,7 +80,7 @@ export const enum LinterFlags {
   NoEmptyBlocks = 1 << 4,
   DefaultClause = 1 << 5,
   NoBitwise = 1 << 6,
-  TrailingComma = 1 << 7,
+  NonEmptyCharacterClass = 1 << 7,
   NoVar = 1 << 8,
   NoUnusedVariables = 1 << 9,
   NoSparseArray = 1 << 10,

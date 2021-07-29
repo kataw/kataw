@@ -208,7 +208,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         }
 
         if (context & Context.AllowRegExp) {
-          return scanRegularExpression(parser, source);
+          return scanRegularExpression(parser, context, source);
         }
 
         if (cp === Char.EqualSign) {

@@ -265,5 +265,6 @@
   "Object literal keys that are strings or numbers must be a method or have a colon": 281,
   "Computed property must be followed by a colon": 282,
   "Use 'while' loops instead of 'for' loops.": 283,
-  "Private names are only allowed in property accesses or in `in` expressions": 284
+  "Private names are only allowed in property accesses or in `in` expressions": 284,
+  "Empty class": 285
   }
