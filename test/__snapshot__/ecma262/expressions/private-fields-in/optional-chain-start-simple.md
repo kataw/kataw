@@ -1,13 +1,13 @@
-# Kataw parser test case
+  # Kataw parser test case
 
 ## Input
 
 `````js
-class Class {
-  #field;
+class Foo {
+  static #x = 1;
 
-  static isNameIn(value) {
-    return #field in value;
+  static test() {
+    return Foo?.#x;
   }
 }
 `````
@@ -34,12 +34,12 @@ class Class {
             },
             "name": {
                 "kind": 134299649,
-                "text": "Class",
-                "rawText": "Class",
+                "text": "Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 5,
-                "end": 11
+                "end": 9
             },
             "typeParameters": null,
             "tail": {
@@ -52,31 +52,45 @@ class Class {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "transformFlags": 0,
+                                "start": 11,
+                                "end": 20
+                            },
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "#field",
-                                "rawText": "#field",
-                                "flags": 97,
+                                "text": "#x",
+                                "rawText": "#x",
+                                "flags": 96,
                                 "transformFlags": 0,
-                                "start": 13,
-                                "end": 22
+                                "start": 20,
+                                "end": 23
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 27
+                            },
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 13,
-                            "end": 22
+                            "start": 20,
+                            "end": 27
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
                             "transformFlags": 0,
-                            "start": 22,
-                            "end": 23
+                            "start": 27,
+                            "end": 28
                         },
                         {
                             "kind": 278,
@@ -86,8 +100,8 @@ class Class {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "transformFlags": 0,
-                                "start": 23,
-                                "end": 33
+                                "start": 28,
+                                "end": 38
                             },
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -97,32 +111,22 @@ class Class {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "isNameIn",
-                                    "rawText": "isNameIn",
+                                    "text": "test",
+                                    "rawText": "test",
                                     "flags": 96,
                                     "transformFlags": 0,
-                                    "start": 33,
-                                    "end": 42
+                                    "start": 38,
+                                    "end": 43
                                 },
                                 "typeParameters": null,
                                 "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameters": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "value",
-                                            "rawText": "value",
-                                            "flags": 96,
-                                            "transformFlags": 0,
-                                            "start": 43,
-                                            "end": 48
-                                        }
-                                    ],
+                                    "formalParameters": [],
                                     "trailingComma": false,
-                                    "flags": 96,
+                                    "flags": 0,
                                     "transformFlags": 0,
-                                    "start": 43,
-                                    "end": 49
+                                    "start": 44,
+                                    "end": 45
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -137,91 +141,106 @@ class Class {
                                                     "kind": 37757022,
                                                     "flags": 81,
                                                     "transformFlags": 0,
-                                                    "start": 51,
-                                                    "end": 62
+                                                    "start": 47,
+                                                    "end": 58
                                                 },
                                                 "expression": {
-                                                    "kind": 198,
-                                                    "left": {
-                                                        "kind": 67191035,
-                                                        "text": "#field",
-                                                        "rawText": "#field",
-                                                        "flags": 96,
+                                                    "kind": 205,
+                                                    "chainToken": {
+                                                        "kind": 393240,
+                                                        "flags": 64,
                                                         "transformFlags": 0,
                                                         "start": 62,
-                                                        "end": 69
+                                                        "end": 64
                                                     },
-                                                    "operatorToken": {
-                                                        "kind": 21006388,
-                                                        "flags": 96,
-                                                        "transformFlags": 8192,
-                                                        "start": 69,
-                                                        "end": 72
-                                                    },
-                                                    "right": {
+                                                    "member": {
                                                         "kind": 134299649,
-                                                        "text": "value",
-                                                        "rawText": "value",
+                                                        "text": "Foo",
+                                                        "rawText": "Foo",
                                                         "flags": 96,
                                                         "transformFlags": 0,
-                                                        "start": 72,
-                                                        "end": 78
+                                                        "start": 58,
+                                                        "end": 62
                                                     },
-                                                    "flags": 96,
-                                                    "transformFlags": 5120,
-                                                    "start": 62,
-                                                    "end": 78
+                                                    "chain": {
+                                                        "kind": 302,
+                                                        "chain": {
+                                                            "kind": 202,
+                                                            "chain": null,
+                                                            "expression": {
+                                                                "kind": 67191035,
+                                                                "text": "#x",
+                                                                "rawText": "#x",
+                                                                "flags": 96,
+                                                                "transformFlags": 0,
+                                                                "start": 64,
+                                                                "end": 66
+                                                            },
+                                                            "flags": 32,
+                                                            "transformFlags": 2,
+                                                            "start": 64,
+                                                            "end": 66
+                                                        },
+                                                        "flags": 32,
+                                                        "transformFlags": 0,
+                                                        "start": 64,
+                                                        "end": 66
+                                                    },
+                                                    "flags": 32,
+                                                    "transformFlags": 0,
+                                                    "start": 58,
+                                                    "end": 66
                                                 },
                                                 "flags": 81,
                                                 "transformFlags": 256,
-                                                "start": 51,
-                                                "end": 79
+                                                "start": 47,
+                                                "end": 67
                                             }
                                         ],
                                         "flags": 33,
                                         "transformFlags": 0,
-                                        "start": 51,
-                                        "end": 79
+                                        "start": 47,
+                                        "end": 67
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 49,
-                                    "end": 83
+                                    "start": 45,
+                                    "end": 71
                                 },
                                 "flags": 0,
                                 "transformFlags": 0,
-                                "start": 42,
-                                "end": 83
+                                "start": 43,
+                                "end": 71
                             },
                             "flags": 0,
                             "transformFlags": 0,
-                            "start": 33,
-                            "end": 83
+                            "start": 38,
+                            "end": 71
                         }
                     ],
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 13,
-                    "end": 83
+                    "start": 11,
+                    "end": 71
                 },
-                "flags": 11,
+                "flags": 9,
                 "transformFlags": 0,
                 "start": 32,
-                "end": 85
+                "end": 73
             },
             "flags": 16,
             "transformFlags": 0,
             "start": 0,
-            "end": 85
+            "end": 73
         }
     ],
     "isModule": false,
-    "source": "class Class {\n  #field;\n\n  static isNameIn(value) {\n    return #field in value;\n  }\n}",
+    "source": "class Foo {\n  static #x = 1;\n\n  static test() {\n    return Foo?.#x;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 85
+    "end": 73
 }
 ```
 
@@ -229,11 +248,11 @@ class Class {
 
 ```javascript
 
-class Class {
-    #field
+class Foo {
+    static #x = 1
     ;
-    static isNameIn(value) {
-        return #field in value;
+    static test() {
+        return Foo?.#x;
     }
 }
 

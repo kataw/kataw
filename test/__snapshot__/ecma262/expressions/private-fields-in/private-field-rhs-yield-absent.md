@@ -137,7 +137,7 @@ class C {
                                                     "operatorToken": {
                                                         "kind": 21006388,
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 8192,
                                                         "start": 51,
                                                         "end": 54
                                                     },
@@ -211,12 +211,15 @@ class C {
 ### Printed
 
 ```javascript
+
 class C {
-  #field;;
-  static method() {
-    #field in yield;
-  }
+    #field
+    ;
+    static method() {
+        #field in yield;
+    }
 }
+
 ```
 
 ### Diagnostics

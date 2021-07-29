@@ -7,7 +7,7 @@ class C {
   #field;
 
   constructor() {
-    for (#field in value;;) break;
+    #field + value;
   }
 }
 `````
@@ -116,118 +116,89 @@ class C {
                                         "directives": [],
                                         "statements": [
                                             {
-                                                "kind": 166,
-                                                "forKeyword": {
-                                                    "kind": 37757017,
-                                                    "flags": 81,
-                                                    "transformFlags": 0,
-                                                    "start": 38,
-                                                    "end": 46
-                                                },
-                                                "initializer": {
-                                                    "kind": 67191035,
-                                                    "text": "#field",
-                                                    "rawText": "#field",
+                                                "kind": 120,
+                                                "expression": {
+                                                    "kind": 198,
+                                                    "left": {
+                                                        "kind": 67191035,
+                                                        "text": "#field",
+                                                        "rawText": "#field",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 38,
+                                                        "end": 49
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 99634,
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 49,
+                                                        "end": 51
+                                                    },
+                                                    "right": {
+                                                        "kind": 134299649,
+                                                        "text": "value",
+                                                        "rawText": "value",
+                                                        "flags": 96,
+                                                        "transformFlags": 0,
+                                                        "start": 51,
+                                                        "end": 57
+                                                    },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 48,
-                                                    "end": 54
-                                                },
-                                                "inKeyword": {
-                                                    "kind": 21006388,
-                                                    "flags": 64,
-                                                    "transformFlags": 8192,
-                                                    "start": 54,
+                                                    "transformFlags": 5120,
+                                                    "start": 38,
                                                     "end": 57
                                                 },
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "value",
-                                                    "rawText": "value",
-                                                    "flags": 96,
-                                                    "transformFlags": 0,
-                                                    "start": 57,
-                                                    "end": 63
-                                                },
-                                                "statement": {
-                                                    "kind": 168,
-                                                    "flags": 16,
-                                                    "transformFlags": 0,
-                                                    "start": 63,
-                                                    "end": 64
-                                                },
-                                                "flags": 81,
-                                                "transformFlags": 0,
-                                                "start": 38,
-                                                "end": 64
-                                            },
-                                            {
-                                                "kind": 168,
                                                 "flags": 16,
-                                                "transformFlags": 0,
-                                                "start": 64,
-                                                "end": 65
+                                                "transformFlags": 4096,
+                                                "start": 38,
+                                                "end": 58
                                             }
                                         ],
                                         "flags": 33,
                                         "transformFlags": 0,
                                         "start": 38,
-                                        "end": 65
+                                        "end": 58
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
                                     "start": 36,
-                                    "end": 65
+                                    "end": 62
                                 },
                                 "flags": 2048,
                                 "transformFlags": 0,
                                 "start": 34,
-                                "end": 65
+                                "end": 62
                             },
                             "flags": 2048,
                             "transformFlags": 0,
                             "start": 19,
-                            "end": 65
+                            "end": 62
                         }
                     ],
                     "flags": 32,
                     "transformFlags": 0,
                     "start": 9,
-                    "end": 65
+                    "end": 62
                 },
                 "flags": 7,
                 "transformFlags": 0,
                 "start": 32,
-                "end": 65
+                "end": 64
             },
             "flags": 16,
             "transformFlags": 0,
             "start": 0,
-            "end": 65
-        },
-        {
-            "kind": 150,
-            "breakKeyword": {
-                "kind": 37757005,
-                "flags": 80,
-                "transformFlags": 0,
-                "start": 66,
-                "end": 72
-            },
-            "label": null,
-            "flags": 16,
-            "transformFlags": 0,
-            "start": 66,
-            "end": 73
+            "end": 64
         }
     ],
     "isModule": false,
-    "source": "class C {\n  #field;\n\n  constructor() {\n    for (#field in value;;) break;\n  }\n}",
+    "source": "class C {\n  #field;\n\n  constructor() {\n    #field + value;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 79
+    "end": 64
 }
 ```
 
@@ -240,11 +211,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 63, end: 64
-✖ The parser expected to find a '}' to match the '{' token here - start: 65, end: 66
-✖ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 72, end: 73
-✖ Declaration or statement expected - start: 73, end: 77
-✖ Declaration or statement expected - start: 77, end: 79
+✖ Private names are only allowed in property accesses or in `in` expressions - start: 49, end: 51
 
 ```
 

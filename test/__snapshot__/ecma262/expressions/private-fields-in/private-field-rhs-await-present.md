@@ -160,7 +160,7 @@ class C {
                                                     "operatorToken": {
                                                         "kind": 21006388,
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 8192,
                                                         "start": 71,
                                                         "end": 74
                                                     },
@@ -255,12 +255,15 @@ class C {
 ### Printed
 
 ```javascript
+
 class C {
-  #field;;
-  static async isNameIn(value) {
-    return #field in await (value);
-  }
+    #field
+    ;
+    static async isNameIn(value) {
+        return #field in await (value);
+    }
 }
+
 ```
 
 ### Diagnostics

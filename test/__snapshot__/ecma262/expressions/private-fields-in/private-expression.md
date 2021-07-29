@@ -1,13 +1,12 @@
-# Kataw parser test case
+  # Kataw parser test case
 
 ## Input
 
 `````js
-class C {
-  #a;
-
-  constructor() {
-    #b in {};
+class Foo {
+  #x = 1;
+  test() {
+    #x;
   }
 }
 `````
@@ -34,12 +33,12 @@ class C {
             },
             "name": {
                 "kind": 134299649,
-                "text": "C",
-                "rawText": "C",
+                "text": "Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "transformFlags": 0,
                 "start": 5,
-                "end": 7
+                "end": 9
             },
             "typeParameters": null,
             "tail": {
@@ -56,27 +55,35 @@ class C {
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "#a",
-                                "rawText": "#a",
+                                "text": "#x",
+                                "rawText": "#x",
                                 "flags": 97,
                                 "transformFlags": 0,
-                                "start": 9,
-                                "end": 14
+                                "start": 11,
+                                "end": 16
                             },
                             "optionalToken": null,
                             "type": null,
-                            "initializer": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "transformFlags": 0,
+                                "start": 18,
+                                "end": 20
+                            },
                             "flags": 32,
                             "transformFlags": 128,
-                            "start": 9,
-                            "end": 14
+                            "start": 11,
+                            "end": 20
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
                             "transformFlags": 0,
-                            "start": 14,
-                            "end": 15
+                            "start": 20,
+                            "end": 21
                         },
                         {
                             "kind": 278,
@@ -91,22 +98,22 @@ class C {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "text": "constructor",
-                                    "rawText": "constructor",
+                                    "text": "test",
+                                    "rawText": "test",
                                     "flags": 97,
                                     "transformFlags": 0,
-                                    "start": 15,
-                                    "end": 30
+                                    "start": 21,
+                                    "end": 28
                                 },
                                 "typeParameters": null,
                                 "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
-                                    "flags": 2048,
+                                    "flags": 0,
                                     "transformFlags": 0,
-                                    "start": 31,
-                                    "end": 32
+                                    "start": 29,
+                                    "end": 30
                                 },
                                 "returnType": null,
                                 "contents": {
@@ -118,94 +125,64 @@ class C {
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 198,
-                                                    "left": {
-                                                        "kind": 67191035,
-                                                        "text": "#b",
-                                                        "rawText": "#b",
-                                                        "flags": 96,
-                                                        "transformFlags": 0,
-                                                        "start": 34,
-                                                        "end": 41
-                                                    },
-                                                    "operatorToken": {
-                                                        "kind": 21006388,
-                                                        "flags": 96,
-                                                        "transformFlags": 8192,
-                                                        "start": 41,
-                                                        "end": 44
-                                                    },
-                                                    "right": {
-                                                        "kind": 220,
-                                                        "propertyList": {
-                                                            "kind": 218,
-                                                            "properties": [],
-                                                            "trailingComma": false,
-                                                            "flags": 16,
-                                                            "transformFlags": 0,
-                                                            "start": 46,
-                                                            "end": 46
-                                                        },
-                                                        "flags": 48,
-                                                        "transformFlags": 8,
-                                                        "start": 44,
-                                                        "end": 47
-                                                    },
+                                                    "kind": 67191035,
+                                                    "text": "#x",
+                                                    "rawText": "#x",
                                                     "flags": 96,
-                                                    "transformFlags": 5120,
-                                                    "start": 34,
-                                                    "end": 47
+                                                    "transformFlags": 0,
+                                                    "start": 32,
+                                                    "end": 39
                                                 },
                                                 "flags": 16,
                                                 "transformFlags": 4096,
-                                                "start": 34,
-                                                "end": 48
+                                                "start": 32,
+                                                "end": 40
                                             }
                                         ],
                                         "flags": 33,
                                         "transformFlags": 0,
-                                        "start": 34,
-                                        "end": 48
+                                        "start": 32,
+                                        "end": 40
                                     },
                                     "flags": 32,
                                     "transformFlags": 0,
-                                    "start": 32,
-                                    "end": 52
+                                    "start": 30,
+                                    "end": 44
                                 },
-                                "flags": 2048,
+                                "flags": 0,
                                 "transformFlags": 0,
-                                "start": 30,
-                                "end": 52
+                                "start": 28,
+                                "end": 44
                             },
-                            "flags": 2048,
+                            "flags": 0,
                             "transformFlags": 0,
-                            "start": 15,
-                            "end": 52
+                            "start": 21,
+                            "end": 44
                         }
                     ],
                     "flags": 32,
                     "transformFlags": 0,
-                    "start": 9,
-                    "end": 52
+                    "start": 11,
+                    "end": 44
                 },
-                "flags": 7,
+                "flags": 9,
                 "transformFlags": 0,
                 "start": 32,
-                "end": 54
+                "end": 46
             },
             "flags": 16,
             "transformFlags": 0,
             "start": 0,
-            "end": 54
+            "end": 46
         }
     ],
     "isModule": false,
-    "source": "class C {\n  #a;\n\n  constructor() {\n    #b in {};\n  }\n}",
+    "source": "class Foo {\n  #x = 1;\n  test() {\n    #x;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "transformFlags": 0,
     "start": 0,
-    "end": 54
+    "end": 46
 }
 ```
 
@@ -213,11 +190,11 @@ class C {
 
 ```javascript
 
-class C {
-    #a
+class Foo {
+    #x = 1
     ;
-    constructor() {
-        #b in {};
+    test() {
+        #x;
     }
 }
 

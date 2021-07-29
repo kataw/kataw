@@ -2098,13 +2098,7 @@ function parseBinaryExpression(
     }
 
     if (left.kind === SyntaxKind.PrivateIdentifier && t !== SyntaxKind.InKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Lint,
-        diagnosticMap[DiagnosticCode.Private_names_are_only_allowed_in_property_accesses],
-        parser.curPos,
-        parser.pos
-      );
+      report(parser, parser.curPos, DiagnosticCode.Private_names_are_only_allowed_in_property_accesses_or_in_in_expressions);
     }
 
     if (context & Context.Lint && parser.linterFlags & LinterFlags.NoBitwise) {
@@ -3006,6 +3000,12 @@ function validateIdentifier(parser: ParserState, context: Context, t: SyntaxKind
   }
 }
 
+  // PropertyDefinition :
+  //   IdentifierReference
+  //   CoverInitializedName
+  //   PropertyName `:` AssignmentExpression
+  //   MethodDefinition
+  //   `...` AssignmentExpression
 function parsePropertyDefinition(
   parser: ParserState,
   context: Context,
@@ -3263,6 +3263,19 @@ function parsePropertyDefinition(
   return key as Identifier;
 }
 
+  // MethodDefinition :
+  //   ClassElementName `(` UniqueFormalParameters `)` `{` FunctionBody `}`
+  //   GeneratorMethod
+  //   AsyncMethod
+  //   AsyncGeneratorMethod
+  //   `get` ClassElementName `(` `)` `{` FunctionBody `}`
+  //   `set` ClassElementName `(` PropertySetParameterList `)` `{` FunctionBody `}`
+  // GeneratorMethod :
+  //   `*` ClassElementName `(` UniqueFormalParameters `)` `{` GeneratorBody `}`
+  // AsyncMethod :
+  //   `async` [no LineTerminator here] ClassElementName `(` UniqueFormalParameters `)` `{` AsyncFunctionBody `}`
+  // AsyncGeneratorMethod :
+  //   `async` [no LineTerminator here] `*` ClassElementName `(` UniqueFormalParameters `)` `{` AsyncGeneratorBody `}`
 function parseMethodDefinition(
   parser: ParserState,
   context: Context,
