@@ -38,7 +38,7 @@ export function scanRegularExpression(parser: ParserState, context: Context, sou
           ) {
             parser.onError(
               DiagnosticSource.Lexer,
-              DiagnosticKind.Error,
+              DiagnosticKind.Lint,
               diagnosticMap[DiagnosticCode.Empty_class],
               parser.curPos,
               pos
