@@ -181,6 +181,7 @@
 
 ```javascript
 ✖ 'delete' cannot be called on an identifier in strict mode. - start: 25, end: 26
+✖ 'delete' cannot be called on an identifier in strict mode. - start: 54, end: 55
 ✖ 'delete' cannot be called on an identifier in strict mode. - start: 87, end: 88
 
 ```

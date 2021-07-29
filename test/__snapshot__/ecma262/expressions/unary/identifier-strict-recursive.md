@@ -106,6 +106,7 @@ delete ((this.#field))
 
 ```javascript
 ✖ Private identifiers are not allowed outside class bodies - start: 29, end: 35
+✖ Prohibit delete of private class elements - start: 37, end: 37
 
 ```
 

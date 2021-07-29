@@ -135,7 +135,7 @@ import { createArrowTypeParameter, ArrowTypeParameter } from '../ast/types/arrow
 import { createParenthesizedType } from '../ast/types/parenthesized-type';
 import { createFunctionType, FunctionType } from '../ast/types/function-type';
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
-import { createArrowTypeParameterList, ArrowTypeParameterList } from '../ast/types/arrow-type-parameter-list';
+import { createArrowTypeParameterList } from '../ast/types/arrow-type-parameter-list';
 import { createFunctionTypeParameters, FunctionTypeParameter } from '../ast/types/function-type-parameter';
 import { createTypeParameterDeclaration, TypeParameterDeclaration } from '../ast/types/type-parameter-declaration';
 import { createBindingList, BindingList } from '../ast/statements/binding-list';
@@ -330,17 +330,24 @@ export function parse(
   }
   let pos = 0;
 
-  // "#!/usr/bin/env node"
+  // The '#' is only allowed if the 'pos === 0' - at the 'start of the file'. We check
+  // it here instead of the the lexer to gain some performance.
+  //
+  // https://github.com/tc39/proposal-hashbang
   if (source.charCodeAt(1) === Char.Exclamation && source.charCodeAt(0) === Char.Hash) {
-    pos = 2; // skips: '#!...'
     while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
       pos++;
     }
   }
-
-  // HTML close
+  // A 'SingleLineHTMLCloseComment' can only exist at the 'start of the file' or after a newline
+  // so we check it here to avoid unnecessary branching.
+  //
+  // 'SingleLineHTMLCloseComment' after a 'LineTerminator' is discarded in the lexer.
+  //
   // https://tc39.es/ecma262/#sec-html-like-comments
+
   if (
+    (context & 0b00000000000100000000000000000100) === 0 &&
     source.charCodeAt(pos + 2) === Char.GreaterThan &&
     source.charCodeAt(pos + 1) === Char.Hyphen &&
     source.charCodeAt(0) === Char.Hyphen
@@ -348,21 +355,6 @@ export function parse(
     pos = 3;
     while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
       pos++;
-    }
-
-    // HTML comments can only be used with web compatibility or in script mode
-    if (isModule || context & Context.OptionsDisableWebCompat) {
-      onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error | DiagnosticKind.EarlyError,
-        diagnosticMap[
-          context & Context.OptionsDisableWebCompat
-            ? DiagnosticCode.HTML_comments_can_only_be_used_with_web_compatibility_enabled
-            : DiagnosticCode.HTML_comments_can_only_be_used_in_script_mode
-        ],
-        0,
-        pos
-      );
     }
   }
 
@@ -2097,12 +2089,22 @@ function parseBinaryExpression(
       return left;
 
     if (
-      (((t as SyntaxKind) === SyntaxKind.LogicalAnd || (t as SyntaxKind) === SyntaxKind.LogicalOr) &&
+      ((t === SyntaxKind.LogicalAnd || t === SyntaxKind.LogicalOr) &&
         operator === SyntaxKind.QuestionMarkQuestionMark) ||
-      (((operator as SyntaxKind) === SyntaxKind.LogicalAnd || (operator as SyntaxKind) === SyntaxKind.LogicalOr) &&
+      ((operator === SyntaxKind.LogicalAnd || operator === SyntaxKind.LogicalOr) &&
         t === SyntaxKind.QuestionMarkQuestionMark)
     ) {
       report(parser, parser.curPos, DiagnosticCode._and_operations_cannot_be_mixed_without_parentheses);
+    }
+
+    if (left.kind === SyntaxKind.PrivateIdentifier && t !== SyntaxKind.InKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Private_names_are_only_allowed_in_property_accesses],
+        parser.curPos,
+        parser.pos
+      );
     }
 
     if (context & Context.Lint && parser.linterFlags & LinterFlags.NoBitwise) {
@@ -3757,16 +3759,6 @@ function parsePrefixUpdateExpression(
   return createPrefixUpdateExpression(operandToken, operand, curPos, parser.curPos);
 }
 
-/**
- * Checks if the property has any private field key
- *
- * @param parser Parser object
- * @param context  Context masks
- */
-export function isPropertyWithPrivateFieldKey(node: any): boolean {
-  return node.expression && node.expression.kind === SyntaxKind.PrivateIdentifier;
-}
-
 // UnaryExpression :
 //   UpdateExpression
 //   `delete` UnaryExpression
@@ -3816,19 +3808,17 @@ function parseUnaryExpression(
   // For performance reasons it's more performant to use an boolean rarther
   // than 'operandToken.kind === SyntaxKind.DeleteKeyword'
   if (isDelete) {
-    if (context & Context.Strict && expression.kind === SyntaxKind.Identifier) {
+    let target: any = expression;
+    while (target.kind === SyntaxKind.ParenthesizedExpression) {
+      target = target.expression;
+    }
+    if (context & Context.Strict && target.kind === SyntaxKind.Identifier) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
       // UnaryExpression is a direct reference to a variable, function argument, or function name
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode],
-        parser.curPos,
-        parser.pos
-      );
+      report(parser, parser.curPos, DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode);
     }
 
-    if (isPropertyWithPrivateFieldKey(expression)) {
+    if (target.kind === SyntaxKind.IndexExpression && target.expression.kind === SyntaxKind.PrivateIdentifier) {
       report(parser, parser.curPos, DiagnosticCode.Prohibit_delete_of_private_class_elements);
     }
   }
@@ -10090,6 +10080,8 @@ export function parseFieldDefinition(
   );
 }
 
+// PrivateIdentifier ::
+//   `#` IdentifierName
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {
   const pos = parser.curPos;
   const name = parser.tokenValue;

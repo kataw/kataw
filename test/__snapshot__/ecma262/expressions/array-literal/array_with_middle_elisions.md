@@ -25,10 +25,72 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 119,
-                "elementList": {
-                    "kind": 270,
-                    "elements": [
+                "kind": 198,
+                "left": {
+                    "kind": 128,
+                    "operandToken": {
+                        "kind": 196636,
+                        "flags": 96,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 2
+                    },
+                    "operand": {
+                        "kind": 16637,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 64,
+                        "transformFlags": 0,
+                        "start": 2,
+                        "end": 2
+                    },
+                    "flags": 32,
+                    "transformFlags": 16384,
+                    "start": 0,
+                    "end": 2
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 2,
+                    "end": 3
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "HTML",
+                    "rawText": "HTML",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 3,
+                    "end": 8
+                },
+                "flags": 32,
+                "transformFlags": 5120,
+                "start": 0,
+                "end": 8
+            },
+            "flags": 16,
+            "transformFlags": 4096,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 130,
+                "member": {
+                    "kind": 134299649,
+                    "text": "Close",
+                    "rawText": "Close",
+                    "flags": 96,
+                    "transformFlags": 0,
+                    "start": 8,
+                    "end": 14
+                },
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 134299649,
                             "text": "x",
@@ -39,8 +101,10 @@
                             "end": 17
                         },
                         {
-                            "kind": 230,
-                            "flags": 96,
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
                             "transformFlags": 0,
                             "start": 18,
                             "end": 18
@@ -55,20 +119,19 @@
                             "end": 20
                         }
                     ],
-                    "trailingComma": false,
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 16,
                     "end": 20
                 },
-                "flags": 33,
-                "transformFlags": 8,
-                "start": 14,
+                "flags": 32,
+                "transformFlags": 4,
+                "start": 8,
                 "end": 21
             },
             "flags": 16,
             "transformFlags": 4096,
-            "start": 14,
+            "start": 8,
             "end": 21
         }
     ],
@@ -91,7 +154,10 @@
 ### Diagnostics
 
 ```javascript
-✖ HTML comments can only be used with web compatibility enabled - start: 0, end: 14
+✖ Identifier expected - start: 2, end: 3
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 2, end: 3
+✖ '; ' is not allowed here. Did you mean ';'? - start: 8, end: 14
+✖ Identifier expected - start: 18, end: 19
 
 ```
 
