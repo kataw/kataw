@@ -12,7 +12,7 @@
 **WIP**
 
 Kataw is a JavaScript toolchain that aim to unify functionality that has previously been separate tools. It features everything from low-level CST manipulation
-with a better control than any AST can offer to tools like linting, code analyzes, transform, and minification.
+to tools like linting, code analyzes, transform, and minification.
 
 <!-- vscode-markdown-toc -->
 * [CST nodes](#CSTnodes)
@@ -42,12 +42,11 @@ with a better control than any AST can offer to tools like linting, code analyze
 
 The toolchain's core is based upon a ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
-If the only goal is to perform syntactic analysis (parsing) of a Javascript program - similiar to `Acorn` - it's possible.
-To do a simple parse you can use either `kataw.parseModule` or `kataw.parseScript`.
+If the only goal is to perform syntactic analysis (parsing) of a Javascript program, you can do this with either `kataw.parseModule` or `kataw.parseScript`.
 
 > Noted that with `ES2015` and later a Javascript program can be either a [script or a module](https://tc39.es/ecma262/index.html#sec-ecmascript-language-scripts-and-modules).
 
-Here is an example on how to set up `Kataw` to act like `Acorn`:
+Here is an example on how to set up `Kataw` to act like for example `Acorn`:
 
 ```ts
  // Parse with module goal
@@ -61,7 +60,9 @@ Here is an example on how to set up `Kataw` to act like `Acorn`:
  });
 ```
 
-The returned CST tree can now be used as an AST, but note that the CST in Kataw contains more information that can be extracted from the CST node through
+The returned CST tree can now be used as an AST.
+
+> Note that the CST contains more information that can be extracted from the CST node's through
 [public API methods](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes).
 
 Many of these APIs have the advantage that they allow you to "retrieve" info that is not otherwise available with a standard AST parser.
