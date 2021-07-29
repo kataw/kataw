@@ -104,9 +104,7 @@ a(() => {})
 ### Printed
 
 ```javascript
-
 a(() => {});
-
 ```
 
 ### Diagnostics

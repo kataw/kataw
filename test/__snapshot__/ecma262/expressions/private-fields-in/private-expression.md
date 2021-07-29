@@ -189,15 +189,12 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-    #x = 1
-    ;
-    test() {
-        #x;
-    }
+  #x = 1;;
+  test() {
+    #x;
+  }
 }
-
 ```
 
 ### Diagnostics

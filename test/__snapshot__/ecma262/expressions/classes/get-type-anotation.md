@@ -124,12 +124,9 @@ class Properties { get: string; }
 ### Printed
 
 ```javascript
-
 class Properties {
-    get: string
-    ;
+  get: string;;
 }
-
 ```
 
 ### Diagnostics

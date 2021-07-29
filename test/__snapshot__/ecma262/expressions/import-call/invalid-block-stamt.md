@@ -72,11 +72,9 @@
 ### Printed
 
 ```javascript
-
 {
-    import 'asdf';
+  import "\"asdf\""
 }
-
 ```
 
 ### Diagnostics

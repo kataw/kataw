@@ -104,11 +104,9 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
-    ['foo']
+  ["\"foo\""];
 }
-
 ```
 
 ### Diagnostics

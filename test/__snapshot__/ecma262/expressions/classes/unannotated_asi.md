@@ -127,12 +127,10 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
-    foo
-    bar
+  foo;
+  bar;
 }
-
 ```
 
 ### Diagnostics

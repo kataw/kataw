@@ -164,11 +164,9 @@ class Properties { set<T>() {} }
 ### Printed
 
 ```javascript
-
 class Properties {
-    set<T>() {}
+  set() {}
 }
-
 ```
 
 ### Diagnostics

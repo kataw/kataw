@@ -554,7 +554,7 @@ Parent.init();
                                                                                                 "operatorToken": {
                                                                                                     "kind": 21006388,
                                                                                                     "flags": 96,
-                                                                                                    "transformFlags": 8192,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 252,
                                                                                                     "end": 255
                                                                                                 },
@@ -723,25 +723,27 @@ Parent.init();
 ### Printed
 
 ```javascript
-
 let Child;
 let parentCount = 0;
+
 let childCount = 0;
+
 class Parent {
-    #method() {
-        parentCount += 1;
-    }
-    static init() {
-        Child = class {
-            #method() {
-                childCount += 1;
-            }
-            static isNameIn(value) {
-                return #method in value;
-            }
-        };
-    }
+  #method() {
+    parentCount += 1;
+  }
+  static init() {
+    Child = class {
+      #method() {
+        childCount += 1;
+      }
+      static isNameIn(value) {
+        return #method in value;
+      }
+    };
+  }
 }
+
 Parent.init();
 
 ```

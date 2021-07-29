@@ -102,12 +102,9 @@ class Properties { set; }
 ### Printed
 
 ```javascript
-
 class Properties {
-    set
-    ;
+  set;;
 }
-
 ```
 
 ### Diagnostics

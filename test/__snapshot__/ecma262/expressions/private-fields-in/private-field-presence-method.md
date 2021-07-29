@@ -274,7 +274,7 @@ class Class {
                                                     "operatorToken": {
                                                         "kind": 21006388,
                                                         "flags": 96,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 110,
                                                         "end": 113
                                                     },
@@ -348,15 +348,14 @@ class Class {
 ### Printed
 
 ```javascript
-
 let count = 0;
 class Class {
-    #method() {
-        count += 1;
-    }
-    static isNameIn(value) {
-        return #method in value;
-    }
+  #method() {
+    count += 1;
+  }
+  static isNameIn(value) {
+    return #method in value;
+  }
 }
 
 ```

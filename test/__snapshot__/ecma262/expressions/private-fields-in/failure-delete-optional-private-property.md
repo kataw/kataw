@@ -121,7 +121,7 @@ class Foo {
                                                     "operandToken": {
                                                         "kind": 4259886,
                                                         "flags": 97,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 35,
                                                         "end": 46
                                                     },
@@ -231,15 +231,12 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-    #x
-    ;
-    constructor() {
-        delete this?.#x;
-    }
+  #x;;
+  constructor() {
+    delete this?.#x;
+  }
 }
-
 ```
 
 ### Diagnostics

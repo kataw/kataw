@@ -247,15 +247,12 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-    static #x = 1
-    ;
-    static test() {
-        return Foo?.#x;
-    }
+  static #x = 1;;
+  static test() {
+    return Foo?.#x;
+  }
 }
-
 ```
 
 ### Diagnostics

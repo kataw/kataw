@@ -136,7 +136,7 @@ class C {
                                                 "inKeyword": {
                                                     "kind": 21006388,
                                                     "flags": 64,
-                                                    "transformFlags": 8192,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 57
                                                 },

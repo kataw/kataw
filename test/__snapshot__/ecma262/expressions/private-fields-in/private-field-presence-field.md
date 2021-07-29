@@ -154,7 +154,7 @@ class Class {
                                                     "operatorToken": {
                                                         "kind": 21006388,
                                                         "flags": 96,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 69,
                                                         "end": 72
                                                     },
@@ -228,15 +228,12 @@ class Class {
 ### Printed
 
 ```javascript
-
 class Class {
-    #field
-    ;
-    static isNameIn(value) {
-        return #field in value;
-    }
+  #field;;
+  static isNameIn(value) {
+    return #field in value;
+  }
 }
-
 ```
 
 ### Diagnostics

@@ -111,10 +111,7 @@
 ### Printed
 
 ```javascript
-
-(class <T>{
-});
-
+(class {});
 ```
 
 ### Diagnostics

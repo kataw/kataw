@@ -199,7 +199,7 @@ new C();
                                                                     "operatorToken": {
                                                                         "kind": 21006388,
                                                                         "flags": 96,
-                                                                        "transformFlags": 8192,
+                                                                        "transformFlags": 0,
                                                                         "start": 80,
                                                                         "end": 83
                                                                     },
@@ -408,20 +408,18 @@ new C();
 ### Printed
 
 ```javascript
-
 let caught = null;
 class C {
-    #field
-    ;
-    constructor() {
-        try {
-            #field in test262unresolvable;
-        }
-        catch (error){
-            caught = error;
-        }
+  #field;;
+  constructor() {
+    try {
+      #field in test262unresolvable;
+    } catch (error) {
+      caught = error;
     }
+  }
 }
+
 new C();
 
 ```

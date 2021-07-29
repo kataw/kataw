@@ -145,7 +145,7 @@ class Foo {
                                                     "operatorToken": {
                                                         "kind": 21006388,
                                                         "flags": 96,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 44
                                                     },
@@ -226,15 +226,12 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-    #x = 1
-    ;
-    test() {
-        (#x) in {};
-    }
+  #x = 1;;
+  test() {
+    (#x) in {};
+  }
 }
-
 ```
 
 ### Diagnostics

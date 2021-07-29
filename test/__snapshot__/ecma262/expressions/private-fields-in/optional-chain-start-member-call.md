@@ -289,15 +289,12 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
-    static #x = 1
-    ;
-    static test() {
-        return Foo?.#xtoFixed(2);
-    }
+  static #x = 1;;
+  static test() {
+    return Foo?.#x.toFixed(2);
+  }
 }
-
 ```
 
 ### Diagnostics

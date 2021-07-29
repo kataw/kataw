@@ -104,12 +104,9 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
-    super
-    ;
+  super;;
 }
-
 ```
 
 ### Diagnostics

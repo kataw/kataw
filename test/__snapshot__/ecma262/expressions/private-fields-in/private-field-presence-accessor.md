@@ -280,7 +280,7 @@ class Class {
                                                     "operatorToken": {
                                                         "kind": 21006388,
                                                         "flags": 96,
-                                                        "transformFlags": 8192,
+                                                        "transformFlags": 0,
                                                         "start": 118,
                                                         "end": 121
                                                     },
@@ -354,15 +354,14 @@ class Class {
 ### Printed
 
 ```javascript
-
 let count = 0;
 class Class {
-    get #accessor() {
-        count += 1;
-    }
-    static isNameIn(value) {
-        return #accessor in value;
-    }
+  get #accessor() {
+    count += 1;
+  }
+  static isNameIn(value) {
+    return #accessor in value;
+  }
 }
 
 ```

@@ -115,9 +115,7 @@ const m = import(a + b);
 ### Printed
 
 ```javascript
-
 const m = import(a + b);
-
 ```
 
 ### Diagnostics

@@ -107,11 +107,9 @@
 ### Printed
 
 ```javascript
-
 {
-    import('dsa').then();
+  import("\"dsa\"").then();
 }
-
 ```
 
 ### Diagnostics

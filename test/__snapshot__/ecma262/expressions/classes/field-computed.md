@@ -145,11 +145,9 @@ class X {
 ### Printed
 
 ```javascript
-
 class X {
-    x = 'y'[computed] = 'z'
+  x = "\"y\""[computed] = "\"z\"";
 }
-
 ```
 
 ### Diagnostics

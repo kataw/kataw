@@ -202,7 +202,7 @@ class Point {
                                                         "operatorToken": {
                                                             "kind": 21006388,
                                                             "flags": 96,
-                                                            "transformFlags": 8192,
+                                                            "transformFlags": 0,
                                                             "start": 71,
                                                             "end": 74
                                                         },
@@ -241,7 +241,7 @@ class Point {
                                                         "operatorToken": {
                                                             "kind": 21006388,
                                                             "flags": 96,
-                                                            "transformFlags": 8192,
+                                                            "transformFlags": 0,
                                                             "start": 84,
                                                             "end": 87
                                                         },
@@ -320,17 +320,13 @@ class Point {
 ### Printed
 
 ```javascript
-
 class Point {
-    #x = 1
-    ;
-    #y = 2
-    ;
-    static isPoint(obj) {
-        return #x in obj && #y in obj;
-    }
+  #x = 1;;
+  #y = 2;;
+  static isPoint(obj) {
+    return #x in obj && #y in obj;
+  }
 }
-
 ```
 
 ### Diagnostics

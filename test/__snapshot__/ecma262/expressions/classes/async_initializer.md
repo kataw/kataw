@@ -103,11 +103,9 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
-    async = false
+  async = false;
 }
-
 ```
 
 ### Diagnostics

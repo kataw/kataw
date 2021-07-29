@@ -105,9 +105,7 @@
 ### Printed
 
 ```javascript
-
 (({ x }) => 123);
-
 ```
 
 ### Diagnostics
