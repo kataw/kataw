@@ -229,7 +229,7 @@ It can be done like this
 ```ts
 import { lintScript } from 'kataw';
 
-lintScript('eval', { reporter: aladdin }, { noEval: true});
+lintScript('eval()', { reporter: aladdin }, { noEval: true});
 ```
 
 ### Linting with parser options
@@ -237,7 +237,7 @@ lintScript('eval', { reporter: aladdin }, { noEval: true});
 ```ts
 import { parseScript } from 'kataw';
 
-parseScript('eval', { noEval: true});
+parseScript('eval()', { noEval: true});
 ```
 The `DiagnosticKind` will be set to `DiagnosticKind.Lint` and you can chose to ignore this and treat the diagnostic as any other error, or
 for example create your own reporter.
