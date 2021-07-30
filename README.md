@@ -20,11 +20,12 @@ to tools like linting, code analyzes, transform, and minification.
 * [ESNext](#ESNext)
 * [Diagnostics](#Diagnostics)
  	* [Diagnostic arguments](#DiagnosticArgs)
+* [Printing](#CSTprinting)
+ 	* [Ignore comment](#Ignorecomment)
+* [Linting](#Linting)
+* [Transformation](#Transformation)
 * [Types](#Types)
 * [Comments](#Comments)
-* [Transformation](#Transformation)
-* [Printing](#CSTprinting)
-	* [Ignore comment](#Ignorecomment)
 * [CST parser features](#CSTparserfeatures)
 * [Current state](#Currentstate)
 * [Roadmap](#Roadmap)
@@ -215,6 +216,32 @@ Getting the trailing comment of `Hello` can be done like this `kataw.getTrailing
 `hello` until the start value of `there!`.
 
 If you want a `1:1` copy of the actual source code, you can do a "*slice*" from the start value of `Hello` to the end value of `there!`.
+
+## <a name='Linting'></a>Linting
+
+Rules still being added, but Kataw can go linting either through public API methods or options. Most of ESLint common or recommended rules
+also works for Kataw and you can either enable or disable them.
+
+### Linting with public API
+
+It can be done like this
+
+```ts
+import { lintScript } from 'kataw';
+
+lintScript('eval()', { reporter: aladdin }, { noEval: true});
+```
+
+### Linting with parser options
+
+```ts
+import { parseScript } from 'kataw';
+
+parseScript('eval()', { noEval: true});
+```
+The `DiagnosticKind` will be set to `DiagnosticKind.Lint` and you can chose to ignore this and treat the diagnostic as any other error, or
+for example create your own reporter.
+
 
 ## <a name='Transformation'></a>Transformation
 
