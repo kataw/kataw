@@ -71,10 +71,13 @@ export const enum Context {
   Lint = 1 << 29
 }
 
-export const enum NoEmptyRules {
-  CharacterClass = 1 << 1,
-  Function = 1 << 2,
-  Pattern = 1 << 3
+export const enum SubRules {
+  None = 0,
+  CharacterClass = 1 << 0,
+  Function = 1 << 1,
+  Pattern = 1 << 2,
+  Forbid = 1 << 3, // Advice use of 'forOf' instead of 'forIn'
+  Guard = 1 << 4 // Require `for-in` loops to include an `if` statement
 }
 
 export const enum LinterFlags {
@@ -95,7 +98,7 @@ export const enum LinterFlags {
   NoUnsafeFinally = 1 << 13,
   Quotemark = 1 << 14,
   NoNullKeyword = 1 << 15,
-  NoForIn = 1 << 16,
+  ForIn = 1 << 16,
   NoEval = 1 << 17,
   NoDuplicateSwitchCase = 1 << 18,
   NoConsole = 1 << 19,
@@ -196,6 +199,7 @@ export interface ParserState {
   source: string;
   nodeFlags: NodeFlags;
   linterFlags: LinterFlags;
+  subRules: SubRules;
   curPos: number;
   pos: number;
   token: any;

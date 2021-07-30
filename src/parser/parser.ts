@@ -189,7 +189,7 @@ import {
   FunctionTypeFlags,
   report,
   LinterFlags,
-  NoEmptyRules,
+  SubRules,
   consumeAndCheckForEscapeSequence,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
@@ -242,6 +242,7 @@ export interface LinterRules {
   quotemark?: boolean; // REMOVE
   noNullKeyword?: boolean;
   noForIn?: boolean;
+  guardForIn?: boolean;
   noEval?: boolean;
   noDuplicateSwitchCase?: boolean;
   noConsole?: boolean;
@@ -261,7 +262,13 @@ export interface LinterRules {
 /**
  * Create a new parser instance.
  */
-export function create(source: string, pos: number, onError: OnError, linterFlags: LinterFlags): ParserState {
+export function create(
+  source: string,
+  pos: number,
+  onError: OnError,
+  linterFlags: LinterFlags,
+  subRules: SubRules
+): ParserState {
   return {
     source,
     nodeFlags: NodeFlags.None,
@@ -277,6 +284,7 @@ export function create(source: string, pos: number, onError: OnError, linterFlag
     tokenValue: undefined,
     tokenRaw: '',
     linterFlags,
+    subRules,
     previousErrorPos: 0
   };
 }
@@ -290,6 +298,7 @@ export function parse(
   options?: Options
 ): RootNode {
   let lintFlags = LinterFlags.None;
+  let subRules = SubRules.None;
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
     if (options.impliedStrict) context |= Context.Strict;
@@ -305,9 +314,12 @@ export function parse(
       if (rules.NoEmpty) lintFlags |= LinterFlags.NoEmpty;
       if (rules.defaultClause) lintFlags |= LinterFlags.DefaultClause;
       if (rules.noBitwise) lintFlags |= LinterFlags.NoBitwise;
-      if (rules.nonEmptyCharacterClass) lintFlags |= LinterFlags.NoEmpty | NoEmptyRules.CharacterClass;
-      if (rules.noEmptyPattern) lintFlags |= LinterFlags.NoEmpty | NoEmptyRules.Pattern;
-      if (rules.noEmptyFunction) lintFlags |= LinterFlags.NoEmpty | NoEmptyRules.Function;
+      if (rules.nonEmptyCharacterClass) lintFlags |= LinterFlags.NoEmpty;
+      subRules |= SubRules.CharacterClass;
+      if (rules.noEmptyPattern) lintFlags |= LinterFlags.NoEmpty;
+      subRules |= SubRules.Pattern;
+      if (rules.noEmptyFunction) lintFlags |= LinterFlags.NoEmpty;
+      subRules |= SubRules.Function;
       if (rules.noVar) lintFlags |= LinterFlags.NoVar;
       if (rules.noUnusedVariables) lintFlags |= LinterFlags.NoUnusedVariables;
       if (rules.noSparseArray) lintFlags |= LinterFlags.NoSparseArray;
@@ -316,7 +328,10 @@ export function parse(
       if (rules.noUnsafeFinally) lintFlags |= LinterFlags.NoUnsafeFinally;
       if (rules.quotemark) lintFlags |= LinterFlags.Quotemark;
       if (rules.noNullKeyword) lintFlags |= LinterFlags.NoNullKeyword;
-      if (rules.noForIn) lintFlags |= LinterFlags.NoForIn;
+      if (rules.noForIn) lintFlags |= LinterFlags.ForIn;
+      subRules |= SubRules.Forbid;
+      if (rules.guardForIn) lintFlags |= LinterFlags.ForIn;
+      subRules |= SubRules.Guard;
       if (rules.noEval) lintFlags |= LinterFlags.NoEval;
       if (rules.noDuplicateSwitchCase) lintFlags |= LinterFlags.NoDuplicateSwitchCase;
       if (rules.noConsole) lintFlags |= LinterFlags.NoConsole;
@@ -363,7 +378,7 @@ export function parse(
     }
   }
 
-  const parser = create(source, pos, onError, lintFlags);
+  const parser = create(source, pos, onError, lintFlags, subRules);
 
   parser.token = scan(parser, context | Context.AllowRegExp);
 
@@ -1565,7 +1580,7 @@ function parseForStatement(
   const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
 
   if (inKeyword) {
-    if (context & Context.Lint && parser.linterFlags & LinterFlags.NoForIn) {
+    if (context & Context.Lint && parser.linterFlags & LinterFlags.ForIn && parser.subRules & SubRules.Forbid) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Lint,
@@ -1597,19 +1612,50 @@ function parseForStatement(
       DiagnosticCode.Expected_a_to_match_the_token_here
     );
 
+    const statement = parseIterationStatement(
+      parser,
+      (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+      /* allowFunction */ false,
+      scope,
+      labels,
+      /* ownLabels */ null
+    );
+
+    if (context & Context.Lint && parser.linterFlags & LinterFlags.ForIn && parser.subRules & SubRules.Guard) {
+      if (
+        statement.kind === SyntaxKind.BlockStatement &&
+        statement.block.statements.length >= 1 &&
+        statement.block.statements[0].kind === SyntaxKind.IfStatement
+      ) {
+        const i = statement.block.statements[0];
+
+        // ... whose consequent is a continue
+        if (
+          i.consequent.kind !== SyntaxKind.ContinueStatement &&
+          i.consequent.kind === SyntaxKind.BlockStatement &&
+          i.consequent.statement.length !== 1 &&
+          i.consequent.body[0].kind !== SyntaxKind.ContinueStatement
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Lint,
+            diagnosticMap[
+              DiagnosticCode
+                .Use_a_for_of_statement_instead_of_for_in_If_iterating_over_an_object_use_Object_keys_to_access_its_enumerable_keys
+            ],
+            parser.curPos,
+            parser.pos
+          );
+        }
+      }
+    }
+
     return createForInStatement(
       forKeyword,
       inKeyword,
       initializer as any,
       expression,
-      parseIterationStatement(
-        parser,
-        (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-        /* allowFunction */ false,
-        scope,
-        labels,
-        /* ownLabels */ null
-      ),
+      statement,
       (forKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
       pos,
       parser.curPos
@@ -5459,7 +5505,7 @@ function parseBindingElementList(
     }
     report(parser, parser.curPos, DiagnosticCode._expected);
   }
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.linterFlags & NoEmptyRules.Pattern) {
+  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.subRules & SubRules.Pattern) {
     if (pos === parser.curPos) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -5526,7 +5572,7 @@ function parseBindingPropertyList(
     }
     report(parser, parser.curPos, DiagnosticCode._expected);
   }
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.linterFlags & NoEmptyRules.Pattern) {
+  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.subRules & SubRules.Pattern) {
     if (pos === parser.curPos) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -6738,11 +6784,7 @@ function parseFunctionStatementList(
   while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, null, null));
   }
-  if (
-    context & Context.Lint &&
-    parser.linterFlags & LinterFlags.NoEmpty &&
-    parser.linterFlags & NoEmptyRules.Function
-  ) {
+  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.subRules & SubRules.Function) {
     if (pos === parser.curPos) {
       parser.onError(
         DiagnosticSource.Parser,
