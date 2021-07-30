@@ -150,6 +150,7 @@ export const enum BindingType {
   Export = 1 << 14,
   InArrow = 1 << 15
 }
+
 export const enum DestuctionKind {
   NORMAL,
   REST,

@@ -275,7 +275,12 @@ export const enum DiagnosticCode {
   Unexpected_empty_array_pattern = 288,
   Unexpected_empty_function = 289,
   Use_of_may_be_unsafe_if_you_are_relying_on_type_coercion = 290,
-  _may_be_unsafe_if_you_are_relying_on_type_coercion = 291
+  _may_be_unsafe_if_you_are_relying_on_type_coercion = 291,
+  Unexpected_assignment_within_While_statement = 292,
+  Unexpected_assignment_within_DoWhile_statement = 293,
+  Unexpected_assignment_within_For_statement = 294,
+  Unexpected_assignment_within_If_statement = 295,
+  Unexpected_assignment_within_Whith_statement = 296
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -557,5 +562,10 @@ export const diagnosticMap: { [key: number]: string } = {
   [288]: 'Unexpected empty array pattern',
   [289]: 'Unexpected empty function',
   [290]: "Use of '!=' may be unsafe if you are relying on type coercion",
-  [291]: "'==' may be unsafe if you are relying on type coercion"
+  [291]: "'==' may be unsafe if you are relying on type coercion",
+  [292]: "Unexpected assignment within 'While statement'",
+  [293]: "Unexpected assignment within 'DoWhile statement'",
+  [294]: "Unexpected assignment within 'For statement'",
+  [295]: "Unexpected assignment within 'If statement'",
+  [296]: "Unexpected assignment within 'Whith statement'"
 };

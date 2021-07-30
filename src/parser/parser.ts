@@ -966,6 +966,21 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
     DiagnosticCode.Missing_an_opening_parentheses
   );
   const expression = parseExpressionCoverGrammar(parser, context);
+
+  if (
+    parser.linterFlags & LinterFlags.No &&
+    parser.subRules & SubRules.ConditionalAssign &&
+    expression.kind === SyntaxKind.AssignmentExpression
+  ) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Lint,
+      diagnosticMap[DiagnosticCode.Unexpected_assignment_within_If_statement],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1137,6 +1152,21 @@ function parseWhileStatement(
     DiagnosticCode.Missing_an_opening_parentheses
   );
   const expression = parseExpressionCoverGrammar(parser, context);
+
+  if (
+    parser.linterFlags & LinterFlags.No &&
+    parser.subRules & SubRules.ConditionalAssign &&
+    expression.kind === SyntaxKind.AssignmentExpression
+  ) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Lint,
+      diagnosticMap[DiagnosticCode.Unexpected_assignment_within_While_statement],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1195,6 +1225,21 @@ function parseDoWhileStatement(
     DiagnosticCode.Missing_an_opening_parentheses
   );
   const expression = parseExpression(parser, context);
+
+  if (
+    parser.linterFlags & LinterFlags.No &&
+    parser.subRules & SubRules.ConditionalAssign &&
+    expression.kind === SyntaxKind.AssignmentExpression
+  ) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Lint,
+      diagnosticMap[DiagnosticCode.Unexpected_assignment_within_DoWhile_statement],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1241,6 +1286,21 @@ function parseWithStatement(
     DiagnosticCode.Missing_an_opening_parentheses
   );
   const expression = parseExpressionCoverGrammar(parser, context);
+
+  if (
+    parser.linterFlags & LinterFlags.No &&
+    parser.subRules & SubRules.ConditionalAssign &&
+    expression.kind === SyntaxKind.AssignmentExpression
+  ) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Lint,
+      diagnosticMap[DiagnosticCode.Unexpected_assignment_within_Whith_statement],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1630,6 +1690,20 @@ function parseForStatement(
     }
 
     const expression = parseExpressionCoverGrammar(parser, context);
+
+    if (
+      parser.linterFlags & LinterFlags.No &&
+      parser.subRules & SubRules.ConditionalAssign &&
+      expression.kind === SyntaxKind.AssignmentExpression
+    ) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_assignment_within_For_statement],
+        parser.curPos,
+        parser.pos
+      );
+    }
 
     consume(
       parser,
