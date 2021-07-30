@@ -699,13 +699,9 @@ function foo({a: []}) {}
 ✖ Unexpected empty object pattern - start: 37, end: 38
 ✖ Unexpected empty array pattern - start: 56, end: 57
 ✖ Unexpected empty object pattern - start: 80, end: 81
-✖ Unexpected empty function - start: 84, end: 85
 ✖ Unexpected empty array pattern - start: 100, end: 101
-✖ Unexpected empty function - start: 104, end: 105
 ✖ Unexpected empty object pattern - start: 124, end: 125
-✖ Unexpected empty function - start: 129, end: 130
 ✖ Unexpected empty array pattern - start: 149, end: 150
-✖ Unexpected empty function - start: 154, end: 155
 
 ```
 
