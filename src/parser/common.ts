@@ -68,7 +68,7 @@ export const enum Context {
   DecoratorContext = 1 << 27,
   InTypeParameterInstantiation = 1 << 28,
   TaggedTemplate = 1 << 23,
-  Lint = 1 << 29
+  Autofix = 1 << 29
 }
 
 export const enum SubRules {
