@@ -1,4 +1,4 @@
-import { ParserState, LinterFlags, Context } from '../common';
+import { ParserState, LinterFlags, NoEmptyRules, Context } from '../common';
 import { SyntaxKind } from '../../ast/syntax-node';
 import { Char, isIdentifierPart } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
@@ -32,8 +32,8 @@ export function scanRegularExpression(parser: ParserState, context: Context, sou
           break loop;
         case Char.LeftBracket:
           if (
-            context & Context.Lint &&
-            parser.linterFlags & LinterFlags.NonEmptyCharacterClass &&
+            parser.linterFlags & LinterFlags.NoEmpty &&
+            parser.linterFlags & NoEmptyRules.CharacterClass &&
             source.charCodeAt(pos + 1) === Char.RightBracket
           ) {
             parser.onError(

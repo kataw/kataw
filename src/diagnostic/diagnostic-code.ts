@@ -254,7 +254,7 @@ export const enum DiagnosticCode {
   Use_a_for_of_statement_instead_of_for_in_If_iterating_over_an_object_use_Object_keys_to_access_its_enumerable_keys = 267,
   Unexpected_var_use_let_or_const_instead = 268,
   Do_not_use_comma_operator_here_because_it_can_be_easily_misunderstood_or_lead_to_unintended_bugs = 269,
-  Empty_logic_blocks_usually_result_from_incomplete_refactoring = 270,
+  Empty_logic_blocks_are_disallowed = 270,
   Do_not_nest_ternary_expressions = 271,
   _0_is_never_used = 272,
   Unexpected_comma_in_middle_of_array = 273,
@@ -269,7 +269,11 @@ export const enum DiagnosticCode {
   Computed_property_must_be_followed_by_a_colon = 282,
   Use_while_loops_instead_of_for_loops = 283,
   Private_names_are_only_allowed_in_property_accesses_or_in_in_expressions = 284,
-  Empty_class = 285
+  Empty_class = 285,
+  Variables_should_not_be_deleted = 286,
+  Unexpected_empty_object_pattern = 287,
+  Unexpected_empty_array_pattern = 288,
+  Unexpected_empty_function = 289
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -530,7 +534,7 @@ export const diagnosticMap: { [key: number]: string } = {
     'Use a for...of statement instead of for...in. If iterating over an object, use Object.keys() to access its enumerable keys.',
   [268]: 'Unexpected var, use let or const instead',
   [269]: 'Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs',
-  [270]: 'Empty logic blocks usually result from incomplete refactoring.',
+  [270]: 'Empty logic blocks are disallowed.',
   [271]: 'Do not nest ternary expressions',
   [272]: "'{0}' is never used",
   [273]: 'Unexpected comma in middle of array',
@@ -545,5 +549,9 @@ export const diagnosticMap: { [key: number]: string } = {
   [282]: 'Computed property must be followed by a colon',
   [283]: "Use 'while' loops instead of 'for' loops.",
   [284]: 'Private names are only allowed in property accesses or in `in` expressions',
-  [285]: 'Empty class'
+  [285]: 'Empty class',
+  [286]: 'Variables should not be deleted',
+  [287]: 'Unexpected empty object pattern',
+  [288]: 'Unexpected empty array pattern',
+  [289]: 'Unexpected empty function'
 };

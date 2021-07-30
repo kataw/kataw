@@ -71,16 +71,22 @@ export const enum Context {
   Lint = 1 << 29
 }
 
+export const enum NoEmptyRules {
+  CharacterClass = 1 << 1,
+  Function = 1 << 2,
+  Pattern = 1 << 3
+}
+
 export const enum LinterFlags {
   None = 0,
   NoCatchAssign = 1 << 0, // Disallow assignment operators in catch statement
   NoCommaOperator = 1 << 1,
   NoDebugger = 1 << 2,
   NoDelete = 1 << 3,
-  NoEmptyBlocks = 1 << 4,
+  NoEmpty = 1 << 4,
   DefaultClause = 1 << 5,
   NoBitwise = 1 << 6,
-  NonEmptyCharacterClass = 1 << 7,
+  //NonEmpty = 1 << 7,
   NoVar = 1 << 8,
   NoUnusedVariables = 1 << 9,
   NoSparseArray = 1 << 10,
@@ -98,7 +104,7 @@ export const enum LinterFlags {
   EnforceCurly = 1 << 22,
   LinebreakStyle = 1 << 23,
   NoArg = 1 << 24,
-  NoDefaultExport = 1 << 25,
+  NoDeleteVar = 1 << 25,
   NoNullUndefinedUnion = 1 << 26,
   NoTrailingWhitespace = 1 << 27,
   NoUseBeforeDeclare = 1 << 28,

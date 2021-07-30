@@ -251,7 +251,7 @@
   "Use a for...of statement instead of for...in. If iterating over an object, use Object.keys() to access its enumerable keys.": 267,
   "Unexpected var, use let or const instead": 268,
   "Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs": 269,
-  "Empty logic blocks usually result from incomplete refactoring.": 270,
+  "Empty logic blocks are disallowed.": 270,
   "Do not nest ternary expressions": 271,
   "'{0}' is never used": 272,
   "Unexpected comma in middle of array": 273,
@@ -266,5 +266,9 @@
   "Computed property must be followed by a colon": 282,
   "Use 'while' loops instead of 'for' loops.": 283,
   "Private names are only allowed in property accesses or in `in` expressions": 284,
-  "Empty class": 285
+  "Empty class": 285,
+  "Variables should not be deleted": 286,
+  "Unexpected empty object pattern": 287,
+  "Unexpected empty array pattern": 288,
+  "Unexpected empty function": 289
   }

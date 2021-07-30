@@ -189,6 +189,7 @@ import {
   FunctionTypeFlags,
   report,
   LinterFlags,
+  NoEmptyRules,
   consumeAndCheckForEscapeSequence,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
@@ -226,7 +227,9 @@ export interface LinterRules {
   noCommaOperator?: boolean;
   noDebugger?: boolean;
   noDelete?: boolean;
-  noEmptyBlocks?: boolean;
+  noEmpty?: boolean;
+  noEmptyPattern?: boolean;
+  noEmptyFunction?: boolean;
   defaultClause?: boolean;
   noBitwise?: boolean;
   nonEmptyCharacterClass?: boolean;
@@ -247,7 +250,7 @@ export interface LinterRules {
   enforceCurly?: boolean; // TODO
   linebreakStyle?: boolean; // TODO
   noArg?: boolean;
-  noDefaultExport?: boolean; // CHANGE
+  noDeleteVar?: boolean;
   noNullUndefinedUnion?: boolean; // CHANGE
   noTrailingWhitespace?: boolean; // TODO
   noUseBeforeDeclare?: boolean; // TODO
@@ -299,10 +302,12 @@ export function parse(
       if (rules.noCommaOperator) lintFlags |= LinterFlags.NoCommaOperator;
       if (rules.noDebugger) lintFlags |= LinterFlags.NoDebugger;
       if (rules.noDelete) lintFlags |= LinterFlags.NoDelete;
-      if (rules.noEmptyBlocks) lintFlags |= LinterFlags.NoEmptyBlocks;
+      if (rules.NoEmpty) lintFlags |= LinterFlags.NoEmpty;
       if (rules.defaultClause) lintFlags |= LinterFlags.DefaultClause;
       if (rules.noBitwise) lintFlags |= LinterFlags.NoBitwise;
-      if (rules.nonEmptyCharacterClass) lintFlags |= LinterFlags.NonEmptyCharacterClass;
+      if (rules.nonEmptyCharacterClass) lintFlags |= LinterFlags.NoEmpty | NoEmptyRules.CharacterClass;
+      if (rules.noEmptyPattern) lintFlags |= LinterFlags.NoEmpty | NoEmptyRules.Pattern;
+      if (rules.noEmptyFunction) lintFlags |= LinterFlags.NoEmpty | NoEmptyRules.Function;
       if (rules.noVar) lintFlags |= LinterFlags.NoVar;
       if (rules.noUnusedVariables) lintFlags |= LinterFlags.NoUnusedVariables;
       if (rules.noSparseArray) lintFlags |= LinterFlags.NoSparseArray;
@@ -320,7 +325,7 @@ export function parse(
       if (rules.enforceCurly) lintFlags |= LinterFlags.EnforceCurly;
       if (rules.linebreakStyle) lintFlags |= LinterFlags.LinebreakStyle;
       if (rules.noArg) lintFlags |= LinterFlags.NoArg;
-      if (rules.noDefaultExport) lintFlags |= LinterFlags.NoDefaultExport;
+      if (rules.noDeleteVar) lintFlags |= LinterFlags.NoDeleteVar;
       if (rules.noNullUndefinedUnion) lintFlags |= LinterFlags.NoNullUndefinedUnion;
       if (rules.noTrailingWhitespace) lintFlags |= LinterFlags.NoTrailingWhitespace;
       if (rules.noUseBeforeDeclare) lintFlags |= LinterFlags.NoUseBeforeDeclare;
@@ -1006,17 +1011,6 @@ function parseConsequentOrAlternative(
       labels,
       /* ownLabels */ null
     );
-    if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmptyBlocks) {
-      if (stmt.block.start === stmt.block.end) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Lint,
-          diagnosticMap[DiagnosticCode.Empty_logic_blocks_usually_result_from_incomplete_refactoring],
-          parser.curPos,
-          parser.pos
-        );
-      }
-    }
     return stmt;
   }
 
@@ -1936,6 +1930,18 @@ function parseBlock(parser: ParserState, context: Context, scope: ScopeState, la
   while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
   }
+  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty) {
+    if (curPos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Empty_logic_blocks_are_disallowed],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
+
   return createBlock(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
 }
 
@@ -3829,10 +3835,19 @@ function parseUnaryExpression(
     while (target.kind === SyntaxKind.ParenthesizedExpression) {
       target = target.expression;
     }
-    if (context & Context.Strict && target.kind === SyntaxKind.Identifier) {
+    if (
+      (context & Context.Strict && target.kind === SyntaxKind.Identifier) ||
+      parser.linterFlags & LinterFlags.NoDeleteVar
+    ) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
       // UnaryExpression is a direct reference to a variable, function argument, or function name
-      report(parser, parser.curPos, DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode);
+      report(
+        parser,
+        parser.curPos,
+        parser.linterFlags & LinterFlags.NoDeleteVar
+          ? DiagnosticCode.Variables_should_not_be_deleted
+          : DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode
+      );
     }
 
     if (target.kind === SyntaxKind.IndexExpression && target.expression.kind === SyntaxKind.PrivateIdentifier) {
@@ -5444,6 +5459,17 @@ function parseBindingElementList(
     }
     report(parser, parser.curPos, DiagnosticCode._expected);
   }
+  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.linterFlags & NoEmptyRules.Pattern) {
+    if (pos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_empty_array_pattern],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
   return createBindingElementList(elements, trailingComma, flags, pos, parser.curPos);
 }
 
@@ -5499,6 +5525,17 @@ function parseBindingPropertyList(
       continue;
     }
     report(parser, parser.curPos, DiagnosticCode._expected);
+  }
+  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmpty && parser.linterFlags & NoEmptyRules.Pattern) {
+    if (pos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_empty_object_pattern],
+        parser.curPos,
+        parser.pos
+      );
+    }
   }
   return createBindingPropertyList(
     properties as any,
@@ -6700,6 +6737,21 @@ function parseFunctionStatementList(
 
   while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, null, null));
+  }
+  if (
+    context & Context.Lint &&
+    parser.linterFlags & LinterFlags.NoEmpty &&
+    parser.linterFlags & NoEmptyRules.Function
+  ) {
+    if (pos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_empty_function],
+        parser.curPos,
+        parser.pos
+      );
+    }
   }
   return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
