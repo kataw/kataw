@@ -68,7 +68,16 @@ export const enum Context {
   DecoratorContext = 1 << 27,
   InTypeParameterInstantiation = 1 << 28,
   TaggedTemplate = 1 << 23,
-  Lint = 1 << 29
+  Autofix = 1 << 29
+}
+
+export const enum SubRules {
+  None = 0,
+  CharacterClass = 1 << 0,
+  Function = 1 << 1,
+  Pattern = 1 << 2,
+  Forbid = 1 << 3, // Advice use of 'forOf' instead of 'forIn'
+  Guard = 1 << 4 // Require `for-in` loops to include an `if` statement
 }
 
 export const enum LinterFlags {
@@ -77,10 +86,10 @@ export const enum LinterFlags {
   NoCommaOperator = 1 << 1,
   NoDebugger = 1 << 2,
   NoDelete = 1 << 3,
-  NoEmptyBlocks = 1 << 4,
+  NoEmpty = 1 << 4,
   DefaultClause = 1 << 5,
   NoBitwise = 1 << 6,
-  TrailingComma = 1 << 7,
+  //NonEmpty = 1 << 7,
   NoVar = 1 << 8,
   NoUnusedVariables = 1 << 9,
   NoSparseArray = 1 << 10,
@@ -89,7 +98,7 @@ export const enum LinterFlags {
   NoUnsafeFinally = 1 << 13,
   Quotemark = 1 << 14,
   NoNullKeyword = 1 << 15,
-  NoForIn = 1 << 16,
+  ForIn = 1 << 16,
   NoEval = 1 << 17,
   NoDuplicateSwitchCase = 1 << 18,
   NoConsole = 1 << 19,
@@ -98,7 +107,7 @@ export const enum LinterFlags {
   EnforceCurly = 1 << 22,
   LinebreakStyle = 1 << 23,
   NoArg = 1 << 24,
-  NoDefaultExport = 1 << 25,
+  NoDeleteVar = 1 << 25,
   NoNullUndefinedUnion = 1 << 26,
   NoTrailingWhitespace = 1 << 27,
   NoUseBeforeDeclare = 1 << 28,
@@ -190,6 +199,7 @@ export interface ParserState {
   source: string;
   nodeFlags: NodeFlags;
   linterFlags: LinterFlags;
+  subRules: SubRules;
   curPos: number;
   pos: number;
   token: any;

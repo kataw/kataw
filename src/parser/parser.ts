@@ -55,7 +55,7 @@ import { createSpreadProperty, SpreadProperty } from '../ast/expressions/spread-
 import { createCoverInitializedName, CoverInitializedName } from '../ast/expressions/cover-initialized-name';
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
 import { createArrowFunction, ArrowFunction } from '../ast/expressions/arrow-function';
-import { createArrowPatameterList, ArrowPatameterList } from '../ast/expressions/arrow-parameter-list';
+import { createArrowPatameterList } from '../ast/expressions/arrow-parameter-list';
 import { createRegularExpressionLiteral, RegularExpressionLiteral } from '../ast/expressions/regular-expr';
 import { ExpressionStatement, createExpressionStatement } from '../ast/statements/expression-stmt';
 import { createNameSpaceImport, NameSpaceImport } from '../ast/module/namespace-import';
@@ -189,6 +189,7 @@ import {
   FunctionTypeFlags,
   report,
   LinterFlags,
+  SubRules,
   consumeAndCheckForEscapeSequence,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
@@ -202,6 +203,7 @@ export interface Options {
   impliedStrict?: boolean;
   allowTypes?: boolean;
   lint?: any;
+  autofix?: boolean;
 }
 
 /** The linter options. */
@@ -226,10 +228,12 @@ export interface LinterRules {
   noCommaOperator?: boolean;
   noDebugger?: boolean;
   noDelete?: boolean;
-  noEmptyBlocks?: boolean;
+  noEmpty?: boolean;
+  noEmptyPattern?: boolean;
+  noEmptyFunction?: boolean;
   defaultClause?: boolean;
   noBitwise?: boolean;
-  trailingComma?: boolean; // TODO
+  nonEmptyCharacterClass?: boolean;
   noVar?: boolean;
   noUnusedVariables?: boolean; // TODO
   noSparseArray?: boolean;
@@ -239,6 +243,7 @@ export interface LinterRules {
   quotemark?: boolean; // REMOVE
   noNullKeyword?: boolean;
   noForIn?: boolean;
+  guardForIn?: boolean;
   noEval?: boolean;
   noDuplicateSwitchCase?: boolean;
   noConsole?: boolean;
@@ -247,7 +252,7 @@ export interface LinterRules {
   enforceCurly?: boolean; // TODO
   linebreakStyle?: boolean; // TODO
   noArg?: boolean;
-  noDefaultExport?: boolean; // CHANGE
+  noDeleteVar?: boolean;
   noNullUndefinedUnion?: boolean; // CHANGE
   noTrailingWhitespace?: boolean; // TODO
   noUseBeforeDeclare?: boolean; // TODO
@@ -258,7 +263,13 @@ export interface LinterRules {
 /**
  * Create a new parser instance.
  */
-export function create(source: string, pos: number, onError: OnError, linterFlags: LinterFlags): ParserState {
+export function create(
+  source: string,
+  pos: number,
+  onError: OnError,
+  linterFlags: LinterFlags,
+  subRules: SubRules
+): ParserState {
   return {
     source,
     nodeFlags: NodeFlags.None,
@@ -274,6 +285,7 @@ export function create(source: string, pos: number, onError: OnError, linterFlag
     tokenValue: undefined,
     tokenRaw: '',
     linterFlags,
+    subRules,
     previousErrorPos: 0
   };
 }
@@ -287,22 +299,22 @@ export function parse(
   options?: Options
 ): RootNode {
   let lintFlags = LinterFlags.None;
+  let subRules = SubRules.None;
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
     if (options.impliedStrict) context |= Context.Strict;
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
+    if (options.autofix) context |= Context.Autofix;
     if (options.lint) {
       const rules = options.lint;
-      context |= Context.Lint;
       if (rules.noCatchAssign) lintFlags |= LinterFlags.NoCatchAssign;
       if (rules.noCommaOperator) lintFlags |= LinterFlags.NoCommaOperator;
       if (rules.noDebugger) lintFlags |= LinterFlags.NoDebugger;
       if (rules.noDelete) lintFlags |= LinterFlags.NoDelete;
-      if (rules.noEmptyBlocks) lintFlags |= LinterFlags.NoEmptyBlocks;
+      if (rules.NoEmpty) lintFlags |= LinterFlags.NoEmpty;
       if (rules.defaultClause) lintFlags |= LinterFlags.DefaultClause;
       if (rules.noBitwise) lintFlags |= LinterFlags.NoBitwise;
-      if (rules.trailingComma) lintFlags |= LinterFlags.TrailingComma;
       if (rules.noVar) lintFlags |= LinterFlags.NoVar;
       if (rules.noUnusedVariables) lintFlags |= LinterFlags.NoUnusedVariables;
       if (rules.noSparseArray) lintFlags |= LinterFlags.NoSparseArray;
@@ -311,7 +323,6 @@ export function parse(
       if (rules.noUnsafeFinally) lintFlags |= LinterFlags.NoUnsafeFinally;
       if (rules.quotemark) lintFlags |= LinterFlags.Quotemark;
       if (rules.noNullKeyword) lintFlags |= LinterFlags.NoNullKeyword;
-      if (rules.noForIn) lintFlags |= LinterFlags.NoForIn;
       if (rules.noEval) lintFlags |= LinterFlags.NoEval;
       if (rules.noDuplicateSwitchCase) lintFlags |= LinterFlags.NoDuplicateSwitchCase;
       if (rules.noConsole) lintFlags |= LinterFlags.NoConsole;
@@ -320,12 +331,32 @@ export function parse(
       if (rules.enforceCurly) lintFlags |= LinterFlags.EnforceCurly;
       if (rules.linebreakStyle) lintFlags |= LinterFlags.LinebreakStyle;
       if (rules.noArg) lintFlags |= LinterFlags.NoArg;
-      if (rules.noDefaultExport) lintFlags |= LinterFlags.NoDefaultExport;
+      if (rules.noDeleteVar) lintFlags |= LinterFlags.NoDeleteVar;
       if (rules.noNullUndefinedUnion) lintFlags |= LinterFlags.NoNullUndefinedUnion;
       if (rules.noTrailingWhitespace) lintFlags |= LinterFlags.NoTrailingWhitespace;
       if (rules.noUseBeforeDeclare) lintFlags |= LinterFlags.NoUseBeforeDeclare;
       if (rules.preferConst) lintFlags |= LinterFlags.PreferConst;
       if (rules.noWhitespace) lintFlags |= LinterFlags.NoWhitespace;
+      if (rules.nonEmptyCharacterClass) {
+        lintFlags |= LinterFlags.NoEmpty;
+        subRules |= SubRules.CharacterClass;
+      }
+      if (rules.noEmptyPattern) {
+        lintFlags |= LinterFlags.NoEmpty;
+        subRules |= SubRules.Pattern;
+      }
+      if (rules.noEmptyFunction) {
+        lintFlags |= LinterFlags.NoEmpty;
+        subRules |= SubRules.Function;
+      }
+      if (rules.noForIn) {
+        lintFlags |= LinterFlags.ForIn;
+        subRules |= SubRules.Forbid;
+      }
+      if (rules.guardForIn) {
+        lintFlags |= LinterFlags.ForIn;
+        subRules |= SubRules.Guard;
+      }
     }
   }
   let pos = 0;
@@ -358,7 +389,7 @@ export function parse(
     }
   }
 
-  const parser = create(source, pos, onError, lintFlags);
+  const parser = create(source, pos, onError, lintFlags, subRules);
 
   parser.token = scan(parser, context | Context.AllowRegExp);
 
@@ -642,7 +673,7 @@ function parseCaseBlock(
       clauses.push(createDefaultClause(caseOrDefaultToken, colonToken, statements, pos, parser.curPos));
     }
   }
-  if (!hasDefaultCase && context & Context.Lint && parser.linterFlags & LinterFlags.DefaultClause) {
+  if (!hasDefaultCase && parser.linterFlags & LinterFlags.DefaultClause) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -727,7 +758,7 @@ function parseTryStatement(parser: ParserState, context: Context, scope: ScopeSt
       null
     );
   }
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoUnsafeFinally && finallyBlock) {
+  if (parser.linterFlags & LinterFlags.NoUnsafeFinally && finallyBlock) {
     for (const statement of finallyBlock.block.statements) {
       if (
         statement.kind === SyntaxKind.ThrowStatement ||
@@ -818,7 +849,7 @@ function parseDebuggerStatement(parser: ParserState, context: Context): Debugger
     NodeFlags.IsStatement,
     pos
   );
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoDebugger) {
+  if (parser.linterFlags & LinterFlags.NoDebugger) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -1006,17 +1037,6 @@ function parseConsequentOrAlternative(
       labels,
       /* ownLabels */ null
     );
-    if (context & Context.Lint && parser.linterFlags & LinterFlags.NoEmptyBlocks) {
-      if (stmt.block.start === stmt.block.end) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Lint,
-          diagnosticMap[DiagnosticCode.Empty_logic_blocks_usually_result_from_incomplete_refactoring],
-          parser.curPos,
-          parser.pos
-        );
-      }
-    }
     return stmt;
   }
 
@@ -1571,7 +1591,7 @@ function parseForStatement(
   const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
 
   if (inKeyword) {
-    if (context & Context.Lint && parser.linterFlags & LinterFlags.NoForIn) {
+    if (parser.linterFlags & LinterFlags.ForIn && parser.subRules & SubRules.Forbid) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Lint,
@@ -1603,19 +1623,50 @@ function parseForStatement(
       DiagnosticCode.Expected_a_to_match_the_token_here
     );
 
+    const statement = parseIterationStatement(
+      parser,
+      (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
+      /* allowFunction */ false,
+      scope,
+      labels,
+      /* ownLabels */ null
+    );
+
+    if (parser.linterFlags & LinterFlags.ForIn && parser.subRules & SubRules.Guard) {
+      if (
+        statement.kind === SyntaxKind.BlockStatement &&
+        statement.block.statements.length >= 1 &&
+        statement.block.statements[0].kind === SyntaxKind.IfStatement
+      ) {
+        const i = statement.block.statements[0];
+
+        // ... whose consequent is a continue
+        if (
+          i.consequent.kind !== SyntaxKind.ContinueStatement &&
+          i.consequent.kind === SyntaxKind.BlockStatement &&
+          i.consequent.statement.length !== 1 &&
+          i.consequent.body[0].kind !== SyntaxKind.ContinueStatement
+        ) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Lint,
+            diagnosticMap[
+              DiagnosticCode
+                .Use_a_for_of_statement_instead_of_for_in_If_iterating_over_an_object_use_Object_keys_to_access_its_enumerable_keys
+            ],
+            parser.curPos,
+            parser.pos
+          );
+        }
+      }
+    }
+
     return createForInStatement(
       forKeyword,
       inKeyword,
       initializer as any,
       expression,
-      parseIterationStatement(
-        parser,
-        (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
-        /* allowFunction */ false,
-        scope,
-        labels,
-        /* ownLabels */ null
-      ),
+      statement,
       (forKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
       pos,
       parser.curPos
@@ -1936,6 +1987,18 @@ function parseBlock(parser: ParserState, context: Context, scope: ScopeState, la
   while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
   }
+  if (parser.linterFlags & LinterFlags.NoEmpty) {
+    if (curPos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Empty_logic_blocks_are_disallowed],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
+
   return createBlock(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
 }
 
@@ -2008,7 +2071,7 @@ function parseConditionalExpression(
     parser,
     (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000
   );
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoNestedTernary) {
+  if (parser.linterFlags & LinterFlags.NoNestedTernary) {
     if (consequent.kind === SyntaxKind.ConditionalExpression) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -2021,7 +2084,7 @@ function parseConditionalExpression(
   }
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
   const alternate = parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr);
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoNestedTernary) {
+  if (parser.linterFlags & LinterFlags.NoNestedTernary) {
     if (alternate.kind === SyntaxKind.ConditionalExpression) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -2098,10 +2161,14 @@ function parseBinaryExpression(
     }
 
     if (left.kind === SyntaxKind.PrivateIdentifier && t !== SyntaxKind.InKeyword) {
-      report(parser, parser.curPos, DiagnosticCode.Private_names_are_only_allowed_in_property_accesses_or_in_in_expressions);
+      report(
+        parser,
+        parser.curPos,
+        DiagnosticCode.Private_names_are_only_allowed_in_property_accesses_or_in_in_expressions
+      );
     }
 
-    if (context & Context.Lint && parser.linterFlags & LinterFlags.NoBitwise) {
+    if (parser.linterFlags & LinterFlags.NoBitwise) {
       switch (parser.token) {
         case SyntaxKind.BitwiseAnd:
         case SyntaxKind.BitwiseAndAssign:
@@ -2394,7 +2461,7 @@ function parseIndexExpression(
   pos: number
 ): ExpressionNode {
   nextToken(parser, context);
-  if (context & Context.Lint && parser.linterFlags & (LinterFlags.NoArg | LinterFlags.NoConsole)) {
+  if (parser.linterFlags & (LinterFlags.NoArg | LinterFlags.NoConsole)) {
     if (
       member.kind === SyntaxKind.Identifier &&
       (member as Identifier).text === 'arguments' &&
@@ -2463,7 +2530,6 @@ function parseMemberAccessExpression(
 
 function parseCallExpression(parser: ParserState, context: Context, expr: ExpressionNode, pos: number): CallExpression {
   if (
-    context & Context.Lint &&
     parser.linterFlags & LinterFlags.NoEval &&
     expr.kind === SyntaxKind.Identifier &&
     (expr as Identifier).text === 'eval'
@@ -2508,7 +2574,7 @@ function parseArrowFunction(
     (flags & NodeFlags.NoneSimpleParamList) < 1
   );
 
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.ArrowParens) {
+  if (parser.linterFlags & LinterFlags.ArrowParens) {
     // Requires parentheses around the parameters of arrow function definitions.
     if (params.kind !== SyntaxKind.ArrowPatameterList) {
       parser.onError(
@@ -2521,8 +2587,10 @@ function parseArrowFunction(
         parser.pos
       );
     }
-    // auto-fix
-    params = createParenthesizedExpression(params, NodeFlags.ExpressionNode, -1, -1);
+
+    if (context & Context.Autofix) {
+      params = createParenthesizedExpression(params, NodeFlags.ExpressionNode, -1, -1);
+    }
   }
 
   parser.assignable = false;
@@ -2670,7 +2738,7 @@ function parseCommaOperator(
     nextToken(parser, context | Context.AllowRegExp);
     expressions.push(parseExpression(parser, context));
   } while (parser.token === SyntaxKind.Comma);
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoCommaOperator) {
+  if (parser.linterFlags & LinterFlags.NoCommaOperator) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -3000,12 +3068,12 @@ function validateIdentifier(parser: ParserState, context: Context, t: SyntaxKind
   }
 }
 
-  // PropertyDefinition :
-  //   IdentifierReference
-  //   CoverInitializedName
-  //   PropertyName `:` AssignmentExpression
-  //   MethodDefinition
-  //   `...` AssignmentExpression
+// PropertyDefinition :
+//   IdentifierReference
+//   CoverInitializedName
+//   PropertyName `:` AssignmentExpression
+//   MethodDefinition
+//   `...` AssignmentExpression
 function parsePropertyDefinition(
   parser: ParserState,
   context: Context,
@@ -3263,19 +3331,19 @@ function parsePropertyDefinition(
   return key as Identifier;
 }
 
-  // MethodDefinition :
-  //   ClassElementName `(` UniqueFormalParameters `)` `{` FunctionBody `}`
-  //   GeneratorMethod
-  //   AsyncMethod
-  //   AsyncGeneratorMethod
-  //   `get` ClassElementName `(` `)` `{` FunctionBody `}`
-  //   `set` ClassElementName `(` PropertySetParameterList `)` `{` FunctionBody `}`
-  // GeneratorMethod :
-  //   `*` ClassElementName `(` UniqueFormalParameters `)` `{` GeneratorBody `}`
-  // AsyncMethod :
-  //   `async` [no LineTerminator here] ClassElementName `(` UniqueFormalParameters `)` `{` AsyncFunctionBody `}`
-  // AsyncGeneratorMethod :
-  //   `async` [no LineTerminator here] `*` ClassElementName `(` UniqueFormalParameters `)` `{` AsyncGeneratorBody `}`
+// MethodDefinition :
+//   ClassElementName `(` UniqueFormalParameters `)` `{` FunctionBody `}`
+//   GeneratorMethod
+//   AsyncMethod
+//   AsyncGeneratorMethod
+//   `get` ClassElementName `(` `)` `{` FunctionBody `}`
+//   `set` ClassElementName `(` PropertySetParameterList `)` `{` FunctionBody `}`
+// GeneratorMethod :
+//   `*` ClassElementName `(` UniqueFormalParameters `)` `{` GeneratorBody `}`
+// AsyncMethod :
+//   `async` [no LineTerminator here] ClassElementName `(` UniqueFormalParameters `)` `{` AsyncFunctionBody `}`
+// AsyncGeneratorMethod :
+//   `async` [no LineTerminator here] `*` ClassElementName `(` UniqueFormalParameters `)` `{` AsyncGeneratorBody `}`
 function parseMethodDefinition(
   parser: ParserState,
   context: Context,
@@ -3791,7 +3859,7 @@ function parseUnaryExpression(
   const curPos = parser.curPos;
 
   // `linter; NoBitwise`
-  if (isComplement && context & Context.Lint && parser.linterFlags & LinterFlags.NoBitwise) {
+  if (isComplement && parser.linterFlags & LinterFlags.NoBitwise) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -3825,10 +3893,19 @@ function parseUnaryExpression(
     while (target.kind === SyntaxKind.ParenthesizedExpression) {
       target = target.expression;
     }
-    if (context & Context.Strict && target.kind === SyntaxKind.Identifier) {
+    if (
+      (context & Context.Strict && target.kind === SyntaxKind.Identifier) ||
+      parser.linterFlags & LinterFlags.NoDeleteVar
+    ) {
       // When a delete operator occurs within strict mode code, a SyntaxError is thrown if its
       // UnaryExpression is a direct reference to a variable, function argument, or function name
-      report(parser, parser.curPos, DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode);
+      report(
+        parser,
+        parser.curPos,
+        parser.linterFlags & LinterFlags.NoDeleteVar
+          ? DiagnosticCode.Variables_should_not_be_deleted
+          : DiagnosticCode._delete_cannot_be_called_on_an_identifier_in_strict_mode
+      );
     }
 
     if (target.kind === SyntaxKind.IndexExpression && target.expression.kind === SyntaxKind.PrivateIdentifier) {
@@ -4176,7 +4253,7 @@ function parseArrayLiteralElement(
   }
 
   if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
-    if (context & Context.Lint && parser.linterFlags & LinterFlags.NoSparseArray) {
+    if (parser.linterFlags & LinterFlags.NoSparseArray) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Lint,
@@ -4818,7 +4895,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         nextToken(parser, context | Context.AllowRegExp);
         expressions.push(parseExpression(parser, context));
       } while (parser.token === SyntaxKind.Comma);
-      if (context & Context.Lint && parser.linterFlags & LinterFlags.NoCommaOperator) {
+      if (parser.linterFlags & LinterFlags.NoCommaOperator) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Lint,
@@ -5174,7 +5251,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
           expressions.push(parseExpression(parser, context));
         }
-        if (context & Context.Lint && parser.linterFlags & LinterFlags.NoCommaOperator) {
+        if (parser.linterFlags & LinterFlags.NoCommaOperator) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Lint,
@@ -5256,7 +5333,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       );
     }
   }
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoCommaOperator) {
+  if (parser.linterFlags & LinterFlags.NoCommaOperator) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -5388,7 +5465,7 @@ function parseBindingElementList(
     const innerPos = parser.curPos;
     if (parser.token === SyntaxKind.Comma) {
       // lint; 'NoSpaceArray`
-      if (context & Context.Lint && parser.linterFlags & LinterFlags.NoSparseArray) {
+      if (parser.linterFlags & LinterFlags.NoSparseArray) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Lint,
@@ -5439,6 +5516,17 @@ function parseBindingElementList(
       continue;
     }
     report(parser, parser.curPos, DiagnosticCode._expected);
+  }
+  if (parser.linterFlags & LinterFlags.NoEmpty && parser.subRules & SubRules.Pattern) {
+    if (pos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_empty_array_pattern],
+        parser.curPos,
+        parser.pos
+      );
+    }
   }
   return createBindingElementList(elements, trailingComma, flags, pos, parser.curPos);
 }
@@ -5495,6 +5583,17 @@ function parseBindingPropertyList(
       continue;
     }
     report(parser, parser.curPos, DiagnosticCode._expected);
+  }
+  if (parser.linterFlags & LinterFlags.NoEmpty && parser.subRules & SubRules.Pattern) {
+    if (pos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_empty_object_pattern],
+        parser.curPos,
+        parser.pos
+      );
+    }
   }
   return createBindingPropertyList(
     properties as any,
@@ -6697,6 +6796,17 @@ function parseFunctionStatementList(
   while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, null, null));
   }
+  if (parser.linterFlags & LinterFlags.NoEmpty && parser.subRules & SubRules.Function) {
+    if (pos === parser.curPos) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_empty_function],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
   return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
 
@@ -7587,7 +7697,7 @@ function parsePostfixType(parser: ParserState, context: Context, type: TypeNode,
 function parsePrimaryType(parser: ParserState, context: Context): TypeNode | SyntaxToken<TokenSyntaxKind> {
   switch (parser.token) {
     case SyntaxKind.AnyKeyword:
-      if (context & Context.Lint && parser.linterFlags & LinterFlags.NoAny) {
+      if (parser.linterFlags & LinterFlags.NoAny) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Lint,
@@ -8384,7 +8494,7 @@ function parseVariableStatement(
     NodeFlags.IsStatement,
     pos
   );
-  if (context & Context.Lint && parser.linterFlags & LinterFlags.NoVar) {
+  if (parser.linterFlags & LinterFlags.NoVar) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -9059,7 +9169,7 @@ function parseInternalSlot(
 function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKind, key: any, pos: number): TypeNode {
   switch (t) {
     case SyntaxKind.AnyKeyword:
-      if (context & Context.Lint && parser.linterFlags & LinterFlags.NoAny) {
+      if (parser.linterFlags & LinterFlags.NoAny) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Lint,

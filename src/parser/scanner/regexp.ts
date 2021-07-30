@@ -1,11 +1,11 @@
-import { ParserState } from '../common';
+import { ParserState, LinterFlags, SubRules, Context } from '../common';
 import { SyntaxKind } from '../../ast/syntax-node';
 import { Char, isIdentifierPart } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
-export function scanRegularExpression(parser: ParserState, source: string): SyntaxKind {
+export function scanRegularExpression(parser: ParserState, context: Context, source: string): SyntaxKind {
   let pos = parser.tokenPos + 1;
 
   // prettier-ignore
@@ -31,6 +31,19 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           pos++;
           break loop;
         case Char.LeftBracket:
+          if (
+            parser.linterFlags & LinterFlags.NoEmpty &&
+            parser.subRules & SubRules.CharacterClass &&
+            source.charCodeAt(pos + 1) === Char.RightBracket
+          ) {
+            parser.onError(
+              DiagnosticSource.Lexer,
+              DiagnosticKind.Lint,
+              diagnosticMap[DiagnosticCode.Empty_class],
+              parser.curPos,
+              pos
+            );
+          }
           preparseState |= Preparse.InCharClass;
           break;
         case Char.Backslash:

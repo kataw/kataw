@@ -11,7 +11,7 @@ switch (x) { case y: z; }
 ### Parser Options
 
 `````js
-{ allowTypes: true, lint: { DefaultClause: true } }
+{ allowTypes: true, lint: { defaultClause: true } }
 `````
 
 ## Output
@@ -117,15 +117,13 @@ switch (x) { case y: z; }
 ### Printed
 
 ```javascript
-switch (x) {
-  case y:
-    z;
-}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a default case - start: 23, end: 25
+
 ```
 

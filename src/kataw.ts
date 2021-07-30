@@ -149,7 +149,7 @@ export { getLeadingComments, getTrailingComments } from './parser/scanner/commen
 export { visitEachChild, visitNodes, visitNode } from './visitor';
 export { createUniqueIdentifier } from './ast/internal/unique-identifier';
 export { fuzzModule, fuzzScript } from './fuzzer/';
-export { aladdin } from './diagnostic/reporters/aladdin'
+export { aladdin } from './diagnostic/reporters/aladdin';
 export { eslint } from './diagnostic/reporters/eslint';
 export { compact } from './diagnostic/reporters/compact';
 export { unix } from './diagnostic/reporters/unix';
@@ -222,15 +222,11 @@ export function print(root: any, options?: PrinterOptions): string {
   return printSource(root, options);
 }
 
-export function lintScript(
-  source: string,
-  options: LinterOptions,
-  lint: LinterRules
-): RootNode {
+export function lintScript(source: string, options: LinterOptions, lint: LinterRules): RootNode {
   return parse(
     source,
     /* filename */ '__root__',
-    Context.TopLevel,
+    Context.TopLevel | (options.fix ? Context.Autofix : Context.None),
     /* isModule */ false,
     function (diagnosticSource: DiagnosticSource, kind: DiagnosticKind, message: string, start: number, end: number) {
       options.reporter(diagnosticSource, kind, message, start, end, source);
@@ -239,15 +235,15 @@ export function lintScript(
   );
 }
 
-export function lintModule(
-  source: string,
-  options: LinterOptions,
-  lint: LinterRules
-): RootNode {
+export function lintModule(source: string, options: LinterOptions, lint: LinterRules): RootNode {
   return parse(
     source,
     '__root__',
-    Context.Module | Context.TopLevel | Context.Strict | Context.AllowImportMeta,
+    Context.Module |
+      Context.TopLevel |
+      Context.Strict |
+      Context.AllowImportMeta |
+      (options.fix ? Context.Autofix : Context.None),
     /* isModule */ true,
     function (diagnosticSource: DiagnosticSource, kind: DiagnosticKind, message: string, start: number, end: number) {
       options.reporter(diagnosticSource, kind, message, start, end, source);
