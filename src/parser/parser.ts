@@ -224,6 +224,8 @@ export interface LinterOptions {
  * The linter rules.
  */
 export interface LinterRules {
+  noConditionalAssign?: boolean;
+  noDoubleEquals?: boolean;
   noCatchAssign?: boolean; // TODO
   noCommaOperator?: boolean;
   noDebugger?: boolean;
@@ -233,7 +235,7 @@ export interface LinterRules {
   noEmptyFunction?: boolean;
   defaultClause?: boolean;
   noBitwise?: boolean;
-  nonEmptyCharacterClass?: boolean;
+  noEmptyCharacterClass?: boolean;
   noVar?: boolean;
   noUnusedVariables?: boolean; // TODO
   noSparseArray?: boolean;
@@ -314,7 +316,6 @@ export function parse(
       if (rules.noDelete) lintFlags |= LinterFlags.NoDelete;
       if (rules.NoEmpty) lintFlags |= LinterFlags.NoEmpty;
       if (rules.defaultClause) lintFlags |= LinterFlags.DefaultClause;
-      if (rules.noBitwise) lintFlags |= LinterFlags.NoBitwise;
       if (rules.noVar) lintFlags |= LinterFlags.NoVar;
       if (rules.noUnusedVariables) lintFlags |= LinterFlags.NoUnusedVariables;
       if (rules.noSparseArray) lintFlags |= LinterFlags.NoSparseArray;
@@ -337,9 +338,22 @@ export function parse(
       if (rules.noUseBeforeDeclare) lintFlags |= LinterFlags.NoUseBeforeDeclare;
       if (rules.preferConst) lintFlags |= LinterFlags.PreferConst;
       if (rules.noWhitespace) lintFlags |= LinterFlags.NoWhitespace;
-      if (rules.nonEmptyCharacterClass) {
+      if (rules.noEmptyCharacterClass) {
         lintFlags |= LinterFlags.NoEmpty;
         subRules |= SubRules.CharacterClass;
+      }
+      if (rules.noBitwise) {
+        lintFlags |= LinterFlags.No;
+        subRules |= SubRules.Bitwise;
+      }
+      if (rules.noConditionalAssign) {
+        lintFlags |= LinterFlags.No;
+        subRules |= SubRules.ConditionalAssign;
+      }
+
+      if (rules.noDoubleEquals) {
+        lintFlags |= LinterFlags.No;
+        subRules |= SubRules.DoubleEquals;
       }
       if (rules.noEmptyPattern) {
         lintFlags |= LinterFlags.NoEmpty;
@@ -359,6 +373,7 @@ export function parse(
       }
     }
   }
+
   let pos = 0;
 
   // The '#' is only allowed if the 'pos === 0' - at the 'start of the file'. We check
@@ -2139,6 +2154,7 @@ function parseBinaryExpression(
   let t: SyntaxKind;
   let prec: number;
   const flags = parser.nodeFlags;
+  const linterFlags = parser.linterFlags;
   const bit = -((context & Context.DisallowInContext) > 0) & SyntaxKind.InKeyword;
 
   while ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
@@ -2168,30 +2184,58 @@ function parseBinaryExpression(
       );
     }
 
-    if (parser.linterFlags & LinterFlags.NoBitwise) {
-      switch (parser.token) {
-        case SyntaxKind.BitwiseAnd:
-        case SyntaxKind.BitwiseAndAssign:
-        case SyntaxKind.BitwiseOr:
-        case SyntaxKind.BitwiseOrAssign:
-        case SyntaxKind.BitwiseXor:
-        case SyntaxKind.BitwiseXorAssign:
-        case SyntaxKind.ShiftLeft:
-        case SyntaxKind.ShiftLeftAssign:
-        case SyntaxKind.ShiftRight:
-        case SyntaxKind.ShiftRightAssign:
-        case SyntaxKind.LogicalShiftRight:
-        case SyntaxKind.LogicalShiftRightAssign:
+    if (parser.linterFlags & LinterFlags.No) {
+      if (parser.subRules && SubRules.DoubleEquals && left.kind !== SyntaxKind.NullKeyword) {
+        if (t === SyntaxKind.LooseEqual) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Lint,
-            diagnosticMap[DiagnosticCode.Forbidden_bitwise_operation],
+            diagnosticMap[DiagnosticCode._may_be_unsafe_if_you_are_relying_on_type_coercion],
             parser.curPos,
             parser.pos
           );
+          if (context & Context.Autofix) {
+            parser.token = SyntaxKind.StrictEqual;
+          }
+        }
+        if (t === SyntaxKind.LooseNotEqual) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Lint,
+            diagnosticMap[DiagnosticCode.Use_of_may_be_unsafe_if_you_are_relying_on_type_coercion],
+            parser.curPos,
+            parser.pos
+          );
+          if (context & Context.Autofix) {
+            parser.token = SyntaxKind.StrictNotEqual;
+          }
+        }
+      }
+
+      if (parser.subRules && SubRules.Bitwise) {
+        switch (t) {
+          case SyntaxKind.BitwiseAnd:
+          case SyntaxKind.BitwiseAndAssign:
+          case SyntaxKind.BitwiseOr:
+          case SyntaxKind.BitwiseOrAssign:
+          case SyntaxKind.BitwiseXor:
+          case SyntaxKind.BitwiseXorAssign:
+          case SyntaxKind.ShiftLeft:
+          case SyntaxKind.ShiftLeftAssign:
+          case SyntaxKind.ShiftRight:
+          case SyntaxKind.ShiftRightAssign:
+          case SyntaxKind.LogicalShiftRight:
+          case SyntaxKind.LogicalShiftRightAssign:
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Lint,
+              diagnosticMap[DiagnosticCode.Forbidden_bitwise_operation],
+              parser.curPos,
+              parser.pos
+            );
+        }
       }
     }
-
     parser.assignable = false;
 
     left = createBinaryExpression(

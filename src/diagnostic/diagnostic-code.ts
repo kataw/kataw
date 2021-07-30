@@ -273,7 +273,9 @@ export const enum DiagnosticCode {
   Variables_should_not_be_deleted = 286,
   Unexpected_empty_object_pattern = 287,
   Unexpected_empty_array_pattern = 288,
-  Unexpected_empty_function = 289
+  Unexpected_empty_function = 289,
+  Use_of_may_be_unsafe_if_you_are_relying_on_type_coercion = 290,
+  _may_be_unsafe_if_you_are_relying_on_type_coercion = 291
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -553,5 +555,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [286]: 'Variables should not be deleted',
   [287]: 'Unexpected empty object pattern',
   [288]: 'Unexpected empty array pattern',
-  [289]: 'Unexpected empty function'
+  [289]: 'Unexpected empty function',
+  [290]: "Use of '!=' may be unsafe if you are relying on type coercion",
+  [291]: "'==' may be unsafe if you are relying on type coercion"
 };

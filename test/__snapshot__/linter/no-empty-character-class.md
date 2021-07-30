@@ -11,7 +11,7 @@ var foo =/[]]/d;
 ### Parser Options
 
 `````js
-{ allowTypes: true, lint: { nonEmptyCharacterClass: true } }
+{ allowTypes: true, lint: { noEmptyCharacterClass: true } }
 `````
 
 ## Output
@@ -87,12 +87,13 @@ var foo =/[]]/d;
 ### Printed
 
 ```javascript
-var foo = /[]]/d;
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Empty class - start: 9, end: 10
+
 ```
 

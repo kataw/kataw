@@ -77,7 +77,11 @@ export const enum SubRules {
   Function = 1 << 1,
   Pattern = 1 << 2,
   Forbid = 1 << 3, // Advice use of 'forOf' instead of 'forIn'
-  Guard = 1 << 4 // Require `for-in` loops to include an `if` statement
+  Guard = 1 << 4, // Require `for-in` loops to include an `if` statement
+  // no ...
+  ConditionalAssign = 1 << 5,
+  DoubleEquals = 1 << 6,
+  Bitwise = 1 << 7
 }
 
 export const enum LinterFlags {
@@ -89,7 +93,7 @@ export const enum LinterFlags {
   NoEmpty = 1 << 4,
   DefaultClause = 1 << 5,
   NoBitwise = 1 << 6,
-  //NonEmpty = 1 << 7,
+  No = 1 << 7,
   NoVar = 1 << 8,
   NoUnusedVariables = 1 << 9,
   NoSparseArray = 1 << 10,

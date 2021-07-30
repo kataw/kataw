@@ -270,5 +270,8 @@
   "Variables should not be deleted": 286,
   "Unexpected empty object pattern": 287,
   "Unexpected empty array pattern": 288,
-  "Unexpected empty function": 289
+  "Unexpected empty function": 289,
+  "Use of '!=' may be unsafe if you are relying on type coercion": 290,
+  "'==' may be unsafe if you are relying on type coercion": 291
+
   }
