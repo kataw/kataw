@@ -81,18 +81,20 @@ export const enum SubRules {
   // no ...
   ConditionalAssign = 1 << 5,
   DoubleEquals = 1 << 6,
-  Bitwise = 1 << 7
+  Bitwise = 1 << 7,
+  AsyncPromiseExecutor = 1 << 8,
+  NegationElse = 1 << 9
 }
 
 export const enum LinterFlags {
   None = 0,
-  NoCatchAssign = 1 << 0, // Disallow assignment operators in catch statement
+  //NoCatchAssign = 1 << 0, // Disallow assignment operators in catch statement
   NoCommaOperator = 1 << 1,
   NoDebugger = 1 << 2,
   NoDelete = 1 << 3,
   NoEmpty = 1 << 4,
   DefaultClause = 1 << 5,
-  NoBitwise = 1 << 6,
+  //NoBitwise = 1 << 6,
   No = 1 << 7,
   NoVar = 1 << 8,
   NoUnusedVariables = 1 << 9,

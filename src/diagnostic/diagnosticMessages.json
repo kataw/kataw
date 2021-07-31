@@ -277,5 +277,7 @@
   "Unexpected assignment within 'DoWhile statement'": 293,
   "Unexpected assignment within 'For statement'": 294,
   "Unexpected assignment within 'If statement'": 295,
-  "Unexpected assignment within 'Whith statement'": 296
+  "Unexpected assignment within 'Whith statement'": 296,
+  "Promise executor functions should not be async": 297,
+  "Unexpected negating if 'IfElseStatement'": 298
   }

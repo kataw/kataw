@@ -224,9 +224,10 @@ export interface LinterOptions {
  * The linter rules.
  */
 export interface LinterRules {
+  noNegationElse: boolean;
   noConditionalAssign?: boolean;
   noDoubleEquals?: boolean;
-  noCatchAssign?: boolean; // TODO
+  noAsyncPromiseExecutor?: boolean;
   noCommaOperator?: boolean;
   noDebugger?: boolean;
   noDelete?: boolean;
@@ -310,7 +311,6 @@ export function parse(
     if (options.autofix) context |= Context.Autofix;
     if (options.lint) {
       const rules = options.lint;
-      if (rules.noCatchAssign) lintFlags |= LinterFlags.NoCatchAssign;
       if (rules.noCommaOperator) lintFlags |= LinterFlags.NoCommaOperator;
       if (rules.noDebugger) lintFlags |= LinterFlags.NoDebugger;
       if (rules.noDelete) lintFlags |= LinterFlags.NoDelete;
@@ -338,6 +338,10 @@ export function parse(
       if (rules.noUseBeforeDeclare) lintFlags |= LinterFlags.NoUseBeforeDeclare;
       if (rules.preferConst) lintFlags |= LinterFlags.PreferConst;
       if (rules.noWhitespace) lintFlags |= LinterFlags.NoWhitespace;
+      if (rules.noAsyncPromiseExecutor) {
+        lintFlags |= LinterFlags.No;
+        subRules |= SubRules.AsyncPromiseExecutor;
+      }
       if (rules.noEmptyCharacterClass) {
         lintFlags |= LinterFlags.NoEmpty;
         subRules |= SubRules.CharacterClass;
@@ -346,11 +350,14 @@ export function parse(
         lintFlags |= LinterFlags.No;
         subRules |= SubRules.Bitwise;
       }
+      if (rules.noNegationElse) {
+        lintFlags |= LinterFlags.No;
+        subRules |= SubRules.NegationElse;
+      }
       if (rules.noConditionalAssign) {
         lintFlags |= LinterFlags.No;
         subRules |= SubRules.ConditionalAssign;
       }
-
       if (rules.noDoubleEquals) {
         lintFlags |= LinterFlags.No;
         subRules |= SubRules.DoubleEquals;
@@ -3888,11 +3895,35 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
 
   expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsMember, pos);
 
+  let argumentList = null;
+
+  if (parser.token === SyntaxKind.LeftParen) {
+    argumentList = parseArguments(parser, context);
+
+    if (
+      parser.linterFlags & LinterFlags.No &&
+      parser.subRules & SubRules.AsyncPromiseExecutor &&
+      expression.kind === SyntaxKind.Identifier &&
+      arguments.length > 0 &&
+        (argumentList.elements[0].kind === SyntaxKind.ArrowFunction ||
+        argumentList.elements[0].kind === SyntaxKind.FunctionExpression) &&
+        (argumentList.elements[0] as any).asyncKeyword
+    ) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Promise_executor_functions_should_not_be_async],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }
+
   parser.assignable = false;
   return createNewExpression(
     newToken,
     expression,
-    parser.token === SyntaxKind.LeftParen ? parseArguments(parser, context) : null,
+    argumentList,
     (newToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
@@ -3977,7 +4008,7 @@ function parseUnaryExpression(
   const curPos = parser.curPos;
 
   // `linter; NoBitwise`
-  if (isComplement && parser.linterFlags & LinterFlags.NoBitwise) {
+  if (isComplement && parser.linterFlags & LinterFlags.No && parser.subRules & SubRules.Bitwise) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Lint,
@@ -3986,8 +4017,16 @@ function parseUnaryExpression(
       parser.pos
     );
   }
-
-  const operandToken = consumeAndCheckForEscapeSequence(
+  if (parser.linterFlags & LinterFlags.No && parser.subRules & SubRules.NegationElse && parser.token === SyntaxKind.Negate) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Lint,
+        diagnosticMap[DiagnosticCode.Unexpected_negating_if_IfElseStatement],
+        parser.curPos,
+        parser.pos
+      );
+  }
+    const operandToken = consumeAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
     NodeFlags.ExpressionNode,
