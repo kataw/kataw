@@ -3,7 +3,7 @@ import { extname, resolve as resolve, dirname, join } from 'path';
 import { stripComments, arrayify } from '../util';
 import { homedir } from 'os';
 import { sync } from 'resolve';
-import { findRule } from '../linter';
+import { findRule } from '../linter/common';
 import { RuleConfig, LinterConfigFile, RuleOptions, RuleConfigFile, EMPTY_LINTER_CONFIG } from './rule-config';
 import { RuleSeverity } from '../linter/common';
 import { DEFAULT_CONFIG, findup } from './common';
