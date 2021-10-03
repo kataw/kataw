@@ -1,0 +1,23 @@
+{
+    "files": ["*/*.js"],
+    "module": false,
+    "typecheck": false,
+    "linter": {
+        "enable": true,
+        "extends": [
+          "kataw:recommended"
+        ],
+        "rules": {
+          "dummy": true
+        },
+        "rulesDirectory": []
+    },
+    "minify": {
+        "enable": false,
+        "options": {}
+    },
+    "prettify": {
+        "enable": true,
+        "options": {}
+    }
+}
