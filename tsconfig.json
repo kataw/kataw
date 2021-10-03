@@ -22,7 +22,7 @@
     "stripInternal": true,
     "target":"ES2020",
     "typeRoots": ["./node_modules/@types"],
-    "types": ["node"]
+    "types": ["node", "jest"]
   },
   "include": ["src"]
 }
